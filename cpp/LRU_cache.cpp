@@ -14,7 +14,7 @@ using std::unordered_map;
 
 // @include
 template<size_t capacity>
-class LRUCache {
+class LRU_cache {
 public:
     bool Lookup(int isbn, int* price)
     {
@@ -80,7 +80,7 @@ int main(int argc, char* argv[])
 {
     const int kCapacity = 2;
     {
-        LRUCache<kCapacity> c;
+        LRU_cache<kCapacity> c;
         cout << "c.Insert(1, 1)" << "\n";
         c.Insert(1, 1);
         cout << "c.Insert(1, 10)" << "\n";
@@ -97,7 +97,7 @@ int main(int argc, char* argv[])
 
     // test capacity constraints honored, also FIFO ordering
     {
-        LRUCache<kCapacity> c;
+        LRU_cache<kCapacity> c;
         c.Insert(1, 1);
         c.Insert(2, 1);
         c.Insert(3, 1);
@@ -113,7 +113,7 @@ int main(int argc, char* argv[])
 
     // test retrieval moves to front
     {
-        LRUCache<kCapacity> c;
+        LRU_cache<kCapacity> c;
         c.Insert(1, 1);
         c.Insert(2, 1);
         c.Insert(3, 1);
@@ -130,7 +130,7 @@ int main(int argc, char* argv[])
 
     // test update moves to front
     {
-        LRUCache<kCapacity> c;
+        LRU_cache<kCapacity> c;
         c.Insert(1, 1);
         c.Insert(2, 1);
         c.Insert(3, 1);
@@ -147,7 +147,7 @@ int main(int argc, char* argv[])
 
     // test remove
     {
-        LRUCache<kCapacity> c;
+        LRU_cache<kCapacity> c;
         c.Insert(1, 1);
         c.Insert(2, 1);
         c.Erase(2);

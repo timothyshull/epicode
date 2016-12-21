@@ -1,7 +1,7 @@
 // Copyright (c) 2016 Elements of Programming Interviews. All rights reserved.
 #include "test/test_options.h"
 // @pg_ignore:1
-#include "snake-string.cpp"
+#include "snake_string.cpp"
 // @pg_include:snake-string.cc
 
 void UnitTest(TestSentry::Ptr& sentry, const char* description,

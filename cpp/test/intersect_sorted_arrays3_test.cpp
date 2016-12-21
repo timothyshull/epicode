@@ -4,7 +4,7 @@
 
 #include "test/test_options.h"
 // @pg_ignore:1
-#include "Intersect_sorted_arrays3.h"
+#include "intersect_sorted_arrays3.h"
 // @pg_include:Intersect_sorted_arrays3.h
 using std::cout;
 using std::numeric_limits;

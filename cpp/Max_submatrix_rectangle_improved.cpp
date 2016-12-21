@@ -8,7 +8,7 @@
 #include <random>
 #include <vector>
 
-#include "./Largest_rectangle_under_skyline.h"
+#include "largest_rectangle_under_skyline.h"
 #include "./Max_submatrix_rectangle_brute_force.h"
 
 using std::cout;

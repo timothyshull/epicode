@@ -1,7 +1,7 @@
 // Copyright (c) 2016 Elements of Programming Interviews. All rights reserved.
 #include "test/test_options.h"
 // @pg_ignore:1
-#include "square-root-int.cpp"
+#include "square_root_int.cpp"
 // @pg_include:square-root-int.cc
 
 void UnitTest(TestSentry::Ptr& sentry, const char* description,

@@ -3,7 +3,7 @@
 
 #include "test/test_options.h"
 // @pg_ignore:1
-#include "palindrome-number.cpp"
+#include "palindrome_number.cpp"
 // @pg_include:palindrome-number.cc
 
 using std::numeric_limits;

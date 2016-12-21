@@ -6,7 +6,7 @@
 #include <algorithm>
 #include <vector>
 
-#include "./GCD2.h"
+#include "gcd2.h"
 
 using std::swap;
 using std::vector;

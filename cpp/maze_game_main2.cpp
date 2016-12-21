@@ -1,6 +1,6 @@
-#include "./magic-maze-game.h"
-#include "./maze-game.h"
-#include "./ordinary-maze-game.h"
+#include "magic_maze_game2.h"
+#include "maze_game2.h"
+#include "ordinary_maze_game2.h"
 
 int main(int argc, char* argv[])
 {

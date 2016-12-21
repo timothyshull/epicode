@@ -1,7 +1,7 @@
 // Copyright (c) 2016 Elements of Programming Interviews. All rights reserved.
 #include "test/test_options.h"
 // @pg_ignore:1
-#include "Matrix_search.cpp"
+#include "matrix_search.cpp"
 // @pg_include:Matrix_search.cc
 
 void UnitTest(TestSentry::Ptr& sentry, const char* description,

@@ -5,8 +5,8 @@
 #include <limits>
 #include <random>
 
-#include "./GCD1.h"
-#include "./GCD2.h"
+#include "gcd1.h"
+#include "gcd2.h"
 
 using std::cout;
 using std::default_random_engine;

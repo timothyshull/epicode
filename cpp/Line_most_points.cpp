@@ -9,7 +9,7 @@
 #include <utility>
 #include <vector>
 
-#include "./GCD2.h"
+#include "gcd2.h"
 
 using std::cout;
 using std::default_random_engine;

@@ -3,7 +3,7 @@
 #include <limits>
 #include <iostream>
 
-#include "GCD1.h"
+#include "gcd1.h"
 #include "test/test_options.h"
 
 using std::cout;

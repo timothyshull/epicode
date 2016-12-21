@@ -5,7 +5,7 @@
 #include <vector>
 
 #include "generating_a_b_sqrt2_improved.h"
-#include "./generating-a-b-sqrt2.h"
+#include "generating_a_b_sqrt2_2.h"
 
 using std::default_random_engine;
 using std::random_device;

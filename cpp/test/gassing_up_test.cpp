@@ -1,7 +1,7 @@
 // Copyright (c) 2016 Elements of Programming Interviews. All rights reserved.
 #include "test/test_options.h"
 // @pg_ignore:1
-#include "Gassing_up.cpp"
+#include "gassing_up.cpp"
 // @pg_include:Gassing_up.cc
 
 void unit_test(TestSentry::Ptr& sentry, const char* description,
