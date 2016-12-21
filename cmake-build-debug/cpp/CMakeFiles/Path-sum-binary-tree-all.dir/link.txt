@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Path-sum-binary-tree-all.dir/path-sum-binary-tree-all.cpp.o  -o Path-sum-binary-tree-all 

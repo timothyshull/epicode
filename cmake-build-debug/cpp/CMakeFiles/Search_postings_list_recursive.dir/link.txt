@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Search_postings_list_recursive.dir/Search_postings_list_recursive.cpp.o  -o Search_postings_list_recursive 

@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Sort_k-increasing-decreasing_array.dir/sort_k-increasing-decreasing_array.cpp.o  -o Sort_k-increasing-decreasing_array 

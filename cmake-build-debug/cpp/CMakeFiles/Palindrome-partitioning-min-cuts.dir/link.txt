@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Palindrome-partitioning-min-cuts.dir/palindrome-partitioning-min-cuts.cpp.o  -o Palindrome-partitioning-min-cuts 

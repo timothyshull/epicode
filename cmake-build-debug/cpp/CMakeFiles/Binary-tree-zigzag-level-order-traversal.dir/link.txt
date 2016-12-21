@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Binary-tree-zigzag-level-order-traversal.dir/binary_tree_zigzag_level_order_traversal.cpp.o  -o Binary-tree-zigzag-level-order-traversal 
