@@ -19,7 +19,7 @@ void UnitTest(TestSentry::Ptr& sentry, const char* description,
     }
 }
 
-void DirectedTests(const TestOptions& options)
+void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(9, "Integer Square Root");
 
@@ -33,11 +33,11 @@ void DirectedTests(const TestOptions& options)
     UnitTest(sentry, "K = 64 test", 64, 8);
     UnitTest(sentry, "K = 121 test", 121, 11);
     UnitTest(sentry, "K = 300 test", 300, 17);
-    /*UnitTest(sentry, "Max int test", numeric_limits<int32_t>::max(), 46340);*/
+    /*unit_test(sentry, "Max int test", numeric_limits<int32_t>::max(), 46340);*/
 }
 
 int main(int argc, char* argv[])
 {
-    DirectedTests(TestOptions(&cout));
+    directed_tests(TestOptions(&cout));
     return 0;
 }

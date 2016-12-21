@@ -161,7 +161,7 @@ void ComplexRandomTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     ComplexRandomTest();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 10000; ++times) {

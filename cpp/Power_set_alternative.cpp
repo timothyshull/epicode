@@ -66,7 +66,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     vector<int> S;
     if (argc >= 2) {
         for (int i = 1; i < argc; ++i) {

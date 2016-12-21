@@ -51,7 +51,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     // Non symmetric tree test.
     //      x
     //    x   x

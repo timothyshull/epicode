@@ -21,12 +21,12 @@ using std::set;
 using std::uniform_int_distribution;
 using std::vector;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-void OutputShortestPath(const GraphVertex*);
+void OutputShortestPath(const Graph_vertex*);
 
 // @include
-struct GraphVertex {
+struct Graph_vertex {
     struct DistanceWithFewestEdges {
         int distance, min_num_edges;
     };
@@ -34,16 +34,16 @@ struct GraphVertex {
             DistanceWithFewestEdges{numeric_limits<int>::max(), 0};
 
     struct VertexWithDistance {
-        GraphVertex& vertex;
+        Graph_vertex& vertex;
         int distance;
     };
     vector<VertexWithDistance> edges;
     int id;  // The id of this vertex.
-    const GraphVertex* pred = nullptr;  // The predecessor in the shortest path.
+    const Graph_vertex* pred = nullptr;  // The predecessor in the shortest path.
 };
 
 struct Comp {
-    bool operator()(const GraphVertex* lhs, const GraphVertex* rhs)
+    bool operator()(const Graph_vertex* lhs, const Graph_vertex* rhs)
     {
         return lhs->distance_with_fewest_edges.distance <
                rhs->distance_with_fewest_edges.distance ||
@@ -54,23 +54,23 @@ struct Comp {
     }
 };
 
-void DijkstraShortestPath(GraphVertex* s, const GraphVertex* t)
+void DijkstraShortestPath(Graph_vertex* s, const Graph_vertex* t)
 {
     // Initialization of the distance of starting point.
     s->distance_with_fewest_edges = {0, 0};
-    set<GraphVertex*, Comp> node_set;
+    set<Graph_vertex*, Comp> node_set;
     node_set.emplace(s);
 
     while (!node_set.empty()) {
         // Extracts the minimum distance vertex from heap.
-        GraphVertex* u = *node_set.cbegin();
+        Graph_vertex* u = *node_set.cbegin();
         if (u->id == t->id) {
             break;
         }
         node_set.erase(node_set.cbegin());
 
         // Relax neighboring vertices of u.
-        for (const GraphVertex::VertexWithDistance& v : u->edges) {
+        for (const Graph_vertex::VertexWithDistance& v : u->edges) {
             int v_distance = u->distance_with_fewest_edges.distance + v.distance;
             int v_num_edges = u->distance_with_fewest_edges.min_num_edges + 1;
             if (v.vertex.distance_with_fewest_edges.distance > v_distance ||
@@ -88,7 +88,7 @@ void DijkstraShortestPath(GraphVertex* s, const GraphVertex* t)
     OutputShortestPath(t);
 }
 
-void OutputShortestPath(const GraphVertex* v)
+void OutputShortestPath(const Graph_vertex* v)
 {
     if (v) {
         OutputShortestPath(v->pred);
@@ -100,45 +100,45 @@ void OutputShortestPath(const GraphVertex* v)
 // DBH test
 void Test()
 {
-    vector<GraphVertex> G;
+    vector<Graph_vertex> G;
     for (int i = 0; i < 9; ++i) {
-        G.emplace_back(GraphVertex());
+        G.emplace_back(Graph_vertex());
         G[i].id = i;
     }
 
     // G[0] is the source node that connects to 8 other nodes.
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[1], 13});  // 0-1
-    G[1].edges.push_back(GraphVertex::VertexWithDistance{G[0], 13});  // 1-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[1], 13});  // 0-1
+    G[1].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 13});  // 1-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[2], 24});  // 0-2
-    G[2].edges.push_back(GraphVertex::VertexWithDistance{G[0], 24});  // 2-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[2], 24});  // 0-2
+    G[2].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 24});  // 2-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[3], 28});  // 0-3
-    G[3].edges.push_back(GraphVertex::VertexWithDistance{G[0], 28});  // 3-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[3], 28});  // 0-3
+    G[3].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 28});  // 3-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[4], 25});  // 0-4
-    G[4].edges.push_back(GraphVertex::VertexWithDistance{G[0], 25});  // 4-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[4], 25});  // 0-4
+    G[4].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 25});  // 4-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[5], 30});  // 0-5
-    G[5].edges.push_back(GraphVertex::VertexWithDistance{G[0], 30});  // 5-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[5], 30});  // 0-5
+    G[5].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 30});  // 5-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[6], 31});  // 0-6
-    G[6].edges.push_back(GraphVertex::VertexWithDistance{G[0], 31});  // 6-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[6], 31});  // 0-6
+    G[6].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 31});  // 6-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[7], 10});  // 0-7
-    G[7].edges.push_back(GraphVertex::VertexWithDistance{G[0], 10});  // 7-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[7], 10});  // 0-7
+    G[7].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 10});  // 7-0
 
-    G[0].edges.push_back(GraphVertex::VertexWithDistance{G[8], 29});  // 0-8
-    G[8].edges.push_back(GraphVertex::VertexWithDistance{G[0], 29});  // 8-0
+    G[0].edges.push_back(Graph_vertex::VertexWithDistance{G[8], 29});  // 0-8
+    G[8].edges.push_back(Graph_vertex::VertexWithDistance{G[0], 29});  // 8-0
 
-    G[1].edges.push_back(GraphVertex::VertexWithDistance{G[8], 7});  // 1-8
-    G[8].edges.push_back(GraphVertex::VertexWithDistance{G[1], 7});  // 8-1
+    G[1].edges.push_back(Graph_vertex::VertexWithDistance{G[8], 7});  // 1-8
+    G[8].edges.push_back(Graph_vertex::VertexWithDistance{G[1], 7});  // 8-1
 
-    G[2].edges.push_back(GraphVertex::VertexWithDistance{G[8], 1});  // 2-8
-    G[8].edges.push_back(GraphVertex::VertexWithDistance{G[2], 1});  // 8-2
+    G[2].edges.push_back(Graph_vertex::VertexWithDistance{G[8], 1});  // 2-8
+    G[8].edges.push_back(Graph_vertex::VertexWithDistance{G[2], 1});  // 8-2
 
-    G[7].edges.push_back(GraphVertex::VertexWithDistance{G[8], 16});  // 7-8
-    G[8].edges.push_back(GraphVertex::VertexWithDistance{G[7], 16});  // 8-7
+    G[7].edges.push_back(Graph_vertex::VertexWithDistance{G[8], 16});  // 7-8
+    G[8].edges.push_back(Graph_vertex::VertexWithDistance{G[7], 16});  // 8-7
 
     int s = 0;  // Source is G[0].
     int t = 2;  // Destination is G[2].
@@ -167,9 +167,9 @@ int main(int argc, char* argv[])
         uniform_int_distribution<int> dis(2, 1000);
         n = dis(gen);
     }
-    vector<GraphVertex> G;
+    vector<Graph_vertex> G;
     for (int i = 0; i < n; ++i) {
-        G.emplace_back(GraphVertex());
+        G.emplace_back(Graph_vertex());
     }
     uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
     int m = dis(gen);
@@ -178,8 +178,8 @@ int main(int argc, char* argv[])
     for (int i = 1; i < n; ++i) {
         uniform_int_distribution<int> dis(1, 100);
         int len = dis(gen);
-        G[i - 1].edges.emplace_back(GraphVertex::VertexWithDistance{G[i], len});
-        G[i].edges.emplace_back(GraphVertex::VertexWithDistance{G[i - 1], len});
+        G[i - 1].edges.emplace_back(Graph_vertex::VertexWithDistance{G[i], len});
+        G[i].edges.emplace_back(Graph_vertex::VertexWithDistance{G[i - 1], len});
         is_edge_exist[i - 1][i] = is_edge_exist[i][i - 1] = true;
     }
 
@@ -194,8 +194,8 @@ int main(int argc, char* argv[])
         is_edge_exist[a][b] = is_edge_exist[b][a] = true;
         uniform_int_distribution<int> one_to_100(1, 100);
         int len = one_to_100(gen);
-        G[a].edges.emplace_back(GraphVertex::VertexWithDistance{G[b], len});
-        G[b].edges.emplace_back(GraphVertex::VertexWithDistance{G[a], len});
+        G[a].edges.emplace_back(Graph_vertex::VertexWithDistance{G[b], len});
+        G[b].edges.emplace_back(Graph_vertex::VertexWithDistance{G[a], len});
     }
     int s = dis_n(gen), t = dis_n(gen);
     cout << "source = " << s << ", terminal = " << t << "\n";

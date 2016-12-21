@@ -44,7 +44,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     default_random_engine gen((random_device()) ());
     if (argc == 2) {
         cout << argv[1] << " " << SSDecodeColID(argv[1]) << "\n";

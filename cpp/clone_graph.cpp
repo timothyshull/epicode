@@ -24,28 +24,28 @@ using std::unordered_set;
 using std::vector;
 
 // @include
-struct GraphVertex {
+struct Graph_vertex {
     int label;
-    vector<GraphVertex*> edges;
+    vector<Graph_vertex*> edges;
 };
 
-GraphVertex* CloneGraph(GraphVertex* G)
+Graph_vertex* CloneGraph(Graph_vertex* G)
 {
     if (!G) {
         return nullptr;
     }
 
-    unordered_map<GraphVertex*, GraphVertex*> vertex_map;
-    queue<GraphVertex*> q;
+    unordered_map<Graph_vertex*, Graph_vertex*> vertex_map;
+    queue<Graph_vertex*> q;
     q.emplace(G);
-    vertex_map.emplace(G, new GraphVertex({G->label}));
+    vertex_map.emplace(G, new Graph_vertex({G->label}));
     while (!q.empty()) {
         auto v = q.front();
         q.pop();
-        for (GraphVertex* e : v->edges) {
+        for (Graph_vertex* e : v->edges) {
             // Try to copy vertex e.
             if (vertex_map.find(e) == vertex_map.end()) {
-                vertex_map.emplace(e, new GraphVertex({e->label}));
+                vertex_map.emplace(e, new Graph_vertex({e->label}));
                 q.emplace(e);
             }
             // Copy edge v->e.
@@ -56,19 +56,19 @@ GraphVertex* CloneGraph(GraphVertex* G)
 }
 // @exclude
 
-vector<int> CopyLabels(const vector<GraphVertex*>& edges)
+vector<int> CopyLabels(const vector<Graph_vertex*>& edges)
 {
     vector<int> labels;
-    for (GraphVertex* e : edges) {
+    for (Graph_vertex* e : edges) {
         labels.emplace_back(e->label);
     }
     return labels;
 }
 
-void CheckGraph(GraphVertex* node, const vector<GraphVertex>& G)
+void CheckGraph(Graph_vertex* node, const vector<Graph_vertex>& G)
 {
-    unordered_set<GraphVertex*> vertex_set;
-    queue<GraphVertex*> q;
+    unordered_set<Graph_vertex*> vertex_set;
+    queue<Graph_vertex*> q;
     q.emplace(node);
     vertex_set.emplace(node);
     while (!q.empty()) {
@@ -79,7 +79,7 @@ void CheckGraph(GraphVertex* node, const vector<GraphVertex>& G)
                 label2 = CopyLabels(G[vertex->label].edges);
         sort(label1.begin(), label1.end()), sort(label2.begin(), label2.end());
         assert(equal(label1.begin(), label1.end(), label2.begin(), label2.end()));
-        for (GraphVertex* e : vertex->edges) {
+        for (Graph_vertex* e : vertex->edges) {
             if (vertex_set.find(e) == vertex_set.end()) {
                 vertex_set.emplace(e);
                 q.emplace(e);
@@ -92,7 +92,7 @@ int main(int argc, char** argv)
 {
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
-        vector<GraphVertex> G;
+        vector<Graph_vertex> G;
         int n;
         if (argc == 2) {
             n = stoi(argv[1]);
@@ -101,7 +101,7 @@ int main(int argc, char** argv)
             n = n_dis(gen);
         }
         for (int i = 0; i < n; ++i) {
-            G.emplace_back(GraphVertex{i});
+            G.emplace_back(Graph_vertex{i});
         }
         uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
         int m = dis(gen);

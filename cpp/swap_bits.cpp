@@ -22,7 +22,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     default_random_engine gen((random_device()) ());
     long x;
     int i, j;

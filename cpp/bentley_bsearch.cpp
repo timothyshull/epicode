@@ -23,7 +23,7 @@ int bsearch(int t, const vector<int>& A)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {1, 2, 3};
     assert(0 == bsearch(1, A));
@@ -37,7 +37,7 @@ static void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     vector<int> A;
     A.emplace_back(1);
     A.emplace_back(2);

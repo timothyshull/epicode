@@ -90,7 +90,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     if (argc == 3) {
         unsigned x = static_cast<size_t>(stoul(argv[1]));
         unsigned y = static_cast<size_t>(stoul(argv[2]));

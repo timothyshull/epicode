@@ -17,22 +17,22 @@ using std::random_device;
 using std::uniform_int_distribution;
 using std::vector;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-bool BFS(GraphVertex* s);
+bool bfs(Graph_vertex* s);
 
 // @include
-struct GraphVertex {
+struct Graph_vertex {
     int d = -1;
-    vector<GraphVertex*> edges;
+    vector<Graph_vertex*> edges;
 };
 
-bool IsAnyPlacementFeasible(vector<GraphVertex>* G)
+bool is_any_placement_feasible(vector<Graph_vertex>* G)
 {
-    for (GraphVertex& v : *G) {
+    for (Graph_vertex& v : *G) {
         if (v.d == -1) {  // Unvisited vertex.
             v.d = 0;
-            if (!BFS(&v)) {
+            if (!bfs(&v)) {
                 return false;
             }
         }
@@ -40,13 +40,13 @@ bool IsAnyPlacementFeasible(vector<GraphVertex>* G)
     return true;
 }
 
-bool BFS(GraphVertex* s)
+bool bfs(Graph_vertex* s)
 {
-    queue<GraphVertex*> q;
+    queue<Graph_vertex*> q;
     q.emplace(s);
 
     while (!q.empty()) {
-        for (GraphVertex*& t : q.front()->edges) {
+        for (Graph_vertex*& t : q.front()->edges) {
             if (t->d == -1) {  // Unvisited vertex.
                 t->d = q.front()->d + 1;
                 q.emplace(t);
@@ -60,12 +60,12 @@ bool BFS(GraphVertex* s)
 }
 // @exclude
 
-bool DFS(GraphVertex* s)
+bool dfs(Graph_vertex* s)
 {
-    for (GraphVertex*& t : s->edges) {
+    for (Graph_vertex*& t : s->edges) {
         if (t->d == -1) {
             t->d = !s->d;
-            if (!DFS(t)) {
+            if (!dfs(t)) {
                 return false;
             }
         } else if (t->d == s->d) {
@@ -75,16 +75,16 @@ bool DFS(GraphVertex* s)
     return true;
 }
 
-bool IsTwoColorable(vector<GraphVertex>* G)
+bool is_two_colorable(vector<Graph_vertex>* G)
 {
-    for (GraphVertex& v : *G) {
+    for (Graph_vertex& v : *G) {
         v.d = -1;
     }
 
-    for (GraphVertex& v : *G) {
+    for (Graph_vertex& v : *G) {
         if (v.d == -1) {
             v.d = 0;
-            if (!DFS(&v)) {
+            if (!dfs(&v)) {
                 return false;
             }
         }
@@ -103,7 +103,7 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(2, 101);
             n = dis(gen);
         }
-        vector<GraphVertex> G(n);
+        vector<Graph_vertex> G(n);
         uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
         int m = dis(gen);
         cout << times << ' ' << n << ' ' << m << "\n";
@@ -128,9 +128,9 @@ int main(int argc, char* argv[])
           cout << "\n";
         }
         */
-        bool res = IsAnyPlacementFeasible(&G);
+        bool res = is_any_placement_feasible(&G);
         cout << boolalpha << res << "\n";
-        assert(res == IsTwoColorable(&G));
+        assert(res == is_two_colorable(&G));
     }
     return 0;
 }

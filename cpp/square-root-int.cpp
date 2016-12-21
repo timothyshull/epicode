@@ -51,7 +51,7 @@ static void SimpleTest()
 
 int main(int argc, char** argv)
 {
-    SimpleTest();
+    simple_test();
     int x;
     if (argc == 2) {
         x = stoi(argv[1]);

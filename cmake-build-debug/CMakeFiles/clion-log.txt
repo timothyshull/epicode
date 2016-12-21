@@ -1,4 +1,11 @@
 "/Users/skull/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/163.9166.31/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/skull/Programming/Interview/epicode-master
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
+CMake Error at cpp/CMakeLists.txt:61 (add_executable):
+  add_executable cannot create target "Closest_int_same_bits_alternative"
+  because another target with the same name already exists.  The existing
+  target is an executable created in source directory
+  "/Users/skull/Programming/Interview/epicode-master/cpp".  See documentation
+  for policy CMP0002 for more details.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles/CMakeOutput.log".

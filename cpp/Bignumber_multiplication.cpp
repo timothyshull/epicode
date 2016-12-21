@@ -95,7 +95,7 @@ string VectorToString(const vector<int>& A)
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     for (int times = 0; times < 1000; ++times) {
         default_random_engine gen((random_device()) ());
         uniform_int_distribution<int> dis(0, 19);

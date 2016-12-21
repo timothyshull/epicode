@@ -18,7 +18,8 @@ using std::vector;
 // @include
 int SearchEntryEqualToItsIndex(const vector<int>& A)
 {
-    int left = 0, right = A.size() - 1;
+    int left = 0;
+    int right = A.size() - 1;
     while (left <= right) {
         int mid = left + ((right - left) / 2);
         int difference = A[mid] - mid;
@@ -46,7 +47,7 @@ int CheckAns(const vector<int>& A)
     return -1;
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {0, 1, 2, 3};
     assert(-1 != SearchEntryEqualToItsIndex(A));
@@ -64,8 +65,9 @@ static void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
-    default_random_engine gen((random_device()) ());
+    simple_test();
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int n;
         vector<int> A;

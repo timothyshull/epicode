@@ -2551,7 +2551,7 @@ Now, we consider the problem of checking if $G$ is $2\forall$-connected.
  such that $G' = (V, E-\{e\})$ is disconnected.
  The latter condition holds iff there is no cycle including edge $e$.
 
- We can find an edge $(u,v)$ that is not on a cycle with DFS. 
+ We can find an edge $(u,v)$ that is not on a cycle with dfs.
  Without loss of generality, assume $u$ is discovered first.
  Observe that the removal of $(u,v)$ disconnects $G$ iff there are no back-edges
  between $v$ or $v$'s descendants to $u$ or $u$'s ancestors.
@@ -2790,7 +2790,7 @@ the fewest edges on a shortest path.
 
 \ans{number-sp}
 We can compute the number of shortest paths by 
-performing a BFS-type computation starting at $u$.
+performing a bfs-type computation starting at $u$.
 
 Consider the set of vertices $S_{k-1}$ such that for any vertex $a \in S_{k-1}$, the shortest
  distance between $u$ and $a$ is $k-1$. Now, consider a vertex $v$ such that the shortest distance

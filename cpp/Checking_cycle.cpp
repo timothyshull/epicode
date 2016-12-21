@@ -34,7 +34,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     shared_ptr<ListNode<int>> L3 =
             make_shared<ListNode<int>>(ListNode<int>{3, nullptr});
     shared_ptr<ListNode<int>> L2 =

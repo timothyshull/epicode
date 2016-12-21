@@ -82,7 +82,7 @@ static void SimpleTest()
 int main(int argc, char* argv[])
 {
     default_random_engine gen((random_device()) ());
-    SimpleTest();
+    simple_test();
     for (int times = 0; times < 1000; ++times) {
         int k;
         if (argc == 2) {

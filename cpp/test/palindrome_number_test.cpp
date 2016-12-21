@@ -22,7 +22,7 @@ void UnitTest(TestSentry::Ptr& sentry, const char* description, int x, bool expe
     }
 }
 
-void DirectedTests(const TestOptions& options)
+void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(3, "Palindrome numbers");
 
@@ -43,6 +43,6 @@ void DirectedTests(const TestOptions& options)
 
 int main(int argc, char** argv)
 {
-    DirectedTests(TestOptions(&cout));
+    directed_tests(TestOptions(&cout));
     return 0;
 }

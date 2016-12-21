@@ -69,7 +69,7 @@ void PerformanceTest(const TestOptions& options, TestSentry::Ptr& sentry,
     }
 }
 
-void DirectedTests(const TestOptions& options)
+void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(0, "Parity");
     UnitTest(sentry, "Test #1",
@@ -96,6 +96,6 @@ void DirectedTests(const TestOptions& options)
 
 int main(int argc, char* argv[])
 {
-    DirectedTests(TestOptions(&cout));
+    directed_tests(TestOptions(&cout));
     return 0;
 }

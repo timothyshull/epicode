@@ -18,25 +18,25 @@ using std::vector;
 using std::uniform_int_distribution;
 using std::unordered_map;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-void DFS(const GraphVertex&);
+void DFS(const Graph_vertex&);
 
 // @include
 struct Constraint {
     int a, b;
 };
 
-struct GraphVertex {
+struct Graph_vertex {
     int group = -1;  // represents the connected component it belongs.
-    vector<GraphVertex*> edges;
+    vector<Graph_vertex*> edges;
 };
 
 bool are_constraints_satisfied(
         const vector<Constraint>& E,  // Equality constraints.
         const vector<Constraint>& I)
 {  // Inequality constraints.
-    unordered_map<int, GraphVertex> G;
+    unordered_map<int, Graph_vertex> G;
     // Build graph G according to E.
     for (const Constraint& e : E) {
         G[e.a].edges.emplace_back(&G[e.b]), G[e.b].edges.emplace_back(&G[e.a]);
@@ -61,9 +61,9 @@ bool are_constraints_satisfied(
     return true;
 }
 
-void DFS(const GraphVertex& u)
+void DFS(const Graph_vertex& u)
 {
-    for (GraphVertex* v : u.edges) {
+    for (Graph_vertex* v : u.edges) {
         if (v->group == -1) {
             v->group = u.group;
             DFS(*v);

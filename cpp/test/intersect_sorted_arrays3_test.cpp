@@ -26,7 +26,7 @@ void UnitTest(TestSentry::Ptr& sentry, const char* description,
     }
 }
 
-void DirectedTests(const TestOptions& options)
+void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(0, "Sorted arrays intersection");
 
@@ -62,6 +62,6 @@ void DirectedTests(const TestOptions& options)
 
 int main(int argc, char* argv[])
 {
-    DirectedTests(TestOptions(&cout));
+    directed_tests(TestOptions(&cout));
     return 0;
 }

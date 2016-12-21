@@ -99,7 +99,7 @@ static void SimpleTest()
 
 int main(int argc, char** argv)
 {
-    SimpleTest();
+    simple_test();
     if (argc == 2) {
         string s = argv[1];
         auto result = PalindromePartitioning(s);

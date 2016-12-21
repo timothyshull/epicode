@@ -89,7 +89,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     QueueWithMax Q;
     Q.Enqueue(1);
     Q.Enqueue(2);

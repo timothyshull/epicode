@@ -21,21 +21,21 @@ using std::stoi;
 using std::uniform_int_distribution;
 using std::vector;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-bool has_bridge(GraphVertex*, GraphVertex*, int);
+bool has_bridge(Graph_vertex*, Graph_vertex*, int);
 
 // @include
-struct GraphVertex {
+struct Graph_vertex {
     int d, l;  // Discovery and leaving time.
-    vector<GraphVertex*> edges;
+    vector<Graph_vertex*> edges;
 
     // @exclude
-    GraphVertex() : d(0), l(numeric_limits<int>::max()) {}
+    Graph_vertex() : d(0), l(numeric_limits<int>::max()) {}
     // @include
 };
 
-bool is_graph_fault_tolerant(vector<GraphVertex>* G)
+bool is_graph_fault_tolerant(vector<Graph_vertex>* G)
 {
     if (!G->empty()) {
         return has_bridge(&G->front(), nullptr, 0);
@@ -43,10 +43,10 @@ bool is_graph_fault_tolerant(vector<GraphVertex>* G)
     return true;
 }
 
-bool has_bridge(GraphVertex* cur, GraphVertex* pre, int time)
+bool has_bridge(Graph_vertex* cur, Graph_vertex* pre, int time)
 {
     cur->d = ++time, cur->l = numeric_limits<int>::max();
-    for (GraphVertex*& next : cur->edges) {
+    for (Graph_vertex*& next : cur->edges) {
         if (next != pre) {
             if (next->d != 0) {  // Back edge.
                 cur->l = min(cur->l, next->d);
@@ -62,10 +62,10 @@ bool has_bridge(GraphVertex* cur, GraphVertex* pre, int time)
 }
 // @exclude
 
-void dfs_exclusion(GraphVertex* cur, GraphVertex* a, GraphVertex* b)
+void dfs_exclusion(Graph_vertex* cur, Graph_vertex* a, Graph_vertex* b)
 {
     cur->d = 1;
-    for (GraphVertex*& next : cur->edges) {
+    for (Graph_vertex*& next : cur->edges) {
         if (next->d == 0 &&
             ((cur != a && cur != b) || (next != a && next != b))) {
             dfs_exclusion(next, a, b);
@@ -74,18 +74,18 @@ void dfs_exclusion(GraphVertex* cur, GraphVertex* a, GraphVertex* b)
 }
 
 // O(n^2) check answer.
-bool check_answer(vector<GraphVertex>* G)
+bool check_answer(vector<Graph_vertex>* G)
 {
     // marks all vertices as white.
-    for (GraphVertex& n : *G) {
+    for (Graph_vertex& n : *G) {
         n.d = 0;
     }
 
-    for (GraphVertex& g : *G) {
-        for (GraphVertex*& t : g.edges) {
+    for (Graph_vertex& g : *G) {
+        for (Graph_vertex*& t : g.edges) {
             dfs_exclusion(&g, &g, t);
             int count = 0;
-            for (GraphVertex& n : *G) {
+            for (Graph_vertex& n : *G) {
                 if (n.d == 1) {
                     ++count;
                     n.d = 0;
@@ -101,7 +101,7 @@ bool check_answer(vector<GraphVertex>* G)
 
 void test_triangle()
 {
-    vector<GraphVertex> G(3);
+    vector<Graph_vertex> G(3);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[0]);
     G[1].edges.emplace_back(&G[2]);
@@ -114,7 +114,7 @@ void test_triangle()
 
 void test_two_triangles()
 {
-    vector<GraphVertex> G(6);
+    vector<Graph_vertex> G(6);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[0]);
     G[1].edges.emplace_back(&G[2]);
@@ -139,7 +139,7 @@ void test_two_triangles()
 
 void test_two_triangles_bridged()
 {
-    vector<GraphVertex> G(6);
+    vector<Graph_vertex> G(6);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[0]);
     G[1].edges.emplace_back(&G[2]);
@@ -172,7 +172,7 @@ int main(int argc, char* argv[])
     random_device rd;
     default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
-        vector<GraphVertex> G;
+        vector<Graph_vertex> G;
         int n;
         if (argc == 2) {
             n = stoi(argv[1]);
@@ -181,7 +181,7 @@ int main(int argc, char* argv[])
             n = dis(gen);
         }
         for (int i = 0; i < n; ++i) {
-            G.emplace_back(GraphVertex());
+            G.emplace_back(Graph_vertex());
         }
         uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
         int m = dis(gen);

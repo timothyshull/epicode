@@ -20,7 +20,7 @@ using std::random_device;
 using std::string;
 using std::uniform_int_distribution;
 
-string RandIntString(int len)
+string rand_int_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
             cout << x << " " << str << "\n";
             assert(x == stoi(str));
             uniform_int_distribution<int> len_dis(0, 9);
-            str = RandIntString(len_dis(gen));
+            str = rand_int_string(len_dis(gen));
             x = StringToInt(str);
             cout << str << " " << x << "\n";
             assert(x == stoi(str));

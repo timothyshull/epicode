@@ -26,7 +26,7 @@ void UnitTest(TestSentry::Ptr& sentry, const char* description,
     }
 }
 
-void DirectedTests(const TestOptions& options)
+void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(0, "GCD");
 
@@ -42,12 +42,12 @@ void DirectedTests(const TestOptions& options)
     UnitTest(sentry, "Big values test #1", numeric_limits<int64_t>::max(), numeric_limits<int64_t>::max() - 1L, 1L);
     UnitTest(sentry, "Big values test #2", numeric_limits<int64_t>::max() - 1L, (numeric_limits<int64_t>::max() - 1L) / (2L), (numeric_limits<int64_t>::max() - 1L) / (2L));
     //FIXME (KROILOV) Stack overflow on next tests
-    //UnitTest(sentry, "Zero values test #1", 0L, 10L, 10L);
-    //UnitTest(sentry, "Zero values test #2", 10L, 0L, 10L);
+    //unit_test(sentry, "Zero values test #1", 0L, 10L, 10L);
+    //unit_test(sentry, "Zero values test #2", 10L, 0L, 10L);
 }
 
 int main(int argc, char* argv[])
 {
-    DirectedTests(TestOptions(&cout));
+    directed_tests(TestOptions(&cout));
     return 0;
 }

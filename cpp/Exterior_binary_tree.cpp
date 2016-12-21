@@ -125,7 +125,7 @@ void SimpleTest(void)
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     //        3
     //    2      5
     //  1  0    4 6

@@ -12,43 +12,42 @@ using std::numeric_limits;
 using Node = BinaryTreeNode<int>;
 using NodePtr = unique_ptr<Node>;
 
-void UnitTest(TestSentry::Ptr& sentry, const char* description,
-              const NodePtr& tree, bool expected)
+void unit_test(TestSentry::Ptr& sentry, const char* description,
+               const NodePtr& tree, bool expected)
 {
     TestStream::Ptr stream = sentry->GetTestStream(TestType::NORMAL, description);
     stream->RegisterInput(tree);
     stream->RegisterExpectedOutput(expected);
     try {
-        bool result = IsBalanced(tree);
+        bool result = is_balanced(tree);
         stream->RegisterUserOutput(result, result == expected);
-    }
-    catch (...) {
+    } catch (...) {
         stream->RegisterUnhandledException();
     }
 }
 
-void UnitTest(TestSentry::Ptr& sentry, const char* description,
+void unit_test(TestSentry::Ptr& sentry, const char* description,
               const vector<int>& tree, bool expected)
 {
-    UnitTest(sentry, description, BuildTree(tree), expected);
+    unit_test(sentry, description, BuildTree(tree), expected);
 }
 
-void DirectedTests(const TestOptions& options)
+void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(0, "Check if binary tree is height-balanced");
 
-    UnitTest(sentry, "Trivial test", NodePtr(), true);
-    UnitTest(sentry, "Positive test #1", {1}, true);
-    UnitTest(sentry, "Positive test #2", {1, 2}, true);
-    UnitTest(sentry, "Positive test #3", {2, 1}, true);
-    UnitTest(sentry, "Positive test #4", {2, 1, 3}, true);
-    UnitTest(sentry, "Positive test #5", {5, 3, 1, 4, 7, 6, 8}, true);
-    UnitTest(sentry, "Positive test #6", {5, 3, numeric_limits<int>::min(), 4, numeric_limits<int>::max()}, true);
-    UnitTest(sentry, "Negative test #1", {5, 3, 2}, false);
-    UnitTest(sentry, "Negative test #2", {5, 3, 4}, false);
-    UnitTest(sentry, "Negative test #3", {5, 7, 6}, false);
-    UnitTest(sentry, "Negative test #4", {5, 7, 8}, false);
-    UnitTest(sentry, "Negative test #5", {5, 4, 3, 2, 7, 6, 8, 9}, false);
+    unit_test(sentry, "Trivial test", NodePtr(), true);
+    unit_test(sentry, "Positive test #1", {1}, true);
+    unit_test(sentry, "Positive test #2", {1, 2}, true);
+    unit_test(sentry, "Positive test #3", {2, 1}, true);
+    unit_test(sentry, "Positive test #4", {2, 1, 3}, true);
+    unit_test(sentry, "Positive test #5", {5, 3, 1, 4, 7, 6, 8}, true);
+    unit_test(sentry, "Positive test #6", {5, 3, numeric_limits<int>::min(), 4, numeric_limits<int>::max()}, true);
+    unit_test(sentry, "Negative test #1", {5, 3, 2}, false);
+    unit_test(sentry, "Negative test #2", {5, 3, 4}, false);
+    unit_test(sentry, "Negative test #3", {5, 7, 6}, false);
+    unit_test(sentry, "Negative test #4", {5, 7, 8}, false);
+    unit_test(sentry, "Negative test #5", {5, 4, 3, 2, 7, 6, 8, 9}, false);
 
     NodePtr a(new Node());
     NodePtr b(new Node());
@@ -97,11 +96,11 @@ void DirectedTests(const TestOptions& options)
     a->right = move(k);
     a->left = move(b);
 
-    UnitTest(sentry, "Example from the book test", a, true);
+    unit_test(sentry, "Example from the book test", a, true);
 }
 
 int main(int argc, char* argv[])
 {
-    DirectedTests(TestOptions(&cout));
+    directed_tests(TestOptions(&cout));
     return 0;
 }

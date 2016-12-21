@@ -37,7 +37,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     default_random_engine gen((random_device()) ());
     int k;
     vector<int> score_ways;

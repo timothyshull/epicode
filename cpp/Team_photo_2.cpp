@@ -10,30 +10,30 @@ using std::max;
 using std::stack;
 using std::vector;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-stack<GraphVertex*> BuildTopologicalOrdering(vector<GraphVertex>* G);
+stack<Graph_vertex*> BuildTopologicalOrdering(vector<Graph_vertex>* G);
 
-int FindLongestPath(stack<GraphVertex*>* vertex_order);
+int FindLongestPath(stack<Graph_vertex*>* vertex_order);
 
-void DFS(GraphVertex* cur, stack<GraphVertex*>* vertex_order);
+void DFS(Graph_vertex* cur, stack<Graph_vertex*>* vertex_order);
 
 // @include
-struct GraphVertex {
-    vector<GraphVertex*> edges;
+struct Graph_vertex {
+    vector<Graph_vertex*> edges;
     int max_distance = 1;
     bool visited = false;
 };
 
-int FindLargestNumberTeams(vector<GraphVertex>* G)
+int FindLargestNumberTeams(vector<Graph_vertex>* G)
 {
-    stack<GraphVertex*> vertex_order(BuildTopologicalOrdering(G));
+    stack<Graph_vertex*> vertex_order(BuildTopologicalOrdering(G));
     return FindLongestPath(&vertex_order);
 }
 
-stack<GraphVertex*> BuildTopologicalOrdering(vector<GraphVertex>* G)
+stack<Graph_vertex*> BuildTopologicalOrdering(vector<Graph_vertex>* G)
 {
-    stack<GraphVertex*> vertex_order;
+    stack<Graph_vertex*> vertex_order;
     for (auto& g : *G) {
         if (!g.visited) {
             DFS(&g, &vertex_order);
@@ -42,13 +42,13 @@ stack<GraphVertex*> BuildTopologicalOrdering(vector<GraphVertex>* G)
     return vertex_order;
 }
 
-int FindLongestPath(stack<GraphVertex*>* vertex_order)
+int FindLongestPath(stack<Graph_vertex*>* vertex_order)
 {
     int max_distance = 0;
     while (!vertex_order->empty()) {
-        GraphVertex* u = vertex_order->top();
+        Graph_vertex* u = vertex_order->top();
         max_distance = max(max_distance, u->max_distance);
-        for (GraphVertex*& v : u->edges) {
+        for (Graph_vertex*& v : u->edges) {
             v->max_distance = max(v->max_distance, u->max_distance + 1);
         }
         vertex_order->pop();
@@ -56,10 +56,10 @@ int FindLongestPath(stack<GraphVertex*>* vertex_order)
     return max_distance;
 }
 
-void DFS(GraphVertex* cur, stack<GraphVertex*>* vertex_order)
+void DFS(Graph_vertex* cur, stack<Graph_vertex*>* vertex_order)
 {
     cur->visited = true;
-    for (GraphVertex* next : cur->edges) {
+    for (Graph_vertex* next : cur->edges) {
         if (!next->visited) {
             DFS(next, vertex_order);
         }
@@ -70,7 +70,7 @@ void DFS(GraphVertex* cur, stack<GraphVertex*>* vertex_order)
 
 int main(int argc, char* argv[])
 {
-    vector<GraphVertex> G(3);
+    vector<Graph_vertex> G(3);
     G[0].edges.emplace_back(&G[2]);
     G[1].edges.emplace_back(&G[2]);
     assert(2 == FindLargestNumberTeams(&G));

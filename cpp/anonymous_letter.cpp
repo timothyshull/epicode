@@ -20,7 +20,8 @@ using std::vector;
 string rand_string(int len)
 {
     string ret;
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     while (len--) {
         uniform_int_distribution<int> dis(0, 26);
         int x = dis(gen);

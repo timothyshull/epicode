@@ -15,51 +15,51 @@ using std::random_device;
 using std::uniform_int_distribution;
 using std::vector;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-bool has_cycle(GraphVertex*);
+bool has_cycle(Graph_vertex*);
 
 // @include
-struct GraphVertex {
+struct Graph_vertex {
     enum Color { white, gray, black } color = white;
-    vector<GraphVertex*> edges;
+    vector<Graph_vertex*> edges;
 };
 
-bool is_deadlocked(vector<GraphVertex>* G)
+bool is_deadlocked(vector<Graph_vertex>* G)
 {
-    return any_of(begin(*G), end(*G), [](GraphVertex& vertex) {
-        return vertex.color == GraphVertex::white && has_cycle(&vertex);
+    return any_of(begin(*G), end(*G), [](Graph_vertex& vertex) {
+        return vertex.color == Graph_vertex::white && has_cycle(&vertex);
     });
 }
 
-bool has_cycle(GraphVertex* cur)
+bool has_cycle(Graph_vertex* cur)
 {
     // Visiting a gray vertex means a cycle.
-    if (cur->color == GraphVertex::gray) {
+    if (cur->color == Graph_vertex::gray) {
         return true;
     }
 
-    cur->color = GraphVertex::gray;  // Marks current vertex as a gray one.
+    cur->color = Graph_vertex::gray;  // Marks current vertex as a gray one.
     // Traverse the neighbor vertices.
-    for (GraphVertex*& next : cur->edges) {
-        if (next->color != GraphVertex::black) {
+    for (Graph_vertex*& next : cur->edges) {
+        if (next->color != Graph_vertex::black) {
             if (has_cycle(next)) {
                 return true;
             }
         }
     }
-    cur->color = GraphVertex::black;  // Marks current vertex as black.
+    cur->color = Graph_vertex::black;  // Marks current vertex as black.
     return false;
 }
 // @exclude
 
-bool has_cycle_exclusion(GraphVertex* cur)
+bool has_cycle_exclusion(Graph_vertex* cur)
 {
-    if (cur->color == GraphVertex::black) {
+    if (cur->color == Graph_vertex::black) {
         return true;
     }
-    cur->color = GraphVertex::black;
-    for (GraphVertex*& next : cur->edges) {
+    cur->color = Graph_vertex::black;
+    for (Graph_vertex*& next : cur->edges) {
         if (has_cycle_exclusion(next)) {
             return true;
         }
@@ -68,20 +68,20 @@ bool has_cycle_exclusion(GraphVertex* cur)
 }
 
 // O(n^2) check answer.
-bool check_answer(vector<GraphVertex>* G)
+bool check_answer(vector<Graph_vertex>* G)
 {
     // marks all vertices as white.
-    for (GraphVertex& n : *G) {
-        n.color = GraphVertex::white;
+    for (Graph_vertex& n : *G) {
+        n.color = Graph_vertex::white;
     }
 
-    for (GraphVertex& g : *G) {
+    for (Graph_vertex& g : *G) {
         if (has_cycle_exclusion(&g)) {
             return true;
         }
         // Reset color to white.
-        for (GraphVertex& n : *G) {
-            n.color = GraphVertex::white;
+        for (Graph_vertex& n : *G) {
+            n.color = Graph_vertex::white;
         }
     }
     return false;
@@ -89,7 +89,7 @@ bool check_answer(vector<GraphVertex>* G)
 
 void test_two_nodes_cycle()
 {
-    vector<GraphVertex> G(2);
+    vector<Graph_vertex> G(2);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[0]);
     bool result = is_deadlocked(&G);
@@ -100,7 +100,7 @@ void test_two_nodes_cycle()
 
 void test_directed_cycle()
 {
-    vector<GraphVertex> G(3);
+    vector<Graph_vertex> G(3);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[2]);
     G[2].edges.emplace_back(&G[0]);
@@ -112,7 +112,7 @@ void test_directed_cycle()
 
 void test_directed_star_tree()
 {
-    vector<GraphVertex> G(4);
+    vector<Graph_vertex> G(4);
     G[0].edges.emplace_back(&G[1]);
     G[0].edges.emplace_back(&G[2]);
     G[0].edges.emplace_back(&G[3]);
@@ -124,7 +124,7 @@ void test_directed_star_tree()
 
 void test_directed_line_tree()
 {
-    vector<GraphVertex> G(4);
+    vector<Graph_vertex> G(4);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[2]);
     G[2].edges.emplace_back(&G[3]);
@@ -139,7 +139,7 @@ void test_directed_line_tree()
 
 void test_directed_binary_tree()
 {
-    vector<GraphVertex> G(7);
+    vector<Graph_vertex> G(7);
     G[0].edges.emplace_back(&G[1]);
     G[0].edges.emplace_back(&G[2]);
     G[1].edges.emplace_back(&G[3]);
@@ -158,7 +158,7 @@ void test_directed_binary_tree()
 
 void test_directed_two_separate_cycles()
 {
-    vector<GraphVertex> G(6);
+    vector<Graph_vertex> G(6);
     G[0].edges.emplace_back(&G[1]);
     G[1].edges.emplace_back(&G[2]);
     G[2].edges.emplace_back(&G[0]);
@@ -187,7 +187,7 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(2, 2000);
             n = dis(gen);
         }
-        vector<GraphVertex> G(n);
+        vector<Graph_vertex> G(n);
         uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
         int m = dis(gen);
         vector<deque<bool>> is_edge_exist(n, deque<bool>(n, false));

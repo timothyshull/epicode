@@ -17,17 +17,17 @@ using std::stoi;
 using std::uniform_int_distribution;
 using std::vector;
 
-struct GraphVertex;
+struct Graph_vertex;
 
-void DFS(GraphVertex* cur, int time, vector<GraphVertex*>* contacts);
+void DFS(Graph_vertex* cur, int time, vector<Graph_vertex*>* contacts);
 
 // @include
-struct GraphVertex {
+struct Graph_vertex {
     int visit_time = -1;
-    vector<GraphVertex*> edges, extended_contacts;
+    vector<Graph_vertex*> edges, extended_contacts;
 };
 
-void transitive_closure(vector<GraphVertex>* G)
+void transitive_closure(vector<Graph_vertex>* G)
 {
     // Build extended contacts for each vertex.
     for (int i = 0; i < G->size(); ++i) {
@@ -36,9 +36,9 @@ void transitive_closure(vector<GraphVertex>* G)
     }
 }
 
-void DFS(GraphVertex* cur, int time, vector<GraphVertex*>* contacts)
+void DFS(Graph_vertex* cur, int time, vector<Graph_vertex*>* contacts)
 {
-    for (GraphVertex* next : cur->edges) {
+    for (Graph_vertex* next : cur->edges) {
         if (next->visit_time != time) {
             next->visit_time = time;
             contacts->emplace_back(next);
@@ -51,7 +51,7 @@ void DFS(GraphVertex* cur, int time, vector<GraphVertex*>* contacts)
 int main(int argc, char* argv[])
 {
     default_random_engine gen((random_device()) ());
-    vector<GraphVertex> G;
+    vector<Graph_vertex> G;
     int n;
     if (argc == 2) {
         n = stoi(argv[1]);
@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
         uniform_int_distribution<int> dis(1, 1000);
         n = dis(gen);
     }
-    fill_n(back_inserter(G), n, GraphVertex());
+    fill_n(back_inserter(G), n, Graph_vertex());
     cout << G.size() << "\n";
     uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
     int m = dis(gen);
@@ -89,7 +89,7 @@ int main(int argc, char* argv[])
     /*
     for (int i = 0; i < G.size(); ++i) {
       cout << i << "\n" << '\t';
-      for (GraphVertex* &e : G[i].extended_contacts) {
+      for (Graph_vertex* &e : G[i].extended_contacts) {
         cout << e << ' ';
       }
       cout << "\n";

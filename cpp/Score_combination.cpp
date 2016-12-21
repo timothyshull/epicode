@@ -56,7 +56,7 @@ int CheckAnswer(int total_score, const vector<int>& score_ways)
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     default_random_engine gen((random_device()) ());
     int k;
     vector<int> individual_play_scores;

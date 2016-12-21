@@ -293,7 +293,7 @@ static void ComplexRandomTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     SimpleTestKthLargest();
     SimpleTestKthSmallest();
     ComplexRandomTest();

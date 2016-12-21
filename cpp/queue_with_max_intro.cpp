@@ -83,7 +83,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     Queue Q;
     Q.Enqueue(1);
     Q.Enqueue(2);

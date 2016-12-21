@@ -104,7 +104,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     if (argc == 3) {
         string t = argv[1];
         string s = argv[2];

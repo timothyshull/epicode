@@ -78,7 +78,7 @@ void MarkBoundaryRegion(int i, int j, const vector<vector<char>>& board,
     queue<Coordinate> q;
     vector<deque<bool>>& visited = *visited_ptr;
     q.emplace(Coordinate{i, j}), visited[i][j] = true;
-    // Uses BFS to traverse this region.
+    // Uses bfs to traverse this region.
     while (!q.empty()) {
         const Coordinate curr = q.front();
         q.pop();
@@ -113,7 +113,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     default_random_engine gen((random_device()) ());
     uniform_int_distribution<int> dis(1, 1000);
     int n, m;

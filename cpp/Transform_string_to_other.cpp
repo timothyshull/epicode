@@ -30,7 +30,7 @@ string RandString(int len)
 }
 
 // @include
-// Uses BFS to find the least steps of transformation.
+// Uses bfs to find the least steps of transformation.
 int TransformString(unordered_set<string> D, const string& s,
                     const string& t)
 {

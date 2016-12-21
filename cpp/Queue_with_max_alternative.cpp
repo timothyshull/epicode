@@ -51,7 +51,7 @@ void SimpleTest()
 // Just for testing.
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     QueueWithMaxAlternative::QueueWithMax<int> Q;
     Q.Enqueue(1);
     Q.Enqueue(2);

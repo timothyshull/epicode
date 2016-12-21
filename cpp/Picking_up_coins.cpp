@@ -132,7 +132,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     return 0;
     default_random_engine gen((random_device()) ());
     vector<int> coins;

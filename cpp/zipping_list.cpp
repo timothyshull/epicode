@@ -19,8 +19,7 @@ using std::stoi;
 using std::uniform_int_distribution;
 
 // @include
-shared_ptr<ListNode<int>> ZippingLinkedList(
-        const shared_ptr<ListNode<int>>& L)
+shared_ptr<ListNode<int>> zipping_linked_list(const shared_ptr<ListNode<int>>& L)
 {
     if (!L || !L->next) {
         return L;
@@ -76,7 +75,7 @@ int main(int argc, char* argv[])
             head = curr;
         }
     }
-    shared_ptr<ListNode<int>> curr = ZippingLinkedList(head);
+    shared_ptr<ListNode<int>> curr = zipping_linked_list(head);
     int idx = 0, pre;
     while (curr) {
         if (argc <= 2) {

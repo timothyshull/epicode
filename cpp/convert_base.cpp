@@ -13,10 +13,10 @@ using std::random_device;
 using std::string;
 using std::uniform_int_distribution;
 
-string ConstructFromBase(int, int);
+string construct_from_base(int, int);
 
 // @include
-string ConvertBase(const string& NumAsString, int b1, int b2)
+string convert_base(const string& NumAsString, int b1, int b2)
 {
     bool is_negative = NumAsString.front() == '-';
     int NumAsInt = 0;
@@ -27,22 +27,23 @@ string ConvertBase(const string& NumAsString, int b1, int b2)
                                             : NumAsString[i] - 'A' + 10;
     }
     return (is_negative ? "-" : "") +
-           (NumAsInt == 0 ? "0" : ConstructFromBase(NumAsInt, b2));
+           (NumAsInt == 0 ? "0" : construct_from_base(NumAsInt, b2));
 }
 
-string ConstructFromBase(int NumAsInt, int base)
+string construct_from_base(int NumAsInt, int base)
 {
     return NumAsInt == 0
            ? ""
-           : ConstructFromBase(NumAsInt / base, base) +
+           : construct_from_base(NumAsInt / base, base) +
              (char) (NumAsInt % base >= 10 ? 'A' + NumAsInt % base - 10
                                            : '0' + NumAsInt % base);
 }
 // @exclude
 
-string RandIntString(int len)
+string rand_int_string(int len)
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     string ret;
     if (len == 0) {
         return {"0"};
@@ -64,20 +65,19 @@ int main(int argc, char* argv[])
 {
     if (argc == 4) {
         string input(argv[1]);
-        cout << ConvertBase(input, atoi(argv[2]), atoi(argv[3])) << "\n";
-        assert(input ==
-               ConvertBase(ConvertBase(input, atoi(argv[2]), atoi(argv[3])),
-                           atoi(argv[3]), atoi(argv[2])));
+        cout << convert_base(input, atoi(argv[2]), atoi(argv[3])) << "\n";
+        assert(input == convert_base(convert_base(input, atoi(argv[2]), atoi(argv[3])), atoi(argv[3]), atoi(argv[2])));
     } else {
-        default_random_engine gen((random_device()) ());
+        random_device rd;
+        default_random_engine gen(rd());
         for (int times = 0; times < 100000; ++times) {
             uniform_int_distribution<int> len_dis(1, 9);
-            string input = RandIntString(len_dis(gen));
+            string input = rand_int_string(len_dis(gen));
             uniform_int_distribution<int> base_dis(2, 16);
             int base = base_dis(gen);
             cout << "input is " << input << ", base1 = 10, base2 = " << base
-                 << ", result = " << ConvertBase(input, 10, base) << "\n";
-            assert(input == ConvertBase(ConvertBase(input, 10, base), base, 10));
+                 << ", result = " << convert_base(input, 10, base) << "\n";
+            assert(input == convert_base(convert_base(input, 10, base), base, 10));
         }
     }
     return 0;

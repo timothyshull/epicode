@@ -72,7 +72,7 @@ void SimpleTest()
 
 int main(int argc, char** argv)
 {
-    SimpleTest();
+    simple_test();
     default_random_engine gen((random_device()) ());
     uniform_int_distribution<size_t> dis(0, 1000);
     int n;

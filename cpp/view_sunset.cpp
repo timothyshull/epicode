@@ -19,7 +19,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-vector<int> ExamineBuildingsWithSunset(istringstream* sin)
+vector<int> examine_building_with_sunset(istringstream* sin)
 {
     int building_idx = 0, building_height;
     struct BuildingWithHeight {
@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
             heights.emplace_back(height);
         }
         istringstream sin(ss.str());
-        auto res = ExamineBuildingsWithSunset(&sin);
+        auto res = examine_building_with_sunset(&sin);
         cout << res[0] << ' ' << heights[res[0]] << "\n";
         for (int i = 1; i < res.size(); ++i) {
             cout << res[i] << ' ' << heights[res[i]] << "\n";

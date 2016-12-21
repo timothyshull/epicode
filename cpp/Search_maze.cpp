@@ -47,7 +47,7 @@ vector<Coordinate> SearchMaze(vector<vector<Color>> maze, const Coordinate& s,
     return path;  // Empty path means no path between s and e.
 }
 
-// Perform DFS to find a feasible path.
+// Perform dfs to find a feasible path.
 bool SearchMazeHelper(const Coordinate& cur, const Coordinate& e,
                       vector<vector<Color>>* maze, vector<Coordinate>* path)
 {

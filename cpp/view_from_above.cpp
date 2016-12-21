@@ -103,7 +103,7 @@ void SimpleTest()
 
 int main(int argc, char* argv[])
 {
-    SimpleTest();
+    simple_test();
     vector<LineSegment> A = {
             LineSegment{0, 4, 0, 0}, (LineSegment{1, 3, 1, 2}),
             (LineSegment{2, 7, 2, 1}), (LineSegment{4, 5, 3, 3}),
