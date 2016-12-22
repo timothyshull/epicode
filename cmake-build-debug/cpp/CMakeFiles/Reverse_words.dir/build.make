@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Reverse_words.dir/depend.make
+include cpp/CMakeFiles/reverse_words.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Reverse_words.dir/progress.make
+include cpp/CMakeFiles/reverse_words.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Reverse_words.dir/flags.make
+include cpp/CMakeFiles/reverse_words.dir/flags.make
 
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o: cpp/CMakeFiles/Reverse_words.dir/flags.make
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o: ../cpp/Reverse_words.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Reverse_words.cpp
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o: cpp/CMakeFiles/reverse_words.dir/flags.make
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o: ../cpp/reverse_words.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reverse_words.dir/reverse_words.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/reverse_words.cpp
 
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Reverse_words.dir/Reverse_words.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Reverse_words.cpp > CMakeFiles/Reverse_words.dir/Reverse_words.cpp.i
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reverse_words.dir/reverse_words.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/reverse_words.cpp > CMakeFiles/reverse_words.dir/reverse_words.cpp.i
 
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Reverse_words.dir/Reverse_words.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Reverse_words.cpp -o CMakeFiles/Reverse_words.dir/Reverse_words.cpp.s
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reverse_words.dir/reverse_words.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/reverse_words.cpp -o CMakeFiles/reverse_words.dir/reverse_words.cpp.s
 
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.requires:
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.requires
+.PHONY : cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.requires
 
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.provides: cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Reverse_words.dir/build.make cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.provides
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.provides: cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/reverse_words.dir/build.make cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.provides
 
-cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.provides.build: cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o
+cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.provides.build: cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o
 
 
-# Object files for target Reverse_words
-Reverse_words_OBJECTS = \
-"CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o"
+# Object files for target reverse_words
+reverse_words_OBJECTS = \
+"CMakeFiles/reverse_words.dir/reverse_words.cpp.o"
 
-# External object files for target Reverse_words
-Reverse_words_EXTERNAL_OBJECTS =
+# External object files for target reverse_words
+reverse_words_EXTERNAL_OBJECTS =
 
-cpp/Reverse_words: cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o
-cpp/Reverse_words: cpp/CMakeFiles/Reverse_words.dir/build.make
-cpp/Reverse_words: cpp/CMakeFiles/Reverse_words.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Reverse_words"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Reverse_words.dir/link.txt --verbose=$(VERBOSE)
+cpp/reverse_words: cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o
+cpp/reverse_words: cpp/CMakeFiles/reverse_words.dir/build.make
+cpp/reverse_words: cpp/CMakeFiles/reverse_words.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable reverse_words"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reverse_words.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Reverse_words.dir/build: cpp/Reverse_words
+cpp/CMakeFiles/reverse_words.dir/build: cpp/reverse_words
 
-.PHONY : cpp/CMakeFiles/Reverse_words.dir/build
+.PHONY : cpp/CMakeFiles/reverse_words.dir/build
 
-cpp/CMakeFiles/Reverse_words.dir/requires: cpp/CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o.requires
+cpp/CMakeFiles/reverse_words.dir/requires: cpp/CMakeFiles/reverse_words.dir/reverse_words.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Reverse_words.dir/requires
+.PHONY : cpp/CMakeFiles/reverse_words.dir/requires
 
-cpp/CMakeFiles/Reverse_words.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Reverse_words.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Reverse_words.dir/clean
+cpp/CMakeFiles/reverse_words.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/reverse_words.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/reverse_words.dir/clean
 
-cpp/CMakeFiles/Reverse_words.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Reverse_words.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Reverse_words.dir/depend
+cpp/CMakeFiles/reverse_words.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/reverse_words.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/reverse_words.dir/depend
 

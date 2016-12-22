@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Print_linked_list_reverse_order.dir/depend.make
+include cpp/CMakeFiles/print_linked_list_reverse_order.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Print_linked_list_reverse_order.dir/progress.make
+include cpp/CMakeFiles/print_linked_list_reverse_order.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Print_linked_list_reverse_order.dir/flags.make
+include cpp/CMakeFiles/print_linked_list_reverse_order.dir/flags.make
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/flags.make
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o: ../cpp/print_linked_list_reverse_order.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/print_linked_list_reverse_order.cpp
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o: cpp/CMakeFiles/print_linked_list_reverse_order.dir/flags.make
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o: ../cpp/print_linked_list_reverse_order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/print_linked_list_reverse_order.cpp
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/print_linked_list_reverse_order.cpp > CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.i
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/print_linked_list_reverse_order.cpp > CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.i
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/print_linked_list_reverse_order.cpp -o CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.s
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/print_linked_list_reverse_order.cpp -o CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.s
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires:
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires
+.PHONY : cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Print_linked_list_reverse_order.dir/build.make cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides: cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/print_linked_list_reverse_order.dir/build.make cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides.build: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.provides.build: cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o
 
 
-# Object files for target Print_linked_list_reverse_order
-Print_linked_list_reverse_order_OBJECTS = \
-"CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o"
+# Object files for target print_linked_list_reverse_order
+print_linked_list_reverse_order_OBJECTS = \
+"CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o"
 
-# External object files for target Print_linked_list_reverse_order
-Print_linked_list_reverse_order_EXTERNAL_OBJECTS =
+# External object files for target print_linked_list_reverse_order
+print_linked_list_reverse_order_EXTERNAL_OBJECTS =
 
-cpp/Print_linked_list_reverse_order: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o
-cpp/Print_linked_list_reverse_order: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/build.make
-cpp/Print_linked_list_reverse_order: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Print_linked_list_reverse_order"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Print_linked_list_reverse_order.dir/link.txt --verbose=$(VERBOSE)
+cpp/print_linked_list_reverse_order: cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o
+cpp/print_linked_list_reverse_order: cpp/CMakeFiles/print_linked_list_reverse_order.dir/build.make
+cpp/print_linked_list_reverse_order: cpp/CMakeFiles/print_linked_list_reverse_order.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable print_linked_list_reverse_order"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/print_linked_list_reverse_order.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/build: cpp/Print_linked_list_reverse_order
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/build: cpp/print_linked_list_reverse_order
 
-.PHONY : cpp/CMakeFiles/Print_linked_list_reverse_order.dir/build
+.PHONY : cpp/CMakeFiles/print_linked_list_reverse_order.dir/build
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/requires: cpp/CMakeFiles/Print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/requires: cpp/CMakeFiles/print_linked_list_reverse_order.dir/print_linked_list_reverse_order.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Print_linked_list_reverse_order.dir/requires
+.PHONY : cpp/CMakeFiles/print_linked_list_reverse_order.dir/requires
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Print_linked_list_reverse_order.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Print_linked_list_reverse_order.dir/clean
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/print_linked_list_reverse_order.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/print_linked_list_reverse_order.dir/clean
 
-cpp/CMakeFiles/Print_linked_list_reverse_order.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Print_linked_list_reverse_order.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Print_linked_list_reverse_order.dir/depend
+cpp/CMakeFiles/print_linked_list_reverse_order.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/print_linked_list_reverse_order.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/print_linked_list_reverse_order.dir/depend
 

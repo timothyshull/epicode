@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Road_network.dir/Road_network.cpp.o"
-  "Road_network.pdb"
-  "Road_network"
+  "CMakeFiles/road_network.dir/road_network.cpp.o"
+  "road_network.pdb"
+  "road_network"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Road_network.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/road_network.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Reverse_linked_list_from_s_to_f.dir/reverse_linked_list_from_s_to_f.cpp.o  -o Reverse_linked_list_from_s_to_f 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/reverse_linked_list_from_s_to_f.dir/reverse_linked_list_from_s_to_f.cpp.o  -o reverse_linked_list_from_s_to_f 

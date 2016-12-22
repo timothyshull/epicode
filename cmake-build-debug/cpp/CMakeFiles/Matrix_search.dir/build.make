@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Matrix_search.dir/depend.make
+include cpp/CMakeFiles/matrix_search.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Matrix_search.dir/progress.make
+include cpp/CMakeFiles/matrix_search.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Matrix_search.dir/flags.make
+include cpp/CMakeFiles/matrix_search.dir/flags.make
 
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o: cpp/CMakeFiles/Matrix_search.dir/flags.make
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o: ../cpp/Matrix_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Matrix_search.cpp
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o: cpp/CMakeFiles/matrix_search.dir/flags.make
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o: ../cpp/matrix_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/matrix_search.dir/matrix_search.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/matrix_search.cpp
 
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Matrix_search.dir/Matrix_search.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Matrix_search.cpp > CMakeFiles/Matrix_search.dir/Matrix_search.cpp.i
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/matrix_search.dir/matrix_search.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/matrix_search.cpp > CMakeFiles/matrix_search.dir/matrix_search.cpp.i
 
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Matrix_search.dir/Matrix_search.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Matrix_search.cpp -o CMakeFiles/Matrix_search.dir/Matrix_search.cpp.s
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/matrix_search.dir/matrix_search.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/matrix_search.cpp -o CMakeFiles/matrix_search.dir/matrix_search.cpp.s
 
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.requires:
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.requires
+.PHONY : cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.requires
 
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.provides: cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Matrix_search.dir/build.make cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.provides
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.provides: cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/matrix_search.dir/build.make cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.provides
 
-cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.provides.build: cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o
+cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.provides.build: cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o
 
 
-# Object files for target Matrix_search
-Matrix_search_OBJECTS = \
-"CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o"
+# Object files for target matrix_search
+matrix_search_OBJECTS = \
+"CMakeFiles/matrix_search.dir/matrix_search.cpp.o"
 
-# External object files for target Matrix_search
-Matrix_search_EXTERNAL_OBJECTS =
+# External object files for target matrix_search
+matrix_search_EXTERNAL_OBJECTS =
 
-cpp/Matrix_search: cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o
-cpp/Matrix_search: cpp/CMakeFiles/Matrix_search.dir/build.make
-cpp/Matrix_search: cpp/CMakeFiles/Matrix_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Matrix_search"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Matrix_search.dir/link.txt --verbose=$(VERBOSE)
+cpp/matrix_search: cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o
+cpp/matrix_search: cpp/CMakeFiles/matrix_search.dir/build.make
+cpp/matrix_search: cpp/CMakeFiles/matrix_search.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable matrix_search"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/matrix_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Matrix_search.dir/build: cpp/Matrix_search
+cpp/CMakeFiles/matrix_search.dir/build: cpp/matrix_search
 
-.PHONY : cpp/CMakeFiles/Matrix_search.dir/build
+.PHONY : cpp/CMakeFiles/matrix_search.dir/build
 
-cpp/CMakeFiles/Matrix_search.dir/requires: cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o.requires
+cpp/CMakeFiles/matrix_search.dir/requires: cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Matrix_search.dir/requires
+.PHONY : cpp/CMakeFiles/matrix_search.dir/requires
 
-cpp/CMakeFiles/Matrix_search.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Matrix_search.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Matrix_search.dir/clean
+cpp/CMakeFiles/matrix_search.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/matrix_search.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/matrix_search.dir/clean
 
-cpp/CMakeFiles/Matrix_search.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Matrix_search.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Matrix_search.dir/depend
+cpp/CMakeFiles/matrix_search.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/matrix_search.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/matrix_search.dir/depend
 

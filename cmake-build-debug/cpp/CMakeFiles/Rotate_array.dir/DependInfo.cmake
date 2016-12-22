@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Rotate_array.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Rotate_array.dir/Rotate_array.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/rotate_array.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/rotate_array.dir/rotate_array.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

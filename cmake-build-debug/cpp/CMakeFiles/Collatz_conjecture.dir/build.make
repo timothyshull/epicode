@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Collatz_conjecture.dir/depend.make
+include cpp/CMakeFiles/collatz_conjecture.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Collatz_conjecture.dir/progress.make
+include cpp/CMakeFiles/collatz_conjecture.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Collatz_conjecture.dir/flags.make
+include cpp/CMakeFiles/collatz_conjecture.dir/flags.make
 
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o: cpp/CMakeFiles/Collatz_conjecture.dir/flags.make
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o: ../cpp/Collatz_conjecture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Collatz_conjecture.cpp
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o: cpp/CMakeFiles/collatz_conjecture.dir/flags.make
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o: ../cpp/collatz_conjecture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/collatz_conjecture.cpp
 
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Collatz_conjecture.cpp > CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.i
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/collatz_conjecture.cpp > CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.i
 
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Collatz_conjecture.cpp -o CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.s
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/collatz_conjecture.cpp -o CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.s
 
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.requires:
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.requires
+.PHONY : cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.requires
 
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.provides: cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Collatz_conjecture.dir/build.make cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.provides
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.provides: cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/collatz_conjecture.dir/build.make cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.provides
 
-cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.provides.build: cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o
+cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.provides.build: cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o
 
 
-# Object files for target Collatz_conjecture
-Collatz_conjecture_OBJECTS = \
-"CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o"
+# Object files for target collatz_conjecture
+collatz_conjecture_OBJECTS = \
+"CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o"
 
-# External object files for target Collatz_conjecture
-Collatz_conjecture_EXTERNAL_OBJECTS =
+# External object files for target collatz_conjecture
+collatz_conjecture_EXTERNAL_OBJECTS =
 
-cpp/Collatz_conjecture: cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o
-cpp/Collatz_conjecture: cpp/CMakeFiles/Collatz_conjecture.dir/build.make
-cpp/Collatz_conjecture: cpp/CMakeFiles/Collatz_conjecture.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Collatz_conjecture"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Collatz_conjecture.dir/link.txt --verbose=$(VERBOSE)
+cpp/collatz_conjecture: cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o
+cpp/collatz_conjecture: cpp/CMakeFiles/collatz_conjecture.dir/build.make
+cpp/collatz_conjecture: cpp/CMakeFiles/collatz_conjecture.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable collatz_conjecture"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/collatz_conjecture.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Collatz_conjecture.dir/build: cpp/Collatz_conjecture
+cpp/CMakeFiles/collatz_conjecture.dir/build: cpp/collatz_conjecture
 
-.PHONY : cpp/CMakeFiles/Collatz_conjecture.dir/build
+.PHONY : cpp/CMakeFiles/collatz_conjecture.dir/build
 
-cpp/CMakeFiles/Collatz_conjecture.dir/requires: cpp/CMakeFiles/Collatz_conjecture.dir/Collatz_conjecture.cpp.o.requires
+cpp/CMakeFiles/collatz_conjecture.dir/requires: cpp/CMakeFiles/collatz_conjecture.dir/collatz_conjecture.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Collatz_conjecture.dir/requires
+.PHONY : cpp/CMakeFiles/collatz_conjecture.dir/requires
 
-cpp/CMakeFiles/Collatz_conjecture.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Collatz_conjecture.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Collatz_conjecture.dir/clean
+cpp/CMakeFiles/collatz_conjecture.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/collatz_conjecture.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/collatz_conjecture.dir/clean
 
-cpp/CMakeFiles/Collatz_conjecture.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Collatz_conjecture.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Collatz_conjecture.dir/depend
+cpp/CMakeFiles/collatz_conjecture.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/collatz_conjecture.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/collatz_conjecture.dir/depend
 

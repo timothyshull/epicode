@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Zipping_list.dir/depend.make
+include cpp/CMakeFiles/zipping_list.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Zipping_list.dir/progress.make
+include cpp/CMakeFiles/zipping_list.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Zipping_list.dir/flags.make
+include cpp/CMakeFiles/zipping_list.dir/flags.make
 
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o: cpp/CMakeFiles/Zipping_list.dir/flags.make
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o: ../cpp/Zipping_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Zipping_list.cpp
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o: cpp/CMakeFiles/zipping_list.dir/flags.make
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o: ../cpp/zipping_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/zipping_list.dir/zipping_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/zipping_list.cpp
 
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zipping_list.dir/Zipping_list.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Zipping_list.cpp > CMakeFiles/Zipping_list.dir/Zipping_list.cpp.i
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/zipping_list.dir/zipping_list.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/zipping_list.cpp > CMakeFiles/zipping_list.dir/zipping_list.cpp.i
 
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zipping_list.dir/Zipping_list.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Zipping_list.cpp -o CMakeFiles/Zipping_list.dir/Zipping_list.cpp.s
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/zipping_list.dir/zipping_list.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/zipping_list.cpp -o CMakeFiles/zipping_list.dir/zipping_list.cpp.s
 
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.requires:
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.requires
+.PHONY : cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.requires
 
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.provides: cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Zipping_list.dir/build.make cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.provides
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.provides: cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/zipping_list.dir/build.make cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.provides
 
-cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.provides.build: cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o
+cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.provides.build: cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o
 
 
-# Object files for target Zipping_list
-Zipping_list_OBJECTS = \
-"CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o"
+# Object files for target zipping_list
+zipping_list_OBJECTS = \
+"CMakeFiles/zipping_list.dir/zipping_list.cpp.o"
 
-# External object files for target Zipping_list
-Zipping_list_EXTERNAL_OBJECTS =
+# External object files for target zipping_list
+zipping_list_EXTERNAL_OBJECTS =
 
-cpp/Zipping_list: cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o
-cpp/Zipping_list: cpp/CMakeFiles/Zipping_list.dir/build.make
-cpp/Zipping_list: cpp/CMakeFiles/Zipping_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Zipping_list"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Zipping_list.dir/link.txt --verbose=$(VERBOSE)
+cpp/zipping_list: cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o
+cpp/zipping_list: cpp/CMakeFiles/zipping_list.dir/build.make
+cpp/zipping_list: cpp/CMakeFiles/zipping_list.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable zipping_list"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/zipping_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Zipping_list.dir/build: cpp/Zipping_list
+cpp/CMakeFiles/zipping_list.dir/build: cpp/zipping_list
 
-.PHONY : cpp/CMakeFiles/Zipping_list.dir/build
+.PHONY : cpp/CMakeFiles/zipping_list.dir/build
 
-cpp/CMakeFiles/Zipping_list.dir/requires: cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o.requires
+cpp/CMakeFiles/zipping_list.dir/requires: cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Zipping_list.dir/requires
+.PHONY : cpp/CMakeFiles/zipping_list.dir/requires
 
-cpp/CMakeFiles/Zipping_list.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Zipping_list.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Zipping_list.dir/clean
+cpp/CMakeFiles/zipping_list.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/zipping_list.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/zipping_list.dir/clean
 
-cpp/CMakeFiles/Zipping_list.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Zipping_list.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Zipping_list.dir/depend
+cpp/CMakeFiles/zipping_list.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/zipping_list.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/zipping_list.dir/depend
 

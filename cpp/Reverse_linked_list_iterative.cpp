@@ -4,8 +4,8 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
-#include "./Reverse_linked_list_iterative.h"
+#include "Linked_list_prototype.h"
+#include "Reverse_linked_list_iterative.h"
 
 using std::cout;
 using std::endl;
@@ -13,7 +13,7 @@ using std::make_shared;
 using std::shared_ptr;
 
 template<typename T>
-void Print(shared_ptr<ListNode<T>> head)
+void Print(shared_ptr<List_node<T>> head)
 {
     if (head) {
         cout << "(" << head->data << ")" << "\n";
@@ -23,18 +23,18 @@ void Print(shared_ptr<ListNode<T>> head)
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<ListNode<int>> L1 =
-            make_shared<ListNode<int>>(ListNode<int>{1, nullptr});
-    shared_ptr<ListNode<int>> L2 =
-            make_shared<ListNode<int>>(ListNode<int>{2, nullptr});
+    shared_ptr<List_node<int>> L1 =
+            make_shared<List_node<int>>(List_node<int>{1, nullptr});
+    shared_ptr<List_node<int>> L2 =
+            make_shared<List_node<int>>(List_node<int>{2, nullptr});
     L1->next = L2;
-    shared_ptr<ListNode<int>> L3 =
-            make_shared<ListNode<int>>(ListNode<int>{3, nullptr});
+    shared_ptr<List_node<int>> L3 =
+            make_shared<List_node<int>>(List_node<int>{3, nullptr});
     L2->next = L3;
 
     cout << "before reverse" << "\n";
     Print(L1);
-    shared_ptr<ListNode<int>> newhead = ReverseLinkedList(L1);
+    shared_ptr<List_node<int>> newhead = ReverseLinkedList(L1);
     cout << "\n" << "after reverse" << "\n";
     assert(newhead->data == 3 && newhead->next->data == 2 &&
            newhead->next->next->data == 1);

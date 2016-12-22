@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

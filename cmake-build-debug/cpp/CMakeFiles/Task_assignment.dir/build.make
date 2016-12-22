@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Task_assignment.dir/depend.make
+include cpp/CMakeFiles/task_assignment.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Task_assignment.dir/progress.make
+include cpp/CMakeFiles/task_assignment.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Task_assignment.dir/flags.make
+include cpp/CMakeFiles/task_assignment.dir/flags.make
 
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o: cpp/CMakeFiles/Task_assignment.dir/flags.make
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o: ../cpp/Task_assignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Task_assignment.cpp
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o: cpp/CMakeFiles/task_assignment.dir/flags.make
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o: ../cpp/task_assignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/task_assignment.dir/task_assignment.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/task_assignment.cpp
 
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Task_assignment.dir/Task_assignment.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Task_assignment.cpp > CMakeFiles/Task_assignment.dir/Task_assignment.cpp.i
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task_assignment.dir/task_assignment.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/task_assignment.cpp > CMakeFiles/task_assignment.dir/task_assignment.cpp.i
 
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Task_assignment.dir/Task_assignment.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Task_assignment.cpp -o CMakeFiles/Task_assignment.dir/Task_assignment.cpp.s
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task_assignment.dir/task_assignment.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/task_assignment.cpp -o CMakeFiles/task_assignment.dir/task_assignment.cpp.s
 
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.requires:
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.requires
+.PHONY : cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.requires
 
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.provides: cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Task_assignment.dir/build.make cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.provides
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.provides: cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/task_assignment.dir/build.make cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.provides
 
-cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.provides.build: cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o
+cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.provides.build: cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o
 
 
-# Object files for target Task_assignment
-Task_assignment_OBJECTS = \
-"CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o"
+# Object files for target task_assignment
+task_assignment_OBJECTS = \
+"CMakeFiles/task_assignment.dir/task_assignment.cpp.o"
 
-# External object files for target Task_assignment
-Task_assignment_EXTERNAL_OBJECTS =
+# External object files for target task_assignment
+task_assignment_EXTERNAL_OBJECTS =
 
-cpp/Task_assignment: cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o
-cpp/Task_assignment: cpp/CMakeFiles/Task_assignment.dir/build.make
-cpp/Task_assignment: cpp/CMakeFiles/Task_assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Task_assignment"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Task_assignment.dir/link.txt --verbose=$(VERBOSE)
+cpp/task_assignment: cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o
+cpp/task_assignment: cpp/CMakeFiles/task_assignment.dir/build.make
+cpp/task_assignment: cpp/CMakeFiles/task_assignment.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable task_assignment"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/task_assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Task_assignment.dir/build: cpp/Task_assignment
+cpp/CMakeFiles/task_assignment.dir/build: cpp/task_assignment
 
-.PHONY : cpp/CMakeFiles/Task_assignment.dir/build
+.PHONY : cpp/CMakeFiles/task_assignment.dir/build
 
-cpp/CMakeFiles/Task_assignment.dir/requires: cpp/CMakeFiles/Task_assignment.dir/Task_assignment.cpp.o.requires
+cpp/CMakeFiles/task_assignment.dir/requires: cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Task_assignment.dir/requires
+.PHONY : cpp/CMakeFiles/task_assignment.dir/requires
 
-cpp/CMakeFiles/Task_assignment.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Task_assignment.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Task_assignment.dir/clean
+cpp/CMakeFiles/task_assignment.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/task_assignment.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/task_assignment.dir/clean
 
-cpp/CMakeFiles/Task_assignment.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Task_assignment.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Task_assignment.dir/depend
+cpp/CMakeFiles/task_assignment.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/task_assignment.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/task_assignment.dir/depend
 

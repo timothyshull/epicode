@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Union_intervals.dir/depend.make
+include cpp/CMakeFiles/union_intervals.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Union_intervals.dir/progress.make
+include cpp/CMakeFiles/union_intervals.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Union_intervals.dir/flags.make
+include cpp/CMakeFiles/union_intervals.dir/flags.make
 
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o: cpp/CMakeFiles/Union_intervals.dir/flags.make
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o: ../cpp/Union_intervals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Union_intervals.cpp
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o: cpp/CMakeFiles/union_intervals.dir/flags.make
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o: ../cpp/union_intervals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/union_intervals.dir/union_intervals.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/union_intervals.cpp
 
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Union_intervals.dir/Union_intervals.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Union_intervals.cpp > CMakeFiles/Union_intervals.dir/Union_intervals.cpp.i
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/union_intervals.dir/union_intervals.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/union_intervals.cpp > CMakeFiles/union_intervals.dir/union_intervals.cpp.i
 
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Union_intervals.dir/Union_intervals.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Union_intervals.cpp -o CMakeFiles/Union_intervals.dir/Union_intervals.cpp.s
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/union_intervals.dir/union_intervals.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/union_intervals.cpp -o CMakeFiles/union_intervals.dir/union_intervals.cpp.s
 
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.requires:
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.requires
+.PHONY : cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.requires
 
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.provides: cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Union_intervals.dir/build.make cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.provides
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.provides: cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/union_intervals.dir/build.make cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.provides
 
-cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.provides.build: cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o
+cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.provides.build: cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o
 
 
-# Object files for target Union_intervals
-Union_intervals_OBJECTS = \
-"CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o"
+# Object files for target union_intervals
+union_intervals_OBJECTS = \
+"CMakeFiles/union_intervals.dir/union_intervals.cpp.o"
 
-# External object files for target Union_intervals
-Union_intervals_EXTERNAL_OBJECTS =
+# External object files for target union_intervals
+union_intervals_EXTERNAL_OBJECTS =
 
-cpp/Union_intervals: cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o
-cpp/Union_intervals: cpp/CMakeFiles/Union_intervals.dir/build.make
-cpp/Union_intervals: cpp/CMakeFiles/Union_intervals.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Union_intervals"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Union_intervals.dir/link.txt --verbose=$(VERBOSE)
+cpp/union_intervals: cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o
+cpp/union_intervals: cpp/CMakeFiles/union_intervals.dir/build.make
+cpp/union_intervals: cpp/CMakeFiles/union_intervals.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable union_intervals"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/union_intervals.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Union_intervals.dir/build: cpp/Union_intervals
+cpp/CMakeFiles/union_intervals.dir/build: cpp/union_intervals
 
-.PHONY : cpp/CMakeFiles/Union_intervals.dir/build
+.PHONY : cpp/CMakeFiles/union_intervals.dir/build
 
-cpp/CMakeFiles/Union_intervals.dir/requires: cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o.requires
+cpp/CMakeFiles/union_intervals.dir/requires: cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Union_intervals.dir/requires
+.PHONY : cpp/CMakeFiles/union_intervals.dir/requires
 
-cpp/CMakeFiles/Union_intervals.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Union_intervals.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Union_intervals.dir/clean
+cpp/CMakeFiles/union_intervals.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/union_intervals.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/union_intervals.dir/clean
 
-cpp/CMakeFiles/Union_intervals.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Union_intervals.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Union_intervals.dir/depend
+cpp/CMakeFiles/union_intervals.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/union_intervals.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/union_intervals.dir/depend
 

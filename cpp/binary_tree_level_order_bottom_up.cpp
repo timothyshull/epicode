@@ -6,7 +6,7 @@
 #include <queue>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -17,11 +17,11 @@ using std::vector;
 
 // @include
 vector<vector<int>> zigzag_level_order(
-        const unique_ptr<BinaryTreeNode<int>>& root)
+        const unique_ptr<Binary_tree_node<int>>& root)
 {
     vector<vector<int>> res;
     vector<int> one_level;
-    queue<BinaryTreeNode<int>*> curr_level, next_level;
+    queue<Binary_tree_node<int>*> curr_level, next_level;
     curr_level.emplace(root.get());
     while (!curr_level.empty()) {
         auto curr_node = curr_level.front();
@@ -46,18 +46,18 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    unique_ptr<BinaryTreeNode<int>> root = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{3, nullptr, nullptr});
-    root->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{2, nullptr, nullptr});
-    root->left->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr});
-    root->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{5, nullptr, nullptr});
-    root->right->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{4, nullptr, nullptr});
-    root->right->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{6, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{3, nullptr, nullptr});
+    root->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{2, nullptr, nullptr});
+    root->left->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr});
+    root->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{5, nullptr, nullptr});
+    root->right->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{4, nullptr, nullptr});
+    root->right->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{6, nullptr, nullptr});
     auto res = zigzag_level_order(root);
     vector<vector<int>> golden_res = {{1, 4, 6},
                                       {2, 5},

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Word_breaking_alternative.dir/depend.make
+include cpp/CMakeFiles/word_breaking_alternative.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Word_breaking_alternative.dir/progress.make
+include cpp/CMakeFiles/word_breaking_alternative.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Word_breaking_alternative.dir/flags.make
+include cpp/CMakeFiles/word_breaking_alternative.dir/flags.make
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o: cpp/CMakeFiles/Word_breaking_alternative.dir/flags.make
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o: ../cpp/Word_breaking_alternative.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Word_breaking_alternative.cpp
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o: cpp/CMakeFiles/word_breaking_alternative.dir/flags.make
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o: ../cpp/word_breaking_alternative.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/word_breaking_alternative.cpp
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Word_breaking_alternative.cpp > CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.i
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/word_breaking_alternative.cpp > CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.i
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Word_breaking_alternative.cpp -o CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.s
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/word_breaking_alternative.cpp -o CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.s
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.requires:
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.requires
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.requires
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.provides: cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Word_breaking_alternative.dir/build.make cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.provides
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.provides: cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/word_breaking_alternative.dir/build.make cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.provides
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.provides.build: cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o
+cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.provides.build: cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o
 
 
-# Object files for target Word_breaking_alternative
-Word_breaking_alternative_OBJECTS = \
-"CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o"
+# Object files for target word_breaking_alternative
+word_breaking_alternative_OBJECTS = \
+"CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o"
 
-# External object files for target Word_breaking_alternative
-Word_breaking_alternative_EXTERNAL_OBJECTS =
+# External object files for target word_breaking_alternative
+word_breaking_alternative_EXTERNAL_OBJECTS =
 
-cpp/Word_breaking_alternative: cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o
-cpp/Word_breaking_alternative: cpp/CMakeFiles/Word_breaking_alternative.dir/build.make
-cpp/Word_breaking_alternative: cpp/CMakeFiles/Word_breaking_alternative.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Word_breaking_alternative"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Word_breaking_alternative.dir/link.txt --verbose=$(VERBOSE)
+cpp/word_breaking_alternative: cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o
+cpp/word_breaking_alternative: cpp/CMakeFiles/word_breaking_alternative.dir/build.make
+cpp/word_breaking_alternative: cpp/CMakeFiles/word_breaking_alternative.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable word_breaking_alternative"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/word_breaking_alternative.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Word_breaking_alternative.dir/build: cpp/Word_breaking_alternative
+cpp/CMakeFiles/word_breaking_alternative.dir/build: cpp/word_breaking_alternative
 
-.PHONY : cpp/CMakeFiles/Word_breaking_alternative.dir/build
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/build
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/requires: cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o.requires
+cpp/CMakeFiles/word_breaking_alternative.dir/requires: cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Word_breaking_alternative.dir/requires
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/requires
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Word_breaking_alternative.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Word_breaking_alternative.dir/clean
+cpp/CMakeFiles/word_breaking_alternative.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/word_breaking_alternative.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/clean
 
-cpp/CMakeFiles/Word_breaking_alternative.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Word_breaking_alternative.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Word_breaking_alternative.dir/depend
+cpp/CMakeFiles/word_breaking_alternative.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/word_breaking_alternative.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/depend
 

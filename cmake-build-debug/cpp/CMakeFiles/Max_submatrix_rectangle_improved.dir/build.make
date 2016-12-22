@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/depend.make
+include cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/progress.make
+include cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/flags.make
+include cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/flags.make
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/flags.make
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o: ../cpp/Max_submatrix_rectangle_improved.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Max_submatrix_rectangle_improved.cpp
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/flags.make
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o: ../cpp/max_submatrix_rectangle_improved.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/max_submatrix_rectangle_improved.cpp
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Max_submatrix_rectangle_improved.cpp > CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.i
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/max_submatrix_rectangle_improved.cpp > CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.i
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Max_submatrix_rectangle_improved.cpp -o CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.s
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/max_submatrix_rectangle_improved.cpp -o CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.s
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.requires:
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.requires
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.requires
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.provides: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/build.make cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.provides
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.provides: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build.make cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.provides
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.provides.build: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.provides.build: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o
 
 
-# Object files for target Max_submatrix_rectangle_improved
-Max_submatrix_rectangle_improved_OBJECTS = \
-"CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o"
+# Object files for target max_submatrix_rectangle_improved
+max_submatrix_rectangle_improved_OBJECTS = \
+"CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o"
 
-# External object files for target Max_submatrix_rectangle_improved
-Max_submatrix_rectangle_improved_EXTERNAL_OBJECTS =
+# External object files for target max_submatrix_rectangle_improved
+max_submatrix_rectangle_improved_EXTERNAL_OBJECTS =
 
-cpp/Max_submatrix_rectangle_improved: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o
-cpp/Max_submatrix_rectangle_improved: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/build.make
-cpp/Max_submatrix_rectangle_improved: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Max_submatrix_rectangle_improved"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Max_submatrix_rectangle_improved.dir/link.txt --verbose=$(VERBOSE)
+cpp/max_submatrix_rectangle_improved: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o
+cpp/max_submatrix_rectangle_improved: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build.make
+cpp/max_submatrix_rectangle_improved: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable max_submatrix_rectangle_improved"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/max_submatrix_rectangle_improved.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/build: cpp/Max_submatrix_rectangle_improved
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build: cpp/max_submatrix_rectangle_improved
 
-.PHONY : cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/build
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/requires: cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/Max_submatrix_rectangle_improved.cpp.o.requires
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/requires: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/max_submatrix_rectangle_improved.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/requires
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/requires
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Max_submatrix_rectangle_improved.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/clean
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/max_submatrix_rectangle_improved.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/clean
 
-cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Max_submatrix_rectangle_improved.dir/depend
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/depend
 

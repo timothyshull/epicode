@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Gaussian_elimination.dir/depend.make
+include cpp/CMakeFiles/gaussian_elimination.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Gaussian_elimination.dir/progress.make
+include cpp/CMakeFiles/gaussian_elimination.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Gaussian_elimination.dir/flags.make
+include cpp/CMakeFiles/gaussian_elimination.dir/flags.make
 
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o: cpp/CMakeFiles/Gaussian_elimination.dir/flags.make
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o: ../cpp/Gaussian_elimination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_elimination.cpp
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o: cpp/CMakeFiles/gaussian_elimination.dir/flags.make
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o: ../cpp/gaussian_elimination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/gaussian_elimination.cpp
 
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_elimination.cpp > CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.i
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/gaussian_elimination.cpp > CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.i
 
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_elimination.cpp -o CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.s
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/gaussian_elimination.cpp -o CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.s
 
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.requires:
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.requires
+.PHONY : cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.requires
 
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.provides: cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Gaussian_elimination.dir/build.make cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.provides
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.provides: cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/gaussian_elimination.dir/build.make cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.provides
 
-cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.provides.build: cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o
+cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.provides.build: cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o
 
 
-# Object files for target Gaussian_elimination
-Gaussian_elimination_OBJECTS = \
-"CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o"
+# Object files for target gaussian_elimination
+gaussian_elimination_OBJECTS = \
+"CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o"
 
-# External object files for target Gaussian_elimination
-Gaussian_elimination_EXTERNAL_OBJECTS =
+# External object files for target gaussian_elimination
+gaussian_elimination_EXTERNAL_OBJECTS =
 
-cpp/Gaussian_elimination: cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o
-cpp/Gaussian_elimination: cpp/CMakeFiles/Gaussian_elimination.dir/build.make
-cpp/Gaussian_elimination: cpp/CMakeFiles/Gaussian_elimination.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Gaussian_elimination"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Gaussian_elimination.dir/link.txt --verbose=$(VERBOSE)
+cpp/gaussian_elimination: cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o
+cpp/gaussian_elimination: cpp/CMakeFiles/gaussian_elimination.dir/build.make
+cpp/gaussian_elimination: cpp/CMakeFiles/gaussian_elimination.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gaussian_elimination"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gaussian_elimination.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Gaussian_elimination.dir/build: cpp/Gaussian_elimination
+cpp/CMakeFiles/gaussian_elimination.dir/build: cpp/gaussian_elimination
 
-.PHONY : cpp/CMakeFiles/Gaussian_elimination.dir/build
+.PHONY : cpp/CMakeFiles/gaussian_elimination.dir/build
 
-cpp/CMakeFiles/Gaussian_elimination.dir/requires: cpp/CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o.requires
+cpp/CMakeFiles/gaussian_elimination.dir/requires: cpp/CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Gaussian_elimination.dir/requires
+.PHONY : cpp/CMakeFiles/gaussian_elimination.dir/requires
 
-cpp/CMakeFiles/Gaussian_elimination.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Gaussian_elimination.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Gaussian_elimination.dir/clean
+cpp/CMakeFiles/gaussian_elimination.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/gaussian_elimination.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/gaussian_elimination.dir/clean
 
-cpp/CMakeFiles/Gaussian_elimination.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Gaussian_elimination.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Gaussian_elimination.dir/depend
+cpp/CMakeFiles/gaussian_elimination.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/gaussian_elimination.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/gaussian_elimination.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Spiral_matrix_clockwise.dir/depend.make
+include cpp/CMakeFiles/spiral_matrix_clockwise.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Spiral_matrix_clockwise.dir/progress.make
+include cpp/CMakeFiles/spiral_matrix_clockwise.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Spiral_matrix_clockwise.dir/flags.make
+include cpp/CMakeFiles/spiral_matrix_clockwise.dir/flags.make
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/flags.make
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o: ../cpp/Spiral_matrix_clockwise.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Spiral_matrix_clockwise.cpp
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o: cpp/CMakeFiles/spiral_matrix_clockwise.dir/flags.make
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o: ../cpp/spiral_matrix_clockwise.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/spiral_matrix_clockwise.cpp
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Spiral_matrix_clockwise.cpp > CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.i
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/spiral_matrix_clockwise.cpp > CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.i
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Spiral_matrix_clockwise.cpp -o CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.s
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/spiral_matrix_clockwise.cpp -o CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.s
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.requires:
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.requires
+.PHONY : cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.requires
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.provides: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Spiral_matrix_clockwise.dir/build.make cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.provides
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.provides: cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/spiral_matrix_clockwise.dir/build.make cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.provides
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.provides.build: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.provides.build: cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o
 
 
-# Object files for target Spiral_matrix_clockwise
-Spiral_matrix_clockwise_OBJECTS = \
-"CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o"
+# Object files for target spiral_matrix_clockwise
+spiral_matrix_clockwise_OBJECTS = \
+"CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o"
 
-# External object files for target Spiral_matrix_clockwise
-Spiral_matrix_clockwise_EXTERNAL_OBJECTS =
+# External object files for target spiral_matrix_clockwise
+spiral_matrix_clockwise_EXTERNAL_OBJECTS =
 
-cpp/Spiral_matrix_clockwise: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o
-cpp/Spiral_matrix_clockwise: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/build.make
-cpp/Spiral_matrix_clockwise: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Spiral_matrix_clockwise"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spiral_matrix_clockwise.dir/link.txt --verbose=$(VERBOSE)
+cpp/spiral_matrix_clockwise: cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o
+cpp/spiral_matrix_clockwise: cpp/CMakeFiles/spiral_matrix_clockwise.dir/build.make
+cpp/spiral_matrix_clockwise: cpp/CMakeFiles/spiral_matrix_clockwise.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable spiral_matrix_clockwise"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spiral_matrix_clockwise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/build: cpp/Spiral_matrix_clockwise
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/build: cpp/spiral_matrix_clockwise
 
-.PHONY : cpp/CMakeFiles/Spiral_matrix_clockwise.dir/build
+.PHONY : cpp/CMakeFiles/spiral_matrix_clockwise.dir/build
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/requires: cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o.requires
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/requires: cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Spiral_matrix_clockwise.dir/requires
+.PHONY : cpp/CMakeFiles/spiral_matrix_clockwise.dir/requires
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Spiral_matrix_clockwise.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Spiral_matrix_clockwise.dir/clean
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/spiral_matrix_clockwise.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/spiral_matrix_clockwise.dir/clean
 
-cpp/CMakeFiles/Spiral_matrix_clockwise.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Spiral_matrix_clockwise.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Spiral_matrix_clockwise.dir/depend
+cpp/CMakeFiles/spiral_matrix_clockwise.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/spiral_matrix_clockwise.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/spiral_matrix_clockwise.dir/depend
 

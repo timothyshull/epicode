@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Swap_bits.dir/depend.make
+include cpp/CMakeFiles/swap_bits.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Swap_bits.dir/progress.make
+include cpp/CMakeFiles/swap_bits.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Swap_bits.dir/flags.make
+include cpp/CMakeFiles/swap_bits.dir/flags.make
 
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o: cpp/CMakeFiles/Swap_bits.dir/flags.make
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o: ../cpp/swap_bits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Swap_bits.dir/swap_bits.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o: cpp/CMakeFiles/swap_bits.dir/flags.make
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o: ../cpp/swap_bits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/swap_bits.dir/swap_bits.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp
 
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Swap_bits.dir/swap_bits.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp > CMakeFiles/Swap_bits.dir/swap_bits.cpp.i
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swap_bits.dir/swap_bits.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp > CMakeFiles/swap_bits.dir/swap_bits.cpp.i
 
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Swap_bits.dir/swap_bits.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp -o CMakeFiles/Swap_bits.dir/swap_bits.cpp.s
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swap_bits.dir/swap_bits.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.cpp -o CMakeFiles/swap_bits.dir/swap_bits.cpp.s
 
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.requires:
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.requires
+.PHONY : cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.requires
 
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.provides: cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Swap_bits.dir/build.make cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.provides
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.provides: cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/swap_bits.dir/build.make cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.provides
 
-cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.provides.build: cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o
+cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.provides.build: cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o
 
 
-# Object files for target Swap_bits
-Swap_bits_OBJECTS = \
-"CMakeFiles/Swap_bits.dir/swap_bits.cpp.o"
+# Object files for target swap_bits
+swap_bits_OBJECTS = \
+"CMakeFiles/swap_bits.dir/swap_bits.cpp.o"
 
-# External object files for target Swap_bits
-Swap_bits_EXTERNAL_OBJECTS =
+# External object files for target swap_bits
+swap_bits_EXTERNAL_OBJECTS =
 
-cpp/Swap_bits: cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o
-cpp/Swap_bits: cpp/CMakeFiles/Swap_bits.dir/build.make
-cpp/Swap_bits: cpp/CMakeFiles/Swap_bits.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Swap_bits"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Swap_bits.dir/link.txt --verbose=$(VERBOSE)
+cpp/swap_bits: cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o
+cpp/swap_bits: cpp/CMakeFiles/swap_bits.dir/build.make
+cpp/swap_bits: cpp/CMakeFiles/swap_bits.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable swap_bits"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/swap_bits.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Swap_bits.dir/build: cpp/Swap_bits
+cpp/CMakeFiles/swap_bits.dir/build: cpp/swap_bits
 
-.PHONY : cpp/CMakeFiles/Swap_bits.dir/build
+.PHONY : cpp/CMakeFiles/swap_bits.dir/build
 
-cpp/CMakeFiles/Swap_bits.dir/requires: cpp/CMakeFiles/Swap_bits.dir/swap_bits.cpp.o.requires
+cpp/CMakeFiles/swap_bits.dir/requires: cpp/CMakeFiles/swap_bits.dir/swap_bits.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Swap_bits.dir/requires
+.PHONY : cpp/CMakeFiles/swap_bits.dir/requires
 
-cpp/CMakeFiles/Swap_bits.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Swap_bits.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Swap_bits.dir/clean
+cpp/CMakeFiles/swap_bits.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/swap_bits.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/swap_bits.dir/clean
 
-cpp/CMakeFiles/Swap_bits.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Swap_bits.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Swap_bits.dir/depend
+cpp/CMakeFiles/swap_bits.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/swap_bits.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/swap_bits.dir/depend
 

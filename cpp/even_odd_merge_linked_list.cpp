@@ -6,7 +6,7 @@
 #include <memory>
 #include <random>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::array;
 using std::cout;
@@ -17,15 +17,15 @@ using std::random_device;
 using std::shared_ptr;
 using std::uniform_int_distribution;
 
-shared_ptr<ListNode<int>> EvenOddMergeOriginal(
-        const shared_ptr<ListNode<int>>& L)
+shared_ptr<List_node<int>> EvenOddMergeOriginal(
+        const shared_ptr<List_node<int>>& L)
 {
     if (!L) {
         return L;
     }
 
     auto even_list_head = L, even_list_iter = even_list_head;
-    shared_ptr<ListNode<int>> predecessor_even_list_iter = nullptr;
+    shared_ptr<List_node<int>> predecessor_even_list_iter = nullptr;
     auto odd_list_head = L->next, odd_list_iter = odd_list_head;
 
     while (even_list_iter && odd_list_iter) {
@@ -48,16 +48,16 @@ shared_ptr<ListNode<int>> EvenOddMergeOriginal(
 }
 
 // @include
-shared_ptr<ListNode<int>> EvenOddMerge(const shared_ptr<ListNode<int>>& L)
+shared_ptr<List_node<int>> EvenOddMerge(const shared_ptr<List_node<int>>& L)
 {
     if (L == nullptr) {
         return L;
     }
 
     auto even_dummy_head =
-            make_shared<ListNode<int>>(ListNode<int>{0, nullptr}),
-            odd_dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, nullptr});
-    array<shared_ptr<ListNode<int>>, 2> tails = {even_dummy_head,
+            make_shared<List_node<int>>(List_node<int>{0, nullptr}),
+            odd_dummy_head = make_shared<List_node<int>>(List_node<int>{0, nullptr});
+    array<shared_ptr<List_node<int>>, 2> tails = {even_dummy_head,
                                                  odd_dummy_head};
     int turn = 0;
     for (auto iter = L; iter; iter = iter->next) {
@@ -73,34 +73,34 @@ shared_ptr<ListNode<int>> EvenOddMerge(const shared_ptr<ListNode<int>>& L)
 
 void SimpleTest()
 {
-    auto L = make_shared<ListNode<int>>(ListNode<int>{0, nullptr});
+    auto L = make_shared<List_node<int>>(List_node<int>{0, nullptr});
     auto result = EvenOddMerge(L);
     assert(result->data == 0);
 
-    L->next = make_shared<ListNode<int>>(ListNode<int>{1, nullptr});
+    L->next = make_shared<List_node<int>>(List_node<int>{1, nullptr});
     result = EvenOddMerge(L);
     assert(result->data == 0);
     assert(result->next->data == 1);
 
-    L->next->next = make_shared<ListNode<int>>(ListNode<int>{2, nullptr});
+    L->next->next = make_shared<List_node<int>>(List_node<int>{2, nullptr});
     result = EvenOddMerge(L);
     assert(result->data == 0);
     assert(result->next->data == 2);
     assert(result->next->next->data == 1);
 }
 
-shared_ptr<ListNode<int>> CreateList(int n)
+shared_ptr<List_node<int>> CreateList(int n)
 {
-    shared_ptr<ListNode<int>> head = nullptr;
+    shared_ptr<List_node<int>> head = nullptr;
     for (int i = n - 1; i >= 0; --i) {
-        auto curr = make_shared<ListNode<int>>(ListNode<int>{i, nullptr});
+        auto curr = make_shared<List_node<int>>(List_node<int>{i, nullptr});
         curr->next = head;
         head = curr;
     }
     return head;
 }
 
-void CheckAnswer(const shared_ptr<ListNode<int>>& L, int n)
+void CheckAnswer(const shared_ptr<List_node<int>>& L, int n)
 {
     int x = 0, count = 0;
     auto iter = L;
@@ -128,9 +128,9 @@ int main(int argc, char* argv[])
         uniform_int_distribution<int> dis(1, 1000);
         n = dis(gen);
     }
-    shared_ptr<ListNode<int>> head = CreateList(n);
+    shared_ptr<List_node<int>> head = CreateList(n);
     CheckAnswer(EvenOddMerge(head), n);
-    shared_ptr<ListNode<int>> another_head = CreateList(n);
+    shared_ptr<List_node<int>> another_head = CreateList(n);
     CheckAnswer(EvenOddMergeOriginal(another_head), n);
     return 0;
 }

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Square_root.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Square_root.dir/Square_root.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/square_root.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/square_root.dir/square_root.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

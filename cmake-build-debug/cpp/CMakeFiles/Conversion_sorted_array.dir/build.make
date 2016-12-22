@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Conversion_sorted_array.dir/depend.make
+include cpp/CMakeFiles/conversion_sorted_array.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Conversion_sorted_array.dir/progress.make
+include cpp/CMakeFiles/conversion_sorted_array.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Conversion_sorted_array.dir/flags.make
+include cpp/CMakeFiles/conversion_sorted_array.dir/flags.make
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o: cpp/CMakeFiles/Conversion_sorted_array.dir/flags.make
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o: ../cpp/Conversion_sorted_array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Conversion_sorted_array.cpp
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o: cpp/CMakeFiles/conversion_sorted_array.dir/flags.make
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o: ../cpp/conversion_sorted_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/conversion_sorted_array.cpp
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Conversion_sorted_array.cpp > CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.i
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/conversion_sorted_array.cpp > CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.i
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Conversion_sorted_array.cpp -o CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.s
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/conversion_sorted_array.cpp -o CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.s
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.requires:
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.requires
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.requires
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.provides: cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Conversion_sorted_array.dir/build.make cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.provides
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.provides: cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/conversion_sorted_array.dir/build.make cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.provides
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.provides.build: cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o
+cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.provides.build: cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o
 
 
-# Object files for target Conversion_sorted_array
-Conversion_sorted_array_OBJECTS = \
-"CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o"
+# Object files for target conversion_sorted_array
+conversion_sorted_array_OBJECTS = \
+"CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o"
 
-# External object files for target Conversion_sorted_array
-Conversion_sorted_array_EXTERNAL_OBJECTS =
+# External object files for target conversion_sorted_array
+conversion_sorted_array_EXTERNAL_OBJECTS =
 
-cpp/Conversion_sorted_array: cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o
-cpp/Conversion_sorted_array: cpp/CMakeFiles/Conversion_sorted_array.dir/build.make
-cpp/Conversion_sorted_array: cpp/CMakeFiles/Conversion_sorted_array.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Conversion_sorted_array"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Conversion_sorted_array.dir/link.txt --verbose=$(VERBOSE)
+cpp/conversion_sorted_array: cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o
+cpp/conversion_sorted_array: cpp/CMakeFiles/conversion_sorted_array.dir/build.make
+cpp/conversion_sorted_array: cpp/CMakeFiles/conversion_sorted_array.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable conversion_sorted_array"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/conversion_sorted_array.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Conversion_sorted_array.dir/build: cpp/Conversion_sorted_array
+cpp/CMakeFiles/conversion_sorted_array.dir/build: cpp/conversion_sorted_array
 
-.PHONY : cpp/CMakeFiles/Conversion_sorted_array.dir/build
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/build
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/requires: cpp/CMakeFiles/Conversion_sorted_array.dir/Conversion_sorted_array.cpp.o.requires
+cpp/CMakeFiles/conversion_sorted_array.dir/requires: cpp/CMakeFiles/conversion_sorted_array.dir/conversion_sorted_array.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Conversion_sorted_array.dir/requires
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/requires
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Conversion_sorted_array.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Conversion_sorted_array.dir/clean
+cpp/CMakeFiles/conversion_sorted_array.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/conversion_sorted_array.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/clean
 
-cpp/CMakeFiles/Conversion_sorted_array.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Conversion_sorted_array.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Conversion_sorted_array.dir/depend
+cpp/CMakeFiles/conversion_sorted_array.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/conversion_sorted_array.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/depend
 

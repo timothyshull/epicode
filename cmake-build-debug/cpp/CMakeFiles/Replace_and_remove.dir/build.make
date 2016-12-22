@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Replace_and_remove.dir/depend.make
+include cpp/CMakeFiles/replace_and_remove.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Replace_and_remove.dir/progress.make
+include cpp/CMakeFiles/replace_and_remove.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Replace_and_remove.dir/flags.make
+include cpp/CMakeFiles/replace_and_remove.dir/flags.make
 
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o: cpp/CMakeFiles/Replace_and_remove.dir/flags.make
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o: ../cpp/Replace_and_remove.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Replace_and_remove.cpp
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o: cpp/CMakeFiles/replace_and_remove.dir/flags.make
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o: ../cpp/replace_and_remove.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/replace_and_remove.cpp
 
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Replace_and_remove.cpp > CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.i
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/replace_and_remove.cpp > CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.i
 
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Replace_and_remove.cpp -o CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.s
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/replace_and_remove.cpp -o CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.s
 
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.requires:
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.requires
+.PHONY : cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.requires
 
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.provides: cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Replace_and_remove.dir/build.make cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.provides
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.provides: cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/replace_and_remove.dir/build.make cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.provides
 
-cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.provides.build: cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o
+cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.provides.build: cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o
 
 
-# Object files for target Replace_and_remove
-Replace_and_remove_OBJECTS = \
-"CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o"
+# Object files for target replace_and_remove
+replace_and_remove_OBJECTS = \
+"CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o"
 
-# External object files for target Replace_and_remove
-Replace_and_remove_EXTERNAL_OBJECTS =
+# External object files for target replace_and_remove
+replace_and_remove_EXTERNAL_OBJECTS =
 
-cpp/Replace_and_remove: cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o
-cpp/Replace_and_remove: cpp/CMakeFiles/Replace_and_remove.dir/build.make
-cpp/Replace_and_remove: cpp/CMakeFiles/Replace_and_remove.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Replace_and_remove"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Replace_and_remove.dir/link.txt --verbose=$(VERBOSE)
+cpp/replace_and_remove: cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o
+cpp/replace_and_remove: cpp/CMakeFiles/replace_and_remove.dir/build.make
+cpp/replace_and_remove: cpp/CMakeFiles/replace_and_remove.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable replace_and_remove"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/replace_and_remove.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Replace_and_remove.dir/build: cpp/Replace_and_remove
+cpp/CMakeFiles/replace_and_remove.dir/build: cpp/replace_and_remove
 
-.PHONY : cpp/CMakeFiles/Replace_and_remove.dir/build
+.PHONY : cpp/CMakeFiles/replace_and_remove.dir/build
 
-cpp/CMakeFiles/Replace_and_remove.dir/requires: cpp/CMakeFiles/Replace_and_remove.dir/Replace_and_remove.cpp.o.requires
+cpp/CMakeFiles/replace_and_remove.dir/requires: cpp/CMakeFiles/replace_and_remove.dir/replace_and_remove.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Replace_and_remove.dir/requires
+.PHONY : cpp/CMakeFiles/replace_and_remove.dir/requires
 
-cpp/CMakeFiles/Replace_and_remove.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Replace_and_remove.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Replace_and_remove.dir/clean
+cpp/CMakeFiles/replace_and_remove.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/replace_and_remove.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/replace_and_remove.dir/clean
 
-cpp/CMakeFiles/Replace_and_remove.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Replace_and_remove.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Replace_and_remove.dir/depend
+cpp/CMakeFiles/replace_and_remove.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/replace_and_remove.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/replace_and_remove.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Computing_x_n.dir/depend.make
+include cpp/CMakeFiles/computing_x_n.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Computing_x_n.dir/progress.make
+include cpp/CMakeFiles/computing_x_n.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Computing_x_n.dir/flags.make
+include cpp/CMakeFiles/computing_x_n.dir/flags.make
 
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o: cpp/CMakeFiles/Computing_x_n.dir/flags.make
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o: ../cpp/Computing_x^n.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o" -c "/Users/skull/Programming/Interview/epicode-master/cpp/Computing_x^n.cpp"
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o: cpp/CMakeFiles/computing_x_n.dir/flags.make
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o: ../cpp/computing_x^n.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o "CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o" -c "/Users/skull/Programming/Interview/epicode-master/cpp/computing_x^n.cpp"
 
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/skull/Programming/Interview/epicode-master/cpp/Computing_x^n.cpp" > "CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.i"
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computing_x_n.dir/computing_x^n.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/skull/Programming/Interview/epicode-master/cpp/computing_x^n.cpp" > "CMakeFiles/computing_x_n.dir/computing_x^n.cpp.i"
 
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/skull/Programming/Interview/epicode-master/cpp/Computing_x^n.cpp" -o "CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.s"
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computing_x_n.dir/computing_x^n.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/skull/Programming/Interview/epicode-master/cpp/computing_x^n.cpp" -o "CMakeFiles/computing_x_n.dir/computing_x^n.cpp.s"
 
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.requires:
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.requires
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.requires
 
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.provides: cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Computing_x_n.dir/build.make "cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.provides.build"
-.PHONY : cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.provides
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.provides: cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/computing_x_n.dir/build.make "cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.provides.build"
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.provides
 
-cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.provides.build: cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o
+cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.provides.build: cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o
 
 
-# Object files for target Computing_x_n
-Computing_x_n_OBJECTS = \
-"CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o"
+# Object files for target computing_x_n
+computing_x_n_OBJECTS = \
+"CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o"
 
-# External object files for target Computing_x_n
-Computing_x_n_EXTERNAL_OBJECTS =
+# External object files for target computing_x_n
+computing_x_n_EXTERNAL_OBJECTS =
 
-cpp/Computing_x_n: cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o
-cpp/Computing_x_n: cpp/CMakeFiles/Computing_x_n.dir/build.make
-cpp/Computing_x_n: cpp/CMakeFiles/Computing_x_n.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Computing_x_n"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Computing_x_n.dir/link.txt --verbose=$(VERBOSE)
+cpp/computing_x_n: cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o
+cpp/computing_x_n: cpp/CMakeFiles/computing_x_n.dir/build.make
+cpp/computing_x_n: cpp/CMakeFiles/computing_x_n.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable computing_x_n"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/computing_x_n.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Computing_x_n.dir/build: cpp/Computing_x_n
+cpp/CMakeFiles/computing_x_n.dir/build: cpp/computing_x_n
 
-.PHONY : cpp/CMakeFiles/Computing_x_n.dir/build
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/build
 
-cpp/CMakeFiles/Computing_x_n.dir/requires: cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o.requires
+cpp/CMakeFiles/computing_x_n.dir/requires: cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Computing_x_n.dir/requires
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/requires
 
-cpp/CMakeFiles/Computing_x_n.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Computing_x_n.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Computing_x_n.dir/clean
+cpp/CMakeFiles/computing_x_n.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/computing_x_n.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/clean
 
-cpp/CMakeFiles/Computing_x_n.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Computing_x_n.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Computing_x_n.dir/depend
+cpp/CMakeFiles/computing_x_n.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/computing_x_n.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/depend
 

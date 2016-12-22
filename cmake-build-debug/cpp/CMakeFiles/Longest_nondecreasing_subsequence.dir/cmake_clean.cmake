@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Longest_nondecreasing_subsequence.dir/Longest_nondecreasing_subsequence.cpp.o"
-  "Longest_nondecreasing_subsequence.pdb"
-  "Longest_nondecreasing_subsequence"
+  "CMakeFiles/longest_nondecreasing_subsequence.dir/longest_nondecreasing_subsequence.cpp.o"
+  "longest_nondecreasing_subsequence.pdb"
+  "longest_nondecreasing_subsequence"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Longest_nondecreasing_subsequence.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/longest_nondecreasing_subsequence.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Descendant_and_ancestor.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/descendant_and_ancestor.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

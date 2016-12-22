@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Word_breaking.dir/Word_breaking.cpp.o"
-  "Word_breaking.pdb"
-  "Word_breaking"
+  "CMakeFiles/word_breaking.dir/word_breaking.cpp.o"
+  "word_breaking.pdb"
+  "word_breaking"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Word_breaking.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/word_breaking.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

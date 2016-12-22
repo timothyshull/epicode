@@ -5,7 +5,7 @@
 #include <memory>
 #include <vector>
 
-#include "./BST_prototype.h"
+#include "BST_prototype.h"
 
 using std::make_unique;
 using std::numeric_limits;

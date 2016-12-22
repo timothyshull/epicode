@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Three_jugs.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/three_jugs.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

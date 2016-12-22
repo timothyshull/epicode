@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Team_photo_2.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Team_photo_2.dir/Team_photo_2.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/team_photo_2.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/team_photo_2.dir/team_photo_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Triangle.dir/triangle.cpp.o"
-  "Triangle.pdb"
-  "Triangle"
+  "CMakeFiles/triangle.dir/triangle.cpp.o"
+  "triangle.pdb"
+  "triangle"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Triangle.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/triangle.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

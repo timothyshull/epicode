@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/depend.make
+include cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/progress.make
+include cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/flags.make
+include cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/flags.make
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/flags.make
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o: ../cpp/Maximum_subarray_in_circular_array_constant_space.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Maximum_subarray_in_circular_array_constant_space.cpp
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/flags.make
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o: ../cpp/maximum_subarray_in_circular_array_constant_space.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/maximum_subarray_in_circular_array_constant_space.cpp
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Maximum_subarray_in_circular_array_constant_space.cpp > CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.i
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/maximum_subarray_in_circular_array_constant_space.cpp > CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.i
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Maximum_subarray_in_circular_array_constant_space.cpp -o CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.s
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/maximum_subarray_in_circular_array_constant_space.cpp -o CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.s
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.requires:
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.requires
+.PHONY : cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.requires
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.provides: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/build.make cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.provides
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.provides: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/build.make cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.provides
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.provides.build: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.provides.build: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o
 
 
-# Object files for target Maximum_subarray_in_circular_array_constant_space
-Maximum_subarray_in_circular_array_constant_space_OBJECTS = \
-"CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o"
+# Object files for target maximum_subarray_in_circular_array_constant_space
+maximum_subarray_in_circular_array_constant_space_OBJECTS = \
+"CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o"
 
-# External object files for target Maximum_subarray_in_circular_array_constant_space
-Maximum_subarray_in_circular_array_constant_space_EXTERNAL_OBJECTS =
+# External object files for target maximum_subarray_in_circular_array_constant_space
+maximum_subarray_in_circular_array_constant_space_EXTERNAL_OBJECTS =
 
-cpp/Maximum_subarray_in_circular_array_constant_space: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o
-cpp/Maximum_subarray_in_circular_array_constant_space: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/build.make
-cpp/Maximum_subarray_in_circular_array_constant_space: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Maximum_subarray_in_circular_array_constant_space"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/link.txt --verbose=$(VERBOSE)
+cpp/maximum_subarray_in_circular_array_constant_space: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o
+cpp/maximum_subarray_in_circular_array_constant_space: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/build.make
+cpp/maximum_subarray_in_circular_array_constant_space: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable maximum_subarray_in_circular_array_constant_space"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/build: cpp/Maximum_subarray_in_circular_array_constant_space
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/build: cpp/maximum_subarray_in_circular_array_constant_space
 
-.PHONY : cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/build
+.PHONY : cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/build
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/requires: cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/Maximum_subarray_in_circular_array_constant_space.cpp.o.requires
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/requires: cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/maximum_subarray_in_circular_array_constant_space.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/requires
+.PHONY : cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/requires
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/clean
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/clean
 
-cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Maximum_subarray_in_circular_array_constant_space.dir/depend
+cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/maximum_subarray_in_circular_array_constant_space.dir/depend
 

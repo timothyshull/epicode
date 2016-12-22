@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Power_set_alternative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/power_set_alternative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Connect_leaves_binary_tree.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/connect_leaves_binary_tree.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

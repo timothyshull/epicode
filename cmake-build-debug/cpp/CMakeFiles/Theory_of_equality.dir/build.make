@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Theory_of_equality.dir/depend.make
+include cpp/CMakeFiles/theory_of_equality.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Theory_of_equality.dir/progress.make
+include cpp/CMakeFiles/theory_of_equality.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Theory_of_equality.dir/flags.make
+include cpp/CMakeFiles/theory_of_equality.dir/flags.make
 
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o: cpp/CMakeFiles/Theory_of_equality.dir/flags.make
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o: ../cpp/Theory_of_equality.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Theory_of_equality.cpp
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o: cpp/CMakeFiles/theory_of_equality.dir/flags.make
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o: ../cpp/theory_of_equality.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/theory_of_equality.cpp
 
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Theory_of_equality.cpp > CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.i
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/theory_of_equality.cpp > CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.i
 
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Theory_of_equality.cpp -o CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.s
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/theory_of_equality.cpp -o CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.s
 
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.requires:
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.requires
+.PHONY : cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.requires
 
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.provides: cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Theory_of_equality.dir/build.make cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.provides
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.provides: cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/theory_of_equality.dir/build.make cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.provides
 
-cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.provides.build: cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o
+cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.provides.build: cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o
 
 
-# Object files for target Theory_of_equality
-Theory_of_equality_OBJECTS = \
-"CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o"
+# Object files for target theory_of_equality
+theory_of_equality_OBJECTS = \
+"CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o"
 
-# External object files for target Theory_of_equality
-Theory_of_equality_EXTERNAL_OBJECTS =
+# External object files for target theory_of_equality
+theory_of_equality_EXTERNAL_OBJECTS =
 
-cpp/Theory_of_equality: cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o
-cpp/Theory_of_equality: cpp/CMakeFiles/Theory_of_equality.dir/build.make
-cpp/Theory_of_equality: cpp/CMakeFiles/Theory_of_equality.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Theory_of_equality"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Theory_of_equality.dir/link.txt --verbose=$(VERBOSE)
+cpp/theory_of_equality: cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o
+cpp/theory_of_equality: cpp/CMakeFiles/theory_of_equality.dir/build.make
+cpp/theory_of_equality: cpp/CMakeFiles/theory_of_equality.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable theory_of_equality"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/theory_of_equality.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Theory_of_equality.dir/build: cpp/Theory_of_equality
+cpp/CMakeFiles/theory_of_equality.dir/build: cpp/theory_of_equality
 
-.PHONY : cpp/CMakeFiles/Theory_of_equality.dir/build
+.PHONY : cpp/CMakeFiles/theory_of_equality.dir/build
 
-cpp/CMakeFiles/Theory_of_equality.dir/requires: cpp/CMakeFiles/Theory_of_equality.dir/Theory_of_equality.cpp.o.requires
+cpp/CMakeFiles/theory_of_equality.dir/requires: cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Theory_of_equality.dir/requires
+.PHONY : cpp/CMakeFiles/theory_of_equality.dir/requires
 
-cpp/CMakeFiles/Theory_of_equality.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Theory_of_equality.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Theory_of_equality.dir/clean
+cpp/CMakeFiles/theory_of_equality.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/theory_of_equality.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/theory_of_equality.dir/clean
 
-cpp/CMakeFiles/Theory_of_equality.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Theory_of_equality.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Theory_of_equality.dir/depend
+cpp/CMakeFiles/theory_of_equality.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/theory_of_equality.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/theory_of_equality.dir/depend
 

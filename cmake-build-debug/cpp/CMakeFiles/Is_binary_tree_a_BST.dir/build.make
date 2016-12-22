@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Is_binary_tree_a_BST.dir/depend.make
+include cpp/CMakeFiles/is_binary_tree_a_bst.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Is_binary_tree_a_BST.dir/progress.make
+include cpp/CMakeFiles/is_binary_tree_a_bst.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Is_binary_tree_a_BST.dir/flags.make
+include cpp/CMakeFiles/is_binary_tree_a_bst.dir/flags.make
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/flags.make
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o: ../cpp/is_binary_tree_a_BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_BST.cpp
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o: cpp/CMakeFiles/is_binary_tree_a_bst.dir/flags.make
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o: ../cpp/is_binary_tree_a_bst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_bst.cpp
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_BST.cpp > CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.i
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_bst.cpp > CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.i
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_BST.cpp -o CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.s
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_bst.cpp -o CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.s
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.requires:
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.requires
+.PHONY : cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.requires
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.provides: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Is_binary_tree_a_BST.dir/build.make cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.provides
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.provides: cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/is_binary_tree_a_bst.dir/build.make cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.provides
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.provides.build: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.provides.build: cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o
 
 
-# Object files for target Is_binary_tree_a_BST
-Is_binary_tree_a_BST_OBJECTS = \
-"CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o"
+# Object files for target is_binary_tree_a_bst
+is_binary_tree_a_bst_OBJECTS = \
+"CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o"
 
-# External object files for target Is_binary_tree_a_BST
-Is_binary_tree_a_BST_EXTERNAL_OBJECTS =
+# External object files for target is_binary_tree_a_bst
+is_binary_tree_a_bst_EXTERNAL_OBJECTS =
 
-cpp/Is_binary_tree_a_BST: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o
-cpp/Is_binary_tree_a_BST: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/build.make
-cpp/Is_binary_tree_a_BST: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Is_binary_tree_a_BST"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Is_binary_tree_a_BST.dir/link.txt --verbose=$(VERBOSE)
+cpp/is_binary_tree_a_bst: cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o
+cpp/is_binary_tree_a_bst: cpp/CMakeFiles/is_binary_tree_a_bst.dir/build.make
+cpp/is_binary_tree_a_bst: cpp/CMakeFiles/is_binary_tree_a_bst.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable is_binary_tree_a_bst"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/is_binary_tree_a_bst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/build: cpp/Is_binary_tree_a_BST
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/build: cpp/is_binary_tree_a_bst
 
-.PHONY : cpp/CMakeFiles/Is_binary_tree_a_BST.dir/build
+.PHONY : cpp/CMakeFiles/is_binary_tree_a_bst.dir/build
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/requires: cpp/CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o.requires
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/requires: cpp/CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Is_binary_tree_a_BST.dir/requires
+.PHONY : cpp/CMakeFiles/is_binary_tree_a_bst.dir/requires
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Is_binary_tree_a_BST.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Is_binary_tree_a_BST.dir/clean
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/is_binary_tree_a_bst.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/is_binary_tree_a_bst.dir/clean
 
-cpp/CMakeFiles/Is_binary_tree_a_BST.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Is_binary_tree_a_BST.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Is_binary_tree_a_BST.dir/depend
+cpp/CMakeFiles/is_binary_tree_a_bst.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/is_binary_tree_a_bst.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/is_binary_tree_a_bst.dir/depend
 

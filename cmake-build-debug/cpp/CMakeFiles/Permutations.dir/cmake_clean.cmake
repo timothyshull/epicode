@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Permutations.dir/permutations.cpp.o"
-  "Permutations.pdb"
-  "Permutations"
+  "CMakeFiles/permutations.dir/permutations.cpp.o"
+  "permutations.pdb"
+  "permutations"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Permutations.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/permutations.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

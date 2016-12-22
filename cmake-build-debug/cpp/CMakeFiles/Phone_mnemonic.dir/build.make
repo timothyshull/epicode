@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Phone_mnemonic.dir/depend.make
+include cpp/CMakeFiles/phone_mnemonic.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Phone_mnemonic.dir/progress.make
+include cpp/CMakeFiles/phone_mnemonic.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Phone_mnemonic.dir/flags.make
+include cpp/CMakeFiles/phone_mnemonic.dir/flags.make
 
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o: cpp/CMakeFiles/Phone_mnemonic.dir/flags.make
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o: ../cpp/Phone_mnemonic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Phone_mnemonic.cpp
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o: cpp/CMakeFiles/phone_mnemonic.dir/flags.make
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o: ../cpp/phone_mnemonic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/phone_mnemonic.cpp
 
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Phone_mnemonic.cpp > CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.i
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/phone_mnemonic.cpp > CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.i
 
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Phone_mnemonic.cpp -o CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.s
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/phone_mnemonic.cpp -o CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.s
 
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.requires:
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.requires
+.PHONY : cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.requires
 
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.provides: cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Phone_mnemonic.dir/build.make cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.provides
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.provides: cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/phone_mnemonic.dir/build.make cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.provides
 
-cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.provides.build: cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o
+cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.provides.build: cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o
 
 
-# Object files for target Phone_mnemonic
-Phone_mnemonic_OBJECTS = \
-"CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o"
+# Object files for target phone_mnemonic
+phone_mnemonic_OBJECTS = \
+"CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o"
 
-# External object files for target Phone_mnemonic
-Phone_mnemonic_EXTERNAL_OBJECTS =
+# External object files for target phone_mnemonic
+phone_mnemonic_EXTERNAL_OBJECTS =
 
-cpp/Phone_mnemonic: cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o
-cpp/Phone_mnemonic: cpp/CMakeFiles/Phone_mnemonic.dir/build.make
-cpp/Phone_mnemonic: cpp/CMakeFiles/Phone_mnemonic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Phone_mnemonic"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Phone_mnemonic.dir/link.txt --verbose=$(VERBOSE)
+cpp/phone_mnemonic: cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o
+cpp/phone_mnemonic: cpp/CMakeFiles/phone_mnemonic.dir/build.make
+cpp/phone_mnemonic: cpp/CMakeFiles/phone_mnemonic.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable phone_mnemonic"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/phone_mnemonic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Phone_mnemonic.dir/build: cpp/Phone_mnemonic
+cpp/CMakeFiles/phone_mnemonic.dir/build: cpp/phone_mnemonic
 
-.PHONY : cpp/CMakeFiles/Phone_mnemonic.dir/build
+.PHONY : cpp/CMakeFiles/phone_mnemonic.dir/build
 
-cpp/CMakeFiles/Phone_mnemonic.dir/requires: cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o.requires
+cpp/CMakeFiles/phone_mnemonic.dir/requires: cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Phone_mnemonic.dir/requires
+.PHONY : cpp/CMakeFiles/phone_mnemonic.dir/requires
 
-cpp/CMakeFiles/Phone_mnemonic.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Phone_mnemonic.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Phone_mnemonic.dir/clean
+cpp/CMakeFiles/phone_mnemonic.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/phone_mnemonic.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/phone_mnemonic.dir/clean
 
-cpp/CMakeFiles/Phone_mnemonic.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Phone_mnemonic.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Phone_mnemonic.dir/depend
+cpp/CMakeFiles/phone_mnemonic.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/phone_mnemonic.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/phone_mnemonic.dir/depend
 

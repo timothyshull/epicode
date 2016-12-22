@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Reservoir_sampling.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Reservoir_sampling.dir/Reservoir_sampling.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/reservoir_sampling.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/reservoir_sampling.dir/reservoir_sampling.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

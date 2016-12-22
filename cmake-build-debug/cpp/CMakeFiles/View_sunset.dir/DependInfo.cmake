@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/View_sunset.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/View_sunset.dir/View_sunset.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/view_sunset.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/view_sunset.dir/view_sunset.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

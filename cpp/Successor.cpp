@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Binary_tree_with_parent_prototype.h"
+#include "Binary_tree_with_parent_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,8 +12,8 @@ using std::make_unique;
 using std::unique_ptr;
 
 // @include
-BinaryTreeNode<int>* FindSuccessor(
-        const unique_ptr<BinaryTreeNode<int>>& node)
+Binary_tree_node<int>* FindSuccessor(
+        const unique_ptr<Binary_tree_node<int>>& node)
 {
     auto* iter = node.get();
     if (iter->right != nullptr) {
@@ -40,25 +40,25 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4  6
-    auto root = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{3});
+    auto root = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{3});
     root->parent = nullptr;
     assert(FindSuccessor(root) == nullptr);
-    root->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{2});
+    root->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{2});
     root->left->parent = root.get();
     assert(FindSuccessor(root->left)->data == 3);
 
-    root->left->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{1});
+    root->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{1});
     root->left->left->parent = root->left.get();
     assert(FindSuccessor(root->left)->data == 3);
     assert(FindSuccessor(root->left->left)->data == 2);
 
-    root->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{5});
+    root->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{5});
     root->right->parent = root.get();
     root->right->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{4});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{4});
     root->right->left->parent = root->right.get();
     root->right->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{6});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6});
     root->right->right->parent = root->right.get();
     // should output 6
     auto* node = FindSuccessor(root->right);

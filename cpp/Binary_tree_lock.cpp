@@ -11,7 +11,7 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-class BinaryTreeNode {
+class Binary_tree_node {
 public:
     bool IsLocked() const { return locked_; }
 
@@ -50,14 +50,14 @@ public:
     }
 
     // @exclude
-    shared_ptr<BinaryTreeNode>& left() { return left_; }
+    shared_ptr<Binary_tree_node>& left() { return left_; }
 
-    shared_ptr<BinaryTreeNode>& right() { return right_; }
+    shared_ptr<Binary_tree_node>& right() { return right_; }
 
-    shared_ptr<BinaryTreeNode>& parent() { return parent_; }
+    shared_ptr<Binary_tree_node>& parent() { return parent_; }
     // @include
 private:
-    shared_ptr<BinaryTreeNode> left_, right_, parent_;
+    shared_ptr<Binary_tree_node> left_, right_, parent_;
 
     bool locked_ = false;
     int numLockedDescendants_ = 0;
@@ -66,14 +66,14 @@ private:
 
 int main(int argc, char* argv[])
 {
-    auto root = make_shared<BinaryTreeNode>(BinaryTreeNode());
-    root->left() = make_shared<BinaryTreeNode>(BinaryTreeNode());
+    auto root = make_shared<Binary_tree_node>(Binary_tree_node());
+    root->left() = make_shared<Binary_tree_node>(Binary_tree_node());
     root->left()->parent() = root;
-    root->right() = make_shared<BinaryTreeNode>(BinaryTreeNode());
+    root->right() = make_shared<Binary_tree_node>(Binary_tree_node());
     root->right()->parent() = root;
-    root->left()->left() = make_shared<BinaryTreeNode>(BinaryTreeNode());
+    root->left()->left() = make_shared<Binary_tree_node>(Binary_tree_node());
     root->left()->left()->parent() = root->left();
-    root->left()->right() = make_shared<BinaryTreeNode>(BinaryTreeNode());
+    root->left()->right() = make_shared<Binary_tree_node>(Binary_tree_node());
     root->left()->right()->parent() = root->left();
 
     assert(!root->IsLocked());

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Convert_base.dir/depend.make
+include cpp/CMakeFiles/convert_base.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Convert_base.dir/progress.make
+include cpp/CMakeFiles/convert_base.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Convert_base.dir/flags.make
+include cpp/CMakeFiles/convert_base.dir/flags.make
 
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o: cpp/CMakeFiles/Convert_base.dir/flags.make
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o: ../cpp/Convert_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Convert_base.dir/Convert_base.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Convert_base.cpp
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o: cpp/CMakeFiles/convert_base.dir/flags.make
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o: ../cpp/convert_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/convert_base.dir/convert_base.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/convert_base.cpp
 
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Convert_base.dir/Convert_base.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Convert_base.cpp > CMakeFiles/Convert_base.dir/Convert_base.cpp.i
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convert_base.dir/convert_base.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/convert_base.cpp > CMakeFiles/convert_base.dir/convert_base.cpp.i
 
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Convert_base.dir/Convert_base.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Convert_base.cpp -o CMakeFiles/Convert_base.dir/Convert_base.cpp.s
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convert_base.dir/convert_base.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/convert_base.cpp -o CMakeFiles/convert_base.dir/convert_base.cpp.s
 
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.requires:
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.requires
+.PHONY : cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.requires
 
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.provides: cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Convert_base.dir/build.make cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.provides
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.provides: cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/convert_base.dir/build.make cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.provides
 
-cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.provides.build: cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o
+cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.provides.build: cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o
 
 
-# Object files for target Convert_base
-Convert_base_OBJECTS = \
-"CMakeFiles/Convert_base.dir/Convert_base.cpp.o"
+# Object files for target convert_base
+convert_base_OBJECTS = \
+"CMakeFiles/convert_base.dir/convert_base.cpp.o"
 
-# External object files for target Convert_base
-Convert_base_EXTERNAL_OBJECTS =
+# External object files for target convert_base
+convert_base_EXTERNAL_OBJECTS =
 
-cpp/Convert_base: cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o
-cpp/Convert_base: cpp/CMakeFiles/Convert_base.dir/build.make
-cpp/Convert_base: cpp/CMakeFiles/Convert_base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Convert_base"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Convert_base.dir/link.txt --verbose=$(VERBOSE)
+cpp/convert_base: cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o
+cpp/convert_base: cpp/CMakeFiles/convert_base.dir/build.make
+cpp/convert_base: cpp/CMakeFiles/convert_base.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable convert_base"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/convert_base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Convert_base.dir/build: cpp/Convert_base
+cpp/CMakeFiles/convert_base.dir/build: cpp/convert_base
 
-.PHONY : cpp/CMakeFiles/Convert_base.dir/build
+.PHONY : cpp/CMakeFiles/convert_base.dir/build
 
-cpp/CMakeFiles/Convert_base.dir/requires: cpp/CMakeFiles/Convert_base.dir/Convert_base.cpp.o.requires
+cpp/CMakeFiles/convert_base.dir/requires: cpp/CMakeFiles/convert_base.dir/convert_base.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Convert_base.dir/requires
+.PHONY : cpp/CMakeFiles/convert_base.dir/requires
 
-cpp/CMakeFiles/Convert_base.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Convert_base.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Convert_base.dir/clean
+cpp/CMakeFiles/convert_base.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/convert_base.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/convert_base.dir/clean
 
-cpp/CMakeFiles/Convert_base.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Convert_base.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Convert_base.dir/depend
+cpp/CMakeFiles/convert_base.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/convert_base.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/convert_base.dir/depend
 

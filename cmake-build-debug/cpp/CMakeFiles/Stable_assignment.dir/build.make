@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Stable_assignment.dir/depend.make
+include cpp/CMakeFiles/stable_assignment.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Stable_assignment.dir/progress.make
+include cpp/CMakeFiles/stable_assignment.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Stable_assignment.dir/flags.make
+include cpp/CMakeFiles/stable_assignment.dir/flags.make
 
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o: cpp/CMakeFiles/Stable_assignment.dir/flags.make
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o: ../cpp/Stable_assignment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Stable_assignment.cpp
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o: cpp/CMakeFiles/stable_assignment.dir/flags.make
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o: ../cpp/stable_assignment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/stable_assignment.cpp
 
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Stable_assignment.cpp > CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.i
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stable_assignment.dir/stable_assignment.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/stable_assignment.cpp > CMakeFiles/stable_assignment.dir/stable_assignment.cpp.i
 
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Stable_assignment.cpp -o CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.s
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stable_assignment.dir/stable_assignment.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/stable_assignment.cpp -o CMakeFiles/stable_assignment.dir/stable_assignment.cpp.s
 
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.requires:
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.requires
+.PHONY : cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.requires
 
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.provides: cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Stable_assignment.dir/build.make cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.provides
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.provides: cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/stable_assignment.dir/build.make cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.provides
 
-cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.provides.build: cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o
+cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.provides.build: cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o
 
 
-# Object files for target Stable_assignment
-Stable_assignment_OBJECTS = \
-"CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o"
+# Object files for target stable_assignment
+stable_assignment_OBJECTS = \
+"CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o"
 
-# External object files for target Stable_assignment
-Stable_assignment_EXTERNAL_OBJECTS =
+# External object files for target stable_assignment
+stable_assignment_EXTERNAL_OBJECTS =
 
-cpp/Stable_assignment: cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o
-cpp/Stable_assignment: cpp/CMakeFiles/Stable_assignment.dir/build.make
-cpp/Stable_assignment: cpp/CMakeFiles/Stable_assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Stable_assignment"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Stable_assignment.dir/link.txt --verbose=$(VERBOSE)
+cpp/stable_assignment: cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o
+cpp/stable_assignment: cpp/CMakeFiles/stable_assignment.dir/build.make
+cpp/stable_assignment: cpp/CMakeFiles/stable_assignment.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stable_assignment"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stable_assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Stable_assignment.dir/build: cpp/Stable_assignment
+cpp/CMakeFiles/stable_assignment.dir/build: cpp/stable_assignment
 
-.PHONY : cpp/CMakeFiles/Stable_assignment.dir/build
+.PHONY : cpp/CMakeFiles/stable_assignment.dir/build
 
-cpp/CMakeFiles/Stable_assignment.dir/requires: cpp/CMakeFiles/Stable_assignment.dir/Stable_assignment.cpp.o.requires
+cpp/CMakeFiles/stable_assignment.dir/requires: cpp/CMakeFiles/stable_assignment.dir/stable_assignment.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Stable_assignment.dir/requires
+.PHONY : cpp/CMakeFiles/stable_assignment.dir/requires
 
-cpp/CMakeFiles/Stable_assignment.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Stable_assignment.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Stable_assignment.dir/clean
+cpp/CMakeFiles/stable_assignment.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/stable_assignment.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/stable_assignment.dir/clean
 
-cpp/CMakeFiles/Stable_assignment.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Stable_assignment.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Stable_assignment.dir/depend
+cpp/CMakeFiles/stable_assignment.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/stable_assignment.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/stable_assignment.dir/depend
 

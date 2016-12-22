@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/String_in_matrix.dir/depend.make
+include cpp/CMakeFiles/string_in_matrix.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/String_in_matrix.dir/progress.make
+include cpp/CMakeFiles/string_in_matrix.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/String_in_matrix.dir/flags.make
+include cpp/CMakeFiles/string_in_matrix.dir/flags.make
 
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o: cpp/CMakeFiles/String_in_matrix.dir/flags.make
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o: ../cpp/String_in_matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/String_in_matrix.cpp
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o: cpp/CMakeFiles/string_in_matrix.dir/flags.make
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o: ../cpp/string_in_matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/string_in_matrix.cpp
 
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/String_in_matrix.cpp > CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.i
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/string_in_matrix.cpp > CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.i
 
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/String_in_matrix.cpp -o CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.s
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/string_in_matrix.cpp -o CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.s
 
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.requires:
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.requires
+.PHONY : cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.requires
 
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.provides: cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/String_in_matrix.dir/build.make cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.provides
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.provides: cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/string_in_matrix.dir/build.make cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.provides
 
-cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.provides.build: cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o
+cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.provides.build: cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o
 
 
-# Object files for target String_in_matrix
-String_in_matrix_OBJECTS = \
-"CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o"
+# Object files for target string_in_matrix
+string_in_matrix_OBJECTS = \
+"CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o"
 
-# External object files for target String_in_matrix
-String_in_matrix_EXTERNAL_OBJECTS =
+# External object files for target string_in_matrix
+string_in_matrix_EXTERNAL_OBJECTS =
 
-cpp/String_in_matrix: cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o
-cpp/String_in_matrix: cpp/CMakeFiles/String_in_matrix.dir/build.make
-cpp/String_in_matrix: cpp/CMakeFiles/String_in_matrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable String_in_matrix"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/String_in_matrix.dir/link.txt --verbose=$(VERBOSE)
+cpp/string_in_matrix: cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o
+cpp/string_in_matrix: cpp/CMakeFiles/string_in_matrix.dir/build.make
+cpp/string_in_matrix: cpp/CMakeFiles/string_in_matrix.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable string_in_matrix"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/string_in_matrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/String_in_matrix.dir/build: cpp/String_in_matrix
+cpp/CMakeFiles/string_in_matrix.dir/build: cpp/string_in_matrix
 
-.PHONY : cpp/CMakeFiles/String_in_matrix.dir/build
+.PHONY : cpp/CMakeFiles/string_in_matrix.dir/build
 
-cpp/CMakeFiles/String_in_matrix.dir/requires: cpp/CMakeFiles/String_in_matrix.dir/String_in_matrix.cpp.o.requires
+cpp/CMakeFiles/string_in_matrix.dir/requires: cpp/CMakeFiles/string_in_matrix.dir/string_in_matrix.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/String_in_matrix.dir/requires
+.PHONY : cpp/CMakeFiles/string_in_matrix.dir/requires
 
-cpp/CMakeFiles/String_in_matrix.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/String_in_matrix.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/String_in_matrix.dir/clean
+cpp/CMakeFiles/string_in_matrix.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/string_in_matrix.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/string_in_matrix.dir/clean
 
-cpp/CMakeFiles/String_in_matrix.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/String_in_matrix.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/String_in_matrix.dir/depend
+cpp/CMakeFiles/string_in_matrix.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/string_in_matrix.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/string_in_matrix.dir/depend
 

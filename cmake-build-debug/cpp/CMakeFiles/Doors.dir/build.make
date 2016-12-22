@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Doors.dir/depend.make
+include cpp/CMakeFiles/doors.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Doors.dir/progress.make
+include cpp/CMakeFiles/doors.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Doors.dir/flags.make
+include cpp/CMakeFiles/doors.dir/flags.make
 
-cpp/CMakeFiles/Doors.dir/Doors.cpp.o: cpp/CMakeFiles/Doors.dir/flags.make
-cpp/CMakeFiles/Doors.dir/Doors.cpp.o: ../cpp/Doors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Doors.dir/Doors.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Doors.dir/Doors.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Doors.cpp
+cpp/CMakeFiles/doors.dir/doors.cpp.o: cpp/CMakeFiles/doors.dir/flags.make
+cpp/CMakeFiles/doors.dir/doors.cpp.o: ../cpp/doors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/doors.dir/doors.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doors.dir/doors.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/doors.cpp
 
-cpp/CMakeFiles/Doors.dir/Doors.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Doors.dir/Doors.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Doors.cpp > CMakeFiles/Doors.dir/Doors.cpp.i
+cpp/CMakeFiles/doors.dir/doors.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doors.dir/doors.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/doors.cpp > CMakeFiles/doors.dir/doors.cpp.i
 
-cpp/CMakeFiles/Doors.dir/Doors.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Doors.dir/Doors.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Doors.cpp -o CMakeFiles/Doors.dir/Doors.cpp.s
+cpp/CMakeFiles/doors.dir/doors.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doors.dir/doors.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/doors.cpp -o CMakeFiles/doors.dir/doors.cpp.s
 
-cpp/CMakeFiles/Doors.dir/Doors.cpp.o.requires:
+cpp/CMakeFiles/doors.dir/doors.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Doors.dir/Doors.cpp.o.requires
+.PHONY : cpp/CMakeFiles/doors.dir/doors.cpp.o.requires
 
-cpp/CMakeFiles/Doors.dir/Doors.cpp.o.provides: cpp/CMakeFiles/Doors.dir/Doors.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Doors.dir/build.make cpp/CMakeFiles/Doors.dir/Doors.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Doors.dir/Doors.cpp.o.provides
+cpp/CMakeFiles/doors.dir/doors.cpp.o.provides: cpp/CMakeFiles/doors.dir/doors.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/doors.dir/build.make cpp/CMakeFiles/doors.dir/doors.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/doors.dir/doors.cpp.o.provides
 
-cpp/CMakeFiles/Doors.dir/Doors.cpp.o.provides.build: cpp/CMakeFiles/Doors.dir/Doors.cpp.o
+cpp/CMakeFiles/doors.dir/doors.cpp.o.provides.build: cpp/CMakeFiles/doors.dir/doors.cpp.o
 
 
-# Object files for target Doors
-Doors_OBJECTS = \
-"CMakeFiles/Doors.dir/Doors.cpp.o"
+# Object files for target doors
+doors_OBJECTS = \
+"CMakeFiles/doors.dir/doors.cpp.o"
 
-# External object files for target Doors
-Doors_EXTERNAL_OBJECTS =
+# External object files for target doors
+doors_EXTERNAL_OBJECTS =
 
-cpp/Doors: cpp/CMakeFiles/Doors.dir/Doors.cpp.o
-cpp/Doors: cpp/CMakeFiles/Doors.dir/build.make
-cpp/Doors: cpp/CMakeFiles/Doors.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Doors"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Doors.dir/link.txt --verbose=$(VERBOSE)
+cpp/doors: cpp/CMakeFiles/doors.dir/doors.cpp.o
+cpp/doors: cpp/CMakeFiles/doors.dir/build.make
+cpp/doors: cpp/CMakeFiles/doors.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable doors"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doors.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Doors.dir/build: cpp/Doors
+cpp/CMakeFiles/doors.dir/build: cpp/doors
 
-.PHONY : cpp/CMakeFiles/Doors.dir/build
+.PHONY : cpp/CMakeFiles/doors.dir/build
 
-cpp/CMakeFiles/Doors.dir/requires: cpp/CMakeFiles/Doors.dir/Doors.cpp.o.requires
+cpp/CMakeFiles/doors.dir/requires: cpp/CMakeFiles/doors.dir/doors.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Doors.dir/requires
+.PHONY : cpp/CMakeFiles/doors.dir/requires
 
-cpp/CMakeFiles/Doors.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Doors.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Doors.dir/clean
+cpp/CMakeFiles/doors.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/doors.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/doors.dir/clean
 
-cpp/CMakeFiles/Doors.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Doors.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Doors.dir/depend
+cpp/CMakeFiles/doors.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/doors.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/doors.dir/depend
 

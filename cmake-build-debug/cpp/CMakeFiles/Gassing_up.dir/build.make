@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Gassing_up.dir/depend.make
+include cpp/CMakeFiles/gassing_up.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Gassing_up.dir/progress.make
+include cpp/CMakeFiles/gassing_up.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Gassing_up.dir/flags.make
+include cpp/CMakeFiles/gassing_up.dir/flags.make
 
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o: cpp/CMakeFiles/Gassing_up.dir/flags.make
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o: ../cpp/Gassing_up.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Gassing_up.cpp
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o: cpp/CMakeFiles/gassing_up.dir/flags.make
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o: ../cpp/gassing_up.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gassing_up.dir/gassing_up.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/gassing_up.cpp
 
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gassing_up.dir/Gassing_up.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Gassing_up.cpp > CMakeFiles/Gassing_up.dir/Gassing_up.cpp.i
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gassing_up.dir/gassing_up.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/gassing_up.cpp > CMakeFiles/gassing_up.dir/gassing_up.cpp.i
 
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gassing_up.dir/Gassing_up.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Gassing_up.cpp -o CMakeFiles/Gassing_up.dir/Gassing_up.cpp.s
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gassing_up.dir/gassing_up.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/gassing_up.cpp -o CMakeFiles/gassing_up.dir/gassing_up.cpp.s
 
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.requires:
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.requires
+.PHONY : cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.requires
 
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.provides: cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Gassing_up.dir/build.make cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.provides
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.provides: cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/gassing_up.dir/build.make cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.provides
 
-cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.provides.build: cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o
+cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.provides.build: cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o
 
 
-# Object files for target Gassing_up
-Gassing_up_OBJECTS = \
-"CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o"
+# Object files for target gassing_up
+gassing_up_OBJECTS = \
+"CMakeFiles/gassing_up.dir/gassing_up.cpp.o"
 
-# External object files for target Gassing_up
-Gassing_up_EXTERNAL_OBJECTS =
+# External object files for target gassing_up
+gassing_up_EXTERNAL_OBJECTS =
 
-cpp/Gassing_up: cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o
-cpp/Gassing_up: cpp/CMakeFiles/Gassing_up.dir/build.make
-cpp/Gassing_up: cpp/CMakeFiles/Gassing_up.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Gassing_up"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Gassing_up.dir/link.txt --verbose=$(VERBOSE)
+cpp/gassing_up: cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o
+cpp/gassing_up: cpp/CMakeFiles/gassing_up.dir/build.make
+cpp/gassing_up: cpp/CMakeFiles/gassing_up.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gassing_up"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gassing_up.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Gassing_up.dir/build: cpp/Gassing_up
+cpp/CMakeFiles/gassing_up.dir/build: cpp/gassing_up
 
-.PHONY : cpp/CMakeFiles/Gassing_up.dir/build
+.PHONY : cpp/CMakeFiles/gassing_up.dir/build
 
-cpp/CMakeFiles/Gassing_up.dir/requires: cpp/CMakeFiles/Gassing_up.dir/Gassing_up.cpp.o.requires
+cpp/CMakeFiles/gassing_up.dir/requires: cpp/CMakeFiles/gassing_up.dir/gassing_up.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Gassing_up.dir/requires
+.PHONY : cpp/CMakeFiles/gassing_up.dir/requires
 
-cpp/CMakeFiles/Gassing_up.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Gassing_up.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Gassing_up.dir/clean
+cpp/CMakeFiles/gassing_up.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/gassing_up.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/gassing_up.dir/clean
 
-cpp/CMakeFiles/Gassing_up.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Gassing_up.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Gassing_up.dir/depend
+cpp/CMakeFiles/gassing_up.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/gassing_up.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/gassing_up.dir/depend
 

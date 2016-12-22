@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o"
-  "Sorted_list_to_BST.pdb"
-  "Sorted_list_to_BST"
+  "CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o"
+  "sorted_list_to_bst.pdb"
+  "sorted_list_to_bst"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Sorted_list_to_BST.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/sorted_list_to_bst.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

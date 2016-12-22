@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Merge_two_BSTs.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/merge_two_bsts.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

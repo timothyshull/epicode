@@ -7,8 +7,8 @@
 #include <random>
 #include <string>
 
-#include "./Linked_list_prototype.h"
-#include "./Merge_sorted_lists.h"
+#include "Linked_list_prototype.h"
+#include "Merge_sorted_lists.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -20,7 +20,7 @@ using std::stoi;
 using std::uniform_int_distribution;
 
 // @include
-shared_ptr<ListNode<int>> StableSortList(shared_ptr<ListNode<int>> L)
+shared_ptr<List_node<int>> StableSortList(shared_ptr<List_node<int>> L)
 {
     // Base cases: L is empty or a single node, nothing to do.
     if (L == nullptr || L->next == nullptr) {
@@ -28,7 +28,7 @@ shared_ptr<ListNode<int>> StableSortList(shared_ptr<ListNode<int>> L)
     }
 
     // Find the midpoint of L using a slow and a fast pointer.
-    shared_ptr<ListNode<int>> pre_slow = nullptr, slow = L, fast = L;
+    shared_ptr<List_node<int>> pre_slow = nullptr, slow = L, fast = L;
     while (fast && fast->next) {
         pre_slow = slow;
         fast = fast->next->next, slow = slow->next;
@@ -44,7 +44,7 @@ int main(int argc, char* argv[])
 {
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 10000; ++times) {
-        shared_ptr<ListNode<int>> L = nullptr;
+        shared_ptr<List_node<int>> L = nullptr;
         int n;
         uniform_int_distribution<int> dis(0, 99);
         if (argc == 2) {
@@ -53,8 +53,8 @@ int main(int argc, char* argv[])
             n = dis(gen);
         }
         for (int i = n; i > 0; --i) {
-            shared_ptr<ListNode<int>> temp =
-                    make_shared<ListNode<int>>(ListNode<int>{dis(gen), nullptr});
+            shared_ptr<List_node<int>> temp =
+                    make_shared<List_node<int>>(List_node<int>{dis(gen), nullptr});
             temp->next = L;
             L = temp;
         }

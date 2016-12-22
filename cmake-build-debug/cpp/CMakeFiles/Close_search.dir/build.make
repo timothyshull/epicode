@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Close_search.dir/depend.make
+include cpp/CMakeFiles/close_search.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Close_search.dir/progress.make
+include cpp/CMakeFiles/close_search.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Close_search.dir/flags.make
+include cpp/CMakeFiles/close_search.dir/flags.make
 
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o: cpp/CMakeFiles/Close_search.dir/flags.make
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o: ../cpp/Close_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Close_search.dir/Close_search.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Close_search.cpp
+cpp/CMakeFiles/close_search.dir/close_search.cpp.o: cpp/CMakeFiles/close_search.dir/flags.make
+cpp/CMakeFiles/close_search.dir/close_search.cpp.o: ../cpp/close_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/close_search.dir/close_search.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/close_search.dir/close_search.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/close_search.cpp
 
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Close_search.dir/Close_search.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Close_search.cpp > CMakeFiles/Close_search.dir/Close_search.cpp.i
+cpp/CMakeFiles/close_search.dir/close_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/close_search.dir/close_search.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/close_search.cpp > CMakeFiles/close_search.dir/close_search.cpp.i
 
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Close_search.dir/Close_search.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Close_search.cpp -o CMakeFiles/Close_search.dir/Close_search.cpp.s
+cpp/CMakeFiles/close_search.dir/close_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/close_search.dir/close_search.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/close_search.cpp -o CMakeFiles/close_search.dir/close_search.cpp.s
 
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.requires:
+cpp/CMakeFiles/close_search.dir/close_search.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.requires
+.PHONY : cpp/CMakeFiles/close_search.dir/close_search.cpp.o.requires
 
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.provides: cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Close_search.dir/build.make cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.provides
+cpp/CMakeFiles/close_search.dir/close_search.cpp.o.provides: cpp/CMakeFiles/close_search.dir/close_search.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/close_search.dir/build.make cpp/CMakeFiles/close_search.dir/close_search.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/close_search.dir/close_search.cpp.o.provides
 
-cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.provides.build: cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o
+cpp/CMakeFiles/close_search.dir/close_search.cpp.o.provides.build: cpp/CMakeFiles/close_search.dir/close_search.cpp.o
 
 
-# Object files for target Close_search
-Close_search_OBJECTS = \
-"CMakeFiles/Close_search.dir/Close_search.cpp.o"
+# Object files for target close_search
+close_search_OBJECTS = \
+"CMakeFiles/close_search.dir/close_search.cpp.o"
 
-# External object files for target Close_search
-Close_search_EXTERNAL_OBJECTS =
+# External object files for target close_search
+close_search_EXTERNAL_OBJECTS =
 
-cpp/Close_search: cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o
-cpp/Close_search: cpp/CMakeFiles/Close_search.dir/build.make
-cpp/Close_search: cpp/CMakeFiles/Close_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Close_search"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Close_search.dir/link.txt --verbose=$(VERBOSE)
+cpp/close_search: cpp/CMakeFiles/close_search.dir/close_search.cpp.o
+cpp/close_search: cpp/CMakeFiles/close_search.dir/build.make
+cpp/close_search: cpp/CMakeFiles/close_search.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable close_search"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/close_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Close_search.dir/build: cpp/Close_search
+cpp/CMakeFiles/close_search.dir/build: cpp/close_search
 
-.PHONY : cpp/CMakeFiles/Close_search.dir/build
+.PHONY : cpp/CMakeFiles/close_search.dir/build
 
-cpp/CMakeFiles/Close_search.dir/requires: cpp/CMakeFiles/Close_search.dir/Close_search.cpp.o.requires
+cpp/CMakeFiles/close_search.dir/requires: cpp/CMakeFiles/close_search.dir/close_search.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Close_search.dir/requires
+.PHONY : cpp/CMakeFiles/close_search.dir/requires
 
-cpp/CMakeFiles/Close_search.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Close_search.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Close_search.dir/clean
+cpp/CMakeFiles/close_search.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/close_search.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/close_search.dir/clean
 
-cpp/CMakeFiles/Close_search.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Close_search.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Close_search.dir/depend
+cpp/CMakeFiles/close_search.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/close_search.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/close_search.dir/depend
 

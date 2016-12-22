@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/LRUCache.dir/depend.make
+include cpp/CMakeFiles/lrucache.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/LRUCache.dir/progress.make
+include cpp/CMakeFiles/lrucache.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/LRUCache.dir/flags.make
+include cpp/CMakeFiles/lrucache.dir/flags.make
 
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o: cpp/CMakeFiles/LRUCache.dir/flags.make
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o: ../cpp/LRUCache.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LRUCache.dir/LRUCache.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/LRUCache.cpp
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o: cpp/CMakeFiles/lrucache.dir/flags.make
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o: ../cpp/lru_cache.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lrucache.dir/lru_cache.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/lru_cache.cpp
 
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LRUCache.dir/LRUCache.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/LRUCache.cpp > CMakeFiles/LRUCache.dir/LRUCache.cpp.i
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lrucache.dir/lru_cache.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/lru_cache.cpp > CMakeFiles/lrucache.dir/lru_cache.cpp.i
 
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LRUCache.dir/LRUCache.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/LRUCache.cpp -o CMakeFiles/LRUCache.dir/LRUCache.cpp.s
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lrucache.dir/lru_cache.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/lru_cache.cpp -o CMakeFiles/lrucache.dir/lru_cache.cpp.s
 
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.requires:
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.requires
+.PHONY : cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.requires
 
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.provides: cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/LRUCache.dir/build.make cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.provides
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.provides: cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/lrucache.dir/build.make cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.provides
 
-cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.provides.build: cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o
+cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.provides.build: cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o
 
 
-# Object files for target LRUCache
-LRUCache_OBJECTS = \
-"CMakeFiles/LRUCache.dir/LRUCache.cpp.o"
+# Object files for target lrucache
+lrucache_OBJECTS = \
+"CMakeFiles/lrucache.dir/lru_cache.cpp.o"
 
-# External object files for target LRUCache
-LRUCache_EXTERNAL_OBJECTS =
+# External object files for target lrucache
+lrucache_EXTERNAL_OBJECTS =
 
-cpp/LRUCache: cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o
-cpp/LRUCache: cpp/CMakeFiles/LRUCache.dir/build.make
-cpp/LRUCache: cpp/CMakeFiles/LRUCache.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LRUCache"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LRUCache.dir/link.txt --verbose=$(VERBOSE)
+cpp/lrucache: cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o
+cpp/lrucache: cpp/CMakeFiles/lrucache.dir/build.make
+cpp/lrucache: cpp/CMakeFiles/lrucache.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lrucache"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lrucache.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/LRUCache.dir/build: cpp/LRUCache
+cpp/CMakeFiles/lrucache.dir/build: cpp/lrucache
 
-.PHONY : cpp/CMakeFiles/LRUCache.dir/build
+.PHONY : cpp/CMakeFiles/lrucache.dir/build
 
-cpp/CMakeFiles/LRUCache.dir/requires: cpp/CMakeFiles/LRUCache.dir/LRUCache.cpp.o.requires
+cpp/CMakeFiles/lrucache.dir/requires: cpp/CMakeFiles/lrucache.dir/lru_cache.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/LRUCache.dir/requires
+.PHONY : cpp/CMakeFiles/lrucache.dir/requires
 
-cpp/CMakeFiles/LRUCache.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/LRUCache.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/LRUCache.dir/clean
+cpp/CMakeFiles/lrucache.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/lrucache.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/lrucache.dir/clean
 
-cpp/CMakeFiles/LRUCache.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/LRUCache.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/LRUCache.dir/depend
+cpp/CMakeFiles/lrucache.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/lrucache.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/lrucache.dir/depend
 

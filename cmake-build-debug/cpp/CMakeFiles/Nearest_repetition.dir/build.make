@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Nearest_repetition.dir/depend.make
+include cpp/CMakeFiles/nearest_repetition.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Nearest_repetition.dir/progress.make
+include cpp/CMakeFiles/nearest_repetition.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Nearest_repetition.dir/flags.make
+include cpp/CMakeFiles/nearest_repetition.dir/flags.make
 
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o: cpp/CMakeFiles/Nearest_repetition.dir/flags.make
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o: ../cpp/Nearest_repetition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Nearest_repetition.cpp
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o: cpp/CMakeFiles/nearest_repetition.dir/flags.make
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o: ../cpp/nearest_repetition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/nearest_repetition.cpp
 
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Nearest_repetition.cpp > CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.i
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/nearest_repetition.cpp > CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.i
 
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Nearest_repetition.cpp -o CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.s
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/nearest_repetition.cpp -o CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.s
 
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.requires:
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.requires
+.PHONY : cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.requires
 
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.provides: cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Nearest_repetition.dir/build.make cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.provides
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.provides: cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/nearest_repetition.dir/build.make cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.provides
 
-cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.provides.build: cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o
+cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.provides.build: cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o
 
 
-# Object files for target Nearest_repetition
-Nearest_repetition_OBJECTS = \
-"CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o"
+# Object files for target nearest_repetition
+nearest_repetition_OBJECTS = \
+"CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o"
 
-# External object files for target Nearest_repetition
-Nearest_repetition_EXTERNAL_OBJECTS =
+# External object files for target nearest_repetition
+nearest_repetition_EXTERNAL_OBJECTS =
 
-cpp/Nearest_repetition: cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o
-cpp/Nearest_repetition: cpp/CMakeFiles/Nearest_repetition.dir/build.make
-cpp/Nearest_repetition: cpp/CMakeFiles/Nearest_repetition.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Nearest_repetition"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Nearest_repetition.dir/link.txt --verbose=$(VERBOSE)
+cpp/nearest_repetition: cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o
+cpp/nearest_repetition: cpp/CMakeFiles/nearest_repetition.dir/build.make
+cpp/nearest_repetition: cpp/CMakeFiles/nearest_repetition.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nearest_repetition"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nearest_repetition.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Nearest_repetition.dir/build: cpp/Nearest_repetition
+cpp/CMakeFiles/nearest_repetition.dir/build: cpp/nearest_repetition
 
-.PHONY : cpp/CMakeFiles/Nearest_repetition.dir/build
+.PHONY : cpp/CMakeFiles/nearest_repetition.dir/build
 
-cpp/CMakeFiles/Nearest_repetition.dir/requires: cpp/CMakeFiles/Nearest_repetition.dir/Nearest_repetition.cpp.o.requires
+cpp/CMakeFiles/nearest_repetition.dir/requires: cpp/CMakeFiles/nearest_repetition.dir/nearest_repetition.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Nearest_repetition.dir/requires
+.PHONY : cpp/CMakeFiles/nearest_repetition.dir/requires
 
-cpp/CMakeFiles/Nearest_repetition.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Nearest_repetition.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Nearest_repetition.dir/clean
+cpp/CMakeFiles/nearest_repetition.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/nearest_repetition.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/nearest_repetition.dir/clean
 
-cpp/CMakeFiles/Nearest_repetition.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Nearest_repetition.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Nearest_repetition.dir/depend
+cpp/CMakeFiles/nearest_repetition.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/nearest_repetition.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/nearest_repetition.dir/depend
 

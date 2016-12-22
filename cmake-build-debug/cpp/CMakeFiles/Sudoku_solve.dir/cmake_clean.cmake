@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sudoku_solve.dir/Sudoku_solve.cpp.o"
-  "Sudoku_solve.pdb"
-  "Sudoku_solve"
+  "CMakeFiles/sudoku_solve.dir/sudoku_solve.cpp.o"
+  "sudoku_solve.pdb"
+  "sudoku_solve"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Sudoku_solve.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/sudoku_solve.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

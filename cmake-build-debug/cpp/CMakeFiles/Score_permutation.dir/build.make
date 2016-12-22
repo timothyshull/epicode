@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Score_permutation.dir/depend.make
+include cpp/CMakeFiles/score_permutation.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Score_permutation.dir/progress.make
+include cpp/CMakeFiles/score_permutation.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Score_permutation.dir/flags.make
+include cpp/CMakeFiles/score_permutation.dir/flags.make
 
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o: cpp/CMakeFiles/Score_permutation.dir/flags.make
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o: ../cpp/Score_permutation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Score_permutation.cpp
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o: cpp/CMakeFiles/score_permutation.dir/flags.make
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o: ../cpp/score_permutation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/score_permutation.dir/score_permutation.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/score_permutation.cpp
 
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Score_permutation.dir/Score_permutation.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Score_permutation.cpp > CMakeFiles/Score_permutation.dir/Score_permutation.cpp.i
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/score_permutation.dir/score_permutation.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/score_permutation.cpp > CMakeFiles/score_permutation.dir/score_permutation.cpp.i
 
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Score_permutation.dir/Score_permutation.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Score_permutation.cpp -o CMakeFiles/Score_permutation.dir/Score_permutation.cpp.s
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/score_permutation.dir/score_permutation.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/score_permutation.cpp -o CMakeFiles/score_permutation.dir/score_permutation.cpp.s
 
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.requires:
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.requires
+.PHONY : cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.requires
 
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.provides: cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Score_permutation.dir/build.make cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.provides
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.provides: cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/score_permutation.dir/build.make cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.provides
 
-cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.provides.build: cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o
+cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.provides.build: cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o
 
 
-# Object files for target Score_permutation
-Score_permutation_OBJECTS = \
-"CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o"
+# Object files for target score_permutation
+score_permutation_OBJECTS = \
+"CMakeFiles/score_permutation.dir/score_permutation.cpp.o"
 
-# External object files for target Score_permutation
-Score_permutation_EXTERNAL_OBJECTS =
+# External object files for target score_permutation
+score_permutation_EXTERNAL_OBJECTS =
 
-cpp/Score_permutation: cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o
-cpp/Score_permutation: cpp/CMakeFiles/Score_permutation.dir/build.make
-cpp/Score_permutation: cpp/CMakeFiles/Score_permutation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Score_permutation"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Score_permutation.dir/link.txt --verbose=$(VERBOSE)
+cpp/score_permutation: cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o
+cpp/score_permutation: cpp/CMakeFiles/score_permutation.dir/build.make
+cpp/score_permutation: cpp/CMakeFiles/score_permutation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable score_permutation"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/score_permutation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Score_permutation.dir/build: cpp/Score_permutation
+cpp/CMakeFiles/score_permutation.dir/build: cpp/score_permutation
 
-.PHONY : cpp/CMakeFiles/Score_permutation.dir/build
+.PHONY : cpp/CMakeFiles/score_permutation.dir/build
 
-cpp/CMakeFiles/Score_permutation.dir/requires: cpp/CMakeFiles/Score_permutation.dir/Score_permutation.cpp.o.requires
+cpp/CMakeFiles/score_permutation.dir/requires: cpp/CMakeFiles/score_permutation.dir/score_permutation.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Score_permutation.dir/requires
+.PHONY : cpp/CMakeFiles/score_permutation.dir/requires
 
-cpp/CMakeFiles/Score_permutation.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Score_permutation.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Score_permutation.dir/clean
+cpp/CMakeFiles/score_permutation.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/score_permutation.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/score_permutation.dir/clean
 
-cpp/CMakeFiles/Score_permutation.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Score_permutation.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Score_permutation.dir/depend
+cpp/CMakeFiles/score_permutation.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/score_permutation.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/score_permutation.dir/depend
 

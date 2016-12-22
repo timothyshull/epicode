@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Rebuild_BST_postorder.dir/depend.make
+include cpp/CMakeFiles/rebuild_bst_postorder.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Rebuild_BST_postorder.dir/progress.make
+include cpp/CMakeFiles/rebuild_bst_postorder.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Rebuild_BST_postorder.dir/flags.make
+include cpp/CMakeFiles/rebuild_bst_postorder.dir/flags.make
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o: cpp/CMakeFiles/Rebuild_BST_postorder.dir/flags.make
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o: ../cpp/Rebuild_BST_postorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Rebuild_BST_postorder.cpp
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o: cpp/CMakeFiles/rebuild_bst_postorder.dir/flags.make
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o: ../cpp/rebuild_bst_postorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/rebuild_bst_postorder.cpp
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Rebuild_BST_postorder.cpp > CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.i
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/rebuild_bst_postorder.cpp > CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.i
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Rebuild_BST_postorder.cpp -o CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.s
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/rebuild_bst_postorder.cpp -o CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.s
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.requires:
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.requires
+.PHONY : cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.requires
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.provides: cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Rebuild_BST_postorder.dir/build.make cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.provides
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.provides: cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/rebuild_bst_postorder.dir/build.make cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.provides
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.provides.build: cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o
+cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.provides.build: cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o
 
 
-# Object files for target Rebuild_BST_postorder
-Rebuild_BST_postorder_OBJECTS = \
-"CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o"
+# Object files for target rebuild_bst_postorder
+rebuild_bst_postorder_OBJECTS = \
+"CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o"
 
-# External object files for target Rebuild_BST_postorder
-Rebuild_BST_postorder_EXTERNAL_OBJECTS =
+# External object files for target rebuild_bst_postorder
+rebuild_bst_postorder_EXTERNAL_OBJECTS =
 
-cpp/Rebuild_BST_postorder: cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o
-cpp/Rebuild_BST_postorder: cpp/CMakeFiles/Rebuild_BST_postorder.dir/build.make
-cpp/Rebuild_BST_postorder: cpp/CMakeFiles/Rebuild_BST_postorder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Rebuild_BST_postorder"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rebuild_BST_postorder.dir/link.txt --verbose=$(VERBOSE)
+cpp/rebuild_bst_postorder: cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o
+cpp/rebuild_bst_postorder: cpp/CMakeFiles/rebuild_bst_postorder.dir/build.make
+cpp/rebuild_bst_postorder: cpp/CMakeFiles/rebuild_bst_postorder.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rebuild_bst_postorder"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rebuild_bst_postorder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/build: cpp/Rebuild_BST_postorder
+cpp/CMakeFiles/rebuild_bst_postorder.dir/build: cpp/rebuild_bst_postorder
 
-.PHONY : cpp/CMakeFiles/Rebuild_BST_postorder.dir/build
+.PHONY : cpp/CMakeFiles/rebuild_bst_postorder.dir/build
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/requires: cpp/CMakeFiles/Rebuild_BST_postorder.dir/Rebuild_BST_postorder.cpp.o.requires
+cpp/CMakeFiles/rebuild_bst_postorder.dir/requires: cpp/CMakeFiles/rebuild_bst_postorder.dir/rebuild_bst_postorder.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Rebuild_BST_postorder.dir/requires
+.PHONY : cpp/CMakeFiles/rebuild_bst_postorder.dir/requires
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Rebuild_BST_postorder.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Rebuild_BST_postorder.dir/clean
+cpp/CMakeFiles/rebuild_bst_postorder.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/rebuild_bst_postorder.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/rebuild_bst_postorder.dir/clean
 
-cpp/CMakeFiles/Rebuild_BST_postorder.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Rebuild_BST_postorder.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Rebuild_BST_postorder.dir/depend
+cpp/CMakeFiles/rebuild_bst_postorder.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/rebuild_bst_postorder.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/rebuild_bst_postorder.dir/depend
 

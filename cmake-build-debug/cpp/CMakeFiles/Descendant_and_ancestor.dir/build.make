@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Descendant_and_ancestor.dir/depend.make
+include cpp/CMakeFiles/descendant_and_ancestor.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Descendant_and_ancestor.dir/progress.make
+include cpp/CMakeFiles/descendant_and_ancestor.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Descendant_and_ancestor.dir/flags.make
+include cpp/CMakeFiles/descendant_and_ancestor.dir/flags.make
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o: cpp/CMakeFiles/Descendant_and_ancestor.dir/flags.make
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o: ../cpp/Descendant_and_ancestor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Descendant_and_ancestor.cpp
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o: cpp/CMakeFiles/descendant_and_ancestor.dir/flags.make
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o: ../cpp/descendant_and_ancestor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/descendant_and_ancestor.cpp
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Descendant_and_ancestor.cpp > CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.i
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/descendant_and_ancestor.cpp > CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.i
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Descendant_and_ancestor.cpp -o CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.s
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/descendant_and_ancestor.cpp -o CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.s
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.requires:
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.requires
+.PHONY : cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.requires
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.provides: cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Descendant_and_ancestor.dir/build.make cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.provides
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.provides: cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/descendant_and_ancestor.dir/build.make cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.provides
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.provides.build: cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o
+cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.provides.build: cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o
 
 
-# Object files for target Descendant_and_ancestor
-Descendant_and_ancestor_OBJECTS = \
-"CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o"
+# Object files for target descendant_and_ancestor
+descendant_and_ancestor_OBJECTS = \
+"CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o"
 
-# External object files for target Descendant_and_ancestor
-Descendant_and_ancestor_EXTERNAL_OBJECTS =
+# External object files for target descendant_and_ancestor
+descendant_and_ancestor_EXTERNAL_OBJECTS =
 
-cpp/Descendant_and_ancestor: cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o
-cpp/Descendant_and_ancestor: cpp/CMakeFiles/Descendant_and_ancestor.dir/build.make
-cpp/Descendant_and_ancestor: cpp/CMakeFiles/Descendant_and_ancestor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Descendant_and_ancestor"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Descendant_and_ancestor.dir/link.txt --verbose=$(VERBOSE)
+cpp/descendant_and_ancestor: cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o
+cpp/descendant_and_ancestor: cpp/CMakeFiles/descendant_and_ancestor.dir/build.make
+cpp/descendant_and_ancestor: cpp/CMakeFiles/descendant_and_ancestor.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable descendant_and_ancestor"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/descendant_and_ancestor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Descendant_and_ancestor.dir/build: cpp/Descendant_and_ancestor
+cpp/CMakeFiles/descendant_and_ancestor.dir/build: cpp/descendant_and_ancestor
 
-.PHONY : cpp/CMakeFiles/Descendant_and_ancestor.dir/build
+.PHONY : cpp/CMakeFiles/descendant_and_ancestor.dir/build
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/requires: cpp/CMakeFiles/Descendant_and_ancestor.dir/Descendant_and_ancestor.cpp.o.requires
+cpp/CMakeFiles/descendant_and_ancestor.dir/requires: cpp/CMakeFiles/descendant_and_ancestor.dir/descendant_and_ancestor.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Descendant_and_ancestor.dir/requires
+.PHONY : cpp/CMakeFiles/descendant_and_ancestor.dir/requires
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Descendant_and_ancestor.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Descendant_and_ancestor.dir/clean
+cpp/CMakeFiles/descendant_and_ancestor.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/descendant_and_ancestor.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/descendant_and_ancestor.dir/clean
 
-cpp/CMakeFiles/Descendant_and_ancestor.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Descendant_and_ancestor.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Descendant_and_ancestor.dir/depend
+cpp/CMakeFiles/descendant_and_ancestor.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/descendant_and_ancestor.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/descendant_and_ancestor.dir/depend
 

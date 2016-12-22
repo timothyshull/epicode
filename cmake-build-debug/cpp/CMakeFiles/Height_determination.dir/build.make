@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Height_determination.dir/depend.make
+include cpp/CMakeFiles/height_determination.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Height_determination.dir/progress.make
+include cpp/CMakeFiles/height_determination.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Height_determination.dir/flags.make
+include cpp/CMakeFiles/height_determination.dir/flags.make
 
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o: cpp/CMakeFiles/Height_determination.dir/flags.make
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o: ../cpp/Height_determination.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Height_determination.dir/Height_determination.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Height_determination.cpp
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o: cpp/CMakeFiles/height_determination.dir/flags.make
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o: ../cpp/height_determination.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/height_determination.dir/height_determination.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/height_determination.cpp
 
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Height_determination.dir/Height_determination.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Height_determination.cpp > CMakeFiles/Height_determination.dir/Height_determination.cpp.i
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/height_determination.dir/height_determination.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/height_determination.cpp > CMakeFiles/height_determination.dir/height_determination.cpp.i
 
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Height_determination.dir/Height_determination.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Height_determination.cpp -o CMakeFiles/Height_determination.dir/Height_determination.cpp.s
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/height_determination.dir/height_determination.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/height_determination.cpp -o CMakeFiles/height_determination.dir/height_determination.cpp.s
 
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.requires:
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.requires
+.PHONY : cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.requires
 
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.provides: cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Height_determination.dir/build.make cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.provides
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.provides: cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/height_determination.dir/build.make cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.provides
 
-cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.provides.build: cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o
+cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.provides.build: cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o
 
 
-# Object files for target Height_determination
-Height_determination_OBJECTS = \
-"CMakeFiles/Height_determination.dir/Height_determination.cpp.o"
+# Object files for target height_determination
+height_determination_OBJECTS = \
+"CMakeFiles/height_determination.dir/height_determination.cpp.o"
 
-# External object files for target Height_determination
-Height_determination_EXTERNAL_OBJECTS =
+# External object files for target height_determination
+height_determination_EXTERNAL_OBJECTS =
 
-cpp/Height_determination: cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o
-cpp/Height_determination: cpp/CMakeFiles/Height_determination.dir/build.make
-cpp/Height_determination: cpp/CMakeFiles/Height_determination.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Height_determination"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Height_determination.dir/link.txt --verbose=$(VERBOSE)
+cpp/height_determination: cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o
+cpp/height_determination: cpp/CMakeFiles/height_determination.dir/build.make
+cpp/height_determination: cpp/CMakeFiles/height_determination.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable height_determination"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/height_determination.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Height_determination.dir/build: cpp/Height_determination
+cpp/CMakeFiles/height_determination.dir/build: cpp/height_determination
 
-.PHONY : cpp/CMakeFiles/Height_determination.dir/build
+.PHONY : cpp/CMakeFiles/height_determination.dir/build
 
-cpp/CMakeFiles/Height_determination.dir/requires: cpp/CMakeFiles/Height_determination.dir/Height_determination.cpp.o.requires
+cpp/CMakeFiles/height_determination.dir/requires: cpp/CMakeFiles/height_determination.dir/height_determination.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Height_determination.dir/requires
+.PHONY : cpp/CMakeFiles/height_determination.dir/requires
 
-cpp/CMakeFiles/Height_determination.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Height_determination.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Height_determination.dir/clean
+cpp/CMakeFiles/height_determination.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/height_determination.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/height_determination.dir/clean
 
-cpp/CMakeFiles/Height_determination.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Height_determination.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Height_determination.dir/depend
+cpp/CMakeFiles/height_determination.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/height_determination.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/height_determination.dir/depend
 

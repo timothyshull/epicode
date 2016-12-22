@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Circular_queue.dir/depend.make
+include cpp/CMakeFiles/circular_queue.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Circular_queue.dir/progress.make
+include cpp/CMakeFiles/circular_queue.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Circular_queue.dir/flags.make
+include cpp/CMakeFiles/circular_queue.dir/flags.make
 
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o: cpp/CMakeFiles/Circular_queue.dir/flags.make
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o: ../cpp/Circular_queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Circular_queue.cpp
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o: cpp/CMakeFiles/circular_queue.dir/flags.make
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o: ../cpp/circular_queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/circular_queue.dir/circular_queue.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/circular_queue.cpp
 
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Circular_queue.dir/Circular_queue.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Circular_queue.cpp > CMakeFiles/Circular_queue.dir/Circular_queue.cpp.i
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/circular_queue.dir/circular_queue.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/circular_queue.cpp > CMakeFiles/circular_queue.dir/circular_queue.cpp.i
 
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Circular_queue.dir/Circular_queue.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Circular_queue.cpp -o CMakeFiles/Circular_queue.dir/Circular_queue.cpp.s
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/circular_queue.dir/circular_queue.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/circular_queue.cpp -o CMakeFiles/circular_queue.dir/circular_queue.cpp.s
 
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.requires:
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.requires
+.PHONY : cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.requires
 
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.provides: cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Circular_queue.dir/build.make cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.provides
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.provides: cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/circular_queue.dir/build.make cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.provides
 
-cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.provides.build: cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o
+cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.provides.build: cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o
 
 
-# Object files for target Circular_queue
-Circular_queue_OBJECTS = \
-"CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o"
+# Object files for target circular_queue
+circular_queue_OBJECTS = \
+"CMakeFiles/circular_queue.dir/circular_queue.cpp.o"
 
-# External object files for target Circular_queue
-Circular_queue_EXTERNAL_OBJECTS =
+# External object files for target circular_queue
+circular_queue_EXTERNAL_OBJECTS =
 
-cpp/Circular_queue: cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o
-cpp/Circular_queue: cpp/CMakeFiles/Circular_queue.dir/build.make
-cpp/Circular_queue: cpp/CMakeFiles/Circular_queue.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Circular_queue"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Circular_queue.dir/link.txt --verbose=$(VERBOSE)
+cpp/circular_queue: cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o
+cpp/circular_queue: cpp/CMakeFiles/circular_queue.dir/build.make
+cpp/circular_queue: cpp/CMakeFiles/circular_queue.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable circular_queue"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/circular_queue.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Circular_queue.dir/build: cpp/Circular_queue
+cpp/CMakeFiles/circular_queue.dir/build: cpp/circular_queue
 
-.PHONY : cpp/CMakeFiles/Circular_queue.dir/build
+.PHONY : cpp/CMakeFiles/circular_queue.dir/build
 
-cpp/CMakeFiles/Circular_queue.dir/requires: cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o.requires
+cpp/CMakeFiles/circular_queue.dir/requires: cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Circular_queue.dir/requires
+.PHONY : cpp/CMakeFiles/circular_queue.dir/requires
 
-cpp/CMakeFiles/Circular_queue.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Circular_queue.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Circular_queue.dir/clean
+cpp/CMakeFiles/circular_queue.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/circular_queue.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/circular_queue.dir/clean
 
-cpp/CMakeFiles/Circular_queue.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Circular_queue.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Circular_queue.dir/depend
+cpp/CMakeFiles/circular_queue.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/circular_queue.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/circular_queue.dir/depend
 

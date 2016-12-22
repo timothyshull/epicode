@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Parity.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Parity.dir/Parity.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/parity.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/parity.dir/parity.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

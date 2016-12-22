@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Painting_iterative.dir/Painting_iterative.cpp.o"
-  "Painting_iterative.pdb"
-  "Painting_iterative"
+  "CMakeFiles/painting_iterative.dir/painting_iterative.cpp.o"
+  "painting_iterative.pdb"
+  "painting_iterative"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Painting_iterative.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/painting_iterative.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

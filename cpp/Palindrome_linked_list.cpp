@@ -4,8 +4,8 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
-#include "./Reverse_linked_list_iterative.h"
+#include "Linked_list_prototype.h"
+#include "Reverse_linked_list_iterative.h"
 
 using std::cout;
 using std::endl;
@@ -13,14 +13,14 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-bool IsLinkedListAPalindrome(shared_ptr<ListNode<int>> L)
+bool IsLinkedListAPalindrome(shared_ptr<List_node<int>> L)
 {
     if (L == nullptr) {
         return true;
     }
 
     // Finds the second half of L.
-    shared_ptr<ListNode<int>> slow = L, fast = L;
+    shared_ptr<List_node<int>> slow = L, fast = L;
     while (fast && fast->next) {
         fast = fast->next->next, slow = slow->next;
     }
@@ -41,44 +41,44 @@ bool IsLinkedListAPalindrome(shared_ptr<ListNode<int>> L)
 int main(int argc, char* argv[])
 {
     if (argc >= 2) {
-        shared_ptr<ListNode<int>> head = nullptr;
+        shared_ptr<List_node<int>> head = nullptr;
         // Input the node's value in reverse order.
         for (int i = 1; i < argc; ++i) {
-            shared_ptr<ListNode<int>> curr =
-                    make_shared<ListNode<int>>(ListNode<int>{atoi(argv[i]), head});
+            shared_ptr<List_node<int>> curr =
+                    make_shared<List_node<int>>(List_node<int>{atoi(argv[i]), head});
             head = curr;
         }
         cout << ((IsLinkedListAPalindrome(head)) ? "Yes" : "No") << "\n";
     }
     assert(IsLinkedListAPalindrome(nullptr) == true);
     assert(IsLinkedListAPalindrome(
-            make_shared<ListNode<int>>(ListNode<int>{1, nullptr})) == true);
-    assert(IsLinkedListAPalindrome(make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{1, nullptr})})) ==
+            make_shared<List_node<int>>(List_node<int>{1, nullptr})) == true);
+    assert(IsLinkedListAPalindrome(make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{1, nullptr})})) ==
            true);
-    assert(IsLinkedListAPalindrome(make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{2, nullptr})})) ==
+    assert(IsLinkedListAPalindrome(make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{2, nullptr})})) ==
            false);
-    assert(IsLinkedListAPalindrome(make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    3, make_shared<ListNode<int>>(ListNode<int>{
-                            2, make_shared<ListNode<int>>(
-                                    ListNode<int>{1, nullptr})})})})) == false);
+    assert(IsLinkedListAPalindrome(make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    3, make_shared<List_node<int>>(List_node<int>{
+                            2, make_shared<List_node<int>>(
+                                    List_node<int>{1, nullptr})})})})) == false);
 
-    shared_ptr<ListNode<int>> head = nullptr;
+    shared_ptr<List_node<int>> head = nullptr;
     // A link list is a palindrome.
     for (int i = 6; i >= 1; --i) {
-        shared_ptr<ListNode<int>> curr =
-                make_shared<ListNode<int>>(ListNode<int>{1, head});
+        shared_ptr<List_node<int>> curr =
+                make_shared<List_node<int>>(List_node<int>{1, head});
         head = curr;
     }
     assert(IsLinkedListAPalindrome(head) == true);
 
     // Still a palindrome linked list.
-    head = shared_ptr<ListNode<int>>(nullptr);
+    head = shared_ptr<List_node<int>>(nullptr);
     for (int i = 5; i >= 1; --i) {
-        shared_ptr<ListNode<int>> curr =
-                make_shared<ListNode<int>>(ListNode<int>{1, head});
+        shared_ptr<List_node<int>> curr =
+                make_shared<List_node<int>>(List_node<int>{1, head});
         head = curr;
     }
     head->next->next->data = 3;
@@ -87,8 +87,8 @@ int main(int argc, char* argv[])
     // Not a palindrome linked list.
     head = nullptr;
     for (int i = 5; i >= 1; --i) {
-        shared_ptr<ListNode<int>> curr =
-                make_shared<ListNode<int>>(ListNode<int>{i, head});
+        shared_ptr<List_node<int>> curr =
+                make_shared<List_node<int>>(List_node<int>{i, head});
         head = curr;
     }
     assert(IsLinkedListAPalindrome(head) == false);

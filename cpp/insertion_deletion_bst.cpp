@@ -10,7 +10,7 @@ using std::make_unique;
 using std::unique_ptr;
 
 // @include
-class BinarySearchTree {
+class Binary_search_tree {
 public:
     // @exclude
     bool Empty() const { return !root_.get(); }
@@ -103,7 +103,7 @@ private:
 
 int main(int argc, char* argv[])
 {
-    BinarySearchTree BST;
+    Binary_search_tree BST;
     assert(BST.Empty() == true);
     assert(BST.Insert(7) == true);
     assert(BST.Insert(8) == true);

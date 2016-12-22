@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Equiv_classes.dir/depend.make
+include cpp/CMakeFiles/equiv_classes.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Equiv_classes.dir/progress.make
+include cpp/CMakeFiles/equiv_classes.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Equiv_classes.dir/flags.make
+include cpp/CMakeFiles/equiv_classes.dir/flags.make
 
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o: cpp/CMakeFiles/Equiv_classes.dir/flags.make
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o: ../cpp/Equiv_classes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Equiv_classes.cpp
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o: cpp/CMakeFiles/equiv_classes.dir/flags.make
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o: ../cpp/equiv_classes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/equiv_classes.cpp
 
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Equiv_classes.cpp > CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.i
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/equiv_classes.dir/equiv_classes.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/equiv_classes.cpp > CMakeFiles/equiv_classes.dir/equiv_classes.cpp.i
 
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Equiv_classes.cpp -o CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.s
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/equiv_classes.dir/equiv_classes.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/equiv_classes.cpp -o CMakeFiles/equiv_classes.dir/equiv_classes.cpp.s
 
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.requires:
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.requires
+.PHONY : cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.requires
 
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.provides: cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Equiv_classes.dir/build.make cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.provides
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.provides: cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/equiv_classes.dir/build.make cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.provides
 
-cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.provides.build: cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o
+cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.provides.build: cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o
 
 
-# Object files for target Equiv_classes
-Equiv_classes_OBJECTS = \
-"CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o"
+# Object files for target equiv_classes
+equiv_classes_OBJECTS = \
+"CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o"
 
-# External object files for target Equiv_classes
-Equiv_classes_EXTERNAL_OBJECTS =
+# External object files for target equiv_classes
+equiv_classes_EXTERNAL_OBJECTS =
 
-cpp/Equiv_classes: cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o
-cpp/Equiv_classes: cpp/CMakeFiles/Equiv_classes.dir/build.make
-cpp/Equiv_classes: cpp/CMakeFiles/Equiv_classes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Equiv_classes"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Equiv_classes.dir/link.txt --verbose=$(VERBOSE)
+cpp/equiv_classes: cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o
+cpp/equiv_classes: cpp/CMakeFiles/equiv_classes.dir/build.make
+cpp/equiv_classes: cpp/CMakeFiles/equiv_classes.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable equiv_classes"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/equiv_classes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Equiv_classes.dir/build: cpp/Equiv_classes
+cpp/CMakeFiles/equiv_classes.dir/build: cpp/equiv_classes
 
-.PHONY : cpp/CMakeFiles/Equiv_classes.dir/build
+.PHONY : cpp/CMakeFiles/equiv_classes.dir/build
 
-cpp/CMakeFiles/Equiv_classes.dir/requires: cpp/CMakeFiles/Equiv_classes.dir/Equiv_classes.cpp.o.requires
+cpp/CMakeFiles/equiv_classes.dir/requires: cpp/CMakeFiles/equiv_classes.dir/equiv_classes.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Equiv_classes.dir/requires
+.PHONY : cpp/CMakeFiles/equiv_classes.dir/requires
 
-cpp/CMakeFiles/Equiv_classes.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Equiv_classes.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Equiv_classes.dir/clean
+cpp/CMakeFiles/equiv_classes.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/equiv_classes.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/equiv_classes.dir/clean
 
-cpp/CMakeFiles/Equiv_classes.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Equiv_classes.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Equiv_classes.dir/depend
+cpp/CMakeFiles/equiv_classes.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/equiv_classes.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/equiv_classes.dir/depend
 

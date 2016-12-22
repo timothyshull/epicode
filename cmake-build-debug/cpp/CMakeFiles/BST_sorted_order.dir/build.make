@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/BST_sorted_order.dir/depend.make
+include cpp/CMakeFiles/bst_sorted_order.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/BST_sorted_order.dir/progress.make
+include cpp/CMakeFiles/bst_sorted_order.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/BST_sorted_order.dir/flags.make
+include cpp/CMakeFiles/bst_sorted_order.dir/flags.make
 
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o: cpp/CMakeFiles/BST_sorted_order.dir/flags.make
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o: ../cpp/BST_sorted_order.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/BST_sorted_order.cpp
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o: cpp/CMakeFiles/bst_sorted_order.dir/flags.make
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o: ../cpp/bst_sorted_order.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/bst_sorted_order.cpp
 
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/BST_sorted_order.cpp > CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.i
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/bst_sorted_order.cpp > CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.i
 
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/BST_sorted_order.cpp -o CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.s
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/bst_sorted_order.cpp -o CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.s
 
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.requires:
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.requires
+.PHONY : cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.requires
 
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.provides: cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/BST_sorted_order.dir/build.make cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.provides
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.provides: cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/bst_sorted_order.dir/build.make cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.provides
 
-cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.provides.build: cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o
+cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.provides.build: cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o
 
 
-# Object files for target BST_sorted_order
-BST_sorted_order_OBJECTS = \
-"CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o"
+# Object files for target bst_sorted_order
+bst_sorted_order_OBJECTS = \
+"CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o"
 
-# External object files for target BST_sorted_order
-BST_sorted_order_EXTERNAL_OBJECTS =
+# External object files for target bst_sorted_order
+bst_sorted_order_EXTERNAL_OBJECTS =
 
-cpp/BST_sorted_order: cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o
-cpp/BST_sorted_order: cpp/CMakeFiles/BST_sorted_order.dir/build.make
-cpp/BST_sorted_order: cpp/CMakeFiles/BST_sorted_order.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BST_sorted_order"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BST_sorted_order.dir/link.txt --verbose=$(VERBOSE)
+cpp/bst_sorted_order: cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o
+cpp/bst_sorted_order: cpp/CMakeFiles/bst_sorted_order.dir/build.make
+cpp/bst_sorted_order: cpp/CMakeFiles/bst_sorted_order.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bst_sorted_order"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bst_sorted_order.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/BST_sorted_order.dir/build: cpp/BST_sorted_order
+cpp/CMakeFiles/bst_sorted_order.dir/build: cpp/bst_sorted_order
 
-.PHONY : cpp/CMakeFiles/BST_sorted_order.dir/build
+.PHONY : cpp/CMakeFiles/bst_sorted_order.dir/build
 
-cpp/CMakeFiles/BST_sorted_order.dir/requires: cpp/CMakeFiles/BST_sorted_order.dir/BST_sorted_order.cpp.o.requires
+cpp/CMakeFiles/bst_sorted_order.dir/requires: cpp/CMakeFiles/bst_sorted_order.dir/bst_sorted_order.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/BST_sorted_order.dir/requires
+.PHONY : cpp/CMakeFiles/bst_sorted_order.dir/requires
 
-cpp/CMakeFiles/BST_sorted_order.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/BST_sorted_order.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/BST_sorted_order.dir/clean
+cpp/CMakeFiles/bst_sorted_order.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/bst_sorted_order.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/bst_sorted_order.dir/clean
 
-cpp/CMakeFiles/BST_sorted_order.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/BST_sorted_order.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/BST_sorted_order.dir/depend
+cpp/CMakeFiles/bst_sorted_order.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/bst_sorted_order.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/bst_sorted_order.dir/depend
 

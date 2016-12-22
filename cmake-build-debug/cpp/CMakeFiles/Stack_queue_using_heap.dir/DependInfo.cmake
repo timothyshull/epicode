@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Stack_queue_using_heap.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Stack_queue_using_heap.dir/Stack_queue_using_heap.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/stack_queue_using_heap.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/stack_queue_using_heap.dir/stack_queue_using_heap.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

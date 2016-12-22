@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Lead_changes.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/lead_changes.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Points_covering_intervals.dir/depend.make
+include cpp/CMakeFiles/points_covering_intervals.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Points_covering_intervals.dir/progress.make
+include cpp/CMakeFiles/points_covering_intervals.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Points_covering_intervals.dir/flags.make
+include cpp/CMakeFiles/points_covering_intervals.dir/flags.make
 
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o: cpp/CMakeFiles/Points_covering_intervals.dir/flags.make
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o: ../cpp/Points_covering_intervals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Points_covering_intervals.cpp
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o: cpp/CMakeFiles/points_covering_intervals.dir/flags.make
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o: ../cpp/points_covering_intervals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/points_covering_intervals.cpp
 
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Points_covering_intervals.cpp > CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.i
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/points_covering_intervals.cpp > CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.i
 
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Points_covering_intervals.cpp -o CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.s
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/points_covering_intervals.cpp -o CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.s
 
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.requires:
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.requires
+.PHONY : cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.requires
 
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.provides: cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Points_covering_intervals.dir/build.make cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.provides
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.provides: cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/points_covering_intervals.dir/build.make cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.provides
 
-cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.provides.build: cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o
+cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.provides.build: cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o
 
 
-# Object files for target Points_covering_intervals
-Points_covering_intervals_OBJECTS = \
-"CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o"
+# Object files for target points_covering_intervals
+points_covering_intervals_OBJECTS = \
+"CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o"
 
-# External object files for target Points_covering_intervals
-Points_covering_intervals_EXTERNAL_OBJECTS =
+# External object files for target points_covering_intervals
+points_covering_intervals_EXTERNAL_OBJECTS =
 
-cpp/Points_covering_intervals: cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o
-cpp/Points_covering_intervals: cpp/CMakeFiles/Points_covering_intervals.dir/build.make
-cpp/Points_covering_intervals: cpp/CMakeFiles/Points_covering_intervals.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Points_covering_intervals"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Points_covering_intervals.dir/link.txt --verbose=$(VERBOSE)
+cpp/points_covering_intervals: cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o
+cpp/points_covering_intervals: cpp/CMakeFiles/points_covering_intervals.dir/build.make
+cpp/points_covering_intervals: cpp/CMakeFiles/points_covering_intervals.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable points_covering_intervals"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/points_covering_intervals.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Points_covering_intervals.dir/build: cpp/Points_covering_intervals
+cpp/CMakeFiles/points_covering_intervals.dir/build: cpp/points_covering_intervals
 
-.PHONY : cpp/CMakeFiles/Points_covering_intervals.dir/build
+.PHONY : cpp/CMakeFiles/points_covering_intervals.dir/build
 
-cpp/CMakeFiles/Points_covering_intervals.dir/requires: cpp/CMakeFiles/Points_covering_intervals.dir/Points_covering_intervals.cpp.o.requires
+cpp/CMakeFiles/points_covering_intervals.dir/requires: cpp/CMakeFiles/points_covering_intervals.dir/points_covering_intervals.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Points_covering_intervals.dir/requires
+.PHONY : cpp/CMakeFiles/points_covering_intervals.dir/requires
 
-cpp/CMakeFiles/Points_covering_intervals.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Points_covering_intervals.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Points_covering_intervals.dir/clean
+cpp/CMakeFiles/points_covering_intervals.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/points_covering_intervals.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/points_covering_intervals.dir/clean
 
-cpp/CMakeFiles/Points_covering_intervals.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Points_covering_intervals.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Points_covering_intervals.dir/depend
+cpp/CMakeFiles/points_covering_intervals.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/points_covering_intervals.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/points_covering_intervals.dir/depend
 

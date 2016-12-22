@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Reverse_bits.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Reverse_bits.dir/Reverse_bits.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/reverse_bits.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/reverse_bits.dir/reverse_bits.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

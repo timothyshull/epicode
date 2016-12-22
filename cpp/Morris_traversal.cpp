@@ -5,7 +5,7 @@
 #include <memory>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -16,7 +16,7 @@ using std::vector;
 vector<int> result;
 
 // @include
-void InorderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree)
+void InorderTraversal(const unique_ptr<Binary_tree_node<int>>& tree)
 {
     auto* iter = tree.get();
     while (iter) {
@@ -56,15 +56,15 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    unique_ptr<BinaryTreeNode<int>> tree =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{3});
-    tree->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{2});
-    tree->left->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{1});
-    tree->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{5});
+    unique_ptr<Binary_tree_node<int>> tree =
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{3});
+    tree->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{2});
+    tree->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{1});
+    tree->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{5});
     tree->right->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{4});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{4});
     tree->right->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{6});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6});
     // should output 1 2 3 4 5 6
     InorderTraversal(tree);
     vector<int> golden_res = {1, 2, 3, 4, 5, 6};

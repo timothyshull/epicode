@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Binary_tree_to_doubly_linked_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Binary_tree_to_doubly_linked_list.dir/Binary_tree_to_doubly_linked_list.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_to_doubly_linked_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/binary_tree_to_doubly_linked_list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

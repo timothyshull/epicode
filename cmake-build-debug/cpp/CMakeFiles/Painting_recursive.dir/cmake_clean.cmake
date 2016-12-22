@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o"
-  "Painting_recursive.pdb"
-  "Painting_recursive"
+  "CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o"
+  "painting_recursive.pdb"
+  "painting_recursive"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Painting_recursive.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/painting_recursive.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

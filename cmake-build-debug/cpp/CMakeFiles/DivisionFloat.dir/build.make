@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/DivisionFloat.dir/depend.make
+include cpp/CMakeFiles/divisionfloat.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/DivisionFloat.dir/progress.make
+include cpp/CMakeFiles/divisionfloat.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/DivisionFloat.dir/flags.make
+include cpp/CMakeFiles/divisionfloat.dir/flags.make
 
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o: cpp/CMakeFiles/DivisionFloat.dir/flags.make
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o: ../cpp/DivisionFloat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/DivisionFloat.cpp
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o: cpp/CMakeFiles/divisionfloat.dir/flags.make
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o: ../cpp/division_float.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/divisionfloat.dir/division_float.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/division_float.cpp
 
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/DivisionFloat.cpp > CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.i
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/divisionfloat.dir/division_float.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/division_float.cpp > CMakeFiles/divisionfloat.dir/division_float.cpp.i
 
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/DivisionFloat.cpp -o CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.s
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/divisionfloat.dir/division_float.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/division_float.cpp -o CMakeFiles/divisionfloat.dir/division_float.cpp.s
 
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.requires:
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.requires
+.PHONY : cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.requires
 
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.provides: cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/DivisionFloat.dir/build.make cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.provides
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.provides: cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/divisionfloat.dir/build.make cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.provides
 
-cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.provides.build: cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o
+cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.provides.build: cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o
 
 
-# Object files for target DivisionFloat
-DivisionFloat_OBJECTS = \
-"CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o"
+# Object files for target divisionfloat
+divisionfloat_OBJECTS = \
+"CMakeFiles/divisionfloat.dir/division_float.cpp.o"
 
-# External object files for target DivisionFloat
-DivisionFloat_EXTERNAL_OBJECTS =
+# External object files for target divisionfloat
+divisionfloat_EXTERNAL_OBJECTS =
 
-cpp/DivisionFloat: cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o
-cpp/DivisionFloat: cpp/CMakeFiles/DivisionFloat.dir/build.make
-cpp/DivisionFloat: cpp/CMakeFiles/DivisionFloat.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable DivisionFloat"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DivisionFloat.dir/link.txt --verbose=$(VERBOSE)
+cpp/divisionfloat: cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o
+cpp/divisionfloat: cpp/CMakeFiles/divisionfloat.dir/build.make
+cpp/divisionfloat: cpp/CMakeFiles/divisionfloat.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable divisionfloat"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/divisionfloat.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/DivisionFloat.dir/build: cpp/DivisionFloat
+cpp/CMakeFiles/divisionfloat.dir/build: cpp/divisionfloat
 
-.PHONY : cpp/CMakeFiles/DivisionFloat.dir/build
+.PHONY : cpp/CMakeFiles/divisionfloat.dir/build
 
-cpp/CMakeFiles/DivisionFloat.dir/requires: cpp/CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o.requires
+cpp/CMakeFiles/divisionfloat.dir/requires: cpp/CMakeFiles/divisionfloat.dir/division_float.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/DivisionFloat.dir/requires
+.PHONY : cpp/CMakeFiles/divisionfloat.dir/requires
 
-cpp/CMakeFiles/DivisionFloat.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/DivisionFloat.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/DivisionFloat.dir/clean
+cpp/CMakeFiles/divisionfloat.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/divisionfloat.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/divisionfloat.dir/clean
 
-cpp/CMakeFiles/DivisionFloat.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/DivisionFloat.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/DivisionFloat.dir/depend
+cpp/CMakeFiles/divisionfloat.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/divisionfloat.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/divisionfloat.dir/depend
 

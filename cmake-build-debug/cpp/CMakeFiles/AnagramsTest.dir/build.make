@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/AnagramsTest.dir/depend.make
+include cpp/CMakeFiles/anagramstest.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/AnagramsTest.dir/progress.make
+include cpp/CMakeFiles/anagramstest.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/AnagramsTest.dir/flags.make
+include cpp/CMakeFiles/anagramstest.dir/flags.make
 
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o: cpp/CMakeFiles/AnagramsTest.dir/flags.make
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o: ../cpp/test/Anagrams_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/test/Anagrams_test.cpp
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o: cpp/CMakeFiles/anagramstest.dir/flags.make
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o: ../cpp/test/anagrams_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/test/anagrams_test.cpp
 
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/test/Anagrams_test.cpp > CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.i
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/test/anagrams_test.cpp > CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.i
 
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/test/Anagrams_test.cpp -o CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.s
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/test/anagrams_test.cpp -o CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.s
 
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.requires:
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.requires
+.PHONY : cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.requires
 
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.provides: cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/AnagramsTest.dir/build.make cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.provides
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.provides: cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/anagramstest.dir/build.make cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.provides
 
-cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.provides.build: cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o
+cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.provides.build: cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o
 
 
-# Object files for target AnagramsTest
-AnagramsTest_OBJECTS = \
-"CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o"
+# Object files for target anagramstest
+anagramstest_OBJECTS = \
+"CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o"
 
-# External object files for target AnagramsTest
-AnagramsTest_EXTERNAL_OBJECTS =
+# External object files for target anagramstest
+anagramstest_EXTERNAL_OBJECTS =
 
-cpp/AnagramsTest: cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o
-cpp/AnagramsTest: cpp/CMakeFiles/AnagramsTest.dir/build.make
-cpp/AnagramsTest: cpp/CMakeFiles/AnagramsTest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AnagramsTest"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AnagramsTest.dir/link.txt --verbose=$(VERBOSE)
+cpp/anagramstest: cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o
+cpp/anagramstest: cpp/CMakeFiles/anagramstest.dir/build.make
+cpp/anagramstest: cpp/CMakeFiles/anagramstest.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable anagramstest"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/anagramstest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/AnagramsTest.dir/build: cpp/AnagramsTest
+cpp/CMakeFiles/anagramstest.dir/build: cpp/anagramstest
 
-.PHONY : cpp/CMakeFiles/AnagramsTest.dir/build
+.PHONY : cpp/CMakeFiles/anagramstest.dir/build
 
-cpp/CMakeFiles/AnagramsTest.dir/requires: cpp/CMakeFiles/AnagramsTest.dir/test/Anagrams_test.cpp.o.requires
+cpp/CMakeFiles/anagramstest.dir/requires: cpp/CMakeFiles/anagramstest.dir/test/anagrams_test.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/AnagramsTest.dir/requires
+.PHONY : cpp/CMakeFiles/anagramstest.dir/requires
 
-cpp/CMakeFiles/AnagramsTest.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/AnagramsTest.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/AnagramsTest.dir/clean
+cpp/CMakeFiles/anagramstest.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/anagramstest.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/anagramstest.dir/clean
 
-cpp/CMakeFiles/AnagramsTest.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/AnagramsTest.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/AnagramsTest.dir/depend
+cpp/CMakeFiles/anagramstest.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/anagramstest.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/anagramstest.dir/depend
 

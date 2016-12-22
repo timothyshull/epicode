@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Tail_coin.dir/depend.make
+include cpp/CMakeFiles/tail_coin.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Tail_coin.dir/progress.make
+include cpp/CMakeFiles/tail_coin.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Tail_coin.dir/flags.make
+include cpp/CMakeFiles/tail_coin.dir/flags.make
 
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o: cpp/CMakeFiles/Tail_coin.dir/flags.make
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o: ../cpp/Tail_coin.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Tail_coin.cpp
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o: cpp/CMakeFiles/tail_coin.dir/flags.make
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o: ../cpp/tail_coin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tail_coin.dir/tail_coin.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/tail_coin.cpp
 
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tail_coin.dir/Tail_coin.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Tail_coin.cpp > CMakeFiles/Tail_coin.dir/Tail_coin.cpp.i
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tail_coin.dir/tail_coin.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/tail_coin.cpp > CMakeFiles/tail_coin.dir/tail_coin.cpp.i
 
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tail_coin.dir/Tail_coin.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Tail_coin.cpp -o CMakeFiles/Tail_coin.dir/Tail_coin.cpp.s
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tail_coin.dir/tail_coin.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/tail_coin.cpp -o CMakeFiles/tail_coin.dir/tail_coin.cpp.s
 
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.requires:
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.requires
+.PHONY : cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.requires
 
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.provides: cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Tail_coin.dir/build.make cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.provides
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.provides: cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/tail_coin.dir/build.make cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.provides
 
-cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.provides.build: cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o
+cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.provides.build: cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o
 
 
-# Object files for target Tail_coin
-Tail_coin_OBJECTS = \
-"CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o"
+# Object files for target tail_coin
+tail_coin_OBJECTS = \
+"CMakeFiles/tail_coin.dir/tail_coin.cpp.o"
 
-# External object files for target Tail_coin
-Tail_coin_EXTERNAL_OBJECTS =
+# External object files for target tail_coin
+tail_coin_EXTERNAL_OBJECTS =
 
-cpp/Tail_coin: cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o
-cpp/Tail_coin: cpp/CMakeFiles/Tail_coin.dir/build.make
-cpp/Tail_coin: cpp/CMakeFiles/Tail_coin.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tail_coin"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tail_coin.dir/link.txt --verbose=$(VERBOSE)
+cpp/tail_coin: cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o
+cpp/tail_coin: cpp/CMakeFiles/tail_coin.dir/build.make
+cpp/tail_coin: cpp/CMakeFiles/tail_coin.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tail_coin"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tail_coin.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Tail_coin.dir/build: cpp/Tail_coin
+cpp/CMakeFiles/tail_coin.dir/build: cpp/tail_coin
 
-.PHONY : cpp/CMakeFiles/Tail_coin.dir/build
+.PHONY : cpp/CMakeFiles/tail_coin.dir/build
 
-cpp/CMakeFiles/Tail_coin.dir/requires: cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o.requires
+cpp/CMakeFiles/tail_coin.dir/requires: cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Tail_coin.dir/requires
+.PHONY : cpp/CMakeFiles/tail_coin.dir/requires
 
-cpp/CMakeFiles/Tail_coin.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Tail_coin.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Tail_coin.dir/clean
+cpp/CMakeFiles/tail_coin.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/tail_coin.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/tail_coin.dir/clean
 
-cpp/CMakeFiles/Tail_coin.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Tail_coin.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Tail_coin.dir/depend
+cpp/CMakeFiles/tail_coin.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/tail_coin.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/tail_coin.dir/depend
 

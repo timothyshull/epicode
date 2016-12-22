@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Update_BST.dir/depend.make
+include cpp/CMakeFiles/update_bst.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Update_BST.dir/progress.make
+include cpp/CMakeFiles/update_bst.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Update_BST.dir/flags.make
+include cpp/CMakeFiles/update_bst.dir/flags.make
 
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o: cpp/CMakeFiles/Update_BST.dir/flags.make
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o: ../cpp/Update_BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Update_BST.dir/Update_BST.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Update_BST.cpp
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o: cpp/CMakeFiles/update_bst.dir/flags.make
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o: ../cpp/update_bst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/update_bst.dir/update_bst.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/update_bst.cpp
 
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Update_BST.dir/Update_BST.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Update_BST.cpp > CMakeFiles/Update_BST.dir/Update_BST.cpp.i
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/update_bst.dir/update_bst.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/update_bst.cpp > CMakeFiles/update_bst.dir/update_bst.cpp.i
 
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Update_BST.dir/Update_BST.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Update_BST.cpp -o CMakeFiles/Update_BST.dir/Update_BST.cpp.s
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/update_bst.dir/update_bst.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/update_bst.cpp -o CMakeFiles/update_bst.dir/update_bst.cpp.s
 
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.requires:
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.requires
+.PHONY : cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.requires
 
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.provides: cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Update_BST.dir/build.make cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.provides
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.provides: cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/update_bst.dir/build.make cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.provides
 
-cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.provides.build: cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o
+cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.provides.build: cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o
 
 
-# Object files for target Update_BST
-Update_BST_OBJECTS = \
-"CMakeFiles/Update_BST.dir/Update_BST.cpp.o"
+# Object files for target update_bst
+update_bst_OBJECTS = \
+"CMakeFiles/update_bst.dir/update_bst.cpp.o"
 
-# External object files for target Update_BST
-Update_BST_EXTERNAL_OBJECTS =
+# External object files for target update_bst
+update_bst_EXTERNAL_OBJECTS =
 
-cpp/Update_BST: cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o
-cpp/Update_BST: cpp/CMakeFiles/Update_BST.dir/build.make
-cpp/Update_BST: cpp/CMakeFiles/Update_BST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Update_BST"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Update_BST.dir/link.txt --verbose=$(VERBOSE)
+cpp/update_bst: cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o
+cpp/update_bst: cpp/CMakeFiles/update_bst.dir/build.make
+cpp/update_bst: cpp/CMakeFiles/update_bst.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable update_bst"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_bst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Update_BST.dir/build: cpp/Update_BST
+cpp/CMakeFiles/update_bst.dir/build: cpp/update_bst
 
-.PHONY : cpp/CMakeFiles/Update_BST.dir/build
+.PHONY : cpp/CMakeFiles/update_bst.dir/build
 
-cpp/CMakeFiles/Update_BST.dir/requires: cpp/CMakeFiles/Update_BST.dir/Update_BST.cpp.o.requires
+cpp/CMakeFiles/update_bst.dir/requires: cpp/CMakeFiles/update_bst.dir/update_bst.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Update_BST.dir/requires
+.PHONY : cpp/CMakeFiles/update_bst.dir/requires
 
-cpp/CMakeFiles/Update_BST.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Update_BST.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Update_BST.dir/clean
+cpp/CMakeFiles/update_bst.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/update_bst.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/update_bst.dir/clean
 
-cpp/CMakeFiles/Update_BST.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Update_BST.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Update_BST.dir/depend
+cpp/CMakeFiles/update_bst.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/update_bst.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/update_bst.dir/depend
 

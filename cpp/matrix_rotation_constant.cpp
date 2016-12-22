@@ -27,9 +27,9 @@ void RotateMatrix(vector<vector<int>>* A_ptr)
 }
 
 // @include
-class RotatedMatrix {
+class Rotated_matrix {
 public:
-    explicit RotatedMatrix(vector<vector<int>>* square_matrix)
+    explicit Rotated_matrix(vector<vector<int>>* square_matrix)
             : square_matrix_(*square_matrix) {}
 
     int ReadEntry(int i, int j) const
@@ -49,7 +49,7 @@ private:
 
 void CheckAnswer(vector<vector<int>> A, const vector<vector<int>>& B)
 {
-    RotatedMatrix rA(&A);
+    Rotated_matrix rA(&A);
     for (int i = 0; i < A.size(); ++i) {
         for (int j = 0; j < A.size(); ++j) {
             assert(rA.ReadEntry(i, j) == B[i][j]);

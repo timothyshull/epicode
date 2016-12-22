@@ -5,7 +5,7 @@
 #include <limits>
 #include <memory>
 
-#include "./BST_prototype_shared_ptr.h"
+#include "BST_prototype_shared_ptr.h"
 
 using std::cout;
 using std::endl;

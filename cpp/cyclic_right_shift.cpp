@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,8 +12,8 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> CyclicallyRightShiftList(
-        shared_ptr<ListNode<int>> L, int k)
+shared_ptr<List_node<int>> CyclicallyRightShiftList(
+        shared_ptr<List_node<int>> L, int k)
 {
     if (L == nullptr) {
         return L;
@@ -44,11 +44,11 @@ shared_ptr<ListNode<int>> CyclicallyRightShiftList(
 
 void SimpleTest()
 {
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{1, nullptr});
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{1, nullptr});
     auto result = CyclicallyRightShiftList(L, 2);
     assert(result == L);
-    L->next = make_shared<ListNode<int>>(ListNode<int>{2, nullptr});
+    L->next = make_shared<List_node<int>>(List_node<int>{2, nullptr});
     result = CyclicallyRightShiftList(L, 2);
     assert(result == L);
     result = CyclicallyRightShiftList(L, 3);
@@ -58,10 +58,10 @@ void SimpleTest()
 int main(int argc, char* argv[])
 {
     simple_test();
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     auto result = CyclicallyRightShiftList(L, 2);
     assert(result->data == 2 && result->next->data == 3 &&
            result->next->next->data == 1 && !result->next->next->next);

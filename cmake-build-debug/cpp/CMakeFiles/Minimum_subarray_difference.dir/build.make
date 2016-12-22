@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Minimum_subarray_difference.dir/depend.make
+include cpp/CMakeFiles/minimum_subarray_difference.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Minimum_subarray_difference.dir/progress.make
+include cpp/CMakeFiles/minimum_subarray_difference.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Minimum_subarray_difference.dir/flags.make
+include cpp/CMakeFiles/minimum_subarray_difference.dir/flags.make
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o: cpp/CMakeFiles/Minimum_subarray_difference.dir/flags.make
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o: ../cpp/Minimum_subarray_difference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Minimum_subarray_difference.cpp
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o: cpp/CMakeFiles/minimum_subarray_difference.dir/flags.make
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o: ../cpp/minimum_subarray_difference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/minimum_subarray_difference.cpp
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Minimum_subarray_difference.cpp > CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.i
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/minimum_subarray_difference.cpp > CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.i
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Minimum_subarray_difference.cpp -o CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.s
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/minimum_subarray_difference.cpp -o CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.s
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.requires:
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.requires
+.PHONY : cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.requires
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.provides: cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Minimum_subarray_difference.dir/build.make cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.provides
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.provides: cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/minimum_subarray_difference.dir/build.make cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.provides
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.provides.build: cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o
+cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.provides.build: cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o
 
 
-# Object files for target Minimum_subarray_difference
-Minimum_subarray_difference_OBJECTS = \
-"CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o"
+# Object files for target minimum_subarray_difference
+minimum_subarray_difference_OBJECTS = \
+"CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o"
 
-# External object files for target Minimum_subarray_difference
-Minimum_subarray_difference_EXTERNAL_OBJECTS =
+# External object files for target minimum_subarray_difference
+minimum_subarray_difference_EXTERNAL_OBJECTS =
 
-cpp/Minimum_subarray_difference: cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o
-cpp/Minimum_subarray_difference: cpp/CMakeFiles/Minimum_subarray_difference.dir/build.make
-cpp/Minimum_subarray_difference: cpp/CMakeFiles/Minimum_subarray_difference.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Minimum_subarray_difference"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Minimum_subarray_difference.dir/link.txt --verbose=$(VERBOSE)
+cpp/minimum_subarray_difference: cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o
+cpp/minimum_subarray_difference: cpp/CMakeFiles/minimum_subarray_difference.dir/build.make
+cpp/minimum_subarray_difference: cpp/CMakeFiles/minimum_subarray_difference.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable minimum_subarray_difference"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minimum_subarray_difference.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Minimum_subarray_difference.dir/build: cpp/Minimum_subarray_difference
+cpp/CMakeFiles/minimum_subarray_difference.dir/build: cpp/minimum_subarray_difference
 
-.PHONY : cpp/CMakeFiles/Minimum_subarray_difference.dir/build
+.PHONY : cpp/CMakeFiles/minimum_subarray_difference.dir/build
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/requires: cpp/CMakeFiles/Minimum_subarray_difference.dir/Minimum_subarray_difference.cpp.o.requires
+cpp/CMakeFiles/minimum_subarray_difference.dir/requires: cpp/CMakeFiles/minimum_subarray_difference.dir/minimum_subarray_difference.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Minimum_subarray_difference.dir/requires
+.PHONY : cpp/CMakeFiles/minimum_subarray_difference.dir/requires
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Minimum_subarray_difference.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Minimum_subarray_difference.dir/clean
+cpp/CMakeFiles/minimum_subarray_difference.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/minimum_subarray_difference.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/minimum_subarray_difference.dir/clean
 
-cpp/CMakeFiles/Minimum_subarray_difference.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Minimum_subarray_difference.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Minimum_subarray_difference.dir/depend
+cpp/CMakeFiles/minimum_subarray_difference.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/minimum_subarray_difference.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/minimum_subarray_difference.dir/depend
 

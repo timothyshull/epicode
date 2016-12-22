@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Ties_election.dir/depend.make
+include cpp/CMakeFiles/ties_election.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Ties_election.dir/progress.make
+include cpp/CMakeFiles/ties_election.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Ties_election.dir/flags.make
+include cpp/CMakeFiles/ties_election.dir/flags.make
 
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o: cpp/CMakeFiles/Ties_election.dir/flags.make
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o: ../cpp/Ties_election.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Ties_election.dir/Ties_election.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Ties_election.cpp
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o: cpp/CMakeFiles/ties_election.dir/flags.make
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o: ../cpp/ties_election.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ties_election.dir/ties_election.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/ties_election.cpp
 
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ties_election.dir/Ties_election.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Ties_election.cpp > CMakeFiles/Ties_election.dir/Ties_election.cpp.i
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ties_election.dir/ties_election.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/ties_election.cpp > CMakeFiles/ties_election.dir/ties_election.cpp.i
 
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ties_election.dir/Ties_election.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Ties_election.cpp -o CMakeFiles/Ties_election.dir/Ties_election.cpp.s
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ties_election.dir/ties_election.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/ties_election.cpp -o CMakeFiles/ties_election.dir/ties_election.cpp.s
 
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.requires:
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.requires
+.PHONY : cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.requires
 
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.provides: cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Ties_election.dir/build.make cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.provides
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.provides: cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/ties_election.dir/build.make cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.provides
 
-cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.provides.build: cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o
+cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.provides.build: cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o
 
 
-# Object files for target Ties_election
-Ties_election_OBJECTS = \
-"CMakeFiles/Ties_election.dir/Ties_election.cpp.o"
+# Object files for target ties_election
+ties_election_OBJECTS = \
+"CMakeFiles/ties_election.dir/ties_election.cpp.o"
 
-# External object files for target Ties_election
-Ties_election_EXTERNAL_OBJECTS =
+# External object files for target ties_election
+ties_election_EXTERNAL_OBJECTS =
 
-cpp/Ties_election: cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o
-cpp/Ties_election: cpp/CMakeFiles/Ties_election.dir/build.make
-cpp/Ties_election: cpp/CMakeFiles/Ties_election.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Ties_election"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Ties_election.dir/link.txt --verbose=$(VERBOSE)
+cpp/ties_election: cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o
+cpp/ties_election: cpp/CMakeFiles/ties_election.dir/build.make
+cpp/ties_election: cpp/CMakeFiles/ties_election.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ties_election"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ties_election.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Ties_election.dir/build: cpp/Ties_election
+cpp/CMakeFiles/ties_election.dir/build: cpp/ties_election
 
-.PHONY : cpp/CMakeFiles/Ties_election.dir/build
+.PHONY : cpp/CMakeFiles/ties_election.dir/build
 
-cpp/CMakeFiles/Ties_election.dir/requires: cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o.requires
+cpp/CMakeFiles/ties_election.dir/requires: cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Ties_election.dir/requires
+.PHONY : cpp/CMakeFiles/ties_election.dir/requires
 
-cpp/CMakeFiles/Ties_election.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Ties_election.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Ties_election.dir/clean
+cpp/CMakeFiles/ties_election.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/ties_election.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/ties_election.dir/clean
 
-cpp/CMakeFiles/Ties_election.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Ties_election.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Ties_election.dir/depend
+cpp/CMakeFiles/ties_election.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/ties_election.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/ties_election.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Finding_min_max.dir/depend.make
+include cpp/CMakeFiles/finding_min_max.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Finding_min_max.dir/progress.make
+include cpp/CMakeFiles/finding_min_max.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Finding_min_max.dir/flags.make
+include cpp/CMakeFiles/finding_min_max.dir/flags.make
 
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o: cpp/CMakeFiles/Finding_min_max.dir/flags.make
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o: ../cpp/Finding_min_max.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Finding_min_max.cpp
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o: cpp/CMakeFiles/finding_min_max.dir/flags.make
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o: ../cpp/finding_min_max.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/finding_min_max.cpp
 
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Finding_min_max.cpp > CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.i
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/finding_min_max.dir/finding_min_max.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/finding_min_max.cpp > CMakeFiles/finding_min_max.dir/finding_min_max.cpp.i
 
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Finding_min_max.cpp -o CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.s
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/finding_min_max.dir/finding_min_max.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/finding_min_max.cpp -o CMakeFiles/finding_min_max.dir/finding_min_max.cpp.s
 
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.requires:
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.requires
+.PHONY : cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.requires
 
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.provides: cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Finding_min_max.dir/build.make cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.provides
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.provides: cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/finding_min_max.dir/build.make cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.provides
 
-cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.provides.build: cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o
+cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.provides.build: cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o
 
 
-# Object files for target Finding_min_max
-Finding_min_max_OBJECTS = \
-"CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o"
+# Object files for target finding_min_max
+finding_min_max_OBJECTS = \
+"CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o"
 
-# External object files for target Finding_min_max
-Finding_min_max_EXTERNAL_OBJECTS =
+# External object files for target finding_min_max
+finding_min_max_EXTERNAL_OBJECTS =
 
-cpp/Finding_min_max: cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o
-cpp/Finding_min_max: cpp/CMakeFiles/Finding_min_max.dir/build.make
-cpp/Finding_min_max: cpp/CMakeFiles/Finding_min_max.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Finding_min_max"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Finding_min_max.dir/link.txt --verbose=$(VERBOSE)
+cpp/finding_min_max: cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o
+cpp/finding_min_max: cpp/CMakeFiles/finding_min_max.dir/build.make
+cpp/finding_min_max: cpp/CMakeFiles/finding_min_max.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable finding_min_max"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/finding_min_max.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Finding_min_max.dir/build: cpp/Finding_min_max
+cpp/CMakeFiles/finding_min_max.dir/build: cpp/finding_min_max
 
-.PHONY : cpp/CMakeFiles/Finding_min_max.dir/build
+.PHONY : cpp/CMakeFiles/finding_min_max.dir/build
 
-cpp/CMakeFiles/Finding_min_max.dir/requires: cpp/CMakeFiles/Finding_min_max.dir/Finding_min_max.cpp.o.requires
+cpp/CMakeFiles/finding_min_max.dir/requires: cpp/CMakeFiles/finding_min_max.dir/finding_min_max.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Finding_min_max.dir/requires
+.PHONY : cpp/CMakeFiles/finding_min_max.dir/requires
 
-cpp/CMakeFiles/Finding_min_max.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Finding_min_max.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Finding_min_max.dir/clean
+cpp/CMakeFiles/finding_min_max.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/finding_min_max.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/finding_min_max.dir/clean
 
-cpp/CMakeFiles/Finding_min_max.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Finding_min_max.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Finding_min_max.dir/depend
+cpp/CMakeFiles/finding_min_max.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/finding_min_max.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/finding_min_max.dir/depend
 

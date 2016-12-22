@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o"
-  "Deletion_list.pdb"
-  "Deletion_list"
+  "CMakeFiles/deletion_list.dir/deletion_list.cpp.o"
+  "deletion_list.pdb"
+  "deletion_list"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Deletion_list.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/deletion_list.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

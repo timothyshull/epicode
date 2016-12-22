@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/String_matching_wildcard.dir/depend.make
+include cpp/CMakeFiles/string_matching_wildcard.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/String_matching_wildcard.dir/progress.make
+include cpp/CMakeFiles/string_matching_wildcard.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/String_matching_wildcard.dir/flags.make
+include cpp/CMakeFiles/string_matching_wildcard.dir/flags.make
 
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o: cpp/CMakeFiles/String_matching_wildcard.dir/flags.make
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o: ../cpp/String_matching_wildcard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/String_matching_wildcard.cpp
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o: cpp/CMakeFiles/string_matching_wildcard.dir/flags.make
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o: ../cpp/string_matching_wildcard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/string_matching_wildcard.cpp
 
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/String_matching_wildcard.cpp > CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.i
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/string_matching_wildcard.cpp > CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.i
 
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/String_matching_wildcard.cpp -o CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.s
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/string_matching_wildcard.cpp -o CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.s
 
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.requires:
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.requires
+.PHONY : cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.requires
 
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.provides: cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/String_matching_wildcard.dir/build.make cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.provides
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.provides: cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/string_matching_wildcard.dir/build.make cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.provides
 
-cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.provides.build: cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o
+cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.provides.build: cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o
 
 
-# Object files for target String_matching_wildcard
-String_matching_wildcard_OBJECTS = \
-"CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o"
+# Object files for target string_matching_wildcard
+string_matching_wildcard_OBJECTS = \
+"CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o"
 
-# External object files for target String_matching_wildcard
-String_matching_wildcard_EXTERNAL_OBJECTS =
+# External object files for target string_matching_wildcard
+string_matching_wildcard_EXTERNAL_OBJECTS =
 
-cpp/String_matching_wildcard: cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o
-cpp/String_matching_wildcard: cpp/CMakeFiles/String_matching_wildcard.dir/build.make
-cpp/String_matching_wildcard: cpp/CMakeFiles/String_matching_wildcard.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable String_matching_wildcard"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/String_matching_wildcard.dir/link.txt --verbose=$(VERBOSE)
+cpp/string_matching_wildcard: cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o
+cpp/string_matching_wildcard: cpp/CMakeFiles/string_matching_wildcard.dir/build.make
+cpp/string_matching_wildcard: cpp/CMakeFiles/string_matching_wildcard.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable string_matching_wildcard"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/string_matching_wildcard.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/String_matching_wildcard.dir/build: cpp/String_matching_wildcard
+cpp/CMakeFiles/string_matching_wildcard.dir/build: cpp/string_matching_wildcard
 
-.PHONY : cpp/CMakeFiles/String_matching_wildcard.dir/build
+.PHONY : cpp/CMakeFiles/string_matching_wildcard.dir/build
 
-cpp/CMakeFiles/String_matching_wildcard.dir/requires: cpp/CMakeFiles/String_matching_wildcard.dir/String_matching_wildcard.cpp.o.requires
+cpp/CMakeFiles/string_matching_wildcard.dir/requires: cpp/CMakeFiles/string_matching_wildcard.dir/string_matching_wildcard.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/String_matching_wildcard.dir/requires
+.PHONY : cpp/CMakeFiles/string_matching_wildcard.dir/requires
 
-cpp/CMakeFiles/String_matching_wildcard.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/String_matching_wildcard.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/String_matching_wildcard.dir/clean
+cpp/CMakeFiles/string_matching_wildcard.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/string_matching_wildcard.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/string_matching_wildcard.dir/clean
 
-cpp/CMakeFiles/String_matching_wildcard.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/String_matching_wildcard.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/String_matching_wildcard.dir/depend
+cpp/CMakeFiles/string_matching_wildcard.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/string_matching_wildcard.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/string_matching_wildcard.dir/depend
 

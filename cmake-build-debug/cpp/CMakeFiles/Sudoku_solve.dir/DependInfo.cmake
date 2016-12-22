@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Sudoku_solve.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Sudoku_solve.dir/Sudoku_solve.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/sudoku_solve.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/sudoku_solve.dir/sudoku_solve.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

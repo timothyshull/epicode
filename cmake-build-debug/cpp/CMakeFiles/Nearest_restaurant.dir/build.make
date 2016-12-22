@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Nearest_restaurant.dir/depend.make
+include cpp/CMakeFiles/nearest_restaurant.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Nearest_restaurant.dir/progress.make
+include cpp/CMakeFiles/nearest_restaurant.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Nearest_restaurant.dir/flags.make
+include cpp/CMakeFiles/nearest_restaurant.dir/flags.make
 
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o: cpp/CMakeFiles/Nearest_restaurant.dir/flags.make
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o: ../cpp/Nearest_restaurant.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Nearest_restaurant.cpp
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o: cpp/CMakeFiles/nearest_restaurant.dir/flags.make
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o: ../cpp/nearest_restaurant.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/nearest_restaurant.cpp
 
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Nearest_restaurant.cpp > CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.i
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/nearest_restaurant.cpp > CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.i
 
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Nearest_restaurant.cpp -o CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.s
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/nearest_restaurant.cpp -o CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.s
 
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.requires:
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.requires
+.PHONY : cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.requires
 
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.provides: cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Nearest_restaurant.dir/build.make cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.provides
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.provides: cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/nearest_restaurant.dir/build.make cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.provides
 
-cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.provides.build: cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o
+cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.provides.build: cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o
 
 
-# Object files for target Nearest_restaurant
-Nearest_restaurant_OBJECTS = \
-"CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o"
+# Object files for target nearest_restaurant
+nearest_restaurant_OBJECTS = \
+"CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o"
 
-# External object files for target Nearest_restaurant
-Nearest_restaurant_EXTERNAL_OBJECTS =
+# External object files for target nearest_restaurant
+nearest_restaurant_EXTERNAL_OBJECTS =
 
-cpp/Nearest_restaurant: cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o
-cpp/Nearest_restaurant: cpp/CMakeFiles/Nearest_restaurant.dir/build.make
-cpp/Nearest_restaurant: cpp/CMakeFiles/Nearest_restaurant.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Nearest_restaurant"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Nearest_restaurant.dir/link.txt --verbose=$(VERBOSE)
+cpp/nearest_restaurant: cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o
+cpp/nearest_restaurant: cpp/CMakeFiles/nearest_restaurant.dir/build.make
+cpp/nearest_restaurant: cpp/CMakeFiles/nearest_restaurant.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable nearest_restaurant"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nearest_restaurant.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Nearest_restaurant.dir/build: cpp/Nearest_restaurant
+cpp/CMakeFiles/nearest_restaurant.dir/build: cpp/nearest_restaurant
 
-.PHONY : cpp/CMakeFiles/Nearest_restaurant.dir/build
+.PHONY : cpp/CMakeFiles/nearest_restaurant.dir/build
 
-cpp/CMakeFiles/Nearest_restaurant.dir/requires: cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o.requires
+cpp/CMakeFiles/nearest_restaurant.dir/requires: cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Nearest_restaurant.dir/requires
+.PHONY : cpp/CMakeFiles/nearest_restaurant.dir/requires
 
-cpp/CMakeFiles/Nearest_restaurant.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Nearest_restaurant.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Nearest_restaurant.dir/clean
+cpp/CMakeFiles/nearest_restaurant.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/nearest_restaurant.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/nearest_restaurant.dir/clean
 
-cpp/CMakeFiles/Nearest_restaurant.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Nearest_restaurant.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Nearest_restaurant.dir/depend
+cpp/CMakeFiles/nearest_restaurant.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/nearest_restaurant.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/nearest_restaurant.dir/depend
 

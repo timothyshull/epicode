@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,9 +12,9 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> InsertionSort(const shared_ptr<ListNode<int>>& L)
+shared_ptr<List_node<int>> InsertionSort(const shared_ptr<List_node<int>>& L)
 {
-    auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
+    auto dummy_head = make_shared<List_node<int>>(List_node<int>{0, L});
     auto iter = L;
     // The sublist consisting of nodes up to and including iter is sorted in
     // increasing order. We need to ensure that after we move to iter->next
@@ -40,15 +40,15 @@ shared_ptr<ListNode<int>> InsertionSort(const shared_ptr<ListNode<int>>& L)
 
 int main(int argc, char** argv)
 {
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    4, make_shared<ListNode<int>>(ListNode<int>{
-                            3, make_shared<ListNode<int>>(ListNode<int>{
-                                    2, make_shared<ListNode<int>>(
-                                            ListNode<int>{5, nullptr})})})})});
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    4, make_shared<List_node<int>>(List_node<int>{
+                            3, make_shared<List_node<int>>(List_node<int>{
+                                    2, make_shared<List_node<int>>(
+                                            List_node<int>{5, nullptr})})})})});
     auto result = InsertionSort(L);
-    shared_ptr<ListNode<int>> pre = nullptr;
+    shared_ptr<List_node<int>> pre = nullptr;
     while (result) {
         assert(!pre || pre->data <= result->data);
         pre = result;

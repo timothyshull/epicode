@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Palindrome_linked_list.dir/depend.make
+include cpp/CMakeFiles/palindrome_linked_list.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Palindrome_linked_list.dir/progress.make
+include cpp/CMakeFiles/palindrome_linked_list.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Palindrome_linked_list.dir/flags.make
+include cpp/CMakeFiles/palindrome_linked_list.dir/flags.make
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o: cpp/CMakeFiles/Palindrome_linked_list.dir/flags.make
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o: ../cpp/Palindrome_linked_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Palindrome_linked_list.cpp
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o: cpp/CMakeFiles/palindrome_linked_list.dir/flags.make
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o: ../cpp/palindrome_linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/palindrome_linked_list.cpp
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Palindrome_linked_list.cpp > CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.i
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/palindrome_linked_list.cpp > CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.i
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Palindrome_linked_list.cpp -o CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.s
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/palindrome_linked_list.cpp -o CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.s
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.requires:
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.requires
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.requires
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.provides: cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Palindrome_linked_list.dir/build.make cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.provides
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.provides: cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/palindrome_linked_list.dir/build.make cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.provides
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.provides.build: cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o
+cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.provides.build: cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o
 
 
-# Object files for target Palindrome_linked_list
-Palindrome_linked_list_OBJECTS = \
-"CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o"
+# Object files for target palindrome_linked_list
+palindrome_linked_list_OBJECTS = \
+"CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o"
 
-# External object files for target Palindrome_linked_list
-Palindrome_linked_list_EXTERNAL_OBJECTS =
+# External object files for target palindrome_linked_list
+palindrome_linked_list_EXTERNAL_OBJECTS =
 
-cpp/Palindrome_linked_list: cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o
-cpp/Palindrome_linked_list: cpp/CMakeFiles/Palindrome_linked_list.dir/build.make
-cpp/Palindrome_linked_list: cpp/CMakeFiles/Palindrome_linked_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Palindrome_linked_list"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Palindrome_linked_list.dir/link.txt --verbose=$(VERBOSE)
+cpp/palindrome_linked_list: cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o
+cpp/palindrome_linked_list: cpp/CMakeFiles/palindrome_linked_list.dir/build.make
+cpp/palindrome_linked_list: cpp/CMakeFiles/palindrome_linked_list.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable palindrome_linked_list"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/palindrome_linked_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Palindrome_linked_list.dir/build: cpp/Palindrome_linked_list
+cpp/CMakeFiles/palindrome_linked_list.dir/build: cpp/palindrome_linked_list
 
-.PHONY : cpp/CMakeFiles/Palindrome_linked_list.dir/build
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/build
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/requires: cpp/CMakeFiles/Palindrome_linked_list.dir/Palindrome_linked_list.cpp.o.requires
+cpp/CMakeFiles/palindrome_linked_list.dir/requires: cpp/CMakeFiles/palindrome_linked_list.dir/palindrome_linked_list.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Palindrome_linked_list.dir/requires
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/requires
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Palindrome_linked_list.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Palindrome_linked_list.dir/clean
+cpp/CMakeFiles/palindrome_linked_list.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/palindrome_linked_list.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/clean
 
-cpp/CMakeFiles/Palindrome_linked_list.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Palindrome_linked_list.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Palindrome_linked_list.dir/depend
+cpp/CMakeFiles/palindrome_linked_list.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/palindrome_linked_list.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/depend
 

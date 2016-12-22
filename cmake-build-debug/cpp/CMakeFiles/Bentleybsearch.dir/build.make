@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Bentleybsearch.dir/depend.make
+include cpp/CMakeFiles/bentleybsearch.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Bentleybsearch.dir/progress.make
+include cpp/CMakeFiles/bentleybsearch.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Bentleybsearch.dir/flags.make
+include cpp/CMakeFiles/bentleybsearch.dir/flags.make
 
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o: cpp/CMakeFiles/Bentleybsearch.dir/flags.make
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o: ../cpp/Bentley_bsearch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Bentley_bsearch.cpp
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o: cpp/CMakeFiles/bentleybsearch.dir/flags.make
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o: ../cpp/bentley_bsearch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/bentley_bsearch.cpp
 
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Bentley_bsearch.cpp > CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.i
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/bentley_bsearch.cpp > CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.i
 
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Bentley_bsearch.cpp -o CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.s
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/bentley_bsearch.cpp -o CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.s
 
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.requires:
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.requires
+.PHONY : cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.requires
 
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.provides: cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Bentleybsearch.dir/build.make cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.provides
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.provides: cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/bentleybsearch.dir/build.make cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.provides
 
-cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.provides.build: cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o
+cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.provides.build: cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o
 
 
-# Object files for target Bentleybsearch
-Bentleybsearch_OBJECTS = \
-"CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o"
+# Object files for target bentleybsearch
+bentleybsearch_OBJECTS = \
+"CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o"
 
-# External object files for target Bentleybsearch
-Bentleybsearch_EXTERNAL_OBJECTS =
+# External object files for target bentleybsearch
+bentleybsearch_EXTERNAL_OBJECTS =
 
-cpp/Bentleybsearch: cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o
-cpp/Bentleybsearch: cpp/CMakeFiles/Bentleybsearch.dir/build.make
-cpp/Bentleybsearch: cpp/CMakeFiles/Bentleybsearch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Bentleybsearch"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bentleybsearch.dir/link.txt --verbose=$(VERBOSE)
+cpp/bentleybsearch: cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o
+cpp/bentleybsearch: cpp/CMakeFiles/bentleybsearch.dir/build.make
+cpp/bentleybsearch: cpp/CMakeFiles/bentleybsearch.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bentleybsearch"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bentleybsearch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Bentleybsearch.dir/build: cpp/Bentleybsearch
+cpp/CMakeFiles/bentleybsearch.dir/build: cpp/bentleybsearch
 
-.PHONY : cpp/CMakeFiles/Bentleybsearch.dir/build
+.PHONY : cpp/CMakeFiles/bentleybsearch.dir/build
 
-cpp/CMakeFiles/Bentleybsearch.dir/requires: cpp/CMakeFiles/Bentleybsearch.dir/Bentley_bsearch.cpp.o.requires
+cpp/CMakeFiles/bentleybsearch.dir/requires: cpp/CMakeFiles/bentleybsearch.dir/bentley_bsearch.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Bentleybsearch.dir/requires
+.PHONY : cpp/CMakeFiles/bentleybsearch.dir/requires
 
-cpp/CMakeFiles/Bentleybsearch.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Bentleybsearch.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Bentleybsearch.dir/clean
+cpp/CMakeFiles/bentleybsearch.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/bentleybsearch.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/bentleybsearch.dir/clean
 
-cpp/CMakeFiles/Bentleybsearch.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Bentleybsearch.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Bentleybsearch.dir/depend
+cpp/CMakeFiles/bentleybsearch.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/bentleybsearch.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/bentleybsearch.dir/depend
 

@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Is_binary_tree_a_BST.dir/is_binary_tree_a_BST.cpp.o  -o Is_binary_tree_a_BST 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/is_binary_tree_a_bst.dir/is_binary_tree_a_bst.cpp.o  -o is_binary_tree_a_bst 

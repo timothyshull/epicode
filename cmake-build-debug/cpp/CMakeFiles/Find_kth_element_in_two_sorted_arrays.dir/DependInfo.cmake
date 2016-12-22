@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Find_kth_element_in_two_sorted_arrays.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Find_kth_element_in_two_sorted_arrays.dir/Find_kth_element_in_two_sorted_arrays.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/find_kth_element_in_two_sorted_arrays.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/find_kth_element_in_two_sorted_arrays.dir/find_kth_element_in_two_sorted_arrays.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Tree_diameter.dir/depend.make
+include cpp/CMakeFiles/tree_diameter.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Tree_diameter.dir/progress.make
+include cpp/CMakeFiles/tree_diameter.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Tree_diameter.dir/flags.make
+include cpp/CMakeFiles/tree_diameter.dir/flags.make
 
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o: cpp/CMakeFiles/Tree_diameter.dir/flags.make
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o: ../cpp/Tree_diameter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Tree_diameter.cpp
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o: cpp/CMakeFiles/tree_diameter.dir/flags.make
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o: ../cpp/tree_diameter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/tree_diameter.cpp
 
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Tree_diameter.cpp > CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.i
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tree_diameter.dir/tree_diameter.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/tree_diameter.cpp > CMakeFiles/tree_diameter.dir/tree_diameter.cpp.i
 
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Tree_diameter.cpp -o CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.s
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tree_diameter.dir/tree_diameter.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/tree_diameter.cpp -o CMakeFiles/tree_diameter.dir/tree_diameter.cpp.s
 
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.requires:
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.requires
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.requires
 
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.provides: cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Tree_diameter.dir/build.make cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.provides
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.provides: cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/tree_diameter.dir/build.make cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.provides
 
-cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.provides.build: cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o
+cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.provides.build: cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o
 
 
-# Object files for target Tree_diameter
-Tree_diameter_OBJECTS = \
-"CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o"
+# Object files for target tree_diameter
+tree_diameter_OBJECTS = \
+"CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o"
 
-# External object files for target Tree_diameter
-Tree_diameter_EXTERNAL_OBJECTS =
+# External object files for target tree_diameter
+tree_diameter_EXTERNAL_OBJECTS =
 
-cpp/Tree_diameter: cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o
-cpp/Tree_diameter: cpp/CMakeFiles/Tree_diameter.dir/build.make
-cpp/Tree_diameter: cpp/CMakeFiles/Tree_diameter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tree_diameter"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tree_diameter.dir/link.txt --verbose=$(VERBOSE)
+cpp/tree_diameter: cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o
+cpp/tree_diameter: cpp/CMakeFiles/tree_diameter.dir/build.make
+cpp/tree_diameter: cpp/CMakeFiles/tree_diameter.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tree_diameter"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tree_diameter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Tree_diameter.dir/build: cpp/Tree_diameter
+cpp/CMakeFiles/tree_diameter.dir/build: cpp/tree_diameter
 
-.PHONY : cpp/CMakeFiles/Tree_diameter.dir/build
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/build
 
-cpp/CMakeFiles/Tree_diameter.dir/requires: cpp/CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o.requires
+cpp/CMakeFiles/tree_diameter.dir/requires: cpp/CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Tree_diameter.dir/requires
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/requires
 
-cpp/CMakeFiles/Tree_diameter.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Tree_diameter.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Tree_diameter.dir/clean
+cpp/CMakeFiles/tree_diameter.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/tree_diameter.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/clean
 
-cpp/CMakeFiles/Tree_diameter.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Tree_diameter.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Tree_diameter.dir/depend
+cpp/CMakeFiles/tree_diameter.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/tree_diameter.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/depend
 

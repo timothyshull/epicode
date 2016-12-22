@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Compute_random_permutation.dir/depend.make
+include cpp/CMakeFiles/compute_random_permutation.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Compute_random_permutation.dir/progress.make
+include cpp/CMakeFiles/compute_random_permutation.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Compute_random_permutation.dir/flags.make
+include cpp/CMakeFiles/compute_random_permutation.dir/flags.make
 
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o: cpp/CMakeFiles/Compute_random_permutation.dir/flags.make
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o: ../cpp/compute_random_permutation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/compute_random_permutation.cpp
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o: cpp/CMakeFiles/compute_random_permutation.dir/flags.make
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o: ../cpp/compute_random_permutation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/compute_random_permutation.cpp
 
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/compute_random_permutation.cpp > CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.i
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/compute_random_permutation.cpp > CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.i
 
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/compute_random_permutation.cpp -o CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.s
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/compute_random_permutation.cpp -o CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.s
 
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.requires:
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.requires
+.PHONY : cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.requires
 
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.provides: cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Compute_random_permutation.dir/build.make cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.provides
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.provides: cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/compute_random_permutation.dir/build.make cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.provides
 
-cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.provides.build: cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o
+cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.provides.build: cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o
 
 
-# Object files for target Compute_random_permutation
-Compute_random_permutation_OBJECTS = \
-"CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o"
+# Object files for target compute_random_permutation
+compute_random_permutation_OBJECTS = \
+"CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o"
 
-# External object files for target Compute_random_permutation
-Compute_random_permutation_EXTERNAL_OBJECTS =
+# External object files for target compute_random_permutation
+compute_random_permutation_EXTERNAL_OBJECTS =
 
-cpp/Compute_random_permutation: cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o
-cpp/Compute_random_permutation: cpp/CMakeFiles/Compute_random_permutation.dir/build.make
-cpp/Compute_random_permutation: cpp/CMakeFiles/Compute_random_permutation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Compute_random_permutation"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Compute_random_permutation.dir/link.txt --verbose=$(VERBOSE)
+cpp/compute_random_permutation: cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o
+cpp/compute_random_permutation: cpp/CMakeFiles/compute_random_permutation.dir/build.make
+cpp/compute_random_permutation: cpp/CMakeFiles/compute_random_permutation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable compute_random_permutation"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/compute_random_permutation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Compute_random_permutation.dir/build: cpp/Compute_random_permutation
+cpp/CMakeFiles/compute_random_permutation.dir/build: cpp/compute_random_permutation
 
-.PHONY : cpp/CMakeFiles/Compute_random_permutation.dir/build
+.PHONY : cpp/CMakeFiles/compute_random_permutation.dir/build
 
-cpp/CMakeFiles/Compute_random_permutation.dir/requires: cpp/CMakeFiles/Compute_random_permutation.dir/compute_random_permutation.cpp.o.requires
+cpp/CMakeFiles/compute_random_permutation.dir/requires: cpp/CMakeFiles/compute_random_permutation.dir/compute_random_permutation.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Compute_random_permutation.dir/requires
+.PHONY : cpp/CMakeFiles/compute_random_permutation.dir/requires
 
-cpp/CMakeFiles/Compute_random_permutation.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Compute_random_permutation.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Compute_random_permutation.dir/clean
+cpp/CMakeFiles/compute_random_permutation.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/compute_random_permutation.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/compute_random_permutation.dir/clean
 
-cpp/CMakeFiles/Compute_random_permutation.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Compute_random_permutation.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Compute_random_permutation.dir/depend
+cpp/CMakeFiles/compute_random_permutation.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/compute_random_permutation.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/compute_random_permutation.dir/depend
 

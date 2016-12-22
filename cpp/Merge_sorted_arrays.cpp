@@ -7,7 +7,7 @@
 #include <random>
 #include <vector>
 
-#include "./Merge_sorted_arrays.h"
+#include "Merge_sorted_arrays.h"
 
 using std::cout;
 using std::default_random_engine;

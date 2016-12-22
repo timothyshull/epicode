@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Gaussian_primes.dir/depend.make
+include cpp/CMakeFiles/gaussian_primes.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Gaussian_primes.dir/progress.make
+include cpp/CMakeFiles/gaussian_primes.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Gaussian_primes.dir/flags.make
+include cpp/CMakeFiles/gaussian_primes.dir/flags.make
 
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o: cpp/CMakeFiles/Gaussian_primes.dir/flags.make
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o: ../cpp/Gaussian_primes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_primes.cpp
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o: cpp/CMakeFiles/gaussian_primes.dir/flags.make
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o: ../cpp/gaussian_primes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/gaussian_primes.cpp
 
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_primes.cpp > CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.i
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/gaussian_primes.cpp > CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.i
 
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_primes.cpp -o CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.s
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/gaussian_primes.cpp -o CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.s
 
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.requires:
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.requires
+.PHONY : cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.requires
 
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.provides: cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Gaussian_primes.dir/build.make cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.provides
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.provides: cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/gaussian_primes.dir/build.make cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.provides
 
-cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.provides.build: cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o
+cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.provides.build: cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o
 
 
-# Object files for target Gaussian_primes
-Gaussian_primes_OBJECTS = \
-"CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o"
+# Object files for target gaussian_primes
+gaussian_primes_OBJECTS = \
+"CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o"
 
-# External object files for target Gaussian_primes
-Gaussian_primes_EXTERNAL_OBJECTS =
+# External object files for target gaussian_primes
+gaussian_primes_EXTERNAL_OBJECTS =
 
-cpp/Gaussian_primes: cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o
-cpp/Gaussian_primes: cpp/CMakeFiles/Gaussian_primes.dir/build.make
-cpp/Gaussian_primes: cpp/CMakeFiles/Gaussian_primes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Gaussian_primes"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Gaussian_primes.dir/link.txt --verbose=$(VERBOSE)
+cpp/gaussian_primes: cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o
+cpp/gaussian_primes: cpp/CMakeFiles/gaussian_primes.dir/build.make
+cpp/gaussian_primes: cpp/CMakeFiles/gaussian_primes.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gaussian_primes"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gaussian_primes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Gaussian_primes.dir/build: cpp/Gaussian_primes
+cpp/CMakeFiles/gaussian_primes.dir/build: cpp/gaussian_primes
 
-.PHONY : cpp/CMakeFiles/Gaussian_primes.dir/build
+.PHONY : cpp/CMakeFiles/gaussian_primes.dir/build
 
-cpp/CMakeFiles/Gaussian_primes.dir/requires: cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o.requires
+cpp/CMakeFiles/gaussian_primes.dir/requires: cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Gaussian_primes.dir/requires
+.PHONY : cpp/CMakeFiles/gaussian_primes.dir/requires
 
-cpp/CMakeFiles/Gaussian_primes.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Gaussian_primes.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Gaussian_primes.dir/clean
+cpp/CMakeFiles/gaussian_primes.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/gaussian_primes.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/gaussian_primes.dir/clean
 
-cpp/CMakeFiles/Gaussian_primes.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Gaussian_primes.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Gaussian_primes.dir/depend
+cpp/CMakeFiles/gaussian_primes.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/gaussian_primes.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/gaussian_primes.dir/depend
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Approximate_sort.dir/approximate_sort.cpp.o"
-  "Approximate_sort.pdb"
-  "Approximate_sort"
+  "CMakeFiles/approximate_sort.dir/approximate_sort.cpp.o"
+  "approximate_sort.pdb"
+  "approximate_sort"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Approximate_sort.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/approximate_sort.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

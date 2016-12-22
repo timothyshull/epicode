@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Bignumber_multiplication.dir/depend.make
+include cpp/CMakeFiles/bignumber_multiplication.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Bignumber_multiplication.dir/progress.make
+include cpp/CMakeFiles/bignumber_multiplication.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Bignumber_multiplication.dir/flags.make
+include cpp/CMakeFiles/bignumber_multiplication.dir/flags.make
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o: cpp/CMakeFiles/Bignumber_multiplication.dir/flags.make
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o: ../cpp/Bignumber_multiplication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Bignumber_multiplication.cpp
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o: cpp/CMakeFiles/bignumber_multiplication.dir/flags.make
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o: ../cpp/big_number_multiplication.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/big_number_multiplication.cpp
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Bignumber_multiplication.cpp > CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.i
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/big_number_multiplication.cpp > CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.i
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Bignumber_multiplication.cpp -o CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.s
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/big_number_multiplication.cpp -o CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.s
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.requires:
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.requires
+.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.requires
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.provides: cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Bignumber_multiplication.dir/build.make cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.provides
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.provides: cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/bignumber_multiplication.dir/build.make cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.provides
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.provides.build: cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o
+cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.provides.build: cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o
 
 
-# Object files for target Bignumber_multiplication
-Bignumber_multiplication_OBJECTS = \
-"CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o"
+# Object files for target bignumber_multiplication
+bignumber_multiplication_OBJECTS = \
+"CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o"
 
-# External object files for target Bignumber_multiplication
-Bignumber_multiplication_EXTERNAL_OBJECTS =
+# External object files for target bignumber_multiplication
+bignumber_multiplication_EXTERNAL_OBJECTS =
 
-cpp/Bignumber_multiplication: cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o
-cpp/Bignumber_multiplication: cpp/CMakeFiles/Bignumber_multiplication.dir/build.make
-cpp/Bignumber_multiplication: cpp/CMakeFiles/Bignumber_multiplication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Bignumber_multiplication"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bignumber_multiplication.dir/link.txt --verbose=$(VERBOSE)
+cpp/bignumber_multiplication: cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o
+cpp/bignumber_multiplication: cpp/CMakeFiles/bignumber_multiplication.dir/build.make
+cpp/bignumber_multiplication: cpp/CMakeFiles/bignumber_multiplication.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bignumber_multiplication"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bignumber_multiplication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Bignumber_multiplication.dir/build: cpp/Bignumber_multiplication
+cpp/CMakeFiles/bignumber_multiplication.dir/build: cpp/bignumber_multiplication
 
-.PHONY : cpp/CMakeFiles/Bignumber_multiplication.dir/build
+.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/build
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/requires: cpp/CMakeFiles/Bignumber_multiplication.dir/Bignumber_multiplication.cpp.o.requires
+cpp/CMakeFiles/bignumber_multiplication.dir/requires: cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Bignumber_multiplication.dir/requires
+.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/requires
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Bignumber_multiplication.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Bignumber_multiplication.dir/clean
+cpp/CMakeFiles/bignumber_multiplication.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/bignumber_multiplication.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/clean
 
-cpp/CMakeFiles/Bignumber_multiplication.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Bignumber_multiplication.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Bignumber_multiplication.dir/depend
+cpp/CMakeFiles/bignumber_multiplication.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/bignumber_multiplication.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/depend
 

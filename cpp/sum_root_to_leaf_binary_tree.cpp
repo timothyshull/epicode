@@ -5,7 +5,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -13,15 +13,15 @@ using std::equal;
 using std::make_unique;
 using std::unique_ptr;
 
-int SumRootToLeafHelper(const unique_ptr<BinaryTreeNode<int>>&, int);
+int SumRootToLeafHelper(const unique_ptr<Binary_tree_node<int>>&, int);
 
 // @include
-int SumRootToLeaf(const unique_ptr<BinaryTreeNode<int>>& tree)
+int SumRootToLeaf(const unique_ptr<Binary_tree_node<int>>& tree)
 {
     return SumRootToLeafHelper(tree, 0);
 }
 
-int SumRootToLeafHelper(const unique_ptr<BinaryTreeNode<int>>& tree,
+int SumRootToLeafHelper(const unique_ptr<Binary_tree_node<int>>& tree,
                         int partial_path_sum)
 {
     if (tree == nullptr) {
@@ -43,23 +43,23 @@ int main(int argc, char** argv)
     //      1
     //    1   0
     //  0    1 0
-    unique_ptr<BinaryTreeNode<int>> root = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr});
     assert(SumRootToLeaf(root) == 1);
-    root->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr});
+    root->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr});
     assert(SumRootToLeaf(root) == 3);
-    root->left->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{0, nullptr, nullptr});
+    root->left->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{0, nullptr, nullptr});
     assert(SumRootToLeaf(root) == 6);
-    root->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{0, nullptr, nullptr});
+    root->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{0, nullptr, nullptr});
     assert(SumRootToLeaf(root) == 8);
-    root->right->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr});
+    root->right->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr});
     assert(SumRootToLeaf(root) == 11);
-    root->right->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{0, nullptr, nullptr});
+    root->right->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{0, nullptr, nullptr});
     assert(SumRootToLeaf(root) == 15);
     return 0;
 }

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

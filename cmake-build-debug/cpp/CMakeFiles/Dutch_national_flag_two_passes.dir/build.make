@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/depend.make
+include cpp/CMakeFiles/dutch_national_flag_two_passes.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/progress.make
+include cpp/CMakeFiles/dutch_national_flag_two_passes.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/flags.make
+include cpp/CMakeFiles/dutch_national_flag_two_passes.dir/flags.make
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/flags.make
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o: ../cpp/dutch_national_flag_two_passes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/dutch_national_flag_two_passes.cpp
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/flags.make
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o: ../cpp/dutch_national_flag_two_passes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/dutch_national_flag_two_passes.cpp
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/dutch_national_flag_two_passes.cpp > CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.i
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/dutch_national_flag_two_passes.cpp > CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.i
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/dutch_national_flag_two_passes.cpp -o CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.s
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/dutch_national_flag_two_passes.cpp -o CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.s
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires:
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/build.make cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build.make cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides.build: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.provides.build: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o
 
 
-# Object files for target Dutch_national_flag_two_passes
-Dutch_national_flag_two_passes_OBJECTS = \
-"CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o"
+# Object files for target dutch_national_flag_two_passes
+dutch_national_flag_two_passes_OBJECTS = \
+"CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o"
 
-# External object files for target Dutch_national_flag_two_passes
-Dutch_national_flag_two_passes_EXTERNAL_OBJECTS =
+# External object files for target dutch_national_flag_two_passes
+dutch_national_flag_two_passes_EXTERNAL_OBJECTS =
 
-cpp/Dutch_national_flag_two_passes: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o
-cpp/Dutch_national_flag_two_passes: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/build.make
-cpp/Dutch_national_flag_two_passes: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Dutch_national_flag_two_passes"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Dutch_national_flag_two_passes.dir/link.txt --verbose=$(VERBOSE)
+cpp/dutch_national_flag_two_passes: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o
+cpp/dutch_national_flag_two_passes: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build.make
+cpp/dutch_national_flag_two_passes: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable dutch_national_flag_two_passes"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dutch_national_flag_two_passes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/build: cpp/Dutch_national_flag_two_passes
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build: cpp/dutch_national_flag_two_passes
 
-.PHONY : cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/build
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/requires: cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/requires: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/dutch_national_flag_two_passes.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/requires
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/requires
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Dutch_national_flag_two_passes.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/clean
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/dutch_national_flag_two_passes.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/clean
 
-cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Dutch_national_flag_two_passes.dir/depend
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/dutch_national_flag_two_passes.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/depend
 

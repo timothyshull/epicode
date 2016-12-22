@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Painting_iterative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Painting_iterative.dir/Painting_iterative.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/painting_iterative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/painting_iterative.dir/painting_iterative.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

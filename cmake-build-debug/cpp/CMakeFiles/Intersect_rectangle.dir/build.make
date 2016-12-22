@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Intersect_rectangle.dir/depend.make
+include cpp/CMakeFiles/intersect_rectangle.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Intersect_rectangle.dir/progress.make
+include cpp/CMakeFiles/intersect_rectangle.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Intersect_rectangle.dir/flags.make
+include cpp/CMakeFiles/intersect_rectangle.dir/flags.make
 
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o: cpp/CMakeFiles/Intersect_rectangle.dir/flags.make
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o: ../cpp/Intersect_rectangle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Intersect_rectangle.cpp
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o: cpp/CMakeFiles/intersect_rectangle.dir/flags.make
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o: ../cpp/intersect_rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/intersect_rectangle.cpp
 
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Intersect_rectangle.cpp > CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.i
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/intersect_rectangle.cpp > CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.i
 
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Intersect_rectangle.cpp -o CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.s
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/intersect_rectangle.cpp -o CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.s
 
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.requires:
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.requires
+.PHONY : cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.requires
 
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.provides: cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Intersect_rectangle.dir/build.make cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.provides
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.provides: cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/intersect_rectangle.dir/build.make cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.provides
 
-cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.provides.build: cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o
+cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.provides.build: cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o
 
 
-# Object files for target Intersect_rectangle
-Intersect_rectangle_OBJECTS = \
-"CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o"
+# Object files for target intersect_rectangle
+intersect_rectangle_OBJECTS = \
+"CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o"
 
-# External object files for target Intersect_rectangle
-Intersect_rectangle_EXTERNAL_OBJECTS =
+# External object files for target intersect_rectangle
+intersect_rectangle_EXTERNAL_OBJECTS =
 
-cpp/Intersect_rectangle: cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o
-cpp/Intersect_rectangle: cpp/CMakeFiles/Intersect_rectangle.dir/build.make
-cpp/Intersect_rectangle: cpp/CMakeFiles/Intersect_rectangle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Intersect_rectangle"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Intersect_rectangle.dir/link.txt --verbose=$(VERBOSE)
+cpp/intersect_rectangle: cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o
+cpp/intersect_rectangle: cpp/CMakeFiles/intersect_rectangle.dir/build.make
+cpp/intersect_rectangle: cpp/CMakeFiles/intersect_rectangle.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable intersect_rectangle"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/intersect_rectangle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Intersect_rectangle.dir/build: cpp/Intersect_rectangle
+cpp/CMakeFiles/intersect_rectangle.dir/build: cpp/intersect_rectangle
 
-.PHONY : cpp/CMakeFiles/Intersect_rectangle.dir/build
+.PHONY : cpp/CMakeFiles/intersect_rectangle.dir/build
 
-cpp/CMakeFiles/Intersect_rectangle.dir/requires: cpp/CMakeFiles/Intersect_rectangle.dir/Intersect_rectangle.cpp.o.requires
+cpp/CMakeFiles/intersect_rectangle.dir/requires: cpp/CMakeFiles/intersect_rectangle.dir/intersect_rectangle.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Intersect_rectangle.dir/requires
+.PHONY : cpp/CMakeFiles/intersect_rectangle.dir/requires
 
-cpp/CMakeFiles/Intersect_rectangle.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Intersect_rectangle.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Intersect_rectangle.dir/clean
+cpp/CMakeFiles/intersect_rectangle.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/intersect_rectangle.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/intersect_rectangle.dir/clean
 
-cpp/CMakeFiles/Intersect_rectangle.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Intersect_rectangle.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Intersect_rectangle.dir/depend
+cpp/CMakeFiles/intersect_rectangle.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/intersect_rectangle.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/intersect_rectangle.dir/depend
 

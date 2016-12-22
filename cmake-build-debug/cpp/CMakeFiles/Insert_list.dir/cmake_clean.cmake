@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Insert_list.dir/insert_list.cpp.o"
-  "Insert_list.pdb"
-  "Insert_list"
+  "CMakeFiles/insert_list.dir/insert_list.cpp.o"
+  "insert_list.pdb"
+  "insert_list"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Insert_list.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/insert_list.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

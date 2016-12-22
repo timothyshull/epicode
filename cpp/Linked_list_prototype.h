@@ -9,9 +9,9 @@ using std::shared_ptr;
 
 // @include
 template<typename T>
-struct ListNode {
+struct List_node {
     T data;
-    shared_ptr<ListNode<T>> next;
+    shared_ptr<List_node<T>> next;
 };
 // @exclude
 #endif  // SOLUTIONS_LINKED_LIST_PROTOTYPE_H_

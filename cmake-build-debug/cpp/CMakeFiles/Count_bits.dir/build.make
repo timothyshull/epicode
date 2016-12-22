@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Count_bits.dir/depend.make
+include cpp/CMakeFiles/count_bits.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Count_bits.dir/progress.make
+include cpp/CMakeFiles/count_bits.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Count_bits.dir/flags.make
+include cpp/CMakeFiles/count_bits.dir/flags.make
 
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o: cpp/CMakeFiles/Count_bits.dir/flags.make
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o: ../cpp/count_bits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Count_bits.dir/count_bits.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/count_bits.cpp
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o: cpp/CMakeFiles/count_bits.dir/flags.make
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o: ../cpp/count_bits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/count_bits.dir/count_bits.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/count_bits.cpp
 
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Count_bits.dir/count_bits.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/count_bits.cpp > CMakeFiles/Count_bits.dir/count_bits.cpp.i
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/count_bits.dir/count_bits.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/count_bits.cpp > CMakeFiles/count_bits.dir/count_bits.cpp.i
 
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Count_bits.dir/count_bits.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/count_bits.cpp -o CMakeFiles/Count_bits.dir/count_bits.cpp.s
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/count_bits.dir/count_bits.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/count_bits.cpp -o CMakeFiles/count_bits.dir/count_bits.cpp.s
 
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.requires:
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.requires
+.PHONY : cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.requires
 
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.provides: cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Count_bits.dir/build.make cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.provides
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.provides: cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/count_bits.dir/build.make cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.provides
 
-cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.provides.build: cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o
+cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.provides.build: cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o
 
 
-# Object files for target Count_bits
-Count_bits_OBJECTS = \
-"CMakeFiles/Count_bits.dir/count_bits.cpp.o"
+# Object files for target count_bits
+count_bits_OBJECTS = \
+"CMakeFiles/count_bits.dir/count_bits.cpp.o"
 
-# External object files for target Count_bits
-Count_bits_EXTERNAL_OBJECTS =
+# External object files for target count_bits
+count_bits_EXTERNAL_OBJECTS =
 
-cpp/Count_bits: cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o
-cpp/Count_bits: cpp/CMakeFiles/Count_bits.dir/build.make
-cpp/Count_bits: cpp/CMakeFiles/Count_bits.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Count_bits"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Count_bits.dir/link.txt --verbose=$(VERBOSE)
+cpp/count_bits: cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o
+cpp/count_bits: cpp/CMakeFiles/count_bits.dir/build.make
+cpp/count_bits: cpp/CMakeFiles/count_bits.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable count_bits"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/count_bits.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Count_bits.dir/build: cpp/Count_bits
+cpp/CMakeFiles/count_bits.dir/build: cpp/count_bits
 
-.PHONY : cpp/CMakeFiles/Count_bits.dir/build
+.PHONY : cpp/CMakeFiles/count_bits.dir/build
 
-cpp/CMakeFiles/Count_bits.dir/requires: cpp/CMakeFiles/Count_bits.dir/count_bits.cpp.o.requires
+cpp/CMakeFiles/count_bits.dir/requires: cpp/CMakeFiles/count_bits.dir/count_bits.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Count_bits.dir/requires
+.PHONY : cpp/CMakeFiles/count_bits.dir/requires
 
-cpp/CMakeFiles/Count_bits.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Count_bits.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Count_bits.dir/clean
+cpp/CMakeFiles/count_bits.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/count_bits.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/count_bits.dir/clean
 
-cpp/CMakeFiles/Count_bits.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Count_bits.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Count_bits.dir/depend
+cpp/CMakeFiles/count_bits.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/count_bits.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/count_bits.dir/depend
 

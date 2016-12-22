@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Offline_minimum.dir/depend.make
+include cpp/CMakeFiles/offline_minimum.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Offline_minimum.dir/progress.make
+include cpp/CMakeFiles/offline_minimum.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Offline_minimum.dir/flags.make
+include cpp/CMakeFiles/offline_minimum.dir/flags.make
 
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o: cpp/CMakeFiles/Offline_minimum.dir/flags.make
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o: ../cpp/Offline_minimum.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Offline_minimum.cpp
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o: cpp/CMakeFiles/offline_minimum.dir/flags.make
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o: ../cpp/offline_minimum.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/offline_minimum.cpp
 
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Offline_minimum.cpp > CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.i
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/offline_minimum.dir/offline_minimum.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/offline_minimum.cpp > CMakeFiles/offline_minimum.dir/offline_minimum.cpp.i
 
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Offline_minimum.cpp -o CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.s
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/offline_minimum.dir/offline_minimum.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/offline_minimum.cpp -o CMakeFiles/offline_minimum.dir/offline_minimum.cpp.s
 
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.requires:
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.requires
+.PHONY : cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.requires
 
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.provides: cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Offline_minimum.dir/build.make cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.provides
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.provides: cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/offline_minimum.dir/build.make cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.provides
 
-cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.provides.build: cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o
+cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.provides.build: cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o
 
 
-# Object files for target Offline_minimum
-Offline_minimum_OBJECTS = \
-"CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o"
+# Object files for target offline_minimum
+offline_minimum_OBJECTS = \
+"CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o"
 
-# External object files for target Offline_minimum
-Offline_minimum_EXTERNAL_OBJECTS =
+# External object files for target offline_minimum
+offline_minimum_EXTERNAL_OBJECTS =
 
-cpp/Offline_minimum: cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o
-cpp/Offline_minimum: cpp/CMakeFiles/Offline_minimum.dir/build.make
-cpp/Offline_minimum: cpp/CMakeFiles/Offline_minimum.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Offline_minimum"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Offline_minimum.dir/link.txt --verbose=$(VERBOSE)
+cpp/offline_minimum: cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o
+cpp/offline_minimum: cpp/CMakeFiles/offline_minimum.dir/build.make
+cpp/offline_minimum: cpp/CMakeFiles/offline_minimum.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable offline_minimum"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/offline_minimum.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Offline_minimum.dir/build: cpp/Offline_minimum
+cpp/CMakeFiles/offline_minimum.dir/build: cpp/offline_minimum
 
-.PHONY : cpp/CMakeFiles/Offline_minimum.dir/build
+.PHONY : cpp/CMakeFiles/offline_minimum.dir/build
 
-cpp/CMakeFiles/Offline_minimum.dir/requires: cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o.requires
+cpp/CMakeFiles/offline_minimum.dir/requires: cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Offline_minimum.dir/requires
+.PHONY : cpp/CMakeFiles/offline_minimum.dir/requires
 
-cpp/CMakeFiles/Offline_minimum.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Offline_minimum.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Offline_minimum.dir/clean
+cpp/CMakeFiles/offline_minimum.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/offline_minimum.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/offline_minimum.dir/clean
 
-cpp/CMakeFiles/Offline_minimum.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Offline_minimum.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Offline_minimum.dir/depend
+cpp/CMakeFiles/offline_minimum.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/offline_minimum.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/offline_minimum.dir/depend
 

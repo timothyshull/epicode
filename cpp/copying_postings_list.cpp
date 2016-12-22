@@ -5,7 +5,7 @@
 #include <memory>
 #include <random>
 
-#include "./Postings_list_prototype.h"
+#include "postings_list_prototype.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -16,8 +16,8 @@ using std::shared_ptr;
 using std::uniform_int_distribution;
 
 // @include
-shared_ptr<PostingListNode> CopyPostingsList(
-        const shared_ptr<PostingListNode>& L)
+shared_ptr<Posting_list_node> CopyPostingsList(
+        const shared_ptr<Posting_list_node>& L)
 {
     if (L == nullptr) {
         return nullptr;
@@ -28,8 +28,8 @@ shared_ptr<PostingListNode> CopyPostingsList(
     //          list to the copied list.
     auto iter = L;
     while (iter) {
-        auto new_node = make_shared<PostingListNode>(
-                PostingListNode{iter->order, iter->next, nullptr});
+        auto new_node = make_shared<Posting_list_node>(
+                Posting_list_node{iter->order, iter->next, nullptr});
         iter->next = new_node;
         iter = new_node->next;
     }
@@ -57,14 +57,14 @@ shared_ptr<PostingListNode> CopyPostingsList(
 // @exclude
 
 template<typename T>
-void CheckPostingsListEqual(shared_ptr<PostingListNode> a,
-                            shared_ptr<PostingListNode> b)
+void CheckPostingsListEqual(shared_ptr<Posting_list_node> a,
+                            shared_ptr<Posting_list_node> b)
 {
     while (a && b) {
         cout << a->order << ' ';
         assert(a->order == b->order);
-        assert((a->jump == shared_ptr<PostingListNode>(nullptr) &&
-                b->jump == shared_ptr<PostingListNode>(nullptr)) ||
+        assert((a->jump == shared_ptr<Posting_list_node>(nullptr) &&
+                b->jump == shared_ptr<Posting_list_node>(nullptr)) ||
                (a->jump && b->jump && a->jump->order == b->jump->order));
         if (a->jump) {
             cout << a->jump->order;
@@ -72,8 +72,8 @@ void CheckPostingsListEqual(shared_ptr<PostingListNode> a,
         cout << "\n";
         a = a->next, b = b->next;
     }
-    assert(a == shared_ptr<PostingListNode>(nullptr) &&
-           b == shared_ptr<PostingListNode>(nullptr));
+    assert(a == shared_ptr<Posting_list_node>(nullptr) &&
+           b == shared_ptr<Posting_list_node>(nullptr));
 }
 
 int main(int argc, char* argv[])
@@ -87,10 +87,10 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> n_dis(1, 1000);
             n = n_dis(gen);
         }
-        shared_ptr<PostingListNode> L = nullptr;
-        shared_ptr<PostingListNode> curr = L;
+        shared_ptr<Posting_list_node> L = nullptr;
+        shared_ptr<Posting_list_node> curr = L;
         for (int i = 0; i < n; ++i) {
-            auto temp = make_shared<PostingListNode>(PostingListNode{i, nullptr});
+            auto temp = make_shared<Posting_list_node>(Posting_list_node{i, nullptr});
             if (L) {
                 curr->next = temp;
                 curr = temp;
@@ -100,13 +100,13 @@ int main(int argc, char* argv[])
             // Randomly assigned a jump node.
             uniform_int_distribution<int> dis(0, i + 1);
             int jump_num = dis(gen);
-            shared_ptr<PostingListNode> jump = L;
+            shared_ptr<Posting_list_node> jump = L;
             while (jump_num--) {
                 jump = jump->next;
             }
             temp->jump = jump;
         }
-        shared_ptr<PostingListNode> copied = CopyPostingsList(L);
+        shared_ptr<Posting_list_node> copied = CopyPostingsList(L);
         CheckPostingsListEqual<int>(L, copied);
     }
     return 0;

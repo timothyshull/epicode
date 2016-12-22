@@ -4,7 +4,7 @@
 #include <iostream>
 #include <stdexcept>
 
-#include "./Stack_with_max.h"
+#include "Stack_with_max.h"
 
 using std::cout;
 using std::endl;

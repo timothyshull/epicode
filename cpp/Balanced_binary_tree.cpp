@@ -19,7 +19,7 @@ using std::unique_ptr;
 
 struct Balanced_status_with_height;
 
-Balanced_status_with_height check_balanced(const unique_ptr<BinaryTreeNode<int>>&);
+Balanced_status_with_height check_balanced(const unique_ptr<Binary_tree_node<int>>&);
 
 // @include
 struct Balanced_status_with_height {
@@ -27,14 +27,14 @@ struct Balanced_status_with_height {
     int height;
 };
 
-bool is_balanced(const unique_ptr<BinaryTreeNode<int>>& tree)
+bool is_balanced(const unique_ptr<Binary_tree_node<int>>& tree)
 {
     return check_balanced(tree).balanced;
 }
 
 // First value of the return value indicates if tree is balanced, and if
 // balanced the second value of the return value is the height of tree.
-Balanced_status_with_height check_balanced(const unique_ptr<BinaryTreeNode<int>>& tree)
+Balanced_status_with_height check_balanced(const unique_ptr<Binary_tree_node<int>>& tree)
 {
     if (tree == nullptr) {
         return {true, -1};  // Base case.
@@ -61,18 +61,18 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    unique_ptr<BinaryTreeNode<int>> tree = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->left->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->right->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->right->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+    unique_ptr<Binary_tree_node<int>> tree = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->right->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->right->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(is_balanced(tree));
     cout << boolalpha << is_balanced(tree) << "\n";
     // Non-balanced binary tree test.
-    tree = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    tree->left->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+    tree = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    tree->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(!is_balanced(tree));
     cout << boolalpha << is_balanced(tree) << "\n";
     return 0;

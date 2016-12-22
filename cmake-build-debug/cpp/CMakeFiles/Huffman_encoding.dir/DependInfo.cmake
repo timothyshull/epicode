@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Huffman_encoding.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Huffman_encoding.dir/Huffman_encoding.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/huffman_encoding.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/huffman_encoding.dir/huffman_encoding.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

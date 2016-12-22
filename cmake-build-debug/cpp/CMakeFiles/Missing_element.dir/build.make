@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Missing_element.dir/depend.make
+include cpp/CMakeFiles/missing_element.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Missing_element.dir/progress.make
+include cpp/CMakeFiles/missing_element.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Missing_element.dir/flags.make
+include cpp/CMakeFiles/missing_element.dir/flags.make
 
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o: cpp/CMakeFiles/Missing_element.dir/flags.make
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o: ../cpp/Missing_element.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Missing_element.dir/Missing_element.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Missing_element.cpp
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o: cpp/CMakeFiles/missing_element.dir/flags.make
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o: ../cpp/missing_element.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/missing_element.dir/missing_element.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/missing_element.cpp
 
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Missing_element.dir/Missing_element.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Missing_element.cpp > CMakeFiles/Missing_element.dir/Missing_element.cpp.i
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/missing_element.dir/missing_element.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/missing_element.cpp > CMakeFiles/missing_element.dir/missing_element.cpp.i
 
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Missing_element.dir/Missing_element.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Missing_element.cpp -o CMakeFiles/Missing_element.dir/Missing_element.cpp.s
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/missing_element.dir/missing_element.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/missing_element.cpp -o CMakeFiles/missing_element.dir/missing_element.cpp.s
 
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.requires:
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.requires
+.PHONY : cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.requires
 
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.provides: cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Missing_element.dir/build.make cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.provides
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.provides: cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/missing_element.dir/build.make cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.provides
 
-cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.provides.build: cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o
+cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.provides.build: cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o
 
 
-# Object files for target Missing_element
-Missing_element_OBJECTS = \
-"CMakeFiles/Missing_element.dir/Missing_element.cpp.o"
+# Object files for target missing_element
+missing_element_OBJECTS = \
+"CMakeFiles/missing_element.dir/missing_element.cpp.o"
 
-# External object files for target Missing_element
-Missing_element_EXTERNAL_OBJECTS =
+# External object files for target missing_element
+missing_element_EXTERNAL_OBJECTS =
 
-cpp/Missing_element: cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o
-cpp/Missing_element: cpp/CMakeFiles/Missing_element.dir/build.make
-cpp/Missing_element: cpp/CMakeFiles/Missing_element.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Missing_element"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Missing_element.dir/link.txt --verbose=$(VERBOSE)
+cpp/missing_element: cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o
+cpp/missing_element: cpp/CMakeFiles/missing_element.dir/build.make
+cpp/missing_element: cpp/CMakeFiles/missing_element.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable missing_element"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/missing_element.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Missing_element.dir/build: cpp/Missing_element
+cpp/CMakeFiles/missing_element.dir/build: cpp/missing_element
 
-.PHONY : cpp/CMakeFiles/Missing_element.dir/build
+.PHONY : cpp/CMakeFiles/missing_element.dir/build
 
-cpp/CMakeFiles/Missing_element.dir/requires: cpp/CMakeFiles/Missing_element.dir/Missing_element.cpp.o.requires
+cpp/CMakeFiles/missing_element.dir/requires: cpp/CMakeFiles/missing_element.dir/missing_element.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Missing_element.dir/requires
+.PHONY : cpp/CMakeFiles/missing_element.dir/requires
 
-cpp/CMakeFiles/Missing_element.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Missing_element.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Missing_element.dir/clean
+cpp/CMakeFiles/missing_element.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/missing_element.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/missing_element.dir/clean
 
-cpp/CMakeFiles/Missing_element.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Missing_element.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Missing_element.dir/depend
+cpp/CMakeFiles/missing_element.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/missing_element.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/missing_element.dir/depend
 

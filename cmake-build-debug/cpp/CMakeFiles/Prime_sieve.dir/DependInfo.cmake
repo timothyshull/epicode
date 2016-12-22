@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Prime_sieve.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Prime_sieve.dir/Prime_sieve.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/prime_sieve.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/prime_sieve.dir/prime_sieve.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

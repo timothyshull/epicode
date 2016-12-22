@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Reverse_bits.dir/Reverse_bits.cpp.o"
-  "Reverse_bits.pdb"
-  "Reverse_bits"
+  "CMakeFiles/reverse_bits.dir/reverse_bits.cpp.o"
+  "reverse_bits.pdb"
+  "reverse_bits"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Reverse_bits.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/reverse_bits.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

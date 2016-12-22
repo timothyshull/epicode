@@ -3,16 +3,16 @@
 #ifndef SOLUTIONS_MERGE_SORTED_LISTS_H_
 #define SOLUTIONS_MERGE_SORTED_LISTS_H_
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
-void AppendNode(shared_ptr<ListNode<int>>*, shared_ptr<ListNode<int>>*);
+void AppendNode(shared_ptr<List_node<int>>*, shared_ptr<List_node<int>>*);
 
 // @include
-shared_ptr<ListNode<int>> MergeTwoSortedLists(shared_ptr<ListNode<int>> L1,
-                                              shared_ptr<ListNode<int>> L2)
+shared_ptr<List_node<int>> MergeTwoSortedLists(shared_ptr<List_node<int>> L1,
+                                              shared_ptr<List_node<int>> L2)
 {
     // Creates a placeholder for the result.
-    shared_ptr<ListNode<int>> dummy_head(new ListNode<int>);
+    shared_ptr<List_node<int>> dummy_head(new List_node<int>);
     auto tail = dummy_head;
 
     while (L1 && L2) {
@@ -24,8 +24,8 @@ shared_ptr<ListNode<int>> MergeTwoSortedLists(shared_ptr<ListNode<int>> L1,
     return dummy_head->next;
 }
 
-void AppendNode(shared_ptr<ListNode<int>>* node,
-                shared_ptr<ListNode<int>>* tail)
+void AppendNode(shared_ptr<List_node<int>>* node,
+                shared_ptr<List_node<int>>* tail)
 {
     (*tail)->next = *node;
     *tail = *node;  // Updates tail.

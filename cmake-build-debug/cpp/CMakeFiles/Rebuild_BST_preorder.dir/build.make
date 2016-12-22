@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Rebuild_BST_preorder.dir/depend.make
+include cpp/CMakeFiles/rebuild_bst_preorder.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Rebuild_BST_preorder.dir/progress.make
+include cpp/CMakeFiles/rebuild_bst_preorder.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Rebuild_BST_preorder.dir/flags.make
+include cpp/CMakeFiles/rebuild_bst_preorder.dir/flags.make
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o: cpp/CMakeFiles/Rebuild_BST_preorder.dir/flags.make
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o: ../cpp/Rebuild_BST_preorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Rebuild_BST_preorder.cpp
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o: cpp/CMakeFiles/rebuild_bst_preorder.dir/flags.make
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o: ../cpp/rebuild_bst_preorder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/rebuild_bst_preorder.cpp
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Rebuild_BST_preorder.cpp > CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.i
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/rebuild_bst_preorder.cpp > CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.i
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Rebuild_BST_preorder.cpp -o CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.s
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/rebuild_bst_preorder.cpp -o CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.s
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.requires:
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.requires
+.PHONY : cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.requires
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.provides: cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Rebuild_BST_preorder.dir/build.make cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.provides
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.provides: cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/rebuild_bst_preorder.dir/build.make cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.provides
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.provides.build: cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o
+cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.provides.build: cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o
 
 
-# Object files for target Rebuild_BST_preorder
-Rebuild_BST_preorder_OBJECTS = \
-"CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o"
+# Object files for target rebuild_bst_preorder
+rebuild_bst_preorder_OBJECTS = \
+"CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o"
 
-# External object files for target Rebuild_BST_preorder
-Rebuild_BST_preorder_EXTERNAL_OBJECTS =
+# External object files for target rebuild_bst_preorder
+rebuild_bst_preorder_EXTERNAL_OBJECTS =
 
-cpp/Rebuild_BST_preorder: cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o
-cpp/Rebuild_BST_preorder: cpp/CMakeFiles/Rebuild_BST_preorder.dir/build.make
-cpp/Rebuild_BST_preorder: cpp/CMakeFiles/Rebuild_BST_preorder.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Rebuild_BST_preorder"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rebuild_BST_preorder.dir/link.txt --verbose=$(VERBOSE)
+cpp/rebuild_bst_preorder: cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o
+cpp/rebuild_bst_preorder: cpp/CMakeFiles/rebuild_bst_preorder.dir/build.make
+cpp/rebuild_bst_preorder: cpp/CMakeFiles/rebuild_bst_preorder.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rebuild_bst_preorder"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rebuild_bst_preorder.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/build: cpp/Rebuild_BST_preorder
+cpp/CMakeFiles/rebuild_bst_preorder.dir/build: cpp/rebuild_bst_preorder
 
-.PHONY : cpp/CMakeFiles/Rebuild_BST_preorder.dir/build
+.PHONY : cpp/CMakeFiles/rebuild_bst_preorder.dir/build
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/requires: cpp/CMakeFiles/Rebuild_BST_preorder.dir/Rebuild_BST_preorder.cpp.o.requires
+cpp/CMakeFiles/rebuild_bst_preorder.dir/requires: cpp/CMakeFiles/rebuild_bst_preorder.dir/rebuild_bst_preorder.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Rebuild_BST_preorder.dir/requires
+.PHONY : cpp/CMakeFiles/rebuild_bst_preorder.dir/requires
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Rebuild_BST_preorder.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Rebuild_BST_preorder.dir/clean
+cpp/CMakeFiles/rebuild_bst_preorder.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/rebuild_bst_preorder.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/rebuild_bst_preorder.dir/clean
 
-cpp/CMakeFiles/Rebuild_BST_preorder.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Rebuild_BST_preorder.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Rebuild_BST_preorder.dir/depend
+cpp/CMakeFiles/rebuild_bst_preorder.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/rebuild_bst_preorder.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/rebuild_bst_preorder.dir/depend
 

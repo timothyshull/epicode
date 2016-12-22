@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Word_breaking_alternative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Word_breaking_alternative.dir/Word_breaking_alternative.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/word_breaking_alternative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/word_breaking_alternative.dir/word_breaking_alternative.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Overlapping_lists.dir/depend.make
+include cpp/CMakeFiles/overlapping_lists.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Overlapping_lists.dir/progress.make
+include cpp/CMakeFiles/overlapping_lists.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Overlapping_lists.dir/flags.make
+include cpp/CMakeFiles/overlapping_lists.dir/flags.make
 
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o: cpp/CMakeFiles/Overlapping_lists.dir/flags.make
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o: ../cpp/Overlapping_lists.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Overlapping_lists.cpp
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o: cpp/CMakeFiles/overlapping_lists.dir/flags.make
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o: ../cpp/overlapping_lists.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/overlapping_lists.cpp
 
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Overlapping_lists.cpp > CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.i
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/overlapping_lists.cpp > CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.i
 
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Overlapping_lists.cpp -o CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.s
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/overlapping_lists.cpp -o CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.s
 
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.requires:
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.requires
+.PHONY : cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.requires
 
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.provides: cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Overlapping_lists.dir/build.make cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.provides
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.provides: cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/overlapping_lists.dir/build.make cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.provides
 
-cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.provides.build: cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o
+cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.provides.build: cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o
 
 
-# Object files for target Overlapping_lists
-Overlapping_lists_OBJECTS = \
-"CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o"
+# Object files for target overlapping_lists
+overlapping_lists_OBJECTS = \
+"CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o"
 
-# External object files for target Overlapping_lists
-Overlapping_lists_EXTERNAL_OBJECTS =
+# External object files for target overlapping_lists
+overlapping_lists_EXTERNAL_OBJECTS =
 
-cpp/Overlapping_lists: cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o
-cpp/Overlapping_lists: cpp/CMakeFiles/Overlapping_lists.dir/build.make
-cpp/Overlapping_lists: cpp/CMakeFiles/Overlapping_lists.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Overlapping_lists"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Overlapping_lists.dir/link.txt --verbose=$(VERBOSE)
+cpp/overlapping_lists: cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o
+cpp/overlapping_lists: cpp/CMakeFiles/overlapping_lists.dir/build.make
+cpp/overlapping_lists: cpp/CMakeFiles/overlapping_lists.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable overlapping_lists"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/overlapping_lists.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Overlapping_lists.dir/build: cpp/Overlapping_lists
+cpp/CMakeFiles/overlapping_lists.dir/build: cpp/overlapping_lists
 
-.PHONY : cpp/CMakeFiles/Overlapping_lists.dir/build
+.PHONY : cpp/CMakeFiles/overlapping_lists.dir/build
 
-cpp/CMakeFiles/Overlapping_lists.dir/requires: cpp/CMakeFiles/Overlapping_lists.dir/Overlapping_lists.cpp.o.requires
+cpp/CMakeFiles/overlapping_lists.dir/requires: cpp/CMakeFiles/overlapping_lists.dir/overlapping_lists.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Overlapping_lists.dir/requires
+.PHONY : cpp/CMakeFiles/overlapping_lists.dir/requires
 
-cpp/CMakeFiles/Overlapping_lists.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Overlapping_lists.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Overlapping_lists.dir/clean
+cpp/CMakeFiles/overlapping_lists.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/overlapping_lists.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/overlapping_lists.dir/clean
 
-cpp/CMakeFiles/Overlapping_lists.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Overlapping_lists.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Overlapping_lists.dir/depend
+cpp/CMakeFiles/overlapping_lists.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/overlapping_lists.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/overlapping_lists.dir/depend
 

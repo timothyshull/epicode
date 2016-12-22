@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Search_postings_list_iterative.dir/depend.make
+include cpp/CMakeFiles/search_postings_list_iterative.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Search_postings_list_iterative.dir/progress.make
+include cpp/CMakeFiles/search_postings_list_iterative.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Search_postings_list_iterative.dir/flags.make
+include cpp/CMakeFiles/search_postings_list_iterative.dir/flags.make
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o: cpp/CMakeFiles/Search_postings_list_iterative.dir/flags.make
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o: ../cpp/Search_postings_list_iterative.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Search_postings_list_iterative.cpp
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o: cpp/CMakeFiles/search_postings_list_iterative.dir/flags.make
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o: ../cpp/search_postings_list_iterative.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/search_postings_list_iterative.cpp
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Search_postings_list_iterative.cpp > CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.i
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/search_postings_list_iterative.cpp > CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.i
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Search_postings_list_iterative.cpp -o CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.s
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/search_postings_list_iterative.cpp -o CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.s
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.requires:
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.requires
+.PHONY : cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.requires
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.provides: cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Search_postings_list_iterative.dir/build.make cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.provides
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.provides: cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/search_postings_list_iterative.dir/build.make cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.provides
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.provides.build: cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o
+cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.provides.build: cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o
 
 
-# Object files for target Search_postings_list_iterative
-Search_postings_list_iterative_OBJECTS = \
-"CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o"
+# Object files for target search_postings_list_iterative
+search_postings_list_iterative_OBJECTS = \
+"CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o"
 
-# External object files for target Search_postings_list_iterative
-Search_postings_list_iterative_EXTERNAL_OBJECTS =
+# External object files for target search_postings_list_iterative
+search_postings_list_iterative_EXTERNAL_OBJECTS =
 
-cpp/Search_postings_list_iterative: cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o
-cpp/Search_postings_list_iterative: cpp/CMakeFiles/Search_postings_list_iterative.dir/build.make
-cpp/Search_postings_list_iterative: cpp/CMakeFiles/Search_postings_list_iterative.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Search_postings_list_iterative"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Search_postings_list_iterative.dir/link.txt --verbose=$(VERBOSE)
+cpp/search_postings_list_iterative: cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o
+cpp/search_postings_list_iterative: cpp/CMakeFiles/search_postings_list_iterative.dir/build.make
+cpp/search_postings_list_iterative: cpp/CMakeFiles/search_postings_list_iterative.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable search_postings_list_iterative"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_postings_list_iterative.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Search_postings_list_iterative.dir/build: cpp/Search_postings_list_iterative
+cpp/CMakeFiles/search_postings_list_iterative.dir/build: cpp/search_postings_list_iterative
 
-.PHONY : cpp/CMakeFiles/Search_postings_list_iterative.dir/build
+.PHONY : cpp/CMakeFiles/search_postings_list_iterative.dir/build
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/requires: cpp/CMakeFiles/Search_postings_list_iterative.dir/Search_postings_list_iterative.cpp.o.requires
+cpp/CMakeFiles/search_postings_list_iterative.dir/requires: cpp/CMakeFiles/search_postings_list_iterative.dir/search_postings_list_iterative.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Search_postings_list_iterative.dir/requires
+.PHONY : cpp/CMakeFiles/search_postings_list_iterative.dir/requires
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Search_postings_list_iterative.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Search_postings_list_iterative.dir/clean
+cpp/CMakeFiles/search_postings_list_iterative.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/search_postings_list_iterative.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/search_postings_list_iterative.dir/clean
 
-cpp/CMakeFiles/Search_postings_list_iterative.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Search_postings_list_iterative.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Search_postings_list_iterative.dir/depend
+cpp/CMakeFiles/search_postings_list_iterative.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/search_postings_list_iterative.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/search_postings_list_iterative.dir/depend
 

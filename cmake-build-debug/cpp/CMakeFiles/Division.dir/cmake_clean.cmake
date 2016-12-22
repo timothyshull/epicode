@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Division.dir/Division.cpp.o"
-  "Division.pdb"
-  "Division"
+  "CMakeFiles/division.dir/division.cpp.o"
+  "division.pdb"
+  "division"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Division.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/division.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

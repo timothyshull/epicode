@@ -6,7 +6,7 @@
 #include <random>
 #include <vector>
 
-#include "./Offline_sampling.h"
+#include "Offline_sampling.h"
 
 using std::cout;
 using std::default_random_engine;

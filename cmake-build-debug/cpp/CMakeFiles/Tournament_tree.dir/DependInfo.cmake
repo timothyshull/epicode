@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Tournament_tree.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/tournament_tree.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

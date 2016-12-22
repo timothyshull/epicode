@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Find_missing_and_duplicate_XOR.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/find_missing_and_duplicate_xor.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Nearest_restaurant.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Nearest_restaurant.dir/Nearest_restaurant.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/nearest_restaurant.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/nearest_restaurant.dir/nearest_restaurant.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

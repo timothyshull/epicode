@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Zipping_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Zipping_list.dir/Zipping_list.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/zipping_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/zipping_list.dir/zipping_list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

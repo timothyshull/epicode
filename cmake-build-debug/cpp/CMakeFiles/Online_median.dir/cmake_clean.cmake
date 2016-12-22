@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Online_median.dir/Online_median.cpp.o"
-  "Online_median.pdb"
-  "Online_median"
+  "CMakeFiles/online_median.dir/online_median.cpp.o"
+  "online_median.pdb"
+  "online_median"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Online_median.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/online_median.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

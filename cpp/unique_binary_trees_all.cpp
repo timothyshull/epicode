@@ -6,7 +6,7 @@
 #include <random>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -17,13 +17,13 @@ using std::stoi;
 using std::uniform_int_distribution;
 using std::vector;
 
-unique_ptr<BinaryTreeNode<int>> Clone(const unique_ptr<BinaryTreeNode<int>>&);
+unique_ptr<Binary_tree_node<int>> Clone(const unique_ptr<Binary_tree_node<int>>&);
 
 // @include
-vector<unique_ptr<BinaryTreeNode<int>>> GenerateAllBinaryTrees(
+vector<unique_ptr<Binary_tree_node<int>>> GenerateAllBinaryTrees(
         int num_nodes)
 {
-    vector<unique_ptr<BinaryTreeNode<int>>> result;
+    vector<unique_ptr<Binary_tree_node<int>>> result;
     if (num_nodes == 0) {  // Empty tree, add as an nullptr.
         result.emplace_back(nullptr);
     }
@@ -36,18 +36,18 @@ vector<unique_ptr<BinaryTreeNode<int>>> GenerateAllBinaryTrees(
         // Generates all combinations of left_subtrees and right_subtrees.
         for (auto& left : left_subtrees) {
             for (auto& right : right_subtrees) {
-                result.emplace_back(make_unique<BinaryTreeNode<int>>(
-                        BinaryTreeNode<int>{0, Clone(left), Clone(right)}));
+                result.emplace_back(make_unique<Binary_tree_node<int>>(
+                        Binary_tree_node<int>{0, Clone(left), Clone(right)}));
             }
         }
     }
     return result;
 }
 
-unique_ptr<BinaryTreeNode<int>> Clone(
-        const unique_ptr<BinaryTreeNode<int>>& tree)
+unique_ptr<Binary_tree_node<int>> Clone(
+        const unique_ptr<Binary_tree_node<int>>& tree)
 {
-    return tree ? make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{
+    return tree ? make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{
             0, Clone(tree->left), Clone(tree->right)})
                 : nullptr;
 }

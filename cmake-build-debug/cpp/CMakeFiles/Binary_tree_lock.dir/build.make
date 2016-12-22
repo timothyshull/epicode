@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Binary_tree_lock.dir/depend.make
+include cpp/CMakeFiles/binary_tree_lock.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Binary_tree_lock.dir/progress.make
+include cpp/CMakeFiles/binary_tree_lock.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Binary_tree_lock.dir/flags.make
+include cpp/CMakeFiles/binary_tree_lock.dir/flags.make
 
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o: cpp/CMakeFiles/Binary_tree_lock.dir/flags.make
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o: ../cpp/Binary_tree_lock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Binary_tree_lock.cpp
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o: cpp/CMakeFiles/binary_tree_lock.dir/flags.make
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o: ../cpp/binary_tree_lock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_lock.cpp
 
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Binary_tree_lock.cpp > CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.i
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_lock.cpp > CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.i
 
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Binary_tree_lock.cpp -o CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.s
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_lock.cpp -o CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.s
 
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.requires:
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.requires
+.PHONY : cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.requires
 
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.provides: cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Binary_tree_lock.dir/build.make cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.provides
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.provides: cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/binary_tree_lock.dir/build.make cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.provides
 
-cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.provides.build: cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o
+cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.provides.build: cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o
 
 
-# Object files for target Binary_tree_lock
-Binary_tree_lock_OBJECTS = \
-"CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o"
+# Object files for target binary_tree_lock
+binary_tree_lock_OBJECTS = \
+"CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o"
 
-# External object files for target Binary_tree_lock
-Binary_tree_lock_EXTERNAL_OBJECTS =
+# External object files for target binary_tree_lock
+binary_tree_lock_EXTERNAL_OBJECTS =
 
-cpp/Binary_tree_lock: cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o
-cpp/Binary_tree_lock: cpp/CMakeFiles/Binary_tree_lock.dir/build.make
-cpp/Binary_tree_lock: cpp/CMakeFiles/Binary_tree_lock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Binary_tree_lock"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Binary_tree_lock.dir/link.txt --verbose=$(VERBOSE)
+cpp/binary_tree_lock: cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o
+cpp/binary_tree_lock: cpp/CMakeFiles/binary_tree_lock.dir/build.make
+cpp/binary_tree_lock: cpp/CMakeFiles/binary_tree_lock.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable binary_tree_lock"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/binary_tree_lock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Binary_tree_lock.dir/build: cpp/Binary_tree_lock
+cpp/CMakeFiles/binary_tree_lock.dir/build: cpp/binary_tree_lock
 
-.PHONY : cpp/CMakeFiles/Binary_tree_lock.dir/build
+.PHONY : cpp/CMakeFiles/binary_tree_lock.dir/build
 
-cpp/CMakeFiles/Binary_tree_lock.dir/requires: cpp/CMakeFiles/Binary_tree_lock.dir/Binary_tree_lock.cpp.o.requires
+cpp/CMakeFiles/binary_tree_lock.dir/requires: cpp/CMakeFiles/binary_tree_lock.dir/binary_tree_lock.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Binary_tree_lock.dir/requires
+.PHONY : cpp/CMakeFiles/binary_tree_lock.dir/requires
 
-cpp/CMakeFiles/Binary_tree_lock.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Binary_tree_lock.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Binary_tree_lock.dir/clean
+cpp/CMakeFiles/binary_tree_lock.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/binary_tree_lock.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/binary_tree_lock.dir/clean
 
-cpp/CMakeFiles/Binary_tree_lock.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Binary_tree_lock.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Binary_tree_lock.dir/depend
+cpp/CMakeFiles/binary_tree_lock.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/binary_tree_lock.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/binary_tree_lock.dir/depend
 

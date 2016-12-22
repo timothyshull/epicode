@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Rearrange.dir/depend.make
+include cpp/CMakeFiles/rearrange.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Rearrange.dir/progress.make
+include cpp/CMakeFiles/rearrange.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Rearrange.dir/flags.make
+include cpp/CMakeFiles/rearrange.dir/flags.make
 
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o: cpp/CMakeFiles/Rearrange.dir/flags.make
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o: ../cpp/Rearrange.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rearrange.dir/Rearrange.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Rearrange.cpp
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o: cpp/CMakeFiles/rearrange.dir/flags.make
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o: ../cpp/rearrange.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rearrange.dir/rearrange.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/rearrange.cpp
 
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rearrange.dir/Rearrange.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Rearrange.cpp > CMakeFiles/Rearrange.dir/Rearrange.cpp.i
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rearrange.dir/rearrange.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/rearrange.cpp > CMakeFiles/rearrange.dir/rearrange.cpp.i
 
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rearrange.dir/Rearrange.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Rearrange.cpp -o CMakeFiles/Rearrange.dir/Rearrange.cpp.s
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rearrange.dir/rearrange.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/rearrange.cpp -o CMakeFiles/rearrange.dir/rearrange.cpp.s
 
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.requires:
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.requires
+.PHONY : cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.requires
 
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.provides: cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Rearrange.dir/build.make cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.provides
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.provides: cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/rearrange.dir/build.make cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.provides
 
-cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.provides.build: cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o
+cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.provides.build: cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o
 
 
-# Object files for target Rearrange
-Rearrange_OBJECTS = \
-"CMakeFiles/Rearrange.dir/Rearrange.cpp.o"
+# Object files for target rearrange
+rearrange_OBJECTS = \
+"CMakeFiles/rearrange.dir/rearrange.cpp.o"
 
-# External object files for target Rearrange
-Rearrange_EXTERNAL_OBJECTS =
+# External object files for target rearrange
+rearrange_EXTERNAL_OBJECTS =
 
-cpp/Rearrange: cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o
-cpp/Rearrange: cpp/CMakeFiles/Rearrange.dir/build.make
-cpp/Rearrange: cpp/CMakeFiles/Rearrange.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Rearrange"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rearrange.dir/link.txt --verbose=$(VERBOSE)
+cpp/rearrange: cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o
+cpp/rearrange: cpp/CMakeFiles/rearrange.dir/build.make
+cpp/rearrange: cpp/CMakeFiles/rearrange.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rearrange"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rearrange.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Rearrange.dir/build: cpp/Rearrange
+cpp/CMakeFiles/rearrange.dir/build: cpp/rearrange
 
-.PHONY : cpp/CMakeFiles/Rearrange.dir/build
+.PHONY : cpp/CMakeFiles/rearrange.dir/build
 
-cpp/CMakeFiles/Rearrange.dir/requires: cpp/CMakeFiles/Rearrange.dir/Rearrange.cpp.o.requires
+cpp/CMakeFiles/rearrange.dir/requires: cpp/CMakeFiles/rearrange.dir/rearrange.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Rearrange.dir/requires
+.PHONY : cpp/CMakeFiles/rearrange.dir/requires
 
-cpp/CMakeFiles/Rearrange.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Rearrange.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Rearrange.dir/clean
+cpp/CMakeFiles/rearrange.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/rearrange.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/rearrange.dir/clean
 
-cpp/CMakeFiles/Rearrange.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Rearrange.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Rearrange.dir/depend
+cpp/CMakeFiles/rearrange.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/rearrange.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/rearrange.dir/depend
 

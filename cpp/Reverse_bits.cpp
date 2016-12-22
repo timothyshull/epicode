@@ -5,7 +5,7 @@
 #include <random>
 #include <vector>
 
-#include "./swap_bits.h"
+#include "swap_bits.h"
 
 using std::cout;
 using std::default_random_engine;

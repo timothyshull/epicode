@@ -6,7 +6,7 @@
 #include <memory>
 #include <queue>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::boolalpha;
 using std::cout;
@@ -18,11 +18,11 @@ using std::unique_ptr;
 
 // @include
 struct QueueEntry {
-    const unique_ptr<BinaryTreeNode<int>>& tree_node;
+    const unique_ptr<Binary_tree_node<int>>& tree_node;
     int lower_bound, upper_bound;
 };
 
-bool IsBinaryTreeBST(const unique_ptr<BinaryTreeNode<int>>& tree)
+bool IsBinaryTreeBST(const unique_ptr<Binary_tree_node<int>>& tree)
 {
     queue<QueueEntry> BFS_queue;
     BFS_queue.emplace(QueueEntry{tree, numeric_limits<int>::min(),
@@ -53,14 +53,14 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    auto tree = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{3});
-    tree->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{2});
-    tree->left->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{1});
-    tree->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{5});
+    auto tree = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{3});
+    tree->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{2});
+    tree->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{1});
+    tree->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{5});
     tree->right->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{4});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{4});
     tree->right->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{6});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6});
     // should output true
     assert(IsBinaryTreeBST(tree) == true);
     cout << boolalpha << IsBinaryTreeBST(tree) << "\n";

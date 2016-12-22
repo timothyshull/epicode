@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Find_element_appears_once.dir/depend.make
+include cpp/CMakeFiles/find_element_appears_once.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Find_element_appears_once.dir/progress.make
+include cpp/CMakeFiles/find_element_appears_once.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Find_element_appears_once.dir/flags.make
+include cpp/CMakeFiles/find_element_appears_once.dir/flags.make
 
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o: cpp/CMakeFiles/Find_element_appears_once.dir/flags.make
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o: ../cpp/Find_element_appears_once.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Find_element_appears_once.cpp
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o: cpp/CMakeFiles/find_element_appears_once.dir/flags.make
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o: ../cpp/find_element_appears_once.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/find_element_appears_once.cpp
 
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Find_element_appears_once.cpp > CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.i
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/find_element_appears_once.cpp > CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.i
 
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Find_element_appears_once.cpp -o CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.s
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/find_element_appears_once.cpp -o CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.s
 
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.requires:
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.requires
+.PHONY : cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.requires
 
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.provides: cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Find_element_appears_once.dir/build.make cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.provides
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.provides: cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/find_element_appears_once.dir/build.make cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.provides
 
-cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.provides.build: cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o
+cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.provides.build: cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o
 
 
-# Object files for target Find_element_appears_once
-Find_element_appears_once_OBJECTS = \
-"CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o"
+# Object files for target find_element_appears_once
+find_element_appears_once_OBJECTS = \
+"CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o"
 
-# External object files for target Find_element_appears_once
-Find_element_appears_once_EXTERNAL_OBJECTS =
+# External object files for target find_element_appears_once
+find_element_appears_once_EXTERNAL_OBJECTS =
 
-cpp/Find_element_appears_once: cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o
-cpp/Find_element_appears_once: cpp/CMakeFiles/Find_element_appears_once.dir/build.make
-cpp/Find_element_appears_once: cpp/CMakeFiles/Find_element_appears_once.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Find_element_appears_once"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Find_element_appears_once.dir/link.txt --verbose=$(VERBOSE)
+cpp/find_element_appears_once: cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o
+cpp/find_element_appears_once: cpp/CMakeFiles/find_element_appears_once.dir/build.make
+cpp/find_element_appears_once: cpp/CMakeFiles/find_element_appears_once.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable find_element_appears_once"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_element_appears_once.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Find_element_appears_once.dir/build: cpp/Find_element_appears_once
+cpp/CMakeFiles/find_element_appears_once.dir/build: cpp/find_element_appears_once
 
-.PHONY : cpp/CMakeFiles/Find_element_appears_once.dir/build
+.PHONY : cpp/CMakeFiles/find_element_appears_once.dir/build
 
-cpp/CMakeFiles/Find_element_appears_once.dir/requires: cpp/CMakeFiles/Find_element_appears_once.dir/Find_element_appears_once.cpp.o.requires
+cpp/CMakeFiles/find_element_appears_once.dir/requires: cpp/CMakeFiles/find_element_appears_once.dir/find_element_appears_once.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Find_element_appears_once.dir/requires
+.PHONY : cpp/CMakeFiles/find_element_appears_once.dir/requires
 
-cpp/CMakeFiles/Find_element_appears_once.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Find_element_appears_once.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Find_element_appears_once.dir/clean
+cpp/CMakeFiles/find_element_appears_once.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/find_element_appears_once.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/find_element_appears_once.dir/clean
 
-cpp/CMakeFiles/Find_element_appears_once.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Find_element_appears_once.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Find_element_appears_once.dir/depend
+cpp/CMakeFiles/find_element_appears_once.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/find_element_appears_once.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/find_element_appears_once.dir/depend
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Spiral_matrix_clockwise.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Spiral_matrix_clockwise.dir/Spiral_matrix_clockwise.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/spiral_matrix_clockwise.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/spiral_matrix_clockwise.dir/spiral_matrix_clockwise.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

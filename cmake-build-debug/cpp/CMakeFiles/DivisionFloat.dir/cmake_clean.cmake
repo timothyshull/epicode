@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DivisionFloat.dir/DivisionFloat.cpp.o"
-  "DivisionFloat.pdb"
-  "DivisionFloat"
+  "CMakeFiles/divisionfloat.dir/division_float.cpp.o"
+  "divisionfloat.pdb"
+  "divisionfloat"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/DivisionFloat.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/divisionfloat.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

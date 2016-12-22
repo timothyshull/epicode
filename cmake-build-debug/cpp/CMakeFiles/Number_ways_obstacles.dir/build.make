@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Number_ways_obstacles.dir/depend.make
+include cpp/CMakeFiles/number_ways_obstacles.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Number_ways_obstacles.dir/progress.make
+include cpp/CMakeFiles/number_ways_obstacles.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Number_ways_obstacles.dir/flags.make
+include cpp/CMakeFiles/number_ways_obstacles.dir/flags.make
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o: cpp/CMakeFiles/Number_ways_obstacles.dir/flags.make
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o: ../cpp/Number_ways_obstacles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Number_ways_obstacles.cpp
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o: cpp/CMakeFiles/number_ways_obstacles.dir/flags.make
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o: ../cpp/number_ways_obstacles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/number_ways_obstacles.cpp
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Number_ways_obstacles.cpp > CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.i
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/number_ways_obstacles.cpp > CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.i
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Number_ways_obstacles.cpp -o CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.s
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/number_ways_obstacles.cpp -o CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.s
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.requires:
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.requires
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.requires
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.provides: cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Number_ways_obstacles.dir/build.make cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.provides
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.provides: cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/number_ways_obstacles.dir/build.make cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.provides
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.provides.build: cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o
+cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.provides.build: cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o
 
 
-# Object files for target Number_ways_obstacles
-Number_ways_obstacles_OBJECTS = \
-"CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o"
+# Object files for target number_ways_obstacles
+number_ways_obstacles_OBJECTS = \
+"CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o"
 
-# External object files for target Number_ways_obstacles
-Number_ways_obstacles_EXTERNAL_OBJECTS =
+# External object files for target number_ways_obstacles
+number_ways_obstacles_EXTERNAL_OBJECTS =
 
-cpp/Number_ways_obstacles: cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o
-cpp/Number_ways_obstacles: cpp/CMakeFiles/Number_ways_obstacles.dir/build.make
-cpp/Number_ways_obstacles: cpp/CMakeFiles/Number_ways_obstacles.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Number_ways_obstacles"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Number_ways_obstacles.dir/link.txt --verbose=$(VERBOSE)
+cpp/number_ways_obstacles: cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o
+cpp/number_ways_obstacles: cpp/CMakeFiles/number_ways_obstacles.dir/build.make
+cpp/number_ways_obstacles: cpp/CMakeFiles/number_ways_obstacles.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable number_ways_obstacles"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/number_ways_obstacles.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Number_ways_obstacles.dir/build: cpp/Number_ways_obstacles
+cpp/CMakeFiles/number_ways_obstacles.dir/build: cpp/number_ways_obstacles
 
-.PHONY : cpp/CMakeFiles/Number_ways_obstacles.dir/build
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/build
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/requires: cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o.requires
+cpp/CMakeFiles/number_ways_obstacles.dir/requires: cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Number_ways_obstacles.dir/requires
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/requires
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Number_ways_obstacles.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Number_ways_obstacles.dir/clean
+cpp/CMakeFiles/number_ways_obstacles.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/number_ways_obstacles.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/clean
 
-cpp/CMakeFiles/Number_ways_obstacles.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Number_ways_obstacles.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Number_ways_obstacles.dir/depend
+cpp/CMakeFiles/number_ways_obstacles.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/number_ways_obstacles.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/depend
 

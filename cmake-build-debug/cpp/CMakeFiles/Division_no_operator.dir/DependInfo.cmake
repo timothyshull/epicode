@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Division_no_operator.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Division_no_operator.dir/Division_no_operator.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/division_no_operator.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/division_no_operator.dir/division_no_operator.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

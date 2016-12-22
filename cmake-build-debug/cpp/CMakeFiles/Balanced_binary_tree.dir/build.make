@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Balanced_binary_tree.dir/depend.make
+include cpp/CMakeFiles/balanced_binary_tree.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Balanced_binary_tree.dir/progress.make
+include cpp/CMakeFiles/balanced_binary_tree.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Balanced_binary_tree.dir/flags.make
+include cpp/CMakeFiles/balanced_binary_tree.dir/flags.make
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o: cpp/CMakeFiles/Balanced_binary_tree.dir/flags.make
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o: ../cpp/Balanced_binary_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Balanced_binary_tree.cpp
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o: cpp/CMakeFiles/balanced_binary_tree.dir/flags.make
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o: ../cpp/balanced_binary_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/balanced_binary_tree.cpp
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Balanced_binary_tree.cpp > CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.i
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/balanced_binary_tree.cpp > CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.i
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Balanced_binary_tree.cpp -o CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.s
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/balanced_binary_tree.cpp -o CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.s
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.requires:
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.requires
+.PHONY : cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.requires
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.provides: cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Balanced_binary_tree.dir/build.make cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.provides
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.provides: cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/balanced_binary_tree.dir/build.make cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.provides
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.provides.build: cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o
+cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.provides.build: cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o
 
 
-# Object files for target Balanced_binary_tree
-Balanced_binary_tree_OBJECTS = \
-"CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o"
+# Object files for target balanced_binary_tree
+balanced_binary_tree_OBJECTS = \
+"CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o"
 
-# External object files for target Balanced_binary_tree
-Balanced_binary_tree_EXTERNAL_OBJECTS =
+# External object files for target balanced_binary_tree
+balanced_binary_tree_EXTERNAL_OBJECTS =
 
-cpp/Balanced_binary_tree: cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o
-cpp/Balanced_binary_tree: cpp/CMakeFiles/Balanced_binary_tree.dir/build.make
-cpp/Balanced_binary_tree: cpp/CMakeFiles/Balanced_binary_tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Balanced_binary_tree"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Balanced_binary_tree.dir/link.txt --verbose=$(VERBOSE)
+cpp/balanced_binary_tree: cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o
+cpp/balanced_binary_tree: cpp/CMakeFiles/balanced_binary_tree.dir/build.make
+cpp/balanced_binary_tree: cpp/CMakeFiles/balanced_binary_tree.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable balanced_binary_tree"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/balanced_binary_tree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Balanced_binary_tree.dir/build: cpp/Balanced_binary_tree
+cpp/CMakeFiles/balanced_binary_tree.dir/build: cpp/balanced_binary_tree
 
-.PHONY : cpp/CMakeFiles/Balanced_binary_tree.dir/build
+.PHONY : cpp/CMakeFiles/balanced_binary_tree.dir/build
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/requires: cpp/CMakeFiles/Balanced_binary_tree.dir/Balanced_binary_tree.cpp.o.requires
+cpp/CMakeFiles/balanced_binary_tree.dir/requires: cpp/CMakeFiles/balanced_binary_tree.dir/balanced_binary_tree.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Balanced_binary_tree.dir/requires
+.PHONY : cpp/CMakeFiles/balanced_binary_tree.dir/requires
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Balanced_binary_tree.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Balanced_binary_tree.dir/clean
+cpp/CMakeFiles/balanced_binary_tree.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/balanced_binary_tree.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/balanced_binary_tree.dir/clean
 
-cpp/CMakeFiles/Balanced_binary_tree.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Balanced_binary_tree.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Balanced_binary_tree.dir/depend
+cpp/CMakeFiles/balanced_binary_tree.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/balanced_binary_tree.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/balanced_binary_tree.dir/depend
 

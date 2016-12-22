@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Multibet_card_color_game.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/multibet_card_color_game.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

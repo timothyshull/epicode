@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Rays_covering_arcs.dir/depend.make
+include cpp/CMakeFiles/rays_covering_arcs.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Rays_covering_arcs.dir/progress.make
+include cpp/CMakeFiles/rays_covering_arcs.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Rays_covering_arcs.dir/flags.make
+include cpp/CMakeFiles/rays_covering_arcs.dir/flags.make
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o: cpp/CMakeFiles/Rays_covering_arcs.dir/flags.make
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o: ../cpp/Rays_covering_arcs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Rays_covering_arcs.cpp
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o: cpp/CMakeFiles/rays_covering_arcs.dir/flags.make
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o: ../cpp/rays_covering_arcs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/rays_covering_arcs.cpp
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Rays_covering_arcs.cpp > CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.i
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/rays_covering_arcs.cpp > CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.i
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Rays_covering_arcs.cpp -o CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.s
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/rays_covering_arcs.cpp -o CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.s
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.requires:
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.requires
+.PHONY : cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.requires
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.provides: cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Rays_covering_arcs.dir/build.make cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.provides
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.provides: cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/rays_covering_arcs.dir/build.make cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.provides
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.provides.build: cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o
+cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.provides.build: cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o
 
 
-# Object files for target Rays_covering_arcs
-Rays_covering_arcs_OBJECTS = \
-"CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o"
+# Object files for target rays_covering_arcs
+rays_covering_arcs_OBJECTS = \
+"CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o"
 
-# External object files for target Rays_covering_arcs
-Rays_covering_arcs_EXTERNAL_OBJECTS =
+# External object files for target rays_covering_arcs
+rays_covering_arcs_EXTERNAL_OBJECTS =
 
-cpp/Rays_covering_arcs: cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o
-cpp/Rays_covering_arcs: cpp/CMakeFiles/Rays_covering_arcs.dir/build.make
-cpp/Rays_covering_arcs: cpp/CMakeFiles/Rays_covering_arcs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Rays_covering_arcs"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Rays_covering_arcs.dir/link.txt --verbose=$(VERBOSE)
+cpp/rays_covering_arcs: cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o
+cpp/rays_covering_arcs: cpp/CMakeFiles/rays_covering_arcs.dir/build.make
+cpp/rays_covering_arcs: cpp/CMakeFiles/rays_covering_arcs.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rays_covering_arcs"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rays_covering_arcs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Rays_covering_arcs.dir/build: cpp/Rays_covering_arcs
+cpp/CMakeFiles/rays_covering_arcs.dir/build: cpp/rays_covering_arcs
 
-.PHONY : cpp/CMakeFiles/Rays_covering_arcs.dir/build
+.PHONY : cpp/CMakeFiles/rays_covering_arcs.dir/build
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/requires: cpp/CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o.requires
+cpp/CMakeFiles/rays_covering_arcs.dir/requires: cpp/CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Rays_covering_arcs.dir/requires
+.PHONY : cpp/CMakeFiles/rays_covering_arcs.dir/requires
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Rays_covering_arcs.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Rays_covering_arcs.dir/clean
+cpp/CMakeFiles/rays_covering_arcs.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/rays_covering_arcs.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/rays_covering_arcs.dir/clean
 
-cpp/CMakeFiles/Rays_covering_arcs.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Rays_covering_arcs.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Rays_covering_arcs.dir/depend
+cpp/CMakeFiles/rays_covering_arcs.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/rays_covering_arcs.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/rays_covering_arcs.dir/depend
 

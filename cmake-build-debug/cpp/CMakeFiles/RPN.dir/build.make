@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/RPN.dir/depend.make
+include cpp/CMakeFiles/rpn.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/RPN.dir/progress.make
+include cpp/CMakeFiles/rpn.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/RPN.dir/flags.make
+include cpp/CMakeFiles/rpn.dir/flags.make
 
-cpp/CMakeFiles/RPN.dir/RPN.cpp.o: cpp/CMakeFiles/RPN.dir/flags.make
-cpp/CMakeFiles/RPN.dir/RPN.cpp.o: ../cpp/RPN.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/RPN.dir/RPN.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RPN.dir/RPN.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/RPN.cpp
+cpp/CMakeFiles/rpn.dir/rpn.cpp.o: cpp/CMakeFiles/rpn.dir/flags.make
+cpp/CMakeFiles/rpn.dir/rpn.cpp.o: ../cpp/rpn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/rpn.dir/rpn.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rpn.dir/rpn.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/rpn.cpp
 
-cpp/CMakeFiles/RPN.dir/RPN.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RPN.dir/RPN.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/RPN.cpp > CMakeFiles/RPN.dir/RPN.cpp.i
+cpp/CMakeFiles/rpn.dir/rpn.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rpn.dir/rpn.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/rpn.cpp > CMakeFiles/rpn.dir/rpn.cpp.i
 
-cpp/CMakeFiles/RPN.dir/RPN.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RPN.dir/RPN.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/RPN.cpp -o CMakeFiles/RPN.dir/RPN.cpp.s
+cpp/CMakeFiles/rpn.dir/rpn.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rpn.dir/rpn.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/rpn.cpp -o CMakeFiles/rpn.dir/rpn.cpp.s
 
-cpp/CMakeFiles/RPN.dir/RPN.cpp.o.requires:
+cpp/CMakeFiles/rpn.dir/rpn.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/RPN.dir/RPN.cpp.o.requires
+.PHONY : cpp/CMakeFiles/rpn.dir/rpn.cpp.o.requires
 
-cpp/CMakeFiles/RPN.dir/RPN.cpp.o.provides: cpp/CMakeFiles/RPN.dir/RPN.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/RPN.dir/build.make cpp/CMakeFiles/RPN.dir/RPN.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/RPN.dir/RPN.cpp.o.provides
+cpp/CMakeFiles/rpn.dir/rpn.cpp.o.provides: cpp/CMakeFiles/rpn.dir/rpn.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/rpn.dir/build.make cpp/CMakeFiles/rpn.dir/rpn.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/rpn.dir/rpn.cpp.o.provides
 
-cpp/CMakeFiles/RPN.dir/RPN.cpp.o.provides.build: cpp/CMakeFiles/RPN.dir/RPN.cpp.o
+cpp/CMakeFiles/rpn.dir/rpn.cpp.o.provides.build: cpp/CMakeFiles/rpn.dir/rpn.cpp.o
 
 
-# Object files for target RPN
-RPN_OBJECTS = \
-"CMakeFiles/RPN.dir/RPN.cpp.o"
+# Object files for target rpn
+rpn_OBJECTS = \
+"CMakeFiles/rpn.dir/rpn.cpp.o"
 
-# External object files for target RPN
-RPN_EXTERNAL_OBJECTS =
+# External object files for target rpn
+rpn_EXTERNAL_OBJECTS =
 
-cpp/RPN: cpp/CMakeFiles/RPN.dir/RPN.cpp.o
-cpp/RPN: cpp/CMakeFiles/RPN.dir/build.make
-cpp/RPN: cpp/CMakeFiles/RPN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable RPN"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RPN.dir/link.txt --verbose=$(VERBOSE)
+cpp/rpn: cpp/CMakeFiles/rpn.dir/rpn.cpp.o
+cpp/rpn: cpp/CMakeFiles/rpn.dir/build.make
+cpp/rpn: cpp/CMakeFiles/rpn.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable rpn"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rpn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/RPN.dir/build: cpp/RPN
+cpp/CMakeFiles/rpn.dir/build: cpp/rpn
 
-.PHONY : cpp/CMakeFiles/RPN.dir/build
+.PHONY : cpp/CMakeFiles/rpn.dir/build
 
-cpp/CMakeFiles/RPN.dir/requires: cpp/CMakeFiles/RPN.dir/RPN.cpp.o.requires
+cpp/CMakeFiles/rpn.dir/requires: cpp/CMakeFiles/rpn.dir/rpn.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/RPN.dir/requires
+.PHONY : cpp/CMakeFiles/rpn.dir/requires
 
-cpp/CMakeFiles/RPN.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/RPN.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/RPN.dir/clean
+cpp/CMakeFiles/rpn.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/rpn.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/rpn.dir/clean
 
-cpp/CMakeFiles/RPN.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/RPN.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/RPN.dir/depend
+cpp/CMakeFiles/rpn.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/rpn.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/rpn.dir/depend
 

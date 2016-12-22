@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o"
-  "Find_missing_and_duplicate_XOR.pdb"
-  "Find_missing_and_duplicate_XOR"
+  "CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o"
+  "find_missing_and_duplicate_xor.pdb"
+  "find_missing_and_duplicate_xor"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Find_missing_and_duplicate_XOR.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/find_missing_and_duplicate_xor.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

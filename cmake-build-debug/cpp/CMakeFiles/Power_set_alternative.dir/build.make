@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Power_set_alternative.dir/depend.make
+include cpp/CMakeFiles/power_set_alternative.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Power_set_alternative.dir/progress.make
+include cpp/CMakeFiles/power_set_alternative.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Power_set_alternative.dir/flags.make
+include cpp/CMakeFiles/power_set_alternative.dir/flags.make
 
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o: cpp/CMakeFiles/Power_set_alternative.dir/flags.make
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o: ../cpp/Power_set_alternative.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Power_set_alternative.cpp
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o: cpp/CMakeFiles/power_set_alternative.dir/flags.make
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o: ../cpp/power_set_alternative.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/power_set_alternative.cpp
 
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Power_set_alternative.cpp > CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.i
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/power_set_alternative.cpp > CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.i
 
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Power_set_alternative.cpp -o CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.s
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/power_set_alternative.cpp -o CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.s
 
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.requires:
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.requires
+.PHONY : cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.requires
 
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.provides: cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Power_set_alternative.dir/build.make cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.provides
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.provides: cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/power_set_alternative.dir/build.make cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.provides
 
-cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.provides.build: cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o
+cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.provides.build: cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o
 
 
-# Object files for target Power_set_alternative
-Power_set_alternative_OBJECTS = \
-"CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o"
+# Object files for target power_set_alternative
+power_set_alternative_OBJECTS = \
+"CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o"
 
-# External object files for target Power_set_alternative
-Power_set_alternative_EXTERNAL_OBJECTS =
+# External object files for target power_set_alternative
+power_set_alternative_EXTERNAL_OBJECTS =
 
-cpp/Power_set_alternative: cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o
-cpp/Power_set_alternative: cpp/CMakeFiles/Power_set_alternative.dir/build.make
-cpp/Power_set_alternative: cpp/CMakeFiles/Power_set_alternative.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Power_set_alternative"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Power_set_alternative.dir/link.txt --verbose=$(VERBOSE)
+cpp/power_set_alternative: cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o
+cpp/power_set_alternative: cpp/CMakeFiles/power_set_alternative.dir/build.make
+cpp/power_set_alternative: cpp/CMakeFiles/power_set_alternative.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable power_set_alternative"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/power_set_alternative.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Power_set_alternative.dir/build: cpp/Power_set_alternative
+cpp/CMakeFiles/power_set_alternative.dir/build: cpp/power_set_alternative
 
-.PHONY : cpp/CMakeFiles/Power_set_alternative.dir/build
+.PHONY : cpp/CMakeFiles/power_set_alternative.dir/build
 
-cpp/CMakeFiles/Power_set_alternative.dir/requires: cpp/CMakeFiles/Power_set_alternative.dir/Power_set_alternative.cpp.o.requires
+cpp/CMakeFiles/power_set_alternative.dir/requires: cpp/CMakeFiles/power_set_alternative.dir/power_set_alternative.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Power_set_alternative.dir/requires
+.PHONY : cpp/CMakeFiles/power_set_alternative.dir/requires
 
-cpp/CMakeFiles/Power_set_alternative.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Power_set_alternative.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Power_set_alternative.dir/clean
+cpp/CMakeFiles/power_set_alternative.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/power_set_alternative.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/power_set_alternative.dir/clean
 
-cpp/CMakeFiles/Power_set_alternative.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Power_set_alternative.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Power_set_alternative.dir/depend
+cpp/CMakeFiles/power_set_alternative.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/power_set_alternative.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/power_set_alternative.dir/depend
 

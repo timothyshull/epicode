@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Binary_search_circular_array.dir/depend.make
+include cpp/CMakeFiles/binary_search_circular_array.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Binary_search_circular_array.dir/progress.make
+include cpp/CMakeFiles/binary_search_circular_array.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Binary_search_circular_array.dir/flags.make
+include cpp/CMakeFiles/binary_search_circular_array.dir/flags.make
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o: cpp/CMakeFiles/Binary_search_circular_array.dir/flags.make
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o: ../cpp/Binary_search_circular_array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Binary_search_circular_array.cpp
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o: cpp/CMakeFiles/binary_search_circular_array.dir/flags.make
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o: ../cpp/binary_search_circular_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/binary_search_circular_array.cpp
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Binary_search_circular_array.cpp > CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.i
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/binary_search_circular_array.cpp > CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.i
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Binary_search_circular_array.cpp -o CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.s
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/binary_search_circular_array.cpp -o CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.s
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.requires:
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.requires
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.requires
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.provides: cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Binary_search_circular_array.dir/build.make cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.provides
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.provides: cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/binary_search_circular_array.dir/build.make cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.provides
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.provides.build: cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o
+cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.provides.build: cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o
 
 
-# Object files for target Binary_search_circular_array
-Binary_search_circular_array_OBJECTS = \
-"CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o"
+# Object files for target binary_search_circular_array
+binary_search_circular_array_OBJECTS = \
+"CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o"
 
-# External object files for target Binary_search_circular_array
-Binary_search_circular_array_EXTERNAL_OBJECTS =
+# External object files for target binary_search_circular_array
+binary_search_circular_array_EXTERNAL_OBJECTS =
 
-cpp/Binary_search_circular_array: cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o
-cpp/Binary_search_circular_array: cpp/CMakeFiles/Binary_search_circular_array.dir/build.make
-cpp/Binary_search_circular_array: cpp/CMakeFiles/Binary_search_circular_array.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Binary_search_circular_array"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Binary_search_circular_array.dir/link.txt --verbose=$(VERBOSE)
+cpp/binary_search_circular_array: cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o
+cpp/binary_search_circular_array: cpp/CMakeFiles/binary_search_circular_array.dir/build.make
+cpp/binary_search_circular_array: cpp/CMakeFiles/binary_search_circular_array.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable binary_search_circular_array"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/binary_search_circular_array.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Binary_search_circular_array.dir/build: cpp/Binary_search_circular_array
+cpp/CMakeFiles/binary_search_circular_array.dir/build: cpp/binary_search_circular_array
 
-.PHONY : cpp/CMakeFiles/Binary_search_circular_array.dir/build
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/build
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/requires: cpp/CMakeFiles/Binary_search_circular_array.dir/Binary_search_circular_array.cpp.o.requires
+cpp/CMakeFiles/binary_search_circular_array.dir/requires: cpp/CMakeFiles/binary_search_circular_array.dir/binary_search_circular_array.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Binary_search_circular_array.dir/requires
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/requires
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Binary_search_circular_array.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Binary_search_circular_array.dir/clean
+cpp/CMakeFiles/binary_search_circular_array.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/binary_search_circular_array.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/clean
 
-cpp/CMakeFiles/Binary_search_circular_array.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Binary_search_circular_array.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Binary_search_circular_array.dir/depend
+cpp/CMakeFiles/binary_search_circular_array.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/binary_search_circular_array.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/depend
 

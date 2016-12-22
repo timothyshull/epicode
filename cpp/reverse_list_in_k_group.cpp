@@ -6,8 +6,8 @@
 #include <stdexcept>
 #include <string>
 
-#include "./Linked_list_prototype.h"
-#include "./Reverse_linked_list_iterative.h"
+#include "Linked_list_prototype.h"
+#include "Reverse_linked_list_iterative.h"
 
 using std::cout;
 using std::endl;
@@ -18,10 +18,10 @@ using std::shared_ptr;
 using std::stoi;
 
 // @include
-shared_ptr<ListNode<int>> ReverseK(shared_ptr<ListNode<int>> L, int k)
+shared_ptr<List_node<int>> ReverseK(shared_ptr<List_node<int>> L, int k)
 {
-    auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
-    shared_ptr<ListNode<int>> sublist_predecessor = dummy_head,
+    auto dummy_head = make_shared<List_node<int>>(List_node<int>{0, L});
+    shared_ptr<List_node<int>> sublist_predecessor = dummy_head,
             sublist_head = dummy_head->next,
             sublist_successor = dummy_head,
             sublist_tail = dummy_head->next;
@@ -56,13 +56,13 @@ shared_ptr<ListNode<int>> ReverseK(shared_ptr<ListNode<int>> L, int k)
 
 int main(int argc, char** argv)
 {
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{
-                            3, make_shared<ListNode<int>>(ListNode<int>{
-                                    4, make_shared<ListNode<int>>(
-                                            ListNode<int>{5, nullptr})})})})});
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{
+                            3, make_shared<List_node<int>>(List_node<int>{
+                                    4, make_shared<List_node<int>>(
+                                            List_node<int>{5, nullptr})})})})});
     int k;
     if (argc == 2) {
         k = stoi(argv[1]);

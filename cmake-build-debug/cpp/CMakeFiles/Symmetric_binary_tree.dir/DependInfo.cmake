@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Symmetric_binary_tree.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Symmetric_binary_tree.dir/Symmetric_binary_tree.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/symmetric_binary_tree.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/symmetric_binary_tree.dir/symmetric_binary_tree.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

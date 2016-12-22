@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Rearrange.dir/Rearrange.cpp.o"
-  "Rearrange.pdb"
-  "Rearrange"
+  "CMakeFiles/rearrange.dir/rearrange.cpp.o"
+  "rearrange.pdb"
+  "rearrange"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Rearrange.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/rearrange.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

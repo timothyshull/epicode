@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GCD.dir/GCD.cpp.o"
-  "GCD.pdb"
-  "GCD"
+  "CMakeFiles/gcd.dir/gcd.cpp.o"
+  "gcd.pdb"
+  "gcd"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/GCD.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/gcd.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

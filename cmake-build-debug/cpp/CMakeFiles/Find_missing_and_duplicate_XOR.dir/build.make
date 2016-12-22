@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/depend.make
+include cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/progress.make
+include cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/flags.make
+include cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/flags.make
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/flags.make
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o: ../cpp/Find_missing_and_duplicate_XOR.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Find_missing_and_duplicate_XOR.cpp
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/flags.make
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o: ../cpp/find_missing_and_duplicate_xor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/find_missing_and_duplicate_xor.cpp
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Find_missing_and_duplicate_XOR.cpp > CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.i
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/find_missing_and_duplicate_xor.cpp > CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.i
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Find_missing_and_duplicate_XOR.cpp -o CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.s
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/find_missing_and_duplicate_xor.cpp -o CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.s
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.requires:
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.requires
+.PHONY : cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.requires
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.provides: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/build.make cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.provides
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.provides: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/build.make cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.provides
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.provides.build: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.provides.build: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o
 
 
-# Object files for target Find_missing_and_duplicate_XOR
-Find_missing_and_duplicate_XOR_OBJECTS = \
-"CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o"
+# Object files for target find_missing_and_duplicate_xor
+find_missing_and_duplicate_xor_OBJECTS = \
+"CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o"
 
-# External object files for target Find_missing_and_duplicate_XOR
-Find_missing_and_duplicate_XOR_EXTERNAL_OBJECTS =
+# External object files for target find_missing_and_duplicate_xor
+find_missing_and_duplicate_xor_EXTERNAL_OBJECTS =
 
-cpp/Find_missing_and_duplicate_XOR: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o
-cpp/Find_missing_and_duplicate_XOR: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/build.make
-cpp/Find_missing_and_duplicate_XOR: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Find_missing_and_duplicate_XOR"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Find_missing_and_duplicate_XOR.dir/link.txt --verbose=$(VERBOSE)
+cpp/find_missing_and_duplicate_xor: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o
+cpp/find_missing_and_duplicate_xor: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/build.make
+cpp/find_missing_and_duplicate_xor: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable find_missing_and_duplicate_xor"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_missing_and_duplicate_xor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/build: cpp/Find_missing_and_duplicate_XOR
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/build: cpp/find_missing_and_duplicate_xor
 
-.PHONY : cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/build
+.PHONY : cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/build
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/requires: cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/Find_missing_and_duplicate_XOR.cpp.o.requires
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/requires: cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/find_missing_and_duplicate_xor.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/requires
+.PHONY : cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/requires
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Find_missing_and_duplicate_XOR.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/clean
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/find_missing_and_duplicate_xor.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/clean
 
-cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Find_missing_and_duplicate_XOR.dir/depend
+cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/find_missing_and_duplicate_xor.dir/depend
 

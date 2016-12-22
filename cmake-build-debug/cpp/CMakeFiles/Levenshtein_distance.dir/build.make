@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Levenshtein_distance.dir/depend.make
+include cpp/CMakeFiles/levenshtein_distance.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Levenshtein_distance.dir/progress.make
+include cpp/CMakeFiles/levenshtein_distance.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Levenshtein_distance.dir/flags.make
+include cpp/CMakeFiles/levenshtein_distance.dir/flags.make
 
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o: cpp/CMakeFiles/Levenshtein_distance.dir/flags.make
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o: ../cpp/Levenshtein_distance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Levenshtein_distance.cpp
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o: cpp/CMakeFiles/levenshtein_distance.dir/flags.make
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o: ../cpp/levenshtein_distance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/levenshtein_distance.cpp
 
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Levenshtein_distance.cpp > CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.i
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/levenshtein_distance.cpp > CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.i
 
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Levenshtein_distance.cpp -o CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.s
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/levenshtein_distance.cpp -o CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.s
 
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.requires:
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.requires
+.PHONY : cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.requires
 
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.provides: cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Levenshtein_distance.dir/build.make cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.provides
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.provides: cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/levenshtein_distance.dir/build.make cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.provides
 
-cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.provides.build: cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o
+cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.provides.build: cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o
 
 
-# Object files for target Levenshtein_distance
-Levenshtein_distance_OBJECTS = \
-"CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o"
+# Object files for target levenshtein_distance
+levenshtein_distance_OBJECTS = \
+"CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o"
 
-# External object files for target Levenshtein_distance
-Levenshtein_distance_EXTERNAL_OBJECTS =
+# External object files for target levenshtein_distance
+levenshtein_distance_EXTERNAL_OBJECTS =
 
-cpp/Levenshtein_distance: cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o
-cpp/Levenshtein_distance: cpp/CMakeFiles/Levenshtein_distance.dir/build.make
-cpp/Levenshtein_distance: cpp/CMakeFiles/Levenshtein_distance.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Levenshtein_distance"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Levenshtein_distance.dir/link.txt --verbose=$(VERBOSE)
+cpp/levenshtein_distance: cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o
+cpp/levenshtein_distance: cpp/CMakeFiles/levenshtein_distance.dir/build.make
+cpp/levenshtein_distance: cpp/CMakeFiles/levenshtein_distance.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable levenshtein_distance"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/levenshtein_distance.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Levenshtein_distance.dir/build: cpp/Levenshtein_distance
+cpp/CMakeFiles/levenshtein_distance.dir/build: cpp/levenshtein_distance
 
-.PHONY : cpp/CMakeFiles/Levenshtein_distance.dir/build
+.PHONY : cpp/CMakeFiles/levenshtein_distance.dir/build
 
-cpp/CMakeFiles/Levenshtein_distance.dir/requires: cpp/CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o.requires
+cpp/CMakeFiles/levenshtein_distance.dir/requires: cpp/CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Levenshtein_distance.dir/requires
+.PHONY : cpp/CMakeFiles/levenshtein_distance.dir/requires
 
-cpp/CMakeFiles/Levenshtein_distance.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Levenshtein_distance.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Levenshtein_distance.dir/clean
+cpp/CMakeFiles/levenshtein_distance.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/levenshtein_distance.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/levenshtein_distance.dir/clean
 
-cpp/CMakeFiles/Levenshtein_distance.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Levenshtein_distance.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Levenshtein_distance.dir/depend
+cpp/CMakeFiles/levenshtein_distance.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/levenshtein_distance.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/levenshtein_distance.dir/depend
 

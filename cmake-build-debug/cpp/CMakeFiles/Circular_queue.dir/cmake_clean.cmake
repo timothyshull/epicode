@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o"
-  "Circular_queue.pdb"
-  "Circular_queue"
+  "CMakeFiles/circular_queue.dir/circular_queue.cpp.o"
+  "circular_queue.pdb"
+  "circular_queue"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Circular_queue.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/circular_queue.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

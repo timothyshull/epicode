@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Wiring_circuit_board.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/wiring_circuit_board.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

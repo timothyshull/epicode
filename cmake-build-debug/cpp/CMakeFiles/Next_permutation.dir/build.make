@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Next_permutation.dir/depend.make
+include cpp/CMakeFiles/next_permutation.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Next_permutation.dir/progress.make
+include cpp/CMakeFiles/next_permutation.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Next_permutation.dir/flags.make
+include cpp/CMakeFiles/next_permutation.dir/flags.make
 
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o: cpp/CMakeFiles/Next_permutation.dir/flags.make
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o: ../cpp/Next_permutation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Next_permutation.cpp
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o: cpp/CMakeFiles/next_permutation.dir/flags.make
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o: ../cpp/next_permutation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/next_permutation.dir/next_permutation.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/next_permutation.cpp
 
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Next_permutation.dir/Next_permutation.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Next_permutation.cpp > CMakeFiles/Next_permutation.dir/Next_permutation.cpp.i
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/next_permutation.dir/next_permutation.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/next_permutation.cpp > CMakeFiles/next_permutation.dir/next_permutation.cpp.i
 
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Next_permutation.dir/Next_permutation.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Next_permutation.cpp -o CMakeFiles/Next_permutation.dir/Next_permutation.cpp.s
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/next_permutation.dir/next_permutation.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/next_permutation.cpp -o CMakeFiles/next_permutation.dir/next_permutation.cpp.s
 
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.requires:
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.requires
+.PHONY : cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.requires
 
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.provides: cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Next_permutation.dir/build.make cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.provides
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.provides: cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/next_permutation.dir/build.make cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.provides
 
-cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.provides.build: cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o
+cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.provides.build: cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o
 
 
-# Object files for target Next_permutation
-Next_permutation_OBJECTS = \
-"CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o"
+# Object files for target next_permutation
+next_permutation_OBJECTS = \
+"CMakeFiles/next_permutation.dir/next_permutation.cpp.o"
 
-# External object files for target Next_permutation
-Next_permutation_EXTERNAL_OBJECTS =
+# External object files for target next_permutation
+next_permutation_EXTERNAL_OBJECTS =
 
-cpp/Next_permutation: cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o
-cpp/Next_permutation: cpp/CMakeFiles/Next_permutation.dir/build.make
-cpp/Next_permutation: cpp/CMakeFiles/Next_permutation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Next_permutation"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Next_permutation.dir/link.txt --verbose=$(VERBOSE)
+cpp/next_permutation: cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o
+cpp/next_permutation: cpp/CMakeFiles/next_permutation.dir/build.make
+cpp/next_permutation: cpp/CMakeFiles/next_permutation.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable next_permutation"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/next_permutation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Next_permutation.dir/build: cpp/Next_permutation
+cpp/CMakeFiles/next_permutation.dir/build: cpp/next_permutation
 
-.PHONY : cpp/CMakeFiles/Next_permutation.dir/build
+.PHONY : cpp/CMakeFiles/next_permutation.dir/build
 
-cpp/CMakeFiles/Next_permutation.dir/requires: cpp/CMakeFiles/Next_permutation.dir/Next_permutation.cpp.o.requires
+cpp/CMakeFiles/next_permutation.dir/requires: cpp/CMakeFiles/next_permutation.dir/next_permutation.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Next_permutation.dir/requires
+.PHONY : cpp/CMakeFiles/next_permutation.dir/requires
 
-cpp/CMakeFiles/Next_permutation.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Next_permutation.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Next_permutation.dir/clean
+cpp/CMakeFiles/next_permutation.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/next_permutation.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/next_permutation.dir/clean
 
-cpp/CMakeFiles/Next_permutation.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Next_permutation.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Next_permutation.dir/depend
+cpp/CMakeFiles/next_permutation.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/next_permutation.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/next_permutation.dir/depend
 

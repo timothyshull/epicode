@@ -3,7 +3,7 @@
 #ifndef SOLUTIONS_MAGIC_MAZE_GAME_H_
 #define SOLUTIONS_MAGIC_MAZE_GAME_H_
 
-#include "./maze_game.h"
+#include "maze_game.h"
 
 class MagicRoom : public Room {
 public:

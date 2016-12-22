@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o"
-  "Lead_changes.pdb"
-  "Lead_changes"
+  "CMakeFiles/lead_changes.dir/lead_changes.cpp.o"
+  "lead_changes.pdb"
+  "lead_changes"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Lead_changes.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/lead_changes.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Closest_to_median.dir/depend.make
+include cpp/CMakeFiles/closest_to_median.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Closest_to_median.dir/progress.make
+include cpp/CMakeFiles/closest_to_median.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Closest_to_median.dir/flags.make
+include cpp/CMakeFiles/closest_to_median.dir/flags.make
 
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o: cpp/CMakeFiles/Closest_to_median.dir/flags.make
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o: ../cpp/Closest_to_median.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Closest_to_median.cpp
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o: cpp/CMakeFiles/closest_to_median.dir/flags.make
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o: ../cpp/closest_to_median.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/closest_to_median.cpp
 
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Closest_to_median.cpp > CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.i
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/closest_to_median.dir/closest_to_median.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/closest_to_median.cpp > CMakeFiles/closest_to_median.dir/closest_to_median.cpp.i
 
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Closest_to_median.cpp -o CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.s
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/closest_to_median.dir/closest_to_median.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/closest_to_median.cpp -o CMakeFiles/closest_to_median.dir/closest_to_median.cpp.s
 
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.requires:
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.requires
+.PHONY : cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.requires
 
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.provides: cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Closest_to_median.dir/build.make cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.provides
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.provides: cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/closest_to_median.dir/build.make cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.provides
 
-cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.provides.build: cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o
+cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.provides.build: cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o
 
 
-# Object files for target Closest_to_median
-Closest_to_median_OBJECTS = \
-"CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o"
+# Object files for target closest_to_median
+closest_to_median_OBJECTS = \
+"CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o"
 
-# External object files for target Closest_to_median
-Closest_to_median_EXTERNAL_OBJECTS =
+# External object files for target closest_to_median
+closest_to_median_EXTERNAL_OBJECTS =
 
-cpp/Closest_to_median: cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o
-cpp/Closest_to_median: cpp/CMakeFiles/Closest_to_median.dir/build.make
-cpp/Closest_to_median: cpp/CMakeFiles/Closest_to_median.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Closest_to_median"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Closest_to_median.dir/link.txt --verbose=$(VERBOSE)
+cpp/closest_to_median: cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o
+cpp/closest_to_median: cpp/CMakeFiles/closest_to_median.dir/build.make
+cpp/closest_to_median: cpp/CMakeFiles/closest_to_median.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable closest_to_median"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/closest_to_median.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Closest_to_median.dir/build: cpp/Closest_to_median
+cpp/CMakeFiles/closest_to_median.dir/build: cpp/closest_to_median
 
-.PHONY : cpp/CMakeFiles/Closest_to_median.dir/build
+.PHONY : cpp/CMakeFiles/closest_to_median.dir/build
 
-cpp/CMakeFiles/Closest_to_median.dir/requires: cpp/CMakeFiles/Closest_to_median.dir/Closest_to_median.cpp.o.requires
+cpp/CMakeFiles/closest_to_median.dir/requires: cpp/CMakeFiles/closest_to_median.dir/closest_to_median.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Closest_to_median.dir/requires
+.PHONY : cpp/CMakeFiles/closest_to_median.dir/requires
 
-cpp/CMakeFiles/Closest_to_median.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Closest_to_median.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Closest_to_median.dir/clean
+cpp/CMakeFiles/closest_to_median.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/closest_to_median.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/closest_to_median.dir/clean
 
-cpp/CMakeFiles/Closest_to_median.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Closest_to_median.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Closest_to_median.dir/depend
+cpp/CMakeFiles/closest_to_median.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/closest_to_median.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/closest_to_median.dir/depend
 

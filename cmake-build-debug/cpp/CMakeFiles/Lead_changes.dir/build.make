@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Lead_changes.dir/depend.make
+include cpp/CMakeFiles/lead_changes.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Lead_changes.dir/progress.make
+include cpp/CMakeFiles/lead_changes.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Lead_changes.dir/flags.make
+include cpp/CMakeFiles/lead_changes.dir/flags.make
 
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o: cpp/CMakeFiles/Lead_changes.dir/flags.make
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o: ../cpp/Lead_changes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Lead_changes.cpp
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o: cpp/CMakeFiles/lead_changes.dir/flags.make
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o: ../cpp/lead_changes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lead_changes.dir/lead_changes.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/lead_changes.cpp
 
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lead_changes.dir/Lead_changes.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Lead_changes.cpp > CMakeFiles/Lead_changes.dir/Lead_changes.cpp.i
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lead_changes.dir/lead_changes.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/lead_changes.cpp > CMakeFiles/lead_changes.dir/lead_changes.cpp.i
 
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lead_changes.dir/Lead_changes.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Lead_changes.cpp -o CMakeFiles/Lead_changes.dir/Lead_changes.cpp.s
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lead_changes.dir/lead_changes.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/lead_changes.cpp -o CMakeFiles/lead_changes.dir/lead_changes.cpp.s
 
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.requires:
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.requires
+.PHONY : cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.requires
 
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.provides: cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Lead_changes.dir/build.make cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.provides
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.provides: cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/lead_changes.dir/build.make cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.provides
 
-cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.provides.build: cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o
+cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.provides.build: cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o
 
 
-# Object files for target Lead_changes
-Lead_changes_OBJECTS = \
-"CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o"
+# Object files for target lead_changes
+lead_changes_OBJECTS = \
+"CMakeFiles/lead_changes.dir/lead_changes.cpp.o"
 
-# External object files for target Lead_changes
-Lead_changes_EXTERNAL_OBJECTS =
+# External object files for target lead_changes
+lead_changes_EXTERNAL_OBJECTS =
 
-cpp/Lead_changes: cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o
-cpp/Lead_changes: cpp/CMakeFiles/Lead_changes.dir/build.make
-cpp/Lead_changes: cpp/CMakeFiles/Lead_changes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lead_changes"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lead_changes.dir/link.txt --verbose=$(VERBOSE)
+cpp/lead_changes: cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o
+cpp/lead_changes: cpp/CMakeFiles/lead_changes.dir/build.make
+cpp/lead_changes: cpp/CMakeFiles/lead_changes.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lead_changes"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lead_changes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Lead_changes.dir/build: cpp/Lead_changes
+cpp/CMakeFiles/lead_changes.dir/build: cpp/lead_changes
 
-.PHONY : cpp/CMakeFiles/Lead_changes.dir/build
+.PHONY : cpp/CMakeFiles/lead_changes.dir/build
 
-cpp/CMakeFiles/Lead_changes.dir/requires: cpp/CMakeFiles/Lead_changes.dir/Lead_changes.cpp.o.requires
+cpp/CMakeFiles/lead_changes.dir/requires: cpp/CMakeFiles/lead_changes.dir/lead_changes.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Lead_changes.dir/requires
+.PHONY : cpp/CMakeFiles/lead_changes.dir/requires
 
-cpp/CMakeFiles/Lead_changes.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Lead_changes.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Lead_changes.dir/clean
+cpp/CMakeFiles/lead_changes.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/lead_changes.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/lead_changes.dir/clean
 
-cpp/CMakeFiles/Lead_changes.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Lead_changes.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Lead_changes.dir/depend
+cpp/CMakeFiles/lead_changes.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/lead_changes.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/lead_changes.dir/depend
 

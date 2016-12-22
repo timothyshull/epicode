@@ -3,19 +3,19 @@
 
 #include <memory>
 
-#include "../Binary_tree_prototype.h"
+#include "binary_tree_prototype.h"
 
 template<class T>
-unique_ptr<BinaryTreeNode<T>> CreateNode(const T& value)
+unique_ptr<Binary_tree_node<T>> CreateNode(const T& value)
 {
-    return unique_ptr<BinaryTreeNode<T>>(new BinaryTreeNode<T>{value});
+    return unique_ptr<Binary_tree_node<T>>(new Binary_tree_node<T>{value});
 }
 
 template<class T>
-void TreeInsert(unique_ptr<BinaryTreeNode<T>>& node, T value)
+void TreeInsert(unique_ptr<Binary_tree_node<T>>& node, T value)
 {
     if (!node) {
-        node.reset(new BinaryTreeNode<T>());
+        node.reset(new Binary_tree_node<T>());
         node->data = value;
     } else {
         if (value <= node->data) {
@@ -27,9 +27,9 @@ void TreeInsert(unique_ptr<BinaryTreeNode<T>>& node, T value)
 }
 
 template<class T>
-unique_ptr<BinaryTreeNode<T>> BuildTree(const vector<T> values)
+unique_ptr<Binary_tree_node<T>> BuildTree(const vector<T> values)
 {
-    unique_ptr<BinaryTreeNode<T>> head;
+    unique_ptr<Binary_tree_node<T>> head;
     for (auto& x : values) {
         TreeInsert(head, x);
     }

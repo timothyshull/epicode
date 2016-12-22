@@ -13,7 +13,7 @@ using std::shared_ptr;
 
 // @include
 // Assumes node_to_delete is not tail.
-void DeletionFromList(const shared_ptr<ListNode<int>>& node_to_delete)
+void DeletionFromList(const shared_ptr<List_node<int>>& node_to_delete)
 {
     node_to_delete->data = node_to_delete->next->data;
     node_to_delete->next = node_to_delete->next->next;
@@ -22,10 +22,10 @@ void DeletionFromList(const shared_ptr<ListNode<int>>& node_to_delete)
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     DeletionFromList(L);
     assert(L->data == 2 && L->next->data == 3);
     return 0;

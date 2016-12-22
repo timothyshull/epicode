@@ -5,7 +5,7 @@
 #include <memory>
 #include <stack>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -14,7 +14,7 @@ using std::shared_ptr;
 using std::stack;
 
 // @include
-void PrintLinkedListInReverse(shared_ptr<ListNode<int>> head)
+void PrintLinkedListInReverse(shared_ptr<List_node<int>> head)
 {
     stack<int> nodes;
     while (head) {
@@ -30,8 +30,8 @@ void PrintLinkedListInReverse(shared_ptr<ListNode<int>> head)
 
 int main(int argc, char* argv[])
 {
-    PrintLinkedListInReverse(make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})}));
+    PrintLinkedListInReverse(make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})}));
     return 0;
 }

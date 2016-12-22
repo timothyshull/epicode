@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Matrix_search.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Matrix_search.dir/Matrix_search.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/matrix_search.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/matrix_search.dir/matrix_search.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

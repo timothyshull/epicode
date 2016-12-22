@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/depend.make
+include cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/progress.make
+include cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/flags.make
+include cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/flags.make
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/flags.make
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o: ../cpp/Reconstruct_binary_tree_pre_in_orders.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Reconstruct_binary_tree_pre_in_orders.cpp
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/flags.make
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o: ../cpp/reconstruct_binary_tree_pre_in_orders.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/reconstruct_binary_tree_pre_in_orders.cpp
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Reconstruct_binary_tree_pre_in_orders.cpp > CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.i
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/reconstruct_binary_tree_pre_in_orders.cpp > CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.i
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Reconstruct_binary_tree_pre_in_orders.cpp -o CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.s
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/reconstruct_binary_tree_pre_in_orders.cpp -o CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.s
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.requires:
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.requires
+.PHONY : cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.requires
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.provides: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/build.make cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.provides
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.provides: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/build.make cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.provides
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.provides.build: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.provides.build: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o
 
 
-# Object files for target Reconstruct_binary_tree_pre_in_orders
-Reconstruct_binary_tree_pre_in_orders_OBJECTS = \
-"CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o"
+# Object files for target reconstruct_binary_tree_pre_in_orders
+reconstruct_binary_tree_pre_in_orders_OBJECTS = \
+"CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o"
 
-# External object files for target Reconstruct_binary_tree_pre_in_orders
-Reconstruct_binary_tree_pre_in_orders_EXTERNAL_OBJECTS =
+# External object files for target reconstruct_binary_tree_pre_in_orders
+reconstruct_binary_tree_pre_in_orders_EXTERNAL_OBJECTS =
 
-cpp/Reconstruct_binary_tree_pre_in_orders: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o
-cpp/Reconstruct_binary_tree_pre_in_orders: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/build.make
-cpp/Reconstruct_binary_tree_pre_in_orders: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Reconstruct_binary_tree_pre_in_orders"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/link.txt --verbose=$(VERBOSE)
+cpp/reconstruct_binary_tree_pre_in_orders: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o
+cpp/reconstruct_binary_tree_pre_in_orders: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/build.make
+cpp/reconstruct_binary_tree_pre_in_orders: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable reconstruct_binary_tree_pre_in_orders"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/build: cpp/Reconstruct_binary_tree_pre_in_orders
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/build: cpp/reconstruct_binary_tree_pre_in_orders
 
-.PHONY : cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/build
+.PHONY : cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/build
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/requires: cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o.requires
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/requires: cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/requires
+.PHONY : cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/requires
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/clean
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/clean
 
-cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/depend
+cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/depend
 

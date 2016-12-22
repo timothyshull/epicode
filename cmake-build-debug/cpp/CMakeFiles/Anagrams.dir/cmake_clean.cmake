@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Anagrams.dir/anagrams.cpp.o"
-  "Anagrams.pdb"
-  "Anagrams"
+  "CMakeFiles/anagrams.dir/anagrams.cpp.o"
+  "anagrams.pdb"
+  "anagrams"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Anagrams.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/anagrams.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

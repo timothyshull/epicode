@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Binary_search_Ai.dir/depend.make
+include cpp/CMakeFiles/binary_search_ai.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Binary_search_Ai.dir/progress.make
+include cpp/CMakeFiles/binary_search_ai.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Binary_search_Ai.dir/flags.make
+include cpp/CMakeFiles/binary_search_ai.dir/flags.make
 
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o: cpp/CMakeFiles/Binary_search_Ai.dir/flags.make
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o: ../cpp/Binary_search_Ai$(EQUALS)i.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Binary_search_Ai=i.cpp
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o: cpp/CMakeFiles/binary_search_ai.dir/flags.make
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o: ../cpp/binary_search_ai$(EQUALS)i.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/binary_search_ai=i.cpp
 
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Binary_search_Ai=i.cpp > CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.i
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/binary_search_ai=i.cpp > CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.i
 
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Binary_search_Ai=i.cpp -o CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.s
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/binary_search_ai=i.cpp -o CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.s
 
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.requires:
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.requires
+.PHONY : cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.requires
 
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.provides: cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Binary_search_Ai.dir/build.make cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.provides
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.provides: cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/binary_search_ai.dir/build.make cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.provides
 
-cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.provides.build: cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o
+cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.provides.build: cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o
 
 
-# Object files for target Binary_search_Ai
-Binary_search_Ai_OBJECTS = \
-"CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai=i.cpp.o"
+# Object files for target binary_search_ai
+binary_search_ai_OBJECTS = \
+"CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.o"
 
-# External object files for target Binary_search_Ai
-Binary_search_Ai_EXTERNAL_OBJECTS =
+# External object files for target binary_search_ai
+binary_search_ai_EXTERNAL_OBJECTS =
 
-cpp/Binary_search_Ai: cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o
-cpp/Binary_search_Ai: cpp/CMakeFiles/Binary_search_Ai.dir/build.make
-cpp/Binary_search_Ai: cpp/CMakeFiles/Binary_search_Ai.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Binary_search_Ai"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Binary_search_Ai.dir/link.txt --verbose=$(VERBOSE)
+cpp/binary_search_ai: cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o
+cpp/binary_search_ai: cpp/CMakeFiles/binary_search_ai.dir/build.make
+cpp/binary_search_ai: cpp/CMakeFiles/binary_search_ai.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable binary_search_ai"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/binary_search_ai.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Binary_search_Ai.dir/build: cpp/Binary_search_Ai
+cpp/CMakeFiles/binary_search_ai.dir/build: cpp/binary_search_ai
 
-.PHONY : cpp/CMakeFiles/Binary_search_Ai.dir/build
+.PHONY : cpp/CMakeFiles/binary_search_ai.dir/build
 
-cpp/CMakeFiles/Binary_search_Ai.dir/requires: cpp/CMakeFiles/Binary_search_Ai.dir/Binary_search_Ai$(EQUALS)i.cpp.o.requires
+cpp/CMakeFiles/binary_search_ai.dir/requires: cpp/CMakeFiles/binary_search_ai.dir/binary_search_ai$(EQUALS)i.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Binary_search_Ai.dir/requires
+.PHONY : cpp/CMakeFiles/binary_search_ai.dir/requires
 
-cpp/CMakeFiles/Binary_search_Ai.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Binary_search_Ai.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Binary_search_Ai.dir/clean
+cpp/CMakeFiles/binary_search_ai.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/binary_search_ai.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/binary_search_ai.dir/clean
 
-cpp/CMakeFiles/Binary_search_Ai.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Binary_search_Ai.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Binary_search_Ai.dir/depend
+cpp/CMakeFiles/binary_search_ai.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/binary_search_ai.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/binary_search_ai.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Interconverting_string_integer.dir/depend.make
+include cpp/CMakeFiles/interconverting_string_integer.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Interconverting_string_integer.dir/progress.make
+include cpp/CMakeFiles/interconverting_string_integer.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Interconverting_string_integer.dir/flags.make
+include cpp/CMakeFiles/interconverting_string_integer.dir/flags.make
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o: cpp/CMakeFiles/Interconverting_string_integer.dir/flags.make
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o: ../cpp/Interconverting_string_integer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Interconverting_string_integer.cpp
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o: cpp/CMakeFiles/interconverting_string_integer.dir/flags.make
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o: ../cpp/interconverting_string_integer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/interconverting_string_integer.cpp
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Interconverting_string_integer.cpp > CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.i
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/interconverting_string_integer.cpp > CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.i
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Interconverting_string_integer.cpp -o CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.s
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/interconverting_string_integer.cpp -o CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.s
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.requires:
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.requires
+.PHONY : cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.requires
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.provides: cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Interconverting_string_integer.dir/build.make cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.provides
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.provides: cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/interconverting_string_integer.dir/build.make cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.provides
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.provides.build: cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o
+cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.provides.build: cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o
 
 
-# Object files for target Interconverting_string_integer
-Interconverting_string_integer_OBJECTS = \
-"CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o"
+# Object files for target interconverting_string_integer
+interconverting_string_integer_OBJECTS = \
+"CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o"
 
-# External object files for target Interconverting_string_integer
-Interconverting_string_integer_EXTERNAL_OBJECTS =
+# External object files for target interconverting_string_integer
+interconverting_string_integer_EXTERNAL_OBJECTS =
 
-cpp/Interconverting_string_integer: cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o
-cpp/Interconverting_string_integer: cpp/CMakeFiles/Interconverting_string_integer.dir/build.make
-cpp/Interconverting_string_integer: cpp/CMakeFiles/Interconverting_string_integer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Interconverting_string_integer"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Interconverting_string_integer.dir/link.txt --verbose=$(VERBOSE)
+cpp/interconverting_string_integer: cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o
+cpp/interconverting_string_integer: cpp/CMakeFiles/interconverting_string_integer.dir/build.make
+cpp/interconverting_string_integer: cpp/CMakeFiles/interconverting_string_integer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable interconverting_string_integer"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interconverting_string_integer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Interconverting_string_integer.dir/build: cpp/Interconverting_string_integer
+cpp/CMakeFiles/interconverting_string_integer.dir/build: cpp/interconverting_string_integer
 
-.PHONY : cpp/CMakeFiles/Interconverting_string_integer.dir/build
+.PHONY : cpp/CMakeFiles/interconverting_string_integer.dir/build
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/requires: cpp/CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o.requires
+cpp/CMakeFiles/interconverting_string_integer.dir/requires: cpp/CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Interconverting_string_integer.dir/requires
+.PHONY : cpp/CMakeFiles/interconverting_string_integer.dir/requires
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Interconverting_string_integer.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Interconverting_string_integer.dir/clean
+cpp/CMakeFiles/interconverting_string_integer.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/interconverting_string_integer.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/interconverting_string_integer.dir/clean
 
-cpp/CMakeFiles/Interconverting_string_integer.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Interconverting_string_integer.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Interconverting_string_integer.dir/depend
+cpp/CMakeFiles/interconverting_string_integer.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/interconverting_string_integer.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/interconverting_string_integer.dir/depend
 

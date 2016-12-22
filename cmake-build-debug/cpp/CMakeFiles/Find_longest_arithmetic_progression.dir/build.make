@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/depend.make
+include cpp/CMakeFiles/find_longest_arithmetic_progression.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/progress.make
+include cpp/CMakeFiles/find_longest_arithmetic_progression.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/flags.make
+include cpp/CMakeFiles/find_longest_arithmetic_progression.dir/flags.make
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/flags.make
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o: ../cpp/Find_longest_arithmetic_progression.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Find_longest_arithmetic_progression.cpp
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/flags.make
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o: ../cpp/find_longest_arithmetic_progression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/find_longest_arithmetic_progression.cpp
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Find_longest_arithmetic_progression.cpp > CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.i
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/find_longest_arithmetic_progression.cpp > CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.i
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Find_longest_arithmetic_progression.cpp -o CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.s
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/find_longest_arithmetic_progression.cpp -o CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.s
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.requires:
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.requires
+.PHONY : cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.requires
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.provides: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/build.make cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.provides
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.provides: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build.make cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.provides
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.provides.build: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.provides.build: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o
 
 
-# Object files for target Find_longest_arithmetic_progression
-Find_longest_arithmetic_progression_OBJECTS = \
-"CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o"
+# Object files for target find_longest_arithmetic_progression
+find_longest_arithmetic_progression_OBJECTS = \
+"CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o"
 
-# External object files for target Find_longest_arithmetic_progression
-Find_longest_arithmetic_progression_EXTERNAL_OBJECTS =
+# External object files for target find_longest_arithmetic_progression
+find_longest_arithmetic_progression_EXTERNAL_OBJECTS =
 
-cpp/Find_longest_arithmetic_progression: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o
-cpp/Find_longest_arithmetic_progression: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/build.make
-cpp/Find_longest_arithmetic_progression: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Find_longest_arithmetic_progression"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Find_longest_arithmetic_progression.dir/link.txt --verbose=$(VERBOSE)
+cpp/find_longest_arithmetic_progression: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o
+cpp/find_longest_arithmetic_progression: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build.make
+cpp/find_longest_arithmetic_progression: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable find_longest_arithmetic_progression"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_longest_arithmetic_progression.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/build: cpp/Find_longest_arithmetic_progression
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build: cpp/find_longest_arithmetic_progression
 
-.PHONY : cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/build
+.PHONY : cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/requires: cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/Find_longest_arithmetic_progression.cpp.o.requires
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/requires: cpp/CMakeFiles/find_longest_arithmetic_progression.dir/find_longest_arithmetic_progression.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/requires
+.PHONY : cpp/CMakeFiles/find_longest_arithmetic_progression.dir/requires
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Find_longest_arithmetic_progression.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/clean
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/find_longest_arithmetic_progression.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/find_longest_arithmetic_progression.dir/clean
 
-cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Find_longest_arithmetic_progression.dir/depend
+cpp/CMakeFiles/find_longest_arithmetic_progression.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/find_longest_arithmetic_progression.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/find_longest_arithmetic_progression.dir/depend
 

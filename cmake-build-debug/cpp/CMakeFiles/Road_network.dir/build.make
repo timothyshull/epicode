@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Road_network.dir/depend.make
+include cpp/CMakeFiles/road_network.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Road_network.dir/progress.make
+include cpp/CMakeFiles/road_network.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Road_network.dir/flags.make
+include cpp/CMakeFiles/road_network.dir/flags.make
 
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o: cpp/CMakeFiles/Road_network.dir/flags.make
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o: ../cpp/Road_network.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Road_network.dir/Road_network.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Road_network.cpp
+cpp/CMakeFiles/road_network.dir/road_network.cpp.o: cpp/CMakeFiles/road_network.dir/flags.make
+cpp/CMakeFiles/road_network.dir/road_network.cpp.o: ../cpp/road_network.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/road_network.dir/road_network.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/road_network.dir/road_network.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/road_network.cpp
 
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Road_network.dir/Road_network.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Road_network.cpp > CMakeFiles/Road_network.dir/Road_network.cpp.i
+cpp/CMakeFiles/road_network.dir/road_network.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/road_network.dir/road_network.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/road_network.cpp > CMakeFiles/road_network.dir/road_network.cpp.i
 
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Road_network.dir/Road_network.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Road_network.cpp -o CMakeFiles/Road_network.dir/Road_network.cpp.s
+cpp/CMakeFiles/road_network.dir/road_network.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/road_network.dir/road_network.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/road_network.cpp -o CMakeFiles/road_network.dir/road_network.cpp.s
 
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.requires:
+cpp/CMakeFiles/road_network.dir/road_network.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.requires
+.PHONY : cpp/CMakeFiles/road_network.dir/road_network.cpp.o.requires
 
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.provides: cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Road_network.dir/build.make cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.provides
+cpp/CMakeFiles/road_network.dir/road_network.cpp.o.provides: cpp/CMakeFiles/road_network.dir/road_network.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/road_network.dir/build.make cpp/CMakeFiles/road_network.dir/road_network.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/road_network.dir/road_network.cpp.o.provides
 
-cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.provides.build: cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o
+cpp/CMakeFiles/road_network.dir/road_network.cpp.o.provides.build: cpp/CMakeFiles/road_network.dir/road_network.cpp.o
 
 
-# Object files for target Road_network
-Road_network_OBJECTS = \
-"CMakeFiles/Road_network.dir/Road_network.cpp.o"
+# Object files for target road_network
+road_network_OBJECTS = \
+"CMakeFiles/road_network.dir/road_network.cpp.o"
 
-# External object files for target Road_network
-Road_network_EXTERNAL_OBJECTS =
+# External object files for target road_network
+road_network_EXTERNAL_OBJECTS =
 
-cpp/Road_network: cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o
-cpp/Road_network: cpp/CMakeFiles/Road_network.dir/build.make
-cpp/Road_network: cpp/CMakeFiles/Road_network.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Road_network"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Road_network.dir/link.txt --verbose=$(VERBOSE)
+cpp/road_network: cpp/CMakeFiles/road_network.dir/road_network.cpp.o
+cpp/road_network: cpp/CMakeFiles/road_network.dir/build.make
+cpp/road_network: cpp/CMakeFiles/road_network.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable road_network"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/road_network.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Road_network.dir/build: cpp/Road_network
+cpp/CMakeFiles/road_network.dir/build: cpp/road_network
 
-.PHONY : cpp/CMakeFiles/Road_network.dir/build
+.PHONY : cpp/CMakeFiles/road_network.dir/build
 
-cpp/CMakeFiles/Road_network.dir/requires: cpp/CMakeFiles/Road_network.dir/Road_network.cpp.o.requires
+cpp/CMakeFiles/road_network.dir/requires: cpp/CMakeFiles/road_network.dir/road_network.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Road_network.dir/requires
+.PHONY : cpp/CMakeFiles/road_network.dir/requires
 
-cpp/CMakeFiles/Road_network.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Road_network.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Road_network.dir/clean
+cpp/CMakeFiles/road_network.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/road_network.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/road_network.dir/clean
 
-cpp/CMakeFiles/Road_network.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Road_network.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Road_network.dir/depend
+cpp/CMakeFiles/road_network.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/road_network.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/road_network.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Search_min_first_BST.dir/depend.make
+include cpp/CMakeFiles/search_min_first_bst.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Search_min_first_BST.dir/progress.make
+include cpp/CMakeFiles/search_min_first_bst.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Search_min_first_BST.dir/flags.make
+include cpp/CMakeFiles/search_min_first_bst.dir/flags.make
 
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o: cpp/CMakeFiles/Search_min_first_BST.dir/flags.make
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o: ../cpp/Search_min_first_BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Search_min_first_BST.cpp
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o: cpp/CMakeFiles/search_min_first_bst.dir/flags.make
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o: ../cpp/search_min_first_bst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/search_min_first_bst.cpp
 
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Search_min_first_BST.cpp > CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.i
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/search_min_first_bst.cpp > CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.i
 
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Search_min_first_BST.cpp -o CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.s
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/search_min_first_bst.cpp -o CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.s
 
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.requires:
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.requires
+.PHONY : cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.requires
 
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.provides: cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Search_min_first_BST.dir/build.make cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.provides
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.provides: cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/search_min_first_bst.dir/build.make cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.provides
 
-cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.provides.build: cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o
+cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.provides.build: cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o
 
 
-# Object files for target Search_min_first_BST
-Search_min_first_BST_OBJECTS = \
-"CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o"
+# Object files for target search_min_first_bst
+search_min_first_bst_OBJECTS = \
+"CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o"
 
-# External object files for target Search_min_first_BST
-Search_min_first_BST_EXTERNAL_OBJECTS =
+# External object files for target search_min_first_bst
+search_min_first_bst_EXTERNAL_OBJECTS =
 
-cpp/Search_min_first_BST: cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o
-cpp/Search_min_first_BST: cpp/CMakeFiles/Search_min_first_BST.dir/build.make
-cpp/Search_min_first_BST: cpp/CMakeFiles/Search_min_first_BST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Search_min_first_BST"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Search_min_first_BST.dir/link.txt --verbose=$(VERBOSE)
+cpp/search_min_first_bst: cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o
+cpp/search_min_first_bst: cpp/CMakeFiles/search_min_first_bst.dir/build.make
+cpp/search_min_first_bst: cpp/CMakeFiles/search_min_first_bst.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable search_min_first_bst"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_min_first_bst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Search_min_first_BST.dir/build: cpp/Search_min_first_BST
+cpp/CMakeFiles/search_min_first_bst.dir/build: cpp/search_min_first_bst
 
-.PHONY : cpp/CMakeFiles/Search_min_first_BST.dir/build
+.PHONY : cpp/CMakeFiles/search_min_first_bst.dir/build
 
-cpp/CMakeFiles/Search_min_first_BST.dir/requires: cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o.requires
+cpp/CMakeFiles/search_min_first_bst.dir/requires: cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Search_min_first_BST.dir/requires
+.PHONY : cpp/CMakeFiles/search_min_first_bst.dir/requires
 
-cpp/CMakeFiles/Search_min_first_BST.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Search_min_first_BST.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Search_min_first_BST.dir/clean
+cpp/CMakeFiles/search_min_first_bst.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/search_min_first_bst.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/search_min_first_bst.dir/clean
 
-cpp/CMakeFiles/Search_min_first_BST.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Search_min_first_BST.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Search_min_first_BST.dir/depend
+cpp/CMakeFiles/search_min_first_bst.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/search_min_first_bst.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/search_min_first_bst.dir/depend
 

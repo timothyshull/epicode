@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Prime_sieve.dir/Prime_sieve.cpp.o"
-  "Prime_sieve.pdb"
-  "Prime_sieve"
+  "CMakeFiles/prime_sieve.dir/prime_sieve.cpp.o"
+  "prime_sieve.pdb"
+  "prime_sieve"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Prime_sieve.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/prime_sieve.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/binary_tree_postorder_traversal_iterative_alternative.dir/binary_tree_postorder_traversal_iterative_alternative.cpp.o  -o binary_tree_postorder_traversal_iterative_alternative 

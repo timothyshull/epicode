@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Can_string_be_palindrome.dir/depend.make
+include cpp/CMakeFiles/can_string_be_palindrome.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Can_string_be_palindrome.dir/progress.make
+include cpp/CMakeFiles/can_string_be_palindrome.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Can_string_be_palindrome.dir/flags.make
+include cpp/CMakeFiles/can_string_be_palindrome.dir/flags.make
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o: cpp/CMakeFiles/Can_string_be_palindrome.dir/flags.make
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o: ../cpp/Can_string_be_palindrome.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Can_string_be_palindrome.cpp
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o: cpp/CMakeFiles/can_string_be_palindrome.dir/flags.make
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o: ../cpp/can_string_be_palindrome.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/can_string_be_palindrome.cpp
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Can_string_be_palindrome.cpp > CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.i
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/can_string_be_palindrome.cpp > CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.i
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Can_string_be_palindrome.cpp -o CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.s
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/can_string_be_palindrome.cpp -o CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.s
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.requires:
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.requires
+.PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.requires
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.provides: cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Can_string_be_palindrome.dir/build.make cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.provides
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.provides: cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/can_string_be_palindrome.dir/build.make cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.provides
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.provides.build: cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o
+cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.provides.build: cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o
 
 
-# Object files for target Can_string_be_palindrome
-Can_string_be_palindrome_OBJECTS = \
-"CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o"
+# Object files for target can_string_be_palindrome
+can_string_be_palindrome_OBJECTS = \
+"CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o"
 
-# External object files for target Can_string_be_palindrome
-Can_string_be_palindrome_EXTERNAL_OBJECTS =
+# External object files for target can_string_be_palindrome
+can_string_be_palindrome_EXTERNAL_OBJECTS =
 
-cpp/Can_string_be_palindrome: cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o
-cpp/Can_string_be_palindrome: cpp/CMakeFiles/Can_string_be_palindrome.dir/build.make
-cpp/Can_string_be_palindrome: cpp/CMakeFiles/Can_string_be_palindrome.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Can_string_be_palindrome"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Can_string_be_palindrome.dir/link.txt --verbose=$(VERBOSE)
+cpp/can_string_be_palindrome: cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o
+cpp/can_string_be_palindrome: cpp/CMakeFiles/can_string_be_palindrome.dir/build.make
+cpp/can_string_be_palindrome: cpp/CMakeFiles/can_string_be_palindrome.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable can_string_be_palindrome"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/can_string_be_palindrome.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Can_string_be_palindrome.dir/build: cpp/Can_string_be_palindrome
+cpp/CMakeFiles/can_string_be_palindrome.dir/build: cpp/can_string_be_palindrome
 
-.PHONY : cpp/CMakeFiles/Can_string_be_palindrome.dir/build
+.PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/build
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/requires: cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o.requires
+cpp/CMakeFiles/can_string_be_palindrome.dir/requires: cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Can_string_be_palindrome.dir/requires
+.PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/requires
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Can_string_be_palindrome.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Can_string_be_palindrome.dir/clean
+cpp/CMakeFiles/can_string_be_palindrome.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/can_string_be_palindrome.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/clean
 
-cpp/CMakeFiles/Can_string_be_palindrome.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Can_string_be_palindrome.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Can_string_be_palindrome.dir/depend
+cpp/CMakeFiles/can_string_be_palindrome.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/can_string_be_palindrome.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/depend
 

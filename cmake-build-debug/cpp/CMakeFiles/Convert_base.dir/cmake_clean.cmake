@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Convert_base.dir/Convert_base.cpp.o"
-  "Convert_base.pdb"
-  "Convert_base"
+  "CMakeFiles/convert_base.dir/convert_base.cpp.o"
+  "convert_base.pdb"
+  "convert_base"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Convert_base.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/convert_base.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

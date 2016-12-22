@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Tower_hanoi.dir/depend.make
+include cpp/CMakeFiles/tower_hanoi.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Tower_hanoi.dir/progress.make
+include cpp/CMakeFiles/tower_hanoi.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Tower_hanoi.dir/flags.make
+include cpp/CMakeFiles/tower_hanoi.dir/flags.make
 
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o: cpp/CMakeFiles/Tower_hanoi.dir/flags.make
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o: ../cpp/tower_hanoi.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/tower_hanoi.cpp
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o: cpp/CMakeFiles/tower_hanoi.dir/flags.make
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o: ../cpp/tower_hanoi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/tower_hanoi.cpp
 
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/tower_hanoi.cpp > CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.i
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/tower_hanoi.cpp > CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.i
 
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/tower_hanoi.cpp -o CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.s
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/tower_hanoi.cpp -o CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.s
 
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.requires:
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.requires
+.PHONY : cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.requires
 
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.provides: cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Tower_hanoi.dir/build.make cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.provides
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.provides: cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/tower_hanoi.dir/build.make cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.provides
 
-cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.provides.build: cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o
+cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.provides.build: cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o
 
 
-# Object files for target Tower_hanoi
-Tower_hanoi_OBJECTS = \
-"CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o"
+# Object files for target tower_hanoi
+tower_hanoi_OBJECTS = \
+"CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o"
 
-# External object files for target Tower_hanoi
-Tower_hanoi_EXTERNAL_OBJECTS =
+# External object files for target tower_hanoi
+tower_hanoi_EXTERNAL_OBJECTS =
 
-cpp/Tower_hanoi: cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o
-cpp/Tower_hanoi: cpp/CMakeFiles/Tower_hanoi.dir/build.make
-cpp/Tower_hanoi: cpp/CMakeFiles/Tower_hanoi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tower_hanoi"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tower_hanoi.dir/link.txt --verbose=$(VERBOSE)
+cpp/tower_hanoi: cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o
+cpp/tower_hanoi: cpp/CMakeFiles/tower_hanoi.dir/build.make
+cpp/tower_hanoi: cpp/CMakeFiles/tower_hanoi.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tower_hanoi"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tower_hanoi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Tower_hanoi.dir/build: cpp/Tower_hanoi
+cpp/CMakeFiles/tower_hanoi.dir/build: cpp/tower_hanoi
 
-.PHONY : cpp/CMakeFiles/Tower_hanoi.dir/build
+.PHONY : cpp/CMakeFiles/tower_hanoi.dir/build
 
-cpp/CMakeFiles/Tower_hanoi.dir/requires: cpp/CMakeFiles/Tower_hanoi.dir/tower_hanoi.cpp.o.requires
+cpp/CMakeFiles/tower_hanoi.dir/requires: cpp/CMakeFiles/tower_hanoi.dir/tower_hanoi.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Tower_hanoi.dir/requires
+.PHONY : cpp/CMakeFiles/tower_hanoi.dir/requires
 
-cpp/CMakeFiles/Tower_hanoi.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Tower_hanoi.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Tower_hanoi.dir/clean
+cpp/CMakeFiles/tower_hanoi.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/tower_hanoi.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/tower_hanoi.dir/clean
 
-cpp/CMakeFiles/Tower_hanoi.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Tower_hanoi.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Tower_hanoi.dir/depend
+cpp/CMakeFiles/tower_hanoi.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/tower_hanoi.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/tower_hanoi.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Fibonacci.dir/depend.make
+include cpp/CMakeFiles/fibonacci.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Fibonacci.dir/progress.make
+include cpp/CMakeFiles/fibonacci.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Fibonacci.dir/flags.make
+include cpp/CMakeFiles/fibonacci.dir/flags.make
 
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o: cpp/CMakeFiles/Fibonacci.dir/flags.make
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o: ../cpp/fibonacci.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fibonacci.dir/fibonacci.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/fibonacci.cpp
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o: cpp/CMakeFiles/fibonacci.dir/flags.make
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o: ../cpp/fibonacci.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fibonacci.dir/fibonacci.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/fibonacci.cpp
 
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fibonacci.dir/fibonacci.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/fibonacci.cpp > CMakeFiles/Fibonacci.dir/fibonacci.cpp.i
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fibonacci.dir/fibonacci.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/fibonacci.cpp > CMakeFiles/fibonacci.dir/fibonacci.cpp.i
 
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fibonacci.dir/fibonacci.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/fibonacci.cpp -o CMakeFiles/Fibonacci.dir/fibonacci.cpp.s
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fibonacci.dir/fibonacci.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/fibonacci.cpp -o CMakeFiles/fibonacci.dir/fibonacci.cpp.s
 
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.requires:
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.requires
+.PHONY : cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.requires
 
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.provides: cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Fibonacci.dir/build.make cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.provides
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.provides: cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/fibonacci.dir/build.make cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.provides
 
-cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.provides.build: cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o
+cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.provides.build: cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o
 
 
-# Object files for target Fibonacci
-Fibonacci_OBJECTS = \
-"CMakeFiles/Fibonacci.dir/fibonacci.cpp.o"
+# Object files for target fibonacci
+fibonacci_OBJECTS = \
+"CMakeFiles/fibonacci.dir/fibonacci.cpp.o"
 
-# External object files for target Fibonacci
-Fibonacci_EXTERNAL_OBJECTS =
+# External object files for target fibonacci
+fibonacci_EXTERNAL_OBJECTS =
 
-cpp/Fibonacci: cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o
-cpp/Fibonacci: cpp/CMakeFiles/Fibonacci.dir/build.make
-cpp/Fibonacci: cpp/CMakeFiles/Fibonacci.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Fibonacci"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Fibonacci.dir/link.txt --verbose=$(VERBOSE)
+cpp/fibonacci: cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o
+cpp/fibonacci: cpp/CMakeFiles/fibonacci.dir/build.make
+cpp/fibonacci: cpp/CMakeFiles/fibonacci.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable fibonacci"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fibonacci.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Fibonacci.dir/build: cpp/Fibonacci
+cpp/CMakeFiles/fibonacci.dir/build: cpp/fibonacci
 
-.PHONY : cpp/CMakeFiles/Fibonacci.dir/build
+.PHONY : cpp/CMakeFiles/fibonacci.dir/build
 
-cpp/CMakeFiles/Fibonacci.dir/requires: cpp/CMakeFiles/Fibonacci.dir/fibonacci.cpp.o.requires
+cpp/CMakeFiles/fibonacci.dir/requires: cpp/CMakeFiles/fibonacci.dir/fibonacci.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Fibonacci.dir/requires
+.PHONY : cpp/CMakeFiles/fibonacci.dir/requires
 
-cpp/CMakeFiles/Fibonacci.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Fibonacci.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Fibonacci.dir/clean
+cpp/CMakeFiles/fibonacci.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/fibonacci.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/fibonacci.dir/clean
 
-cpp/CMakeFiles/Fibonacci.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Fibonacci.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Fibonacci.dir/depend
+cpp/CMakeFiles/fibonacci.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/fibonacci.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/fibonacci.dir/depend
 

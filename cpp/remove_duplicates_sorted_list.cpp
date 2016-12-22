@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,8 +12,8 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> RemoveDuplicates(
-        const shared_ptr<ListNode<int>>& L)
+shared_ptr<List_node<int>> RemoveDuplicates(
+        const shared_ptr<List_node<int>>& L)
 {
     auto iter = L;
     while (iter) {
@@ -31,19 +31,19 @@ shared_ptr<ListNode<int>> RemoveDuplicates(
 
 void SimpleTest()
 {
-    shared_ptr<ListNode<int>> L = nullptr;
+    shared_ptr<List_node<int>> L = nullptr;
     auto result = RemoveDuplicates(L);
     assert(result == nullptr);
-    L = make_shared<ListNode<int>>(ListNode<int>{123, nullptr});
+    L = make_shared<List_node<int>>(List_node<int>{123, nullptr});
     result = RemoveDuplicates(L);
     assert(result == L);
-    L->next = make_shared<ListNode<int>>(ListNode<int>{123, nullptr});
+    L->next = make_shared<List_node<int>>(List_node<int>{123, nullptr});
     result = RemoveDuplicates(L);
     assert(result->next == nullptr);
 
     // Creating an invalid input, 123 -> 124 -> 123, algo will not detect dups!
-    L->next = make_shared<ListNode<int>>(ListNode<int>{124, nullptr});
-    L->next->next = make_shared<ListNode<int>>(ListNode<int>{123, nullptr});
+    L->next = make_shared<List_node<int>>(List_node<int>{124, nullptr});
+    L->next->next = make_shared<List_node<int>>(List_node<int>{123, nullptr});
     result = RemoveDuplicates(L);
     assert(result->data == 123 && result->next->data == 124 &&
            result->next->next->data == 123);
@@ -52,13 +52,13 @@ void SimpleTest()
 int main(int argc, char** argv)
 {
     simple_test();
-    shared_ptr<ListNode<int>> L = make_shared<ListNode<int>>(ListNode<int>{
-            2, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{
-                            2, make_shared<ListNode<int>>(ListNode<int>{
-                                    2, make_shared<ListNode<int>>(
-                                            ListNode<int>{2, nullptr})})})})});
-    shared_ptr<ListNode<int>> pre = nullptr;
+    shared_ptr<List_node<int>> L = make_shared<List_node<int>>(List_node<int>{
+            2, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{
+                            2, make_shared<List_node<int>>(List_node<int>{
+                                    2, make_shared<List_node<int>>(
+                                            List_node<int>{2, nullptr})})})})});
+    shared_ptr<List_node<int>> pre = nullptr;
     auto result = RemoveDuplicates(L);
     int count = 0;
     while (result) {

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Levenshtein_distance.dir/Levenshtein_distance.cpp.o"
-  "Levenshtein_distance.pdb"
-  "Levenshtein_distance"
+  "CMakeFiles/levenshtein_distance.dir/levenshtein_distance.cpp.o"
+  "levenshtein_distance.pdb"
+  "levenshtein_distance"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Levenshtein_distance.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/levenshtein_distance.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

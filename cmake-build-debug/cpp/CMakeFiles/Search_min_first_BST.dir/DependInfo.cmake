@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Search_min_first_BST.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Search_min_first_BST.dir/Search_min_first_BST.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/search_min_first_bst.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/search_min_first_bst.dir/search_min_first_bst.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

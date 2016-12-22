@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/MultiplyShiftAdd.dir/depend.make
+include cpp/CMakeFiles/multiplyshiftadd.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/MultiplyShiftAdd.dir/progress.make
+include cpp/CMakeFiles/multiplyshiftadd.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/MultiplyShiftAdd.dir/flags.make
+include cpp/CMakeFiles/multiplyshiftadd.dir/flags.make
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o: cpp/CMakeFiles/MultiplyShiftAdd.dir/flags.make
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o: ../cpp/MultiplyShiftAdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/MultiplyShiftAdd.cpp
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o: cpp/CMakeFiles/multiplyshiftadd.dir/flags.make
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o: ../cpp/multiplyshiftadd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/multiplyshiftadd.cpp
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/MultiplyShiftAdd.cpp > CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.i
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/multiplyshiftadd.cpp > CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.i
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/MultiplyShiftAdd.cpp -o CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.s
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/multiplyshiftadd.cpp -o CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.s
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.requires:
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.requires
+.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.requires
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.provides: cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/MultiplyShiftAdd.dir/build.make cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.provides
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.provides: cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/multiplyshiftadd.dir/build.make cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.provides
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.provides.build: cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o
+cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.provides.build: cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o
 
 
-# Object files for target MultiplyShiftAdd
-MultiplyShiftAdd_OBJECTS = \
-"CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o"
+# Object files for target multiplyshiftadd
+multiplyshiftadd_OBJECTS = \
+"CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o"
 
-# External object files for target MultiplyShiftAdd
-MultiplyShiftAdd_EXTERNAL_OBJECTS =
+# External object files for target multiplyshiftadd
+multiplyshiftadd_EXTERNAL_OBJECTS =
 
-cpp/MultiplyShiftAdd: cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o
-cpp/MultiplyShiftAdd: cpp/CMakeFiles/MultiplyShiftAdd.dir/build.make
-cpp/MultiplyShiftAdd: cpp/CMakeFiles/MultiplyShiftAdd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MultiplyShiftAdd"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MultiplyShiftAdd.dir/link.txt --verbose=$(VERBOSE)
+cpp/multiplyshiftadd: cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o
+cpp/multiplyshiftadd: cpp/CMakeFiles/multiplyshiftadd.dir/build.make
+cpp/multiplyshiftadd: cpp/CMakeFiles/multiplyshiftadd.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable multiplyshiftadd"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multiplyshiftadd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/MultiplyShiftAdd.dir/build: cpp/MultiplyShiftAdd
+cpp/CMakeFiles/multiplyshiftadd.dir/build: cpp/multiplyshiftadd
 
-.PHONY : cpp/CMakeFiles/MultiplyShiftAdd.dir/build
+.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/build
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/requires: cpp/CMakeFiles/MultiplyShiftAdd.dir/MultiplyShiftAdd.cpp.o.requires
+cpp/CMakeFiles/multiplyshiftadd.dir/requires: cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/MultiplyShiftAdd.dir/requires
+.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/requires
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/MultiplyShiftAdd.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/MultiplyShiftAdd.dir/clean
+cpp/CMakeFiles/multiplyshiftadd.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/multiplyshiftadd.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/clean
 
-cpp/CMakeFiles/MultiplyShiftAdd.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/MultiplyShiftAdd.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/MultiplyShiftAdd.dir/depend
+cpp/CMakeFiles/multiplyshiftadd.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/multiplyshiftadd.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/depend
 

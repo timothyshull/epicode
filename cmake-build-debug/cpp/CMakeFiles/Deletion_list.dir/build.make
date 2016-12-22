@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Deletion_list.dir/depend.make
+include cpp/CMakeFiles/deletion_list.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Deletion_list.dir/progress.make
+include cpp/CMakeFiles/deletion_list.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Deletion_list.dir/flags.make
+include cpp/CMakeFiles/deletion_list.dir/flags.make
 
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o: cpp/CMakeFiles/Deletion_list.dir/flags.make
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o: ../cpp/Deletion_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Deletion_list.cpp
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o: cpp/CMakeFiles/deletion_list.dir/flags.make
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o: ../cpp/deletion_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/deletion_list.dir/deletion_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/deletion_list.cpp
 
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Deletion_list.dir/Deletion_list.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Deletion_list.cpp > CMakeFiles/Deletion_list.dir/Deletion_list.cpp.i
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/deletion_list.dir/deletion_list.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/deletion_list.cpp > CMakeFiles/deletion_list.dir/deletion_list.cpp.i
 
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Deletion_list.dir/Deletion_list.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Deletion_list.cpp -o CMakeFiles/Deletion_list.dir/Deletion_list.cpp.s
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/deletion_list.dir/deletion_list.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/deletion_list.cpp -o CMakeFiles/deletion_list.dir/deletion_list.cpp.s
 
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.requires:
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.requires
+.PHONY : cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.requires
 
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.provides: cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Deletion_list.dir/build.make cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.provides
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.provides: cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/deletion_list.dir/build.make cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.provides
 
-cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.provides.build: cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o
+cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.provides.build: cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o
 
 
-# Object files for target Deletion_list
-Deletion_list_OBJECTS = \
-"CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o"
+# Object files for target deletion_list
+deletion_list_OBJECTS = \
+"CMakeFiles/deletion_list.dir/deletion_list.cpp.o"
 
-# External object files for target Deletion_list
-Deletion_list_EXTERNAL_OBJECTS =
+# External object files for target deletion_list
+deletion_list_EXTERNAL_OBJECTS =
 
-cpp/Deletion_list: cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o
-cpp/Deletion_list: cpp/CMakeFiles/Deletion_list.dir/build.make
-cpp/Deletion_list: cpp/CMakeFiles/Deletion_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Deletion_list"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Deletion_list.dir/link.txt --verbose=$(VERBOSE)
+cpp/deletion_list: cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o
+cpp/deletion_list: cpp/CMakeFiles/deletion_list.dir/build.make
+cpp/deletion_list: cpp/CMakeFiles/deletion_list.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable deletion_list"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/deletion_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Deletion_list.dir/build: cpp/Deletion_list
+cpp/CMakeFiles/deletion_list.dir/build: cpp/deletion_list
 
-.PHONY : cpp/CMakeFiles/Deletion_list.dir/build
+.PHONY : cpp/CMakeFiles/deletion_list.dir/build
 
-cpp/CMakeFiles/Deletion_list.dir/requires: cpp/CMakeFiles/Deletion_list.dir/Deletion_list.cpp.o.requires
+cpp/CMakeFiles/deletion_list.dir/requires: cpp/CMakeFiles/deletion_list.dir/deletion_list.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Deletion_list.dir/requires
+.PHONY : cpp/CMakeFiles/deletion_list.dir/requires
 
-cpp/CMakeFiles/Deletion_list.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Deletion_list.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Deletion_list.dir/clean
+cpp/CMakeFiles/deletion_list.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/deletion_list.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/deletion_list.dir/clean
 
-cpp/CMakeFiles/Deletion_list.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Deletion_list.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Deletion_list.dir/depend
+cpp/CMakeFiles/deletion_list.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/deletion_list.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/deletion_list.dir/depend
 

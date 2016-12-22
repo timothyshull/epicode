@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Huffman_encoding.dir/Huffman_encoding.cpp.o"
-  "Huffman_encoding.pdb"
-  "Huffman_encoding"
+  "CMakeFiles/huffman_encoding.dir/huffman_encoding.cpp.o"
+  "huffman_encoding.pdb"
+  "huffman_encoding"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Huffman_encoding.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/huffman_encoding.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

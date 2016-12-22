@@ -8,14 +8,14 @@
 using namespace std;
 
 // @include
-bool two_difference(const vector<int>& A, int k)
+bool two_difference(const vector<int>& a, int k)
 {
-    int i = A.size() - 1, j = A.size() - 1;
+    int i = a.size() - 1, j = a.size() - 1;
     while (i >= 0 && j >= 0) {
-        if (A[i] - A[j] == k) {
-            cout << A[i] << ' ' << A[j] << ' ' << k << "\n";
+        if (a[i] - a[j] == k) {
+            cout << a[i] << ' ' << a[j] << ' ' << k << "\n";
             return true;
-        } else if (A[i] - A[j] > k) {
+        } else if (a[i] - a[j] > k) {
             --i;
         } else {
             --j;

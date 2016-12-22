@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Tail_coin.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Tail_coin.dir/Tail_coin.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/tail_coin.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/tail_coin.dir/tail_coin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Find_k_largest_BST.dir/depend.make
+include cpp/CMakeFiles/find_k_largest_bst.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Find_k_largest_BST.dir/progress.make
+include cpp/CMakeFiles/find_k_largest_bst.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Find_k_largest_BST.dir/flags.make
+include cpp/CMakeFiles/find_k_largest_bst.dir/flags.make
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o: cpp/CMakeFiles/Find_k_largest_BST.dir/flags.make
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o: ../cpp/Find_k_largest_BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Find_k_largest_BST.cpp
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o: cpp/CMakeFiles/find_k_largest_bst.dir/flags.make
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o: ../cpp/find_k_largest_bst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/find_k_largest_bst.cpp
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Find_k_largest_BST.cpp > CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.i
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/find_k_largest_bst.cpp > CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.i
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Find_k_largest_BST.cpp -o CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.s
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/find_k_largest_bst.cpp -o CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.s
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.requires:
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.requires
+.PHONY : cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.requires
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.provides: cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Find_k_largest_BST.dir/build.make cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.provides
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.provides: cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/find_k_largest_bst.dir/build.make cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.provides
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.provides.build: cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o
+cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.provides.build: cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o
 
 
-# Object files for target Find_k_largest_BST
-Find_k_largest_BST_OBJECTS = \
-"CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o"
+# Object files for target find_k_largest_bst
+find_k_largest_bst_OBJECTS = \
+"CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o"
 
-# External object files for target Find_k_largest_BST
-Find_k_largest_BST_EXTERNAL_OBJECTS =
+# External object files for target find_k_largest_bst
+find_k_largest_bst_EXTERNAL_OBJECTS =
 
-cpp/Find_k_largest_BST: cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o
-cpp/Find_k_largest_BST: cpp/CMakeFiles/Find_k_largest_BST.dir/build.make
-cpp/Find_k_largest_BST: cpp/CMakeFiles/Find_k_largest_BST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Find_k_largest_BST"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Find_k_largest_BST.dir/link.txt --verbose=$(VERBOSE)
+cpp/find_k_largest_bst: cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o
+cpp/find_k_largest_bst: cpp/CMakeFiles/find_k_largest_bst.dir/build.make
+cpp/find_k_largest_bst: cpp/CMakeFiles/find_k_largest_bst.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable find_k_largest_bst"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_k_largest_bst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Find_k_largest_BST.dir/build: cpp/Find_k_largest_BST
+cpp/CMakeFiles/find_k_largest_bst.dir/build: cpp/find_k_largest_bst
 
-.PHONY : cpp/CMakeFiles/Find_k_largest_BST.dir/build
+.PHONY : cpp/CMakeFiles/find_k_largest_bst.dir/build
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/requires: cpp/CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o.requires
+cpp/CMakeFiles/find_k_largest_bst.dir/requires: cpp/CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Find_k_largest_BST.dir/requires
+.PHONY : cpp/CMakeFiles/find_k_largest_bst.dir/requires
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Find_k_largest_BST.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Find_k_largest_BST.dir/clean
+cpp/CMakeFiles/find_k_largest_bst.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/find_k_largest_bst.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/find_k_largest_bst.dir/clean
 
-cpp/CMakeFiles/Find_k_largest_BST.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Find_k_largest_BST.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Find_k_largest_BST.dir/depend
+cpp/CMakeFiles/find_k_largest_bst.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/find_k_largest_bst.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/find_k_largest_bst.dir/depend
 

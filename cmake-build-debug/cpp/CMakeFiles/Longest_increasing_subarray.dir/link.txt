@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Longest_increasing_subarray.dir/Longest_increasing_subarray.cpp.o  -o Longest_increasing_subarray 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/longest_increasing_subarray.dir/longest_increasing_subarray.cpp.o  -o longest_increasing_subarray 

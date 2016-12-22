@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RPN.dir/RPN.cpp.o"
-  "RPN.pdb"
-  "RPN"
+  "CMakeFiles/rpn.dir/rpn.cpp.o"
+  "rpn.pdb"
+  "rpn"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/RPN.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/rpn.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

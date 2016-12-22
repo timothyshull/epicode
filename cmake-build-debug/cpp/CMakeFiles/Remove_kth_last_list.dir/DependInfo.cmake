@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Remove_kth_last_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Remove_kth_last_list.dir/Remove_kth_last_list.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/remove_kth_last_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/remove_kth_last_list.dir/remove_kth_last_list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

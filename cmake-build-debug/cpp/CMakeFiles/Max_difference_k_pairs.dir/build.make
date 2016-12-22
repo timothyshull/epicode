@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Max_difference_k_pairs.dir/depend.make
+include cpp/CMakeFiles/max_difference_k_pairs.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Max_difference_k_pairs.dir/progress.make
+include cpp/CMakeFiles/max_difference_k_pairs.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Max_difference_k_pairs.dir/flags.make
+include cpp/CMakeFiles/max_difference_k_pairs.dir/flags.make
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o: cpp/CMakeFiles/Max_difference_k_pairs.dir/flags.make
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o: ../cpp/Max_difference_k_pairs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Max_difference_k_pairs.cpp
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o: cpp/CMakeFiles/max_difference_k_pairs.dir/flags.make
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o: ../cpp/max_difference_k_pairs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/max_difference_k_pairs.cpp
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Max_difference_k_pairs.cpp > CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.i
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/max_difference_k_pairs.cpp > CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.i
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Max_difference_k_pairs.cpp -o CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.s
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/max_difference_k_pairs.cpp -o CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.s
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.requires:
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.requires
+.PHONY : cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.requires
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.provides: cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Max_difference_k_pairs.dir/build.make cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.provides
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.provides: cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/max_difference_k_pairs.dir/build.make cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.provides
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.provides.build: cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o
+cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.provides.build: cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o
 
 
-# Object files for target Max_difference_k_pairs
-Max_difference_k_pairs_OBJECTS = \
-"CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o"
+# Object files for target max_difference_k_pairs
+max_difference_k_pairs_OBJECTS = \
+"CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o"
 
-# External object files for target Max_difference_k_pairs
-Max_difference_k_pairs_EXTERNAL_OBJECTS =
+# External object files for target max_difference_k_pairs
+max_difference_k_pairs_EXTERNAL_OBJECTS =
 
-cpp/Max_difference_k_pairs: cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o
-cpp/Max_difference_k_pairs: cpp/CMakeFiles/Max_difference_k_pairs.dir/build.make
-cpp/Max_difference_k_pairs: cpp/CMakeFiles/Max_difference_k_pairs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Max_difference_k_pairs"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Max_difference_k_pairs.dir/link.txt --verbose=$(VERBOSE)
+cpp/max_difference_k_pairs: cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o
+cpp/max_difference_k_pairs: cpp/CMakeFiles/max_difference_k_pairs.dir/build.make
+cpp/max_difference_k_pairs: cpp/CMakeFiles/max_difference_k_pairs.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable max_difference_k_pairs"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/max_difference_k_pairs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Max_difference_k_pairs.dir/build: cpp/Max_difference_k_pairs
+cpp/CMakeFiles/max_difference_k_pairs.dir/build: cpp/max_difference_k_pairs
 
-.PHONY : cpp/CMakeFiles/Max_difference_k_pairs.dir/build
+.PHONY : cpp/CMakeFiles/max_difference_k_pairs.dir/build
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/requires: cpp/CMakeFiles/Max_difference_k_pairs.dir/Max_difference_k_pairs.cpp.o.requires
+cpp/CMakeFiles/max_difference_k_pairs.dir/requires: cpp/CMakeFiles/max_difference_k_pairs.dir/max_difference_k_pairs.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Max_difference_k_pairs.dir/requires
+.PHONY : cpp/CMakeFiles/max_difference_k_pairs.dir/requires
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Max_difference_k_pairs.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Max_difference_k_pairs.dir/clean
+cpp/CMakeFiles/max_difference_k_pairs.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/max_difference_k_pairs.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/max_difference_k_pairs.dir/clean
 
-cpp/CMakeFiles/Max_difference_k_pairs.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Max_difference_k_pairs.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Max_difference_k_pairs.dir/depend
+cpp/CMakeFiles/max_difference_k_pairs.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/max_difference_k_pairs.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/max_difference_k_pairs.dir/depend
 

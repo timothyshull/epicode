@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Union_intervals.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Union_intervals.dir/Union_intervals.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/union_intervals.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/union_intervals.dir/union_intervals.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

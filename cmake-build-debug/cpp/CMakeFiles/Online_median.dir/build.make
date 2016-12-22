@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Online_median.dir/depend.make
+include cpp/CMakeFiles/online_median.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Online_median.dir/progress.make
+include cpp/CMakeFiles/online_median.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Online_median.dir/flags.make
+include cpp/CMakeFiles/online_median.dir/flags.make
 
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o: cpp/CMakeFiles/Online_median.dir/flags.make
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o: ../cpp/Online_median.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Online_median.dir/Online_median.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Online_median.cpp
+cpp/CMakeFiles/online_median.dir/online_median.cpp.o: cpp/CMakeFiles/online_median.dir/flags.make
+cpp/CMakeFiles/online_median.dir/online_median.cpp.o: ../cpp/online_median.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/online_median.dir/online_median.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/online_median.dir/online_median.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/online_median.cpp
 
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Online_median.dir/Online_median.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Online_median.cpp > CMakeFiles/Online_median.dir/Online_median.cpp.i
+cpp/CMakeFiles/online_median.dir/online_median.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/online_median.dir/online_median.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/online_median.cpp > CMakeFiles/online_median.dir/online_median.cpp.i
 
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Online_median.dir/Online_median.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Online_median.cpp -o CMakeFiles/Online_median.dir/Online_median.cpp.s
+cpp/CMakeFiles/online_median.dir/online_median.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/online_median.dir/online_median.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/online_median.cpp -o CMakeFiles/online_median.dir/online_median.cpp.s
 
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.requires:
+cpp/CMakeFiles/online_median.dir/online_median.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.requires
+.PHONY : cpp/CMakeFiles/online_median.dir/online_median.cpp.o.requires
 
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.provides: cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Online_median.dir/build.make cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.provides
+cpp/CMakeFiles/online_median.dir/online_median.cpp.o.provides: cpp/CMakeFiles/online_median.dir/online_median.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/online_median.dir/build.make cpp/CMakeFiles/online_median.dir/online_median.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/online_median.dir/online_median.cpp.o.provides
 
-cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.provides.build: cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o
+cpp/CMakeFiles/online_median.dir/online_median.cpp.o.provides.build: cpp/CMakeFiles/online_median.dir/online_median.cpp.o
 
 
-# Object files for target Online_median
-Online_median_OBJECTS = \
-"CMakeFiles/Online_median.dir/Online_median.cpp.o"
+# Object files for target online_median
+online_median_OBJECTS = \
+"CMakeFiles/online_median.dir/online_median.cpp.o"
 
-# External object files for target Online_median
-Online_median_EXTERNAL_OBJECTS =
+# External object files for target online_median
+online_median_EXTERNAL_OBJECTS =
 
-cpp/Online_median: cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o
-cpp/Online_median: cpp/CMakeFiles/Online_median.dir/build.make
-cpp/Online_median: cpp/CMakeFiles/Online_median.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Online_median"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Online_median.dir/link.txt --verbose=$(VERBOSE)
+cpp/online_median: cpp/CMakeFiles/online_median.dir/online_median.cpp.o
+cpp/online_median: cpp/CMakeFiles/online_median.dir/build.make
+cpp/online_median: cpp/CMakeFiles/online_median.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable online_median"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/online_median.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Online_median.dir/build: cpp/Online_median
+cpp/CMakeFiles/online_median.dir/build: cpp/online_median
 
-.PHONY : cpp/CMakeFiles/Online_median.dir/build
+.PHONY : cpp/CMakeFiles/online_median.dir/build
 
-cpp/CMakeFiles/Online_median.dir/requires: cpp/CMakeFiles/Online_median.dir/Online_median.cpp.o.requires
+cpp/CMakeFiles/online_median.dir/requires: cpp/CMakeFiles/online_median.dir/online_median.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Online_median.dir/requires
+.PHONY : cpp/CMakeFiles/online_median.dir/requires
 
-cpp/CMakeFiles/Online_median.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Online_median.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Online_median.dir/clean
+cpp/CMakeFiles/online_median.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/online_median.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/online_median.dir/clean
 
-cpp/CMakeFiles/Online_median.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Online_median.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Online_median.dir/depend
+cpp/CMakeFiles/online_median.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/online_median.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/online_median.dir/depend
 

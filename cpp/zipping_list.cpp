@@ -19,7 +19,7 @@ using std::stoi;
 using std::uniform_int_distribution;
 
 // @include
-shared_ptr<ListNode<int>> zipping_linked_list(const shared_ptr<ListNode<int>>& L)
+shared_ptr<List_node<int>> zipping_linked_list(const shared_ptr<List_node<int>>& L)
 {
     if (!L || !L->next) {
         return L;
@@ -53,12 +53,12 @@ int main(int argc, char* argv[])
 {
     random_device rd;
     default_random_engine gen(rd());
-    shared_ptr<ListNode<int>> head = nullptr;
+    shared_ptr<List_node<int>> head = nullptr;
     int n;
     if (argc > 2) {
         for (int i = 1; i < argc; ++i) {
             auto curr =
-                    make_shared<ListNode<int>>(ListNode<int>{stoi(argv[i]), nullptr});
+                    make_shared<List_node<int>>(List_node<int>{stoi(argv[i]), nullptr});
             curr->next = head;
             head = curr;
         }
@@ -70,12 +70,12 @@ int main(int argc, char* argv[])
             n = dis(gen);
         }
         for (int i = n; i >= 0; --i) {
-            auto curr = make_shared<ListNode<int>>(ListNode<int>{i, nullptr});
+            auto curr = make_shared<List_node<int>>(List_node<int>{i, nullptr});
             curr->next = head;
             head = curr;
         }
     }
-    shared_ptr<ListNode<int>> curr = zipping_linked_list(head);
+    shared_ptr<List_node<int>> curr = zipping_linked_list(head);
     int idx = 0, pre;
     while (curr) {
         if (argc <= 2) {

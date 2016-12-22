@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o"
-  "Three_jugs.pdb"
-  "Three_jugs"
+  "CMakeFiles/three_jugs.dir/three_jugs.cpp.o"
+  "three_jugs.pdb"
+  "three_jugs"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Three_jugs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/three_jugs.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

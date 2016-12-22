@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Smallest_subarray_covering_set.dir/depend.make
+include cpp/CMakeFiles/smallest_subarray_covering_set.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Smallest_subarray_covering_set.dir/progress.make
+include cpp/CMakeFiles/smallest_subarray_covering_set.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Smallest_subarray_covering_set.dir/flags.make
+include cpp/CMakeFiles/smallest_subarray_covering_set.dir/flags.make
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/flags.make
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o: ../cpp/Smallest_subarray_covering_set.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Smallest_subarray_covering_set.cpp
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o: cpp/CMakeFiles/smallest_subarray_covering_set.dir/flags.make
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o: ../cpp/smallest_subarray_covering_set.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/smallest_subarray_covering_set.cpp
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Smallest_subarray_covering_set.cpp > CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.i
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/smallest_subarray_covering_set.cpp > CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.i
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Smallest_subarray_covering_set.cpp -o CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.s
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/smallest_subarray_covering_set.cpp -o CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.s
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.requires:
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.requires
+.PHONY : cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.requires
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.provides: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Smallest_subarray_covering_set.dir/build.make cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.provides
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.provides: cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/smallest_subarray_covering_set.dir/build.make cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.provides
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.provides.build: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.provides.build: cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o
 
 
-# Object files for target Smallest_subarray_covering_set
-Smallest_subarray_covering_set_OBJECTS = \
-"CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o"
+# Object files for target smallest_subarray_covering_set
+smallest_subarray_covering_set_OBJECTS = \
+"CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o"
 
-# External object files for target Smallest_subarray_covering_set
-Smallest_subarray_covering_set_EXTERNAL_OBJECTS =
+# External object files for target smallest_subarray_covering_set
+smallest_subarray_covering_set_EXTERNAL_OBJECTS =
 
-cpp/Smallest_subarray_covering_set: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o
-cpp/Smallest_subarray_covering_set: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/build.make
-cpp/Smallest_subarray_covering_set: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Smallest_subarray_covering_set"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Smallest_subarray_covering_set.dir/link.txt --verbose=$(VERBOSE)
+cpp/smallest_subarray_covering_set: cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o
+cpp/smallest_subarray_covering_set: cpp/CMakeFiles/smallest_subarray_covering_set.dir/build.make
+cpp/smallest_subarray_covering_set: cpp/CMakeFiles/smallest_subarray_covering_set.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable smallest_subarray_covering_set"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smallest_subarray_covering_set.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/build: cpp/Smallest_subarray_covering_set
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/build: cpp/smallest_subarray_covering_set
 
-.PHONY : cpp/CMakeFiles/Smallest_subarray_covering_set.dir/build
+.PHONY : cpp/CMakeFiles/smallest_subarray_covering_set.dir/build
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/requires: cpp/CMakeFiles/Smallest_subarray_covering_set.dir/Smallest_subarray_covering_set.cpp.o.requires
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/requires: cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Smallest_subarray_covering_set.dir/requires
+.PHONY : cpp/CMakeFiles/smallest_subarray_covering_set.dir/requires
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Smallest_subarray_covering_set.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Smallest_subarray_covering_set.dir/clean
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/smallest_subarray_covering_set.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/smallest_subarray_covering_set.dir/clean
 
-cpp/CMakeFiles/Smallest_subarray_covering_set.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Smallest_subarray_covering_set.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Smallest_subarray_covering_set.dir/depend
+cpp/CMakeFiles/smallest_subarray_covering_set.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/smallest_subarray_covering_set.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/smallest_subarray_covering_set.dir/depend
 

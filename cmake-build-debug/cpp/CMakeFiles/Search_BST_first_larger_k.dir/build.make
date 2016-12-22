@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Search_BST_first_larger_k.dir/depend.make
+include cpp/CMakeFiles/search_bst_first_larger_k.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Search_BST_first_larger_k.dir/progress.make
+include cpp/CMakeFiles/search_bst_first_larger_k.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Search_BST_first_larger_k.dir/flags.make
+include cpp/CMakeFiles/search_bst_first_larger_k.dir/flags.make
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o: cpp/CMakeFiles/Search_BST_first_larger_k.dir/flags.make
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o: ../cpp/Search_BST_first_larger_k.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Search_BST_first_larger_k.cpp
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o: cpp/CMakeFiles/search_bst_first_larger_k.dir/flags.make
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o: ../cpp/search_bst_first_larger_k.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/search_bst_first_larger_k.cpp
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Search_BST_first_larger_k.cpp > CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.i
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/search_bst_first_larger_k.cpp > CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.i
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Search_BST_first_larger_k.cpp -o CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.s
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/search_bst_first_larger_k.cpp -o CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.s
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.requires:
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.requires
+.PHONY : cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.requires
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.provides: cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Search_BST_first_larger_k.dir/build.make cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.provides
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.provides: cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/search_bst_first_larger_k.dir/build.make cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.provides
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.provides.build: cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o
+cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.provides.build: cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o
 
 
-# Object files for target Search_BST_first_larger_k
-Search_BST_first_larger_k_OBJECTS = \
-"CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o"
+# Object files for target search_bst_first_larger_k
+search_bst_first_larger_k_OBJECTS = \
+"CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o"
 
-# External object files for target Search_BST_first_larger_k
-Search_BST_first_larger_k_EXTERNAL_OBJECTS =
+# External object files for target search_bst_first_larger_k
+search_bst_first_larger_k_EXTERNAL_OBJECTS =
 
-cpp/Search_BST_first_larger_k: cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o
-cpp/Search_BST_first_larger_k: cpp/CMakeFiles/Search_BST_first_larger_k.dir/build.make
-cpp/Search_BST_first_larger_k: cpp/CMakeFiles/Search_BST_first_larger_k.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Search_BST_first_larger_k"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Search_BST_first_larger_k.dir/link.txt --verbose=$(VERBOSE)
+cpp/search_bst_first_larger_k: cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o
+cpp/search_bst_first_larger_k: cpp/CMakeFiles/search_bst_first_larger_k.dir/build.make
+cpp/search_bst_first_larger_k: cpp/CMakeFiles/search_bst_first_larger_k.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable search_bst_first_larger_k"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_bst_first_larger_k.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/build: cpp/Search_BST_first_larger_k
+cpp/CMakeFiles/search_bst_first_larger_k.dir/build: cpp/search_bst_first_larger_k
 
-.PHONY : cpp/CMakeFiles/Search_BST_first_larger_k.dir/build
+.PHONY : cpp/CMakeFiles/search_bst_first_larger_k.dir/build
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/requires: cpp/CMakeFiles/Search_BST_first_larger_k.dir/Search_BST_first_larger_k.cpp.o.requires
+cpp/CMakeFiles/search_bst_first_larger_k.dir/requires: cpp/CMakeFiles/search_bst_first_larger_k.dir/search_bst_first_larger_k.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Search_BST_first_larger_k.dir/requires
+.PHONY : cpp/CMakeFiles/search_bst_first_larger_k.dir/requires
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Search_BST_first_larger_k.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Search_BST_first_larger_k.dir/clean
+cpp/CMakeFiles/search_bst_first_larger_k.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/search_bst_first_larger_k.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/search_bst_first_larger_k.dir/clean
 
-cpp/CMakeFiles/Search_BST_first_larger_k.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Search_BST_first_larger_k.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Search_BST_first_larger_k.dir/depend
+cpp/CMakeFiles/search_bst_first_larger_k.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/search_bst_first_larger_k.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/search_bst_first_larger_k.dir/depend
 

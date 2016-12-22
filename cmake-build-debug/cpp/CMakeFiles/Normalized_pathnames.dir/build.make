@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Normalized_pathnames.dir/depend.make
+include cpp/CMakeFiles/normalized_pathnames.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Normalized_pathnames.dir/progress.make
+include cpp/CMakeFiles/normalized_pathnames.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Normalized_pathnames.dir/flags.make
+include cpp/CMakeFiles/normalized_pathnames.dir/flags.make
 
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o: cpp/CMakeFiles/Normalized_pathnames.dir/flags.make
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o: ../cpp/normalized_pathnames.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/normalized_pathnames.cpp
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o: cpp/CMakeFiles/normalized_pathnames.dir/flags.make
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o: ../cpp/normalized_pathnames.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/normalized_pathnames.cpp
 
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/normalized_pathnames.cpp > CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.i
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/normalized_pathnames.cpp > CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.i
 
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/normalized_pathnames.cpp -o CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.s
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/normalized_pathnames.cpp -o CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.s
 
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.requires:
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.requires
+.PHONY : cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.requires
 
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.provides: cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Normalized_pathnames.dir/build.make cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.provides
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.provides: cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/normalized_pathnames.dir/build.make cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.provides
 
-cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.provides.build: cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o
+cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.provides.build: cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o
 
 
-# Object files for target Normalized_pathnames
-Normalized_pathnames_OBJECTS = \
-"CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o"
+# Object files for target normalized_pathnames
+normalized_pathnames_OBJECTS = \
+"CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o"
 
-# External object files for target Normalized_pathnames
-Normalized_pathnames_EXTERNAL_OBJECTS =
+# External object files for target normalized_pathnames
+normalized_pathnames_EXTERNAL_OBJECTS =
 
-cpp/Normalized_pathnames: cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o
-cpp/Normalized_pathnames: cpp/CMakeFiles/Normalized_pathnames.dir/build.make
-cpp/Normalized_pathnames: cpp/CMakeFiles/Normalized_pathnames.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Normalized_pathnames"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Normalized_pathnames.dir/link.txt --verbose=$(VERBOSE)
+cpp/normalized_pathnames: cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o
+cpp/normalized_pathnames: cpp/CMakeFiles/normalized_pathnames.dir/build.make
+cpp/normalized_pathnames: cpp/CMakeFiles/normalized_pathnames.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable normalized_pathnames"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/normalized_pathnames.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Normalized_pathnames.dir/build: cpp/Normalized_pathnames
+cpp/CMakeFiles/normalized_pathnames.dir/build: cpp/normalized_pathnames
 
-.PHONY : cpp/CMakeFiles/Normalized_pathnames.dir/build
+.PHONY : cpp/CMakeFiles/normalized_pathnames.dir/build
 
-cpp/CMakeFiles/Normalized_pathnames.dir/requires: cpp/CMakeFiles/Normalized_pathnames.dir/normalized_pathnames.cpp.o.requires
+cpp/CMakeFiles/normalized_pathnames.dir/requires: cpp/CMakeFiles/normalized_pathnames.dir/normalized_pathnames.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Normalized_pathnames.dir/requires
+.PHONY : cpp/CMakeFiles/normalized_pathnames.dir/requires
 
-cpp/CMakeFiles/Normalized_pathnames.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Normalized_pathnames.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Normalized_pathnames.dir/clean
+cpp/CMakeFiles/normalized_pathnames.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/normalized_pathnames.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/normalized_pathnames.dir/clean
 
-cpp/CMakeFiles/Normalized_pathnames.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Normalized_pathnames.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Normalized_pathnames.dir/depend
+cpp/CMakeFiles/normalized_pathnames.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/normalized_pathnames.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/normalized_pathnames.dir/depend
 

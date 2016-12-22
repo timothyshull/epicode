@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Merge_two_BSTs.dir/depend.make
+include cpp/CMakeFiles/merge_two_bsts.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Merge_two_BSTs.dir/progress.make
+include cpp/CMakeFiles/merge_two_bsts.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Merge_two_BSTs.dir/flags.make
+include cpp/CMakeFiles/merge_two_bsts.dir/flags.make
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o: cpp/CMakeFiles/Merge_two_BSTs.dir/flags.make
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o: ../cpp/Merge_two_BSTs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Merge_two_BSTs.cpp
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o: cpp/CMakeFiles/merge_two_bsts.dir/flags.make
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o: ../cpp/merge_two_bsts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/merge_two_bsts.cpp
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Merge_two_BSTs.cpp > CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.i
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/merge_two_bsts.cpp > CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.i
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Merge_two_BSTs.cpp -o CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.s
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/merge_two_bsts.cpp -o CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.s
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.requires:
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.requires
+.PHONY : cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.requires
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.provides: cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Merge_two_BSTs.dir/build.make cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.provides
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.provides: cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/merge_two_bsts.dir/build.make cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.provides
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.provides.build: cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o
+cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.provides.build: cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o
 
 
-# Object files for target Merge_two_BSTs
-Merge_two_BSTs_OBJECTS = \
-"CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o"
+# Object files for target merge_two_bsts
+merge_two_bsts_OBJECTS = \
+"CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o"
 
-# External object files for target Merge_two_BSTs
-Merge_two_BSTs_EXTERNAL_OBJECTS =
+# External object files for target merge_two_bsts
+merge_two_bsts_EXTERNAL_OBJECTS =
 
-cpp/Merge_two_BSTs: cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o
-cpp/Merge_two_BSTs: cpp/CMakeFiles/Merge_two_BSTs.dir/build.make
-cpp/Merge_two_BSTs: cpp/CMakeFiles/Merge_two_BSTs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Merge_two_BSTs"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Merge_two_BSTs.dir/link.txt --verbose=$(VERBOSE)
+cpp/merge_two_bsts: cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o
+cpp/merge_two_bsts: cpp/CMakeFiles/merge_two_bsts.dir/build.make
+cpp/merge_two_bsts: cpp/CMakeFiles/merge_two_bsts.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable merge_two_bsts"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/merge_two_bsts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Merge_two_BSTs.dir/build: cpp/Merge_two_BSTs
+cpp/CMakeFiles/merge_two_bsts.dir/build: cpp/merge_two_bsts
 
-.PHONY : cpp/CMakeFiles/Merge_two_BSTs.dir/build
+.PHONY : cpp/CMakeFiles/merge_two_bsts.dir/build
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/requires: cpp/CMakeFiles/Merge_two_BSTs.dir/Merge_two_BSTs.cpp.o.requires
+cpp/CMakeFiles/merge_two_bsts.dir/requires: cpp/CMakeFiles/merge_two_bsts.dir/merge_two_bsts.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Merge_two_BSTs.dir/requires
+.PHONY : cpp/CMakeFiles/merge_two_bsts.dir/requires
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Merge_two_BSTs.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Merge_two_BSTs.dir/clean
+cpp/CMakeFiles/merge_two_bsts.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/merge_two_bsts.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/merge_two_bsts.dir/clean
 
-cpp/CMakeFiles/Merge_two_BSTs.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Merge_two_BSTs.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Merge_two_BSTs.dir/depend
+cpp/CMakeFiles/merge_two_bsts.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/merge_two_bsts.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/merge_two_bsts.dir/depend
 

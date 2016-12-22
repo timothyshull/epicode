@@ -6,7 +6,7 @@
 #include <queue>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -19,13 +19,13 @@ using std::vector;
 
 // @include
 vector<vector<int>> BinaryTreeDepthOrder(
-        const unique_ptr<BinaryTreeNode<int>>& tree)
+        const unique_ptr<Binary_tree_node<int>>& tree)
 {
-    queue<BinaryTreeNode<int>*> curr_depth_nodes({tree.get()});
+    queue<Binary_tree_node<int>*> curr_depth_nodes({tree.get()});
     vector<vector<int>> result;
 
     while (!curr_depth_nodes.empty()) {
-        queue<BinaryTreeNode<int>*> next_depth_nodes;
+        queue<Binary_tree_node<int>*> next_depth_nodes;
         vector<int> this_level;
         while (!curr_depth_nodes.empty()) {
             auto curr = curr_depth_nodes.front();
@@ -55,22 +55,22 @@ int main(int argc, char* argv[])
     //  1    4 6
     // 10
     // 13
-    unique_ptr<BinaryTreeNode<int>> tree = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{3, nullptr, nullptr});
-    tree->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{2, nullptr, nullptr});
-    tree->left->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr});
-    tree->left->left->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{10, nullptr, nullptr});
-    tree->left->left->left->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{13, nullptr, nullptr});
-    tree->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{5, nullptr, nullptr});
-    tree->right->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{4, nullptr, nullptr});
-    tree->right->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{6, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> tree = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{3, nullptr, nullptr});
+    tree->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{2, nullptr, nullptr});
+    tree->left->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr});
+    tree->left->left->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{10, nullptr, nullptr});
+    tree->left->left->left->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{13, nullptr, nullptr});
+    tree->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{5, nullptr, nullptr});
+    tree->right->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{4, nullptr, nullptr});
+    tree->right->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{6, nullptr, nullptr});
     // should output 3
     //               2 5
     //               1 4 6

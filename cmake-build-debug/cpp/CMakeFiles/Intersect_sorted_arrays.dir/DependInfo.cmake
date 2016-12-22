@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Intersect_sorted_arrays.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

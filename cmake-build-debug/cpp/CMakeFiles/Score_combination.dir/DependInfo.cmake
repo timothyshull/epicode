@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Score_combination.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Score_combination.dir/Score_combination.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/score_combination.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/score_combination.dir/score_combination.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

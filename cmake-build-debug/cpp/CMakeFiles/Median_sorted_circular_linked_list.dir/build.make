@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/depend.make
+include cpp/CMakeFiles/median_sorted_circular_linked_list.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/progress.make
+include cpp/CMakeFiles/median_sorted_circular_linked_list.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/flags.make
+include cpp/CMakeFiles/median_sorted_circular_linked_list.dir/flags.make
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/flags.make
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o: ../cpp/Median_sorted_circular_linked_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Median_sorted_circular_linked_list.cpp
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/flags.make
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o: ../cpp/median_sorted_circular_linked_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/median_sorted_circular_linked_list.cpp
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Median_sorted_circular_linked_list.cpp > CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.i
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/median_sorted_circular_linked_list.cpp > CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.i
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Median_sorted_circular_linked_list.cpp -o CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.s
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/median_sorted_circular_linked_list.cpp -o CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.s
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.requires:
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.requires
+.PHONY : cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.requires
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.provides: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/build.make cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.provides
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.provides: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/median_sorted_circular_linked_list.dir/build.make cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.provides
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.provides.build: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.provides.build: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o
 
 
-# Object files for target Median_sorted_circular_linked_list
-Median_sorted_circular_linked_list_OBJECTS = \
-"CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o"
+# Object files for target median_sorted_circular_linked_list
+median_sorted_circular_linked_list_OBJECTS = \
+"CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o"
 
-# External object files for target Median_sorted_circular_linked_list
-Median_sorted_circular_linked_list_EXTERNAL_OBJECTS =
+# External object files for target median_sorted_circular_linked_list
+median_sorted_circular_linked_list_EXTERNAL_OBJECTS =
 
-cpp/Median_sorted_circular_linked_list: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o
-cpp/Median_sorted_circular_linked_list: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/build.make
-cpp/Median_sorted_circular_linked_list: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Median_sorted_circular_linked_list"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Median_sorted_circular_linked_list.dir/link.txt --verbose=$(VERBOSE)
+cpp/median_sorted_circular_linked_list: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o
+cpp/median_sorted_circular_linked_list: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/build.make
+cpp/median_sorted_circular_linked_list: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable median_sorted_circular_linked_list"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/median_sorted_circular_linked_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/build: cpp/Median_sorted_circular_linked_list
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/build: cpp/median_sorted_circular_linked_list
 
-.PHONY : cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/build
+.PHONY : cpp/CMakeFiles/median_sorted_circular_linked_list.dir/build
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/requires: cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/Median_sorted_circular_linked_list.cpp.o.requires
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/requires: cpp/CMakeFiles/median_sorted_circular_linked_list.dir/median_sorted_circular_linked_list.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/requires
+.PHONY : cpp/CMakeFiles/median_sorted_circular_linked_list.dir/requires
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Median_sorted_circular_linked_list.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/clean
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/median_sorted_circular_linked_list.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/median_sorted_circular_linked_list.dir/clean
 
-cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Median_sorted_circular_linked_list.dir/depend
+cpp/CMakeFiles/median_sorted_circular_linked_list.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/median_sorted_circular_linked_list.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/median_sorted_circular_linked_list.dir/depend
 

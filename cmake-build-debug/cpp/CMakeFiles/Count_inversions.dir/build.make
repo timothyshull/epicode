@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Count_inversions.dir/depend.make
+include cpp/CMakeFiles/count_inversions.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Count_inversions.dir/progress.make
+include cpp/CMakeFiles/count_inversions.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Count_inversions.dir/flags.make
+include cpp/CMakeFiles/count_inversions.dir/flags.make
 
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o: cpp/CMakeFiles/Count_inversions.dir/flags.make
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o: ../cpp/Count_inversions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Count_inversions.cpp
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o: cpp/CMakeFiles/count_inversions.dir/flags.make
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o: ../cpp/count_inversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/count_inversions.dir/count_inversions.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/count_inversions.cpp
 
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Count_inversions.dir/Count_inversions.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Count_inversions.cpp > CMakeFiles/Count_inversions.dir/Count_inversions.cpp.i
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/count_inversions.dir/count_inversions.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/count_inversions.cpp > CMakeFiles/count_inversions.dir/count_inversions.cpp.i
 
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Count_inversions.dir/Count_inversions.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Count_inversions.cpp -o CMakeFiles/Count_inversions.dir/Count_inversions.cpp.s
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/count_inversions.dir/count_inversions.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/count_inversions.cpp -o CMakeFiles/count_inversions.dir/count_inversions.cpp.s
 
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.requires:
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.requires
+.PHONY : cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.requires
 
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.provides: cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Count_inversions.dir/build.make cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.provides
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.provides: cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/count_inversions.dir/build.make cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.provides
 
-cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.provides.build: cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o
+cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.provides.build: cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o
 
 
-# Object files for target Count_inversions
-Count_inversions_OBJECTS = \
-"CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o"
+# Object files for target count_inversions
+count_inversions_OBJECTS = \
+"CMakeFiles/count_inversions.dir/count_inversions.cpp.o"
 
-# External object files for target Count_inversions
-Count_inversions_EXTERNAL_OBJECTS =
+# External object files for target count_inversions
+count_inversions_EXTERNAL_OBJECTS =
 
-cpp/Count_inversions: cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o
-cpp/Count_inversions: cpp/CMakeFiles/Count_inversions.dir/build.make
-cpp/Count_inversions: cpp/CMakeFiles/Count_inversions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Count_inversions"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Count_inversions.dir/link.txt --verbose=$(VERBOSE)
+cpp/count_inversions: cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o
+cpp/count_inversions: cpp/CMakeFiles/count_inversions.dir/build.make
+cpp/count_inversions: cpp/CMakeFiles/count_inversions.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable count_inversions"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/count_inversions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Count_inversions.dir/build: cpp/Count_inversions
+cpp/CMakeFiles/count_inversions.dir/build: cpp/count_inversions
 
-.PHONY : cpp/CMakeFiles/Count_inversions.dir/build
+.PHONY : cpp/CMakeFiles/count_inversions.dir/build
 
-cpp/CMakeFiles/Count_inversions.dir/requires: cpp/CMakeFiles/Count_inversions.dir/Count_inversions.cpp.o.requires
+cpp/CMakeFiles/count_inversions.dir/requires: cpp/CMakeFiles/count_inversions.dir/count_inversions.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Count_inversions.dir/requires
+.PHONY : cpp/CMakeFiles/count_inversions.dir/requires
 
-cpp/CMakeFiles/Count_inversions.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Count_inversions.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Count_inversions.dir/clean
+cpp/CMakeFiles/count_inversions.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/count_inversions.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/count_inversions.dir/clean
 
-cpp/CMakeFiles/Count_inversions.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Count_inversions.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Count_inversions.dir/depend
+cpp/CMakeFiles/count_inversions.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/count_inversions.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/count_inversions.dir/depend
 

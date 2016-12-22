@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Indirect_sort.dir/depend.make
+include cpp/CMakeFiles/indirect_sort.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Indirect_sort.dir/progress.make
+include cpp/CMakeFiles/indirect_sort.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Indirect_sort.dir/flags.make
+include cpp/CMakeFiles/indirect_sort.dir/flags.make
 
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o: cpp/CMakeFiles/Indirect_sort.dir/flags.make
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o: ../cpp/indirect_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/indirect_sort.cpp
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o: cpp/CMakeFiles/indirect_sort.dir/flags.make
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o: ../cpp/indirect_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/indirect_sort.cpp
 
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/indirect_sort.cpp > CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.i
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/indirect_sort.dir/indirect_sort.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/indirect_sort.cpp > CMakeFiles/indirect_sort.dir/indirect_sort.cpp.i
 
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/indirect_sort.cpp -o CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.s
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/indirect_sort.dir/indirect_sort.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/indirect_sort.cpp -o CMakeFiles/indirect_sort.dir/indirect_sort.cpp.s
 
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.requires:
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.requires
+.PHONY : cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.requires
 
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.provides: cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Indirect_sort.dir/build.make cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.provides
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.provides: cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/indirect_sort.dir/build.make cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.provides
 
-cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.provides.build: cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o
+cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.provides.build: cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o
 
 
-# Object files for target Indirect_sort
-Indirect_sort_OBJECTS = \
-"CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o"
+# Object files for target indirect_sort
+indirect_sort_OBJECTS = \
+"CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o"
 
-# External object files for target Indirect_sort
-Indirect_sort_EXTERNAL_OBJECTS =
+# External object files for target indirect_sort
+indirect_sort_EXTERNAL_OBJECTS =
 
-cpp/Indirect_sort: cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o
-cpp/Indirect_sort: cpp/CMakeFiles/Indirect_sort.dir/build.make
-cpp/Indirect_sort: cpp/CMakeFiles/Indirect_sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Indirect_sort"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Indirect_sort.dir/link.txt --verbose=$(VERBOSE)
+cpp/indirect_sort: cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o
+cpp/indirect_sort: cpp/CMakeFiles/indirect_sort.dir/build.make
+cpp/indirect_sort: cpp/CMakeFiles/indirect_sort.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable indirect_sort"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/indirect_sort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Indirect_sort.dir/build: cpp/Indirect_sort
+cpp/CMakeFiles/indirect_sort.dir/build: cpp/indirect_sort
 
-.PHONY : cpp/CMakeFiles/Indirect_sort.dir/build
+.PHONY : cpp/CMakeFiles/indirect_sort.dir/build
 
-cpp/CMakeFiles/Indirect_sort.dir/requires: cpp/CMakeFiles/Indirect_sort.dir/indirect_sort.cpp.o.requires
+cpp/CMakeFiles/indirect_sort.dir/requires: cpp/CMakeFiles/indirect_sort.dir/indirect_sort.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Indirect_sort.dir/requires
+.PHONY : cpp/CMakeFiles/indirect_sort.dir/requires
 
-cpp/CMakeFiles/Indirect_sort.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Indirect_sort.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Indirect_sort.dir/clean
+cpp/CMakeFiles/indirect_sort.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/indirect_sort.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/indirect_sort.dir/clean
 
-cpp/CMakeFiles/Indirect_sort.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Indirect_sort.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Indirect_sort.dir/depend
+cpp/CMakeFiles/indirect_sort.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/indirect_sort.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/indirect_sort.dir/depend
 

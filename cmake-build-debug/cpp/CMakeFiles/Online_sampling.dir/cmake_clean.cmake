@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Online_sampling.dir/Online_sampling.cpp.o"
-  "Online_sampling.pdb"
-  "Online_sampling"
+  "CMakeFiles/online_sampling.dir/online_sampling.cpp.o"
+  "online_sampling.pdb"
+  "online_sampling"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Online_sampling.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/online_sampling.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

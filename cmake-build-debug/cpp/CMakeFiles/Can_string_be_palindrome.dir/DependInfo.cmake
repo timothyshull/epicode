@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Can_string_be_palindrome.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Can_string_be_palindrome.dir/Can_string_be_palindrome.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/can_string_be_palindrome.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/can_string_be_palindrome.dir/can_string_be_palindrome.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

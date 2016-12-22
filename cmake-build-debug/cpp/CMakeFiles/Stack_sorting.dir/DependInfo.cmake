@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Stack_sorting.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Stack_sorting.dir/Stack_sorting.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/stack_sorting.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/stack_sorting.dir/stack_sorting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

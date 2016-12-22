@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Is_palindromic.dir/depend.make
+include cpp/CMakeFiles/is_palindromic.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Is_palindromic.dir/progress.make
+include cpp/CMakeFiles/is_palindromic.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Is_palindromic.dir/flags.make
+include cpp/CMakeFiles/is_palindromic.dir/flags.make
 
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o: cpp/CMakeFiles/Is_palindromic.dir/flags.make
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o: ../cpp/is_palindromic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/is_palindromic.cpp
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o: cpp/CMakeFiles/is_palindromic.dir/flags.make
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o: ../cpp/is_palindromic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/is_palindromic.cpp
 
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/is_palindromic.cpp > CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.i
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/is_palindromic.dir/is_palindromic.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/is_palindromic.cpp > CMakeFiles/is_palindromic.dir/is_palindromic.cpp.i
 
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/is_palindromic.cpp -o CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.s
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/is_palindromic.dir/is_palindromic.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/is_palindromic.cpp -o CMakeFiles/is_palindromic.dir/is_palindromic.cpp.s
 
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.requires:
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.requires
+.PHONY : cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.requires
 
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.provides: cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Is_palindromic.dir/build.make cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.provides
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.provides: cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/is_palindromic.dir/build.make cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.provides
 
-cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.provides.build: cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o
+cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.provides.build: cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o
 
 
-# Object files for target Is_palindromic
-Is_palindromic_OBJECTS = \
-"CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o"
+# Object files for target is_palindromic
+is_palindromic_OBJECTS = \
+"CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o"
 
-# External object files for target Is_palindromic
-Is_palindromic_EXTERNAL_OBJECTS =
+# External object files for target is_palindromic
+is_palindromic_EXTERNAL_OBJECTS =
 
-cpp/Is_palindromic: cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o
-cpp/Is_palindromic: cpp/CMakeFiles/Is_palindromic.dir/build.make
-cpp/Is_palindromic: cpp/CMakeFiles/Is_palindromic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Is_palindromic"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Is_palindromic.dir/link.txt --verbose=$(VERBOSE)
+cpp/is_palindromic: cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o
+cpp/is_palindromic: cpp/CMakeFiles/is_palindromic.dir/build.make
+cpp/is_palindromic: cpp/CMakeFiles/is_palindromic.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable is_palindromic"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/is_palindromic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Is_palindromic.dir/build: cpp/Is_palindromic
+cpp/CMakeFiles/is_palindromic.dir/build: cpp/is_palindromic
 
-.PHONY : cpp/CMakeFiles/Is_palindromic.dir/build
+.PHONY : cpp/CMakeFiles/is_palindromic.dir/build
 
-cpp/CMakeFiles/Is_palindromic.dir/requires: cpp/CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o.requires
+cpp/CMakeFiles/is_palindromic.dir/requires: cpp/CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Is_palindromic.dir/requires
+.PHONY : cpp/CMakeFiles/is_palindromic.dir/requires
 
-cpp/CMakeFiles/Is_palindromic.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Is_palindromic.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Is_palindromic.dir/clean
+cpp/CMakeFiles/is_palindromic.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/is_palindromic.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/is_palindromic.dir/clean
 
-cpp/CMakeFiles/Is_palindromic.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Is_palindromic.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Is_palindromic.dir/depend
+cpp/CMakeFiles/is_palindromic.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/is_palindromic.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/is_palindromic.dir/depend
 

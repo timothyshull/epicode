@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Number_ways.dir/depend.make
+include cpp/CMakeFiles/number_ways.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Number_ways.dir/progress.make
+include cpp/CMakeFiles/number_ways.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Number_ways.dir/flags.make
+include cpp/CMakeFiles/number_ways.dir/flags.make
 
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o: cpp/CMakeFiles/Number_ways.dir/flags.make
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o: ../cpp/Number_ways.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Number_ways.dir/Number_ways.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Number_ways.cpp
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o: cpp/CMakeFiles/number_ways.dir/flags.make
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o: ../cpp/number_ways.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/number_ways.dir/number_ways.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/number_ways.cpp
 
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Number_ways.dir/Number_ways.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Number_ways.cpp > CMakeFiles/Number_ways.dir/Number_ways.cpp.i
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/number_ways.dir/number_ways.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/number_ways.cpp > CMakeFiles/number_ways.dir/number_ways.cpp.i
 
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Number_ways.dir/Number_ways.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Number_ways.cpp -o CMakeFiles/Number_ways.dir/Number_ways.cpp.s
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/number_ways.dir/number_ways.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/number_ways.cpp -o CMakeFiles/number_ways.dir/number_ways.cpp.s
 
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.requires:
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.requires
+.PHONY : cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.requires
 
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.provides: cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Number_ways.dir/build.make cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.provides
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.provides: cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/number_ways.dir/build.make cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.provides
 
-cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.provides.build: cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o
+cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.provides.build: cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o
 
 
-# Object files for target Number_ways
-Number_ways_OBJECTS = \
-"CMakeFiles/Number_ways.dir/Number_ways.cpp.o"
+# Object files for target number_ways
+number_ways_OBJECTS = \
+"CMakeFiles/number_ways.dir/number_ways.cpp.o"
 
-# External object files for target Number_ways
-Number_ways_EXTERNAL_OBJECTS =
+# External object files for target number_ways
+number_ways_EXTERNAL_OBJECTS =
 
-cpp/Number_ways: cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o
-cpp/Number_ways: cpp/CMakeFiles/Number_ways.dir/build.make
-cpp/Number_ways: cpp/CMakeFiles/Number_ways.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Number_ways"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Number_ways.dir/link.txt --verbose=$(VERBOSE)
+cpp/number_ways: cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o
+cpp/number_ways: cpp/CMakeFiles/number_ways.dir/build.make
+cpp/number_ways: cpp/CMakeFiles/number_ways.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable number_ways"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/number_ways.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Number_ways.dir/build: cpp/Number_ways
+cpp/CMakeFiles/number_ways.dir/build: cpp/number_ways
 
-.PHONY : cpp/CMakeFiles/Number_ways.dir/build
+.PHONY : cpp/CMakeFiles/number_ways.dir/build
 
-cpp/CMakeFiles/Number_ways.dir/requires: cpp/CMakeFiles/Number_ways.dir/Number_ways.cpp.o.requires
+cpp/CMakeFiles/number_ways.dir/requires: cpp/CMakeFiles/number_ways.dir/number_ways.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Number_ways.dir/requires
+.PHONY : cpp/CMakeFiles/number_ways.dir/requires
 
-cpp/CMakeFiles/Number_ways.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Number_ways.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Number_ways.dir/clean
+cpp/CMakeFiles/number_ways.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/number_ways.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/number_ways.dir/clean
 
-cpp/CMakeFiles/Number_ways.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Number_ways.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Number_ways.dir/depend
+cpp/CMakeFiles/number_ways.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/number_ways.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/number_ways.dir/depend
 

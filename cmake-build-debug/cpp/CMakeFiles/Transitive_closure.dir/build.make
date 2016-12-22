@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Transitive_closure.dir/depend.make
+include cpp/CMakeFiles/transitive_closure.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Transitive_closure.dir/progress.make
+include cpp/CMakeFiles/transitive_closure.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Transitive_closure.dir/flags.make
+include cpp/CMakeFiles/transitive_closure.dir/flags.make
 
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o: cpp/CMakeFiles/Transitive_closure.dir/flags.make
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o: ../cpp/Transitive_closure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Transitive_closure.cpp
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o: cpp/CMakeFiles/transitive_closure.dir/flags.make
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o: ../cpp/transitive_closure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/transitive_closure.cpp
 
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Transitive_closure.cpp > CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.i
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/transitive_closure.dir/transitive_closure.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/transitive_closure.cpp > CMakeFiles/transitive_closure.dir/transitive_closure.cpp.i
 
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Transitive_closure.cpp -o CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.s
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/transitive_closure.dir/transitive_closure.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/transitive_closure.cpp -o CMakeFiles/transitive_closure.dir/transitive_closure.cpp.s
 
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.requires:
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.requires
+.PHONY : cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.requires
 
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.provides: cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Transitive_closure.dir/build.make cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.provides
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.provides: cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/transitive_closure.dir/build.make cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.provides
 
-cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.provides.build: cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o
+cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.provides.build: cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o
 
 
-# Object files for target Transitive_closure
-Transitive_closure_OBJECTS = \
-"CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o"
+# Object files for target transitive_closure
+transitive_closure_OBJECTS = \
+"CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o"
 
-# External object files for target Transitive_closure
-Transitive_closure_EXTERNAL_OBJECTS =
+# External object files for target transitive_closure
+transitive_closure_EXTERNAL_OBJECTS =
 
-cpp/Transitive_closure: cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o
-cpp/Transitive_closure: cpp/CMakeFiles/Transitive_closure.dir/build.make
-cpp/Transitive_closure: cpp/CMakeFiles/Transitive_closure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Transitive_closure"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Transitive_closure.dir/link.txt --verbose=$(VERBOSE)
+cpp/transitive_closure: cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o
+cpp/transitive_closure: cpp/CMakeFiles/transitive_closure.dir/build.make
+cpp/transitive_closure: cpp/CMakeFiles/transitive_closure.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable transitive_closure"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/transitive_closure.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Transitive_closure.dir/build: cpp/Transitive_closure
+cpp/CMakeFiles/transitive_closure.dir/build: cpp/transitive_closure
 
-.PHONY : cpp/CMakeFiles/Transitive_closure.dir/build
+.PHONY : cpp/CMakeFiles/transitive_closure.dir/build
 
-cpp/CMakeFiles/Transitive_closure.dir/requires: cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o.requires
+cpp/CMakeFiles/transitive_closure.dir/requires: cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Transitive_closure.dir/requires
+.PHONY : cpp/CMakeFiles/transitive_closure.dir/requires
 
-cpp/CMakeFiles/Transitive_closure.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Transitive_closure.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Transitive_closure.dir/clean
+cpp/CMakeFiles/transitive_closure.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/transitive_closure.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/transitive_closure.dir/clean
 
-cpp/CMakeFiles/Transitive_closure.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Transitive_closure.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Transitive_closure.dir/depend
+cpp/CMakeFiles/transitive_closure.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/transitive_closure.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/transitive_closure.dir/depend
 

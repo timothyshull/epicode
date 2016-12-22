@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Transitive_closure.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Transitive_closure.dir/Transitive_closure.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/transitive_closure.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/transitive_closure.dir/transitive_closure.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Pretty_printing.dir/depend.make
+include cpp/CMakeFiles/pretty_printing.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Pretty_printing.dir/progress.make
+include cpp/CMakeFiles/pretty_printing.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Pretty_printing.dir/flags.make
+include cpp/CMakeFiles/pretty_printing.dir/flags.make
 
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o: cpp/CMakeFiles/Pretty_printing.dir/flags.make
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o: ../cpp/Pretty_printing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Pretty_printing.cpp
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o: cpp/CMakeFiles/pretty_printing.dir/flags.make
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o: ../cpp/pretty_printing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/pretty_printing.cpp
 
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Pretty_printing.cpp > CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.i
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pretty_printing.dir/pretty_printing.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/pretty_printing.cpp > CMakeFiles/pretty_printing.dir/pretty_printing.cpp.i
 
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Pretty_printing.cpp -o CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.s
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pretty_printing.dir/pretty_printing.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/pretty_printing.cpp -o CMakeFiles/pretty_printing.dir/pretty_printing.cpp.s
 
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.requires:
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.requires
+.PHONY : cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.requires
 
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.provides: cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Pretty_printing.dir/build.make cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.provides
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.provides: cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/pretty_printing.dir/build.make cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.provides
 
-cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.provides.build: cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o
+cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.provides.build: cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o
 
 
-# Object files for target Pretty_printing
-Pretty_printing_OBJECTS = \
-"CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o"
+# Object files for target pretty_printing
+pretty_printing_OBJECTS = \
+"CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o"
 
-# External object files for target Pretty_printing
-Pretty_printing_EXTERNAL_OBJECTS =
+# External object files for target pretty_printing
+pretty_printing_EXTERNAL_OBJECTS =
 
-cpp/Pretty_printing: cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o
-cpp/Pretty_printing: cpp/CMakeFiles/Pretty_printing.dir/build.make
-cpp/Pretty_printing: cpp/CMakeFiles/Pretty_printing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Pretty_printing"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Pretty_printing.dir/link.txt --verbose=$(VERBOSE)
+cpp/pretty_printing: cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o
+cpp/pretty_printing: cpp/CMakeFiles/pretty_printing.dir/build.make
+cpp/pretty_printing: cpp/CMakeFiles/pretty_printing.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable pretty_printing"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pretty_printing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Pretty_printing.dir/build: cpp/Pretty_printing
+cpp/CMakeFiles/pretty_printing.dir/build: cpp/pretty_printing
 
-.PHONY : cpp/CMakeFiles/Pretty_printing.dir/build
+.PHONY : cpp/CMakeFiles/pretty_printing.dir/build
 
-cpp/CMakeFiles/Pretty_printing.dir/requires: cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o.requires
+cpp/CMakeFiles/pretty_printing.dir/requires: cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Pretty_printing.dir/requires
+.PHONY : cpp/CMakeFiles/pretty_printing.dir/requires
 
-cpp/CMakeFiles/Pretty_printing.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Pretty_printing.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Pretty_printing.dir/clean
+cpp/CMakeFiles/pretty_printing.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/pretty_printing.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/pretty_printing.dir/clean
 
-cpp/CMakeFiles/Pretty_printing.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Pretty_printing.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Pretty_printing.dir/depend
+cpp/CMakeFiles/pretty_printing.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/pretty_printing.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/pretty_printing.dir/depend
 

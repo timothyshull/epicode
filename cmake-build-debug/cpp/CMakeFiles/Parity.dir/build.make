@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Parity.dir/depend.make
+include cpp/CMakeFiles/parity.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Parity.dir/progress.make
+include cpp/CMakeFiles/parity.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Parity.dir/flags.make
+include cpp/CMakeFiles/parity.dir/flags.make
 
-cpp/CMakeFiles/Parity.dir/Parity.cpp.o: cpp/CMakeFiles/Parity.dir/flags.make
-cpp/CMakeFiles/Parity.dir/Parity.cpp.o: ../cpp/Parity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Parity.dir/Parity.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Parity.dir/Parity.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Parity.cpp
+cpp/CMakeFiles/parity.dir/parity.cpp.o: cpp/CMakeFiles/parity.dir/flags.make
+cpp/CMakeFiles/parity.dir/parity.cpp.o: ../cpp/parity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/parity.dir/parity.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parity.dir/parity.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/parity.cpp
 
-cpp/CMakeFiles/Parity.dir/Parity.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Parity.dir/Parity.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Parity.cpp > CMakeFiles/Parity.dir/Parity.cpp.i
+cpp/CMakeFiles/parity.dir/parity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parity.dir/parity.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/parity.cpp > CMakeFiles/parity.dir/parity.cpp.i
 
-cpp/CMakeFiles/Parity.dir/Parity.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Parity.dir/Parity.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Parity.cpp -o CMakeFiles/Parity.dir/Parity.cpp.s
+cpp/CMakeFiles/parity.dir/parity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parity.dir/parity.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/parity.cpp -o CMakeFiles/parity.dir/parity.cpp.s
 
-cpp/CMakeFiles/Parity.dir/Parity.cpp.o.requires:
+cpp/CMakeFiles/parity.dir/parity.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Parity.dir/Parity.cpp.o.requires
+.PHONY : cpp/CMakeFiles/parity.dir/parity.cpp.o.requires
 
-cpp/CMakeFiles/Parity.dir/Parity.cpp.o.provides: cpp/CMakeFiles/Parity.dir/Parity.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Parity.dir/build.make cpp/CMakeFiles/Parity.dir/Parity.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Parity.dir/Parity.cpp.o.provides
+cpp/CMakeFiles/parity.dir/parity.cpp.o.provides: cpp/CMakeFiles/parity.dir/parity.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/parity.dir/build.make cpp/CMakeFiles/parity.dir/parity.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/parity.dir/parity.cpp.o.provides
 
-cpp/CMakeFiles/Parity.dir/Parity.cpp.o.provides.build: cpp/CMakeFiles/Parity.dir/Parity.cpp.o
+cpp/CMakeFiles/parity.dir/parity.cpp.o.provides.build: cpp/CMakeFiles/parity.dir/parity.cpp.o
 
 
-# Object files for target Parity
-Parity_OBJECTS = \
-"CMakeFiles/Parity.dir/Parity.cpp.o"
+# Object files for target parity
+parity_OBJECTS = \
+"CMakeFiles/parity.dir/parity.cpp.o"
 
-# External object files for target Parity
-Parity_EXTERNAL_OBJECTS =
+# External object files for target parity
+parity_EXTERNAL_OBJECTS =
 
-cpp/Parity: cpp/CMakeFiles/Parity.dir/Parity.cpp.o
-cpp/Parity: cpp/CMakeFiles/Parity.dir/build.make
-cpp/Parity: cpp/CMakeFiles/Parity.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Parity"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Parity.dir/link.txt --verbose=$(VERBOSE)
+cpp/parity: cpp/CMakeFiles/parity.dir/parity.cpp.o
+cpp/parity: cpp/CMakeFiles/parity.dir/build.make
+cpp/parity: cpp/CMakeFiles/parity.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable parity"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parity.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Parity.dir/build: cpp/Parity
+cpp/CMakeFiles/parity.dir/build: cpp/parity
 
-.PHONY : cpp/CMakeFiles/Parity.dir/build
+.PHONY : cpp/CMakeFiles/parity.dir/build
 
-cpp/CMakeFiles/Parity.dir/requires: cpp/CMakeFiles/Parity.dir/Parity.cpp.o.requires
+cpp/CMakeFiles/parity.dir/requires: cpp/CMakeFiles/parity.dir/parity.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Parity.dir/requires
+.PHONY : cpp/CMakeFiles/parity.dir/requires
 
-cpp/CMakeFiles/Parity.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Parity.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Parity.dir/clean
+cpp/CMakeFiles/parity.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/parity.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/parity.dir/clean
 
-cpp/CMakeFiles/Parity.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Parity.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Parity.dir/depend
+cpp/CMakeFiles/parity.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/parity.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/parity.dir/depend
 

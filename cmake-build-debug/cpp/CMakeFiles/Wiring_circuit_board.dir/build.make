@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Wiring_circuit_board.dir/depend.make
+include cpp/CMakeFiles/wiring_circuit_board.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Wiring_circuit_board.dir/progress.make
+include cpp/CMakeFiles/wiring_circuit_board.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Wiring_circuit_board.dir/flags.make
+include cpp/CMakeFiles/wiring_circuit_board.dir/flags.make
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o: cpp/CMakeFiles/Wiring_circuit_board.dir/flags.make
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o: ../cpp/Wiring_circuit_board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Wiring_circuit_board.cpp
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o: cpp/CMakeFiles/wiring_circuit_board.dir/flags.make
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o: ../cpp/wiring_circuit_board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/wiring_circuit_board.cpp
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Wiring_circuit_board.cpp > CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.i
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/wiring_circuit_board.cpp > CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.i
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Wiring_circuit_board.cpp -o CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.s
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/wiring_circuit_board.cpp -o CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.s
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.requires:
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.requires
+.PHONY : cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.requires
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.provides: cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Wiring_circuit_board.dir/build.make cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.provides
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.provides: cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/wiring_circuit_board.dir/build.make cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.provides
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.provides.build: cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o
+cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.provides.build: cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o
 
 
-# Object files for target Wiring_circuit_board
-Wiring_circuit_board_OBJECTS = \
-"CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o"
+# Object files for target wiring_circuit_board
+wiring_circuit_board_OBJECTS = \
+"CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o"
 
-# External object files for target Wiring_circuit_board
-Wiring_circuit_board_EXTERNAL_OBJECTS =
+# External object files for target wiring_circuit_board
+wiring_circuit_board_EXTERNAL_OBJECTS =
 
-cpp/Wiring_circuit_board: cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o
-cpp/Wiring_circuit_board: cpp/CMakeFiles/Wiring_circuit_board.dir/build.make
-cpp/Wiring_circuit_board: cpp/CMakeFiles/Wiring_circuit_board.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Wiring_circuit_board"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Wiring_circuit_board.dir/link.txt --verbose=$(VERBOSE)
+cpp/wiring_circuit_board: cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o
+cpp/wiring_circuit_board: cpp/CMakeFiles/wiring_circuit_board.dir/build.make
+cpp/wiring_circuit_board: cpp/CMakeFiles/wiring_circuit_board.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable wiring_circuit_board"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/wiring_circuit_board.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Wiring_circuit_board.dir/build: cpp/Wiring_circuit_board
+cpp/CMakeFiles/wiring_circuit_board.dir/build: cpp/wiring_circuit_board
 
-.PHONY : cpp/CMakeFiles/Wiring_circuit_board.dir/build
+.PHONY : cpp/CMakeFiles/wiring_circuit_board.dir/build
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/requires: cpp/CMakeFiles/Wiring_circuit_board.dir/Wiring_circuit_board.cpp.o.requires
+cpp/CMakeFiles/wiring_circuit_board.dir/requires: cpp/CMakeFiles/wiring_circuit_board.dir/wiring_circuit_board.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Wiring_circuit_board.dir/requires
+.PHONY : cpp/CMakeFiles/wiring_circuit_board.dir/requires
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Wiring_circuit_board.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Wiring_circuit_board.dir/clean
+cpp/CMakeFiles/wiring_circuit_board.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/wiring_circuit_board.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/wiring_circuit_board.dir/clean
 
-cpp/CMakeFiles/Wiring_circuit_board.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Wiring_circuit_board.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Wiring_circuit_board.dir/depend
+cpp/CMakeFiles/wiring_circuit_board.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/wiring_circuit_board.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/wiring_circuit_board.dir/depend
 

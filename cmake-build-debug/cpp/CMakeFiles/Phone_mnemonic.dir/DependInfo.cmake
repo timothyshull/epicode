@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Phone_mnemonic.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/phone_mnemonic.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

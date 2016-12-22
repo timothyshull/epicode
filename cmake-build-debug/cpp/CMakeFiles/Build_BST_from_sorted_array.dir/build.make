@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Build_BST_from_sorted_array.dir/depend.make
+include cpp/CMakeFiles/build_bst_from_sorted_array.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Build_BST_from_sorted_array.dir/progress.make
+include cpp/CMakeFiles/build_bst_from_sorted_array.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Build_BST_from_sorted_array.dir/flags.make
+include cpp/CMakeFiles/build_bst_from_sorted_array.dir/flags.make
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/flags.make
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o: ../cpp/Build_BST_from_sorted_array.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Build_BST_from_sorted_array.cpp
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o: cpp/CMakeFiles/build_bst_from_sorted_array.dir/flags.make
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o: ../cpp/build_bst_from_sorted_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/build_bst_from_sorted_array.cpp
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Build_BST_from_sorted_array.cpp > CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.i
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/build_bst_from_sorted_array.cpp > CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.i
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Build_BST_from_sorted_array.cpp -o CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.s
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/build_bst_from_sorted_array.cpp -o CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.s
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.requires:
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.requires
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.requires
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.provides: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Build_BST_from_sorted_array.dir/build.make cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.provides
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.provides: cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/build_bst_from_sorted_array.dir/build.make cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.provides
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.provides.build: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.provides.build: cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o
 
 
-# Object files for target Build_BST_from_sorted_array
-Build_BST_from_sorted_array_OBJECTS = \
-"CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o"
+# Object files for target build_bst_from_sorted_array
+build_bst_from_sorted_array_OBJECTS = \
+"CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o"
 
-# External object files for target Build_BST_from_sorted_array
-Build_BST_from_sorted_array_EXTERNAL_OBJECTS =
+# External object files for target build_bst_from_sorted_array
+build_bst_from_sorted_array_EXTERNAL_OBJECTS =
 
-cpp/Build_BST_from_sorted_array: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o
-cpp/Build_BST_from_sorted_array: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/build.make
-cpp/Build_BST_from_sorted_array: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Build_BST_from_sorted_array"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Build_BST_from_sorted_array.dir/link.txt --verbose=$(VERBOSE)
+cpp/build_bst_from_sorted_array: cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o
+cpp/build_bst_from_sorted_array: cpp/CMakeFiles/build_bst_from_sorted_array.dir/build.make
+cpp/build_bst_from_sorted_array: cpp/CMakeFiles/build_bst_from_sorted_array.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable build_bst_from_sorted_array"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/build_bst_from_sorted_array.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/build: cpp/Build_BST_from_sorted_array
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/build: cpp/build_bst_from_sorted_array
 
-.PHONY : cpp/CMakeFiles/Build_BST_from_sorted_array.dir/build
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/build
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/requires: cpp/CMakeFiles/Build_BST_from_sorted_array.dir/Build_BST_from_sorted_array.cpp.o.requires
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/requires: cpp/CMakeFiles/build_bst_from_sorted_array.dir/build_bst_from_sorted_array.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Build_BST_from_sorted_array.dir/requires
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/requires
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Build_BST_from_sorted_array.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Build_BST_from_sorted_array.dir/clean
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/build_bst_from_sorted_array.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/clean
 
-cpp/CMakeFiles/Build_BST_from_sorted_array.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Build_BST_from_sorted_array.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Build_BST_from_sorted_array.dir/depend
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/build_bst_from_sorted_array.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/depend
 

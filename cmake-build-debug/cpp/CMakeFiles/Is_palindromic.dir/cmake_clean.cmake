@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Is_palindromic.dir/is_palindromic.cpp.o"
-  "Is_palindromic.pdb"
-  "Is_palindromic"
+  "CMakeFiles/is_palindromic.dir/is_palindromic.cpp.o"
+  "is_palindromic.pdb"
+  "is_palindromic"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Is_palindromic.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/is_palindromic.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

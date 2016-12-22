@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Student_search.dir/depend.make
+include cpp/CMakeFiles/student_search.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Student_search.dir/progress.make
+include cpp/CMakeFiles/student_search.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Student_search.dir/flags.make
+include cpp/CMakeFiles/student_search.dir/flags.make
 
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.o: cpp/CMakeFiles/Student_search.dir/flags.make
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.o: ../cpp/student_search.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Student_search.dir/student_search.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Student_search.dir/student_search.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/student_search.cpp
+cpp/CMakeFiles/student_search.dir/student_search.cpp.o: cpp/CMakeFiles/student_search.dir/flags.make
+cpp/CMakeFiles/student_search.dir/student_search.cpp.o: ../cpp/student_search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/student_search.dir/student_search.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_search.dir/student_search.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/student_search.cpp
 
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Student_search.dir/student_search.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/student_search.cpp > CMakeFiles/Student_search.dir/student_search.cpp.i
+cpp/CMakeFiles/student_search.dir/student_search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_search.dir/student_search.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/student_search.cpp > CMakeFiles/student_search.dir/student_search.cpp.i
 
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Student_search.dir/student_search.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/student_search.cpp -o CMakeFiles/Student_search.dir/student_search.cpp.s
+cpp/CMakeFiles/student_search.dir/student_search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_search.dir/student_search.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/student_search.cpp -o CMakeFiles/student_search.dir/student_search.cpp.s
 
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.requires:
+cpp/CMakeFiles/student_search.dir/student_search.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.requires
+.PHONY : cpp/CMakeFiles/student_search.dir/student_search.cpp.o.requires
 
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.provides: cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Student_search.dir/build.make cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.provides
+cpp/CMakeFiles/student_search.dir/student_search.cpp.o.provides: cpp/CMakeFiles/student_search.dir/student_search.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/student_search.dir/build.make cpp/CMakeFiles/student_search.dir/student_search.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/student_search.dir/student_search.cpp.o.provides
 
-cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.provides.build: cpp/CMakeFiles/Student_search.dir/student_search.cpp.o
+cpp/CMakeFiles/student_search.dir/student_search.cpp.o.provides.build: cpp/CMakeFiles/student_search.dir/student_search.cpp.o
 
 
-# Object files for target Student_search
-Student_search_OBJECTS = \
-"CMakeFiles/Student_search.dir/student_search.cpp.o"
+# Object files for target student_search
+student_search_OBJECTS = \
+"CMakeFiles/student_search.dir/student_search.cpp.o"
 
-# External object files for target Student_search
-Student_search_EXTERNAL_OBJECTS =
+# External object files for target student_search
+student_search_EXTERNAL_OBJECTS =
 
-cpp/Student_search: cpp/CMakeFiles/Student_search.dir/student_search.cpp.o
-cpp/Student_search: cpp/CMakeFiles/Student_search.dir/build.make
-cpp/Student_search: cpp/CMakeFiles/Student_search.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Student_search"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Student_search.dir/link.txt --verbose=$(VERBOSE)
+cpp/student_search: cpp/CMakeFiles/student_search.dir/student_search.cpp.o
+cpp/student_search: cpp/CMakeFiles/student_search.dir/build.make
+cpp/student_search: cpp/CMakeFiles/student_search.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable student_search"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_search.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Student_search.dir/build: cpp/Student_search
+cpp/CMakeFiles/student_search.dir/build: cpp/student_search
 
-.PHONY : cpp/CMakeFiles/Student_search.dir/build
+.PHONY : cpp/CMakeFiles/student_search.dir/build
 
-cpp/CMakeFiles/Student_search.dir/requires: cpp/CMakeFiles/Student_search.dir/student_search.cpp.o.requires
+cpp/CMakeFiles/student_search.dir/requires: cpp/CMakeFiles/student_search.dir/student_search.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Student_search.dir/requires
+.PHONY : cpp/CMakeFiles/student_search.dir/requires
 
-cpp/CMakeFiles/Student_search.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Student_search.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Student_search.dir/clean
+cpp/CMakeFiles/student_search.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/student_search.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/student_search.dir/clean
 
-cpp/CMakeFiles/Student_search.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Student_search.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Student_search.dir/depend
+cpp/CMakeFiles/student_search.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/student_search.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/student_search.dir/depend
 

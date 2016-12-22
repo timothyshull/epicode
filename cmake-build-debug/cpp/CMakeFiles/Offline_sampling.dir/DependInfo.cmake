@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Offline_sampling.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Offline_sampling.dir/Offline_sampling.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/offline_sampling.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/offline_sampling.dir/offline_sampling.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

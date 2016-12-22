@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::boolalpha;
 using std::cout;
@@ -12,17 +12,17 @@ using std::endl;
 using std::make_unique;
 using std::unique_ptr;
 
-bool CheckSymmetric(const unique_ptr<BinaryTreeNode<int>>&,
-                    const unique_ptr<BinaryTreeNode<int>>&);
+bool CheckSymmetric(const unique_ptr<Binary_tree_node<int>>&,
+                    const unique_ptr<Binary_tree_node<int>>&);
 
 // @include
-bool IsSymmetric(const unique_ptr<BinaryTreeNode<int>>& tree)
+bool IsSymmetric(const unique_ptr<Binary_tree_node<int>>& tree)
 {
     return tree == nullptr || CheckSymmetric(tree->left, tree->right);
 }
 
-bool CheckSymmetric(const unique_ptr<BinaryTreeNode<int>>& subtree_0,
-                    const unique_ptr<BinaryTreeNode<int>>& subtree_1)
+bool CheckSymmetric(const unique_ptr<Binary_tree_node<int>>& subtree_0,
+                    const unique_ptr<Binary_tree_node<int>>& subtree_1)
 {
     if (subtree_0 == nullptr && subtree_1 == nullptr) {
         return true;
@@ -38,14 +38,14 @@ bool CheckSymmetric(const unique_ptr<BinaryTreeNode<int>>& subtree_0,
 
 void SimpleTest()
 {
-    auto symm_tree = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+    auto symm_tree = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(IsSymmetric(symm_tree));
-    symm_tree->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+    symm_tree->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(!IsSymmetric(symm_tree));
-    symm_tree->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+    symm_tree->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(IsSymmetric(symm_tree));
     symm_tree->right->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(!IsSymmetric(symm_tree));
 }
 
@@ -57,24 +57,24 @@ int main(int argc, char* argv[])
     //    x   x
     //  x    x x
     auto non_symm_tree =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     non_symm_tree->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     non_symm_tree->left->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     non_symm_tree->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     non_symm_tree->right->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     non_symm_tree->right->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(!IsSymmetric(non_symm_tree));
     cout << boolalpha << IsSymmetric(non_symm_tree) << "\n";
     // Symmetric tree test.
-    unique_ptr<BinaryTreeNode<int>> symm_tree =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    symm_tree->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
-    symm_tree->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>());
+    unique_ptr<Binary_tree_node<int>> symm_tree =
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    symm_tree->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
+    symm_tree->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(IsSymmetric(symm_tree) == true);
     cout << boolalpha << IsSymmetric(symm_tree) << "\n";
     // Empty tree test.

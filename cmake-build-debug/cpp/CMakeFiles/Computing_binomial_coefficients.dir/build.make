@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Computing_binomial_coefficients.dir/depend.make
+include cpp/CMakeFiles/computing_binomial_coefficients.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Computing_binomial_coefficients.dir/progress.make
+include cpp/CMakeFiles/computing_binomial_coefficients.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Computing_binomial_coefficients.dir/flags.make
+include cpp/CMakeFiles/computing_binomial_coefficients.dir/flags.make
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o: cpp/CMakeFiles/Computing_binomial_coefficients.dir/flags.make
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o: ../cpp/Computing_binomial_coefficients.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Computing_binomial_coefficients.cpp
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o: cpp/CMakeFiles/computing_binomial_coefficients.dir/flags.make
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o: ../cpp/computing_binomial_coefficients.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/computing_binomial_coefficients.cpp
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Computing_binomial_coefficients.cpp > CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.i
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/computing_binomial_coefficients.cpp > CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.i
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Computing_binomial_coefficients.cpp -o CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.s
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/computing_binomial_coefficients.cpp -o CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.s
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.requires:
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.requires
+.PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.requires
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.provides: cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Computing_binomial_coefficients.dir/build.make cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.provides
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.provides: cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/computing_binomial_coefficients.dir/build.make cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.provides
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.provides.build: cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o
+cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.provides.build: cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o
 
 
-# Object files for target Computing_binomial_coefficients
-Computing_binomial_coefficients_OBJECTS = \
-"CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o"
+# Object files for target computing_binomial_coefficients
+computing_binomial_coefficients_OBJECTS = \
+"CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o"
 
-# External object files for target Computing_binomial_coefficients
-Computing_binomial_coefficients_EXTERNAL_OBJECTS =
+# External object files for target computing_binomial_coefficients
+computing_binomial_coefficients_EXTERNAL_OBJECTS =
 
-cpp/Computing_binomial_coefficients: cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o
-cpp/Computing_binomial_coefficients: cpp/CMakeFiles/Computing_binomial_coefficients.dir/build.make
-cpp/Computing_binomial_coefficients: cpp/CMakeFiles/Computing_binomial_coefficients.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Computing_binomial_coefficients"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Computing_binomial_coefficients.dir/link.txt --verbose=$(VERBOSE)
+cpp/computing_binomial_coefficients: cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o
+cpp/computing_binomial_coefficients: cpp/CMakeFiles/computing_binomial_coefficients.dir/build.make
+cpp/computing_binomial_coefficients: cpp/CMakeFiles/computing_binomial_coefficients.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable computing_binomial_coefficients"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/computing_binomial_coefficients.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/build: cpp/Computing_binomial_coefficients
+cpp/CMakeFiles/computing_binomial_coefficients.dir/build: cpp/computing_binomial_coefficients
 
-.PHONY : cpp/CMakeFiles/Computing_binomial_coefficients.dir/build
+.PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/build
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/requires: cpp/CMakeFiles/Computing_binomial_coefficients.dir/Computing_binomial_coefficients.cpp.o.requires
+cpp/CMakeFiles/computing_binomial_coefficients.dir/requires: cpp/CMakeFiles/computing_binomial_coefficients.dir/computing_binomial_coefficients.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Computing_binomial_coefficients.dir/requires
+.PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/requires
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Computing_binomial_coefficients.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Computing_binomial_coefficients.dir/clean
+cpp/CMakeFiles/computing_binomial_coefficients.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/computing_binomial_coefficients.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/clean
 
-cpp/CMakeFiles/Computing_binomial_coefficients.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Computing_binomial_coefficients.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Computing_binomial_coefficients.dir/depend
+cpp/CMakeFiles/computing_binomial_coefficients.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/computing_binomial_coefficients.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/depend
 

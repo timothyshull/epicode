@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Merge_contacts.dir/depend.make
+include cpp/CMakeFiles/merge_contacts.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Merge_contacts.dir/progress.make
+include cpp/CMakeFiles/merge_contacts.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Merge_contacts.dir/flags.make
+include cpp/CMakeFiles/merge_contacts.dir/flags.make
 
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o: cpp/CMakeFiles/Merge_contacts.dir/flags.make
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o: ../cpp/merge_contacts.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/merge_contacts.cpp
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o: cpp/CMakeFiles/merge_contacts.dir/flags.make
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o: ../cpp/merge_contacts.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/merge_contacts.cpp
 
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/merge_contacts.cpp > CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.i
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/merge_contacts.dir/merge_contacts.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/merge_contacts.cpp > CMakeFiles/merge_contacts.dir/merge_contacts.cpp.i
 
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/merge_contacts.cpp -o CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.s
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/merge_contacts.dir/merge_contacts.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/merge_contacts.cpp -o CMakeFiles/merge_contacts.dir/merge_contacts.cpp.s
 
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.requires:
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.requires
+.PHONY : cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.requires
 
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.provides: cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Merge_contacts.dir/build.make cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.provides
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.provides: cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/merge_contacts.dir/build.make cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.provides
 
-cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.provides.build: cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o
+cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.provides.build: cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o
 
 
-# Object files for target Merge_contacts
-Merge_contacts_OBJECTS = \
-"CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o"
+# Object files for target merge_contacts
+merge_contacts_OBJECTS = \
+"CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o"
 
-# External object files for target Merge_contacts
-Merge_contacts_EXTERNAL_OBJECTS =
+# External object files for target merge_contacts
+merge_contacts_EXTERNAL_OBJECTS =
 
-cpp/Merge_contacts: cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o
-cpp/Merge_contacts: cpp/CMakeFiles/Merge_contacts.dir/build.make
-cpp/Merge_contacts: cpp/CMakeFiles/Merge_contacts.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Merge_contacts"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Merge_contacts.dir/link.txt --verbose=$(VERBOSE)
+cpp/merge_contacts: cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o
+cpp/merge_contacts: cpp/CMakeFiles/merge_contacts.dir/build.make
+cpp/merge_contacts: cpp/CMakeFiles/merge_contacts.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable merge_contacts"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/merge_contacts.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Merge_contacts.dir/build: cpp/Merge_contacts
+cpp/CMakeFiles/merge_contacts.dir/build: cpp/merge_contacts
 
-.PHONY : cpp/CMakeFiles/Merge_contacts.dir/build
+.PHONY : cpp/CMakeFiles/merge_contacts.dir/build
 
-cpp/CMakeFiles/Merge_contacts.dir/requires: cpp/CMakeFiles/Merge_contacts.dir/merge_contacts.cpp.o.requires
+cpp/CMakeFiles/merge_contacts.dir/requires: cpp/CMakeFiles/merge_contacts.dir/merge_contacts.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Merge_contacts.dir/requires
+.PHONY : cpp/CMakeFiles/merge_contacts.dir/requires
 
-cpp/CMakeFiles/Merge_contacts.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Merge_contacts.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Merge_contacts.dir/clean
+cpp/CMakeFiles/merge_contacts.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/merge_contacts.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/merge_contacts.dir/clean
 
-cpp/CMakeFiles/Merge_contacts.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Merge_contacts.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Merge_contacts.dir/depend
+cpp/CMakeFiles/merge_contacts.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/merge_contacts.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/merge_contacts.dir/depend
 

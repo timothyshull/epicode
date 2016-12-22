@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/depend.make
+include cpp/CMakeFiles/overlapping_lists_no_cycle.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/progress.make
+include cpp/CMakeFiles/overlapping_lists_no_cycle.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/flags.make
+include cpp/CMakeFiles/overlapping_lists_no_cycle.dir/flags.make
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/flags.make
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o: ../cpp/Overlapping_lists_no_cycle.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Overlapping_lists_no_cycle.cpp
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/flags.make
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o: ../cpp/overlapping_lists_no_cycle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/overlapping_lists_no_cycle.cpp
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Overlapping_lists_no_cycle.cpp > CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.i
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/overlapping_lists_no_cycle.cpp > CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.i
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Overlapping_lists_no_cycle.cpp -o CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.s
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/overlapping_lists_no_cycle.cpp -o CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.s
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.requires:
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.requires
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.requires
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.provides: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/build.make cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.provides
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.provides: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build.make cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.provides
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.provides.build: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.provides.build: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o
 
 
-# Object files for target Overlapping_lists_no_cycle
-Overlapping_lists_no_cycle_OBJECTS = \
-"CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o"
+# Object files for target overlapping_lists_no_cycle
+overlapping_lists_no_cycle_OBJECTS = \
+"CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o"
 
-# External object files for target Overlapping_lists_no_cycle
-Overlapping_lists_no_cycle_EXTERNAL_OBJECTS =
+# External object files for target overlapping_lists_no_cycle
+overlapping_lists_no_cycle_EXTERNAL_OBJECTS =
 
-cpp/Overlapping_lists_no_cycle: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o
-cpp/Overlapping_lists_no_cycle: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/build.make
-cpp/Overlapping_lists_no_cycle: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Overlapping_lists_no_cycle"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Overlapping_lists_no_cycle.dir/link.txt --verbose=$(VERBOSE)
+cpp/overlapping_lists_no_cycle: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o
+cpp/overlapping_lists_no_cycle: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build.make
+cpp/overlapping_lists_no_cycle: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable overlapping_lists_no_cycle"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/overlapping_lists_no_cycle.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/build: cpp/Overlapping_lists_no_cycle
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build: cpp/overlapping_lists_no_cycle
 
-.PHONY : cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/build
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/requires: cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/Overlapping_lists_no_cycle.cpp.o.requires
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/requires: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/overlapping_lists_no_cycle.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/requires
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/requires
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Overlapping_lists_no_cycle.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/clean
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/overlapping_lists_no_cycle.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/clean
 
-cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Overlapping_lists_no_cycle.dir/depend
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/overlapping_lists_no_cycle.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/depend
 

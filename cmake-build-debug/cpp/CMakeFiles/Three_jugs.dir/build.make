@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Three_jugs.dir/depend.make
+include cpp/CMakeFiles/three_jugs.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Three_jugs.dir/progress.make
+include cpp/CMakeFiles/three_jugs.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Three_jugs.dir/flags.make
+include cpp/CMakeFiles/three_jugs.dir/flags.make
 
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o: cpp/CMakeFiles/Three_jugs.dir/flags.make
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o: ../cpp/Three_jugs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Three_jugs.cpp
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o: cpp/CMakeFiles/three_jugs.dir/flags.make
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o: ../cpp/three_jugs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/three_jugs.dir/three_jugs.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/three_jugs.cpp
 
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Three_jugs.dir/Three_jugs.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Three_jugs.cpp > CMakeFiles/Three_jugs.dir/Three_jugs.cpp.i
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/three_jugs.dir/three_jugs.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/three_jugs.cpp > CMakeFiles/three_jugs.dir/three_jugs.cpp.i
 
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Three_jugs.dir/Three_jugs.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Three_jugs.cpp -o CMakeFiles/Three_jugs.dir/Three_jugs.cpp.s
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/three_jugs.dir/three_jugs.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/three_jugs.cpp -o CMakeFiles/three_jugs.dir/three_jugs.cpp.s
 
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.requires:
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.requires
+.PHONY : cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.requires
 
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.provides: cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Three_jugs.dir/build.make cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.provides
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.provides: cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/three_jugs.dir/build.make cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.provides
 
-cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.provides.build: cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o
+cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.provides.build: cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o
 
 
-# Object files for target Three_jugs
-Three_jugs_OBJECTS = \
-"CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o"
+# Object files for target three_jugs
+three_jugs_OBJECTS = \
+"CMakeFiles/three_jugs.dir/three_jugs.cpp.o"
 
-# External object files for target Three_jugs
-Three_jugs_EXTERNAL_OBJECTS =
+# External object files for target three_jugs
+three_jugs_EXTERNAL_OBJECTS =
 
-cpp/Three_jugs: cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o
-cpp/Three_jugs: cpp/CMakeFiles/Three_jugs.dir/build.make
-cpp/Three_jugs: cpp/CMakeFiles/Three_jugs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Three_jugs"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Three_jugs.dir/link.txt --verbose=$(VERBOSE)
+cpp/three_jugs: cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o
+cpp/three_jugs: cpp/CMakeFiles/three_jugs.dir/build.make
+cpp/three_jugs: cpp/CMakeFiles/three_jugs.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable three_jugs"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/three_jugs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Three_jugs.dir/build: cpp/Three_jugs
+cpp/CMakeFiles/three_jugs.dir/build: cpp/three_jugs
 
-.PHONY : cpp/CMakeFiles/Three_jugs.dir/build
+.PHONY : cpp/CMakeFiles/three_jugs.dir/build
 
-cpp/CMakeFiles/Three_jugs.dir/requires: cpp/CMakeFiles/Three_jugs.dir/Three_jugs.cpp.o.requires
+cpp/CMakeFiles/three_jugs.dir/requires: cpp/CMakeFiles/three_jugs.dir/three_jugs.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Three_jugs.dir/requires
+.PHONY : cpp/CMakeFiles/three_jugs.dir/requires
 
-cpp/CMakeFiles/Three_jugs.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Three_jugs.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Three_jugs.dir/clean
+cpp/CMakeFiles/three_jugs.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/three_jugs.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/three_jugs.dir/clean
 
-cpp/CMakeFiles/Three_jugs.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Three_jugs.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Three_jugs.dir/depend
+cpp/CMakeFiles/three_jugs.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/three_jugs.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/three_jugs.dir/depend
 

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,9 +12,9 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> distinct_list(shared_ptr<ListNode<int>>* L)
+shared_ptr<List_node<int>> distinct_list(shared_ptr<List_node<int>>* L)
 {
-    shared_ptr<ListNode<int>> pre = nullptr, now = *L;
+    shared_ptr<List_node<int>> pre = nullptr, now = *L;
     while (now) {
         if (now && now->next && now->data == now->next->data) {
             int target = now->data;
@@ -38,14 +38,14 @@ shared_ptr<ListNode<int>> distinct_list(shared_ptr<ListNode<int>>* L)
 
 int main(int argc, char** argv)
 {
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            2, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{
-                            3, make_shared<ListNode<int>>(ListNode<int>{
-                                    3, make_shared<ListNode<int>>(
-                                            ListNode<int>{5, nullptr})})})})});
-    shared_ptr<ListNode<int>> pre = nullptr;
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{
+            2, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{
+                            3, make_shared<List_node<int>>(List_node<int>{
+                                    3, make_shared<List_node<int>>(
+                                            List_node<int>{5, nullptr})})})})});
+    shared_ptr<List_node<int>> pre = nullptr;
     auto result = distinct_list(&L);
     while (result) {
         if (pre) {

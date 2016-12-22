@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Celebrity_finding.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Celebrity_finding.dir/Celebrity_finding.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/celebrity_finding.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/celebrity_finding.dir/celebrity_finding.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

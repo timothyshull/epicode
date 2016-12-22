@@ -6,17 +6,17 @@
 #include <memory>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::make_unique;
 using std::unique_ptr;
 using std::vector;
 
-unique_ptr<BinaryTreeNode<int>> ReconstructPreorderHelper(const vector<int*>&,
+unique_ptr<Binary_tree_node<int>> ReconstructPreorderHelper(const vector<int*>&,
                                                           int*);
 
 // @include
-unique_ptr<BinaryTreeNode<int>> ReconstructPreorder(
+unique_ptr<Binary_tree_node<int>> ReconstructPreorder(
         const vector<int*>& preorder)
 {
     int subtree_idx_pointer = 0;
@@ -24,7 +24,7 @@ unique_ptr<BinaryTreeNode<int>> ReconstructPreorder(
 }
 
 // Reconstructs the subtree that is rooted at subtreeIdx.
-unique_ptr<BinaryTreeNode<int>> ReconstructPreorderHelper(
+unique_ptr<Binary_tree_node<int>> ReconstructPreorderHelper(
         const vector<int*>& preorder, int* subtree_idx_pointer)
 {
     int& subtree_idx = *subtree_idx_pointer;
@@ -39,7 +39,7 @@ unique_ptr<BinaryTreeNode<int>> ReconstructPreorderHelper(
             ReconstructPreorderHelper(preorder, subtree_idx_pointer);
     auto right_subtree =
             ReconstructPreorderHelper(preorder, subtree_idx_pointer);
-    return make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{
+    return make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{
             *subtree_key, move(left_subtree), move(right_subtree)});
 }
 // @exclude

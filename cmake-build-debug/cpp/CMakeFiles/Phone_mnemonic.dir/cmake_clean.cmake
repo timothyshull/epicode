@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Phone_mnemonic.dir/Phone_mnemonic.cpp.o"
-  "Phone_mnemonic.pdb"
-  "Phone_mnemonic"
+  "CMakeFiles/phone_mnemonic.dir/phone_mnemonic.cpp.o"
+  "phone_mnemonic.pdb"
+  "phone_mnemonic"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Phone_mnemonic.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/phone_mnemonic.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

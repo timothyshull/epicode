@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Find_k_largest_BST.dir/Find_k_largest_BST.cpp.o"
-  "Find_k_largest_BST.pdb"
-  "Find_k_largest_BST"
+  "CMakeFiles/find_k_largest_bst.dir/find_k_largest_bst.cpp.o"
+  "find_k_largest_bst.pdb"
+  "find_k_largest_bst"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Find_k_largest_BST.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/find_k_largest_bst.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -4,7 +4,7 @@
 #include <memory>
 #include <vector>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::make_shared;
 using std::shared_ptr;
@@ -12,13 +12,13 @@ using std::vector;
 
 // @include
 // Delete the node past this one. Assume node is not a tail.
-void DeleteAfter(const shared_ptr<ListNode<int>>& node)
+void DeleteAfter(const shared_ptr<List_node<int>>& node)
 {
     node->next = node->next->next;
 }
 // @exclude
 
-void CheckAnswer(shared_ptr<ListNode<int>> L, const vector<int>& vals)
+void CheckAnswer(shared_ptr<List_node<int>> L, const vector<int>& vals)
 {
     for (int i = 0; i < vals.size(); ++i) {
         assert(L->data == vals[i]);
@@ -29,10 +29,10 @@ void CheckAnswer(shared_ptr<ListNode<int>> L, const vector<int>& vals)
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<ListNode<int>> L;
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            2, make_shared<ListNode<int>>(ListNode<int>{
-                    4, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    shared_ptr<List_node<int>> L;
+    L = make_shared<List_node<int>>(List_node<int>{
+            2, make_shared<List_node<int>>(List_node<int>{
+                    4, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     DeleteAfter(L);
     CheckAnswer(L, {2, 3});
     DeleteAfter(L);

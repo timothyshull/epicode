@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Connect_leaves_binary_tree.dir/depend.make
+include cpp/CMakeFiles/connect_leaves_binary_tree.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Connect_leaves_binary_tree.dir/progress.make
+include cpp/CMakeFiles/connect_leaves_binary_tree.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Connect_leaves_binary_tree.dir/flags.make
+include cpp/CMakeFiles/connect_leaves_binary_tree.dir/flags.make
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/flags.make
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o: ../cpp/Connect_leaves_binary_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Connect_leaves_binary_tree.cpp
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o: cpp/CMakeFiles/connect_leaves_binary_tree.dir/flags.make
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o: ../cpp/connect_leaves_binary_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/connect_leaves_binary_tree.cpp
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Connect_leaves_binary_tree.cpp > CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.i
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/connect_leaves_binary_tree.cpp > CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.i
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Connect_leaves_binary_tree.cpp -o CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.s
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/connect_leaves_binary_tree.cpp -o CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.s
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.requires:
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.requires
+.PHONY : cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.requires
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.provides: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Connect_leaves_binary_tree.dir/build.make cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.provides
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.provides: cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/connect_leaves_binary_tree.dir/build.make cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.provides
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.provides.build: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.provides.build: cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o
 
 
-# Object files for target Connect_leaves_binary_tree
-Connect_leaves_binary_tree_OBJECTS = \
-"CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o"
+# Object files for target connect_leaves_binary_tree
+connect_leaves_binary_tree_OBJECTS = \
+"CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o"
 
-# External object files for target Connect_leaves_binary_tree
-Connect_leaves_binary_tree_EXTERNAL_OBJECTS =
+# External object files for target connect_leaves_binary_tree
+connect_leaves_binary_tree_EXTERNAL_OBJECTS =
 
-cpp/Connect_leaves_binary_tree: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o
-cpp/Connect_leaves_binary_tree: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/build.make
-cpp/Connect_leaves_binary_tree: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Connect_leaves_binary_tree"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Connect_leaves_binary_tree.dir/link.txt --verbose=$(VERBOSE)
+cpp/connect_leaves_binary_tree: cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o
+cpp/connect_leaves_binary_tree: cpp/CMakeFiles/connect_leaves_binary_tree.dir/build.make
+cpp/connect_leaves_binary_tree: cpp/CMakeFiles/connect_leaves_binary_tree.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable connect_leaves_binary_tree"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/connect_leaves_binary_tree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/build: cpp/Connect_leaves_binary_tree
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/build: cpp/connect_leaves_binary_tree
 
-.PHONY : cpp/CMakeFiles/Connect_leaves_binary_tree.dir/build
+.PHONY : cpp/CMakeFiles/connect_leaves_binary_tree.dir/build
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/requires: cpp/CMakeFiles/Connect_leaves_binary_tree.dir/Connect_leaves_binary_tree.cpp.o.requires
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/requires: cpp/CMakeFiles/connect_leaves_binary_tree.dir/connect_leaves_binary_tree.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Connect_leaves_binary_tree.dir/requires
+.PHONY : cpp/CMakeFiles/connect_leaves_binary_tree.dir/requires
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Connect_leaves_binary_tree.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Connect_leaves_binary_tree.dir/clean
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/connect_leaves_binary_tree.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/connect_leaves_binary_tree.dir/clean
 
-cpp/CMakeFiles/Connect_leaves_binary_tree.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Connect_leaves_binary_tree.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Connect_leaves_binary_tree.dir/depend
+cpp/CMakeFiles/connect_leaves_binary_tree.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/connect_leaves_binary_tree.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/connect_leaves_binary_tree.dir/depend
 

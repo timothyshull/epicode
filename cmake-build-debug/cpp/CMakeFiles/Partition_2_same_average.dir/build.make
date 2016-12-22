@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Partition_2_same_average.dir/depend.make
+include cpp/CMakeFiles/partition_2_same_average.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Partition_2_same_average.dir/progress.make
+include cpp/CMakeFiles/partition_2_same_average.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Partition_2_same_average.dir/flags.make
+include cpp/CMakeFiles/partition_2_same_average.dir/flags.make
 
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o: cpp/CMakeFiles/Partition_2_same_average.dir/flags.make
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o: ../cpp/Partition_2_same_average.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Partition_2_same_average.cpp
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o: cpp/CMakeFiles/partition_2_same_average.dir/flags.make
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o: ../cpp/partition_2_same_average.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/partition_2_same_average.cpp
 
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Partition_2_same_average.cpp > CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.i
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/partition_2_same_average.cpp > CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.i
 
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Partition_2_same_average.cpp -o CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.s
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/partition_2_same_average.cpp -o CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.s
 
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.requires:
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.requires
+.PHONY : cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.requires
 
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.provides: cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Partition_2_same_average.dir/build.make cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.provides
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.provides: cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/partition_2_same_average.dir/build.make cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.provides
 
-cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.provides.build: cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o
+cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.provides.build: cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o
 
 
-# Object files for target Partition_2_same_average
-Partition_2_same_average_OBJECTS = \
-"CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o"
+# Object files for target partition_2_same_average
+partition_2_same_average_OBJECTS = \
+"CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o"
 
-# External object files for target Partition_2_same_average
-Partition_2_same_average_EXTERNAL_OBJECTS =
+# External object files for target partition_2_same_average
+partition_2_same_average_EXTERNAL_OBJECTS =
 
-cpp/Partition_2_same_average: cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o
-cpp/Partition_2_same_average: cpp/CMakeFiles/Partition_2_same_average.dir/build.make
-cpp/Partition_2_same_average: cpp/CMakeFiles/Partition_2_same_average.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Partition_2_same_average"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Partition_2_same_average.dir/link.txt --verbose=$(VERBOSE)
+cpp/partition_2_same_average: cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o
+cpp/partition_2_same_average: cpp/CMakeFiles/partition_2_same_average.dir/build.make
+cpp/partition_2_same_average: cpp/CMakeFiles/partition_2_same_average.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable partition_2_same_average"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/partition_2_same_average.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Partition_2_same_average.dir/build: cpp/Partition_2_same_average
+cpp/CMakeFiles/partition_2_same_average.dir/build: cpp/partition_2_same_average
 
-.PHONY : cpp/CMakeFiles/Partition_2_same_average.dir/build
+.PHONY : cpp/CMakeFiles/partition_2_same_average.dir/build
 
-cpp/CMakeFiles/Partition_2_same_average.dir/requires: cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o.requires
+cpp/CMakeFiles/partition_2_same_average.dir/requires: cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Partition_2_same_average.dir/requires
+.PHONY : cpp/CMakeFiles/partition_2_same_average.dir/requires
 
-cpp/CMakeFiles/Partition_2_same_average.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Partition_2_same_average.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Partition_2_same_average.dir/clean
+cpp/CMakeFiles/partition_2_same_average.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/partition_2_same_average.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/partition_2_same_average.dir/clean
 
-cpp/CMakeFiles/Partition_2_same_average.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Partition_2_same_average.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Partition_2_same_average.dir/depend
+cpp/CMakeFiles/partition_2_same_average.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/partition_2_same_average.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/partition_2_same_average.dir/depend
 

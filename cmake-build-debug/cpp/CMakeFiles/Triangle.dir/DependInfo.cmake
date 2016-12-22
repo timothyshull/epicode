@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/triangle.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Triangle.dir/triangle.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/triangle.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/triangle.dir/triangle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

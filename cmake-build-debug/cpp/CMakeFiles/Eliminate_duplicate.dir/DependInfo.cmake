@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Eliminate_duplicate.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Eliminate_duplicate.dir/Eliminate_duplicate.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/eliminate_duplicate.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/eliminate_duplicate.dir/eliminate_duplicate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

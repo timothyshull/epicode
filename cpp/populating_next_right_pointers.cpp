@@ -14,16 +14,16 @@ using std::unique_ptr;
 using std::vector;
 
 template<typename T>
-struct BinaryTreeNode {
+struct Binary_tree_node {
     T data;
-    unique_ptr<BinaryTreeNode<T>> left, right;
-    BinaryTreeNode<T>* next;  // Populates this field.
+    unique_ptr<Binary_tree_node<T>> left, right;
+    Binary_tree_node<T>* next;  // Populates this field.
 };
 
-void PopulateLowerLevelNextField(BinaryTreeNode<int>*);
+void PopulateLowerLevelNextField(Binary_tree_node<int>*);
 
 // @include
-void ConstructRightSibling(BinaryTreeNode<int>* tree)
+void ConstructRightSibling(Binary_tree_node<int>* tree)
 {
     auto left_start = tree;
     while (left_start && left_start->left) {
@@ -32,7 +32,7 @@ void ConstructRightSibling(BinaryTreeNode<int>* tree)
     }
 }
 
-void PopulateLowerLevelNextField(BinaryTreeNode<int>* start_node)
+void PopulateLowerLevelNextField(Binary_tree_node<int>* start_node)
 {
     auto iter = start_node;
     while (iter) {
@@ -52,12 +52,12 @@ void SimpleTest()
 {
     //      3
     //    2   5
-    unique_ptr<BinaryTreeNode<int>> root = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{3, nullptr, nullptr, nullptr});
-    root->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{2, nullptr, nullptr, nullptr});
-    root->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{5, nullptr, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{3, nullptr, nullptr, nullptr});
+    root->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{2, nullptr, nullptr, nullptr});
+    root->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{5, nullptr, nullptr, nullptr});
     ConstructRightSibling(root.get());
     assert(root->next == nullptr);
     assert(root->left->next == root->right.get());
@@ -70,20 +70,20 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1  7 4 6
-    unique_ptr<BinaryTreeNode<int>> root = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{3, nullptr, nullptr, nullptr});
-    root->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{2, nullptr, nullptr, nullptr});
-    root->left->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{7, nullptr, nullptr, nullptr});
-    root->left->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr, nullptr});
-    root->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{5, nullptr, nullptr, nullptr});
-    root->right->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{4, nullptr, nullptr, nullptr});
-    root->right->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{6, nullptr, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{3, nullptr, nullptr, nullptr});
+    root->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{2, nullptr, nullptr, nullptr});
+    root->left->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{7, nullptr, nullptr, nullptr});
+    root->left->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr, nullptr});
+    root->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{5, nullptr, nullptr, nullptr});
+    root->right->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{4, nullptr, nullptr, nullptr});
+    root->right->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{6, nullptr, nullptr, nullptr});
     ConstructRightSibling(root.get());
     assert(root->next == nullptr);
     assert(root->left->next == root->right.get());

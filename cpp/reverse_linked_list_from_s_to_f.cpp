@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,14 +12,14 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> ReverseSublist(shared_ptr<ListNode<int>> L,
+shared_ptr<List_node<int>> ReverseSublist(shared_ptr<List_node<int>> L,
                                          int start, int finish)
 {
     if (start == finish) {  // No need to reverse since start == finish.
         return L;
     }
 
-    auto dummy_head = make_shared<ListNode<int>>(ListNode<int>{0, L});
+    auto dummy_head = make_shared<List_node<int>>(List_node<int>{0, L});
     auto sublist_head = dummy_head;
     int k = 1;
     while (k++ < start) {
@@ -40,24 +40,24 @@ shared_ptr<ListNode<int>> ReverseSublist(shared_ptr<ListNode<int>> L,
 
 void SimpleTest()
 {
-    shared_ptr<ListNode<int>> L = nullptr;
+    shared_ptr<List_node<int>> L = nullptr;
     auto result = ReverseSublist(L, 0, 0);
     assert(result == nullptr);
 
-    L = make_shared<ListNode<int>>(ListNode<int>{1, nullptr});
+    L = make_shared<List_node<int>>(List_node<int>{1, nullptr});
     result = ReverseSublist(L, 0, 0);
     assert(result == L);
 
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     result = ReverseSublist(L, 0, 1);
     assert(result->data == 2 && result->next->data == 1 &&
            result->next->next->data == 3);
 
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     result = ReverseSublist(L, 0, 2);
     assert(result->data == 3 && result->next->data == 2 &&
            result->next->next->data == 1);
@@ -66,9 +66,9 @@ void SimpleTest()
 int main(int argc, char* argv[])
 {
     simple_test();
-    shared_ptr<ListNode<int>> L = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    shared_ptr<List_node<int>> L = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     auto result = ReverseSublist(L, 3, 3);
     assert(result->data == 1 && result->next->data == 2 &&
            result->next->next->data == 3 && !result->next->next->next);
@@ -85,8 +85,8 @@ int main(int argc, char* argv[])
         result = result->next;
     }
 
-    L = make_shared<ListNode<int>>(ListNode<int>{
-            3, make_shared<ListNode<int>>(ListNode<int>{5, nullptr})});
+    L = make_shared<List_node<int>>(List_node<int>{
+            3, make_shared<List_node<int>>(List_node<int>{5, nullptr})});
     result = ReverseSublist(L, 1, 2);
     assert(result->data == 5 && result->next->data == 3 && !result->next->next);
     while (result) {

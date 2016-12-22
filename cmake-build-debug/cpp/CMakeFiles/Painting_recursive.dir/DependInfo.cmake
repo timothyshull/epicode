@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Painting_recursive.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/painting_recursive.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

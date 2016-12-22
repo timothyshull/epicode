@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/GCD.dir/depend.make
+include cpp/CMakeFiles/gcd.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/GCD.dir/progress.make
+include cpp/CMakeFiles/gcd.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/GCD.dir/flags.make
+include cpp/CMakeFiles/gcd.dir/flags.make
 
-cpp/CMakeFiles/GCD.dir/GCD.cpp.o: cpp/CMakeFiles/GCD.dir/flags.make
-cpp/CMakeFiles/GCD.dir/GCD.cpp.o: ../cpp/GCD.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/GCD.dir/GCD.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/GCD.dir/GCD.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/GCD.cpp
+cpp/CMakeFiles/gcd.dir/gcd.cpp.o: cpp/CMakeFiles/gcd.dir/flags.make
+cpp/CMakeFiles/gcd.dir/gcd.cpp.o: ../cpp/gcd.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/gcd.dir/gcd.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gcd.dir/gcd.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/gcd.cpp
 
-cpp/CMakeFiles/GCD.dir/GCD.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GCD.dir/GCD.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/GCD.cpp > CMakeFiles/GCD.dir/GCD.cpp.i
+cpp/CMakeFiles/gcd.dir/gcd.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gcd.dir/gcd.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/gcd.cpp > CMakeFiles/gcd.dir/gcd.cpp.i
 
-cpp/CMakeFiles/GCD.dir/GCD.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GCD.dir/GCD.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/GCD.cpp -o CMakeFiles/GCD.dir/GCD.cpp.s
+cpp/CMakeFiles/gcd.dir/gcd.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gcd.dir/gcd.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/gcd.cpp -o CMakeFiles/gcd.dir/gcd.cpp.s
 
-cpp/CMakeFiles/GCD.dir/GCD.cpp.o.requires:
+cpp/CMakeFiles/gcd.dir/gcd.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/GCD.dir/GCD.cpp.o.requires
+.PHONY : cpp/CMakeFiles/gcd.dir/gcd.cpp.o.requires
 
-cpp/CMakeFiles/GCD.dir/GCD.cpp.o.provides: cpp/CMakeFiles/GCD.dir/GCD.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/GCD.dir/build.make cpp/CMakeFiles/GCD.dir/GCD.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/GCD.dir/GCD.cpp.o.provides
+cpp/CMakeFiles/gcd.dir/gcd.cpp.o.provides: cpp/CMakeFiles/gcd.dir/gcd.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/gcd.dir/build.make cpp/CMakeFiles/gcd.dir/gcd.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/gcd.dir/gcd.cpp.o.provides
 
-cpp/CMakeFiles/GCD.dir/GCD.cpp.o.provides.build: cpp/CMakeFiles/GCD.dir/GCD.cpp.o
+cpp/CMakeFiles/gcd.dir/gcd.cpp.o.provides.build: cpp/CMakeFiles/gcd.dir/gcd.cpp.o
 
 
-# Object files for target GCD
-GCD_OBJECTS = \
-"CMakeFiles/GCD.dir/GCD.cpp.o"
+# Object files for target gcd
+gcd_OBJECTS = \
+"CMakeFiles/gcd.dir/gcd.cpp.o"
 
-# External object files for target GCD
-GCD_EXTERNAL_OBJECTS =
+# External object files for target gcd
+gcd_EXTERNAL_OBJECTS =
 
-cpp/GCD: cpp/CMakeFiles/GCD.dir/GCD.cpp.o
-cpp/GCD: cpp/CMakeFiles/GCD.dir/build.make
-cpp/GCD: cpp/CMakeFiles/GCD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable GCD"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/GCD.dir/link.txt --verbose=$(VERBOSE)
+cpp/gcd: cpp/CMakeFiles/gcd.dir/gcd.cpp.o
+cpp/gcd: cpp/CMakeFiles/gcd.dir/build.make
+cpp/gcd: cpp/CMakeFiles/gcd.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable gcd"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gcd.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/GCD.dir/build: cpp/GCD
+cpp/CMakeFiles/gcd.dir/build: cpp/gcd
 
-.PHONY : cpp/CMakeFiles/GCD.dir/build
+.PHONY : cpp/CMakeFiles/gcd.dir/build
 
-cpp/CMakeFiles/GCD.dir/requires: cpp/CMakeFiles/GCD.dir/GCD.cpp.o.requires
+cpp/CMakeFiles/gcd.dir/requires: cpp/CMakeFiles/gcd.dir/gcd.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/GCD.dir/requires
+.PHONY : cpp/CMakeFiles/gcd.dir/requires
 
-cpp/CMakeFiles/GCD.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/GCD.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/GCD.dir/clean
+cpp/CMakeFiles/gcd.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/gcd.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/gcd.dir/clean
 
-cpp/CMakeFiles/GCD.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/GCD.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/GCD.dir/depend
+cpp/CMakeFiles/gcd.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/gcd.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/gcd.dir/depend
 

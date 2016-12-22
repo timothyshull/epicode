@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Parity.dir/Parity.cpp.o"
-  "Parity.pdb"
-  "Parity"
+  "CMakeFiles/parity.dir/parity.cpp.o"
+  "parity.pdb"
+  "parity"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Parity.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/parity.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

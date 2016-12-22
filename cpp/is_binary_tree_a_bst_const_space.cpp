@@ -5,7 +5,7 @@
 #include <limits>
 #include <memory>
 
-#include "./Binary_tree_prototype.h"
+#include "Binary_tree_prototype.h"
 
 using std::boolalpha;
 using std::cout;
@@ -15,7 +15,7 @@ using std::numeric_limits;
 using std::unique_ptr;
 
 // @include
-bool IsBinaryTreeBST(const unique_ptr<BinaryTreeNode<int>>& root)
+bool IsBinaryTreeBST(const unique_ptr<Binary_tree_node<int>>& root)
 {
     auto* n = root.get();
     // Stores the value of previous visited node.
@@ -60,14 +60,14 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    auto root = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{3});
-    root->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{2});
-    root->left->left = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{1});
-    root->right = make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{5});
+    auto root = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{3});
+    root->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{2});
+    root->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{1});
+    root->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{5});
     root->right->left =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{4});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{4});
     root->right->right =
-            make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{6});
+            make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6});
     assert(IsBinaryTreeBST(root) == true);
     cout << boolalpha << IsBinaryTreeBST(root) << "\n";
     //      10

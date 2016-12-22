@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/View_from_above.dir/depend.make
+include cpp/CMakeFiles/view_from_above.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/View_from_above.dir/progress.make
+include cpp/CMakeFiles/view_from_above.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/View_from_above.dir/flags.make
+include cpp/CMakeFiles/view_from_above.dir/flags.make
 
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o: cpp/CMakeFiles/View_from_above.dir/flags.make
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o: ../cpp/View_from_above.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/View_from_above.dir/View_from_above.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/View_from_above.cpp
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o: cpp/CMakeFiles/view_from_above.dir/flags.make
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o: ../cpp/view_from_above.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/view_from_above.dir/view_from_above.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/view_from_above.cpp
 
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/View_from_above.dir/View_from_above.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/View_from_above.cpp > CMakeFiles/View_from_above.dir/View_from_above.cpp.i
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/view_from_above.dir/view_from_above.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/view_from_above.cpp > CMakeFiles/view_from_above.dir/view_from_above.cpp.i
 
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/View_from_above.dir/View_from_above.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/View_from_above.cpp -o CMakeFiles/View_from_above.dir/View_from_above.cpp.s
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/view_from_above.dir/view_from_above.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/view_from_above.cpp -o CMakeFiles/view_from_above.dir/view_from_above.cpp.s
 
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.requires:
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.requires
+.PHONY : cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.requires
 
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.provides: cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/View_from_above.dir/build.make cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.provides
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.provides: cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/view_from_above.dir/build.make cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.provides
 
-cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.provides.build: cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o
+cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.provides.build: cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o
 
 
-# Object files for target View_from_above
-View_from_above_OBJECTS = \
-"CMakeFiles/View_from_above.dir/View_from_above.cpp.o"
+# Object files for target view_from_above
+view_from_above_OBJECTS = \
+"CMakeFiles/view_from_above.dir/view_from_above.cpp.o"
 
-# External object files for target View_from_above
-View_from_above_EXTERNAL_OBJECTS =
+# External object files for target view_from_above
+view_from_above_EXTERNAL_OBJECTS =
 
-cpp/View_from_above: cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o
-cpp/View_from_above: cpp/CMakeFiles/View_from_above.dir/build.make
-cpp/View_from_above: cpp/CMakeFiles/View_from_above.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable View_from_above"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/View_from_above.dir/link.txt --verbose=$(VERBOSE)
+cpp/view_from_above: cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o
+cpp/view_from_above: cpp/CMakeFiles/view_from_above.dir/build.make
+cpp/view_from_above: cpp/CMakeFiles/view_from_above.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable view_from_above"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/view_from_above.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/View_from_above.dir/build: cpp/View_from_above
+cpp/CMakeFiles/view_from_above.dir/build: cpp/view_from_above
 
-.PHONY : cpp/CMakeFiles/View_from_above.dir/build
+.PHONY : cpp/CMakeFiles/view_from_above.dir/build
 
-cpp/CMakeFiles/View_from_above.dir/requires: cpp/CMakeFiles/View_from_above.dir/View_from_above.cpp.o.requires
+cpp/CMakeFiles/view_from_above.dir/requires: cpp/CMakeFiles/view_from_above.dir/view_from_above.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/View_from_above.dir/requires
+.PHONY : cpp/CMakeFiles/view_from_above.dir/requires
 
-cpp/CMakeFiles/View_from_above.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/View_from_above.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/View_from_above.dir/clean
+cpp/CMakeFiles/view_from_above.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/view_from_above.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/view_from_above.dir/clean
 
-cpp/CMakeFiles/View_from_above.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/View_from_above.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/View_from_above.dir/depend
+cpp/CMakeFiles/view_from_above.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/view_from_above.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/view_from_above.dir/depend
 

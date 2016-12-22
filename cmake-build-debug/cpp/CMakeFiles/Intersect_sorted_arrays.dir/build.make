@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Intersect_sorted_arrays.dir/depend.make
+include cpp/CMakeFiles/intersect_sorted_arrays.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Intersect_sorted_arrays.dir/progress.make
+include cpp/CMakeFiles/intersect_sorted_arrays.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Intersect_sorted_arrays.dir/flags.make
+include cpp/CMakeFiles/intersect_sorted_arrays.dir/flags.make
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o: cpp/CMakeFiles/Intersect_sorted_arrays.dir/flags.make
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o: ../cpp/Intersect_sorted_arrays.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Intersect_sorted_arrays.cpp
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o: cpp/CMakeFiles/intersect_sorted_arrays.dir/flags.make
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o: ../cpp/intersect_sorted_arrays.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays.cpp
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Intersect_sorted_arrays.cpp > CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.i
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays.cpp > CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.i
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Intersect_sorted_arrays.cpp -o CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.s
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays.cpp -o CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.s
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.requires:
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.requires
+.PHONY : cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.requires
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.provides: cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Intersect_sorted_arrays.dir/build.make cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.provides
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.provides: cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/intersect_sorted_arrays.dir/build.make cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.provides
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.provides.build: cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o
+cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.provides.build: cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o
 
 
-# Object files for target Intersect_sorted_arrays
-Intersect_sorted_arrays_OBJECTS = \
-"CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o"
+# Object files for target intersect_sorted_arrays
+intersect_sorted_arrays_OBJECTS = \
+"CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o"
 
-# External object files for target Intersect_sorted_arrays
-Intersect_sorted_arrays_EXTERNAL_OBJECTS =
+# External object files for target intersect_sorted_arrays
+intersect_sorted_arrays_EXTERNAL_OBJECTS =
 
-cpp/Intersect_sorted_arrays: cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o
-cpp/Intersect_sorted_arrays: cpp/CMakeFiles/Intersect_sorted_arrays.dir/build.make
-cpp/Intersect_sorted_arrays: cpp/CMakeFiles/Intersect_sorted_arrays.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Intersect_sorted_arrays"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Intersect_sorted_arrays.dir/link.txt --verbose=$(VERBOSE)
+cpp/intersect_sorted_arrays: cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o
+cpp/intersect_sorted_arrays: cpp/CMakeFiles/intersect_sorted_arrays.dir/build.make
+cpp/intersect_sorted_arrays: cpp/CMakeFiles/intersect_sorted_arrays.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable intersect_sorted_arrays"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/intersect_sorted_arrays.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/build: cpp/Intersect_sorted_arrays
+cpp/CMakeFiles/intersect_sorted_arrays.dir/build: cpp/intersect_sorted_arrays
 
-.PHONY : cpp/CMakeFiles/Intersect_sorted_arrays.dir/build
+.PHONY : cpp/CMakeFiles/intersect_sorted_arrays.dir/build
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/requires: cpp/CMakeFiles/Intersect_sorted_arrays.dir/Intersect_sorted_arrays.cpp.o.requires
+cpp/CMakeFiles/intersect_sorted_arrays.dir/requires: cpp/CMakeFiles/intersect_sorted_arrays.dir/intersect_sorted_arrays.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Intersect_sorted_arrays.dir/requires
+.PHONY : cpp/CMakeFiles/intersect_sorted_arrays.dir/requires
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Intersect_sorted_arrays.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Intersect_sorted_arrays.dir/clean
+cpp/CMakeFiles/intersect_sorted_arrays.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/intersect_sorted_arrays.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/intersect_sorted_arrays.dir/clean
 
-cpp/CMakeFiles/Intersect_sorted_arrays.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Intersect_sorted_arrays.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Intersect_sorted_arrays.dir/depend
+cpp/CMakeFiles/intersect_sorted_arrays.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/intersect_sorted_arrays.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/intersect_sorted_arrays.dir/depend
 

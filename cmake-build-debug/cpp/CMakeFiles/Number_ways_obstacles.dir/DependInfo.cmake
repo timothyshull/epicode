@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Number_ways_obstacles.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Number_ways_obstacles.dir/Number_ways_obstacles.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/number_ways_obstacles.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

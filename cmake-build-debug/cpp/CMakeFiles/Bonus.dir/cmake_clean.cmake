@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Bonus.dir/bonus.cpp.o"
-  "Bonus.pdb"
-  "Bonus"
+  "CMakeFiles/bonus.dir/bonus.cpp.o"
+  "bonus.pdb"
+  "bonus"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Bonus.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/bonus.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

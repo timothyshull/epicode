@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Order_statistic.dir/order_statistic.cpp.o"
-  "Order_statistic.pdb"
-  "Order_statistic"
+  "CMakeFiles/order_statistic.dir/order_statistic.cpp.o"
+  "order_statistic.pdb"
+  "order_statistic"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Order_statistic.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/order_statistic.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

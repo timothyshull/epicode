@@ -8,8 +8,8 @@
 #include <unordered_map>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
-#include "./Binary_tree_utils.h"
+#include "Binary_tree_prototype.h"
+#include "Binary_tree_utils.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -21,12 +21,12 @@ using std::unique_ptr;
 using std::unordered_map;
 using std::vector;
 
-unique_ptr<BinaryTreeNode<int>> BinaryTreeFromPreorderInorderHelper(
+unique_ptr<Binary_tree_node<int>> BinaryTreeFromPreorderInorderHelper(
         const vector<int>&, size_t, size_t, size_t, size_t,
         const unordered_map<int, size_t>&);
 
 // @include
-unique_ptr<BinaryTreeNode<int>> BinaryTreeFromPreorderInorder(
+unique_ptr<Binary_tree_node<int>> BinaryTreeFromPreorderInorder(
         const vector<int>& preorder, const vector<int>& inorder)
 {
     unordered_map<int, size_t> node_to_inorder_idx;
@@ -39,7 +39,7 @@ unique_ptr<BinaryTreeNode<int>> BinaryTreeFromPreorderInorder(
 
 // Builds the subtree with preorder[preorder_start : preorder_end - 1] and
 // inorder[inorder_start : inorder_end - 1].
-unique_ptr<BinaryTreeNode<int>> BinaryTreeFromPreorderInorderHelper(
+unique_ptr<Binary_tree_node<int>> BinaryTreeFromPreorderInorderHelper(
         const vector<int>& preorder, size_t preorder_start, size_t preorder_end,
         size_t inorder_start, size_t inorder_end,
         const unordered_map<int, size_t>& node_to_inorder_idx)
@@ -50,7 +50,7 @@ unique_ptr<BinaryTreeNode<int>> BinaryTreeFromPreorderInorderHelper(
     size_t root_inorder_idx = node_to_inorder_idx.at(preorder[preorder_start]);
     size_t left_subtree_size = root_inorder_idx - inorder_start;
 
-    return make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{
+    return make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{
             preorder[preorder_start],
             // Recursively builds the left subtree.
             BinaryTreeFromPreorderInorderHelper(
@@ -97,7 +97,7 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(1, 10000);
             n = dis(gen);
         }
-        unique_ptr<BinaryTreeNode<int>> root =
+        unique_ptr<Binary_tree_node<int>> root =
                 generate_rand_binary_tree<int>(n, true);
         vector<int> pre = generate_preorder(root);
         vector<int> in = generate_inorder(root);

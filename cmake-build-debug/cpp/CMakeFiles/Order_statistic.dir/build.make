@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Order_statistic.dir/depend.make
+include cpp/CMakeFiles/order_statistic.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Order_statistic.dir/progress.make
+include cpp/CMakeFiles/order_statistic.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Order_statistic.dir/flags.make
+include cpp/CMakeFiles/order_statistic.dir/flags.make
 
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o: cpp/CMakeFiles/Order_statistic.dir/flags.make
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o: ../cpp/order_statistic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Order_statistic.dir/order_statistic.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/order_statistic.cpp
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o: cpp/CMakeFiles/order_statistic.dir/flags.make
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o: ../cpp/order_statistic.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/order_statistic.dir/order_statistic.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/order_statistic.cpp
 
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Order_statistic.dir/order_statistic.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/order_statistic.cpp > CMakeFiles/Order_statistic.dir/order_statistic.cpp.i
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/order_statistic.dir/order_statistic.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/order_statistic.cpp > CMakeFiles/order_statistic.dir/order_statistic.cpp.i
 
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Order_statistic.dir/order_statistic.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/order_statistic.cpp -o CMakeFiles/Order_statistic.dir/order_statistic.cpp.s
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/order_statistic.dir/order_statistic.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/order_statistic.cpp -o CMakeFiles/order_statistic.dir/order_statistic.cpp.s
 
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.requires:
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.requires
+.PHONY : cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.requires
 
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.provides: cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Order_statistic.dir/build.make cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.provides
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.provides: cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/order_statistic.dir/build.make cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.provides
 
-cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.provides.build: cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o
+cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.provides.build: cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o
 
 
-# Object files for target Order_statistic
-Order_statistic_OBJECTS = \
-"CMakeFiles/Order_statistic.dir/order_statistic.cpp.o"
+# Object files for target order_statistic
+order_statistic_OBJECTS = \
+"CMakeFiles/order_statistic.dir/order_statistic.cpp.o"
 
-# External object files for target Order_statistic
-Order_statistic_EXTERNAL_OBJECTS =
+# External object files for target order_statistic
+order_statistic_EXTERNAL_OBJECTS =
 
-cpp/Order_statistic: cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o
-cpp/Order_statistic: cpp/CMakeFiles/Order_statistic.dir/build.make
-cpp/Order_statistic: cpp/CMakeFiles/Order_statistic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Order_statistic"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Order_statistic.dir/link.txt --verbose=$(VERBOSE)
+cpp/order_statistic: cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o
+cpp/order_statistic: cpp/CMakeFiles/order_statistic.dir/build.make
+cpp/order_statistic: cpp/CMakeFiles/order_statistic.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable order_statistic"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/order_statistic.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Order_statistic.dir/build: cpp/Order_statistic
+cpp/CMakeFiles/order_statistic.dir/build: cpp/order_statistic
 
-.PHONY : cpp/CMakeFiles/Order_statistic.dir/build
+.PHONY : cpp/CMakeFiles/order_statistic.dir/build
 
-cpp/CMakeFiles/Order_statistic.dir/requires: cpp/CMakeFiles/Order_statistic.dir/order_statistic.cpp.o.requires
+cpp/CMakeFiles/order_statistic.dir/requires: cpp/CMakeFiles/order_statistic.dir/order_statistic.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Order_statistic.dir/requires
+.PHONY : cpp/CMakeFiles/order_statistic.dir/requires
 
-cpp/CMakeFiles/Order_statistic.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Order_statistic.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Order_statistic.dir/clean
+cpp/CMakeFiles/order_statistic.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/order_statistic.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/order_statistic.dir/clean
 
-cpp/CMakeFiles/Order_statistic.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Order_statistic.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Order_statistic.dir/depend
+cpp/CMakeFiles/order_statistic.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/order_statistic.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/order_statistic.dir/depend
 

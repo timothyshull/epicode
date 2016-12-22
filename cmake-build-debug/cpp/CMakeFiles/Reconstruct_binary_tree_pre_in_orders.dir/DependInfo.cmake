@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Reconstruct_binary_tree_pre_in_orders.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Reconstruct_binary_tree_pre_in_orders.dir/Reconstruct_binary_tree_pre_in_orders.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/reconstruct_binary_tree_pre_in_orders.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/reconstruct_binary_tree_pre_in_orders.dir/reconstruct_binary_tree_pre_in_orders.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

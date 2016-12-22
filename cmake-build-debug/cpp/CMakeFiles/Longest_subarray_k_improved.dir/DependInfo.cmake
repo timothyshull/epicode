@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Longest_subarray_k_improved.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Longest_subarray_k_improved.dir/Longest_subarray_k_improved.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/longest_subarray_k_improved.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/longest_subarray_k_improved.dir/longest_subarray_k_improved.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

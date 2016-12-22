@@ -8,8 +8,8 @@
 #include <unordered_map>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
-#include "./Binary_tree_utils.h"
+#include "Binary_tree_prototype.h"
+#include "Binary_tree_utils.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -21,12 +21,12 @@ using std::unique_ptr;
 using std::unordered_map;
 using std::vector;
 
-unique_ptr<BinaryTreeNode<int>> ReconstructPostInordersHelper(
+unique_ptr<Binary_tree_node<int>> ReconstructPostInordersHelper(
         const vector<int>&, size_t, size_t, size_t, size_t,
         const unordered_map<int, size_t>&);
 
 // @include
-unique_ptr<BinaryTreeNode<int>> ReconstructPostInorders(
+unique_ptr<Binary_tree_node<int>> ReconstructPostInorders(
         const vector<int>& post, const vector<int>& in)
 {
     unordered_map<int, size_t> in_entry_idx_map;
@@ -37,7 +37,7 @@ unique_ptr<BinaryTreeNode<int>> ReconstructPostInorders(
                                          in_entry_idx_map);
 }
 
-unique_ptr<BinaryTreeNode<int>> ReconstructPostInordersHelper(
+unique_ptr<Binary_tree_node<int>> ReconstructPostInordersHelper(
         const vector<int>& post, size_t post_s, size_t post_e, size_t in_s,
         size_t in_e, const unordered_map<int, size_t>& in_entry_idx_map)
 {
@@ -45,7 +45,7 @@ unique_ptr<BinaryTreeNode<int>> ReconstructPostInordersHelper(
         auto idx = in_entry_idx_map.at(post[post_e - 1]);
         auto left_tree_size = idx - in_s;
 
-        return make_unique<BinaryTreeNode<int>>(BinaryTreeNode<int>{
+        return make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{
                 post[post_e - 1],
                 // Recursively builds the left subtree.
                 ReconstructPostInordersHelper(post, post_s, post_s + left_tree_size,
@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(1, 10000);
             n = dis(gen);
         }
-        unique_ptr<BinaryTreeNode<int>> root =
+        unique_ptr<Binary_tree_node<int>> root =
                 generate_rand_binary_tree<int>(n, true);
         vector<int> post = generate_postorder(root);
         vector<int> in = generate_inorder(root);

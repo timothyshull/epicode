@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_BST_BFS.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Is_binary_tree_a_BST_BFS.dir/is_binary_tree_a_BST_BFS.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_bst_bfs.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/is_binary_tree_a_bst_bfs.dir/is_binary_tree_a_bst_bfs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

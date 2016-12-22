@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/points_covering_intervals_sorting.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Points_covering_intervals_sorting.dir/points_covering_intervals_sorting.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/points_covering_intervals_sorting.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/points_covering_intervals_sorting.dir/points_covering_intervals_sorting.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

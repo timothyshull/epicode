@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/AddingCredits.dir/depend.make
+include cpp/CMakeFiles/addingcredits.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/AddingCredits.dir/progress.make
+include cpp/CMakeFiles/addingcredits.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/AddingCredits.dir/flags.make
+include cpp/CMakeFiles/addingcredits.dir/flags.make
 
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o: cpp/CMakeFiles/AddingCredits.dir/flags.make
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o: ../cpp/adding_credits.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AddingCredits.dir/adding_credits.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/adding_credits.cpp
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o: cpp/CMakeFiles/addingcredits.dir/flags.make
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o: ../cpp/adding_credits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/addingcredits.dir/adding_credits.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/adding_credits.cpp
 
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AddingCredits.dir/adding_credits.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/adding_credits.cpp > CMakeFiles/AddingCredits.dir/adding_credits.cpp.i
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/addingcredits.dir/adding_credits.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/adding_credits.cpp > CMakeFiles/addingcredits.dir/adding_credits.cpp.i
 
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AddingCredits.dir/adding_credits.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/adding_credits.cpp -o CMakeFiles/AddingCredits.dir/adding_credits.cpp.s
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/addingcredits.dir/adding_credits.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/adding_credits.cpp -o CMakeFiles/addingcredits.dir/adding_credits.cpp.s
 
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.requires:
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.requires
+.PHONY : cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.requires
 
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.provides: cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/AddingCredits.dir/build.make cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.provides
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.provides: cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/addingcredits.dir/build.make cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.provides
 
-cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.provides.build: cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o
+cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.provides.build: cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o
 
 
-# Object files for target AddingCredits
-AddingCredits_OBJECTS = \
-"CMakeFiles/AddingCredits.dir/adding_credits.cpp.o"
+# Object files for target addingcredits
+addingcredits_OBJECTS = \
+"CMakeFiles/addingcredits.dir/adding_credits.cpp.o"
 
-# External object files for target AddingCredits
-AddingCredits_EXTERNAL_OBJECTS =
+# External object files for target addingcredits
+addingcredits_EXTERNAL_OBJECTS =
 
-cpp/AddingCredits: cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o
-cpp/AddingCredits: cpp/CMakeFiles/AddingCredits.dir/build.make
-cpp/AddingCredits: cpp/CMakeFiles/AddingCredits.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable AddingCredits"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AddingCredits.dir/link.txt --verbose=$(VERBOSE)
+cpp/addingcredits: cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o
+cpp/addingcredits: cpp/CMakeFiles/addingcredits.dir/build.make
+cpp/addingcredits: cpp/CMakeFiles/addingcredits.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable addingcredits"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/addingcredits.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/AddingCredits.dir/build: cpp/AddingCredits
+cpp/CMakeFiles/addingcredits.dir/build: cpp/addingcredits
 
-.PHONY : cpp/CMakeFiles/AddingCredits.dir/build
+.PHONY : cpp/CMakeFiles/addingcredits.dir/build
 
-cpp/CMakeFiles/AddingCredits.dir/requires: cpp/CMakeFiles/AddingCredits.dir/adding_credits.cpp.o.requires
+cpp/CMakeFiles/addingcredits.dir/requires: cpp/CMakeFiles/addingcredits.dir/adding_credits.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/AddingCredits.dir/requires
+.PHONY : cpp/CMakeFiles/addingcredits.dir/requires
 
-cpp/CMakeFiles/AddingCredits.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/AddingCredits.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/AddingCredits.dir/clean
+cpp/CMakeFiles/addingcredits.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/addingcredits.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/addingcredits.dir/clean
 
-cpp/CMakeFiles/AddingCredits.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/AddingCredits.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/AddingCredits.dir/depend
+cpp/CMakeFiles/addingcredits.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/addingcredits.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/addingcredits.dir/depend
 

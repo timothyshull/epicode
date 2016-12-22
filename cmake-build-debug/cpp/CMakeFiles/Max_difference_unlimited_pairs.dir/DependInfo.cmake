@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Max_difference_unlimited_pairs.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Max_difference_unlimited_pairs.dir/Max_difference_unlimited_pairs.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/max_difference_unlimited_pairs.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/max_difference_unlimited_pairs.dir/max_difference_unlimited_pairs.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

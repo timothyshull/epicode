@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Ties_election.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Ties_election.dir/Ties_election.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/ties_election.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/ties_election.dir/ties_election.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

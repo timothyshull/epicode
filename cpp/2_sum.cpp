@@ -8,7 +8,7 @@
 
 #include "2_sum.h"
 
-using TwoSum::has_two_sum;
+using Two_sum::has_two_sum;
 using std::boolalpha;
 using std::cout;
 using std::default_random_engine;
@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
             A.emplace_back(dis(gen));
         }
         sort(A.begin(), A.end());
-        cout << boolalpha << TwoSum::has_two_sum(A, T) << "\n";
+        cout << boolalpha << Two_sum::has_two_sum(A, T) << "\n";
         assert(check_ans(A, T) == has_two_sum(A, T));
     }
     return 0;

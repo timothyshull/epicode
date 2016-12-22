@@ -6,8 +6,8 @@
 #include <random>
 #include <vector>
 
-#include "./Rotate_array.h"
-#include "./Rotate_array_permutation.h"
+#include "Rotate_array.h"
+#include "Rotate_array_permutation.h"
 
 using std::cout;
 using std::default_random_engine;

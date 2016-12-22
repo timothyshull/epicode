@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/BST_to_sorted_doubly_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/BST_to_sorted_doubly_list.dir/BST_to_sorted_doubly_list.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/bst_to_sorted_doubly_list.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/bst_to_sorted_doubly_list.dir/bst_to_sorted_doubly_list.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

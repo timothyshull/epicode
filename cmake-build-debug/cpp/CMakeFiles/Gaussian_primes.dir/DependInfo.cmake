@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Gaussian_primes.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Gaussian_primes.dir/Gaussian_primes.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/gaussian_primes.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/gaussian_primes.dir/gaussian_primes.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

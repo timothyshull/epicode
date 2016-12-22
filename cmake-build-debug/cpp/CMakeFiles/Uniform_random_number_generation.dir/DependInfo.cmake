@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Uniform_random_number_generation.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Uniform_random_number_generation.dir/Uniform_random_number_generation.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/uniform_random_number_generation.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/uniform_random_number_generation.dir/uniform_random_number_generation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Inorder_traversal_with_parent.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Inorder_traversal_with_parent.dir/Inorder_traversal_with_parent.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/inorder_traversal_with_parent.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/inorder_traversal_with_parent.dir/inorder_traversal_with_parent.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

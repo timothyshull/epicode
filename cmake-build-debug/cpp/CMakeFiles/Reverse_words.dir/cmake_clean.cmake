@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Reverse_words.dir/Reverse_words.cpp.o"
-  "Reverse_words.pdb"
-  "Reverse_words"
+  "CMakeFiles/reverse_words.dir/reverse_words.cpp.o"
+  "reverse_words.pdb"
+  "reverse_words"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Reverse_words.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/reverse_words.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

@@ -3,7 +3,7 @@
 #ifndef SOLUTIONS_ORDINARY_MAZE_GAME_H_
 #define SOLUTIONS_ORDINARY_MAZE_GAME_H_
 
-#include "./maze_game.h"
+#include "maze_game.h"
 
 class OrdinaryRoom : public Room {
 public:

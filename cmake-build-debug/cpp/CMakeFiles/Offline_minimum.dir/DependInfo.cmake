@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Offline_minimum.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Offline_minimum.dir/Offline_minimum.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/offline_minimum.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/offline_minimum.dir/offline_minimum.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

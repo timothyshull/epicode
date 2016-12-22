@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Merge_sorted_arrays.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Merge_sorted_arrays.dir/Merge_sorted_arrays.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/merge_sorted_arrays.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/merge_sorted_arrays.dir/merge_sorted_arrays.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

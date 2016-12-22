@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/depend.make
+include cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/progress.make
+include cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/flags.make
+include cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/flags.make
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/flags.make
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o: ../cpp/longest_valid_parentheses_const_space.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/longest_valid_parentheses_const_space.cpp
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/flags.make
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o: ../cpp/longest_valid_parentheses_const_space.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/longest_valid_parentheses_const_space.cpp
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/longest_valid_parentheses_const_space.cpp > CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.i
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/longest_valid_parentheses_const_space.cpp > CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.i
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/longest_valid_parentheses_const_space.cpp -o CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.s
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/longest_valid_parentheses_const_space.cpp -o CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.s
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires:
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/build.make cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build.make cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides.build: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.provides.build: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o
 
 
-# Object files for target Longest_valid_parentheses_const_space
-Longest_valid_parentheses_const_space_OBJECTS = \
-"CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o"
+# Object files for target longest_valid_parentheses_const_space
+longest_valid_parentheses_const_space_OBJECTS = \
+"CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o"
 
-# External object files for target Longest_valid_parentheses_const_space
-Longest_valid_parentheses_const_space_EXTERNAL_OBJECTS =
+# External object files for target longest_valid_parentheses_const_space
+longest_valid_parentheses_const_space_EXTERNAL_OBJECTS =
 
-cpp/Longest_valid_parentheses_const_space: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o
-cpp/Longest_valid_parentheses_const_space: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/build.make
-cpp/Longest_valid_parentheses_const_space: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Longest_valid_parentheses_const_space"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Longest_valid_parentheses_const_space.dir/link.txt --verbose=$(VERBOSE)
+cpp/longest_valid_parentheses_const_space: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o
+cpp/longest_valid_parentheses_const_space: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build.make
+cpp/longest_valid_parentheses_const_space: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable longest_valid_parentheses_const_space"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/longest_valid_parentheses_const_space.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/build: cpp/Longest_valid_parentheses_const_space
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build: cpp/longest_valid_parentheses_const_space
 
-.PHONY : cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/build
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/requires: cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/requires: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/longest_valid_parentheses_const_space.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/requires
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/requires
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Longest_valid_parentheses_const_space.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/clean
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/longest_valid_parentheses_const_space.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/clean
 
-cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Longest_valid_parentheses_const_space.dir/depend
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/depend
 

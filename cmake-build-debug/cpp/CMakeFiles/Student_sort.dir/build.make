@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Student_sort.dir/depend.make
+include cpp/CMakeFiles/student_sort.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Student_sort.dir/progress.make
+include cpp/CMakeFiles/student_sort.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Student_sort.dir/flags.make
+include cpp/CMakeFiles/student_sort.dir/flags.make
 
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o: cpp/CMakeFiles/Student_sort.dir/flags.make
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o: ../cpp/student_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Student_sort.dir/student_sort.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o: cpp/CMakeFiles/student_sort.dir/flags.make
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o: ../cpp/student_sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/student_sort.dir/student_sort.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp
 
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Student_sort.dir/student_sort.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp > CMakeFiles/Student_sort.dir/student_sort.cpp.i
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/student_sort.dir/student_sort.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp > CMakeFiles/student_sort.dir/student_sort.cpp.i
 
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Student_sort.dir/student_sort.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp -o CMakeFiles/Student_sort.dir/student_sort.cpp.s
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/student_sort.dir/student_sort.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/student_sort.cpp -o CMakeFiles/student_sort.dir/student_sort.cpp.s
 
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.requires:
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.requires
+.PHONY : cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.requires
 
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.provides: cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Student_sort.dir/build.make cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.provides
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.provides: cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/student_sort.dir/build.make cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.provides
 
-cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.provides.build: cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o
+cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.provides.build: cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o
 
 
-# Object files for target Student_sort
-Student_sort_OBJECTS = \
-"CMakeFiles/Student_sort.dir/student_sort.cpp.o"
+# Object files for target student_sort
+student_sort_OBJECTS = \
+"CMakeFiles/student_sort.dir/student_sort.cpp.o"
 
-# External object files for target Student_sort
-Student_sort_EXTERNAL_OBJECTS =
+# External object files for target student_sort
+student_sort_EXTERNAL_OBJECTS =
 
-cpp/Student_sort: cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o
-cpp/Student_sort: cpp/CMakeFiles/Student_sort.dir/build.make
-cpp/Student_sort: cpp/CMakeFiles/Student_sort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Student_sort"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Student_sort.dir/link.txt --verbose=$(VERBOSE)
+cpp/student_sort: cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o
+cpp/student_sort: cpp/CMakeFiles/student_sort.dir/build.make
+cpp/student_sort: cpp/CMakeFiles/student_sort.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable student_sort"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/student_sort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Student_sort.dir/build: cpp/Student_sort
+cpp/CMakeFiles/student_sort.dir/build: cpp/student_sort
 
-.PHONY : cpp/CMakeFiles/Student_sort.dir/build
+.PHONY : cpp/CMakeFiles/student_sort.dir/build
 
-cpp/CMakeFiles/Student_sort.dir/requires: cpp/CMakeFiles/Student_sort.dir/student_sort.cpp.o.requires
+cpp/CMakeFiles/student_sort.dir/requires: cpp/CMakeFiles/student_sort.dir/student_sort.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Student_sort.dir/requires
+.PHONY : cpp/CMakeFiles/student_sort.dir/requires
 
-cpp/CMakeFiles/Student_sort.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Student_sort.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Student_sort.dir/clean
+cpp/CMakeFiles/student_sort.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/student_sort.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/student_sort.dir/clean
 
-cpp/CMakeFiles/Student_sort.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Student_sort.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Student_sort.dir/depend
+cpp/CMakeFiles/student_sort.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/student_sort.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/student_sort.dir/depend
 

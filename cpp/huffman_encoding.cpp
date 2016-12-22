@@ -28,9 +28,9 @@ const double kEnglishFreq[] = {
         0.153, 0.772, 4.025, 2.406, 6.749, 7.507, 1.929, 0.095, 5.987,
         6.327, 9.056, 2.758, 0.978, 2.360, 0.150, 1.974, 0.074};
 
-struct BinaryTreeNode;
+struct Binary_tree_node;
 
-void AssignHuffmanCode(const shared_ptr<BinaryTreeNode>&,
+void AssignHuffmanCode(const shared_ptr<Binary_tree_node>&,
                        const unique_ptr<string>&,
                        unordered_map<char, string>*);
 
@@ -40,10 +40,10 @@ struct CharWithFrequency {
     double freq;
 };
 
-struct BinaryTreeNode {
+struct Binary_tree_node {
     double aggregate_freq;
     CharWithFrequency* s;
-    shared_ptr<BinaryTreeNode> left, right;
+    shared_ptr<Binary_tree_node> left, right;
 };
 
 unordered_map<char, string> HuffmanEncoding(
@@ -51,23 +51,23 @@ unordered_map<char, string> HuffmanEncoding(
 {
     // Initially assigns each symbol into candidates.
     priority_queue<
-            shared_ptr<BinaryTreeNode>, vector<shared_ptr<BinaryTreeNode>>,
-            function<bool(shared_ptr<BinaryTreeNode>, shared_ptr<BinaryTreeNode>)>>
-            candidates([](const shared_ptr<BinaryTreeNode>& lhs,
-                          const shared_ptr<BinaryTreeNode>& rhs) {
+            shared_ptr<Binary_tree_node>, vector<shared_ptr<Binary_tree_node>>,
+            function<bool(shared_ptr<Binary_tree_node>, shared_ptr<Binary_tree_node>)>>
+            candidates([](const shared_ptr<Binary_tree_node>& lhs,
+                          const shared_ptr<Binary_tree_node>& rhs) {
         return lhs->aggregate_freq > rhs->aggregate_freq;
     });
     for (auto& s : *symbols) {
-        candidates.emplace(new BinaryTreeNode{s.freq, &s, nullptr, nullptr});
+        candidates.emplace(new Binary_tree_node{s.freq, &s, nullptr, nullptr});
     }
 
     // Keeps combining two nodes until there is one node left.
     while (candidates.size() > 1) {
-        shared_ptr<BinaryTreeNode> left = candidates.top();
+        shared_ptr<Binary_tree_node> left = candidates.top();
         candidates.pop();
-        shared_ptr<BinaryTreeNode> right = candidates.top();
+        shared_ptr<Binary_tree_node> right = candidates.top();
         candidates.pop();
-        candidates.emplace(new BinaryTreeNode{
+        candidates.emplace(new Binary_tree_node{
                 left->aggregate_freq + right->aggregate_freq, nullptr, left, right});
     }
 
@@ -78,7 +78,7 @@ unordered_map<char, string> HuffmanEncoding(
     return huffman_encoding;
 }
 
-void AssignHuffmanCode(const shared_ptr<BinaryTreeNode>& tree,
+void AssignHuffmanCode(const shared_ptr<Binary_tree_node>& tree,
                        const unique_ptr<string>& code,
                        unordered_map<char, string>* huffman_encoding)
 {

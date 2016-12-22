@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Multibet_card_color_game.dir/depend.make
+include cpp/CMakeFiles/multibet_card_color_game.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Multibet_card_color_game.dir/progress.make
+include cpp/CMakeFiles/multibet_card_color_game.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Multibet_card_color_game.dir/flags.make
+include cpp/CMakeFiles/multibet_card_color_game.dir/flags.make
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o: cpp/CMakeFiles/Multibet_card_color_game.dir/flags.make
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o: ../cpp/Multibet_card_color_game.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Multibet_card_color_game.cpp
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o: cpp/CMakeFiles/multibet_card_color_game.dir/flags.make
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o: ../cpp/multibet_card_color_game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/multibet_card_color_game.cpp
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Multibet_card_color_game.cpp > CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.i
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/multibet_card_color_game.cpp > CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.i
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Multibet_card_color_game.cpp -o CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.s
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/multibet_card_color_game.cpp -o CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.s
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.requires:
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.requires
+.PHONY : cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.requires
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.provides: cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Multibet_card_color_game.dir/build.make cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.provides
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.provides: cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/multibet_card_color_game.dir/build.make cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.provides
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.provides.build: cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o
+cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.provides.build: cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o
 
 
-# Object files for target Multibet_card_color_game
-Multibet_card_color_game_OBJECTS = \
-"CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o"
+# Object files for target multibet_card_color_game
+multibet_card_color_game_OBJECTS = \
+"CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o"
 
-# External object files for target Multibet_card_color_game
-Multibet_card_color_game_EXTERNAL_OBJECTS =
+# External object files for target multibet_card_color_game
+multibet_card_color_game_EXTERNAL_OBJECTS =
 
-cpp/Multibet_card_color_game: cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o
-cpp/Multibet_card_color_game: cpp/CMakeFiles/Multibet_card_color_game.dir/build.make
-cpp/Multibet_card_color_game: cpp/CMakeFiles/Multibet_card_color_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Multibet_card_color_game"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multibet_card_color_game.dir/link.txt --verbose=$(VERBOSE)
+cpp/multibet_card_color_game: cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o
+cpp/multibet_card_color_game: cpp/CMakeFiles/multibet_card_color_game.dir/build.make
+cpp/multibet_card_color_game: cpp/CMakeFiles/multibet_card_color_game.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable multibet_card_color_game"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multibet_card_color_game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Multibet_card_color_game.dir/build: cpp/Multibet_card_color_game
+cpp/CMakeFiles/multibet_card_color_game.dir/build: cpp/multibet_card_color_game
 
-.PHONY : cpp/CMakeFiles/Multibet_card_color_game.dir/build
+.PHONY : cpp/CMakeFiles/multibet_card_color_game.dir/build
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/requires: cpp/CMakeFiles/Multibet_card_color_game.dir/Multibet_card_color_game.cpp.o.requires
+cpp/CMakeFiles/multibet_card_color_game.dir/requires: cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Multibet_card_color_game.dir/requires
+.PHONY : cpp/CMakeFiles/multibet_card_color_game.dir/requires
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Multibet_card_color_game.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Multibet_card_color_game.dir/clean
+cpp/CMakeFiles/multibet_card_color_game.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/multibet_card_color_game.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/multibet_card_color_game.dir/clean
 
-cpp/CMakeFiles/Multibet_card_color_game.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Multibet_card_color_game.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Multibet_card_color_game.dir/depend
+cpp/CMakeFiles/multibet_card_color_game.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/multibet_card_color_game.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/multibet_card_color_game.dir/depend
 

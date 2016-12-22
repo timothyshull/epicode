@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Circular_queue.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Circular_queue.dir/Circular_queue.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/circular_queue.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/circular_queue.dir/circular_queue.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tree_diameter.dir/Tree_diameter.cpp.o"
-  "Tree_diameter.pdb"
-  "Tree_diameter"
+  "CMakeFiles/tree_diameter.dir/tree_diameter.cpp.o"
+  "tree_diameter.pdb"
+  "tree_diameter"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Tree_diameter.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/tree_diameter.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

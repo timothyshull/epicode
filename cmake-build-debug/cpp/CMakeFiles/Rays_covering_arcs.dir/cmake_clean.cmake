@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Rays_covering_arcs.dir/Rays_covering_arcs.cpp.o"
-  "Rays_covering_arcs.pdb"
-  "Rays_covering_arcs"
+  "CMakeFiles/rays_covering_arcs.dir/rays_covering_arcs.cpp.o"
+  "rays_covering_arcs.pdb"
+  "rays_covering_arcs"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Rays_covering_arcs.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/rays_covering_arcs.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

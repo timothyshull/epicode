@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Team_reachability.dir/depend.make
+include cpp/CMakeFiles/team_reachability.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Team_reachability.dir/progress.make
+include cpp/CMakeFiles/team_reachability.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Team_reachability.dir/flags.make
+include cpp/CMakeFiles/team_reachability.dir/flags.make
 
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o: cpp/CMakeFiles/Team_reachability.dir/flags.make
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o: ../cpp/team_reachability.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Team_reachability.dir/team_reachability.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/team_reachability.cpp
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o: cpp/CMakeFiles/team_reachability.dir/flags.make
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o: ../cpp/team_reachability.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/team_reachability.dir/team_reachability.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/team_reachability.cpp
 
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Team_reachability.dir/team_reachability.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/team_reachability.cpp > CMakeFiles/Team_reachability.dir/team_reachability.cpp.i
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/team_reachability.dir/team_reachability.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/team_reachability.cpp > CMakeFiles/team_reachability.dir/team_reachability.cpp.i
 
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Team_reachability.dir/team_reachability.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/team_reachability.cpp -o CMakeFiles/Team_reachability.dir/team_reachability.cpp.s
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/team_reachability.dir/team_reachability.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/team_reachability.cpp -o CMakeFiles/team_reachability.dir/team_reachability.cpp.s
 
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.requires:
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.requires
+.PHONY : cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.requires
 
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.provides: cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Team_reachability.dir/build.make cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.provides
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.provides: cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/team_reachability.dir/build.make cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.provides
 
-cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.provides.build: cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o
+cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.provides.build: cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o
 
 
-# Object files for target Team_reachability
-Team_reachability_OBJECTS = \
-"CMakeFiles/Team_reachability.dir/team_reachability.cpp.o"
+# Object files for target team_reachability
+team_reachability_OBJECTS = \
+"CMakeFiles/team_reachability.dir/team_reachability.cpp.o"
 
-# External object files for target Team_reachability
-Team_reachability_EXTERNAL_OBJECTS =
+# External object files for target team_reachability
+team_reachability_EXTERNAL_OBJECTS =
 
-cpp/Team_reachability: cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o
-cpp/Team_reachability: cpp/CMakeFiles/Team_reachability.dir/build.make
-cpp/Team_reachability: cpp/CMakeFiles/Team_reachability.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Team_reachability"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Team_reachability.dir/link.txt --verbose=$(VERBOSE)
+cpp/team_reachability: cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o
+cpp/team_reachability: cpp/CMakeFiles/team_reachability.dir/build.make
+cpp/team_reachability: cpp/CMakeFiles/team_reachability.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable team_reachability"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/team_reachability.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Team_reachability.dir/build: cpp/Team_reachability
+cpp/CMakeFiles/team_reachability.dir/build: cpp/team_reachability
 
-.PHONY : cpp/CMakeFiles/Team_reachability.dir/build
+.PHONY : cpp/CMakeFiles/team_reachability.dir/build
 
-cpp/CMakeFiles/Team_reachability.dir/requires: cpp/CMakeFiles/Team_reachability.dir/team_reachability.cpp.o.requires
+cpp/CMakeFiles/team_reachability.dir/requires: cpp/CMakeFiles/team_reachability.dir/team_reachability.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Team_reachability.dir/requires
+.PHONY : cpp/CMakeFiles/team_reachability.dir/requires
 
-cpp/CMakeFiles/Team_reachability.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Team_reachability.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Team_reachability.dir/clean
+cpp/CMakeFiles/team_reachability.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/team_reachability.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/team_reachability.dir/clean
 
-cpp/CMakeFiles/Team_reachability.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Team_reachability.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Team_reachability.dir/depend
+cpp/CMakeFiles/team_reachability.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/team_reachability.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/team_reachability.dir/depend
 

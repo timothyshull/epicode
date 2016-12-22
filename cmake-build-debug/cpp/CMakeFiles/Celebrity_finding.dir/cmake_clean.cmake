@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Celebrity_finding.dir/Celebrity_finding.cpp.o"
-  "Celebrity_finding.pdb"
-  "Celebrity_finding"
+  "CMakeFiles/celebrity_finding.dir/celebrity_finding.cpp.o"
+  "celebrity_finding.pdb"
+  "celebrity_finding"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Celebrity_finding.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/celebrity_finding.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

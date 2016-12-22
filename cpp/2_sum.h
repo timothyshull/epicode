@@ -3,7 +3,7 @@
 #ifndef SOLUTIONS_TWOSUM_H_
 #define SOLUTIONS_TWOSUM_H_
 
-namespace TwoSum {
+namespace Two_sum {
 
 #include <vector>
 
@@ -26,6 +26,6 @@ namespace TwoSum {
     }
     // @exclude
 
-}  // namespace TwoSum
+}  // namespace Two_sum
 
 #endif  // SOLUTIONS_TWOSUM_H_

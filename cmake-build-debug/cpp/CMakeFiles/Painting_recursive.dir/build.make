@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Painting_recursive.dir/depend.make
+include cpp/CMakeFiles/painting_recursive.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Painting_recursive.dir/progress.make
+include cpp/CMakeFiles/painting_recursive.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Painting_recursive.dir/flags.make
+include cpp/CMakeFiles/painting_recursive.dir/flags.make
 
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o: cpp/CMakeFiles/Painting_recursive.dir/flags.make
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o: ../cpp/Painting_recursive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Painting_recursive.cpp
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o: cpp/CMakeFiles/painting_recursive.dir/flags.make
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o: ../cpp/painting_recursive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/painting_recursive.cpp
 
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Painting_recursive.cpp > CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.i
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/painting_recursive.dir/painting_recursive.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/painting_recursive.cpp > CMakeFiles/painting_recursive.dir/painting_recursive.cpp.i
 
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Painting_recursive.cpp -o CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.s
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/painting_recursive.dir/painting_recursive.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/painting_recursive.cpp -o CMakeFiles/painting_recursive.dir/painting_recursive.cpp.s
 
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.requires:
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.requires
+.PHONY : cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.requires
 
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.provides: cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Painting_recursive.dir/build.make cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.provides
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.provides: cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/painting_recursive.dir/build.make cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.provides
 
-cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.provides.build: cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o
+cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.provides.build: cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o
 
 
-# Object files for target Painting_recursive
-Painting_recursive_OBJECTS = \
-"CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o"
+# Object files for target painting_recursive
+painting_recursive_OBJECTS = \
+"CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o"
 
-# External object files for target Painting_recursive
-Painting_recursive_EXTERNAL_OBJECTS =
+# External object files for target painting_recursive
+painting_recursive_EXTERNAL_OBJECTS =
 
-cpp/Painting_recursive: cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o
-cpp/Painting_recursive: cpp/CMakeFiles/Painting_recursive.dir/build.make
-cpp/Painting_recursive: cpp/CMakeFiles/Painting_recursive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Painting_recursive"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Painting_recursive.dir/link.txt --verbose=$(VERBOSE)
+cpp/painting_recursive: cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o
+cpp/painting_recursive: cpp/CMakeFiles/painting_recursive.dir/build.make
+cpp/painting_recursive: cpp/CMakeFiles/painting_recursive.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable painting_recursive"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/painting_recursive.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Painting_recursive.dir/build: cpp/Painting_recursive
+cpp/CMakeFiles/painting_recursive.dir/build: cpp/painting_recursive
 
-.PHONY : cpp/CMakeFiles/Painting_recursive.dir/build
+.PHONY : cpp/CMakeFiles/painting_recursive.dir/build
 
-cpp/CMakeFiles/Painting_recursive.dir/requires: cpp/CMakeFiles/Painting_recursive.dir/Painting_recursive.cpp.o.requires
+cpp/CMakeFiles/painting_recursive.dir/requires: cpp/CMakeFiles/painting_recursive.dir/painting_recursive.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Painting_recursive.dir/requires
+.PHONY : cpp/CMakeFiles/painting_recursive.dir/requires
 
-cpp/CMakeFiles/Painting_recursive.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Painting_recursive.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Painting_recursive.dir/clean
+cpp/CMakeFiles/painting_recursive.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/painting_recursive.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/painting_recursive.dir/clean
 
-cpp/CMakeFiles/Painting_recursive.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Painting_recursive.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Painting_recursive.dir/depend
+cpp/CMakeFiles/painting_recursive.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/painting_recursive.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/painting_recursive.dir/depend
 

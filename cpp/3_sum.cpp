@@ -8,7 +8,7 @@
 
 #include "2_sum.h"
 
-using TwoSum::has_two_sum;
+using Two_sum::has_two_sum;
 using std::boolalpha;
 using std::cout;
 using std::default_random_engine;

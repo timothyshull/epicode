@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Sorted_list_to_BST.dir/depend.make
+include cpp/CMakeFiles/sorted_list_to_bst.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Sorted_list_to_BST.dir/progress.make
+include cpp/CMakeFiles/sorted_list_to_bst.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Sorted_list_to_BST.dir/flags.make
+include cpp/CMakeFiles/sorted_list_to_bst.dir/flags.make
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o: cpp/CMakeFiles/Sorted_list_to_BST.dir/flags.make
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o: ../cpp/Sorted_list_to_BST.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Sorted_list_to_BST.cpp
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o: cpp/CMakeFiles/sorted_list_to_bst.dir/flags.make
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o: ../cpp/sorted_list_to_bst.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/sorted_list_to_bst.cpp
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Sorted_list_to_BST.cpp > CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.i
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/sorted_list_to_bst.cpp > CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.i
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Sorted_list_to_BST.cpp -o CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.s
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/sorted_list_to_bst.cpp -o CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.s
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.requires:
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.requires
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.requires
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.provides: cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Sorted_list_to_BST.dir/build.make cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.provides
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.provides: cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/sorted_list_to_bst.dir/build.make cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.provides
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.provides.build: cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o
+cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.provides.build: cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o
 
 
-# Object files for target Sorted_list_to_BST
-Sorted_list_to_BST_OBJECTS = \
-"CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o"
+# Object files for target sorted_list_to_bst
+sorted_list_to_bst_OBJECTS = \
+"CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o"
 
-# External object files for target Sorted_list_to_BST
-Sorted_list_to_BST_EXTERNAL_OBJECTS =
+# External object files for target sorted_list_to_bst
+sorted_list_to_bst_EXTERNAL_OBJECTS =
 
-cpp/Sorted_list_to_BST: cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o
-cpp/Sorted_list_to_BST: cpp/CMakeFiles/Sorted_list_to_BST.dir/build.make
-cpp/Sorted_list_to_BST: cpp/CMakeFiles/Sorted_list_to_BST.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sorted_list_to_BST"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sorted_list_to_BST.dir/link.txt --verbose=$(VERBOSE)
+cpp/sorted_list_to_bst: cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o
+cpp/sorted_list_to_bst: cpp/CMakeFiles/sorted_list_to_bst.dir/build.make
+cpp/sorted_list_to_bst: cpp/CMakeFiles/sorted_list_to_bst.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sorted_list_to_bst"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sorted_list_to_bst.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Sorted_list_to_BST.dir/build: cpp/Sorted_list_to_BST
+cpp/CMakeFiles/sorted_list_to_bst.dir/build: cpp/sorted_list_to_bst
 
-.PHONY : cpp/CMakeFiles/Sorted_list_to_BST.dir/build
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/build
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/requires: cpp/CMakeFiles/Sorted_list_to_BST.dir/Sorted_list_to_BST.cpp.o.requires
+cpp/CMakeFiles/sorted_list_to_bst.dir/requires: cpp/CMakeFiles/sorted_list_to_bst.dir/sorted_list_to_bst.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Sorted_list_to_BST.dir/requires
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/requires
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Sorted_list_to_BST.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Sorted_list_to_BST.dir/clean
+cpp/CMakeFiles/sorted_list_to_bst.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/sorted_list_to_bst.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/clean
 
-cpp/CMakeFiles/Sorted_list_to_BST.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Sorted_list_to_BST.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Sorted_list_to_BST.dir/depend
+cpp/CMakeFiles/sorted_list_to_bst.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/sorted_list_to_bst.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/depend
 

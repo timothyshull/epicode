@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Tournament_tree.dir/depend.make
+include cpp/CMakeFiles/tournament_tree.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Tournament_tree.dir/progress.make
+include cpp/CMakeFiles/tournament_tree.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Tournament_tree.dir/flags.make
+include cpp/CMakeFiles/tournament_tree.dir/flags.make
 
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o: cpp/CMakeFiles/Tournament_tree.dir/flags.make
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o: ../cpp/Tournament_tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Tournament_tree.cpp
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o: cpp/CMakeFiles/tournament_tree.dir/flags.make
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o: ../cpp/tournament_tree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/tournament_tree.cpp
 
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Tournament_tree.cpp > CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.i
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tournament_tree.dir/tournament_tree.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/tournament_tree.cpp > CMakeFiles/tournament_tree.dir/tournament_tree.cpp.i
 
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Tournament_tree.cpp -o CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.s
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tournament_tree.dir/tournament_tree.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/tournament_tree.cpp -o CMakeFiles/tournament_tree.dir/tournament_tree.cpp.s
 
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.requires:
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.requires
+.PHONY : cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.requires
 
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.provides: cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Tournament_tree.dir/build.make cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.provides
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.provides: cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/tournament_tree.dir/build.make cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.provides
 
-cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.provides.build: cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o
+cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.provides.build: cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o
 
 
-# Object files for target Tournament_tree
-Tournament_tree_OBJECTS = \
-"CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o"
+# Object files for target tournament_tree
+tournament_tree_OBJECTS = \
+"CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o"
 
-# External object files for target Tournament_tree
-Tournament_tree_EXTERNAL_OBJECTS =
+# External object files for target tournament_tree
+tournament_tree_EXTERNAL_OBJECTS =
 
-cpp/Tournament_tree: cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o
-cpp/Tournament_tree: cpp/CMakeFiles/Tournament_tree.dir/build.make
-cpp/Tournament_tree: cpp/CMakeFiles/Tournament_tree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tournament_tree"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tournament_tree.dir/link.txt --verbose=$(VERBOSE)
+cpp/tournament_tree: cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o
+cpp/tournament_tree: cpp/CMakeFiles/tournament_tree.dir/build.make
+cpp/tournament_tree: cpp/CMakeFiles/tournament_tree.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tournament_tree"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tournament_tree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Tournament_tree.dir/build: cpp/Tournament_tree
+cpp/CMakeFiles/tournament_tree.dir/build: cpp/tournament_tree
 
-.PHONY : cpp/CMakeFiles/Tournament_tree.dir/build
+.PHONY : cpp/CMakeFiles/tournament_tree.dir/build
 
-cpp/CMakeFiles/Tournament_tree.dir/requires: cpp/CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o.requires
+cpp/CMakeFiles/tournament_tree.dir/requires: cpp/CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Tournament_tree.dir/requires
+.PHONY : cpp/CMakeFiles/tournament_tree.dir/requires
 
-cpp/CMakeFiles/Tournament_tree.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Tournament_tree.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Tournament_tree.dir/clean
+cpp/CMakeFiles/tournament_tree.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/tournament_tree.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/tournament_tree.dir/clean
 
-cpp/CMakeFiles/Tournament_tree.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Tournament_tree.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Tournament_tree.dir/depend
+cpp/CMakeFiles/tournament_tree.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/tournament_tree.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/tournament_tree.dir/depend
 

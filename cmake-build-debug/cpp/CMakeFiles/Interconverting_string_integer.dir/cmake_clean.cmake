@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Interconverting_string_integer.dir/Interconverting_string_integer.cpp.o"
-  "Interconverting_string_integer.pdb"
-  "Interconverting_string_integer"
+  "CMakeFiles/interconverting_string_integer.dir/interconverting_string_integer.cpp.o"
+  "interconverting_string_integer.pdb"
+  "interconverting_string_integer"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Interconverting_string_integer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/interconverting_string_integer.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

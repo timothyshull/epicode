@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Elias_coding.dir/depend.make
+include cpp/CMakeFiles/elias_coding.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Elias_coding.dir/progress.make
+include cpp/CMakeFiles/elias_coding.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Elias_coding.dir/flags.make
+include cpp/CMakeFiles/elias_coding.dir/flags.make
 
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o: cpp/CMakeFiles/Elias_coding.dir/flags.make
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o: ../cpp/Elias_coding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Elias_coding.cpp
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o: cpp/CMakeFiles/elias_coding.dir/flags.make
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o: ../cpp/elias_coding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/elias_coding.dir/elias_coding.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/elias_coding.cpp
 
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Elias_coding.dir/Elias_coding.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Elias_coding.cpp > CMakeFiles/Elias_coding.dir/Elias_coding.cpp.i
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/elias_coding.dir/elias_coding.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/elias_coding.cpp > CMakeFiles/elias_coding.dir/elias_coding.cpp.i
 
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Elias_coding.dir/Elias_coding.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Elias_coding.cpp -o CMakeFiles/Elias_coding.dir/Elias_coding.cpp.s
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/elias_coding.dir/elias_coding.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/elias_coding.cpp -o CMakeFiles/elias_coding.dir/elias_coding.cpp.s
 
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.requires:
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.requires
+.PHONY : cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.requires
 
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.provides: cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Elias_coding.dir/build.make cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.provides
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.provides: cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/elias_coding.dir/build.make cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.provides
 
-cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.provides.build: cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o
+cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.provides.build: cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o
 
 
-# Object files for target Elias_coding
-Elias_coding_OBJECTS = \
-"CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o"
+# Object files for target elias_coding
+elias_coding_OBJECTS = \
+"CMakeFiles/elias_coding.dir/elias_coding.cpp.o"
 
-# External object files for target Elias_coding
-Elias_coding_EXTERNAL_OBJECTS =
+# External object files for target elias_coding
+elias_coding_EXTERNAL_OBJECTS =
 
-cpp/Elias_coding: cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o
-cpp/Elias_coding: cpp/CMakeFiles/Elias_coding.dir/build.make
-cpp/Elias_coding: cpp/CMakeFiles/Elias_coding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Elias_coding"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Elias_coding.dir/link.txt --verbose=$(VERBOSE)
+cpp/elias_coding: cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o
+cpp/elias_coding: cpp/CMakeFiles/elias_coding.dir/build.make
+cpp/elias_coding: cpp/CMakeFiles/elias_coding.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable elias_coding"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/elias_coding.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Elias_coding.dir/build: cpp/Elias_coding
+cpp/CMakeFiles/elias_coding.dir/build: cpp/elias_coding
 
-.PHONY : cpp/CMakeFiles/Elias_coding.dir/build
+.PHONY : cpp/CMakeFiles/elias_coding.dir/build
 
-cpp/CMakeFiles/Elias_coding.dir/requires: cpp/CMakeFiles/Elias_coding.dir/Elias_coding.cpp.o.requires
+cpp/CMakeFiles/elias_coding.dir/requires: cpp/CMakeFiles/elias_coding.dir/elias_coding.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Elias_coding.dir/requires
+.PHONY : cpp/CMakeFiles/elias_coding.dir/requires
 
-cpp/CMakeFiles/Elias_coding.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Elias_coding.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Elias_coding.dir/clean
+cpp/CMakeFiles/elias_coding.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/elias_coding.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/elias_coding.dir/clean
 
-cpp/CMakeFiles/Elias_coding.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Elias_coding.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Elias_coding.dir/depend
+cpp/CMakeFiles/elias_coding.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/elias_coding.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/elias_coding.dir/depend
 

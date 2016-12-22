@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Max_submatrix_square.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Max_submatrix_square.dir/Max_submatrix_square.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/max_submatrix_square.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/max_submatrix_square.dir/max_submatrix_square.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

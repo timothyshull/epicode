@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Tournament_tree.dir/Tournament_tree.cpp.o"
-  "Tournament_tree.pdb"
-  "Tournament_tree"
+  "CMakeFiles/tournament_tree.dir/tournament_tree.cpp.o"
+  "tournament_tree.pdb"
+  "tournament_tree"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Tournament_tree.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/tournament_tree.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

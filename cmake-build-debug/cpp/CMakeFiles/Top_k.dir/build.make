@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Top_k.dir/depend.make
+include cpp/CMakeFiles/top_k.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Top_k.dir/progress.make
+include cpp/CMakeFiles/top_k.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Top_k.dir/flags.make
+include cpp/CMakeFiles/top_k.dir/flags.make
 
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.o: cpp/CMakeFiles/Top_k.dir/flags.make
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.o: ../cpp/top_k.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Top_k.dir/top_k.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Top_k.dir/top_k.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/top_k.cpp
+cpp/CMakeFiles/top_k.dir/top_k.cpp.o: cpp/CMakeFiles/top_k.dir/flags.make
+cpp/CMakeFiles/top_k.dir/top_k.cpp.o: ../cpp/top_k.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/top_k.dir/top_k.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/top_k.dir/top_k.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/top_k.cpp
 
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Top_k.dir/top_k.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/top_k.cpp > CMakeFiles/Top_k.dir/top_k.cpp.i
+cpp/CMakeFiles/top_k.dir/top_k.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/top_k.dir/top_k.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/top_k.cpp > CMakeFiles/top_k.dir/top_k.cpp.i
 
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Top_k.dir/top_k.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/top_k.cpp -o CMakeFiles/Top_k.dir/top_k.cpp.s
+cpp/CMakeFiles/top_k.dir/top_k.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/top_k.dir/top_k.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/top_k.cpp -o CMakeFiles/top_k.dir/top_k.cpp.s
 
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.requires:
+cpp/CMakeFiles/top_k.dir/top_k.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.requires
+.PHONY : cpp/CMakeFiles/top_k.dir/top_k.cpp.o.requires
 
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.provides: cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Top_k.dir/build.make cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.provides
+cpp/CMakeFiles/top_k.dir/top_k.cpp.o.provides: cpp/CMakeFiles/top_k.dir/top_k.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/top_k.dir/build.make cpp/CMakeFiles/top_k.dir/top_k.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/top_k.dir/top_k.cpp.o.provides
 
-cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.provides.build: cpp/CMakeFiles/Top_k.dir/top_k.cpp.o
+cpp/CMakeFiles/top_k.dir/top_k.cpp.o.provides.build: cpp/CMakeFiles/top_k.dir/top_k.cpp.o
 
 
-# Object files for target Top_k
-Top_k_OBJECTS = \
-"CMakeFiles/Top_k.dir/top_k.cpp.o"
+# Object files for target top_k
+top_k_OBJECTS = \
+"CMakeFiles/top_k.dir/top_k.cpp.o"
 
-# External object files for target Top_k
-Top_k_EXTERNAL_OBJECTS =
+# External object files for target top_k
+top_k_EXTERNAL_OBJECTS =
 
-cpp/Top_k: cpp/CMakeFiles/Top_k.dir/top_k.cpp.o
-cpp/Top_k: cpp/CMakeFiles/Top_k.dir/build.make
-cpp/Top_k: cpp/CMakeFiles/Top_k.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Top_k"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Top_k.dir/link.txt --verbose=$(VERBOSE)
+cpp/top_k: cpp/CMakeFiles/top_k.dir/top_k.cpp.o
+cpp/top_k: cpp/CMakeFiles/top_k.dir/build.make
+cpp/top_k: cpp/CMakeFiles/top_k.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable top_k"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/top_k.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Top_k.dir/build: cpp/Top_k
+cpp/CMakeFiles/top_k.dir/build: cpp/top_k
 
-.PHONY : cpp/CMakeFiles/Top_k.dir/build
+.PHONY : cpp/CMakeFiles/top_k.dir/build
 
-cpp/CMakeFiles/Top_k.dir/requires: cpp/CMakeFiles/Top_k.dir/top_k.cpp.o.requires
+cpp/CMakeFiles/top_k.dir/requires: cpp/CMakeFiles/top_k.dir/top_k.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Top_k.dir/requires
+.PHONY : cpp/CMakeFiles/top_k.dir/requires
 
-cpp/CMakeFiles/Top_k.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Top_k.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Top_k.dir/clean
+cpp/CMakeFiles/top_k.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/top_k.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/top_k.dir/clean
 
-cpp/CMakeFiles/Top_k.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Top_k.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Top_k.dir/depend
+cpp/CMakeFiles/top_k.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/top_k.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/top_k.dir/depend
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Bonus.dir/depend.make
+include cpp/CMakeFiles/bonus.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Bonus.dir/progress.make
+include cpp/CMakeFiles/bonus.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Bonus.dir/flags.make
+include cpp/CMakeFiles/bonus.dir/flags.make
 
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.o: cpp/CMakeFiles/Bonus.dir/flags.make
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.o: ../cpp/bonus.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Bonus.dir/bonus.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Bonus.dir/bonus.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/bonus.cpp
+cpp/CMakeFiles/bonus.dir/bonus.cpp.o: cpp/CMakeFiles/bonus.dir/flags.make
+cpp/CMakeFiles/bonus.dir/bonus.cpp.o: ../cpp/bonus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/bonus.dir/bonus.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bonus.dir/bonus.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/bonus.cpp
 
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Bonus.dir/bonus.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/bonus.cpp > CMakeFiles/Bonus.dir/bonus.cpp.i
+cpp/CMakeFiles/bonus.dir/bonus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bonus.dir/bonus.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/bonus.cpp > CMakeFiles/bonus.dir/bonus.cpp.i
 
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Bonus.dir/bonus.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/bonus.cpp -o CMakeFiles/Bonus.dir/bonus.cpp.s
+cpp/CMakeFiles/bonus.dir/bonus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bonus.dir/bonus.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/bonus.cpp -o CMakeFiles/bonus.dir/bonus.cpp.s
 
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.requires:
+cpp/CMakeFiles/bonus.dir/bonus.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.requires
+.PHONY : cpp/CMakeFiles/bonus.dir/bonus.cpp.o.requires
 
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.provides: cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Bonus.dir/build.make cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.provides
+cpp/CMakeFiles/bonus.dir/bonus.cpp.o.provides: cpp/CMakeFiles/bonus.dir/bonus.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/bonus.dir/build.make cpp/CMakeFiles/bonus.dir/bonus.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/bonus.dir/bonus.cpp.o.provides
 
-cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.provides.build: cpp/CMakeFiles/Bonus.dir/bonus.cpp.o
+cpp/CMakeFiles/bonus.dir/bonus.cpp.o.provides.build: cpp/CMakeFiles/bonus.dir/bonus.cpp.o
 
 
-# Object files for target Bonus
-Bonus_OBJECTS = \
-"CMakeFiles/Bonus.dir/bonus.cpp.o"
+# Object files for target bonus
+bonus_OBJECTS = \
+"CMakeFiles/bonus.dir/bonus.cpp.o"
 
-# External object files for target Bonus
-Bonus_EXTERNAL_OBJECTS =
+# External object files for target bonus
+bonus_EXTERNAL_OBJECTS =
 
-cpp/Bonus: cpp/CMakeFiles/Bonus.dir/bonus.cpp.o
-cpp/Bonus: cpp/CMakeFiles/Bonus.dir/build.make
-cpp/Bonus: cpp/CMakeFiles/Bonus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Bonus"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Bonus.dir/link.txt --verbose=$(VERBOSE)
+cpp/bonus: cpp/CMakeFiles/bonus.dir/bonus.cpp.o
+cpp/bonus: cpp/CMakeFiles/bonus.dir/build.make
+cpp/bonus: cpp/CMakeFiles/bonus.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bonus"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bonus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Bonus.dir/build: cpp/Bonus
+cpp/CMakeFiles/bonus.dir/build: cpp/bonus
 
-.PHONY : cpp/CMakeFiles/Bonus.dir/build
+.PHONY : cpp/CMakeFiles/bonus.dir/build
 
-cpp/CMakeFiles/Bonus.dir/requires: cpp/CMakeFiles/Bonus.dir/bonus.cpp.o.requires
+cpp/CMakeFiles/bonus.dir/requires: cpp/CMakeFiles/bonus.dir/bonus.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Bonus.dir/requires
+.PHONY : cpp/CMakeFiles/bonus.dir/requires
 
-cpp/CMakeFiles/Bonus.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Bonus.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Bonus.dir/clean
+cpp/CMakeFiles/bonus.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/bonus.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/bonus.dir/clean
 
-cpp/CMakeFiles/Bonus.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Bonus.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Bonus.dir/depend
+cpp/CMakeFiles/bonus.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/bonus.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/bonus.dir/depend
 

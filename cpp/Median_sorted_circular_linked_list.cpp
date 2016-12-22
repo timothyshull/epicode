@@ -6,7 +6,7 @@
 #include <random>
 #include <stdexcept>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -19,7 +19,7 @@ using std::uniform_int_distribution;
 
 // @include
 double FindMedianSortedCircularLinkedList(
-        const shared_ptr<ListNode<int>>& arbitrary_node)
+        const shared_ptr<List_node<int>>& arbitrary_node)
 {
     // Checks if all nodes are identical and identifies the first smallest node.
     auto iter = arbitrary_node, first_smallest_node = arbitrary_node;
@@ -43,11 +43,11 @@ double FindMedianSortedCircularLinkedList(
 
 void SmallTest()
 {
-    shared_ptr<ListNode<int>> L = make_shared<ListNode<int>>(
-            ListNode<int>{0, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{
-                            2, make_shared<ListNode<int>>(
-                                    ListNode<int>{2, nullptr})})})});
+    shared_ptr<List_node<int>> L = make_shared<List_node<int>>(
+            List_node<int>{0, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{
+                            2, make_shared<List_node<int>>(
+                                    List_node<int>{2, nullptr})})})});
     L->next->next->next->next = L;
     cout << FindMedianSortedCircularLinkedList(L->next->next) << "\n";
     assert(2 == FindMedianSortedCircularLinkedList(L->next->next));
@@ -65,15 +65,15 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(1, 1000);
             n = dis(gen);
         }
-        shared_ptr<ListNode<int>> head;
+        shared_ptr<List_node<int>> head;
         for (int i = n; i >= 0; --i) {
-            auto curr = make_shared<ListNode<int>>(ListNode<int>{i, nullptr});
+            auto curr = make_shared<List_node<int>>(List_node<int>{i, nullptr});
             curr->next = head;
             head = curr;
         }
-        shared_ptr<ListNode<int>> curr = head;
-        if (curr != shared_ptr<ListNode<int>>(nullptr)) {
-            while (curr->next != shared_ptr<ListNode<int>>(nullptr)) {
+        shared_ptr<List_node<int>> curr = head;
+        if (curr != shared_ptr<List_node<int>>(nullptr)) {
+            while (curr->next != shared_ptr<List_node<int>>(nullptr)) {
                 curr = curr->next;
             }
             curr->next = head;  // make the list as a circular list.
@@ -84,14 +84,14 @@ int main(int argc, char* argv[])
     }
 
     // Test identical list.
-    shared_ptr<ListNode<int>> head;
+    shared_ptr<List_node<int>> head;
     for (int i = 0; i < 10; ++i) {
-        auto curr = make_shared<ListNode<int>>(ListNode<int>{5, nullptr});
+        auto curr = make_shared<List_node<int>>(List_node<int>{5, nullptr});
         curr->next = head;
         head = curr;
     }
-    shared_ptr<ListNode<int>> curr = head;
-    if (curr != shared_ptr<ListNode<int>>(nullptr)) {
+    shared_ptr<List_node<int>> curr = head;
+    if (curr != shared_ptr<List_node<int>>(nullptr)) {
         while (curr->next != nullptr) {
             curr = curr->next;
         }

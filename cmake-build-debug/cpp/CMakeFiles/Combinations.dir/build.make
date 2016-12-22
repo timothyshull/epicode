@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Combinations.dir/depend.make
+include cpp/CMakeFiles/combinations.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Combinations.dir/progress.make
+include cpp/CMakeFiles/combinations.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Combinations.dir/flags.make
+include cpp/CMakeFiles/combinations.dir/flags.make
 
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.o: cpp/CMakeFiles/Combinations.dir/flags.make
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.o: ../cpp/combinations.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Combinations.dir/combinations.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Combinations.dir/combinations.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/combinations.cpp
+cpp/CMakeFiles/combinations.dir/combinations.cpp.o: cpp/CMakeFiles/combinations.dir/flags.make
+cpp/CMakeFiles/combinations.dir/combinations.cpp.o: ../cpp/combinations.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/combinations.dir/combinations.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/combinations.dir/combinations.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/combinations.cpp
 
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Combinations.dir/combinations.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/combinations.cpp > CMakeFiles/Combinations.dir/combinations.cpp.i
+cpp/CMakeFiles/combinations.dir/combinations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/combinations.dir/combinations.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/combinations.cpp > CMakeFiles/combinations.dir/combinations.cpp.i
 
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Combinations.dir/combinations.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/combinations.cpp -o CMakeFiles/Combinations.dir/combinations.cpp.s
+cpp/CMakeFiles/combinations.dir/combinations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/combinations.dir/combinations.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/combinations.cpp -o CMakeFiles/combinations.dir/combinations.cpp.s
 
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.requires:
+cpp/CMakeFiles/combinations.dir/combinations.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.requires
+.PHONY : cpp/CMakeFiles/combinations.dir/combinations.cpp.o.requires
 
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.provides: cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Combinations.dir/build.make cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.provides
+cpp/CMakeFiles/combinations.dir/combinations.cpp.o.provides: cpp/CMakeFiles/combinations.dir/combinations.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/combinations.dir/build.make cpp/CMakeFiles/combinations.dir/combinations.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/combinations.dir/combinations.cpp.o.provides
 
-cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.provides.build: cpp/CMakeFiles/Combinations.dir/combinations.cpp.o
+cpp/CMakeFiles/combinations.dir/combinations.cpp.o.provides.build: cpp/CMakeFiles/combinations.dir/combinations.cpp.o
 
 
-# Object files for target Combinations
-Combinations_OBJECTS = \
-"CMakeFiles/Combinations.dir/combinations.cpp.o"
+# Object files for target combinations
+combinations_OBJECTS = \
+"CMakeFiles/combinations.dir/combinations.cpp.o"
 
-# External object files for target Combinations
-Combinations_EXTERNAL_OBJECTS =
+# External object files for target combinations
+combinations_EXTERNAL_OBJECTS =
 
-cpp/Combinations: cpp/CMakeFiles/Combinations.dir/combinations.cpp.o
-cpp/Combinations: cpp/CMakeFiles/Combinations.dir/build.make
-cpp/Combinations: cpp/CMakeFiles/Combinations.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Combinations"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Combinations.dir/link.txt --verbose=$(VERBOSE)
+cpp/combinations: cpp/CMakeFiles/combinations.dir/combinations.cpp.o
+cpp/combinations: cpp/CMakeFiles/combinations.dir/build.make
+cpp/combinations: cpp/CMakeFiles/combinations.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable combinations"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/combinations.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Combinations.dir/build: cpp/Combinations
+cpp/CMakeFiles/combinations.dir/build: cpp/combinations
 
-.PHONY : cpp/CMakeFiles/Combinations.dir/build
+.PHONY : cpp/CMakeFiles/combinations.dir/build
 
-cpp/CMakeFiles/Combinations.dir/requires: cpp/CMakeFiles/Combinations.dir/combinations.cpp.o.requires
+cpp/CMakeFiles/combinations.dir/requires: cpp/CMakeFiles/combinations.dir/combinations.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Combinations.dir/requires
+.PHONY : cpp/CMakeFiles/combinations.dir/requires
 
-cpp/CMakeFiles/Combinations.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Combinations.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Combinations.dir/clean
+cpp/CMakeFiles/combinations.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/combinations.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/combinations.dir/clean
 
-cpp/CMakeFiles/Combinations.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Combinations.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Combinations.dir/depend
+cpp/CMakeFiles/combinations.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/combinations.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/combinations.dir/depend
 

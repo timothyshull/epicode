@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Queue_with_max.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Queue_with_max.dir/Queue_with_max.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/queue_with_max.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/queue_with_max.dir/queue_with_max.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

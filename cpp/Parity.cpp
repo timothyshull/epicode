@@ -5,10 +5,10 @@
 #include <limits>
 #include <random>
 
-#include "./Parity1.h"
-#include "./Parity2.h"
-#include "./Parity3.h"
-#include "./Parity4.h"
+#include "Parity1.h"
+#include "Parity2.h"
+#include "Parity3.h"
+#include "Parity4.h"
 
 using std::cout;
 using std::default_random_engine;

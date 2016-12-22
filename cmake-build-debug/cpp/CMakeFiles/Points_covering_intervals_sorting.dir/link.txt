@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Points_covering_intervals_sorting.dir/points_covering_intervals_sorting.cpp.o  -o Points_covering_intervals_sorting 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/points_covering_intervals_sorting.dir/points_covering_intervals_sorting.cpp.o  -o points_covering_intervals_sorting 

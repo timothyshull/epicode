@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Division.dir/depend.make
+include cpp/CMakeFiles/division.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Division.dir/progress.make
+include cpp/CMakeFiles/division.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Division.dir/flags.make
+include cpp/CMakeFiles/division.dir/flags.make
 
-cpp/CMakeFiles/Division.dir/Division.cpp.o: cpp/CMakeFiles/Division.dir/flags.make
-cpp/CMakeFiles/Division.dir/Division.cpp.o: ../cpp/Division.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Division.dir/Division.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Division.dir/Division.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Division.cpp
+cpp/CMakeFiles/division.dir/division.cpp.o: cpp/CMakeFiles/division.dir/flags.make
+cpp/CMakeFiles/division.dir/division.cpp.o: ../cpp/division.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/division.dir/division.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/division.dir/division.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/division.cpp
 
-cpp/CMakeFiles/Division.dir/Division.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Division.dir/Division.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Division.cpp > CMakeFiles/Division.dir/Division.cpp.i
+cpp/CMakeFiles/division.dir/division.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/division.dir/division.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/division.cpp > CMakeFiles/division.dir/division.cpp.i
 
-cpp/CMakeFiles/Division.dir/Division.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Division.dir/Division.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Division.cpp -o CMakeFiles/Division.dir/Division.cpp.s
+cpp/CMakeFiles/division.dir/division.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/division.dir/division.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/division.cpp -o CMakeFiles/division.dir/division.cpp.s
 
-cpp/CMakeFiles/Division.dir/Division.cpp.o.requires:
+cpp/CMakeFiles/division.dir/division.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Division.dir/Division.cpp.o.requires
+.PHONY : cpp/CMakeFiles/division.dir/division.cpp.o.requires
 
-cpp/CMakeFiles/Division.dir/Division.cpp.o.provides: cpp/CMakeFiles/Division.dir/Division.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Division.dir/build.make cpp/CMakeFiles/Division.dir/Division.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Division.dir/Division.cpp.o.provides
+cpp/CMakeFiles/division.dir/division.cpp.o.provides: cpp/CMakeFiles/division.dir/division.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/division.dir/build.make cpp/CMakeFiles/division.dir/division.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/division.dir/division.cpp.o.provides
 
-cpp/CMakeFiles/Division.dir/Division.cpp.o.provides.build: cpp/CMakeFiles/Division.dir/Division.cpp.o
+cpp/CMakeFiles/division.dir/division.cpp.o.provides.build: cpp/CMakeFiles/division.dir/division.cpp.o
 
 
-# Object files for target Division
-Division_OBJECTS = \
-"CMakeFiles/Division.dir/Division.cpp.o"
+# Object files for target division
+division_OBJECTS = \
+"CMakeFiles/division.dir/division.cpp.o"
 
-# External object files for target Division
-Division_EXTERNAL_OBJECTS =
+# External object files for target division
+division_EXTERNAL_OBJECTS =
 
-cpp/Division: cpp/CMakeFiles/Division.dir/Division.cpp.o
-cpp/Division: cpp/CMakeFiles/Division.dir/build.make
-cpp/Division: cpp/CMakeFiles/Division.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Division"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Division.dir/link.txt --verbose=$(VERBOSE)
+cpp/division: cpp/CMakeFiles/division.dir/division.cpp.o
+cpp/division: cpp/CMakeFiles/division.dir/build.make
+cpp/division: cpp/CMakeFiles/division.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable division"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/division.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Division.dir/build: cpp/Division
+cpp/CMakeFiles/division.dir/build: cpp/division
 
-.PHONY : cpp/CMakeFiles/Division.dir/build
+.PHONY : cpp/CMakeFiles/division.dir/build
 
-cpp/CMakeFiles/Division.dir/requires: cpp/CMakeFiles/Division.dir/Division.cpp.o.requires
+cpp/CMakeFiles/division.dir/requires: cpp/CMakeFiles/division.dir/division.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Division.dir/requires
+.PHONY : cpp/CMakeFiles/division.dir/requires
 
-cpp/CMakeFiles/Division.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Division.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Division.dir/clean
+cpp/CMakeFiles/division.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/division.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/division.dir/clean
 
-cpp/CMakeFiles/Division.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Division.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Division.dir/depend
+cpp/CMakeFiles/division.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/division.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/division.dir/depend
 

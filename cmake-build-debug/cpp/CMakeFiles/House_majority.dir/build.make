@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/House_majority.dir/depend.make
+include cpp/CMakeFiles/house_majority.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/House_majority.dir/progress.make
+include cpp/CMakeFiles/house_majority.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/House_majority.dir/flags.make
+include cpp/CMakeFiles/house_majority.dir/flags.make
 
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o: cpp/CMakeFiles/House_majority.dir/flags.make
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o: ../cpp/House_majority.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/House_majority.dir/House_majority.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/House_majority.cpp
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o: cpp/CMakeFiles/house_majority.dir/flags.make
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o: ../cpp/house_majority.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/house_majority.dir/house_majority.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/house_majority.cpp
 
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/House_majority.dir/House_majority.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/House_majority.cpp > CMakeFiles/House_majority.dir/House_majority.cpp.i
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/house_majority.dir/house_majority.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/house_majority.cpp > CMakeFiles/house_majority.dir/house_majority.cpp.i
 
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/House_majority.dir/House_majority.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/House_majority.cpp -o CMakeFiles/House_majority.dir/House_majority.cpp.s
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/house_majority.dir/house_majority.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/house_majority.cpp -o CMakeFiles/house_majority.dir/house_majority.cpp.s
 
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.requires:
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.requires
+.PHONY : cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.requires
 
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.provides: cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/House_majority.dir/build.make cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.provides
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.provides: cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/house_majority.dir/build.make cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.provides
 
-cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.provides.build: cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o
+cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.provides.build: cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o
 
 
-# Object files for target House_majority
-House_majority_OBJECTS = \
-"CMakeFiles/House_majority.dir/House_majority.cpp.o"
+# Object files for target house_majority
+house_majority_OBJECTS = \
+"CMakeFiles/house_majority.dir/house_majority.cpp.o"
 
-# External object files for target House_majority
-House_majority_EXTERNAL_OBJECTS =
+# External object files for target house_majority
+house_majority_EXTERNAL_OBJECTS =
 
-cpp/House_majority: cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o
-cpp/House_majority: cpp/CMakeFiles/House_majority.dir/build.make
-cpp/House_majority: cpp/CMakeFiles/House_majority.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable House_majority"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/House_majority.dir/link.txt --verbose=$(VERBOSE)
+cpp/house_majority: cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o
+cpp/house_majority: cpp/CMakeFiles/house_majority.dir/build.make
+cpp/house_majority: cpp/CMakeFiles/house_majority.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable house_majority"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/house_majority.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/House_majority.dir/build: cpp/House_majority
+cpp/CMakeFiles/house_majority.dir/build: cpp/house_majority
 
-.PHONY : cpp/CMakeFiles/House_majority.dir/build
+.PHONY : cpp/CMakeFiles/house_majority.dir/build
 
-cpp/CMakeFiles/House_majority.dir/requires: cpp/CMakeFiles/House_majority.dir/House_majority.cpp.o.requires
+cpp/CMakeFiles/house_majority.dir/requires: cpp/CMakeFiles/house_majority.dir/house_majority.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/House_majority.dir/requires
+.PHONY : cpp/CMakeFiles/house_majority.dir/requires
 
-cpp/CMakeFiles/House_majority.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/House_majority.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/House_majority.dir/clean
+cpp/CMakeFiles/house_majority.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/house_majority.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/house_majority.dir/clean
 
-cpp/CMakeFiles/House_majority.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/House_majority.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/House_majority.dir/depend
+cpp/CMakeFiles/house_majority.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/house_majority.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/house_majority.dir/depend
 

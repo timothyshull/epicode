@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Partition_2_same_average.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Partition_2_same_average.dir/Partition_2_same_average.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/partition_2_same_average.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/partition_2_same_average.dir/partition_2_same_average.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

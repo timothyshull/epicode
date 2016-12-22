@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Load_balancing.dir/depend.make
+include cpp/CMakeFiles/load_balancing.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Load_balancing.dir/progress.make
+include cpp/CMakeFiles/load_balancing.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Load_balancing.dir/flags.make
+include cpp/CMakeFiles/load_balancing.dir/flags.make
 
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o: cpp/CMakeFiles/Load_balancing.dir/flags.make
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o: ../cpp/Load_balancing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Load_balancing.cpp
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o: cpp/CMakeFiles/load_balancing.dir/flags.make
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o: ../cpp/load_balancing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/load_balancing.dir/load_balancing.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/load_balancing.cpp
 
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Load_balancing.dir/Load_balancing.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Load_balancing.cpp > CMakeFiles/Load_balancing.dir/Load_balancing.cpp.i
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/load_balancing.dir/load_balancing.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/load_balancing.cpp > CMakeFiles/load_balancing.dir/load_balancing.cpp.i
 
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Load_balancing.dir/Load_balancing.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Load_balancing.cpp -o CMakeFiles/Load_balancing.dir/Load_balancing.cpp.s
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/load_balancing.dir/load_balancing.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/load_balancing.cpp -o CMakeFiles/load_balancing.dir/load_balancing.cpp.s
 
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.requires:
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.requires
+.PHONY : cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.requires
 
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.provides: cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Load_balancing.dir/build.make cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.provides
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.provides: cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/load_balancing.dir/build.make cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.provides
 
-cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.provides.build: cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o
+cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.provides.build: cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o
 
 
-# Object files for target Load_balancing
-Load_balancing_OBJECTS = \
-"CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o"
+# Object files for target load_balancing
+load_balancing_OBJECTS = \
+"CMakeFiles/load_balancing.dir/load_balancing.cpp.o"
 
-# External object files for target Load_balancing
-Load_balancing_EXTERNAL_OBJECTS =
+# External object files for target load_balancing
+load_balancing_EXTERNAL_OBJECTS =
 
-cpp/Load_balancing: cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o
-cpp/Load_balancing: cpp/CMakeFiles/Load_balancing.dir/build.make
-cpp/Load_balancing: cpp/CMakeFiles/Load_balancing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Load_balancing"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Load_balancing.dir/link.txt --verbose=$(VERBOSE)
+cpp/load_balancing: cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o
+cpp/load_balancing: cpp/CMakeFiles/load_balancing.dir/build.make
+cpp/load_balancing: cpp/CMakeFiles/load_balancing.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable load_balancing"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/load_balancing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Load_balancing.dir/build: cpp/Load_balancing
+cpp/CMakeFiles/load_balancing.dir/build: cpp/load_balancing
 
-.PHONY : cpp/CMakeFiles/Load_balancing.dir/build
+.PHONY : cpp/CMakeFiles/load_balancing.dir/build
 
-cpp/CMakeFiles/Load_balancing.dir/requires: cpp/CMakeFiles/Load_balancing.dir/Load_balancing.cpp.o.requires
+cpp/CMakeFiles/load_balancing.dir/requires: cpp/CMakeFiles/load_balancing.dir/load_balancing.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Load_balancing.dir/requires
+.PHONY : cpp/CMakeFiles/load_balancing.dir/requires
 
-cpp/CMakeFiles/Load_balancing.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Load_balancing.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Load_balancing.dir/clean
+cpp/CMakeFiles/load_balancing.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/load_balancing.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/load_balancing.dir/clean
 
-cpp/CMakeFiles/Load_balancing.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Load_balancing.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Load_balancing.dir/depend
+cpp/CMakeFiles/load_balancing.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/load_balancing.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/load_balancing.dir/depend
 

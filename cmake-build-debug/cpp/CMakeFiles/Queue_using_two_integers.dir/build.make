@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Queue_using_two_integers.dir/depend.make
+include cpp/CMakeFiles/queue_using_two_integers.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Queue_using_two_integers.dir/progress.make
+include cpp/CMakeFiles/queue_using_two_integers.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Queue_using_two_integers.dir/flags.make
+include cpp/CMakeFiles/queue_using_two_integers.dir/flags.make
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o: cpp/CMakeFiles/Queue_using_two_integers.dir/flags.make
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o: ../cpp/Queue_using_two_integers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Queue_using_two_integers.cpp
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o: cpp/CMakeFiles/queue_using_two_integers.dir/flags.make
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o: ../cpp/queue_using_two_integers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/queue_using_two_integers.cpp
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Queue_using_two_integers.cpp > CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.i
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/queue_using_two_integers.cpp > CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.i
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Queue_using_two_integers.cpp -o CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.s
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/queue_using_two_integers.cpp -o CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.s
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.requires:
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.requires
+.PHONY : cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.requires
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.provides: cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Queue_using_two_integers.dir/build.make cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.provides
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.provides: cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/queue_using_two_integers.dir/build.make cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.provides
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.provides.build: cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o
+cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.provides.build: cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o
 
 
-# Object files for target Queue_using_two_integers
-Queue_using_two_integers_OBJECTS = \
-"CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o"
+# Object files for target queue_using_two_integers
+queue_using_two_integers_OBJECTS = \
+"CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o"
 
-# External object files for target Queue_using_two_integers
-Queue_using_two_integers_EXTERNAL_OBJECTS =
+# External object files for target queue_using_two_integers
+queue_using_two_integers_EXTERNAL_OBJECTS =
 
-cpp/Queue_using_two_integers: cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o
-cpp/Queue_using_two_integers: cpp/CMakeFiles/Queue_using_two_integers.dir/build.make
-cpp/Queue_using_two_integers: cpp/CMakeFiles/Queue_using_two_integers.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Queue_using_two_integers"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Queue_using_two_integers.dir/link.txt --verbose=$(VERBOSE)
+cpp/queue_using_two_integers: cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o
+cpp/queue_using_two_integers: cpp/CMakeFiles/queue_using_two_integers.dir/build.make
+cpp/queue_using_two_integers: cpp/CMakeFiles/queue_using_two_integers.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable queue_using_two_integers"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/queue_using_two_integers.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Queue_using_two_integers.dir/build: cpp/Queue_using_two_integers
+cpp/CMakeFiles/queue_using_two_integers.dir/build: cpp/queue_using_two_integers
 
-.PHONY : cpp/CMakeFiles/Queue_using_two_integers.dir/build
+.PHONY : cpp/CMakeFiles/queue_using_two_integers.dir/build
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/requires: cpp/CMakeFiles/Queue_using_two_integers.dir/Queue_using_two_integers.cpp.o.requires
+cpp/CMakeFiles/queue_using_two_integers.dir/requires: cpp/CMakeFiles/queue_using_two_integers.dir/queue_using_two_integers.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Queue_using_two_integers.dir/requires
+.PHONY : cpp/CMakeFiles/queue_using_two_integers.dir/requires
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Queue_using_two_integers.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Queue_using_two_integers.dir/clean
+cpp/CMakeFiles/queue_using_two_integers.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/queue_using_two_integers.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/queue_using_two_integers.dir/clean
 
-cpp/CMakeFiles/Queue_using_two_integers.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Queue_using_two_integers.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Queue_using_two_integers.dir/depend
+cpp/CMakeFiles/queue_using_two_integers.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/queue_using_two_integers.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/queue_using_two_integers.dir/depend
 

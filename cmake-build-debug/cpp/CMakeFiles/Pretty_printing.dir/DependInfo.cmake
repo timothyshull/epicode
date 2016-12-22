@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Pretty_printing.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Pretty_printing.dir/Pretty_printing.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/pretty_printing.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/pretty_printing.dir/pretty_printing.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

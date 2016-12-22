@@ -6,9 +6,9 @@
 #include <random>
 #include <vector>
 
-#include "./Binary_tree_prototype.h"
-#include "./Binary_tree_utils.h"
-#include "./Reconstruct_preorder_with_null.h"
+#include "Binary_tree_prototype.h"
+#include "Binary_tree_utils.h"
+#include "Reconstruct_preorder_with_null.h"
 
 using std::cout;
 using std::default_random_engine;
@@ -20,7 +20,7 @@ using std::unique_ptr;
 using std::vector;
 
 template<typename T>
-void GenPreorderWithNull(const unique_ptr<BinaryTreeNode<T>>& n,
+void GenPreorderWithNull(const unique_ptr<Binary_tree_node<T>>& n,
                          vector<T*>* p)
 {
     if (!n) {
@@ -71,10 +71,10 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(1, 10000);
             n = dis(gen);
         }
-        unique_ptr<BinaryTreeNode<int>> root = generate_rand_binary_tree<int>(n);
+        unique_ptr<Binary_tree_node<int>> root = generate_rand_binary_tree<int>(n);
         vector<int*> p;
         GenPreorderWithNull(root, &p);
-        auto x = unique_ptr<BinaryTreeNode<int>>(ReconstructPreorder(p));
+        auto x = unique_ptr<Binary_tree_node<int>>(ReconstructPreorder(p));
         assert(is_two_binary_trees_equal(root, x));
     }
     return 0;

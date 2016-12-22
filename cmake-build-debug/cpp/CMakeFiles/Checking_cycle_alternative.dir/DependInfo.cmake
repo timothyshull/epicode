@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Checking_cycle_alternative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Checking_cycle_alternative.dir/Checking_cycle_alternative.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/checking_cycle_alternative.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/checking_cycle_alternative.dir/checking_cycle_alternative.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Anonymous_letter.dir/depend.make
+include cpp/CMakeFiles/anonymous_letter.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Anonymous_letter.dir/progress.make
+include cpp/CMakeFiles/anonymous_letter.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Anonymous_letter.dir/flags.make
+include cpp/CMakeFiles/anonymous_letter.dir/flags.make
 
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o: cpp/CMakeFiles/Anonymous_letter.dir/flags.make
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o: ../cpp/anonymous_letter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/anonymous_letter.cpp
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o: cpp/CMakeFiles/anonymous_letter.dir/flags.make
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o: ../cpp/anonymous_letter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/anonymous_letter.cpp
 
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/anonymous_letter.cpp > CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.i
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/anonymous_letter.cpp > CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.i
 
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/anonymous_letter.cpp -o CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.s
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/anonymous_letter.cpp -o CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.s
 
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.requires:
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.requires
+.PHONY : cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.requires
 
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.provides: cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Anonymous_letter.dir/build.make cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.provides
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.provides: cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/anonymous_letter.dir/build.make cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.provides
 
-cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.provides.build: cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o
+cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.provides.build: cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o
 
 
-# Object files for target Anonymous_letter
-Anonymous_letter_OBJECTS = \
-"CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o"
+# Object files for target anonymous_letter
+anonymous_letter_OBJECTS = \
+"CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o"
 
-# External object files for target Anonymous_letter
-Anonymous_letter_EXTERNAL_OBJECTS =
+# External object files for target anonymous_letter
+anonymous_letter_EXTERNAL_OBJECTS =
 
-cpp/Anonymous_letter: cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o
-cpp/Anonymous_letter: cpp/CMakeFiles/Anonymous_letter.dir/build.make
-cpp/Anonymous_letter: cpp/CMakeFiles/Anonymous_letter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Anonymous_letter"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Anonymous_letter.dir/link.txt --verbose=$(VERBOSE)
+cpp/anonymous_letter: cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o
+cpp/anonymous_letter: cpp/CMakeFiles/anonymous_letter.dir/build.make
+cpp/anonymous_letter: cpp/CMakeFiles/anonymous_letter.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable anonymous_letter"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/anonymous_letter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Anonymous_letter.dir/build: cpp/Anonymous_letter
+cpp/CMakeFiles/anonymous_letter.dir/build: cpp/anonymous_letter
 
-.PHONY : cpp/CMakeFiles/Anonymous_letter.dir/build
+.PHONY : cpp/CMakeFiles/anonymous_letter.dir/build
 
-cpp/CMakeFiles/Anonymous_letter.dir/requires: cpp/CMakeFiles/Anonymous_letter.dir/anonymous_letter.cpp.o.requires
+cpp/CMakeFiles/anonymous_letter.dir/requires: cpp/CMakeFiles/anonymous_letter.dir/anonymous_letter.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Anonymous_letter.dir/requires
+.PHONY : cpp/CMakeFiles/anonymous_letter.dir/requires
 
-cpp/CMakeFiles/Anonymous_letter.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Anonymous_letter.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Anonymous_letter.dir/clean
+cpp/CMakeFiles/anonymous_letter.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/anonymous_letter.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/anonymous_letter.dir/clean
 
-cpp/CMakeFiles/Anonymous_letter.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Anonymous_letter.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Anonymous_letter.dir/depend
+cpp/CMakeFiles/anonymous_letter.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/anonymous_letter.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/anonymous_letter.dir/depend
 

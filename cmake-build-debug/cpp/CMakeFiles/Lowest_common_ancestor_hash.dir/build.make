@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/depend.make
+include cpp/CMakeFiles/lowest_common_ancestor_hash.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/progress.make
+include cpp/CMakeFiles/lowest_common_ancestor_hash.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/flags.make
+include cpp/CMakeFiles/lowest_common_ancestor_hash.dir/flags.make
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/flags.make
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o: ../cpp/Lowest_common_ancestor_hash.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Lowest_common_ancestor_hash.cpp
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/flags.make
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o: ../cpp/lowest_common_ancestor_hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/lowest_common_ancestor_hash.cpp
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Lowest_common_ancestor_hash.cpp > CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.i
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/lowest_common_ancestor_hash.cpp > CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.i
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Lowest_common_ancestor_hash.cpp -o CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.s
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/lowest_common_ancestor_hash.cpp -o CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.s
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.requires:
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.requires
+.PHONY : cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.requires
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.provides: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/build.make cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.provides
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.provides: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/lowest_common_ancestor_hash.dir/build.make cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.provides
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.provides.build: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.provides.build: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o
 
 
-# Object files for target Lowest_common_ancestor_hash
-Lowest_common_ancestor_hash_OBJECTS = \
-"CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o"
+# Object files for target lowest_common_ancestor_hash
+lowest_common_ancestor_hash_OBJECTS = \
+"CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o"
 
-# External object files for target Lowest_common_ancestor_hash
-Lowest_common_ancestor_hash_EXTERNAL_OBJECTS =
+# External object files for target lowest_common_ancestor_hash
+lowest_common_ancestor_hash_EXTERNAL_OBJECTS =
 
-cpp/Lowest_common_ancestor_hash: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o
-cpp/Lowest_common_ancestor_hash: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/build.make
-cpp/Lowest_common_ancestor_hash: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lowest_common_ancestor_hash"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lowest_common_ancestor_hash.dir/link.txt --verbose=$(VERBOSE)
+cpp/lowest_common_ancestor_hash: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o
+cpp/lowest_common_ancestor_hash: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/build.make
+cpp/lowest_common_ancestor_hash: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lowest_common_ancestor_hash"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lowest_common_ancestor_hash.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/build: cpp/Lowest_common_ancestor_hash
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/build: cpp/lowest_common_ancestor_hash
 
-.PHONY : cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/build
+.PHONY : cpp/CMakeFiles/lowest_common_ancestor_hash.dir/build
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/requires: cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/Lowest_common_ancestor_hash.cpp.o.requires
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/requires: cpp/CMakeFiles/lowest_common_ancestor_hash.dir/lowest_common_ancestor_hash.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/requires
+.PHONY : cpp/CMakeFiles/lowest_common_ancestor_hash.dir/requires
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Lowest_common_ancestor_hash.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/clean
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/lowest_common_ancestor_hash.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/lowest_common_ancestor_hash.dir/clean
 
-cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Lowest_common_ancestor_hash.dir/depend
+cpp/CMakeFiles/lowest_common_ancestor_hash.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/lowest_common_ancestor_hash.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/lowest_common_ancestor_hash.dir/depend
 

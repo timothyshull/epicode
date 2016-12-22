@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o"
-  "Spreadsheet_encoding.pdb"
-  "Spreadsheet_encoding"
+  "CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o"
+  "spreadsheet_encoding.pdb"
+  "spreadsheet_encoding"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Spreadsheet_encoding.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/spreadsheet_encoding.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

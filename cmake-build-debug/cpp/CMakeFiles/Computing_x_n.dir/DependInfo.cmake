@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Computing_x^n.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Computing_x_n.dir/Computing_x^n.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/computing_x^n.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/computing_x_n.dir/computing_x^n.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

@@ -5,7 +5,7 @@
 #include <memory>
 #include <vector>
 
-#include "./Binary_tree_with_parent_prototype.h"
+#include "Binary_tree_with_parent_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -14,13 +14,13 @@ using std::unique_ptr;
 using std::vector;
 
 // @include
-vector<int> InorderTraversal(const unique_ptr<BinaryTreeNode<int>>& tree)
+vector<int> InorderTraversal(const unique_ptr<Binary_tree_node<int>>& tree)
 {
-    BinaryTreeNode<int>* prev = nullptr, * curr = tree.get();
+    Binary_tree_node<int>* prev = nullptr, * curr = tree.get();
     vector<int> result;
 
     while (curr != nullptr) {
-        BinaryTreeNode<int>* next;
+        Binary_tree_node<int>* next;
         if (curr->parent == prev) {
             // We came down to curr from prev.
             if (curr->left != nullptr) {  // Keep going left.
@@ -52,33 +52,33 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    unique_ptr<BinaryTreeNode<int>> root = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{3, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{3, nullptr, nullptr});
     root->parent = nullptr;
     auto result = InorderTraversal(root);
     vector<int> golden_res = {3};
     assert(equal(golden_res.begin(), golden_res.end(), result.begin(),
                  result.end()));
 
-    root->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{2, nullptr, nullptr});
+    root->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{2, nullptr, nullptr});
     root->left->parent = root.get();
-    root->left->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{1, nullptr, nullptr});
+    root->left->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{1, nullptr, nullptr});
     root->left->left->parent = root->left.get();
     result = InorderTraversal(root);
     golden_res = {1, 2, 3};
     assert(equal(golden_res.begin(), golden_res.end(), result.begin(),
                  result.end()));
 
-    root->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{5, nullptr, nullptr});
+    root->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{5, nullptr, nullptr});
     root->right->parent = root.get();
-    root->right->left = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{4, nullptr, nullptr});
+    root->right->left = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{4, nullptr, nullptr});
     root->right->left->parent = root->right.get();
-    root->right->right = make_unique<BinaryTreeNode<int>>(
-            BinaryTreeNode<int>{6, nullptr, nullptr});
+    root->right->right = make_unique<Binary_tree_node<int>>(
+            Binary_tree_node<int>{6, nullptr, nullptr});
     root->right->right->parent = root->right.get();
 
     result = InorderTraversal(root);

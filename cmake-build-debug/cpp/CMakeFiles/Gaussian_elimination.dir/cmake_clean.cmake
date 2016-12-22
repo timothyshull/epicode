@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Gaussian_elimination.dir/Gaussian_elimination.cpp.o"
-  "Gaussian_elimination.pdb"
-  "Gaussian_elimination"
+  "CMakeFiles/gaussian_elimination.dir/gaussian_elimination.cpp.o"
+  "gaussian_elimination.pdb"
+  "gaussian_elimination"
 )
 
 # Per-language clean rules from dependency scanning.
 foreach(lang CXX)
-  include(CMakeFiles/Gaussian_elimination.dir/cmake_clean_${lang}.cmake OPTIONAL)
+  include(CMakeFiles/gaussian_elimination.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

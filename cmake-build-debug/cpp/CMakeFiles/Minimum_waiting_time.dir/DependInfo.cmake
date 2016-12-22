@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Minimum_waiting_time.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Minimum_waiting_time.dir/Minimum_waiting_time.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/minimum_waiting_time.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/minimum_waiting_time.dir/minimum_waiting_time.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

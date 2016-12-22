@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Transform_string_to_other.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Transform_string_to_other.dir/Transform_string_to_other.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/transform_string_to_other.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/transform_string_to_other.dir/transform_string_to_other.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

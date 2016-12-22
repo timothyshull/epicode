@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/depend.make
+include cpp/CMakeFiles/picking_up_coins_dont_lose.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/progress.make
+include cpp/CMakeFiles/picking_up_coins_dont_lose.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/flags.make
+include cpp/CMakeFiles/picking_up_coins_dont_lose.dir/flags.make
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/flags.make
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o: ../cpp/Picking_up_coins_dont_lose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Picking_up_coins_dont_lose.cpp
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/flags.make
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o: ../cpp/picking_up_coins_dont_lose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/picking_up_coins_dont_lose.cpp
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Picking_up_coins_dont_lose.cpp > CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.i
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/picking_up_coins_dont_lose.cpp > CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.i
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Picking_up_coins_dont_lose.cpp -o CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.s
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/picking_up_coins_dont_lose.cpp -o CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.s
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.requires:
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.requires
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.requires
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.provides: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/build.make cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.provides
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.provides: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build.make cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.provides
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.provides.build: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.provides.build: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o
 
 
-# Object files for target Picking_up_coins_dont_lose
-Picking_up_coins_dont_lose_OBJECTS = \
-"CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o"
+# Object files for target picking_up_coins_dont_lose
+picking_up_coins_dont_lose_OBJECTS = \
+"CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o"
 
-# External object files for target Picking_up_coins_dont_lose
-Picking_up_coins_dont_lose_EXTERNAL_OBJECTS =
+# External object files for target picking_up_coins_dont_lose
+picking_up_coins_dont_lose_EXTERNAL_OBJECTS =
 
-cpp/Picking_up_coins_dont_lose: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o
-cpp/Picking_up_coins_dont_lose: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/build.make
-cpp/Picking_up_coins_dont_lose: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Picking_up_coins_dont_lose"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Picking_up_coins_dont_lose.dir/link.txt --verbose=$(VERBOSE)
+cpp/picking_up_coins_dont_lose: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o
+cpp/picking_up_coins_dont_lose: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build.make
+cpp/picking_up_coins_dont_lose: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable picking_up_coins_dont_lose"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/picking_up_coins_dont_lose.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/build: cpp/Picking_up_coins_dont_lose
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build: cpp/picking_up_coins_dont_lose
 
-.PHONY : cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/build
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/requires: cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/Picking_up_coins_dont_lose.cpp.o.requires
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/requires: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/picking_up_coins_dont_lose.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/requires
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/requires
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Picking_up_coins_dont_lose.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/clean
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/picking_up_coins_dont_lose.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/clean
 
-cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Picking_up_coins_dont_lose.dir/depend
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/picking_up_coins_dont_lose.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/depend
 

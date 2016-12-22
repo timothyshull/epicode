@@ -1,7 +1,7 @@
 // Copyright (c) 2016 Elements of Programming Interviews. All rights reserved.
 #include "test/test_options.h"
 // @pg_ignore:2
-#include "Sudoku_solve.cpp"
+#include "sudoku_solve.cpp"
 #include "sudoku_check.cpp"
 // @pg_include:Sudoku_solve.cc
 // @pg_include:sudoku_check.cc

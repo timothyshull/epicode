@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Sudoku_check.dir/depend.make
+include cpp/CMakeFiles/sudoku_check.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Sudoku_check.dir/progress.make
+include cpp/CMakeFiles/sudoku_check.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Sudoku_check.dir/flags.make
+include cpp/CMakeFiles/sudoku_check.dir/flags.make
 
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o: cpp/CMakeFiles/Sudoku_check.dir/flags.make
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o: ../cpp/sudoku_check.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o: cpp/CMakeFiles/sudoku_check.dir/flags.make
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o: ../cpp/sudoku_check.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp
 
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp > CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.i
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sudoku_check.dir/sudoku_check.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp > CMakeFiles/sudoku_check.dir/sudoku_check.cpp.i
 
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp -o CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.s
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sudoku_check.dir/sudoku_check.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp -o CMakeFiles/sudoku_check.dir/sudoku_check.cpp.s
 
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.requires:
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.requires
+.PHONY : cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.requires
 
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.provides: cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Sudoku_check.dir/build.make cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.provides
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.provides: cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/sudoku_check.dir/build.make cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.provides
 
-cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.provides.build: cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o
+cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.provides.build: cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o
 
 
-# Object files for target Sudoku_check
-Sudoku_check_OBJECTS = \
-"CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o"
+# Object files for target sudoku_check
+sudoku_check_OBJECTS = \
+"CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o"
 
-# External object files for target Sudoku_check
-Sudoku_check_EXTERNAL_OBJECTS =
+# External object files for target sudoku_check
+sudoku_check_EXTERNAL_OBJECTS =
 
-cpp/Sudoku_check: cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o
-cpp/Sudoku_check: cpp/CMakeFiles/Sudoku_check.dir/build.make
-cpp/Sudoku_check: cpp/CMakeFiles/Sudoku_check.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Sudoku_check"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sudoku_check.dir/link.txt --verbose=$(VERBOSE)
+cpp/sudoku_check: cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o
+cpp/sudoku_check: cpp/CMakeFiles/sudoku_check.dir/build.make
+cpp/sudoku_check: cpp/CMakeFiles/sudoku_check.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sudoku_check"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sudoku_check.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Sudoku_check.dir/build: cpp/Sudoku_check
+cpp/CMakeFiles/sudoku_check.dir/build: cpp/sudoku_check
 
-.PHONY : cpp/CMakeFiles/Sudoku_check.dir/build
+.PHONY : cpp/CMakeFiles/sudoku_check.dir/build
 
-cpp/CMakeFiles/Sudoku_check.dir/requires: cpp/CMakeFiles/Sudoku_check.dir/sudoku_check.cpp.o.requires
+cpp/CMakeFiles/sudoku_check.dir/requires: cpp/CMakeFiles/sudoku_check.dir/sudoku_check.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Sudoku_check.dir/requires
+.PHONY : cpp/CMakeFiles/sudoku_check.dir/requires
 
-cpp/CMakeFiles/Sudoku_check.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Sudoku_check.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Sudoku_check.dir/clean
+cpp/CMakeFiles/sudoku_check.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/sudoku_check.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/sudoku_check.dir/clean
 
-cpp/CMakeFiles/Sudoku_check.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Sudoku_check.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Sudoku_check.dir/depend
+cpp/CMakeFiles/sudoku_check.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/sudoku_check.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/sudoku_check.dir/depend
 

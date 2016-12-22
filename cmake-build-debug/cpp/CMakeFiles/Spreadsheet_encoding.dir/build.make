@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Spreadsheet_encoding.dir/depend.make
+include cpp/CMakeFiles/spreadsheet_encoding.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Spreadsheet_encoding.dir/progress.make
+include cpp/CMakeFiles/spreadsheet_encoding.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Spreadsheet_encoding.dir/flags.make
+include cpp/CMakeFiles/spreadsheet_encoding.dir/flags.make
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o: cpp/CMakeFiles/Spreadsheet_encoding.dir/flags.make
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o: ../cpp/Spreadsheet_encoding.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Spreadsheet_encoding.cpp
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o: cpp/CMakeFiles/spreadsheet_encoding.dir/flags.make
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o: ../cpp/spreadsheet_encoding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/spreadsheet_encoding.cpp
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Spreadsheet_encoding.cpp > CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.i
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/spreadsheet_encoding.cpp > CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.i
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Spreadsheet_encoding.cpp -o CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.s
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/spreadsheet_encoding.cpp -o CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.s
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.requires:
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.requires
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.requires
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.provides: cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Spreadsheet_encoding.dir/build.make cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.provides
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.provides: cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/spreadsheet_encoding.dir/build.make cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.provides
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.provides.build: cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o
+cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.provides.build: cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o
 
 
-# Object files for target Spreadsheet_encoding
-Spreadsheet_encoding_OBJECTS = \
-"CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o"
+# Object files for target spreadsheet_encoding
+spreadsheet_encoding_OBJECTS = \
+"CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o"
 
-# External object files for target Spreadsheet_encoding
-Spreadsheet_encoding_EXTERNAL_OBJECTS =
+# External object files for target spreadsheet_encoding
+spreadsheet_encoding_EXTERNAL_OBJECTS =
 
-cpp/Spreadsheet_encoding: cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o
-cpp/Spreadsheet_encoding: cpp/CMakeFiles/Spreadsheet_encoding.dir/build.make
-cpp/Spreadsheet_encoding: cpp/CMakeFiles/Spreadsheet_encoding.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Spreadsheet_encoding"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Spreadsheet_encoding.dir/link.txt --verbose=$(VERBOSE)
+cpp/spreadsheet_encoding: cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o
+cpp/spreadsheet_encoding: cpp/CMakeFiles/spreadsheet_encoding.dir/build.make
+cpp/spreadsheet_encoding: cpp/CMakeFiles/spreadsheet_encoding.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable spreadsheet_encoding"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spreadsheet_encoding.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Spreadsheet_encoding.dir/build: cpp/Spreadsheet_encoding
+cpp/CMakeFiles/spreadsheet_encoding.dir/build: cpp/spreadsheet_encoding
 
-.PHONY : cpp/CMakeFiles/Spreadsheet_encoding.dir/build
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/build
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/requires: cpp/CMakeFiles/Spreadsheet_encoding.dir/Spreadsheet_encoding.cpp.o.requires
+cpp/CMakeFiles/spreadsheet_encoding.dir/requires: cpp/CMakeFiles/spreadsheet_encoding.dir/spreadsheet_encoding.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Spreadsheet_encoding.dir/requires
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/requires
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Spreadsheet_encoding.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Spreadsheet_encoding.dir/clean
+cpp/CMakeFiles/spreadsheet_encoding.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/spreadsheet_encoding.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/clean
 
-cpp/CMakeFiles/Spreadsheet_encoding.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Spreadsheet_encoding.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Spreadsheet_encoding.dir/depend
+cpp/CMakeFiles/spreadsheet_encoding.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/spreadsheet_encoding.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/depend
 

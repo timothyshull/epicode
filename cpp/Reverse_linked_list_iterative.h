@@ -5,15 +5,15 @@
 
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> ReverseLinkedList(
-        const shared_ptr<ListNode<int>>& head)
+shared_ptr<List_node<int>> ReverseLinkedList(
+        const shared_ptr<List_node<int>>& head)
 {
-    shared_ptr<ListNode<int>> prev = nullptr, curr = head;
+    shared_ptr<List_node<int>> prev = nullptr, curr = head;
     while (curr) {
         auto next = curr->next;
         curr->next = prev;

@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -12,8 +12,8 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<ListNode<int>> ReverseLinkedList(
-        const shared_ptr<ListNode<int>>& head)
+shared_ptr<List_node<int>> ReverseLinkedList(
+        const shared_ptr<List_node<int>>& head)
 {
     if (!head || !head->next) {
         return head;
@@ -25,7 +25,7 @@ shared_ptr<ListNode<int>> ReverseLinkedList(
 }
 // @exclude
 
-void Print(shared_ptr<ListNode<int>> head)
+void Print(shared_ptr<List_node<int>> head)
 {
     if (head) {
         cout << "(" << head->data << ")" << "\n";
@@ -35,12 +35,12 @@ void Print(shared_ptr<ListNode<int>> head)
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<ListNode<int>> L1 = make_shared<ListNode<int>>(ListNode<int>{
-            1, make_shared<ListNode<int>>(ListNode<int>{
-                    2, make_shared<ListNode<int>>(ListNode<int>{3, nullptr})})});
+    shared_ptr<List_node<int>> L1 = make_shared<List_node<int>>(List_node<int>{
+            1, make_shared<List_node<int>>(List_node<int>{
+                    2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     cout << "before reverse" << "\n";
     Print(L1);
-    shared_ptr<ListNode<int>> newhead = ReverseLinkedList(L1);
+    shared_ptr<List_node<int>> newhead = ReverseLinkedList(L1);
     assert(newhead->data == 3 && newhead->next->data == 2 &&
            newhead->next->next->data == 1);
     cout << "\n" << "after reverse" << "\n";

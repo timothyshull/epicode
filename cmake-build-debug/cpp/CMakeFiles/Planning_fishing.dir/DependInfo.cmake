@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/skull/Programming/Interview/epicode-master/cpp/Planning_fishing.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Planning_fishing.dir/Planning_fishing.cpp.o"
+  "/Users/skull/Programming/Interview/epicode-master/cpp/planning_fishing.cpp" "/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/planning_fishing.dir/planning_fishing.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

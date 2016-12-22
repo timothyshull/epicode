@@ -4,16 +4,16 @@
 #include <iostream>
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 using std::cout;
 using std::endl;
 using std::make_shared;
 
 // @include
-shared_ptr<ListNode<int>> HasCycle(const shared_ptr<ListNode<int>>& head)
+shared_ptr<List_node<int>> HasCycle(const shared_ptr<List_node<int>>& head)
 {
-    shared_ptr<ListNode<int>> fast = head, slow = head;
+    shared_ptr<List_node<int>> fast = head, slow = head;
 
     while (fast && fast->next && fast->next->next) {
         slow = slow->next, fast = fast->next->next;
@@ -33,12 +33,12 @@ shared_ptr<ListNode<int>> HasCycle(const shared_ptr<ListNode<int>>& head)
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<ListNode<int>> L3 =
-            make_shared<ListNode<int>>(ListNode<int>{3, nullptr});
-    shared_ptr<ListNode<int>> L2 =
-            make_shared<ListNode<int>>(ListNode<int>{2, L3});
-    shared_ptr<ListNode<int>> L1 =
-            make_shared<ListNode<int>>(ListNode<int>{1, L2});
+    shared_ptr<List_node<int>> L3 =
+            make_shared<List_node<int>>(List_node<int>{3, nullptr});
+    shared_ptr<List_node<int>> L2 =
+            make_shared<List_node<int>>(List_node<int>{2, L3});
+    shared_ptr<List_node<int>> L1 =
+            make_shared<List_node<int>>(List_node<int>{1, L2});
 
     // should output "L1 does not have cycle."
     assert(HasCycle(L1) == nullptr);

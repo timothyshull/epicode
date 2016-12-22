@@ -10,8 +10,8 @@
 #include <utility>
 #include <vector>
 
-#include "./Smallest_subarray_covering_set.h"
-#include "./Smallest_subarray_covering_set_stream.h"
+#include "Smallest_subarray_covering_set.h"
+#include "Smallest_subarray_covering_set_stream.h"
 
 using std::cout;
 using std::default_random_engine;

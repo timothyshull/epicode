@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Search_list.dir/depend.make
+include cpp/CMakeFiles/search_list.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Search_list.dir/progress.make
+include cpp/CMakeFiles/search_list.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Search_list.dir/flags.make
+include cpp/CMakeFiles/search_list.dir/flags.make
 
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.o: cpp/CMakeFiles/Search_list.dir/flags.make
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.o: ../cpp/search_list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Search_list.dir/search_list.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Search_list.dir/search_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/search_list.cpp
+cpp/CMakeFiles/search_list.dir/search_list.cpp.o: cpp/CMakeFiles/search_list.dir/flags.make
+cpp/CMakeFiles/search_list.dir/search_list.cpp.o: ../cpp/search_list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/search_list.dir/search_list.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/search_list.dir/search_list.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/search_list.cpp
 
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Search_list.dir/search_list.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/search_list.cpp > CMakeFiles/Search_list.dir/search_list.cpp.i
+cpp/CMakeFiles/search_list.dir/search_list.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/search_list.dir/search_list.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/search_list.cpp > CMakeFiles/search_list.dir/search_list.cpp.i
 
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Search_list.dir/search_list.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/search_list.cpp -o CMakeFiles/Search_list.dir/search_list.cpp.s
+cpp/CMakeFiles/search_list.dir/search_list.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/search_list.dir/search_list.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/search_list.cpp -o CMakeFiles/search_list.dir/search_list.cpp.s
 
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.requires:
+cpp/CMakeFiles/search_list.dir/search_list.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.requires
+.PHONY : cpp/CMakeFiles/search_list.dir/search_list.cpp.o.requires
 
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.provides: cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Search_list.dir/build.make cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.provides
+cpp/CMakeFiles/search_list.dir/search_list.cpp.o.provides: cpp/CMakeFiles/search_list.dir/search_list.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/search_list.dir/build.make cpp/CMakeFiles/search_list.dir/search_list.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/search_list.dir/search_list.cpp.o.provides
 
-cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.provides.build: cpp/CMakeFiles/Search_list.dir/search_list.cpp.o
+cpp/CMakeFiles/search_list.dir/search_list.cpp.o.provides.build: cpp/CMakeFiles/search_list.dir/search_list.cpp.o
 
 
-# Object files for target Search_list
-Search_list_OBJECTS = \
-"CMakeFiles/Search_list.dir/search_list.cpp.o"
+# Object files for target search_list
+search_list_OBJECTS = \
+"CMakeFiles/search_list.dir/search_list.cpp.o"
 
-# External object files for target Search_list
-Search_list_EXTERNAL_OBJECTS =
+# External object files for target search_list
+search_list_EXTERNAL_OBJECTS =
 
-cpp/Search_list: cpp/CMakeFiles/Search_list.dir/search_list.cpp.o
-cpp/Search_list: cpp/CMakeFiles/Search_list.dir/build.make
-cpp/Search_list: cpp/CMakeFiles/Search_list.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Search_list"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Search_list.dir/link.txt --verbose=$(VERBOSE)
+cpp/search_list: cpp/CMakeFiles/search_list.dir/search_list.cpp.o
+cpp/search_list: cpp/CMakeFiles/search_list.dir/build.make
+cpp/search_list: cpp/CMakeFiles/search_list.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable search_list"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/search_list.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Search_list.dir/build: cpp/Search_list
+cpp/CMakeFiles/search_list.dir/build: cpp/search_list
 
-.PHONY : cpp/CMakeFiles/Search_list.dir/build
+.PHONY : cpp/CMakeFiles/search_list.dir/build
 
-cpp/CMakeFiles/Search_list.dir/requires: cpp/CMakeFiles/Search_list.dir/search_list.cpp.o.requires
+cpp/CMakeFiles/search_list.dir/requires: cpp/CMakeFiles/search_list.dir/search_list.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Search_list.dir/requires
+.PHONY : cpp/CMakeFiles/search_list.dir/requires
 
-cpp/CMakeFiles/Search_list.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Search_list.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Search_list.dir/clean
+cpp/CMakeFiles/search_list.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/search_list.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/search_list.dir/clean
 
-cpp/CMakeFiles/Search_list.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Search_list.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Search_list.dir/depend
+cpp/CMakeFiles/search_list.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/search_list.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/search_list.dir/depend
 

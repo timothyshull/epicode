@@ -49,65 +49,65 @@ CMAKE_SOURCE_DIR = /Users/skull/Programming/Interview/epicode-master
 CMAKE_BINARY_DIR = /Users/skull/Programming/Interview/epicode-master/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include cpp/CMakeFiles/Stack_with_max.dir/depend.make
+include cpp/CMakeFiles/stack_with_max.dir/depend.make
 
 # Include the progress variables for this target.
-include cpp/CMakeFiles/Stack_with_max.dir/progress.make
+include cpp/CMakeFiles/stack_with_max.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include cpp/CMakeFiles/Stack_with_max.dir/flags.make
+include cpp/CMakeFiles/stack_with_max.dir/flags.make
 
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o: cpp/CMakeFiles/Stack_with_max.dir/flags.make
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o: ../cpp/Stack_with_max.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/Stack_with_max.cpp
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o: cpp/CMakeFiles/stack_with_max.dir/flags.make
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o: ../cpp/stack_with_max.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o -c /Users/skull/Programming/Interview/epicode-master/cpp/stack_with_max.cpp
 
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.i"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/Stack_with_max.cpp > CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.i
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stack_with_max.dir/stack_with_max.cpp.i"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/skull/Programming/Interview/epicode-master/cpp/stack_with_max.cpp > CMakeFiles/stack_with_max.dir/stack_with_max.cpp.i
 
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.s"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/Stack_with_max.cpp -o CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.s
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stack_with_max.dir/stack_with_max.cpp.s"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/skull/Programming/Interview/epicode-master/cpp/stack_with_max.cpp -o CMakeFiles/stack_with_max.dir/stack_with_max.cpp.s
 
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.requires:
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.requires:
 
-.PHONY : cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.requires
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.requires
 
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.provides: cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.requires
-	$(MAKE) -f cpp/CMakeFiles/Stack_with_max.dir/build.make cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.provides.build
-.PHONY : cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.provides
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.provides: cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.requires
+	$(MAKE) -f cpp/CMakeFiles/stack_with_max.dir/build.make cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.provides.build
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.provides
 
-cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.provides.build: cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o
+cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.provides.build: cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o
 
 
-# Object files for target Stack_with_max
-Stack_with_max_OBJECTS = \
-"CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o"
+# Object files for target stack_with_max
+stack_with_max_OBJECTS = \
+"CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o"
 
-# External object files for target Stack_with_max
-Stack_with_max_EXTERNAL_OBJECTS =
+# External object files for target stack_with_max
+stack_with_max_EXTERNAL_OBJECTS =
 
-cpp/Stack_with_max: cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o
-cpp/Stack_with_max: cpp/CMakeFiles/Stack_with_max.dir/build.make
-cpp/Stack_with_max: cpp/CMakeFiles/Stack_with_max.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Stack_with_max"
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Stack_with_max.dir/link.txt --verbose=$(VERBOSE)
+cpp/stack_with_max: cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o
+cpp/stack_with_max: cpp/CMakeFiles/stack_with_max.dir/build.make
+cpp/stack_with_max: cpp/CMakeFiles/stack_with_max.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/skull/Programming/Interview/epicode-master/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable stack_with_max"
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stack_with_max.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-cpp/CMakeFiles/Stack_with_max.dir/build: cpp/Stack_with_max
+cpp/CMakeFiles/stack_with_max.dir/build: cpp/stack_with_max
 
-.PHONY : cpp/CMakeFiles/Stack_with_max.dir/build
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/build
 
-cpp/CMakeFiles/Stack_with_max.dir/requires: cpp/CMakeFiles/Stack_with_max.dir/Stack_with_max.cpp.o.requires
+cpp/CMakeFiles/stack_with_max.dir/requires: cpp/CMakeFiles/stack_with_max.dir/stack_with_max.cpp.o.requires
 
-.PHONY : cpp/CMakeFiles/Stack_with_max.dir/requires
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/requires
 
-cpp/CMakeFiles/Stack_with_max.dir/clean:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/Stack_with_max.dir/cmake_clean.cmake
-.PHONY : cpp/CMakeFiles/Stack_with_max.dir/clean
+cpp/CMakeFiles/stack_with_max.dir/clean:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp && $(CMAKE_COMMAND) -P CMakeFiles/stack_with_max.dir/cmake_clean.cmake
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/clean
 
-cpp/CMakeFiles/Stack_with_max.dir/depend:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/Stack_with_max.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : cpp/CMakeFiles/Stack_with_max.dir/depend
+cpp/CMakeFiles/stack_with_max.dir/depend:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/skull/Programming/Interview/epicode-master /Users/skull/Programming/Interview/epicode-master/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp /Users/skull/Programming/Interview/epicode-master/cmake-build-debug/cpp/CMakeFiles/stack_with_max.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/depend
 

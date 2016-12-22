@@ -5,12 +5,12 @@
 
 #include <memory>
 
-#include "./Linked_list_prototype.h"
+#include "Linked_list_prototype.h"
 
 // @include
-shared_ptr<ListNode<int>> HasCycle(const shared_ptr<ListNode<int>>& head)
+shared_ptr<List_node<int>> HasCycle(const shared_ptr<List_node<int>>& head)
 {
-    shared_ptr<ListNode<int>> fast = head, slow = head;
+    shared_ptr<List_node<int>> fast = head, slow = head;
 
     while (fast && fast->next) {
         slow = slow->next, fast = fast->next->next;
