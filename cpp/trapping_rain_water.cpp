@@ -78,7 +78,7 @@ int CheckAnswer(const vector<int>& A)
     return sum;
 }
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 0, 3, 2, 5, 0, 1};
     assert(CalculateTrappingWater(A) == 3);
@@ -88,7 +88,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 10000; ++times) {
         int n;

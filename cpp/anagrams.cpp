@@ -22,7 +22,7 @@ using std::unordered_set;
 using std::vector;
 
 // @include
-vector<vector<string>> FindAnagrams(const vector<string>& dictionary)
+vector<vector<string>> find_anagrams(const vector<string>& dictionary)
 {
     unordered_map<string, vector<string>> sorted_string_to_anagrams;
     for (const string& s : dictionary) {
@@ -45,7 +45,8 @@ vector<vector<string>> FindAnagrams(const vector<string>& dictionary)
 
 string rand_string(int len)
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     string ret;
     while (len--) {
         uniform_int_distribution<int> dis('a', 'z');
@@ -63,7 +64,7 @@ void small_test()
                         "the eyes",
                         "they see",
                         "THL"};
-    auto result = FindAnagrams(D);
+    auto result = find_anagrams(D);
     // 3 nontrivial groups:
     // {"debit card", "bad credit"},
     // {"the morse code", "here come dots"}
@@ -76,7 +77,8 @@ void small_test()
 int main(int argc, char* argv[])
 {
     small_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     vector<string> dictionary;
     uniform_int_distribution<int> n_dis(0, 99999);
     int n = n_dis(gen);
@@ -88,6 +90,6 @@ int main(int argc, char* argv[])
     for (const string& s : table) {
         dictionary.emplace_back(s);
     }
-    FindAnagrams(dictionary);
+    find_anagrams(dictionary);
     return 0;
 }

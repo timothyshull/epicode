@@ -52,7 +52,7 @@ vector<int> PostorderTraversal(const unique_ptr<Binary_tree_node<int>>& tree)
                 path.pop();
             }
         } else {
-            // Finished traversing left and right, so visit curr.
+            // finished traversing left and right, so visit curr.
             postorder_sequence.emplace_back(curr->data);
             path.pop();
         }

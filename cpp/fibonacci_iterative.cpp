@@ -29,7 +29,7 @@ int Fibonacci(int n)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     assert(Fibonacci(10) == 55);
     assert(Fibonacci(0) == 0);
@@ -40,7 +40,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     int n;
     if (argc == 2) {
         n = atoi(argv[1]);

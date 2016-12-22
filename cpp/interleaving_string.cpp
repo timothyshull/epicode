@@ -68,7 +68,7 @@ string RandString(int len)
     return ret;
 }
 
-void SmallTest()
+void small_test()
 {
     assert(IsInterleavingString("aabcc", "dbbca", "aadbbcbcac"));
     assert(!IsInterleavingString("aabcc", "dbbca", "aadbbbaccc"));
@@ -78,7 +78,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     if (argc == 4) {
         string s1 = argv[1], s2 = argv[2], s3 = argv[3];
         cout << s1 << " " << s2 << " " << s3 << "\n";

@@ -115,8 +115,8 @@ int main(int argc, char* argv[])
             cout << "\n";
         }
         cout << MaxSquareSubmatrix(A) << "\n";
-        cout << CheckAns(A) << "\n";
-        assert(CheckAns(A) == MaxSquareSubmatrix(A));
+        cout << check_ans(A) << "\n";
+        assert(check_ans(A) == MaxSquareSubmatrix(A));
     }
     return 0;
 }

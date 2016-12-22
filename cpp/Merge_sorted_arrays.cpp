@@ -17,7 +17,7 @@ using std::random_device;
 using std::uniform_int_distribution;
 using std::vector;
 
-void SimpleTest()
+void simple_test()
 {
     vector<vector<int>> S = {
             {1, 5,  10},

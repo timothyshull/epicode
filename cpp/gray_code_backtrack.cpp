@@ -63,14 +63,14 @@ bool DiffersByOneBit(int x, int y)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     auto vec = GrayCode(3);
     vector<int> expected = {0, 1, 3, 2, 6, 7, 5, 4};
     assert(equal(vec.begin(), vec.end(), expected.begin(), expected.end()));
 }
 
-void CheckAns(const vector<int>& A)
+void check_ans(const vector<int>& A)
 {
     for (size_t i = 0; i < A.size(); ++i) {
         int num_differ_bits = 0;
@@ -87,7 +87,7 @@ void CheckAns(const vector<int>& A)
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {
@@ -101,6 +101,6 @@ int main(int argc, char** argv)
     for (int a : vec) {
         cout << a << "\n";
     }
-    CheckAns(vec);
+    check_ans(vec);
     return 0;
 }

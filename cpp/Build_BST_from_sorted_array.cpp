@@ -52,7 +52,7 @@ void TraversalCheck(const unique_ptr<BSTNode<T>>& tree, T* target)
     }
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {1, 2, 3, 4};
     unique_ptr<BSTNode<int>> result = BuildMinHeightBSTFromSortedArray(A);

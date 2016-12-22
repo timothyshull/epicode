@@ -41,7 +41,7 @@ double FindMedianSortedCircularLinkedList(
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     shared_ptr<List_node<int>> L = make_shared<List_node<int>>(
             List_node<int>{0, make_shared<List_node<int>>(List_node<int>{
@@ -55,7 +55,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n;

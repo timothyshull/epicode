@@ -49,7 +49,7 @@ void DirectedPowerSet(const vector<int>& input_set, int to_be_selected,
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<vector<int>> golden_result = {{0, 1, 2},
                                          {0, 1},

@@ -20,7 +20,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-int FindBiggestNMinusOneProduct(const vector<int>& A)
+int find_biggest_n_minus_one_product(const vector<int>& A)
 {
     // Builds suffix products.
     vector<int> suffix_products(A.size());
@@ -39,7 +39,7 @@ int FindBiggestNMinusOneProduct(const vector<int>& A)
 // @exclude
 
 // n^2 checking.
-int CheckAns(const vector<int>& A)
+int check_ans(const vector<int>& A)
 {
     int max_product = numeric_limits<int>::min();
     for (int i = 0; i < A.size(); ++i) {
@@ -59,7 +59,8 @@ int CheckAns(const vector<int>& A)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 10000; ++times) {
         int n;
         vector<int> A;
@@ -75,8 +76,8 @@ int main(int argc, char* argv[])
             cout << A[i] << ' ';
         }
         cout << "\n";
-        int res = FindBiggestNMinusOneProduct(A);
-        assert(res == CheckAns(A));
+        int res = find_biggest_n_minus_one_product(A);
+        assert(res == check_ans(A));
         cout << res << "\n";
     }
     return 0;

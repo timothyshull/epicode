@@ -190,7 +190,7 @@ static void SimpleTestKthLargest()
     }
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> C = {9, 5};
     assert(9 == FindKthLargest(1, &C));
@@ -297,7 +297,7 @@ int main(int argc, char* argv[])
     SimpleTestKthLargest();
     SimpleTestKthSmallest();
     ComplexRandomTest();
-    cout << "Finished ComplexRandomTest()" << "\n";
+    cout << "finished ComplexRandomTest()" << "\n";
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n, k;

@@ -82,7 +82,7 @@ int main(int argc, char* argv[])
         /*
         copy(A.cbegin(), A.cend(), ostream_iterator<int>(cout, " "));
         cout << "\n";
-        cout << FindFirstMissingPositive(A) << " " << CheckAns(A) << "\n";
+        cout << FindFirstMissingPositive(A) << " " << check_ans(A) << "\n";
         */
         assert(FindFirstMissingPositive(A) == CheckAns(A));
     }

@@ -68,7 +68,7 @@ void OnlineMedian(istringstream* sequence)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     istringstream sequence("5 4 3 2 1");
     OnlineMedian(&sequence);
@@ -100,7 +100,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int num;
     if (argc == 2) {

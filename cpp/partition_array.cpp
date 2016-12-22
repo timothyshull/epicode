@@ -68,7 +68,7 @@ string RandString(int len)
     return ret;
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<Person> people = {Person({20, "foo"}), Person({10, "bar"}),
                              Person({20, "widget"}), Person({20, "something"})};

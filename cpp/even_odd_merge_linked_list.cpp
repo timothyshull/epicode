@@ -71,7 +71,7 @@ shared_ptr<List_node<int>> EvenOddMerge(const shared_ptr<List_node<int>>& L)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     auto L = make_shared<List_node<int>>(List_node<int>{0, nullptr});
     auto result = EvenOddMerge(L);

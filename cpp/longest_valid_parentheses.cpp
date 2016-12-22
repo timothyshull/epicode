@@ -36,7 +36,7 @@ int LongestValidParentheses(const string& s)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     assert(LongestValidParentheses(")(((())()(()(") == 6);
     assert(LongestValidParentheses("((())()(()(") == 6);
@@ -48,7 +48,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     string s;
     if (argc == 2) {
         s = argv[1];

@@ -16,7 +16,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-int BinarySearchUnknownLength(const vector<int>& A, int k)
+int binary_search_unknown_length(const vector<int>& A, int k)
 {
     // Find the possible range where k exists.
     int p = 0;
@@ -54,19 +54,19 @@ int BinarySearchUnknownLength(const vector<int>& A, int k)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 2, 3};
-    assert(BinarySearchUnknownLength(A, 3) == 2);
-    assert(BinarySearchUnknownLength(A, 1) == 0);
-    assert(BinarySearchUnknownLength(A, 2) == 1);
-    assert(BinarySearchUnknownLength(A, 4) == -1);
-    assert(BinarySearchUnknownLength(A, -1) == -1);
+    assert(binary_search_unknown_length(A, 3) == 2);
+    assert(binary_search_unknown_length(A, 1) == 0);
+    assert(binary_search_unknown_length(A, 2) == 1);
+    assert(binary_search_unknown_length(A, 4) == -1);
+    assert(binary_search_unknown_length(A, -1) == -1);
 }
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     int n, k;
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
@@ -90,7 +90,7 @@ int main(int argc, char* argv[])
         }
         sort(A.begin(), A.end());
         cout << n << ' ' << k << "\n";
-        int idx = BinarySearchUnknownLength(A, k);
+        int idx = binary_search_unknown_length(A, k);
         cout << idx << "\n";
         assert((idx == -1 && !binary_search(A.cbegin(), A.cend(), k)) ||
                A[idx] == k);

@@ -29,7 +29,7 @@ shared_ptr<List_node<int>> RemoveDuplicates(
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     shared_ptr<List_node<int>> L = nullptr;
     auto result = RemoveDuplicates(L);

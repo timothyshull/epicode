@@ -31,7 +31,7 @@ int SmallestNonconstructibleValue(vector<int> A)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 2, 3, 4};
     assert(11 == SmallestNonconstructibleValue(A));
@@ -53,7 +53,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

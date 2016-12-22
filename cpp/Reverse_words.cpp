@@ -54,7 +54,7 @@ void CheckAnswer(const string& ori, string* str)
     assert(ori.compare(*str) == 0);
 }
 
-void SimpleTest()
+void simple_test()
 {
     string input = "a cat and dog";
     ReverseWords(&input);

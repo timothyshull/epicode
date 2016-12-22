@@ -39,7 +39,7 @@ bool TestCollatzConjecture(int n)
                 if (!verified_numbers.emplace(test_i).second) {
                     break;  // test_i has already been verified to converge to 1.
                 }
-                long next_test_i = 3 * test_i + 1;  // Multiply by 3 and add 1.
+                long next_test_i = 3 * test_i + 1;  // multiply by 3 and add 1.
                 if (next_test_i <= test_i) {
                     throw overflow_error("Collatz sequence overflow for " +
                                          to_string(i));

@@ -85,7 +85,7 @@ string CreateStreamingString(const vector<Star>& stars)
     return s;
 }
 
-void SimpleTest()
+void simple_test()
 {
     vector<Star> stars;
     stars.emplace_back((Star{1, 2, 3}));

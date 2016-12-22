@@ -50,7 +50,7 @@ void CheckAns(const vector<int>& gallons, const vector<int>& distances,
     } while (s != c);
 }
 
-void SmallTest()
+void small_test()
 {
     // Example in the book.
     vector<int> gallons = {20, 15, 15, 15, 35, 25, 30, 15, 65, 45, 10, 45, 25};
@@ -65,7 +65,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n;

@@ -60,7 +60,7 @@ bool MatchAllWordsInDict(const string& s,
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     string s = "barfoothefoobarman";
     auto result = FindAllSubstrings(s, {"foo", "bar"});
@@ -72,6 +72,6 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     return 0;
 }

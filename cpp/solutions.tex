@@ -4265,7 +4265,7 @@ Thread $T$ in turn launches another thread, $S$, which calls
 The call to \texttt{execute} in $S$
 is wrapped in a try-catch \texttt{InterruptedException} loop;
 if \texttt{execute} completes successfully,
-\texttt{ProcessResponse} is called on the result.
+\texttt{process_response} is called on the result.
 
 After launching $S$, $T$ sleeps for the timeout interval---when
 it wakes up, it interrupts $S$. If $S$ has completed, nothing happens; otherwise, the try-catch \texttt{InterruptedException} calls \texttt{error}.

@@ -14,7 +14,7 @@ using std::numeric_limits;
 using std::random_device;
 using std::uniform_int_distribution;
 
-void SimpleTest()
+void simple_test()
 {
     assert(SwapBits(47, 1, 4) == 61);
     assert(SwapBits(28, 0, 2) == 25);

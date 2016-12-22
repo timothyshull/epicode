@@ -16,7 +16,7 @@ using std::unordered_set;
 using std::vector;
 
 // @include
-int SearchEntryEqualToItsIndex(const vector<int>& A)
+int search_entry_equal_to_its_index(const vector<int>& A)
 {
     int left = 0;
     int right = A.size() - 1;
@@ -37,7 +37,7 @@ int SearchEntryEqualToItsIndex(const vector<int>& A)
 // @exclude
 
 // O(n) way to find ans.
-int CheckAns(const vector<int>& A)
+int check_ans(const vector<int>& A)
 {
     for (size_t i = 0; i < A.size(); ++i) {
         if (A[i] == static_cast<int>(i)) {
@@ -50,17 +50,17 @@ int CheckAns(const vector<int>& A)
 static void simple_test()
 {
     vector<int> A = {0, 1, 2, 3};
-    assert(-1 != SearchEntryEqualToItsIndex(A));
-    assert(0 <= SearchEntryEqualToItsIndex(A) &&
-           SearchEntryEqualToItsIndex(A) <= 3);
+    assert(-1 != search_entry_equal_to_its_index(A));
+    assert(0 <= search_entry_equal_to_its_index(A) &&
+                   search_entry_equal_to_its_index(A) <= 3);
     A[0] = -1;
     A[2] = 4;
     A[3] = 5;
-    assert(1 == SearchEntryEqualToItsIndex(A));
+    assert(1 == search_entry_equal_to_its_index(A));
     A = {0};
-    assert(-1 != SearchEntryEqualToItsIndex(A));
+    assert(-1 != search_entry_equal_to_its_index(A));
     A[0] = -1;
-    assert(-1 == SearchEntryEqualToItsIndex(A));
+    assert(-1 == search_entry_equal_to_its_index(A));
 }
 
 int main(int argc, char* argv[])
@@ -90,13 +90,13 @@ int main(int argc, char* argv[])
             A.emplace_back(x);
         }
         sort(A.begin(), A.end());
-        int ans = SearchEntryEqualToItsIndex(A);
+        int ans = search_entry_equal_to_its_index(A);
         if (ans != -1) {
             cout << "A[" << ans << "] = " << A[ans] << "\n";
             assert(ans == A[ans]);
         } else {
             cout << "no entry where A[k] = k" << "\n";
-            assert(ans == CheckAns(A));
+            assert(ans == check_ans(A));
         }
     }
     return 0;

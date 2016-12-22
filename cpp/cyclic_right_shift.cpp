@@ -42,7 +42,7 @@ shared_ptr<List_node<int>> CyclicallyRightShiftList(
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     shared_ptr<List_node<int>> L;
     L = make_shared<List_node<int>>(List_node<int>{1, nullptr});

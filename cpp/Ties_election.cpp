@@ -32,7 +32,7 @@ long TiesElection(const vector<int>& V)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> votes = {4, 5, 2, 7};
     assert(2 == TiesElection(votes));

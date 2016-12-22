@@ -121,7 +121,7 @@ int Greedy(const vector<int>& coins)
     return GreedyHelper(coins, 0, coins.size() - 1);
 }
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> coins = {25, 5, 10, 5, 10, 5, 10, 25,
                          1, 25, 1, 25, 1, 25, 5, 10};

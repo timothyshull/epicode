@@ -41,7 +41,7 @@ string tail(const string& file_name, int N)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     ofstream ofs("test_Tail.txt");
     string L1 = "The first line";
@@ -66,7 +66,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     cout << "Usage: file name and tail count" << "\n";
     int tail_count = 10;
     string file_name;

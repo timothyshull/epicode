@@ -15,15 +15,15 @@ using std::stoi;
 using std::uniform_int_distribution;
 using std::vector;
 
-int SearchSmallestHelper(const vector<int>&, int, int);
+int search_smallest_helper(const vector<int>&, int, int);
 
 // @include
-int SearchSmallest(const vector<int>& A)
+int search_smallest(const vector<int>& A)
 {
-    return SearchSmallestHelper(A, 0, A.size() - 1);
+    return search_smallest_helper(A, 0, A.size() - 1);
 }
 
-int SearchSmallestHelper(const vector<int>& A, int left, int right)
+int search_smallest_helper(const vector<int>& A, int left, int right)
 {
     if (left == right) {
         return left;
@@ -31,17 +31,17 @@ int SearchSmallestHelper(const vector<int>& A, int left, int right)
 
     int mid = left + ((right - left) / 2);
     if (A[mid] > A[right]) {
-        return SearchSmallestHelper(A, mid + 1, right);
+        return search_smallest_helper(A, mid + 1, right);
     } else if (A[mid] < A[right]) {
-        return SearchSmallestHelper(A, left, mid);
+        return search_smallest_helper(A, left, mid);
     } else {  // A[mid] == A[right].
         if (A[left] < A[mid]) {
             return left;
         }
         // We cannot eliminate either side so we compare the results from both
         // sides.
-        int left_result = SearchSmallestHelper(A, left, mid);
-        int right_result = SearchSmallestHelper(A, mid + 1, right);
+        int left_result = search_smallest_helper(A, left, mid);
+        int right_result = search_smallest_helper(A, mid + 1, right);
         if (A[left_result] != A[right_result]) {
             return A[right_result] < A[left_result] ? right_result : left_result;
         }
@@ -51,41 +51,42 @@ int SearchSmallestHelper(const vector<int>& A, int left, int right)
 // @exclude
 
 // Hand-made tests
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {3, 1, 2};
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
     A = {0, 2, 4, 8};
-    assert(0 == SearchSmallest(A));
+    assert(0 == search_smallest(A));
     A = {16, 2, 4, 8};
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
 
     A = {100, 2, 5, 5};
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
     A = {1, 2, 3, 3, 3};
-    assert(0 == SearchSmallest(A));
+    assert(0 == search_smallest(A));
     A = {5, 2, 3, 3, 3};
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
     A = {5, 5, 2, 2, 2, 3, 3, 3};
-    assert(2 == SearchSmallest(A));
+    assert(2 == search_smallest(A));
     A = {0, 0, 4, 0};
-    assert(3 == SearchSmallest(A));
+    assert(3 == search_smallest(A));
     A = {-1, 0, 0, 0, 0};
-    assert(0 == SearchSmallest(A));
+    assert(0 == search_smallest(A));
     A = {0, -1, 0, 0, 0};
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
     A = {0, 0, -1, 0, 0};
-    assert(2 == SearchSmallest(A));
+    assert(2 == search_smallest(A));
     A = {0, 0, 0, -1, 0};
-    assert(3 == SearchSmallest(A));
+    assert(3 == search_smallest(A));
     A = {0, 0, 0, 0, -1};
-    assert(4 == SearchSmallest(A));
+    assert(4 == search_smallest(A));
 }
 
 int main(int argc, char* argv[])
 {
     simple_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 10000; ++times) {
         int n;
         if (argc == 2) {
@@ -109,7 +110,7 @@ int main(int argc, char* argv[])
         }
         cout << "\n";
         */
-        assert((shift + 1) % n == SearchSmallest(A));
+        assert((shift + 1) % n == search_smallest(A));
     }
     return 0;
 }

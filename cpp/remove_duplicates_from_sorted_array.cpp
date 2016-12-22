@@ -41,7 +41,7 @@ void CheckAns(const vector<int>& A, size_t n)
     }
 }
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {2, 3, 5, 5, 7, 11, 11, 11, 13};
     assert(6 == DeleteDuplicates(&A));
@@ -49,7 +49,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     size_t n;
     if (argc == 2) {

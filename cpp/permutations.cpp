@@ -28,7 +28,7 @@ vector<vector<int>> Permutations(vector<int> A)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 2, 3};
     auto result = Permutations(A);
@@ -47,7 +47,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     size_t n;
     if (argc == 2) {

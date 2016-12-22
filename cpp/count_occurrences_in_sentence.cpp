@@ -49,7 +49,7 @@ string RandString(int len)
     return ret;
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     CountOccurrences("foo bar! ABA A");
     assert(char_to_count['f'] == 1);

@@ -64,7 +64,7 @@ unique_ptr<Binary_tree_node<int>> BinaryTreeFromPreorderInorderHelper(
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     auto res = BinaryTreeFromPreorderInorder({1}, {1});
     assert(res->data == 1);

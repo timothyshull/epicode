@@ -44,7 +44,7 @@ private:
 };
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     Queue Q;
     Q.Enqueue(11);

@@ -34,7 +34,7 @@ vector<vector<int>> GeneratePowerSet(const vector<int>& input_set)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<vector<int>> golden_result = {{},
                                          {0},

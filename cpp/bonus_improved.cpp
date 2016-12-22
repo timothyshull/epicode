@@ -57,27 +57,27 @@ vector<int> CalculateBonus(const vector<int>& productivity)
 // @exclude
 
 template<typename T>
-bool EqualVector(const vector<T>& A, const vector<T>& B)
+bool equal_vector(const vector<T>& A, const vector<T>& B)
 {
     return equal(A.begin(), A.end(), B.begin(), B.end());
 }
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 2, 2};
     vector<int> golden_A = {1, 2, 1};
-    assert(EqualVector(CalculateBonus(A), golden_A));
+    assert(equal_vector(CalculateBonus(A), golden_A));
     A = {1, 2, 3, 2, 1};
     golden_A = {1, 2, 3, 2, 1};
-    assert(EqualVector(CalculateBonus(A), golden_A));
+    assert(equal_vector(CalculateBonus(A), golden_A));
     A = {300, 400, 500, 200};
     golden_A = {1, 2, 3, 1};
-    assert(EqualVector(CalculateBonus(A), golden_A));
+    assert(equal_vector(CalculateBonus(A), golden_A));
 }
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n;

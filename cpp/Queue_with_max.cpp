@@ -50,7 +50,7 @@ private:
 };
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     QueueWithMax Q;
     Q.Enqueue(11);

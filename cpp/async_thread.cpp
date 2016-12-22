@@ -23,44 +23,44 @@ class Requestor {
 public:
     Requestor(const string& request, int delay) : req_(request), delay_(delay) {}
 
-    string Finished() { return "response:" + req_; }
+    string finished() { return "response:" + req_; }
 
-    string Error() { return "response:" + req_ + ":TIMEDOUT"; }
+    string error() { return "response:" + req_ + ":TIMEDOUT"; }
 
     // @include
-    string Execute()
+    string execute()
     {
         try {
             // simulate the time taken to perform a computation
             sleep_for(delay_);
         } catch (const thread_interrupted&) {
-            return Error();
+            return error();
         }
-        return Finished();
+        return finished();
     }
     // @exclude
 
-    void ProcessResponse(const string& response)
+    void process_response(const string& response)
     {
-        cout << "ProcessResponse:" << response << "\n";
+        cout << "process_response:" << response << "\n";
     }
 
     // @include
-    void ActualTask()
+    void actual_task()
     {
-        const string& response = Execute();
-        ProcessResponse(response);
+        const string& response = execute();
+        process_response(response);
     }
 
-    void Task()
+    void task()
     {
-        scoped_thread<> inner_thread(&Requestor::ActualTask, this);
+        scoped_thread<> inner_thread(&Requestor::actual_task, this);
         if (!inner_thread.try_join_for(TIMEOUT)) {
             inner_thread.interrupt();
         }
     }
 
-    void Dispatch() { thread_ = scoped_thread<>(&Requestor::Task, this); }
+    void dispatch() { thread_ = scoped_thread<>(&Requestor::task, this); }
 
     // @exclude
 private:
@@ -74,14 +74,14 @@ private:
 int main(int argc, char* argv[])
 {
     Requestor r1("t1", 1000);
-    r1.Dispatch();
+    r1.dispatch();
     Requestor r2("t2", 100);
-    r2.Dispatch();
+    r2.dispatch();
     Requestor r3("t3", 10);
-    r3.Dispatch();
+    r3.dispatch();
     Requestor r4("t4", 1);
-    r4.Dispatch();
+    r4.dispatch();
     Requestor r5("t5", 2);
-    r5.Dispatch();
+    r5.dispatch();
     return 0;
 }

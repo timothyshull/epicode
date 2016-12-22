@@ -81,7 +81,7 @@ int CheckAnswer(const string& s)
     return max_length;
 }
 
-void SmallTest()
+void small_test()
 {
     assert(LongestValidParentheses(")(((())()(()(") == 6);
     assert(LongestValidParentheses("((())()(()(") == 6);
@@ -104,7 +104,7 @@ string RandString(int length)
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     if (argc == 2) {
         string s = argv[1];
         cout << "s = " << s << "\n";

@@ -40,7 +40,7 @@ int MinimizeDifference(const vector<int>& A)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     // The example in the book.
     vector<int> A = {65, 35, 245, 195, 65, 150, 275, 155,
@@ -50,7 +50,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     vector<int> A;

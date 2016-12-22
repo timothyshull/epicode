@@ -52,7 +52,7 @@ vector<int> ShortestAdditionChain(int n)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     auto res = ShortestAdditionChain(88);
     vector<int> golden_res = {1, 2, 3, 4, 7, 11, 22, 44, 88};
@@ -65,7 +65,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

@@ -88,7 +88,7 @@ string RandString(int len)
     return ret;
 }
 
-void SimpleTest()
+void simple_test()
 {
     ofstream ofs("scores.txt");
     ofs << "adnan 100";

@@ -71,7 +71,7 @@ string RandString(int len)
     return ret;
 }
 
-void SimpleTest()
+void simple_test()
 {
     ofstream ofs("/tmp/logs.txt");
     ofs << "a A" << "\n";

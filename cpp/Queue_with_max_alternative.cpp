@@ -11,7 +11,7 @@ using std::endl;
 using std::exception;
 using std::numeric_limits;
 
-void SimpleTest()
+void simple_test()
 {
     QueueWithMaxAlternative::QueueWithMax<int> Q;
     Q.Enqueue(11);

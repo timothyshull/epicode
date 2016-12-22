@@ -58,7 +58,7 @@ int FindMaxSimultaneousEvents(const vector<Event>& A)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<Event> A = {{1,  5},
                        {2,  7},

@@ -50,7 +50,7 @@ bool IsIntersect(const Rectangle& R1, const Rectangle& R2)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     Rectangle R1 = {0, 0, 2, 2}, R2 = {1, 1, 3, 3};
     auto result = IntersectRectangle(R1, R2);
@@ -68,7 +68,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     for (int times = 0; times < 10000; ++times) {
         Rectangle R1, R2;
         if (argc == 9) {

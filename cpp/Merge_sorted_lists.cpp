@@ -19,7 +19,7 @@ using std::random_device;
 using std::stoi;
 using std::uniform_int_distribution;
 
-void SimpleTest()
+void simple_test()
 {
     shared_ptr<List_node<int>> L1 = nullptr;
     shared_ptr<List_node<int>> L2 = nullptr;

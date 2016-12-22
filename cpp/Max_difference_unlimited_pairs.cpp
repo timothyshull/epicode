@@ -28,7 +28,7 @@ int MaxProfitUnlimitedPairs(const vector<int>& A)
 }
 // @exclude
 
-int CheckAns(const vector<int>& A)
+int check_ans(const vector<int>& A)
 {
     int profit = 0;
 
@@ -52,9 +52,9 @@ int main(int argc, char* argv[])
             A.emplace_back(dis(gen));
         }
         cout << "n = " << n << "\n";
-        cout << CheckAns(A) << "\n";
+        cout << check_ans(A) << "\n";
         cout << MaxProfitUnlimitedPairs(A) << "\n";
-        assert(CheckAns(A) == MaxProfitUnlimitedPairs(A));
+        assert(check_ans(A) == MaxProfitUnlimitedPairs(A));
     }
 
     // For input

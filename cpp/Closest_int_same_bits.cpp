@@ -41,7 +41,7 @@ int CountBitsSetTo1(unsigned long x)
     return count;
 }
 
-void SmallTest()
+void small_test()
 {
     assert(ClosestIntSameBitCount(6) == 5);
     assert(ClosestIntSameBitCount(7) == 11);
@@ -66,7 +66,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     unsigned long x;
     if (argc == 2) {

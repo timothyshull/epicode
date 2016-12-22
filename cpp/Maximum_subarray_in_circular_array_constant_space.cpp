@@ -41,7 +41,7 @@ int FindOptimumSubarrayUsingComp(const vector<int>& A,
 // @exclude
 
 // O(n^2) solution.
-int CheckAns(const vector<int>& A)
+int check_ans(const vector<int>& A)
 {
     int ans = 0;
     for (int i = 0; i < A.size(); ++i) {
@@ -84,7 +84,7 @@ int main(int argc, char* argv[])
         }
         //*/
         cout << "\n" << "maximum sum = " << ans << "\n";
-        assert(ans == CheckAns(A));
+        assert(ans == check_ans(A));
     }
     return 0;
 }

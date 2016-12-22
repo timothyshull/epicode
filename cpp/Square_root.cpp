@@ -55,7 +55,7 @@ Ordering Compare(double a, double b)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     assert(Compare(SquareRoot(1.0), sqrt(1.0) == EQUAL));
     assert(Compare(SquareRoot(2.0), sqrt(2.0) == EQUAL));

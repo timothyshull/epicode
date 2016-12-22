@@ -44,7 +44,7 @@ vector<int> SortKIncreasingDecreasingArray(const vector<int>& A)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> A = {1, 2, 3, 2, 1, 4, 5, 10, 9, 4, 4, 1, -1};
     auto ans = SortKIncreasingDecreasingArray(A);

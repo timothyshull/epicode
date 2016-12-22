@@ -37,7 +37,7 @@ int GetMaxTrappedWater(const vector<int>& heights)
 // @exclude
 
 // O(n^2) checking answer.
-int CheckAns(const vector<int>& heights)
+int check_ans(const vector<int>& heights)
 {
     int res = 0;
     for (size_t i = 0; i < heights.size(); ++i) {
@@ -48,7 +48,7 @@ int CheckAns(const vector<int>& heights)
     return res;
 }
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 2, 1, 3, 4, 4, 5, 6, 2, 1, 3, 1, 3, 2, 1, 2, 4, 1};
     assert(48 == GetMaxTrappedWater(A));
@@ -56,7 +56,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         size_t n;
@@ -70,7 +70,7 @@ int main(int argc, char** argv)
         vector<int> heights;
         generate_n(back_inserter(heights), n, [&] { return dis_1000(gen); });
         cout << GetMaxTrappedWater(heights) << "\n";
-        assert(GetMaxTrappedWater(heights) == CheckAns(heights));
+        assert(GetMaxTrappedWater(heights) == check_ans(heights));
     }
     return 0;
 }

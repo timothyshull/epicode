@@ -47,7 +47,7 @@ int CountCombinationsAlt(int total_score, const vector<int>& score_ways)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> score_ways = {2, 3, 7};
     int c12 = CountCombinations(12, score_ways);

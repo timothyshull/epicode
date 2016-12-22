@@ -35,7 +35,7 @@ double FindSalaryCap(double target_payroll, vector<double> current_salaries)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<double> A = {20, 30, 40, 90, 100};
     double T = 210;
@@ -50,7 +50,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 10000; ++times) {
         int n;

@@ -34,7 +34,7 @@ int NumCombinationsForFinalScore(int final_score,
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> individual_play_scores = {2, 3, 7};
     assert(4 == NumCombinationsForFinalScore(12, individual_play_scores));

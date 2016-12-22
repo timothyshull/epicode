@@ -68,8 +68,7 @@ void simple_test()
     assert(is_letter_constructible_from_magazine("123", "1123"));
     assert(is_letter_constructible_from_magazine("123", "123"));
     assert(!is_letter_constructible_from_magazine("12323", "123"));
-    assert(
-            is_letter_constructible_from_magazine("GATTACA", "A AD FS GA T ACA TTT"));
+    assert(is_letter_constructible_from_magazine("GATTACA", "A AD FS GA T ACA TTT"));
     assert(!is_letter_constructible_from_magazine("a", ""));
     assert(is_letter_constructible_from_magazine("aa", "aa"));
     assert(is_letter_constructible_from_magazine("aa", "aaa"));
@@ -80,7 +79,8 @@ void simple_test()
 int main(int argc, char* argv[])
 {
     simple_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     string L, M;
     if (argc == 3) {
         L = argv[1], M = argv[2];

@@ -42,7 +42,7 @@ void Insert(int val, stack<int>* S)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     stack<int> S;
     S.push(1);

@@ -97,7 +97,7 @@ void MarkBoundaryRegion(int i, int j, const vector<vector<char>>& board,
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<vector<char>> A = {{'B', 'B', 'B', 'B'},
                               {'W', 'B', 'W', 'B'},

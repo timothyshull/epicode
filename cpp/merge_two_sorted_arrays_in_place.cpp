@@ -28,7 +28,7 @@ void MergeTwoSortedArrays(int A[], int m, int B[], int n)
 }
 // @exclude
 
-void CheckAns(const vector<int>& A)
+void check_ans(const vector<int>& A)
 {
     for (size_t i = 1; i < A.size(); ++i) {
         assert(A[i - 1] <= A[i]);
@@ -54,7 +54,7 @@ int main(int argc, char** argv)
         generate_n(back_inserter(B), n, [&] { return dis(gen); });
         sort(A.begin(), A.begin() + m), sort(B.begin(), B.end());
         MergeTwoSortedArrays(A.data(), m, B.data(), n);
-        CheckAns(A);
+        check_ans(A);
     }
     return 0;
 }

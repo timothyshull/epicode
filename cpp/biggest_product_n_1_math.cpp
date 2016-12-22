@@ -16,7 +16,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-int FindBiggestNMinusOneProduct(const vector<int>& A)
+int find_biggest_n_minus_one_product(const vector<int>& A)
 {
     int least_nonnegative_idx = -1;
     int number_of_negatives = 0, greatest_negative_idx = -1,
@@ -78,7 +78,8 @@ int check_ans(const vector<int>& A)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 100000; ++times) {
         int n;
         vector<int> A;
@@ -94,7 +95,7 @@ int main(int argc, char* argv[])
             cout << A[i] << ' ';
         }
         cout << "\n";
-        int res = FindBiggestNMinusOneProduct(A);
+        int res = find_biggest_n_minus_one_product(A);
         cout << res << "\n";
         assert(res == check_ans(A));
     }

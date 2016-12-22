@@ -39,7 +39,7 @@ vector<int> MatrixInSpiralOrder(vector<vector<int>> square_matrix)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<vector<int>> A = {{1, 2, 3},
                              {4, 5, 6},

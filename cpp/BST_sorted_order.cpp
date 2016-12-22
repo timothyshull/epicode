@@ -40,7 +40,7 @@ vector<int> BSTInSortedOrder(const unique_ptr<BSTNode<int>>& tree)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     unique_ptr<BSTNode<int>> tree =
             make_unique<BSTNode<int>>(BSTNode<int>{43, nullptr});

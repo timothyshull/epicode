@@ -28,11 +28,11 @@ int MinimumTotalWaitingTime(vector<int> service_times)
 }
 // @exclude
 
-void SmallTest() { assert(10 == MinimumTotalWaitingTime({5, 1, 2, 3})); }
+void small_test() { assert(10 == MinimumTotalWaitingTime({5, 1, 2, 3})); }
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

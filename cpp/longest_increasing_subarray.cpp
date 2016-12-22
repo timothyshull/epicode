@@ -48,7 +48,7 @@ Subarray FindLongestIncreasingSubarray(const vector<int>& A)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     auto ans = FindLongestIncreasingSubarray({-1, -1});
     assert(ans.start == 0 && ans.end == 0);

@@ -51,7 +51,7 @@ vector<int> RandVector(size_t len)
     return A;
 }
 
-void SmallTest()
+void small_test()
 {
     auto result = PlusOne({9, 9});
     assert(result.size() == 3 && result[0] == 1 && result[1] == 0 &&
@@ -63,7 +63,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     size_t n;
     if (argc == 2) {

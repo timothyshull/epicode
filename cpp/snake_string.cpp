@@ -44,14 +44,14 @@ string RandString(size_t len)
     return result;
 }
 
-void SmallTest()
+void small_test()
 {
     assert(!SnakeString("Hello World!").compare("e lHloWrdlo!"));
 }
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     string s;
     if (argc == 2) {

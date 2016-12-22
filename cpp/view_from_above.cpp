@@ -87,7 +87,7 @@ vector<LineSegment> CalculateViewFromAbove(const vector<LineSegment>& A)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<LineSegment> A = {LineSegment{1, 2, 0, 1}, LineSegment{3, 4, 0, 1}};
     auto result = CalculateViewFromAbove(A);

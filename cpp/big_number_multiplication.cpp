@@ -23,7 +23,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-vector<int> Multiply(vector<int> num1, vector<int> num2)
+vector<int> multiply(vector<int> num1, vector<int> num2)
 {
     const int sign = num1.front() < 0 ^ num2.front() < 0 ? -1 : 1;
     num1.front() = abs(num1.front()), num2.front() = abs(num2.front());
@@ -70,20 +70,20 @@ vector<int> rand_vector(int len)
     return ret;
 }
 
-bool EqualVector(const vector<int>& A, const vector<int>& B)
+bool equal_vector(const vector<int>& A, const vector<int>& B)
 {
     return equal(A.begin(), A.end(), B.begin(), B.end());
 }
 
-void SimpleTest()
+void simple_test()
 {
-    assert(EqualVector(Multiply({0}, {-1, 0, 0, 0}), {0}));
-    assert(EqualVector(Multiply({0}, {1, 0, 0, 0}), {0}));
-    assert(EqualVector(Multiply({9}, {9}), {8, 1}));
-    assert(EqualVector(Multiply({9}, {9, 9, 9, 9}), {8, 9, 9, 9, 1}));
-    assert(EqualVector(Multiply({1, 3, 1, 4, 1, 2}, {-1, 3, 1, 3, 3, 3, 2}),
-                       {-1, 7, 2, 5, 8, 7, 5, 8, 4, 7, 8, 4}));
-    assert(EqualVector(Multiply({7, 3}, {-3}), {-2, 1, 9}));
+    assert(equal_vector(multiply({0}, {-1, 0, 0, 0}), {0}));
+    assert(equal_vector(multiply({0}, {1, 0, 0, 0}), {0}));
+    assert(equal_vector(multiply({9}, {9}), {8, 1}));
+    assert(equal_vector(multiply({9}, {9, 9, 9, 9}), {8, 9, 9, 9, 1}));
+    assert(equal_vector(multiply({1, 3, 1, 4, 1, 2}, {-1, 3, 1, 3, 3, 3, 2}),
+                        {-1, 7, 2, 5, 8, 7, 5, 8, 4, 7, 8, 4}));
+    assert(equal_vector(multiply({7, 3}, {-3}), {-2, 1, 9}));
 }
 
 string VectorToString(const vector<int>& A)
@@ -100,7 +100,7 @@ int main(int argc, char* argv[])
         default_random_engine gen((random_device()) ());
         uniform_int_distribution<int> dis(0, 19);
         vector<int> num1 = rand_vector(dis(gen)), num2 = rand_vector(dis(gen));
-        auto res = Multiply(num1, num2);
+        auto res = multiply(num1, num2);
         cout << VectorToString(num1) << " * " << VectorToString(num2) << " = "
              << VectorToString(res) << "\n";
         string command = "bash -c 'bc <<<" + VectorToString(num1) + "*" +

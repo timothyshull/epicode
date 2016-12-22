@@ -81,7 +81,7 @@ void CheckAnswer(const vector<T>& A, int ans, const T& k)
     }
 }
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {1, 1};
     int k = 0;
@@ -94,7 +94,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n, k;

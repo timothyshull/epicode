@@ -66,7 +66,7 @@ bool SearchTarget(const unique_ptr<BSTNode<int>>& from,
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     auto root = make_unique<BSTNode<int>>(BSTNode<int>{5});
     assert(!PairIncludesAncestorAndDescendantOfM(root, root, root));
@@ -107,7 +107,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     //      3
     //    2   5
     //  1    4 6

@@ -99,7 +99,7 @@ IndexPair FindPositiveNegativePair(const vector<int>& A, int k)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {0, 0, -1, 2, -3, -3};
     IndexPair ans = FindPairSumK(A, 2);

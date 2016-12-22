@@ -48,7 +48,7 @@ void PopulateLowerLevelNextField(Binary_tree_node<int>* start_node)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     //      3
     //    2   5

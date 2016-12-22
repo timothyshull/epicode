@@ -35,7 +35,7 @@ int SquareRoot(int k)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     assert(SquareRoot(0) == 0);
     assert(SquareRoot(1) == 1);

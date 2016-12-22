@@ -11,7 +11,7 @@ using std::cout;
 using std::endl;
 using std::make_shared;
 
-void SimpleTest()
+void simple_test()
 {
     shared_ptr<List_node<int>> L0 =
             make_shared<List_node<int>>(List_node<int>{42, nullptr});

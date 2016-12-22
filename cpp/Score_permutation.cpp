@@ -28,7 +28,7 @@ int CountPermutations(int k, const vector<int>& score_ways)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     int k = 12;
     vector<int> score_ways = {2, 3, 7};

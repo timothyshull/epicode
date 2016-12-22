@@ -67,7 +67,7 @@ unsigned Divide(unsigned x, unsigned y)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     assert(Divide(64, 1) == 64);
     assert(Divide(64, 2) == 32);

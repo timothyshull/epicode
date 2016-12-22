@@ -36,7 +36,7 @@ bool CheckSymmetric(const unique_ptr<Binary_tree_node<int>>& subtree_0,
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     auto symm_tree = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>());
     assert(IsSymmetric(symm_tree));

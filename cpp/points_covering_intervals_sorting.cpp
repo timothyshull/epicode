@@ -69,7 +69,7 @@ void CheckAns(const vector<Interval>& intervals, const vector<int>& ans)
     }
 }
 
-void SimpleTest()
+void simple_test()
 {
     vector<Interval> intervals = {Interval{1, 4}, Interval{2, 8},
                                   Interval{3, 6}, Interval{3, 5},

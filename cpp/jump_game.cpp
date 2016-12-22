@@ -30,7 +30,7 @@ bool CanReachEnd(const vector<int>& max_advance_steps)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<int> max_advance_steps = {2, 3, 1, 1, 4};
     assert(CanReachEnd(max_advance_steps));
@@ -46,7 +46,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     return 0;
     default_random_engine gen((random_device()) ());
     size_t n;

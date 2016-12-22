@@ -113,7 +113,7 @@ T CheckAnswer(const vector<T>& A, const vector<T>& B, int k)
     return ret;
 }
 
-void SmallTest()
+void small_test()
 {
     // AA: handwritten test
     vector<int> A0;
@@ -135,7 +135,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     // Random test 10000 times.
     for (int times = 0; times < 10000; ++times) {

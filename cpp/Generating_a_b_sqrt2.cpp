@@ -72,7 +72,7 @@ vector<ABSqrt2> Golden(int k)
     return smallest;
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<ABSqrt2> ans = GenerateFirstKABSqrt2(8);
     assert(0.0 == ans[0].val);

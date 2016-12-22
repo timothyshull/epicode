@@ -33,7 +33,7 @@ void GenPreorderWithNull(const unique_ptr<Binary_tree_node<T>>& n,
     GenPreorderWithNull(n->right, p);
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     int A[] = {1, 2, 3};
     vector<int*> preorder = {A, nullptr, nullptr};

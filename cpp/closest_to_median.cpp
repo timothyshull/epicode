@@ -82,7 +82,7 @@ void CheckAns(vector<int> A, const vector<int>& res, int k)
     }
 }
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> D = {3, 2, 3, 5, 7, 3, 1};
     vector<int> Dres = FindKClosestToMedian(D, 3);

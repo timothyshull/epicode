@@ -34,7 +34,7 @@ int SSDecodeColID(const string& col)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     assert(1 == SSDecodeColID("A"));
     assert(2 == SSDecodeColID("B"));

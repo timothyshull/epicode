@@ -51,7 +51,7 @@ void CheckAns(const vector<Name>& A)
     }
 }
 
-void SmallTest()
+void small_test()
 {
     vector<Name> A = {{"Foo", "Bar"},
                       {"ABC", "XYZ"},
@@ -62,7 +62,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n;
@@ -78,7 +78,7 @@ int main(int argc, char* argv[])
             A.emplace_back(Name{to_string(dis(gen)), to_string(dis(gen))});
         }
         EliminateDuplicate(&A);
-        CheckAns(A);
+        check_ans(A);
     }
     return 0;
 }

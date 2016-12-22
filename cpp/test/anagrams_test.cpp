@@ -23,7 +23,7 @@ void unit_test(TestSentry::Ptr& sentry, const char* description,
     stream->RegisterExpectedOutput(expected);
 
     try {
-        vector<vector<string>> result = FindAnagrams(input);
+        vector<vector<string>> result = find_anagrams(input);
 
         for (auto& group : result) {
             sort(group.begin(), group.end());

@@ -58,7 +58,7 @@ int MinimumMessiness(const vector<string>& words, int line_length)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     assert(MinimumMessiness({"aaa", "bbb", "c", "d", "ee", "ff", "gggggg"},
                             11) == 45);
@@ -67,7 +67,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n, L;
     if (argc == 2) {

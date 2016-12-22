@@ -57,7 +57,7 @@ static void SimpleTestArray(vector<int> A)
     }
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {5, 6, 2, 1, 3, 0, 4};
     SimpleTestArray(A);

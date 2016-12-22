@@ -38,7 +38,7 @@ shared_ptr<List_node<int>> ReverseSublist(shared_ptr<List_node<int>> L,
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     shared_ptr<List_node<int>> L = nullptr;
     auto result = ReverseSublist(L, 0, 0);

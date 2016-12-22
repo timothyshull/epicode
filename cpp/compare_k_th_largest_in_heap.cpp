@@ -41,7 +41,7 @@ void CompareKthLargestHeapHelper(const vector<int>& max_heap, int k, int x,
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<int> max_heap = {10, 2, 9, 2, 2, 8, 8, 2, 2, 2, 2, 7, 7, 7, 7};
     assert(LARGER == CompareKthLargestHeap(max_heap, 3, 2));  // kth is larger.
@@ -50,7 +50,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     //      5
     //    4  5
     //  4  4 4 3

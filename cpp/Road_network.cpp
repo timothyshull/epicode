@@ -77,7 +77,7 @@ void FloydWarshall(vector<vector<double>>* G)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<HighwaySection> H = {HighwaySection{0, 1, 10},
                                 HighwaySection{1, 2, 10},

@@ -37,7 +37,7 @@ vector<vector<int>> GeneratePascalTriangle(int num_rows)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     auto result = GeneratePascalTriangle(3);
     vector<vector<int>> golden_result = {{1},
@@ -49,7 +49,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

@@ -90,7 +90,7 @@ Subarray FindSmallestSequentiallyCoveringSubset(
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<string> A3 = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
                          "2", "4", "6", "10", "10", "10", "3", "2", "1", "0"};
@@ -101,7 +101,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n;

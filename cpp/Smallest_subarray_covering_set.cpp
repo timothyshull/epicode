@@ -78,7 +78,7 @@ void SimpleTestCase(const vector<string>& A, const vector<string>& dict,
     assert(res2.start == start && res2.end == finish);
 }
 
-void SimpleTest()
+void simple_test()
 {
     vector<string> A = {"a", "b", "c", "b", "a", "d", "c",
                         "a", "e", "a", "a", "b", "e"};

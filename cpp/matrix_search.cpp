@@ -34,7 +34,7 @@ bool MatrixSearch(const vector<vector<int>>& A, int x)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<vector<int>> A = {{1}};
     assert(!MatrixSearch(A, 0));

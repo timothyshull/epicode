@@ -85,7 +85,7 @@ string RandString(size_t len)
     return ret;
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     auto result = PalindromePartitioning("abbbac");
     vector<string> v0 = {"a", "b", "b", "b", "a", "c"};

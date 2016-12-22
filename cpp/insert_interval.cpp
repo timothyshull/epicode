@@ -60,7 +60,7 @@ void CheckIntervals(const vector<Interval>& result)
     }
 }
 
-void SmallTest()
+void small_test()
 {
     vector<Interval> A = {{1, 5}};
     Interval new_one = {0, 3};
@@ -76,7 +76,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         size_t n;

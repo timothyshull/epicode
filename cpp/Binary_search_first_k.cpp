@@ -17,7 +17,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-int SearchFirstOfK(const vector<int>& A, int k)
+int search_first_of_k(const vector<int>& A, int k)
 {
     int left = 0, right = A.size() - 1, result = -1;
     // [left : right] is the candidate set.
@@ -37,31 +37,31 @@ int SearchFirstOfK(const vector<int>& A, int k)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {0, 1, 2, 3, 4, 5, 6, 7};
     int k = 4;
-    assert(0 == SearchFirstOfK(A, 0));
-    assert(1 == SearchFirstOfK(A, 1));
-    assert(4 == SearchFirstOfK(A, 4));
-    assert(6 == SearchFirstOfK(A, 6));
-    assert(7 == SearchFirstOfK(A, 7));
-    assert(-1 == SearchFirstOfK(A, 8));
-    assert(-1 == SearchFirstOfK(A, numeric_limits<int>::min()));
+    assert(0 == search_first_of_k(A, 0));
+    assert(1 == search_first_of_k(A, 1));
+    assert(4 == search_first_of_k(A, 4));
+    assert(6 == search_first_of_k(A, 6));
+    assert(7 == search_first_of_k(A, 7));
+    assert(-1 == search_first_of_k(A, 8));
+    assert(-1 == search_first_of_k(A, numeric_limits<int>::min()));
     A[0] = 1;
-    assert(0 == SearchFirstOfK(A, 1));
+    assert(0 == search_first_of_k(A, 1));
     A[5] = 4;
     A[6] = 4;
-    assert(4 == SearchFirstOfK(A, 4));
+    assert(4 == search_first_of_k(A, 4));
     A = {1, 1, 1, 1, 1, 2};
-    assert(-1 == SearchFirstOfK(A, 0));
-    assert(0 == SearchFirstOfK(A, 1));
-    assert(5 == SearchFirstOfK(A, 2));
+    assert(-1 == search_first_of_k(A, 0));
+    assert(0 == search_first_of_k(A, 1));
+    assert(5 == search_first_of_k(A, 2));
     A[4] = 2;
-    assert(4 == SearchFirstOfK(A, 2));
+    assert(4 == search_first_of_k(A, 2));
 }
 
-int SearchFirstOfKAlternative(const vector<int>& A, int k)
+int search_first_of_k_alternative(const vector<int>& A, int k)
 {
     auto result = lower_bound(A.begin(), A.end(), k);
     if (*result == k) {
@@ -72,7 +72,8 @@ int SearchFirstOfKAlternative(const vector<int>& A, int k)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int n;
         if (argc == 2) {
@@ -89,8 +90,8 @@ int main(int argc, char* argv[])
             A.emplace_back(dis(gen));
         }
         sort(A.begin(), A.end());
-        int ans = SearchFirstOfK(A, k);
-        assert(SearchFirstOfKAlternative(A, k) == ans);
+        int ans = search_first_of_k(A, k);
+        assert(search_first_of_k_alternative(A, k) == ans);
         cout << "k = " << k << " locates at " << ans << "\n";
         if (ans != -1) {
             cout << "A[k] = " << A[ans] << "\n";

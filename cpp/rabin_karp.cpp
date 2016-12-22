@@ -81,7 +81,7 @@ string RandString(int len)
     return ret;
 }
 
-void SimpleTest()
+void simple_test()
 {
     assert(RabinKarp("GACGCCA", "CGC") == 2);
     assert(RabinKarp("GATACCCATCGAGTCGGATCGAGT", "GAG") == 10);

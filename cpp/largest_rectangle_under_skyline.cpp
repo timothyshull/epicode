@@ -35,7 +35,7 @@ int CheckAnswer(const vector<int>& A)
     return max;
 }
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {2, 3, 4, 1, 2};
     int area = CalculateLargestRectangle(A);
@@ -51,7 +51,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 3000; ++times) {
         vector<int> A;

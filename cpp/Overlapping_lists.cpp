@@ -66,7 +66,7 @@ int Distance(shared_ptr<List_node<int>> a, shared_ptr<List_node<int>> b)
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     shared_ptr<List_node<int>> L1, L2;
     // L1: 1->2->3->4->5->6-
@@ -97,7 +97,7 @@ void SmallTest()
 
 int main(int argc, char* argv[])
 {
-    SmallTest();
+    small_test();
     shared_ptr<List_node<int>> L1, L2;
     // L1: 1->2->3->null
     L1 = make_shared<List_node<int>>(List_node<int>{

@@ -47,7 +47,7 @@ MinMax FindMinMax(const vector<int>& A)
 }
 // @exclude
 
-static void SimpleTest()
+static void simple_test()
 {
     vector<int> A = {-1, 3, -4, 6, 4, 10, 4, 4, 9};
     auto res = FindMinMax(A);

@@ -77,7 +77,7 @@ void CheckAns(const vector<Interval>& intervals, const vector<int>& ans)
     }
 }
 
-void SimpleTest()
+void simple_test()
 {
     vector<Interval> intervals;
     intervals.emplace_back(Interval{1, 4});

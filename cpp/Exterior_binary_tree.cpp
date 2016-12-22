@@ -91,7 +91,7 @@ list<int> CreateOutputList(
     return output;
 }
 
-void SimpleTest(void)
+void simple_test(void)
 {
     // The example in the book.
     vector<int> A = {314, 6, 271, 28, 0, 561, 3, 17,

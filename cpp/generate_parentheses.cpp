@@ -53,7 +53,7 @@ void DirectedGenerateBalancedParentheses(int num_left_parens_needed,
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     auto result = GenerateBalancedParentheses(1);
     assert(result.size() == 1 && !result.front().compare("()"));
@@ -66,7 +66,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

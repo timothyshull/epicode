@@ -16,7 +16,7 @@ using std::unordered_set;
 using std::vector;
 
 // @include
-int SearchSmallest(const vector<int>& A)
+int search_smallest(const vector<int>& A)
 {
     int left = 0, right = A.size() - 1;
     while (left < right) {
@@ -34,26 +34,27 @@ int SearchSmallest(const vector<int>& A)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> A = {3, 1, 2};
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
     A = {0, 2, 4, 8};
-    assert(0 == SearchSmallest(A));
+    assert(0 == search_smallest(A));
     A[0] = 16;
-    assert(1 == SearchSmallest(A));
+    assert(1 == search_smallest(A));
     A = {2, 3, 4};
-    assert(0 == SearchSmallest(A));
+    assert(0 == search_smallest(A));
     A = {100, 101, 102, 2, 5};
-    assert(3 == SearchSmallest(A));
+    assert(3 == search_smallest(A));
     A = {10, 20, 30, 40, 5};
-    assert(4 == SearchSmallest(A));
+    assert(4 == search_smallest(A));
 }
 
 int main(int argc, char* argv[])
 {
     simple_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int n;
         if (argc == 2) {
@@ -86,7 +87,7 @@ int main(int argc, char* argv[])
            }
            cout << "\n";
          */
-        assert((shift + 1) % n == SearchSmallest(A));
+        assert((shift + 1) % n == search_smallest(A));
     }
     return 0;
 }

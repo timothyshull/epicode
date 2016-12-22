@@ -45,7 +45,7 @@ int LongestSubarrayWithDistinctEntries(const vector<int>& A)
 // @exclude
 
 // O(n^2) checking solution.
-int CheckAns(const vector<int>& A)
+int check_ans(const vector<int>& A)
 {
     size_t len = 0;
     for (size_t i = 0; i < A.size(); ++i) {
@@ -61,7 +61,7 @@ int CheckAns(const vector<int>& A)
     return len;
 }
 
-void SimpleTest()
+void simple_test()
 {
     assert(1 == LongestSubarrayWithDistinctEntries({1, 1, 1}));
     assert(2 == LongestSubarrayWithDistinctEntries({1, 2, 1}));
@@ -92,7 +92,7 @@ int main(int argc, char** argv)
         cout << "\n";
         */
         int ans = LongestSubarrayWithDistinctEntries(A);
-        int golden_ans = CheckAns(A);
+        int golden_ans = check_ans(A);
         cout << ans << " " << golden_ans << "\n";
         assert(ans == golden_ans);
     }

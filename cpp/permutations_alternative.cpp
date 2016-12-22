@@ -45,7 +45,7 @@ void DirectedPermutations(int i, vector<int>* A_ptr,
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     vector<int> A = {0, 1, 2};
     auto result = Permutations(A);
@@ -64,7 +64,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

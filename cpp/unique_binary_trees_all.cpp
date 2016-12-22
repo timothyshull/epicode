@@ -53,7 +53,7 @@ unique_ptr<Binary_tree_node<int>> Clone(
 }
 // @exclude
 
-void SmallTest()
+void small_test()
 {
     assert(GenerateAllBinaryTrees(1).size() == 1);
     assert(GenerateAllBinaryTrees(2).size() == 2);
@@ -65,7 +65,7 @@ void SmallTest()
 
 int main(int argc, char** argv)
 {
-    SmallTest();
+    small_test();
     default_random_engine gen((random_device()) ());
     int n;
     if (argc == 2) {

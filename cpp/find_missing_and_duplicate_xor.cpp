@@ -57,7 +57,7 @@ DuplicateAndMissing FindDuplicateMissing(const vector<int>& A)
 }
 // @exclude
 
-void SimpleTest()
+void simple_test()
 {
     vector<int> A = {0, 1, 2, 4, 5, 6, 6};
     auto ans = FindDuplicateMissing(A);

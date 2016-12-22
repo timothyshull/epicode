@@ -75,7 +75,7 @@ vector<string> ToTextRepresentation(const vector<int>& col_placement)
     return sol;
 }
 
-static void SimpleTest()
+static void simple_test()
 {
     auto result = NQueens(2);
     assert(0 == result.size());
