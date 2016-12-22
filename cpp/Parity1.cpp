@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-#include "Parity1.h"
+#include "parity1.h"
 #include "test/test_options.h"
 
 using std::cout;

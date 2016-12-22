@@ -7,8 +7,8 @@
 #include <random>
 #include <string>
 
-#include "Linked_list_prototype.h"
-#include "Merge_sorted_lists.h"
+#include "linked_list_prototype.h"
+#include "merge_sorted_lists.h"
 
 using std::cout;
 using std::default_random_engine;

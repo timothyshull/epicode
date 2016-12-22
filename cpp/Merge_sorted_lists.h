@@ -3,7 +3,7 @@
 #ifndef SOLUTIONS_MERGE_SORTED_LISTS_H_
 #define SOLUTIONS_MERGE_SORTED_LISTS_H_
 
-#include "Linked_list_prototype.h"
+#include "linked_list_prototype.h"
 
 void AppendNode(shared_ptr<List_node<int>>*, shared_ptr<List_node<int>>*);
 

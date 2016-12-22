@@ -6,7 +6,7 @@
 #include <random>
 #include <stdexcept>
 
-#include "Linked_list_prototype.h"
+#include "linked_list_prototype.h"
 
 using std::cout;
 using std::default_random_engine;

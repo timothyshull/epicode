@@ -6,7 +6,7 @@
 #include <random>
 #include <vector>
 
-#include "BST_prototype.h"
+#include "bst_prototype.h"
 
 using std::cout;
 using std::default_random_engine;

@@ -4,8 +4,8 @@
 #include <iostream>
 #include <memory>
 
-#include "Linked_list_prototype.h"
-#include "Merge_sorted_lists.h"  // uses AppendNode().
+#include "linked_list_prototype.h"
+#include "merge_sorted_lists.h"  // uses AppendNode().
 
 using std::cout;
 using std::endl;

@@ -136,7 +136,7 @@ int main(int argc, char* argv[])
             A.emplace_back(Interval{left, right});
         }
         vector<int> ans(FindMinimumVisits(A));
-        CheckAns(A, ans);
+        check_ans(A, ans);
     }
     return 0;
 }

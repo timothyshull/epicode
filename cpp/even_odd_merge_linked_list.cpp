@@ -6,7 +6,7 @@
 #include <memory>
 #include <random>
 
-#include "Linked_list_prototype.h"
+#include "linked_list_prototype.h"
 
 using std::array;
 using std::cout;

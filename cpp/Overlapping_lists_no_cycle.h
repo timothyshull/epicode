@@ -3,7 +3,7 @@
 #ifndef SOLUTIONS_OVERLAPPING_LISTS_NO_CYCLE_H_
 #define SOLUTIONS_OVERLAPPING_LISTS_NO_CYCLE_H_
 
-#include "Linked_list_prototype.h"
+#include "linked_list_prototype.h"
 
 int Length(shared_ptr<List_node<int>> L);
 

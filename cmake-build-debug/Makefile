@@ -293,6 +293,32 @@ anagramstest/fast:
 .PHONY : anagramstest/fast
 
 #=============================================================================
+# Target rules for targets named thread_per_task_webserver
+
+# Build rule for target.
+thread_per_task_webserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 thread_per_task_webserver
+.PHONY : thread_per_task_webserver
+
+# fast build rule for target.
+thread_per_task_webserver/fast:
+	$(MAKE) -f cpp/CMakeFiles/thread_per_task_webserver.dir/build.make cpp/CMakeFiles/thread_per_task_webserver.dir/build
+.PHONY : thread_per_task_webserver/fast
+
+#=============================================================================
+# Target rules for targets named zipping_list
+
+# Build rule for target.
+zipping_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 zipping_list
+.PHONY : zipping_list
+
+# fast build rule for target.
+zipping_list/fast:
+	$(MAKE) -f cpp/CMakeFiles/zipping_list.dir/build.make cpp/CMakeFiles/zipping_list.dir/build
+.PHONY : zipping_list/fast
+
+#=============================================================================
 # Target rules for targets named zigzag_conversion
 
 # Build rule for target.
@@ -306,19 +332,6 @@ zigzag_conversion/fast:
 .PHONY : zigzag_conversion/fast
 
 #=============================================================================
-# Target rules for targets named word_breaking_alternative
-
-# Build rule for target.
-word_breaking_alternative: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 word_breaking_alternative
-.PHONY : word_breaking_alternative
-
-# fast build rule for target.
-word_breaking_alternative/fast:
-	$(MAKE) -f cpp/CMakeFiles/word_breaking_alternative.dir/build.make cpp/CMakeFiles/word_breaking_alternative.dir/build
-.PHONY : word_breaking_alternative/fast
-
-#=============================================================================
 # Target rules for targets named word_breaking
 
 # Build rule for target.
@@ -330,6 +343,19 @@ word_breaking: cmake_check_build_system
 word_breaking/fast:
 	$(MAKE) -f cpp/CMakeFiles/word_breaking.dir/build.make cpp/CMakeFiles/word_breaking.dir/build
 .PHONY : word_breaking/fast
+
+#=============================================================================
+# Target rules for targets named word_breaking_alternative
+
+# Build rule for target.
+word_breaking_alternative: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 word_breaking_alternative
+.PHONY : word_breaking_alternative
+
+# fast build rule for target.
+word_breaking_alternative/fast:
+	$(MAKE) -f cpp/CMakeFiles/word_breaking_alternative.dir/build.make cpp/CMakeFiles/word_breaking_alternative.dir/build
+.PHONY : word_breaking_alternative/fast
 
 #=============================================================================
 # Target rules for targets named word_breaking_2
@@ -371,30 +397,56 @@ view_sunset/fast:
 .PHONY : view_sunset/fast
 
 #=============================================================================
-# Target rules for targets named search_majority
+# Target rules for targets named view_from_above
 
 # Build rule for target.
-search_majority: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 search_majority
-.PHONY : search_majority
+view_from_above: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 view_from_above
+.PHONY : view_from_above
 
 # fast build rule for target.
-search_majority/fast:
-	$(MAKE) -f cpp/CMakeFiles/search_majority.dir/build.make cpp/CMakeFiles/search_majority.dir/build
-.PHONY : search_majority/fast
+view_from_above/fast:
+	$(MAKE) -f cpp/CMakeFiles/view_from_above.dir/build.make cpp/CMakeFiles/view_from_above.dir/build
+.PHONY : view_from_above/fast
 
 #=============================================================================
-# Target rules for targets named valid_ip_address_recursive
+# Target rules for targets named valid_parentheses
 
 # Build rule for target.
-valid_ip_address_recursive: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 valid_ip_address_recursive
-.PHONY : valid_ip_address_recursive
+valid_parentheses: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 valid_parentheses
+.PHONY : valid_parentheses
 
 # fast build rule for target.
-valid_ip_address_recursive/fast:
-	$(MAKE) -f cpp/CMakeFiles/valid_ip_address_recursive.dir/build.make cpp/CMakeFiles/valid_ip_address_recursive.dir/build
-.PHONY : valid_ip_address_recursive/fast
+valid_parentheses/fast:
+	$(MAKE) -f cpp/CMakeFiles/valid_parentheses.dir/build.make cpp/CMakeFiles/valid_parentheses.dir/build
+.PHONY : valid_parentheses/fast
+
+#=============================================================================
+# Target rules for targets named valid_palindrome
+
+# Build rule for target.
+valid_palindrome: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 valid_palindrome
+.PHONY : valid_palindrome
+
+# fast build rule for target.
+valid_palindrome/fast:
+	$(MAKE) -f cpp/CMakeFiles/valid_palindrome.dir/build.make cpp/CMakeFiles/valid_palindrome.dir/build
+.PHONY : valid_palindrome/fast
+
+#=============================================================================
+# Target rules for targets named valid_number
+
+# Build rule for target.
+valid_number: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 valid_number
+.PHONY : valid_number
+
+# fast build rule for target.
+valid_number/fast:
+	$(MAKE) -f cpp/CMakeFiles/valid_number.dir/build.make cpp/CMakeFiles/valid_number.dir/build
+.PHONY : valid_number/fast
 
 #=============================================================================
 # Target rules for targets named update_bst
@@ -410,43 +462,30 @@ update_bst/fast:
 .PHONY : update_bst/fast
 
 #=============================================================================
-# Target rules for targets named longest_valid_parentheses
+# Target rules for targets named unique_binary_trees_all
 
 # Build rule for target.
-longest_valid_parentheses: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longest_valid_parentheses
-.PHONY : longest_valid_parentheses
+unique_binary_trees_all: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unique_binary_trees_all
+.PHONY : unique_binary_trees_all
 
 # fast build rule for target.
-longest_valid_parentheses/fast:
-	$(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses.dir/build.make cpp/CMakeFiles/longest_valid_parentheses.dir/build
-.PHONY : longest_valid_parentheses/fast
+unique_binary_trees_all/fast:
+	$(MAKE) -f cpp/CMakeFiles/unique_binary_trees_all.dir/build.make cpp/CMakeFiles/unique_binary_trees_all.dir/build
+.PHONY : unique_binary_trees_all/fast
 
 #=============================================================================
-# Target rules for targets named sorted_list_to_bst
+# Target rules for targets named uniform_random_number_generation
 
 # Build rule for target.
-sorted_list_to_bst: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sorted_list_to_bst
-.PHONY : sorted_list_to_bst
+uniform_random_number_generation: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 uniform_random_number_generation
+.PHONY : uniform_random_number_generation
 
 # fast build rule for target.
-sorted_list_to_bst/fast:
-	$(MAKE) -f cpp/CMakeFiles/sorted_list_to_bst.dir/build.make cpp/CMakeFiles/sorted_list_to_bst.dir/build
-.PHONY : sorted_list_to_bst/fast
-
-#=============================================================================
-# Target rules for targets named union_intervals
-
-# Build rule for target.
-union_intervals: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 union_intervals
-.PHONY : union_intervals
-
-# fast build rule for target.
-union_intervals/fast:
-	$(MAKE) -f cpp/CMakeFiles/union_intervals.dir/build.make cpp/CMakeFiles/union_intervals.dir/build
-.PHONY : union_intervals/fast
+uniform_random_number_generation/fast:
+	$(MAKE) -f cpp/CMakeFiles/uniform_random_number_generation.dir/build.make cpp/CMakeFiles/uniform_random_number_generation.dir/build
+.PHONY : uniform_random_number_generation/fast
 
 #=============================================================================
 # Target rules for targets named triangle
@@ -475,43 +514,17 @@ tree_traversal/fast:
 .PHONY : tree_traversal/fast
 
 #=============================================================================
-# Target rules for targets named anagrams
+# Target rules for targets named tree_diameter
 
 # Build rule for target.
-anagrams: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 anagrams
-.PHONY : anagrams
+tree_diameter: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tree_diameter
+.PHONY : tree_diameter
 
 # fast build rule for target.
-anagrams/fast:
-	$(MAKE) -f cpp/CMakeFiles/anagrams.dir/build.make cpp/CMakeFiles/anagrams.dir/build
-.PHONY : anagrams/fast
-
-#=============================================================================
-# Target rules for targets named stack_with_max
-
-# Build rule for target.
-stack_with_max: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stack_with_max
-.PHONY : stack_with_max
-
-# fast build rule for target.
-stack_with_max/fast:
-	$(MAKE) -f cpp/CMakeFiles/stack_with_max.dir/build.make cpp/CMakeFiles/stack_with_max.dir/build
-.PHONY : stack_with_max/fast
-
-#=============================================================================
-# Target rules for targets named unique_binary_trees
-
-# Build rule for target.
-unique_binary_trees: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unique_binary_trees
-.PHONY : unique_binary_trees
-
-# fast build rule for target.
-unique_binary_trees/fast:
-	$(MAKE) -f cpp/CMakeFiles/unique_binary_trees.dir/build.make cpp/CMakeFiles/unique_binary_trees.dir/build
-.PHONY : unique_binary_trees/fast
+tree_diameter/fast:
+	$(MAKE) -f cpp/CMakeFiles/tree_diameter.dir/build.make cpp/CMakeFiles/tree_diameter.dir/build
+.PHONY : tree_diameter/fast
 
 #=============================================================================
 # Target rules for targets named transitive_closure
@@ -551,19 +564,6 @@ tournament_tree: cmake_check_build_system
 tournament_tree/fast:
 	$(MAKE) -f cpp/CMakeFiles/tournament_tree.dir/build.make cpp/CMakeFiles/tournament_tree.dir/build
 .PHONY : tournament_tree/fast
-
-#=============================================================================
-# Target rules for targets named view_from_above
-
-# Build rule for target.
-view_from_above: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 view_from_above
-.PHONY : view_from_above
-
-# fast build rule for target.
-view_from_above/fast:
-	$(MAKE) -f cpp/CMakeFiles/view_from_above.dir/build.make cpp/CMakeFiles/view_from_above.dir/build
-.PHONY : view_from_above/fast
 
 #=============================================================================
 # Target rules for targets named ties_election
@@ -631,6 +631,19 @@ sudoku_solve/fast:
 .PHONY : sudoku_solve/fast
 
 #=============================================================================
+# Target rules for targets named s1
+
+# Build rule for target.
+s1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 s1
+.PHONY : s1
+
+# fast build rule for target.
+s1/fast:
+	$(MAKE) -f cpp/CMakeFiles/s1.dir/build.make cpp/CMakeFiles/s1.dir/build
+.PHONY : s1/fast
+
+#=============================================================================
 # Target rules for targets named substring_with_concatenation_of_all_words
 
 # Build rule for target.
@@ -642,32 +655,6 @@ substring_with_concatenation_of_all_words: cmake_check_build_system
 substring_with_concatenation_of_all_words/fast:
 	$(MAKE) -f cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/build.make cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/build
 .PHONY : substring_with_concatenation_of_all_words/fast
-
-#=============================================================================
-# Target rules for targets named remove_duplicates_from_sorted_array
-
-# Build rule for target.
-remove_duplicates_from_sorted_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 remove_duplicates_from_sorted_array
-.PHONY : remove_duplicates_from_sorted_array
-
-# fast build rule for target.
-remove_duplicates_from_sorted_array/fast:
-	$(MAKE) -f cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build.make cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build
-.PHONY : remove_duplicates_from_sorted_array/fast
-
-#=============================================================================
-# Target rules for targets named subseq_cover
-
-# Build rule for target.
-subseq_cover: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 subseq_cover
-.PHONY : subseq_cover
-
-# fast build rule for target.
-subseq_cover/fast:
-	$(MAKE) -f cpp/CMakeFiles/subseq_cover.dir/build.make cpp/CMakeFiles/subseq_cover.dir/build
-.PHONY : subseq_cover/fast
 
 #=============================================================================
 # Target rules for targets named longest_increasing_subarray
@@ -800,6 +787,45 @@ sort_list/fast:
 .PHONY : sort_list/fast
 
 #=============================================================================
+# Target rules for targets named remove_duplicates_from_sorted_array
+
+# Build rule for target.
+remove_duplicates_from_sorted_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 remove_duplicates_from_sorted_array
+.PHONY : remove_duplicates_from_sorted_array
+
+# fast build rule for target.
+remove_duplicates_from_sorted_array/fast:
+	$(MAKE) -f cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build.make cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build
+.PHONY : remove_duplicates_from_sorted_array/fast
+
+#=============================================================================
+# Target rules for targets named subseq_cover
+
+# Build rule for target.
+subseq_cover: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 subseq_cover
+.PHONY : subseq_cover
+
+# fast build rule for target.
+subseq_cover/fast:
+	$(MAKE) -f cpp/CMakeFiles/subseq_cover.dir/build.make cpp/CMakeFiles/subseq_cover.dir/build
+.PHONY : subseq_cover/fast
+
+#=============================================================================
+# Target rules for targets named smart_pointers
+
+# Build rule for target.
+smart_pointers: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 smart_pointers
+.PHONY : smart_pointers
+
+# fast build rule for target.
+smart_pointers/fast:
+	$(MAKE) -f cpp/CMakeFiles/smart_pointers.dir/build.make cpp/CMakeFiles/smart_pointers.dir/build
+.PHONY : smart_pointers/fast
+
+#=============================================================================
 # Target rules for targets named rendering_calendar
 
 # Build rule for target.
@@ -837,6 +863,58 @@ shortest_path_fewest_edges: cmake_check_build_system
 shortest_path_fewest_edges/fast:
 	$(MAKE) -f cpp/CMakeFiles/shortest_path_fewest_edges.dir/build.make cpp/CMakeFiles/shortest_path_fewest_edges.dir/build
 .PHONY : shortest_path_fewest_edges/fast
+
+#=============================================================================
+# Target rules for targets named pascal_triangle_2
+
+# Build rule for target.
+pascal_triangle_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pascal_triangle_2
+.PHONY : pascal_triangle_2
+
+# fast build rule for target.
+pascal_triangle_2/fast:
+	$(MAKE) -f cpp/CMakeFiles/pascal_triangle_2.dir/build.make cpp/CMakeFiles/pascal_triangle_2.dir/build
+.PHONY : pascal_triangle_2/fast
+
+#=============================================================================
+# Target rules for targets named semaphore_gaurav
+
+# Build rule for target.
+semaphore_gaurav: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semaphore_gaurav
+.PHONY : semaphore_gaurav
+
+# fast build rule for target.
+semaphore_gaurav/fast:
+	$(MAKE) -f cpp/CMakeFiles/semaphore_gaurav.dir/build.make cpp/CMakeFiles/semaphore_gaurav.dir/build
+.PHONY : semaphore_gaurav/fast
+
+#=============================================================================
+# Target rules for targets named search_rotated_sorted_array
+
+# Build rule for target.
+search_rotated_sorted_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 search_rotated_sorted_array
+.PHONY : search_rotated_sorted_array
+
+# fast build rule for target.
+search_rotated_sorted_array/fast:
+	$(MAKE) -f cpp/CMakeFiles/search_rotated_sorted_array.dir/build.make cpp/CMakeFiles/search_rotated_sorted_array.dir/build
+.PHONY : search_rotated_sorted_array/fast
+
+#=============================================================================
+# Target rules for targets named two_thread_increment
+
+# Build rule for target.
+two_thread_increment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 two_thread_increment
+.PHONY : two_thread_increment
+
+# fast build rule for target.
+two_thread_increment/fast:
+	$(MAKE) -f cpp/CMakeFiles/two_thread_increment.dir/build.make cpp/CMakeFiles/two_thread_increment.dir/build
+.PHONY : two_thread_increment/fast
 
 #=============================================================================
 # Target rules for targets named search_min_first_bst
@@ -891,6 +969,19 @@ search_maze/fast:
 .PHONY : search_maze/fast
 
 #=============================================================================
+# Target rules for targets named search_insert_position_sorted_array
+
+# Build rule for target.
+search_insert_position_sorted_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 search_insert_position_sorted_array
+.PHONY : search_insert_position_sorted_array
+
+# fast build rule for target.
+search_insert_position_sorted_array/fast:
+	$(MAKE) -f cpp/CMakeFiles/search_insert_position_sorted_array.dir/build.make cpp/CMakeFiles/search_insert_position_sorted_array.dir/build
+.PHONY : search_insert_position_sorted_array/fast
+
+#=============================================================================
 # Target rules for targets named nonuniform_random_number_generation
 
 # Build rule for target.
@@ -943,30 +1034,43 @@ search_bst_first_larger_k/fast:
 .PHONY : search_bst_first_larger_k/fast
 
 #=============================================================================
-# Target rules for targets named search_rotated_sorted_array
+# Target rules for targets named union_intervals
 
 # Build rule for target.
-search_rotated_sorted_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 search_rotated_sorted_array
-.PHONY : search_rotated_sorted_array
+union_intervals: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 union_intervals
+.PHONY : union_intervals
 
 # fast build rule for target.
-search_rotated_sorted_array/fast:
-	$(MAKE) -f cpp/CMakeFiles/search_rotated_sorted_array.dir/build.make cpp/CMakeFiles/search_rotated_sorted_array.dir/build
-.PHONY : search_rotated_sorted_array/fast
+union_intervals/fast:
+	$(MAKE) -f cpp/CMakeFiles/union_intervals.dir/build.make cpp/CMakeFiles/union_intervals.dir/build
+.PHONY : union_intervals/fast
 
 #=============================================================================
-# Target rules for targets named search_insert_position_sorted_array
+# Target rules for targets named longest_valid_parentheses
 
 # Build rule for target.
-search_insert_position_sorted_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 search_insert_position_sorted_array
-.PHONY : search_insert_position_sorted_array
+longest_valid_parentheses: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longest_valid_parentheses
+.PHONY : longest_valid_parentheses
 
 # fast build rule for target.
-search_insert_position_sorted_array/fast:
-	$(MAKE) -f cpp/CMakeFiles/search_insert_position_sorted_array.dir/build.make cpp/CMakeFiles/search_insert_position_sorted_array.dir/build
-.PHONY : search_insert_position_sorted_array/fast
+longest_valid_parentheses/fast:
+	$(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses.dir/build.make cpp/CMakeFiles/longest_valid_parentheses.dir/build
+.PHONY : longest_valid_parentheses/fast
+
+#=============================================================================
+# Target rules for targets named sorted_list_to_bst
+
+# Build rule for target.
+sorted_list_to_bst: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 sorted_list_to_bst
+.PHONY : sorted_list_to_bst
+
+# fast build rule for target.
+sorted_list_to_bst/fast:
+	$(MAKE) -f cpp/CMakeFiles/sorted_list_to_bst.dir/build.make cpp/CMakeFiles/sorted_list_to_bst.dir/build
+.PHONY : sorted_list_to_bst/fast
 
 #=============================================================================
 # Target rules for targets named search_a_range_sorted_array
@@ -1019,6 +1123,32 @@ score_combination: cmake_check_build_system
 score_combination/fast:
 	$(MAKE) -f cpp/CMakeFiles/score_combination.dir/build.make cpp/CMakeFiles/score_combination.dir/build
 .PHONY : score_combination/fast
+
+#=============================================================================
+# Target rules for targets named coin_change
+
+# Build rule for target.
+coin_change: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 coin_change
+.PHONY : coin_change
+
+# fast build rule for target.
+coin_change/fast:
+	$(MAKE) -f cpp/CMakeFiles/coin_change.dir/build.make cpp/CMakeFiles/coin_change.dir/build
+.PHONY : coin_change/fast
+
+#=============================================================================
+# Target rules for targets named rw
+
+# Build rule for target.
+rw: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 rw
+.PHONY : rw
+
+# fast build rule for target.
+rw/fast:
+	$(MAKE) -f cpp/CMakeFiles/rw.dir/build.make cpp/CMakeFiles/rw.dir/build
+.PHONY : rw/fast
 
 #=============================================================================
 # Target rules for targets named number_ways_test
@@ -1084,6 +1214,19 @@ road_network: cmake_check_build_system
 road_network/fast:
 	$(MAKE) -f cpp/CMakeFiles/road_network.dir/build.make cpp/CMakeFiles/road_network.dir/build
 .PHONY : road_network/fast
+
+#=============================================================================
+# Target rules for targets named reverse_list_in_k_group
+
+# Build rule for target.
+reverse_list_in_k_group: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 reverse_list_in_k_group
+.PHONY : reverse_list_in_k_group
+
+# fast build rule for target.
+reverse_list_in_k_group/fast:
+	$(MAKE) -f cpp/CMakeFiles/reverse_list_in_k_group.dir/build.make cpp/CMakeFiles/reverse_list_in_k_group.dir/build
+.PHONY : reverse_list_in_k_group/fast
 
 #=============================================================================
 # Target rules for targets named 3_sum_closest
@@ -1162,19 +1305,6 @@ reverse_bits: cmake_check_build_system
 reverse_bits/fast:
 	$(MAKE) -f cpp/CMakeFiles/reverse_bits.dir/build.make cpp/CMakeFiles/reverse_bits.dir/build
 .PHONY : reverse_bits/fast
-
-#=============================================================================
-# Target rules for targets named reverse_list_in_k_group
-
-# Build rule for target.
-reverse_list_in_k_group: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 reverse_list_in_k_group
-.PHONY : reverse_list_in_k_group
-
-# fast build rule for target.
-reverse_list_in_k_group/fast:
-	$(MAKE) -f cpp/CMakeFiles/reverse_list_in_k_group.dir/build.make cpp/CMakeFiles/reverse_list_in_k_group.dir/build
-.PHONY : reverse_list_in_k_group/fast
 
 #=============================================================================
 # Target rules for targets named replace_and_remove
@@ -1333,6 +1463,32 @@ top_k/fast:
 .PHONY : top_k/fast
 
 #=============================================================================
+# Target rules for targets named n_queens
+
+# Build rule for target.
+n_queens: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 n_queens
+.PHONY : n_queens
+
+# fast build rule for target.
+n_queens/fast:
+	$(MAKE) -f cpp/CMakeFiles/n_queens.dir/build.make cpp/CMakeFiles/n_queens.dir/build
+.PHONY : n_queens/fast
+
+#=============================================================================
+# Target rules for targets named semaphore
+
+# Build rule for target.
+semaphore: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 semaphore
+.PHONY : semaphore
+
+# fast build rule for target.
+semaphore/fast:
+	$(MAKE) -f cpp/CMakeFiles/semaphore.dir/build.make cpp/CMakeFiles/semaphore.dir/build
+.PHONY : semaphore/fast
+
+#=============================================================================
 # Target rules for targets named add_two_number_list
 
 # Build rule for target.
@@ -1450,45 +1606,6 @@ rabin_karp/fast:
 .PHONY : rabin_karp/fast
 
 #=============================================================================
-# Target rules for targets named spreadsheet_encoding
-
-# Build rule for target.
-spreadsheet_encoding: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 spreadsheet_encoding
-.PHONY : spreadsheet_encoding
-
-# fast build rule for target.
-spreadsheet_encoding/fast:
-	$(MAKE) -f cpp/CMakeFiles/spreadsheet_encoding.dir/build.make cpp/CMakeFiles/spreadsheet_encoding.dir/build
-.PHONY : spreadsheet_encoding/fast
-
-#=============================================================================
-# Target rules for targets named queue_with_max_intro
-
-# Build rule for target.
-queue_with_max_intro: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 queue_with_max_intro
-.PHONY : queue_with_max_intro
-
-# fast build rule for target.
-queue_with_max_intro/fast:
-	$(MAKE) -f cpp/CMakeFiles/queue_with_max_intro.dir/build.make cpp/CMakeFiles/queue_with_max_intro.dir/build
-.PHONY : queue_with_max_intro/fast
-
-#=============================================================================
-# Target rules for targets named queue_with_max_alternative
-
-# Build rule for target.
-queue_with_max_alternative: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 queue_with_max_alternative
-.PHONY : queue_with_max_alternative
-
-# fast build rule for target.
-queue_with_max_alternative/fast:
-	$(MAKE) -f cpp/CMakeFiles/queue_with_max_alternative.dir/build.make cpp/CMakeFiles/queue_with_max_alternative.dir/build
-.PHONY : queue_with_max_alternative/fast
-
-#=============================================================================
 # Target rules for targets named surrounded_regions
 
 # Build rule for target.
@@ -1528,6 +1645,45 @@ queue_with_max/fast:
 .PHONY : queue_with_max/fast
 
 #=============================================================================
+# Target rules for targets named spreadsheet_encoding
+
+# Build rule for target.
+spreadsheet_encoding: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 spreadsheet_encoding
+.PHONY : spreadsheet_encoding
+
+# fast build rule for target.
+spreadsheet_encoding/fast:
+	$(MAKE) -f cpp/CMakeFiles/spreadsheet_encoding.dir/build.make cpp/CMakeFiles/spreadsheet_encoding.dir/build
+.PHONY : spreadsheet_encoding/fast
+
+#=============================================================================
+# Target rules for targets named queue_with_max_intro
+
+# Build rule for target.
+queue_with_max_intro: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue_with_max_intro
+.PHONY : queue_with_max_intro
+
+# fast build rule for target.
+queue_with_max_intro/fast:
+	$(MAKE) -f cpp/CMakeFiles/queue_with_max_intro.dir/build.make cpp/CMakeFiles/queue_with_max_intro.dir/build
+.PHONY : queue_with_max_intro/fast
+
+#=============================================================================
+# Target rules for targets named queue_with_max_alternative
+
+# Build rule for target.
+queue_with_max_alternative: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 queue_with_max_alternative
+.PHONY : queue_with_max_alternative
+
+# fast build rule for target.
+queue_with_max_alternative/fast:
+	$(MAKE) -f cpp/CMakeFiles/queue_with_max_alternative.dir/build.make cpp/CMakeFiles/queue_with_max_alternative.dir/build
+.PHONY : queue_with_max_alternative/fast
+
+#=============================================================================
 # Target rules for targets named is_palindromic
 
 # Build rule for target.
@@ -1552,19 +1708,6 @@ queue_from_stacks: cmake_check_build_system
 queue_from_stacks/fast:
 	$(MAKE) -f cpp/CMakeFiles/queue_from_stacks.dir/build.make cpp/CMakeFiles/queue_from_stacks.dir/build
 .PHONY : queue_from_stacks/fast
-
-#=============================================================================
-# Target rules for targets named tree_diameter
-
-# Build rule for target.
-tree_diameter: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tree_diameter
-.PHONY : tree_diameter
-
-# fast build rule for target.
-tree_diameter/fast:
-	$(MAKE) -f cpp/CMakeFiles/tree_diameter.dir/build.make cpp/CMakeFiles/tree_diameter.dir/build
-.PHONY : tree_diameter/fast
 
 #=============================================================================
 # Target rules for targets named print_linked_list_reverse_order
@@ -1630,6 +1773,19 @@ populating_next_right_pointers_any_binary_tree: cmake_check_build_system
 populating_next_right_pointers_any_binary_tree/fast:
 	$(MAKE) -f cpp/CMakeFiles/populating_next_right_pointers_any_binary_tree.dir/build.make cpp/CMakeFiles/populating_next_right_pointers_any_binary_tree.dir/build
 .PHONY : populating_next_right_pointers_any_binary_tree/fast
+
+#=============================================================================
+# Target rules for targets named polymorphism_problems
+
+# Build rule for target.
+polymorphism_problems: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polymorphism_problems
+.PHONY : polymorphism_problems
+
+# fast build rule for target.
+polymorphism_problems/fast:
+	$(MAKE) -f cpp/CMakeFiles/polymorphism_problems.dir/build.make cpp/CMakeFiles/polymorphism_problems.dir/build
+.PHONY : polymorphism_problems/fast
 
 #=============================================================================
 # Target rules for targets named task_assignment
@@ -1710,19 +1866,6 @@ planning_fishing/fast:
 .PHONY : planning_fishing/fast
 
 #=============================================================================
-# Target rules for targets named picking_up_coins_dont_lose
-
-# Build rule for target.
-picking_up_coins_dont_lose: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 picking_up_coins_dont_lose
-.PHONY : picking_up_coins_dont_lose
-
-# fast build rule for target.
-picking_up_coins_dont_lose/fast:
-	$(MAKE) -f cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build.make cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build
-.PHONY : picking_up_coins_dont_lose/fast
-
-#=============================================================================
 # Target rules for targets named online_sampling
 
 # Build rule for target.
@@ -1747,6 +1890,19 @@ picking_up_coins: cmake_check_build_system
 picking_up_coins/fast:
 	$(MAKE) -f cpp/CMakeFiles/picking_up_coins.dir/build.make cpp/CMakeFiles/picking_up_coins.dir/build
 .PHONY : picking_up_coins/fast
+
+#=============================================================================
+# Target rules for targets named picking_up_coins_dont_lose
+
+# Build rule for target.
+picking_up_coins_dont_lose: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 picking_up_coins_dont_lose
+.PHONY : picking_up_coins_dont_lose
+
+# fast build rule for target.
+picking_up_coins_dont_lose/fast:
+	$(MAKE) -f cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build.make cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build
+.PHONY : picking_up_coins_dont_lose/fast
 
 #=============================================================================
 # Target rules for targets named permutations
@@ -1827,6 +1983,32 @@ reverse_linked_list_from_s_to_f/fast:
 .PHONY : reverse_linked_list_from_s_to_f/fast
 
 #=============================================================================
+# Target rules for targets named biggest_product_n_1
+
+# Build rule for target.
+biggest_product_n_1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 biggest_product_n_1
+.PHONY : biggest_product_n_1
+
+# fast build rule for target.
+biggest_product_n_1/fast:
+	$(MAKE) -f cpp/CMakeFiles/biggest_product_n_1.dir/build.make cpp/CMakeFiles/biggest_product_n_1.dir/build
+.PHONY : biggest_product_n_1/fast
+
+#=============================================================================
+# Target rules for targets named pass_by_value_bug
+
+# Build rule for target.
+pass_by_value_bug: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pass_by_value_bug
+.PHONY : pass_by_value_bug
+
+# fast build rule for target.
+pass_by_value_bug/fast:
+	$(MAKE) -f cpp/CMakeFiles/pass_by_value_bug.dir/build.make cpp/CMakeFiles/pass_by_value_bug.dir/build
+.PHONY : pass_by_value_bug/fast
+
+#=============================================================================
 # Target rules for targets named longest_subarray_with_distinct_entries
 
 # Build rule for target.
@@ -1851,45 +2033,6 @@ parity1: cmake_check_build_system
 parity1/fast:
 	$(MAKE) -f cpp/CMakeFiles/parity1.dir/build.make cpp/CMakeFiles/parity1.dir/build
 .PHONY : parity1/fast
-
-#=============================================================================
-# Target rules for targets named palindrome_linked_list
-
-# Build rule for target.
-palindrome_linked_list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 palindrome_linked_list
-.PHONY : palindrome_linked_list
-
-# fast build rule for target.
-palindrome_linked_list/fast:
-	$(MAKE) -f cpp/CMakeFiles/palindrome_linked_list.dir/build.make cpp/CMakeFiles/palindrome_linked_list.dir/build
-.PHONY : palindrome_linked_list/fast
-
-#=============================================================================
-# Target rules for targets named longest_subarray_k_improved
-
-# Build rule for target.
-longest_subarray_k_improved: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longest_subarray_k_improved
-.PHONY : longest_subarray_k_improved
-
-# fast build rule for target.
-longest_subarray_k_improved/fast:
-	$(MAKE) -f cpp/CMakeFiles/longest_subarray_k_improved.dir/build.make cpp/CMakeFiles/longest_subarray_k_improved.dir/build
-.PHONY : longest_subarray_k_improved/fast
-
-#=============================================================================
-# Target rules for targets named valid_ip_address
-
-# Build rule for target.
-valid_ip_address: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 valid_ip_address
-.PHONY : valid_ip_address
-
-# fast build rule for target.
-valid_ip_address/fast:
-	$(MAKE) -f cpp/CMakeFiles/valid_ip_address.dir/build.make cpp/CMakeFiles/valid_ip_address.dir/build
-.PHONY : valid_ip_address/fast
 
 #=============================================================================
 # Target rules for targets named morris_traversal
@@ -1918,6 +2061,19 @@ palindrome_number/fast:
 .PHONY : palindrome_number/fast
 
 #=============================================================================
+# Target rules for targets named palindrome_linked_list
+
+# Build rule for target.
+palindrome_linked_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome_linked_list
+.PHONY : palindrome_linked_list
+
+# fast build rule for target.
+palindrome_linked_list/fast:
+	$(MAKE) -f cpp/CMakeFiles/palindrome_linked_list.dir/build.make cpp/CMakeFiles/palindrome_linked_list.dir/build
+.PHONY : palindrome_linked_list/fast
+
+#=============================================================================
 # Target rules for targets named theory_of_equality
 
 # Build rule for target.
@@ -1944,19 +2100,6 @@ painting_iterative/fast:
 .PHONY : painting_iterative/fast
 
 #=============================================================================
-# Target rules for targets named overlapping_lists_no_cycle
-
-# Build rule for target.
-overlapping_lists_no_cycle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 overlapping_lists_no_cycle
-.PHONY : overlapping_lists_no_cycle
-
-# fast build rule for target.
-overlapping_lists_no_cycle/fast:
-	$(MAKE) -f cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build.make cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build
-.PHONY : overlapping_lists_no_cycle/fast
-
-#=============================================================================
 # Target rules for targets named overlapping_lists
 
 # Build rule for target.
@@ -1968,6 +2111,19 @@ overlapping_lists: cmake_check_build_system
 overlapping_lists/fast:
 	$(MAKE) -f cpp/CMakeFiles/overlapping_lists.dir/build.make cpp/CMakeFiles/overlapping_lists.dir/build
 .PHONY : overlapping_lists/fast
+
+#=============================================================================
+# Target rules for targets named overlapping_lists_no_cycle
+
+# Build rule for target.
+overlapping_lists_no_cycle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 overlapping_lists_no_cycle
+.PHONY : overlapping_lists_no_cycle
+
+# fast build rule for target.
+overlapping_lists_no_cycle/fast:
+	$(MAKE) -f cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build.make cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build
+.PHONY : overlapping_lists_no_cycle/fast
 
 #=============================================================================
 # Target rules for targets named intersect_sorted_arrays3_test
@@ -2048,32 +2204,6 @@ offline_minimum/fast:
 .PHONY : offline_minimum/fast
 
 #=============================================================================
-# Target rules for targets named number_ways_obstacles
-
-# Build rule for target.
-number_ways_obstacles: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 number_ways_obstacles
-.PHONY : number_ways_obstacles
-
-# fast build rule for target.
-number_ways_obstacles/fast:
-	$(MAKE) -f cpp/CMakeFiles/number_ways_obstacles.dir/build.make cpp/CMakeFiles/number_ways_obstacles.dir/build
-.PHONY : number_ways_obstacles/fast
-
-#=============================================================================
-# Target rules for targets named pascal_triangle_2
-
-# Build rule for target.
-pascal_triangle_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pascal_triangle_2
-.PHONY : pascal_triangle_2
-
-# fast build rule for target.
-pascal_triangle_2/fast:
-	$(MAKE) -f cpp/CMakeFiles/pascal_triangle_2.dir/build.make cpp/CMakeFiles/pascal_triangle_2.dir/build
-.PHONY : pascal_triangle_2/fast
-
-#=============================================================================
 # Target rules for targets named number_ways
 
 # Build rule for target.
@@ -2087,17 +2217,17 @@ number_ways/fast:
 .PHONY : number_ways/fast
 
 #=============================================================================
-# Target rules for targets named uniform_random_number_generation
+# Target rules for targets named number_ways_obstacles
 
 # Build rule for target.
-uniform_random_number_generation: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uniform_random_number_generation
-.PHONY : uniform_random_number_generation
+number_ways_obstacles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 number_ways_obstacles
+.PHONY : number_ways_obstacles
 
 # fast build rule for target.
-uniform_random_number_generation/fast:
-	$(MAKE) -f cpp/CMakeFiles/uniform_random_number_generation.dir/build.make cpp/CMakeFiles/uniform_random_number_generation.dir/build
-.PHONY : uniform_random_number_generation/fast
+number_ways_obstacles/fast:
+	$(MAKE) -f cpp/CMakeFiles/number_ways_obstacles.dir/build.make cpp/CMakeFiles/number_ways_obstacles.dir/build
+.PHONY : number_ways_obstacles/fast
 
 #=============================================================================
 # Target rules for targets named nonconstructible_change
@@ -2124,6 +2254,45 @@ symmetric_binary_tree: cmake_check_build_system
 symmetric_binary_tree/fast:
 	$(MAKE) -f cpp/CMakeFiles/symmetric_binary_tree.dir/build.make cpp/CMakeFiles/symmetric_binary_tree.dir/build
 .PHONY : symmetric_binary_tree/fast
+
+#=============================================================================
+# Target rules for targets named unique_binary_trees
+
+# Build rule for target.
+unique_binary_trees: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 unique_binary_trees
+.PHONY : unique_binary_trees
+
+# fast build rule for target.
+unique_binary_trees/fast:
+	$(MAKE) -f cpp/CMakeFiles/unique_binary_trees.dir/build.make cpp/CMakeFiles/unique_binary_trees.dir/build
+.PHONY : unique_binary_trees/fast
+
+#=============================================================================
+# Target rules for targets named anagrams
+
+# Build rule for target.
+anagrams: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 anagrams
+.PHONY : anagrams
+
+# fast build rule for target.
+anagrams/fast:
+	$(MAKE) -f cpp/CMakeFiles/anagrams.dir/build.make cpp/CMakeFiles/anagrams.dir/build
+.PHONY : anagrams/fast
+
+#=============================================================================
+# Target rules for targets named stack_with_max
+
+# Build rule for target.
+stack_with_max: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 stack_with_max
+.PHONY : stack_with_max
+
+# fast build rule for target.
+stack_with_max/fast:
+	$(MAKE) -f cpp/CMakeFiles/stack_with_max.dir/build.make cpp/CMakeFiles/stack_with_max.dir/build
+.PHONY : stack_with_max/fast
 
 #=============================================================================
 # Target rules for targets named search_bst
@@ -2217,17 +2386,17 @@ nearest_repetition/fast:
 .PHONY : nearest_repetition/fast
 
 #=============================================================================
-# Target rules for targets named n_queens
+# Target rules for targets named multiply_shift_add
 
 # Build rule for target.
-n_queens: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 n_queens
-.PHONY : n_queens
+multiply_shift_add: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiply_shift_add
+.PHONY : multiply_shift_add
 
 # fast build rule for target.
-n_queens/fast:
-	$(MAKE) -f cpp/CMakeFiles/n_queens.dir/build.make cpp/CMakeFiles/n_queens.dir/build
-.PHONY : n_queens/fast
+multiply_shift_add/fast:
+	$(MAKE) -f cpp/CMakeFiles/multiply_shift_add.dir/build.make cpp/CMakeFiles/multiply_shift_add.dir/build
+.PHONY : multiply_shift_add/fast
 
 #=============================================================================
 # Target rules for targets named missing_element
@@ -2464,6 +2633,45 @@ string_in_matrix/fast:
 .PHONY : string_in_matrix/fast
 
 #=============================================================================
+# Target rules for targets named valid_ip_address_recursive
+
+# Build rule for target.
+valid_ip_address_recursive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 valid_ip_address_recursive
+.PHONY : valid_ip_address_recursive
+
+# fast build rule for target.
+valid_ip_address_recursive/fast:
+	$(MAKE) -f cpp/CMakeFiles/valid_ip_address_recursive.dir/build.make cpp/CMakeFiles/valid_ip_address_recursive.dir/build
+.PHONY : valid_ip_address_recursive/fast
+
+#=============================================================================
+# Target rules for targets named search_majority
+
+# Build rule for target.
+search_majority: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 search_majority
+.PHONY : search_majority
+
+# fast build rule for target.
+search_majority/fast:
+	$(MAKE) -f cpp/CMakeFiles/search_majority.dir/build.make cpp/CMakeFiles/search_majority.dir/build
+.PHONY : search_majority/fast
+
+#=============================================================================
+# Target rules for targets named multiply_shift_add2
+
+# Build rule for target.
+multiply_shift_add2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 multiply_shift_add2
+.PHONY : multiply_shift_add2
+
+# fast build rule for target.
+multiply_shift_add2/fast:
+	$(MAKE) -f cpp/CMakeFiles/multiply_shift_add2.dir/build.make cpp/CMakeFiles/multiply_shift_add2.dir/build
+.PHONY : multiply_shift_add2/fast
+
+#=============================================================================
 # Target rules for targets named maximum_container
 
 # Build rule for target.
@@ -2607,19 +2815,6 @@ map_update1/fast:
 .PHONY : map_update1/fast
 
 #=============================================================================
-# Target rules for targets named unique_binary_trees_all
-
-# Build rule for target.
-unique_binary_trees_all: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 unique_binary_trees_all
-.PHONY : unique_binary_trees_all
-
-# fast build rule for target.
-unique_binary_trees_all/fast:
-	$(MAKE) -f cpp/CMakeFiles/unique_binary_trees_all.dir/build.make cpp/CMakeFiles/unique_binary_trees_all.dir/build
-.PHONY : unique_binary_trees_all/fast
-
-#=============================================================================
 # Target rules for targets named n_queens_count
 
 # Build rule for target.
@@ -2750,58 +2945,6 @@ look_and_say/fast:
 .PHONY : look_and_say/fast
 
 #=============================================================================
-# Target rules for targets named max_submatrix_square
-
-# Build rule for target.
-max_submatrix_square: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 max_submatrix_square
-.PHONY : max_submatrix_square
-
-# fast build rule for target.
-max_submatrix_square/fast:
-	$(MAKE) -f cpp/CMakeFiles/max_submatrix_square.dir/build.make cpp/CMakeFiles/max_submatrix_square.dir/build
-.PHONY : max_submatrix_square/fast
-
-#=============================================================================
-# Target rules for targets named default_constructor
-
-# Build rule for target.
-default_constructor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 default_constructor
-.PHONY : default_constructor
-
-# fast build rule for target.
-default_constructor/fast:
-	$(MAKE) -f cpp/CMakeFiles/default_constructor.dir/build.make cpp/CMakeFiles/default_constructor.dir/build
-.PHONY : default_constructor/fast
-
-#=============================================================================
-# Target rules for targets named build_bst_from_sorted_array
-
-# Build rule for target.
-build_bst_from_sorted_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 build_bst_from_sorted_array
-.PHONY : build_bst_from_sorted_array
-
-# fast build rule for target.
-build_bst_from_sorted_array/fast:
-	$(MAKE) -f cpp/CMakeFiles/build_bst_from_sorted_array.dir/build.make cpp/CMakeFiles/build_bst_from_sorted_array.dir/build
-.PHONY : build_bst_from_sorted_array/fast
-
-#=============================================================================
-# Target rules for targets named longest_valid_parentheses_const_space
-
-# Build rule for target.
-longest_valid_parentheses_const_space: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 longest_valid_parentheses_const_space
-.PHONY : longest_valid_parentheses_const_space
-
-# fast build rule for target.
-longest_valid_parentheses_const_space/fast:
-	$(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build.make cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build
-.PHONY : longest_valid_parentheses_const_space/fast
-
-#=============================================================================
 # Target rules for targets named tail
 
 # Build rule for target.
@@ -2854,6 +2997,58 @@ bst_sorted_order/fast:
 .PHONY : bst_sorted_order/fast
 
 #=============================================================================
+# Target rules for targets named max_submatrix_square
+
+# Build rule for target.
+max_submatrix_square: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 max_submatrix_square
+.PHONY : max_submatrix_square
+
+# fast build rule for target.
+max_submatrix_square/fast:
+	$(MAKE) -f cpp/CMakeFiles/max_submatrix_square.dir/build.make cpp/CMakeFiles/max_submatrix_square.dir/build
+.PHONY : max_submatrix_square/fast
+
+#=============================================================================
+# Target rules for targets named default_constructor
+
+# Build rule for target.
+default_constructor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 default_constructor
+.PHONY : default_constructor
+
+# fast build rule for target.
+default_constructor/fast:
+	$(MAKE) -f cpp/CMakeFiles/default_constructor.dir/build.make cpp/CMakeFiles/default_constructor.dir/build
+.PHONY : default_constructor/fast
+
+#=============================================================================
+# Target rules for targets named build_bst_from_sorted_array
+
+# Build rule for target.
+build_bst_from_sorted_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 build_bst_from_sorted_array
+.PHONY : build_bst_from_sorted_array
+
+# fast build rule for target.
+build_bst_from_sorted_array/fast:
+	$(MAKE) -f cpp/CMakeFiles/build_bst_from_sorted_array.dir/build.make cpp/CMakeFiles/build_bst_from_sorted_array.dir/build
+.PHONY : build_bst_from_sorted_array/fast
+
+#=============================================================================
+# Target rules for targets named longest_valid_parentheses_const_space
+
+# Build rule for target.
+longest_valid_parentheses_const_space: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longest_valid_parentheses_const_space
+.PHONY : longest_valid_parentheses_const_space
+
+# fast build rule for target.
+longest_valid_parentheses_const_space/fast:
+	$(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build.make cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build
+.PHONY : longest_valid_parentheses_const_space/fast
+
+#=============================================================================
 # Target rules for targets named longest_substring_without_repeating_characters
 
 # Build rule for target.
@@ -2865,6 +3060,32 @@ longest_substring_without_repeating_characters: cmake_check_build_system
 longest_substring_without_repeating_characters/fast:
 	$(MAKE) -f cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/build.make cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/build
 .PHONY : longest_substring_without_repeating_characters/fast
+
+#=============================================================================
+# Target rules for targets named binary_tree_to_doubly_linked_list
+
+# Build rule for target.
+binary_tree_to_doubly_linked_list: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary_tree_to_doubly_linked_list
+.PHONY : binary_tree_to_doubly_linked_list
+
+# fast build rule for target.
+binary_tree_to_doubly_linked_list/fast:
+	$(MAKE) -f cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build.make cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build
+.PHONY : binary_tree_to_doubly_linked_list/fast
+
+#=============================================================================
+# Target rules for targets named simple_web_server
+
+# Build rule for target.
+simple_web_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simple_web_server
+.PHONY : simple_web_server
+
+# fast build rule for target.
+simple_web_server/fast:
+	$(MAKE) -f cpp/CMakeFiles/simple_web_server.dir/build.make cpp/CMakeFiles/simple_web_server.dir/build
+.PHONY : simple_web_server/fast
 
 #=============================================================================
 # Target rules for targets named interleaving_string
@@ -2984,6 +3205,19 @@ map_update3/fast:
 .PHONY : map_update3/fast
 
 #=============================================================================
+# Target rules for targets named min_max_template_move
+
+# Build rule for target.
+min_max_template_move: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 min_max_template_move
+.PHONY : min_max_template_move
+
+# fast build rule for target.
+min_max_template_move/fast:
+	$(MAKE) -f cpp/CMakeFiles/min_max_template_move.dir/build.make cpp/CMakeFiles/min_max_template_move.dir/build
+.PHONY : min_max_template_move/fast
+
+#=============================================================================
 # Target rules for targets named count_inversions
 
 # Build rule for target.
@@ -3008,6 +3242,19 @@ lock_ordering_bug: cmake_check_build_system
 lock_ordering_bug/fast:
 	$(MAKE) -f cpp/CMakeFiles/lock_ordering_bug.dir/build.make cpp/CMakeFiles/lock_ordering_bug.dir/build
 .PHONY : lock_ordering_bug/fast
+
+#=============================================================================
+# Target rules for targets named min_max_template
+
+# Build rule for target.
+min_max_template: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 min_max_template
+.PHONY : min_max_template
+
+# fast build rule for target.
+min_max_template/fast:
+	$(MAKE) -f cpp/CMakeFiles/min_max_template.dir/build.make cpp/CMakeFiles/min_max_template.dir/build
+.PHONY : min_max_template/fast
 
 #=============================================================================
 # Target rules for targets named insertion_deletion_bst
@@ -3114,6 +3361,45 @@ k_th_node_binary_tree/fast:
 .PHONY : k_th_node_binary_tree/fast
 
 #=============================================================================
+# Target rules for targets named power_x_y
+
+# Build rule for target.
+power_x_y: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 power_x_y
+.PHONY : power_x_y
+
+# fast build rule for target.
+power_x_y/fast:
+	$(MAKE) -f cpp/CMakeFiles/power_x_y.dir/build.make cpp/CMakeFiles/power_x_y.dir/build
+.PHONY : power_x_y/fast
+
+#=============================================================================
+# Target rules for targets named arbitrage
+
+# Build rule for target.
+arbitrage: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 arbitrage
+.PHONY : arbitrage
+
+# fast build rule for target.
+arbitrage/fast:
+	$(MAKE) -f cpp/CMakeFiles/arbitrage.dir/build.make cpp/CMakeFiles/arbitrage.dir/build
+.PHONY : arbitrage/fast
+
+#=============================================================================
+# Target rules for targets named max_submatrix_rectangle_improved
+
+# Build rule for target.
+max_submatrix_rectangle_improved: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 max_submatrix_rectangle_improved
+.PHONY : max_submatrix_rectangle_improved
+
+# fast build rule for target.
+max_submatrix_rectangle_improved/fast:
+	$(MAKE) -f cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build.make cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build
+.PHONY : max_submatrix_rectangle_improved/fast
+
+#=============================================================================
 # Target rules for targets named number_steps
 
 # Build rule for target.
@@ -3125,32 +3411,6 @@ number_steps: cmake_check_build_system
 number_steps/fast:
 	$(MAKE) -f cpp/CMakeFiles/number_steps.dir/build.make cpp/CMakeFiles/number_steps.dir/build
 .PHONY : number_steps/fast
-
-#=============================================================================
-# Target rules for targets named zipping_list
-
-# Build rule for target.
-zipping_list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zipping_list
-.PHONY : zipping_list
-
-# fast build rule for target.
-zipping_list/fast:
-	$(MAKE) -f cpp/CMakeFiles/zipping_list.dir/build.make cpp/CMakeFiles/zipping_list.dir/build
-.PHONY : zipping_list/fast
-
-#=============================================================================
-# Target rules for targets named multiplyshiftadd
-
-# Build rule for target.
-multiplyshiftadd: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 multiplyshiftadd
-.PHONY : multiplyshiftadd
-
-# fast build rule for target.
-multiplyshiftadd/fast:
-	$(MAKE) -f cpp/CMakeFiles/multiplyshiftadd.dir/build.make cpp/CMakeFiles/multiplyshiftadd.dir/build
-.PHONY : multiplyshiftadd/fast
 
 #=============================================================================
 # Target rules for targets named k_th_element_streaming
@@ -3179,17 +3439,17 @@ sort_k_increasing_decreasing_array/fast:
 .PHONY : sort_k_increasing_decreasing_array/fast
 
 #=============================================================================
-# Target rules for targets named biggest_product_n_1
+# Target rules for targets named polymorphism_problems_fixed
 
 # Build rule for target.
-biggest_product_n_1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 biggest_product_n_1
-.PHONY : biggest_product_n_1
+polymorphism_problems_fixed: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 polymorphism_problems_fixed
+.PHONY : polymorphism_problems_fixed
 
 # fast build rule for target.
-biggest_product_n_1/fast:
-	$(MAKE) -f cpp/CMakeFiles/biggest_product_n_1.dir/build.make cpp/CMakeFiles/biggest_product_n_1.dir/build
-.PHONY : biggest_product_n_1/fast
+polymorphism_problems_fixed/fast:
+	$(MAKE) -f cpp/CMakeFiles/polymorphism_problems_fixed.dir/build.make cpp/CMakeFiles/polymorphism_problems_fixed.dir/build
+.PHONY : polymorphism_problems_fixed/fast
 
 #=============================================================================
 # Target rules for targets named overlapping_days
@@ -3530,6 +3790,71 @@ exterior_binary_tree/fast:
 .PHONY : exterior_binary_tree/fast
 
 #=============================================================================
+# Target rules for targets named valid_ip_address
+
+# Build rule for target.
+valid_ip_address: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 valid_ip_address
+.PHONY : valid_ip_address
+
+# fast build rule for target.
+valid_ip_address/fast:
+	$(MAKE) -f cpp/CMakeFiles/valid_ip_address.dir/build.make cpp/CMakeFiles/valid_ip_address.dir/build
+.PHONY : valid_ip_address/fast
+
+#=============================================================================
+# Target rules for targets named longest_subarray_k_improved
+
+# Build rule for target.
+longest_subarray_k_improved: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 longest_subarray_k_improved
+.PHONY : longest_subarray_k_improved
+
+# fast build rule for target.
+longest_subarray_k_improved/fast:
+	$(MAKE) -f cpp/CMakeFiles/longest_subarray_k_improved.dir/build.make cpp/CMakeFiles/longest_subarray_k_improved.dir/build
+.PHONY : longest_subarray_k_improved/fast
+
+#=============================================================================
+# Target rules for targets named addingcredits
+
+# Build rule for target.
+addingcredits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 addingcredits
+.PHONY : addingcredits
+
+# fast build rule for target.
+addingcredits/fast:
+	$(MAKE) -f cpp/CMakeFiles/addingcredits.dir/build.make cpp/CMakeFiles/addingcredits.dir/build
+.PHONY : addingcredits/fast
+
+#=============================================================================
+# Target rules for targets named max_difference_unlimited_pairs
+
+# Build rule for target.
+max_difference_unlimited_pairs: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 max_difference_unlimited_pairs
+.PHONY : max_difference_unlimited_pairs
+
+# fast build rule for target.
+max_difference_unlimited_pairs/fast:
+	$(MAKE) -f cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build.make cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build
+.PHONY : max_difference_unlimited_pairs/fast
+
+#=============================================================================
+# Target rules for targets named s2
+
+# Build rule for target.
+s2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 s2
+.PHONY : s2
+
+# fast build rule for target.
+s2/fast:
+	$(MAKE) -f cpp/CMakeFiles/s2.dir/build.make cpp/CMakeFiles/s2.dir/build
+.PHONY : s2/fast
+
+#=============================================================================
 # Target rules for targets named generate_spiral_matrix
 
 # Build rule for target.
@@ -3541,32 +3866,6 @@ generate_spiral_matrix: cmake_check_build_system
 generate_spiral_matrix/fast:
 	$(MAKE) -f cpp/CMakeFiles/generate_spiral_matrix.dir/build.make cpp/CMakeFiles/generate_spiral_matrix.dir/build
 .PHONY : generate_spiral_matrix/fast
-
-#=============================================================================
-# Target rules for targets named binary_search_circular_array
-
-# Build rule for target.
-binary_search_circular_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary_search_circular_array
-.PHONY : binary_search_circular_array
-
-# fast build rule for target.
-binary_search_circular_array/fast:
-	$(MAKE) -f cpp/CMakeFiles/binary_search_circular_array.dir/build.make cpp/CMakeFiles/binary_search_circular_array.dir/build
-.PHONY : binary_search_circular_array/fast
-
-#=============================================================================
-# Target rules for targets named gcd1
-
-# Build rule for target.
-gcd1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gcd1
-.PHONY : gcd1
-
-# fast build rule for target.
-gcd1/fast:
-	$(MAKE) -f cpp/CMakeFiles/gcd1.dir/build.make cpp/CMakeFiles/gcd1.dir/build
-.PHONY : gcd1/fast
 
 #=============================================================================
 # Target rules for targets named async_thread
@@ -3645,6 +3944,32 @@ gcd: cmake_check_build_system
 gcd/fast:
 	$(MAKE) -f cpp/CMakeFiles/gcd.dir/build.make cpp/CMakeFiles/gcd.dir/build
 .PHONY : gcd/fast
+
+#=============================================================================
+# Target rules for targets named binary_search_circular_array
+
+# Build rule for target.
+binary_search_circular_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary_search_circular_array
+.PHONY : binary_search_circular_array
+
+# fast build rule for target.
+binary_search_circular_array/fast:
+	$(MAKE) -f cpp/CMakeFiles/binary_search_circular_array.dir/build.make cpp/CMakeFiles/binary_search_circular_array.dir/build
+.PHONY : binary_search_circular_array/fast
+
+#=============================================================================
+# Target rules for targets named gcd1
+
+# Build rule for target.
+gcd1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gcd1
+.PHONY : gcd1
+
+# fast build rule for target.
+gcd1/fast:
+	$(MAKE) -f cpp/CMakeFiles/gcd1.dir/build.make cpp/CMakeFiles/gcd1.dir/build
+.PHONY : gcd1/fast
 
 #=============================================================================
 # Target rules for targets named remove_element
@@ -3762,19 +4087,6 @@ find_longest_arithmetic_progression: cmake_check_build_system
 find_longest_arithmetic_progression/fast:
 	$(MAKE) -f cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build.make cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build
 .PHONY : find_longest_arithmetic_progression/fast
-
-#=============================================================================
-# Target rules for targets named valid_number
-
-# Build rule for target.
-valid_number: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 valid_number
-.PHONY : valid_number
-
-# fast build rule for target.
-valid_number/fast:
-	$(MAKE) -f cpp/CMakeFiles/valid_number.dir/build.make cpp/CMakeFiles/valid_number.dir/build
-.PHONY : valid_number/fast
 
 #=============================================================================
 # Target rules for targets named delete_list
@@ -3933,123 +4245,6 @@ dutch_national_flag_slow_inplace/fast:
 .PHONY : dutch_national_flag_slow_inplace/fast
 
 #=============================================================================
-# Target rules for targets named tail_coin
-
-# Build rule for target.
-tail_coin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tail_coin
-.PHONY : tail_coin
-
-# fast build rule for target.
-tail_coin/fast:
-	$(MAKE) -f cpp/CMakeFiles/tail_coin.dir/build.make cpp/CMakeFiles/tail_coin.dir/build
-.PHONY : tail_coin/fast
-
-#=============================================================================
-# Target rules for targets named addingcredits
-
-# Build rule for target.
-addingcredits: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 addingcredits
-.PHONY : addingcredits
-
-# fast build rule for target.
-addingcredits/fast:
-	$(MAKE) -f cpp/CMakeFiles/addingcredits.dir/build.make cpp/CMakeFiles/addingcredits.dir/build
-.PHONY : addingcredits/fast
-
-#=============================================================================
-# Target rules for targets named max_difference_unlimited_pairs
-
-# Build rule for target.
-max_difference_unlimited_pairs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 max_difference_unlimited_pairs
-.PHONY : max_difference_unlimited_pairs
-
-# fast build rule for target.
-max_difference_unlimited_pairs/fast:
-	$(MAKE) -f cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build.make cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build
-.PHONY : max_difference_unlimited_pairs/fast
-
-#=============================================================================
-# Target rules for targets named swap_bits
-
-# Build rule for target.
-swap_bits: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 swap_bits
-.PHONY : swap_bits
-
-# fast build rule for target.
-swap_bits/fast:
-	$(MAKE) -f cpp/CMakeFiles/swap_bits.dir/build.make cpp/CMakeFiles/swap_bits.dir/build
-.PHONY : swap_bits/fast
-
-#=============================================================================
-# Target rules for targets named list_pivoting
-
-# Build rule for target.
-list_pivoting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 list_pivoting
-.PHONY : list_pivoting
-
-# fast build rule for target.
-list_pivoting/fast:
-	$(MAKE) -f cpp/CMakeFiles/list_pivoting.dir/build.make cpp/CMakeFiles/list_pivoting.dir/build
-.PHONY : list_pivoting/fast
-
-#=============================================================================
-# Target rules for targets named dutch_national_flag
-
-# Build rule for target.
-dutch_national_flag: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dutch_national_flag
-.PHONY : dutch_national_flag
-
-# fast build rule for target.
-dutch_national_flag/fast:
-	$(MAKE) -f cpp/CMakeFiles/dutch_national_flag.dir/build.make cpp/CMakeFiles/dutch_national_flag.dir/build
-.PHONY : dutch_national_flag/fast
-
-#=============================================================================
-# Target rules for targets named conversion_sorted_array
-
-# Build rule for target.
-conversion_sorted_array: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 conversion_sorted_array
-.PHONY : conversion_sorted_array
-
-# fast build rule for target.
-conversion_sorted_array/fast:
-	$(MAKE) -f cpp/CMakeFiles/conversion_sorted_array.dir/build.make cpp/CMakeFiles/conversion_sorted_array.dir/build
-.PHONY : conversion_sorted_array/fast
-
-#=============================================================================
-# Target rules for targets named justify_text
-
-# Build rule for target.
-justify_text: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 justify_text
-.PHONY : justify_text
-
-# fast build rule for target.
-justify_text/fast:
-	$(MAKE) -f cpp/CMakeFiles/justify_text.dir/build.make cpp/CMakeFiles/justify_text.dir/build
-.PHONY : justify_text/fast
-
-#=============================================================================
-# Target rules for targets named drawing_skylines_alternative
-
-# Build rule for target.
-drawing_skylines_alternative: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 drawing_skylines_alternative
-.PHONY : drawing_skylines_alternative
-
-# fast build rule for target.
-drawing_skylines_alternative/fast:
-	$(MAKE) -f cpp/CMakeFiles/drawing_skylines_alternative.dir/build.make cpp/CMakeFiles/drawing_skylines_alternative.dir/build
-.PHONY : drawing_skylines_alternative/fast
-
-#=============================================================================
 # Target rules for targets named stack_sorting
 
 # Build rule for target.
@@ -4154,6 +4349,45 @@ gaussian_primes/fast:
 .PHONY : gaussian_primes/fast
 
 #=============================================================================
+# Target rules for targets named conversion_sorted_array
+
+# Build rule for target.
+conversion_sorted_array: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 conversion_sorted_array
+.PHONY : conversion_sorted_array
+
+# fast build rule for target.
+conversion_sorted_array/fast:
+	$(MAKE) -f cpp/CMakeFiles/conversion_sorted_array.dir/build.make cpp/CMakeFiles/conversion_sorted_array.dir/build
+.PHONY : conversion_sorted_array/fast
+
+#=============================================================================
+# Target rules for targets named justify_text
+
+# Build rule for target.
+justify_text: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 justify_text
+.PHONY : justify_text
+
+# fast build rule for target.
+justify_text/fast:
+	$(MAKE) -f cpp/CMakeFiles/justify_text.dir/build.make cpp/CMakeFiles/justify_text.dir/build
+.PHONY : justify_text/fast
+
+#=============================================================================
+# Target rules for targets named drawing_skylines_alternative
+
+# Build rule for target.
+drawing_skylines_alternative: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 drawing_skylines_alternative
+.PHONY : drawing_skylines_alternative
+
+# fast build rule for target.
+drawing_skylines_alternative/fast:
+	$(MAKE) -f cpp/CMakeFiles/drawing_skylines_alternative.dir/build.make cpp/CMakeFiles/drawing_skylines_alternative.dir/build
+.PHONY : drawing_skylines_alternative/fast
+
+#=============================================================================
 # Target rules for targets named nearest_restaurant
 
 # Build rule for target.
@@ -4191,6 +4425,58 @@ doors: cmake_check_build_system
 doors/fast:
 	$(MAKE) -f cpp/CMakeFiles/doors.dir/build.make cpp/CMakeFiles/doors.dir/build
 .PHONY : doors/fast
+
+#=============================================================================
+# Target rules for targets named completion_search_space_efficient
+
+# Build rule for target.
+completion_search_space_efficient: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 completion_search_space_efficient
+.PHONY : completion_search_space_efficient
+
+# fast build rule for target.
+completion_search_space_efficient/fast:
+	$(MAKE) -f cpp/CMakeFiles/completion_search_space_efficient.dir/build.make cpp/CMakeFiles/completion_search_space_efficient.dir/build
+.PHONY : completion_search_space_efficient/fast
+
+#=============================================================================
+# Target rules for targets named job_assignment
+
+# Build rule for target.
+job_assignment: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 job_assignment
+.PHONY : job_assignment
+
+# fast build rule for target.
+job_assignment/fast:
+	$(MAKE) -f cpp/CMakeFiles/job_assignment.dir/build.make cpp/CMakeFiles/job_assignment.dir/build
+.PHONY : job_assignment/fast
+
+#=============================================================================
+# Target rules for targets named generating_a_b_sqrt2_2
+
+# Build rule for target.
+generating_a_b_sqrt2_2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 generating_a_b_sqrt2_2
+.PHONY : generating_a_b_sqrt2_2
+
+# fast build rule for target.
+generating_a_b_sqrt2_2/fast:
+	$(MAKE) -f cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build.make cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build
+.PHONY : generating_a_b_sqrt2_2/fast
+
+#=============================================================================
+# Target rules for targets named division
+
+# Build rule for target.
+division: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 division
+.PHONY : division
+
+# fast build rule for target.
+division/fast:
+	$(MAKE) -f cpp/CMakeFiles/division.dir/build.make cpp/CMakeFiles/division.dir/build
+.PHONY : division/fast
 
 #=============================================================================
 # Target rules for targets named score_combination_alternative
@@ -4232,19 +4518,6 @@ image_compression/fast:
 .PHONY : image_compression/fast
 
 #=============================================================================
-# Target rules for targets named dutch_national_flag_two_passes
-
-# Build rule for target.
-dutch_national_flag_two_passes: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dutch_national_flag_two_passes
-.PHONY : dutch_national_flag_two_passes
-
-# fast build rule for target.
-dutch_national_flag_two_passes/fast:
-	$(MAKE) -f cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build.make cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build
-.PHONY : dutch_national_flag_two_passes/fast
-
-#=============================================================================
 # Target rules for targets named 3_sum
 
 # Build rule for target.
@@ -4256,6 +4529,19 @@ dutch_national_flag_two_passes/fast:
 3_sum/fast:
 	$(MAKE) -f cpp/CMakeFiles/3_sum.dir/build.make cpp/CMakeFiles/3_sum.dir/build
 .PHONY : 3_sum/fast
+
+#=============================================================================
+# Target rules for targets named dutch_national_flag_two_passes
+
+# Build rule for target.
+dutch_national_flag_two_passes: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dutch_national_flag_two_passes
+.PHONY : dutch_national_flag_two_passes
+
+# fast build rule for target.
+dutch_national_flag_two_passes/fast:
+	$(MAKE) -f cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build.make cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build
+.PHONY : dutch_national_flag_two_passes/fast
 
 #=============================================================================
 # Target rules for targets named spiral_matrix_clockwise
@@ -4295,58 +4581,6 @@ division_no_operator: cmake_check_build_system
 division_no_operator/fast:
 	$(MAKE) -f cpp/CMakeFiles/division_no_operator.dir/build.make cpp/CMakeFiles/division_no_operator.dir/build
 .PHONY : division_no_operator/fast
-
-#=============================================================================
-# Target rules for targets named job_assignment
-
-# Build rule for target.
-job_assignment: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 job_assignment
-.PHONY : job_assignment
-
-# fast build rule for target.
-job_assignment/fast:
-	$(MAKE) -f cpp/CMakeFiles/job_assignment.dir/build.make cpp/CMakeFiles/job_assignment.dir/build
-.PHONY : job_assignment/fast
-
-#=============================================================================
-# Target rules for targets named generating_a_b_sqrt2_2
-
-# Build rule for target.
-generating_a_b_sqrt2_2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 generating_a_b_sqrt2_2
-.PHONY : generating_a_b_sqrt2_2
-
-# fast build rule for target.
-generating_a_b_sqrt2_2/fast:
-	$(MAKE) -f cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build.make cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build
-.PHONY : generating_a_b_sqrt2_2/fast
-
-#=============================================================================
-# Target rules for targets named completion_search_space_efficient
-
-# Build rule for target.
-completion_search_space_efficient: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 completion_search_space_efficient
-.PHONY : completion_search_space_efficient
-
-# fast build rule for target.
-completion_search_space_efficient/fast:
-	$(MAKE) -f cpp/CMakeFiles/completion_search_space_efficient.dir/build.make cpp/CMakeFiles/completion_search_space_efficient.dir/build
-.PHONY : completion_search_space_efficient/fast
-
-#=============================================================================
-# Target rules for targets named division
-
-# Build rule for target.
-division: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 division
-.PHONY : division
-
-# fast build rule for target.
-division/fast:
-	$(MAKE) -f cpp/CMakeFiles/division.dir/build.make cpp/CMakeFiles/division.dir/build
-.PHONY : division/fast
 
 #=============================================================================
 # Target rules for targets named distinct_sorted_list
@@ -4479,19 +4713,6 @@ container_with_most_water/fast:
 .PHONY : container_with_most_water/fast
 
 #=============================================================================
-# Target rules for targets named valid_palindrome
-
-# Build rule for target.
-valid_palindrome: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 valid_palindrome
-.PHONY : valid_palindrome
-
-# fast build rule for target.
-valid_palindrome/fast:
-	$(MAKE) -f cpp/CMakeFiles/valid_palindrome.dir/build.make cpp/CMakeFiles/valid_palindrome.dir/build
-.PHONY : valid_palindrome/fast
-
-#=============================================================================
 # Target rules for targets named computing_binomial_coefficients
 
 # Build rule for target.
@@ -4596,6 +4817,19 @@ closest_palindrome/fast:
 .PHONY : closest_palindrome/fast
 
 #=============================================================================
+# Target rules for targets named merge_two_sorted_arrays_in_place
+
+# Build rule for target.
+merge_two_sorted_arrays_in_place: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 merge_two_sorted_arrays_in_place
+.PHONY : merge_two_sorted_arrays_in_place
+
+# fast build rule for target.
+merge_two_sorted_arrays_in_place/fast:
+	$(MAKE) -f cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build.make cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build
+.PHONY : merge_two_sorted_arrays_in_place/fast
+
+#=============================================================================
 # Target rules for targets named student_search
 
 # Build rule for target.
@@ -4620,32 +4854,6 @@ buy_and_sell_stock_twice: cmake_check_build_system
 buy_and_sell_stock_twice/fast:
 	$(MAKE) -f cpp/CMakeFiles/buy_and_sell_stock_twice.dir/build.make cpp/CMakeFiles/buy_and_sell_stock_twice.dir/build
 .PHONY : buy_and_sell_stock_twice/fast
-
-#=============================================================================
-# Target rules for targets named merge_two_sorted_arrays_in_place
-
-# Build rule for target.
-merge_two_sorted_arrays_in_place: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 merge_two_sorted_arrays_in_place
-.PHONY : merge_two_sorted_arrays_in_place
-
-# fast build rule for target.
-merge_two_sorted_arrays_in_place/fast:
-	$(MAKE) -f cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build.make cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build
-.PHONY : merge_two_sorted_arrays_in_place/fast
-
-#=============================================================================
-# Target rules for targets named coin_change
-
-# Build rule for target.
-coin_change: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 coin_change
-.PHONY : coin_change
-
-# fast build rule for target.
-coin_change/fast:
-	$(MAKE) -f cpp/CMakeFiles/coin_change.dir/build.make cpp/CMakeFiles/coin_change.dir/build
-.PHONY : coin_change/fast
 
 #=============================================================================
 # Target rules for targets named count_bits
@@ -4765,6 +4973,19 @@ collatz/fast:
 .PHONY : collatz/fast
 
 #=============================================================================
+# Target rules for targets named length_of_last_word
+
+# Build rule for target.
+length_of_last_word: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 length_of_last_word
+.PHONY : length_of_last_word
+
+# fast build rule for target.
+length_of_last_word/fast:
+	$(MAKE) -f cpp/CMakeFiles/length_of_last_word.dir/build.make cpp/CMakeFiles/length_of_last_word.dir/build
+.PHONY : length_of_last_word/fast
+
+#=============================================================================
 # Target rules for targets named find_element_appears_once
 
 # Build rule for target.
@@ -4789,19 +5010,6 @@ binary_search_unknown_length: cmake_check_build_system
 binary_search_unknown_length/fast:
 	$(MAKE) -f cpp/CMakeFiles/binary_search_unknown_length.dir/build.make cpp/CMakeFiles/binary_search_unknown_length.dir/build
 .PHONY : binary_search_unknown_length/fast
-
-#=============================================================================
-# Target rules for targets named length_of_last_word
-
-# Build rule for target.
-length_of_last_word: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 length_of_last_word
-.PHONY : length_of_last_word
-
-# fast build rule for target.
-length_of_last_word/fast:
-	$(MAKE) -f cpp/CMakeFiles/length_of_last_word.dir/build.make cpp/CMakeFiles/length_of_last_word.dir/build
-.PHONY : length_of_last_word/fast
 
 #=============================================================================
 # Target rules for targets named score_permutation
@@ -4960,19 +5168,6 @@ checking_cycle_alternative/fast:
 .PHONY : checking_cycle_alternative/fast
 
 #=============================================================================
-# Target rules for targets named valid_parentheses
-
-# Build rule for target.
-valid_parentheses: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 valid_parentheses
-.PHONY : valid_parentheses
-
-# fast build rule for target.
-valid_parentheses/fast:
-	$(MAKE) -f cpp/CMakeFiles/valid_parentheses.dir/build.make cpp/CMakeFiles/valid_parentheses.dir/build
-.PHONY : valid_parentheses/fast
-
-#=============================================================================
 # Target rules for targets named can_string_be_palindrome
 
 # Build rule for target.
@@ -5036,6 +5231,19 @@ buy_and_sell_stock: cmake_check_build_system
 buy_and_sell_stock/fast:
 	$(MAKE) -f cpp/CMakeFiles/buy_and_sell_stock.dir/build.make cpp/CMakeFiles/buy_and_sell_stock.dir/build
 .PHONY : buy_and_sell_stock/fast
+
+#=============================================================================
+# Target rules for targets named task_execution_web_server
+
+# Build rule for target.
+task_execution_web_server: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 task_execution_web_server
+.PHONY : task_execution_web_server
+
+# fast build rule for target.
+task_execution_web_server/fast:
+	$(MAKE) -f cpp/CMakeFiles/task_execution_web_server.dir/build.make cpp/CMakeFiles/task_execution_web_server.dir/build
+.PHONY : task_execution_web_server/fast
 
 #=============================================================================
 # Target rules for targets named combinations_unique
@@ -5103,58 +5311,6 @@ descendant_and_ancestor/fast:
 .PHONY : 0_1_knapsack/fast
 
 #=============================================================================
-# Target rules for targets named binary_tree_to_doubly_linked_list
-
-# Build rule for target.
-binary_tree_to_doubly_linked_list: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary_tree_to_doubly_linked_list
-.PHONY : binary_tree_to_doubly_linked_list
-
-# fast build rule for target.
-binary_tree_to_doubly_linked_list/fast:
-	$(MAKE) -f cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build.make cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build
-.PHONY : binary_tree_to_doubly_linked_list/fast
-
-#=============================================================================
-# Target rules for targets named binary_search_first_k
-
-# Build rule for target.
-binary_search_first_k: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary_search_first_k
-.PHONY : binary_search_first_k
-
-# fast build rule for target.
-binary_search_first_k/fast:
-	$(MAKE) -f cpp/CMakeFiles/binary_search_first_k.dir/build.make cpp/CMakeFiles/binary_search_first_k.dir/build
-.PHONY : binary_search_first_k/fast
-
-#=============================================================================
-# Target rules for targets named eliminate_duplicate
-
-# Build rule for target.
-eliminate_duplicate: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 eliminate_duplicate
-.PHONY : eliminate_duplicate
-
-# fast build rule for target.
-eliminate_duplicate/fast:
-	$(MAKE) -f cpp/CMakeFiles/eliminate_duplicate.dir/build.make cpp/CMakeFiles/eliminate_duplicate.dir/build
-.PHONY : eliminate_duplicate/fast
-
-#=============================================================================
-# Target rules for targets named binary_search_circular_array_with_duplicates
-
-# Build rule for target.
-binary_search_circular_array_with_duplicates: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary_search_circular_array_with_duplicates
-.PHONY : binary_search_circular_array_with_duplicates
-
-# fast build rule for target.
-binary_search_circular_array_with_duplicates/fast:
-	$(MAKE) -f cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build.make cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build
-.PHONY : binary_search_circular_array_with_duplicates/fast
-
-#=============================================================================
 # Target rules for targets named close_search
 
 # Build rule for target.
@@ -5220,43 +5376,43 @@ longest_subarray_k/fast:
 .PHONY : longest_subarray_k/fast
 
 #=============================================================================
-# Target rules for targets named power_x_y
+# Target rules for targets named binary_search_first_k
 
 # Build rule for target.
-power_x_y: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 power_x_y
-.PHONY : power_x_y
+binary_search_first_k: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary_search_first_k
+.PHONY : binary_search_first_k
 
 # fast build rule for target.
-power_x_y/fast:
-	$(MAKE) -f cpp/CMakeFiles/power_x_y.dir/build.make cpp/CMakeFiles/power_x_y.dir/build
-.PHONY : power_x_y/fast
+binary_search_first_k/fast:
+	$(MAKE) -f cpp/CMakeFiles/binary_search_first_k.dir/build.make cpp/CMakeFiles/binary_search_first_k.dir/build
+.PHONY : binary_search_first_k/fast
 
 #=============================================================================
-# Target rules for targets named max_submatrix_rectangle_improved
+# Target rules for targets named eliminate_duplicate
 
 # Build rule for target.
-max_submatrix_rectangle_improved: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 max_submatrix_rectangle_improved
-.PHONY : max_submatrix_rectangle_improved
+eliminate_duplicate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eliminate_duplicate
+.PHONY : eliminate_duplicate
 
 # fast build rule for target.
-max_submatrix_rectangle_improved/fast:
-	$(MAKE) -f cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build.make cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build
-.PHONY : max_submatrix_rectangle_improved/fast
+eliminate_duplicate/fast:
+	$(MAKE) -f cpp/CMakeFiles/eliminate_duplicate.dir/build.make cpp/CMakeFiles/eliminate_duplicate.dir/build
+.PHONY : eliminate_duplicate/fast
 
 #=============================================================================
-# Target rules for targets named arbitrage
+# Target rules for targets named binary_search_circular_array_with_duplicates
 
 # Build rule for target.
-arbitrage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 arbitrage
-.PHONY : arbitrage
+binary_search_circular_array_with_duplicates: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary_search_circular_array_with_duplicates
+.PHONY : binary_search_circular_array_with_duplicates
 
 # fast build rule for target.
-arbitrage/fast:
-	$(MAKE) -f cpp/CMakeFiles/arbitrage.dir/build.make cpp/CMakeFiles/arbitrage.dir/build
-.PHONY : arbitrage/fast
+binary_search_circular_array_with_duplicates/fast:
+	$(MAKE) -f cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build.make cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build
+.PHONY : binary_search_circular_array_with_duplicates/fast
 
 #=============================================================================
 # Target rules for targets named biggest_product_n_1_math
@@ -5376,6 +5532,19 @@ average_top_3_scores/fast:
 .PHONY : average_top_3_scores/fast
 
 #=============================================================================
+# Target rules for targets named odd_even
+
+# Build rule for target.
+odd_even: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 odd_even
+.PHONY : odd_even
+
+# fast build rule for target.
+odd_even/fast:
+	$(MAKE) -f cpp/CMakeFiles/odd_even.dir/build.make cpp/CMakeFiles/odd_even.dir/build
+.PHONY : odd_even/fast
+
+#=============================================================================
 # Target rules for targets named lazy_init
 
 # Build rule for target.
@@ -5387,6 +5556,58 @@ lazy_init: cmake_check_build_system
 lazy_init/fast:
 	$(MAKE) -f cpp/CMakeFiles/lazy_init.dir/build.make cpp/CMakeFiles/lazy_init.dir/build
 .PHONY : lazy_init/fast
+
+#=============================================================================
+# Target rules for targets named tail_coin
+
+# Build rule for target.
+tail_coin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 tail_coin
+.PHONY : tail_coin
+
+# fast build rule for target.
+tail_coin/fast:
+	$(MAKE) -f cpp/CMakeFiles/tail_coin.dir/build.make cpp/CMakeFiles/tail_coin.dir/build
+.PHONY : tail_coin/fast
+
+#=============================================================================
+# Target rules for targets named swap_bits
+
+# Build rule for target.
+swap_bits: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 swap_bits
+.PHONY : swap_bits
+
+# fast build rule for target.
+swap_bits/fast:
+	$(MAKE) -f cpp/CMakeFiles/swap_bits.dir/build.make cpp/CMakeFiles/swap_bits.dir/build
+.PHONY : swap_bits/fast
+
+#=============================================================================
+# Target rules for targets named list_pivoting
+
+# Build rule for target.
+list_pivoting: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 list_pivoting
+.PHONY : list_pivoting
+
+# fast build rule for target.
+list_pivoting/fast:
+	$(MAKE) -f cpp/CMakeFiles/list_pivoting.dir/build.make cpp/CMakeFiles/list_pivoting.dir/build
+.PHONY : list_pivoting/fast
+
+#=============================================================================
+# Target rules for targets named dutch_national_flag
+
+# Build rule for target.
+dutch_national_flag: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dutch_national_flag
+.PHONY : dutch_national_flag
+
+# fast build rule for target.
+dutch_national_flag/fast:
+	$(MAKE) -f cpp/CMakeFiles/dutch_national_flag.dir/build.make cpp/CMakeFiles/dutch_national_flag.dir/build
+.PHONY : dutch_national_flag/fast
 
 #=============================================================================
 # Target rules for targets named bonus_improved
@@ -5402,17 +5623,17 @@ bonus_improved/fast:
 .PHONY : bonus_improved/fast
 
 #=============================================================================
-# Target rules for targets named bignumber_multiplication
+# Target rules for targets named big_number_multiplication
 
 # Build rule for target.
-bignumber_multiplication: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 bignumber_multiplication
-.PHONY : bignumber_multiplication
+big_number_multiplication: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 big_number_multiplication
+.PHONY : big_number_multiplication
 
 # fast build rule for target.
-bignumber_multiplication/fast:
-	$(MAKE) -f cpp/CMakeFiles/bignumber_multiplication.dir/build.make cpp/CMakeFiles/bignumber_multiplication.dir/build
-.PHONY : bignumber_multiplication/fast
+big_number_multiplication/fast:
+	$(MAKE) -f cpp/CMakeFiles/big_number_multiplication.dir/build.make cpp/CMakeFiles/big_number_multiplication.dir/build
+.PHONY : big_number_multiplication/fast
 
 #=============================================================================
 # Target rules for targets named lowest_common_ancestor
@@ -5493,6 +5714,19 @@ collatz_conjecture/fast:
 .PHONY : collatz_conjecture/fast
 
 #=============================================================================
+# Target rules for targets named binary_search_larger_k
+
+# Build rule for target.
+binary_search_larger_k: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary_search_larger_k
+.PHONY : binary_search_larger_k
+
+# fast build rule for target.
+binary_search_larger_k/fast:
+	$(MAKE) -f cpp/CMakeFiles/binary_search_larger_k.dir/build.make cpp/CMakeFiles/binary_search_larger_k.dir/build
+.PHONY : binary_search_larger_k/fast
+
+#=============================================================================
 # Target rules for targets named k_balanced_binary_tree
 
 # Build rule for target.
@@ -5519,17 +5753,30 @@ k_balanced_binary_tree/fast:
 .PHONY : 2_sum/fast
 
 #=============================================================================
-# Target rules for targets named binary_search_larger_k
+# Target rules for targets named computing_x_n
 
 # Build rule for target.
-binary_search_larger_k: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary_search_larger_k
-.PHONY : binary_search_larger_k
+computing_x_n: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 computing_x_n
+.PHONY : computing_x_n
 
 # fast build rule for target.
-binary_search_larger_k/fast:
-	$(MAKE) -f cpp/CMakeFiles/binary_search_larger_k.dir/build.make cpp/CMakeFiles/binary_search_larger_k.dir/build
-.PHONY : binary_search_larger_k/fast
+computing_x_n/fast:
+	$(MAKE) -f cpp/CMakeFiles/computing_x_n.dir/build.make cpp/CMakeFiles/computing_x_n.dir/build
+.PHONY : computing_x_n/fast
+
+#=============================================================================
+# Target rules for targets named binary_tree_zigzag_level_order_traversal
+
+# Build rule for target.
+binary_tree_zigzag_level_order_traversal: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 binary_tree_zigzag_level_order_traversal
+.PHONY : binary_tree_zigzag_level_order_traversal
+
+# fast build rule for target.
+binary_tree_zigzag_level_order_traversal/fast:
+	$(MAKE) -f cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build.make cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build
+.PHONY : binary_tree_zigzag_level_order_traversal/fast
 
 #=============================================================================
 # Target rules for targets named matrix_rotation
@@ -5558,19 +5805,6 @@ cyclic_right_shift/fast:
 .PHONY : cyclic_right_shift/fast
 
 #=============================================================================
-# Target rules for targets named palindrome_partitioning_min_cuts
-
-# Build rule for target.
-palindrome_partitioning_min_cuts: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 palindrome_partitioning_min_cuts
-.PHONY : palindrome_partitioning_min_cuts
-
-# fast build rule for target.
-palindrome_partitioning_min_cuts/fast:
-	$(MAKE) -f cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build.make cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build
-.PHONY : palindrome_partitioning_min_cuts/fast
-
-#=============================================================================
 # Target rules for targets named 0_sum_subset
 
 # Build rule for target.
@@ -5584,30 +5818,17 @@ palindrome_partitioning_min_cuts/fast:
 .PHONY : 0_sum_subset/fast
 
 #=============================================================================
-# Target rules for targets named computing_x_n
+# Target rules for targets named palindrome_partitioning_min_cuts
 
 # Build rule for target.
-computing_x_n: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 computing_x_n
-.PHONY : computing_x_n
+palindrome_partitioning_min_cuts: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 palindrome_partitioning_min_cuts
+.PHONY : palindrome_partitioning_min_cuts
 
 # fast build rule for target.
-computing_x_n/fast:
-	$(MAKE) -f cpp/CMakeFiles/computing_x_n.dir/build.make cpp/CMakeFiles/computing_x_n.dir/build
-.PHONY : computing_x_n/fast
-
-#=============================================================================
-# Target rules for targets named binary_tree_zigzag_level_order_traversal
-
-# Build rule for target.
-binary_tree_zigzag_level_order_traversal: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 binary_tree_zigzag_level_order_traversal
-.PHONY : binary_tree_zigzag_level_order_traversal
-
-# fast build rule for target.
-binary_tree_zigzag_level_order_traversal/fast:
-	$(MAKE) -f cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build.make cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build
-.PHONY : binary_tree_zigzag_level_order_traversal/fast
+palindrome_partitioning_min_cuts/fast:
+	$(MAKE) -f cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build.make cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build
+.PHONY : palindrome_partitioning_min_cuts/fast
 
 # Help Target
 help:
@@ -5631,35 +5852,34 @@ help:
 	@echo "... c++11_random"
 	@echo "... anonymous_letter_test"
 	@echo "... anagramstest"
+	@echo "... thread_per_task_webserver"
+	@echo "... zipping_list"
 	@echo "... zigzag_conversion"
-	@echo "... word_breaking_alternative"
 	@echo "... word_breaking"
+	@echo "... word_breaking_alternative"
 	@echo "... word_breaking_2"
 	@echo "... wiring_circuit_board"
 	@echo "... view_sunset"
-	@echo "... search_majority"
-	@echo "... valid_ip_address_recursive"
+	@echo "... view_from_above"
+	@echo "... valid_parentheses"
+	@echo "... valid_palindrome"
+	@echo "... valid_number"
 	@echo "... update_bst"
-	@echo "... longest_valid_parentheses"
-	@echo "... sorted_list_to_bst"
-	@echo "... union_intervals"
+	@echo "... unique_binary_trees_all"
+	@echo "... uniform_random_number_generation"
 	@echo "... triangle"
 	@echo "... tree_traversal"
-	@echo "... anagrams"
-	@echo "... stack_with_max"
-	@echo "... unique_binary_trees"
+	@echo "... tree_diameter"
 	@echo "... transitive_closure"
 	@echo "... bonus"
 	@echo "... tournament_tree"
-	@echo "... view_from_above"
 	@echo "... ties_election"
 	@echo "... team_reachability"
 	@echo "... team_photo_1"
 	@echo "... celebrity_finding"
 	@echo "... sudoku_solve"
+	@echo "... s1"
 	@echo "... substring_with_concatenation_of_all_words"
-	@echo "... remove_duplicates_from_sorted_array"
-	@echo "... subseq_cover"
 	@echo "... longest_increasing_subarray"
 	@echo "... student_sort"
 	@echo "... longest_contained_range"
@@ -5670,35 +5890,46 @@ help:
 	@echo "... square_root"
 	@echo "... square_root_int"
 	@echo "... sort_list"
+	@echo "... remove_duplicates_from_sorted_array"
+	@echo "... subseq_cover"
+	@echo "... smart_pointers"
 	@echo "... rendering_calendar"
 	@echo "... sliding_window"
 	@echo "... shortest_path_fewest_edges"
+	@echo "... pascal_triangle_2"
+	@echo "... semaphore_gaurav"
+	@echo "... search_rotated_sorted_array"
+	@echo "... two_thread_increment"
 	@echo "... search_min_first_bst"
 	@echo "... max_concatenation_numbers"
 	@echo "... prime_sieve_basic"
 	@echo "... search_maze"
+	@echo "... search_insert_position_sorted_array"
 	@echo "... nonuniform_random_number_generation"
 	@echo "... search_bst_for_first_occurrence_recursive"
 	@echo "... search_bst_for_first_occurrence_iterative"
 	@echo "... search_bst_first_larger_k"
-	@echo "... search_rotated_sorted_array"
-	@echo "... search_insert_position_sorted_array"
+	@echo "... union_intervals"
+	@echo "... longest_valid_parentheses"
+	@echo "... sorted_list_to_bst"
 	@echo "... search_a_range_sorted_array"
 	@echo "... reverse_integer"
 	@echo "... scramble_string"
 	@echo "... score_combination"
+	@echo "... coin_change"
+	@echo "... rw"
 	@echo "... number_ways_test"
 	@echo "... permutations_unique"
 	@echo "... run_length_compression"
 	@echo "... rook_attack"
 	@echo "... road_network"
+	@echo "... reverse_list_in_k_group"
 	@echo "... 3_sum_closest"
 	@echo "... search_frequent_items"
 	@echo "... reverse_linked_list_recursive"
 	@echo "... binary_tree_lock"
 	@echo "... partition_2_same_average"
 	@echo "... reverse_bits"
-	@echo "... reverse_list_in_k_group"
 	@echo "... replace_and_remove"
 	@echo "... normalized_pathnames"
 	@echo "... remove_kth_last_list"
@@ -5711,6 +5942,8 @@ help:
 	@echo "... reconstruct_binary_tree_pre_in_orders"
 	@echo "... container_with_most_water_test"
 	@echo "... top_k"
+	@echo "... n_queens"
+	@echo "... semaphore"
 	@echo "... add_two_number_list"
 	@echo "... load_balancing"
 	@echo "... path_sum_binary_tree"
@@ -5720,58 +5953,59 @@ help:
 	@echo "... rays_covering_arcs"
 	@echo "... range_lookup_bst"
 	@echo "... rabin_karp"
-	@echo "... spreadsheet_encoding"
-	@echo "... queue_with_max_intro"
-	@echo "... queue_with_max_alternative"
 	@echo "... surrounded_regions"
 	@echo "... rebuild_bst_postorder"
 	@echo "... queue_with_max"
+	@echo "... spreadsheet_encoding"
+	@echo "... queue_with_max_intro"
+	@echo "... queue_with_max_alternative"
 	@echo "... is_palindromic"
 	@echo "... queue_from_stacks"
-	@echo "... tree_diameter"
 	@echo "... print_linked_list_reverse_order"
 	@echo "... prime_sieve"
 	@echo "... pretty_printing"
 	@echo "... populating_next_right_pointers"
 	@echo "... populating_next_right_pointers_any_binary_tree"
+	@echo "... polymorphism_problems"
 	@echo "... task_assignment"
 	@echo "... points_covering_intervals_sorting"
 	@echo "... points_covering_intervals_alternative"
 	@echo "... bst_to_sorted_doubly_list"
 	@echo "... plus_one"
 	@echo "... planning_fishing"
-	@echo "... picking_up_coins_dont_lose"
 	@echo "... online_sampling"
 	@echo "... picking_up_coins"
+	@echo "... picking_up_coins_dont_lose"
 	@echo "... permutations"
 	@echo "... permutations_alternative"
 	@echo "... permutation_array"
 	@echo "... sum_root_to_leaf_binary_tree"
 	@echo "... closest_stars"
 	@echo "... reverse_linked_list_from_s_to_f"
+	@echo "... biggest_product_n_1"
+	@echo "... pass_by_value_bug"
 	@echo "... longest_subarray_with_distinct_entries"
 	@echo "... parity1"
-	@echo "... palindrome_linked_list"
-	@echo "... longest_subarray_k_improved"
-	@echo "... valid_ip_address"
 	@echo "... morris_traversal"
 	@echo "... palindrome_number"
+	@echo "... palindrome_linked_list"
 	@echo "... theory_of_equality"
 	@echo "... painting_iterative"
-	@echo "... overlapping_lists_no_cycle"
 	@echo "... overlapping_lists"
+	@echo "... overlapping_lists_no_cycle"
 	@echo "... intersect_sorted_arrays3_test"
 	@echo "... balanced_binary_tree_test"
 	@echo "... online_median"
 	@echo "... find_kth_element_in_two_sorted_arrays"
 	@echo "... recover_binary_search_tree_constant_space"
 	@echo "... offline_minimum"
-	@echo "... number_ways_obstacles"
-	@echo "... pascal_triangle_2"
 	@echo "... number_ways"
-	@echo "... uniform_random_number_generation"
+	@echo "... number_ways_obstacles"
 	@echo "... nonconstructible_change"
 	@echo "... symmetric_binary_tree"
+	@echo "... unique_binary_trees"
+	@echo "... anagrams"
+	@echo "... stack_with_max"
 	@echo "... search_bst"
 	@echo "... first_missing_positive"
 	@echo "... k_th_largest_element_large_n"
@@ -5779,7 +6013,7 @@ help:
 	@echo "... transform_string_to_other"
 	@echo "... rebuild_bst_postorder_better"
 	@echo "... nearest_repetition"
-	@echo "... n_queens"
+	@echo "... multiply_shift_add"
 	@echo "... missing_element"
 	@echo "... order_statistic"
 	@echo "... multibet_card_color_game"
@@ -5798,6 +6032,9 @@ help:
 	@echo "... height_determination"
 	@echo "... deletion_list"
 	@echo "... string_in_matrix"
+	@echo "... valid_ip_address_recursive"
+	@echo "... search_majority"
+	@echo "... multiply_shift_add2"
 	@echo "... maximum_container"
 	@echo "... max_submatrix_rectangle"
 	@echo "... offline_sampling"
@@ -5809,7 +6046,6 @@ help:
 	@echo "... binary_tree_postorder_traversal_iterative"
 	@echo "... map_update5"
 	@echo "... map_update1"
-	@echo "... unique_binary_trees_all"
 	@echo "... n_queens_count"
 	@echo "... rpn"
 	@echo "... minimum_waiting_time"
@@ -5820,15 +6056,17 @@ help:
 	@echo "... lowest_common_ancestor_hash"
 	@echo "... balanced_binary_tree"
 	@echo "... look_and_say"
-	@echo "... max_submatrix_square"
-	@echo "... default_constructor"
-	@echo "... build_bst_from_sorted_array"
-	@echo "... longest_valid_parentheses_const_space"
 	@echo "... tail"
 	@echo "... shortest_unique_prefix"
 	@echo "... bst_lowest_common_ancestor"
 	@echo "... bst_sorted_order"
+	@echo "... max_submatrix_square"
+	@echo "... default_constructor"
+	@echo "... build_bst_from_sorted_array"
+	@echo "... longest_valid_parentheses_const_space"
 	@echo "... longest_substring_without_repeating_characters"
+	@echo "... binary_tree_to_doubly_linked_list"
+	@echo "... simple_web_server"
 	@echo "... interleaving_string"
 	@echo "... spiral_matrix"
 	@echo "... rebuild_bst_preorder_better"
@@ -5838,8 +6076,10 @@ help:
 	@echo "... rebuild_bst_preorder"
 	@echo "... drawing_skylines"
 	@echo "... map_update3"
+	@echo "... min_max_template_move"
 	@echo "... count_inversions"
 	@echo "... lock_ordering_bug"
+	@echo "... min_max_template"
 	@echo "... insertion_deletion_bst"
 	@echo "... line_most_points"
 	@echo "... levenshtein_distance"
@@ -5848,12 +6088,13 @@ help:
 	@echo "... smallest_subarray_covering_set"
 	@echo "... largest_rectangle_under_skyline"
 	@echo "... k_th_node_binary_tree"
+	@echo "... power_x_y"
+	@echo "... arbitrage"
+	@echo "... max_submatrix_rectangle_improved"
 	@echo "... number_steps"
-	@echo "... zipping_list"
-	@echo "... multiplyshiftadd"
 	@echo "... k_th_element_streaming"
 	@echo "... sort_k_increasing_decreasing_array"
-	@echo "... biggest_product_n_1"
+	@echo "... polymorphism_problems_fixed"
 	@echo "... overlapping_days"
 	@echo "... intersect_sorted_arrays"
 	@echo "... intersect_rectangle"
@@ -5880,15 +6121,20 @@ help:
 	@echo "... gray_code"
 	@echo "... generate_parentheses"
 	@echo "... exterior_binary_tree"
+	@echo "... valid_ip_address"
+	@echo "... longest_subarray_k_improved"
+	@echo "... addingcredits"
+	@echo "... max_difference_unlimited_pairs"
+	@echo "... s2"
 	@echo "... generate_spiral_matrix"
-	@echo "... binary_search_circular_array"
-	@echo "... gcd1"
 	@echo "... async_thread"
 	@echo "... inline_example"
 	@echo "... map_update2"
 	@echo "... reverse_words"
 	@echo "... lru_cache"
 	@echo "... gcd"
+	@echo "... binary_search_circular_array"
+	@echo "... gcd1"
 	@echo "... remove_element"
 	@echo "... checking_cycle"
 	@echo "... copying_postings_list"
@@ -5898,7 +6144,6 @@ help:
 	@echo "... path_sum_binary_tree_all"
 	@echo "... search_postings_list_iterative"
 	@echo "... find_longest_arithmetic_progression"
-	@echo "... valid_number"
 	@echo "... delete_list"
 	@echo "... find_k_largest_bst"
 	@echo "... reconstruct_binary_tree_post_in_orders"
@@ -5911,15 +6156,6 @@ help:
 	@echo "... jump_game_min_steps"
 	@echo "... elias_coding"
 	@echo "... dutch_national_flag_slow_inplace"
-	@echo "... tail_coin"
-	@echo "... addingcredits"
-	@echo "... max_difference_unlimited_pairs"
-	@echo "... swap_bits"
-	@echo "... list_pivoting"
-	@echo "... dutch_national_flag"
-	@echo "... conversion_sorted_array"
-	@echo "... justify_text"
-	@echo "... drawing_skylines_alternative"
 	@echo "... stack_sorting"
 	@echo "... tower_hanoi"
 	@echo "... gray_code_backtrack"
@@ -5928,21 +6164,24 @@ help:
 	@echo "... add_binary"
 	@echo "... search_rotated_sorted_array_with_duplicates"
 	@echo "... gaussian_primes"
+	@echo "... conversion_sorted_array"
+	@echo "... justify_text"
+	@echo "... drawing_skylines_alternative"
 	@echo "... nearest_restaurant"
 	@echo "... closest_pair_points"
 	@echo "... doors"
+	@echo "... completion_search_space_efficient"
+	@echo "... job_assignment"
+	@echo "... generating_a_b_sqrt2_2"
+	@echo "... division"
 	@echo "... score_combination_alternative"
 	@echo "... minimum_distance_3_sorted_arrays"
 	@echo "... image_compression"
-	@echo "... dutch_national_flag_two_passes"
 	@echo "... 3_sum"
+	@echo "... dutch_national_flag_two_passes"
 	@echo "... spiral_matrix_clockwise"
 	@echo "... connect_leaves_binary_tree"
 	@echo "... division_no_operator"
-	@echo "... job_assignment"
-	@echo "... generating_a_b_sqrt2_2"
-	@echo "... completion_search_space_efficient"
-	@echo "... division"
 	@echo "... distinct_sorted_list"
 	@echo "... huffman_encoding"
 	@echo "... points_covering_intervals"
@@ -5953,7 +6192,6 @@ help:
 	@echo "... count_occurrences_in_sentence"
 	@echo "... convert_base"
 	@echo "... container_with_most_water"
-	@echo "... valid_palindrome"
 	@echo "... computing_binomial_coefficients"
 	@echo "... painting_recursive"
 	@echo "... 2_for_all"
@@ -5962,10 +6200,9 @@ help:
 	@echo "... interconverting_string_integer"
 	@echo "... stack_with_max_improved"
 	@echo "... closest_palindrome"
+	@echo "... merge_two_sorted_arrays_in_place"
 	@echo "... student_search"
 	@echo "... buy_and_sell_stock_twice"
-	@echo "... merge_two_sorted_arrays_in_place"
-	@echo "... coin_change"
 	@echo "... count_bits"
 	@echo "... partition_array"
 	@echo "... divisionfloat"
@@ -5975,9 +6212,9 @@ help:
 	@echo "... inorder_traversal_with_parent"
 	@echo "... jump_game"
 	@echo "... collatz"
+	@echo "... length_of_last_word"
 	@echo "... find_element_appears_once"
 	@echo "... binary_search_unknown_length"
-	@echo "... length_of_last_word"
 	@echo "... score_permutation"
 	@echo "... generating_a_b_sqrt2_improved"
 	@echo "... max_sum_subarray"
@@ -5990,29 +6227,25 @@ help:
 	@echo "... string_matching_wildcard"
 	@echo "... is_binary_tree_a_bst_const_space"
 	@echo "... checking_cycle_alternative"
-	@echo "... valid_parentheses"
 	@echo "... can_string_be_palindrome"
 	@echo "... bad_macro"
 	@echo "... parity"
 	@echo "... fibonacci"
 	@echo "... buy_and_sell_stock"
+	@echo "... task_execution_web_server"
 	@echo "... combinations_unique"
 	@echo "... prefix_search"
 	@echo "... binary_tree_postorder_traversal_iterative_alternative"
 	@echo "... descendant_and_ancestor"
 	@echo "... 0_1_knapsack"
-	@echo "... binary_tree_to_doubly_linked_list"
-	@echo "... binary_search_first_k"
-	@echo "... eliminate_duplicate"
-	@echo "... binary_search_circular_array_with_duplicates"
 	@echo "... close_search"
 	@echo "... equiv_classes"
 	@echo "... binary_tree_preorder_traversal_iterative"
 	@echo "... longest_nondecreasing_subsequence"
 	@echo "... longest_subarray_k"
-	@echo "... power_x_y"
-	@echo "... max_submatrix_rectangle_improved"
-	@echo "... arbitrage"
+	@echo "... binary_search_first_k"
+	@echo "... eliminate_duplicate"
+	@echo "... binary_search_circular_array_with_duplicates"
 	@echo "... biggest_product_n_1_math"
 	@echo "... search_list"
 	@echo "... bentleybsearch"
@@ -6022,24 +6255,29 @@ help:
 	@echo "... bad_rtti2"
 	@echo "... search_postings_list_recursive"
 	@echo "... average_top_3_scores"
+	@echo "... odd_even"
 	@echo "... lazy_init"
+	@echo "... tail_coin"
+	@echo "... swap_bits"
+	@echo "... list_pivoting"
+	@echo "... dutch_national_flag"
 	@echo "... bonus_improved"
-	@echo "... bignumber_multiplication"
+	@echo "... big_number_multiplication"
 	@echo "... lowest_common_ancestor"
 	@echo "... 4_sum"
 	@echo "... anonymous_letter"
 	@echo "... insertion_sort_list"
 	@echo "... bad_rtti"
 	@echo "... collatz_conjecture"
+	@echo "... binary_search_larger_k"
 	@echo "... k_balanced_binary_tree"
 	@echo "... 2_sum"
-	@echo "... binary_search_larger_k"
-	@echo "... matrix_rotation"
-	@echo "... cyclic_right_shift"
-	@echo "... palindrome_partitioning_min_cuts"
-	@echo "... 0_sum_subset"
 	@echo "... computing_x_n"
 	@echo "... binary_tree_zigzag_level_order_traversal"
+	@echo "... matrix_rotation"
+	@echo "... cyclic_right_shift"
+	@echo "... 0_sum_subset"
+	@echo "... palindrome_partitioning_min_cuts"
 .PHONY : help
 
 

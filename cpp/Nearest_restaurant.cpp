@@ -4,7 +4,7 @@
 #include <memory>
 #include <vector>
 
-#include "BST_parent_prototype.h"
+#include "bst_parent_prototype.h"
 
 using std::make_unique;
 using std::unique_ptr;

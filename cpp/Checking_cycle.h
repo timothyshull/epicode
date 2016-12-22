@@ -5,7 +5,7 @@
 
 #include <memory>
 
-#include "Linked_list_prototype.h"
+#include "linked_list_prototype.h"
 
 // @include
 shared_ptr<List_node<int>> HasCycle(const shared_ptr<List_node<int>>& head)

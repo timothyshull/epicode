@@ -109,7 +109,7 @@ int main(int argc, char** argv)
         auto copy_A(A);
         cout << "m = " << m << ", n = " << n << "\n";
         RookAttack(&A);
-        CheckAns(copy_A, A);
+        check_ans(copy_A, A);
     }
     return 0;
 }

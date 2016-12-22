@@ -6,7 +6,7 @@
 #include <stdexcept>
 #include <unordered_set>
 
-#include "Binary_tree_with_parent_prototype.h"
+#include "binary_tree_with_parent_prototype.h"
 
 using std::cout;
 using std::endl;

@@ -7,8 +7,8 @@
 #include <random>
 #include <vector>
 
-#include "Permutation_array1.h"
-#include "Permutation_array2.h"
+#include "permutation_array1.h"
+#include "permutation_array2.h"
 
 using std::cout;
 using std::default_random_engine;

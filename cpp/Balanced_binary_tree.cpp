@@ -6,7 +6,7 @@
 #include <memory>
 #include <utility>
 
-#include "Binary_tree_prototype.h"
+#include "binary_tree_prototype.h"
 
 using std::boolalpha;
 using std::cout;

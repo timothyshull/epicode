@@ -4,7 +4,7 @@
 #include <iostream>
 #include <memory>
 
-#include "Doubly_linked_list_prototype.h"
+#include "doubly_linked_list_prototype.h"
 
 using std::cout;
 using std::endl;

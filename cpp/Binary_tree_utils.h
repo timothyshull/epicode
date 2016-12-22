@@ -10,7 +10,7 @@
 #include <string>
 #include <vector>
 
-#include "Binary_tree_prototype.h"
+#include "binary_tree_prototype.h"
 
 using std::default_random_engine;
 using std::list;
@@ -23,23 +23,22 @@ using std::uniform_int_distribution;
 using std::vector;
 
 template<typename T>
-unique_ptr<BinaryTreeNode<T>> generate_rand_binary_tree(
-        int n, bool is_unique = false)
+unique_ptr<Binary_tree_node<T>> generate_rand_binary_tree(int n, bool is_unique = false)
 {
     default_random_engine gen((random_device()) ());
-    list<unique_ptr<BinaryTreeNode<T>>*> l;
+    list<unique_ptr<Binary_tree_node<T>>*> l;
     uniform_int_distribution<int> dis(0, numeric_limits<int>::max());
-    auto root = make_unique<BinaryTreeNode<T>>(
-            BinaryTreeNode<T>{(is_unique ? n-- : dis(gen))});
+    auto root = make_unique<Binary_tree_node<T>>(
+            Binary_tree_node<T>{(is_unique ? n-- : dis(gen))});
     l.emplace_back(&(root->left));
     l.emplace_back(&(root->right));
     while (n--) {
         uniform_int_distribution<int> x_dis(0, l.size() - 1);
         int x = x_dis(gen);
-        typename list<unique_ptr<BinaryTreeNode<T>>*>::iterator it = l.begin();
+        typename list<unique_ptr<Binary_tree_node<T>>*>::iterator it = l.begin();
         advance(it, x);
-        **it = make_unique<BinaryTreeNode<T>>(
-                BinaryTreeNode<T>{(is_unique ? n : dis(gen))});
+        **it = make_unique<Binary_tree_node<T>>(
+                Binary_tree_node<T>{(is_unique ? n : dis(gen))});
         l.emplace_back(&((**it)->left));
         l.emplace_back(&((**it)->right));
         l.erase(it);
@@ -48,7 +47,7 @@ unique_ptr<BinaryTreeNode<T>> generate_rand_binary_tree(
 }
 
 template<typename T>
-void delete_binary_tree(unique_ptr<BinaryTreeNode<T>>* n)
+void delete_binary_tree(unique_ptr<Binary_tree_node<T>>* n)
 {
     if (n) {
         if ((*n)->left.get()) {
@@ -62,13 +61,10 @@ void delete_binary_tree(unique_ptr<BinaryTreeNode<T>>* n)
 }
 
 template<typename T>
-bool is_two_binary_trees_equal(const unique_ptr<BinaryTreeNode<T>>& r1,
-                               const unique_ptr<BinaryTreeNode<T>>& r2)
+bool is_two_binary_trees_equal(const unique_ptr<Binary_tree_node<T>>& r1, const unique_ptr<Binary_tree_node<T>>& r2)
 {
     if (r1 && r2) {
-        return is_two_binary_trees_equal(r1->left, r2->left) &&
-               is_two_binary_trees_equal(r1->right, r2->right) &&
-               r1->data == r2->data;
+        return is_two_binary_trees_equal(r1->left, r2->left) && is_two_binary_trees_equal(r1->right, r2->right) && r1->data == r2->data;
     } else if (!r1 && !r2) {
         return true;
     } else {
@@ -77,8 +73,7 @@ bool is_two_binary_trees_equal(const unique_ptr<BinaryTreeNode<T>>& r1,
 }
 
 template<typename T>
-void generate_preorder_helper(const unique_ptr<BinaryTreeNode<T>>& r,
-                              vector<T>* ret)
+void generate_preorder_helper(const unique_ptr<Binary_tree_node<T>>& r, vector<T>* ret)
 {
     if (r) {
         ret->emplace_back(r->data);
@@ -88,7 +83,7 @@ void generate_preorder_helper(const unique_ptr<BinaryTreeNode<T>>& r,
 }
 
 template<typename T>
-vector<T> generate_preorder(const unique_ptr<BinaryTreeNode<T>>& r)
+vector<T> generate_preorder(const unique_ptr<Binary_tree_node<T>>& r)
 {
     vector<T> ret;
     generate_preorder_helper(r, &ret);
@@ -96,8 +91,7 @@ vector<T> generate_preorder(const unique_ptr<BinaryTreeNode<T>>& r)
 }
 
 template<typename T>
-void generate_inorder_helper(const unique_ptr<BinaryTreeNode<T>>& r,
-                             vector<T>* ret)
+void generate_inorder_helper(const unique_ptr<Binary_tree_node<T>>& r, vector<T>* ret)
 {
     if (r) {
         generate_inorder_helper(r->left, ret);
@@ -107,7 +101,7 @@ void generate_inorder_helper(const unique_ptr<BinaryTreeNode<T>>& r,
 }
 
 template<typename T>
-vector<T> generate_inorder(const unique_ptr<BinaryTreeNode<T>>& r)
+vector<T> generate_inorder(const unique_ptr<Binary_tree_node<T>>& r)
 {
     vector<T> ret;
     generate_inorder_helper(r, &ret);
@@ -115,8 +109,7 @@ vector<T> generate_inorder(const unique_ptr<BinaryTreeNode<T>>& r)
 }
 
 template<typename T>
-void generate_postorder_helper(const unique_ptr<BinaryTreeNode<T>>& r,
-                               vector<T>* ret)
+void generate_postorder_helper(const unique_ptr<Binary_tree_node<T>>& r, vector<T>* ret)
 {
     if (r) {
         generate_postorder_helper(r->left, ret);
@@ -126,7 +119,7 @@ void generate_postorder_helper(const unique_ptr<BinaryTreeNode<T>>& r,
 }
 
 template<typename T>
-vector<T> generate_postorder(const unique_ptr<BinaryTreeNode<T>>& r)
+vector<T> generate_postorder(const unique_ptr<Binary_tree_node<T>>& r)
 {
     vector<T> ret;
     generate_postorder_helper(r, &ret);

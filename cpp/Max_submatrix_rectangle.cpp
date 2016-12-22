@@ -8,7 +8,7 @@
 #include <random>
 #include <vector>
 
-#include "Max_submatrix_rectangle_brute_force.h"
+#include "max_submatrix_rectangle_brute_force.h"
 
 using std::cout;
 using std::default_random_engine;

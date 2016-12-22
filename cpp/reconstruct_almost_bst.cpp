@@ -6,8 +6,8 @@
 #include <memory>
 #include <utility>
 
-#include "Binary_tree_prototype.h"
-#include "Binary_tree_utils.h"
+#include "binary_tree_prototype.h"
+#include "binary_tree_utils.h"
 
 using std::cout;
 using std::endl;

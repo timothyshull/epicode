@@ -13,12 +13,12 @@ using std::shared_ptr;
 // @include
 class Binary_tree_node {
 public:
-    bool IsLocked() const { return locked_; }
+    bool is_locked() const { return locked_; }
 
-    bool Lock()
+    bool lock()
     {
         // We cannot lock if any of this node's descendants are locked.
-        if (numLockedDescendants_ > 0 || locked_) {
+        if (num_locked_descendants_ > 0 || locked_) {
             return false;
         }
 
@@ -29,22 +29,22 @@ public:
             }
         }
 
-        // Lock this node and increments all its ancestors's descendant lock
+        // lock this node and increments all its ancestors's descendant lock
         // counts.
         locked_ = true;
         for (auto iter = parent_; iter != nullptr; iter = iter->parent_) {
-            ++iter->numLockedDescendants_;
+            ++iter->num_locked_descendants_;
         }
         return true;
     }
 
-    void Unlock()
+    void unlock()
     {
         if (locked_) {
             // Unlocks itself and decrements its ancestors's descendant lock counts.
             locked_ = false;
             for (auto iter = parent_; iter != nullptr; iter = iter->parent_) {
-                --iter->numLockedDescendants_;
+                --iter->num_locked_descendants_;
             }
         }
     }
@@ -60,7 +60,7 @@ private:
     shared_ptr<Binary_tree_node> left_, right_, parent_;
 
     bool locked_ = false;
-    int numLockedDescendants_ = 0;
+    int num_locked_descendants_ = 0;
 };
 // @exclude
 
@@ -76,30 +76,30 @@ int main(int argc, char* argv[])
     root->left()->right() = make_shared<Binary_tree_node>(Binary_tree_node());
     root->left()->right()->parent() = root->left();
 
-    assert(!root->IsLocked());
-    cout << boolalpha << root->IsLocked() << "\n";
+    assert(!root->is_locked());
+    cout << boolalpha << root->is_locked() << "\n";
 
-    assert(root->Lock());
-    assert(root->IsLocked());
-    cout << boolalpha << root->IsLocked() << "\n";
-    assert(!root->left()->Lock());
-    assert(!root->left()->IsLocked());
-    assert(!root->right()->Lock());
-    assert(!root->right()->IsLocked());
-    assert(!root->left()->left()->Lock());
-    assert(!root->left()->left()->IsLocked());
-    assert(!root->left()->right()->Lock());
-    assert(!root->left()->right()->IsLocked());
+    assert(root->lock());
+    assert(root->is_locked());
+    cout << boolalpha << root->is_locked() << "\n";
+    assert(!root->left()->lock());
+    assert(!root->left()->is_locked());
+    assert(!root->right()->lock());
+    assert(!root->right()->is_locked());
+    assert(!root->left()->left()->lock());
+    assert(!root->left()->left()->is_locked());
+    assert(!root->left()->right()->lock());
+    assert(!root->left()->right()->is_locked());
 
-    root->Unlock();
-    assert(root->left()->Lock());
-    assert(!root->Lock());
-    assert(!root->left()->left()->Lock());
-    assert(!root->IsLocked());
+    root->unlock();
+    assert(root->left()->lock());
+    assert(!root->lock());
+    assert(!root->left()->left()->lock());
+    assert(!root->is_locked());
 
-    cout << boolalpha << root->IsLocked() << "\n";
-    assert(root->right()->Lock());
-    assert(root->right()->IsLocked());
-    cout << boolalpha << root->right()->IsLocked() << "\n";
+    cout << boolalpha << root->is_locked() << "\n";
+    assert(root->right()->lock());
+    assert(root->right()->is_locked());
+    cout << boolalpha << root->right()->is_locked() << "\n";
     return 0;
 }

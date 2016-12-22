@@ -1,6 +1,6 @@
 // Copyright (c) 2013 Elements of Programming Interviews. All rights reserved.
 
-#include "Queue_with_max_alternative.h"
+#include "queue_with_max_alternative.h"
 
 #include <cassert>
 #include <iostream>

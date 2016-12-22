@@ -9,7 +9,7 @@
 #include <vector>
 
 #include "largest_rectangle_under_skyline.h"
-#include "Max_submatrix_rectangle_brute_force.h"
+#include "max_submatrix_rectangle_brute_force.h"
 
 using std::cout;
 using std::default_random_engine;

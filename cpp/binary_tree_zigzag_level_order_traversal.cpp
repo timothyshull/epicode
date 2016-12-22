@@ -6,7 +6,7 @@
 #include <stack>
 #include <vector>
 
-#include "Binary_tree_prototype.h"
+#include "binary_tree_prototype.h"
 
 using std::cout;
 using std::endl;
@@ -19,8 +19,7 @@ using std::vector;
 vector<int> result;
 
 // @include
-void print_binary_tree_zigzag_level_order(
-        const unique_ptr<Binary_tree_node<int>>& root)
+void print_binary_tree_zigzag_level_order(const unique_ptr<Binary_tree_node<int>>& root)
 {
     stack<Binary_tree_node<int>*> curr_level, next_level;
     bool left_to_right = true;
@@ -59,21 +58,14 @@ int main(int argc, char* argv[])
     //      3
     //    2   5
     //  1    4 6
-    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{3, nullptr, nullptr});
-    root->left = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{2, nullptr, nullptr});
-    root->left->left = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{1, nullptr, nullptr});
-    root->right = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{5, nullptr, nullptr});
-    root->right->left = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{4, nullptr, nullptr});
-    root->right->right = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{6, nullptr, nullptr});
+    unique_ptr<Binary_tree_node<int>> root = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{3, nullptr, nullptr});
+    root->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{2, nullptr, nullptr});
+    root->left->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{1, nullptr, nullptr});
+    root->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{5, nullptr, nullptr});
+    root->right->left = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{4, nullptr, nullptr});
+    root->right->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6, nullptr, nullptr});
     print_binary_tree_zigzag_level_order(root);
     vector<int> golden_res = {3, -1, 5, 2, -1, 1, 4, 6, -1};
-    assert(equal(golden_res.begin(), golden_res.end(), result.begin(),
-                 result.end()));
+    assert(equal(golden_res.begin(), golden_res.end(), result.begin(),result.end()));
     return 0;
 }

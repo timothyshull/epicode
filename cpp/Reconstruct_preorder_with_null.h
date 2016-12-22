@@ -6,7 +6,7 @@
 #include <memory>
 #include <vector>
 
-#include "Binary_tree_prototype.h"
+#include "binary_tree_prototype.h"
 
 using std::make_unique;
 using std::unique_ptr;

@@ -6,7 +6,7 @@
 #include <stdexcept>
 #include <vector>
 
-#include "Queue_with_max_alternative.h"
+#include "queue_with_max_alternative.h"
 
 using std::cout;
 using std::endl;

@@ -4,8 +4,8 @@
 #include <iostream>
 #include <memory>
 
-#include "Linked_list_prototype.h"
-#include "Overlapping_lists_no_cycle.h"
+#include "linked_list_prototype.h"
+#include "overlapping_lists_no_cycle.h"
 
 using std::cout;
 using std::endl;

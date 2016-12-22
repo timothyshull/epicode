@@ -321,6 +321,36 @@ anagramstest/fast:
 .PHONY : anagramstest/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/thread_per_task_webserver.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/thread_per_task_webserver.dir/rule
+.PHONY : cpp/CMakeFiles/thread_per_task_webserver.dir/rule
+
+# Convenience name for target.
+thread_per_task_webserver: cpp/CMakeFiles/thread_per_task_webserver.dir/rule
+
+.PHONY : thread_per_task_webserver
+
+# fast build rule for target.
+thread_per_task_webserver/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/thread_per_task_webserver.dir/build.make cpp/CMakeFiles/thread_per_task_webserver.dir/build
+.PHONY : thread_per_task_webserver/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/zipping_list.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/zipping_list.dir/rule
+.PHONY : cpp/CMakeFiles/zipping_list.dir/rule
+
+# Convenience name for target.
+zipping_list: cpp/CMakeFiles/zipping_list.dir/rule
+
+.PHONY : zipping_list
+
+# fast build rule for target.
+zipping_list/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/zipping_list.dir/build.make cpp/CMakeFiles/zipping_list.dir/build
+.PHONY : zipping_list/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/zigzag_conversion.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/zigzag_conversion.dir/rule
 .PHONY : cpp/CMakeFiles/zigzag_conversion.dir/rule
@@ -336,21 +366,6 @@ zigzag_conversion/fast:
 .PHONY : zigzag_conversion/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/word_breaking_alternative.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/word_breaking_alternative.dir/rule
-.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/rule
-
-# Convenience name for target.
-word_breaking_alternative: cpp/CMakeFiles/word_breaking_alternative.dir/rule
-
-.PHONY : word_breaking_alternative
-
-# fast build rule for target.
-word_breaking_alternative/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/word_breaking_alternative.dir/build.make cpp/CMakeFiles/word_breaking_alternative.dir/build
-.PHONY : word_breaking_alternative/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/word_breaking.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/word_breaking.dir/rule
 .PHONY : cpp/CMakeFiles/word_breaking.dir/rule
@@ -364,6 +379,21 @@ word_breaking: cpp/CMakeFiles/word_breaking.dir/rule
 word_breaking/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/word_breaking.dir/build.make cpp/CMakeFiles/word_breaking.dir/build
 .PHONY : word_breaking/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/word_breaking_alternative.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/word_breaking_alternative.dir/rule
+.PHONY : cpp/CMakeFiles/word_breaking_alternative.dir/rule
+
+# Convenience name for target.
+word_breaking_alternative: cpp/CMakeFiles/word_breaking_alternative.dir/rule
+
+.PHONY : word_breaking_alternative
+
+# fast build rule for target.
+word_breaking_alternative/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/word_breaking_alternative.dir/build.make cpp/CMakeFiles/word_breaking_alternative.dir/build
+.PHONY : word_breaking_alternative/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/word_breaking_2.dir/rule:
@@ -411,34 +441,64 @@ view_sunset/fast:
 .PHONY : view_sunset/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/search_majority.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/search_majority.dir/rule
-.PHONY : cpp/CMakeFiles/search_majority.dir/rule
+cpp/CMakeFiles/view_from_above.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/view_from_above.dir/rule
+.PHONY : cpp/CMakeFiles/view_from_above.dir/rule
 
 # Convenience name for target.
-search_majority: cpp/CMakeFiles/search_majority.dir/rule
+view_from_above: cpp/CMakeFiles/view_from_above.dir/rule
 
-.PHONY : search_majority
+.PHONY : view_from_above
 
 # fast build rule for target.
-search_majority/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_majority.dir/build.make cpp/CMakeFiles/search_majority.dir/build
-.PHONY : search_majority/fast
+view_from_above/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/view_from_above.dir/build.make cpp/CMakeFiles/view_from_above.dir/build
+.PHONY : view_from_above/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/valid_ip_address_recursive.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_ip_address_recursive.dir/rule
-.PHONY : cpp/CMakeFiles/valid_ip_address_recursive.dir/rule
+cpp/CMakeFiles/valid_parentheses.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_parentheses.dir/rule
+.PHONY : cpp/CMakeFiles/valid_parentheses.dir/rule
 
 # Convenience name for target.
-valid_ip_address_recursive: cpp/CMakeFiles/valid_ip_address_recursive.dir/rule
+valid_parentheses: cpp/CMakeFiles/valid_parentheses.dir/rule
 
-.PHONY : valid_ip_address_recursive
+.PHONY : valid_parentheses
 
 # fast build rule for target.
-valid_ip_address_recursive/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_ip_address_recursive.dir/build.make cpp/CMakeFiles/valid_ip_address_recursive.dir/build
-.PHONY : valid_ip_address_recursive/fast
+valid_parentheses/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_parentheses.dir/build.make cpp/CMakeFiles/valid_parentheses.dir/build
+.PHONY : valid_parentheses/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/valid_palindrome.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_palindrome.dir/rule
+.PHONY : cpp/CMakeFiles/valid_palindrome.dir/rule
+
+# Convenience name for target.
+valid_palindrome: cpp/CMakeFiles/valid_palindrome.dir/rule
+
+.PHONY : valid_palindrome
+
+# fast build rule for target.
+valid_palindrome/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_palindrome.dir/build.make cpp/CMakeFiles/valid_palindrome.dir/build
+.PHONY : valid_palindrome/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/valid_number.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_number.dir/rule
+.PHONY : cpp/CMakeFiles/valid_number.dir/rule
+
+# Convenience name for target.
+valid_number: cpp/CMakeFiles/valid_number.dir/rule
+
+.PHONY : valid_number
+
+# fast build rule for target.
+valid_number/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_number.dir/build.make cpp/CMakeFiles/valid_number.dir/build
+.PHONY : valid_number/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/update_bst.dir/rule:
@@ -456,49 +516,34 @@ update_bst/fast:
 .PHONY : update_bst/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/longest_valid_parentheses.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_valid_parentheses.dir/rule
-.PHONY : cpp/CMakeFiles/longest_valid_parentheses.dir/rule
+cpp/CMakeFiles/unique_binary_trees_all.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/unique_binary_trees_all.dir/rule
+.PHONY : cpp/CMakeFiles/unique_binary_trees_all.dir/rule
 
 # Convenience name for target.
-longest_valid_parentheses: cpp/CMakeFiles/longest_valid_parentheses.dir/rule
+unique_binary_trees_all: cpp/CMakeFiles/unique_binary_trees_all.dir/rule
 
-.PHONY : longest_valid_parentheses
+.PHONY : unique_binary_trees_all
 
 # fast build rule for target.
-longest_valid_parentheses/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses.dir/build.make cpp/CMakeFiles/longest_valid_parentheses.dir/build
-.PHONY : longest_valid_parentheses/fast
+unique_binary_trees_all/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/unique_binary_trees_all.dir/build.make cpp/CMakeFiles/unique_binary_trees_all.dir/build
+.PHONY : unique_binary_trees_all/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/sorted_list_to_bst.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/sorted_list_to_bst.dir/rule
-.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/rule
+cpp/CMakeFiles/uniform_random_number_generation.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/uniform_random_number_generation.dir/rule
+.PHONY : cpp/CMakeFiles/uniform_random_number_generation.dir/rule
 
 # Convenience name for target.
-sorted_list_to_bst: cpp/CMakeFiles/sorted_list_to_bst.dir/rule
+uniform_random_number_generation: cpp/CMakeFiles/uniform_random_number_generation.dir/rule
 
-.PHONY : sorted_list_to_bst
+.PHONY : uniform_random_number_generation
 
 # fast build rule for target.
-sorted_list_to_bst/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/sorted_list_to_bst.dir/build.make cpp/CMakeFiles/sorted_list_to_bst.dir/build
-.PHONY : sorted_list_to_bst/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/union_intervals.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/union_intervals.dir/rule
-.PHONY : cpp/CMakeFiles/union_intervals.dir/rule
-
-# Convenience name for target.
-union_intervals: cpp/CMakeFiles/union_intervals.dir/rule
-
-.PHONY : union_intervals
-
-# fast build rule for target.
-union_intervals/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/union_intervals.dir/build.make cpp/CMakeFiles/union_intervals.dir/build
-.PHONY : union_intervals/fast
+uniform_random_number_generation/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/uniform_random_number_generation.dir/build.make cpp/CMakeFiles/uniform_random_number_generation.dir/build
+.PHONY : uniform_random_number_generation/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/triangle.dir/rule:
@@ -531,49 +576,19 @@ tree_traversal/fast:
 .PHONY : tree_traversal/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/anagrams.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/anagrams.dir/rule
-.PHONY : cpp/CMakeFiles/anagrams.dir/rule
+cpp/CMakeFiles/tree_diameter.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/tree_diameter.dir/rule
+.PHONY : cpp/CMakeFiles/tree_diameter.dir/rule
 
 # Convenience name for target.
-anagrams: cpp/CMakeFiles/anagrams.dir/rule
+tree_diameter: cpp/CMakeFiles/tree_diameter.dir/rule
 
-.PHONY : anagrams
+.PHONY : tree_diameter
 
 # fast build rule for target.
-anagrams/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/anagrams.dir/build.make cpp/CMakeFiles/anagrams.dir/build
-.PHONY : anagrams/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/stack_with_max.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/stack_with_max.dir/rule
-.PHONY : cpp/CMakeFiles/stack_with_max.dir/rule
-
-# Convenience name for target.
-stack_with_max: cpp/CMakeFiles/stack_with_max.dir/rule
-
-.PHONY : stack_with_max
-
-# fast build rule for target.
-stack_with_max/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/stack_with_max.dir/build.make cpp/CMakeFiles/stack_with_max.dir/build
-.PHONY : stack_with_max/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/unique_binary_trees.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/unique_binary_trees.dir/rule
-.PHONY : cpp/CMakeFiles/unique_binary_trees.dir/rule
-
-# Convenience name for target.
-unique_binary_trees: cpp/CMakeFiles/unique_binary_trees.dir/rule
-
-.PHONY : unique_binary_trees
-
-# fast build rule for target.
-unique_binary_trees/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/unique_binary_trees.dir/build.make cpp/CMakeFiles/unique_binary_trees.dir/build
-.PHONY : unique_binary_trees/fast
+tree_diameter/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/tree_diameter.dir/build.make cpp/CMakeFiles/tree_diameter.dir/build
+.PHONY : tree_diameter/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/transitive_closure.dir/rule:
@@ -619,21 +634,6 @@ tournament_tree: cpp/CMakeFiles/tournament_tree.dir/rule
 tournament_tree/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/tournament_tree.dir/build.make cpp/CMakeFiles/tournament_tree.dir/build
 .PHONY : tournament_tree/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/view_from_above.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/view_from_above.dir/rule
-.PHONY : cpp/CMakeFiles/view_from_above.dir/rule
-
-# Convenience name for target.
-view_from_above: cpp/CMakeFiles/view_from_above.dir/rule
-
-.PHONY : view_from_above
-
-# fast build rule for target.
-view_from_above/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/view_from_above.dir/build.make cpp/CMakeFiles/view_from_above.dir/build
-.PHONY : view_from_above/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/ties_election.dir/rule:
@@ -711,6 +711,21 @@ sudoku_solve/fast:
 .PHONY : sudoku_solve/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/s1.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/s1.dir/rule
+.PHONY : cpp/CMakeFiles/s1.dir/rule
+
+# Convenience name for target.
+s1: cpp/CMakeFiles/s1.dir/rule
+
+.PHONY : s1
+
+# fast build rule for target.
+s1/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s1.dir/build.make cpp/CMakeFiles/s1.dir/build
+.PHONY : s1/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/rule
 .PHONY : cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/rule
@@ -724,36 +739,6 @@ substring_with_concatenation_of_all_words: cpp/CMakeFiles/substring_with_concate
 substring_with_concatenation_of_all_words/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/build.make cpp/CMakeFiles/substring_with_concatenation_of_all_words.dir/build
 .PHONY : substring_with_concatenation_of_all_words/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule
-.PHONY : cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule
-
-# Convenience name for target.
-remove_duplicates_from_sorted_array: cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule
-
-.PHONY : remove_duplicates_from_sorted_array
-
-# fast build rule for target.
-remove_duplicates_from_sorted_array/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build.make cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build
-.PHONY : remove_duplicates_from_sorted_array/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/subseq_cover.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/subseq_cover.dir/rule
-.PHONY : cpp/CMakeFiles/subseq_cover.dir/rule
-
-# Convenience name for target.
-subseq_cover: cpp/CMakeFiles/subseq_cover.dir/rule
-
-.PHONY : subseq_cover
-
-# fast build rule for target.
-subseq_cover/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/subseq_cover.dir/build.make cpp/CMakeFiles/subseq_cover.dir/build
-.PHONY : subseq_cover/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/longest_increasing_subarray.dir/rule:
@@ -906,6 +891,51 @@ sort_list/fast:
 .PHONY : sort_list/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule
+.PHONY : cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule
+
+# Convenience name for target.
+remove_duplicates_from_sorted_array: cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/rule
+
+.PHONY : remove_duplicates_from_sorted_array
+
+# fast build rule for target.
+remove_duplicates_from_sorted_array/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build.make cpp/CMakeFiles/remove_duplicates_from_sorted_array.dir/build
+.PHONY : remove_duplicates_from_sorted_array/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/subseq_cover.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/subseq_cover.dir/rule
+.PHONY : cpp/CMakeFiles/subseq_cover.dir/rule
+
+# Convenience name for target.
+subseq_cover: cpp/CMakeFiles/subseq_cover.dir/rule
+
+.PHONY : subseq_cover
+
+# fast build rule for target.
+subseq_cover/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/subseq_cover.dir/build.make cpp/CMakeFiles/subseq_cover.dir/build
+.PHONY : subseq_cover/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/smart_pointers.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/smart_pointers.dir/rule
+.PHONY : cpp/CMakeFiles/smart_pointers.dir/rule
+
+# Convenience name for target.
+smart_pointers: cpp/CMakeFiles/smart_pointers.dir/rule
+
+.PHONY : smart_pointers
+
+# fast build rule for target.
+smart_pointers/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/smart_pointers.dir/build.make cpp/CMakeFiles/smart_pointers.dir/build
+.PHONY : smart_pointers/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/rendering_calendar.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/rendering_calendar.dir/rule
 .PHONY : cpp/CMakeFiles/rendering_calendar.dir/rule
@@ -949,6 +979,66 @@ shortest_path_fewest_edges: cpp/CMakeFiles/shortest_path_fewest_edges.dir/rule
 shortest_path_fewest_edges/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/shortest_path_fewest_edges.dir/build.make cpp/CMakeFiles/shortest_path_fewest_edges.dir/build
 .PHONY : shortest_path_fewest_edges/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/pascal_triangle_2.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/pascal_triangle_2.dir/rule
+.PHONY : cpp/CMakeFiles/pascal_triangle_2.dir/rule
+
+# Convenience name for target.
+pascal_triangle_2: cpp/CMakeFiles/pascal_triangle_2.dir/rule
+
+.PHONY : pascal_triangle_2
+
+# fast build rule for target.
+pascal_triangle_2/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pascal_triangle_2.dir/build.make cpp/CMakeFiles/pascal_triangle_2.dir/build
+.PHONY : pascal_triangle_2/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/semaphore_gaurav.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/semaphore_gaurav.dir/rule
+.PHONY : cpp/CMakeFiles/semaphore_gaurav.dir/rule
+
+# Convenience name for target.
+semaphore_gaurav: cpp/CMakeFiles/semaphore_gaurav.dir/rule
+
+.PHONY : semaphore_gaurav
+
+# fast build rule for target.
+semaphore_gaurav/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore_gaurav.dir/build.make cpp/CMakeFiles/semaphore_gaurav.dir/build
+.PHONY : semaphore_gaurav/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/search_rotated_sorted_array.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/search_rotated_sorted_array.dir/rule
+.PHONY : cpp/CMakeFiles/search_rotated_sorted_array.dir/rule
+
+# Convenience name for target.
+search_rotated_sorted_array: cpp/CMakeFiles/search_rotated_sorted_array.dir/rule
+
+.PHONY : search_rotated_sorted_array
+
+# fast build rule for target.
+search_rotated_sorted_array/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_rotated_sorted_array.dir/build.make cpp/CMakeFiles/search_rotated_sorted_array.dir/build
+.PHONY : search_rotated_sorted_array/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/two_thread_increment.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/two_thread_increment.dir/rule
+.PHONY : cpp/CMakeFiles/two_thread_increment.dir/rule
+
+# Convenience name for target.
+two_thread_increment: cpp/CMakeFiles/two_thread_increment.dir/rule
+
+.PHONY : two_thread_increment
+
+# fast build rule for target.
+two_thread_increment/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/two_thread_increment.dir/build.make cpp/CMakeFiles/two_thread_increment.dir/build
+.PHONY : two_thread_increment/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/search_min_first_bst.dir/rule:
@@ -1011,6 +1101,21 @@ search_maze/fast:
 .PHONY : search_maze/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule
+.PHONY : cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule
+
+# Convenience name for target.
+search_insert_position_sorted_array: cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule
+
+.PHONY : search_insert_position_sorted_array
+
+# fast build rule for target.
+search_insert_position_sorted_array/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_insert_position_sorted_array.dir/build.make cpp/CMakeFiles/search_insert_position_sorted_array.dir/build
+.PHONY : search_insert_position_sorted_array/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/nonuniform_random_number_generation.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/nonuniform_random_number_generation.dir/rule
 .PHONY : cpp/CMakeFiles/nonuniform_random_number_generation.dir/rule
@@ -1071,34 +1176,49 @@ search_bst_first_larger_k/fast:
 .PHONY : search_bst_first_larger_k/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/search_rotated_sorted_array.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/search_rotated_sorted_array.dir/rule
-.PHONY : cpp/CMakeFiles/search_rotated_sorted_array.dir/rule
+cpp/CMakeFiles/union_intervals.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/union_intervals.dir/rule
+.PHONY : cpp/CMakeFiles/union_intervals.dir/rule
 
 # Convenience name for target.
-search_rotated_sorted_array: cpp/CMakeFiles/search_rotated_sorted_array.dir/rule
+union_intervals: cpp/CMakeFiles/union_intervals.dir/rule
 
-.PHONY : search_rotated_sorted_array
+.PHONY : union_intervals
 
 # fast build rule for target.
-search_rotated_sorted_array/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_rotated_sorted_array.dir/build.make cpp/CMakeFiles/search_rotated_sorted_array.dir/build
-.PHONY : search_rotated_sorted_array/fast
+union_intervals/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/union_intervals.dir/build.make cpp/CMakeFiles/union_intervals.dir/build
+.PHONY : union_intervals/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule
-.PHONY : cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule
+cpp/CMakeFiles/longest_valid_parentheses.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_valid_parentheses.dir/rule
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses.dir/rule
 
 # Convenience name for target.
-search_insert_position_sorted_array: cpp/CMakeFiles/search_insert_position_sorted_array.dir/rule
+longest_valid_parentheses: cpp/CMakeFiles/longest_valid_parentheses.dir/rule
 
-.PHONY : search_insert_position_sorted_array
+.PHONY : longest_valid_parentheses
 
 # fast build rule for target.
-search_insert_position_sorted_array/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_insert_position_sorted_array.dir/build.make cpp/CMakeFiles/search_insert_position_sorted_array.dir/build
-.PHONY : search_insert_position_sorted_array/fast
+longest_valid_parentheses/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses.dir/build.make cpp/CMakeFiles/longest_valid_parentheses.dir/build
+.PHONY : longest_valid_parentheses/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/sorted_list_to_bst.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/sorted_list_to_bst.dir/rule
+.PHONY : cpp/CMakeFiles/sorted_list_to_bst.dir/rule
+
+# Convenience name for target.
+sorted_list_to_bst: cpp/CMakeFiles/sorted_list_to_bst.dir/rule
+
+.PHONY : sorted_list_to_bst
+
+# fast build rule for target.
+sorted_list_to_bst/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/sorted_list_to_bst.dir/build.make cpp/CMakeFiles/sorted_list_to_bst.dir/build
+.PHONY : sorted_list_to_bst/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/search_a_range_sorted_array.dir/rule:
@@ -1159,6 +1279,36 @@ score_combination: cpp/CMakeFiles/score_combination.dir/rule
 score_combination/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/score_combination.dir/build.make cpp/CMakeFiles/score_combination.dir/build
 .PHONY : score_combination/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/coin_change.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/coin_change.dir/rule
+.PHONY : cpp/CMakeFiles/coin_change.dir/rule
+
+# Convenience name for target.
+coin_change: cpp/CMakeFiles/coin_change.dir/rule
+
+.PHONY : coin_change
+
+# fast build rule for target.
+coin_change/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/coin_change.dir/build.make cpp/CMakeFiles/coin_change.dir/build
+.PHONY : coin_change/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/rw.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/rw.dir/rule
+.PHONY : cpp/CMakeFiles/rw.dir/rule
+
+# Convenience name for target.
+rw: cpp/CMakeFiles/rw.dir/rule
+
+.PHONY : rw
+
+# fast build rule for target.
+rw/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/rw.dir/build.make cpp/CMakeFiles/rw.dir/build
+.PHONY : rw/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/number_ways_test.dir/rule:
@@ -1234,6 +1384,21 @@ road_network: cpp/CMakeFiles/road_network.dir/rule
 road_network/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/road_network.dir/build.make cpp/CMakeFiles/road_network.dir/build
 .PHONY : road_network/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/reverse_list_in_k_group.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/reverse_list_in_k_group.dir/rule
+.PHONY : cpp/CMakeFiles/reverse_list_in_k_group.dir/rule
+
+# Convenience name for target.
+reverse_list_in_k_group: cpp/CMakeFiles/reverse_list_in_k_group.dir/rule
+
+.PHONY : reverse_list_in_k_group
+
+# fast build rule for target.
+reverse_list_in_k_group/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/reverse_list_in_k_group.dir/build.make cpp/CMakeFiles/reverse_list_in_k_group.dir/build
+.PHONY : reverse_list_in_k_group/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/3_sum_closest.dir/rule:
@@ -1324,21 +1489,6 @@ reverse_bits: cpp/CMakeFiles/reverse_bits.dir/rule
 reverse_bits/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/reverse_bits.dir/build.make cpp/CMakeFiles/reverse_bits.dir/build
 .PHONY : reverse_bits/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/reverse_list_in_k_group.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/reverse_list_in_k_group.dir/rule
-.PHONY : cpp/CMakeFiles/reverse_list_in_k_group.dir/rule
-
-# Convenience name for target.
-reverse_list_in_k_group: cpp/CMakeFiles/reverse_list_in_k_group.dir/rule
-
-.PHONY : reverse_list_in_k_group
-
-# fast build rule for target.
-reverse_list_in_k_group/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/reverse_list_in_k_group.dir/build.make cpp/CMakeFiles/reverse_list_in_k_group.dir/build
-.PHONY : reverse_list_in_k_group/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/replace_and_remove.dir/rule:
@@ -1521,6 +1671,36 @@ top_k/fast:
 .PHONY : top_k/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/n_queens.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/n_queens.dir/rule
+.PHONY : cpp/CMakeFiles/n_queens.dir/rule
+
+# Convenience name for target.
+n_queens: cpp/CMakeFiles/n_queens.dir/rule
+
+.PHONY : n_queens
+
+# fast build rule for target.
+n_queens/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/n_queens.dir/build.make cpp/CMakeFiles/n_queens.dir/build
+.PHONY : n_queens/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/semaphore.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/semaphore.dir/rule
+.PHONY : cpp/CMakeFiles/semaphore.dir/rule
+
+# Convenience name for target.
+semaphore: cpp/CMakeFiles/semaphore.dir/rule
+
+.PHONY : semaphore
+
+# fast build rule for target.
+semaphore/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore.dir/build.make cpp/CMakeFiles/semaphore.dir/build
+.PHONY : semaphore/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/add_two_number_list.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/add_two_number_list.dir/rule
 .PHONY : cpp/CMakeFiles/add_two_number_list.dir/rule
@@ -1656,51 +1836,6 @@ rabin_karp/fast:
 .PHONY : rabin_karp/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/spreadsheet_encoding.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/spreadsheet_encoding.dir/rule
-.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/rule
-
-# Convenience name for target.
-spreadsheet_encoding: cpp/CMakeFiles/spreadsheet_encoding.dir/rule
-
-.PHONY : spreadsheet_encoding
-
-# fast build rule for target.
-spreadsheet_encoding/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/spreadsheet_encoding.dir/build.make cpp/CMakeFiles/spreadsheet_encoding.dir/build
-.PHONY : spreadsheet_encoding/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/queue_with_max_intro.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/queue_with_max_intro.dir/rule
-.PHONY : cpp/CMakeFiles/queue_with_max_intro.dir/rule
-
-# Convenience name for target.
-queue_with_max_intro: cpp/CMakeFiles/queue_with_max_intro.dir/rule
-
-.PHONY : queue_with_max_intro
-
-# fast build rule for target.
-queue_with_max_intro/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/queue_with_max_intro.dir/build.make cpp/CMakeFiles/queue_with_max_intro.dir/build
-.PHONY : queue_with_max_intro/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/queue_with_max_alternative.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/queue_with_max_alternative.dir/rule
-.PHONY : cpp/CMakeFiles/queue_with_max_alternative.dir/rule
-
-# Convenience name for target.
-queue_with_max_alternative: cpp/CMakeFiles/queue_with_max_alternative.dir/rule
-
-.PHONY : queue_with_max_alternative
-
-# fast build rule for target.
-queue_with_max_alternative/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/queue_with_max_alternative.dir/build.make cpp/CMakeFiles/queue_with_max_alternative.dir/build
-.PHONY : queue_with_max_alternative/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/surrounded_regions.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/surrounded_regions.dir/rule
 .PHONY : cpp/CMakeFiles/surrounded_regions.dir/rule
@@ -1746,6 +1881,51 @@ queue_with_max/fast:
 .PHONY : queue_with_max/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/spreadsheet_encoding.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/spreadsheet_encoding.dir/rule
+.PHONY : cpp/CMakeFiles/spreadsheet_encoding.dir/rule
+
+# Convenience name for target.
+spreadsheet_encoding: cpp/CMakeFiles/spreadsheet_encoding.dir/rule
+
+.PHONY : spreadsheet_encoding
+
+# fast build rule for target.
+spreadsheet_encoding/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/spreadsheet_encoding.dir/build.make cpp/CMakeFiles/spreadsheet_encoding.dir/build
+.PHONY : spreadsheet_encoding/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/queue_with_max_intro.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/queue_with_max_intro.dir/rule
+.PHONY : cpp/CMakeFiles/queue_with_max_intro.dir/rule
+
+# Convenience name for target.
+queue_with_max_intro: cpp/CMakeFiles/queue_with_max_intro.dir/rule
+
+.PHONY : queue_with_max_intro
+
+# fast build rule for target.
+queue_with_max_intro/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/queue_with_max_intro.dir/build.make cpp/CMakeFiles/queue_with_max_intro.dir/build
+.PHONY : queue_with_max_intro/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/queue_with_max_alternative.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/queue_with_max_alternative.dir/rule
+.PHONY : cpp/CMakeFiles/queue_with_max_alternative.dir/rule
+
+# Convenience name for target.
+queue_with_max_alternative: cpp/CMakeFiles/queue_with_max_alternative.dir/rule
+
+.PHONY : queue_with_max_alternative
+
+# fast build rule for target.
+queue_with_max_alternative/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/queue_with_max_alternative.dir/build.make cpp/CMakeFiles/queue_with_max_alternative.dir/build
+.PHONY : queue_with_max_alternative/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/is_palindromic.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/is_palindromic.dir/rule
 .PHONY : cpp/CMakeFiles/is_palindromic.dir/rule
@@ -1774,21 +1954,6 @@ queue_from_stacks: cpp/CMakeFiles/queue_from_stacks.dir/rule
 queue_from_stacks/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/queue_from_stacks.dir/build.make cpp/CMakeFiles/queue_from_stacks.dir/build
 .PHONY : queue_from_stacks/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/tree_diameter.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/tree_diameter.dir/rule
-.PHONY : cpp/CMakeFiles/tree_diameter.dir/rule
-
-# Convenience name for target.
-tree_diameter: cpp/CMakeFiles/tree_diameter.dir/rule
-
-.PHONY : tree_diameter
-
-# fast build rule for target.
-tree_diameter/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/tree_diameter.dir/build.make cpp/CMakeFiles/tree_diameter.dir/build
-.PHONY : tree_diameter/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/print_linked_list_reverse_order.dir/rule:
@@ -1864,6 +2029,21 @@ populating_next_right_pointers_any_binary_tree: cpp/CMakeFiles/populating_next_r
 populating_next_right_pointers_any_binary_tree/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/populating_next_right_pointers_any_binary_tree.dir/build.make cpp/CMakeFiles/populating_next_right_pointers_any_binary_tree.dir/build
 .PHONY : populating_next_right_pointers_any_binary_tree/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/polymorphism_problems.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/polymorphism_problems.dir/rule
+.PHONY : cpp/CMakeFiles/polymorphism_problems.dir/rule
+
+# Convenience name for target.
+polymorphism_problems: cpp/CMakeFiles/polymorphism_problems.dir/rule
+
+.PHONY : polymorphism_problems
+
+# fast build rule for target.
+polymorphism_problems/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems.dir/build.make cpp/CMakeFiles/polymorphism_problems.dir/build
+.PHONY : polymorphism_problems/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/task_assignment.dir/rule:
@@ -1956,21 +2136,6 @@ planning_fishing/fast:
 .PHONY : planning_fishing/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule
-.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule
-
-# Convenience name for target.
-picking_up_coins_dont_lose: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule
-
-.PHONY : picking_up_coins_dont_lose
-
-# fast build rule for target.
-picking_up_coins_dont_lose/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build.make cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build
-.PHONY : picking_up_coins_dont_lose/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/online_sampling.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/online_sampling.dir/rule
 .PHONY : cpp/CMakeFiles/online_sampling.dir/rule
@@ -1999,6 +2164,21 @@ picking_up_coins: cpp/CMakeFiles/picking_up_coins.dir/rule
 picking_up_coins/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/picking_up_coins.dir/build.make cpp/CMakeFiles/picking_up_coins.dir/build
 .PHONY : picking_up_coins/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule
+.PHONY : cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule
+
+# Convenience name for target.
+picking_up_coins_dont_lose: cpp/CMakeFiles/picking_up_coins_dont_lose.dir/rule
+
+.PHONY : picking_up_coins_dont_lose
+
+# fast build rule for target.
+picking_up_coins_dont_lose/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build.make cpp/CMakeFiles/picking_up_coins_dont_lose.dir/build
+.PHONY : picking_up_coins_dont_lose/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/permutations.dir/rule:
@@ -2091,6 +2271,36 @@ reverse_linked_list_from_s_to_f/fast:
 .PHONY : reverse_linked_list_from_s_to_f/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/biggest_product_n_1.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/biggest_product_n_1.dir/rule
+.PHONY : cpp/CMakeFiles/biggest_product_n_1.dir/rule
+
+# Convenience name for target.
+biggest_product_n_1: cpp/CMakeFiles/biggest_product_n_1.dir/rule
+
+.PHONY : biggest_product_n_1
+
+# fast build rule for target.
+biggest_product_n_1/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/biggest_product_n_1.dir/build.make cpp/CMakeFiles/biggest_product_n_1.dir/build
+.PHONY : biggest_product_n_1/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/pass_by_value_bug.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/pass_by_value_bug.dir/rule
+.PHONY : cpp/CMakeFiles/pass_by_value_bug.dir/rule
+
+# Convenience name for target.
+pass_by_value_bug: cpp/CMakeFiles/pass_by_value_bug.dir/rule
+
+.PHONY : pass_by_value_bug
+
+# fast build rule for target.
+pass_by_value_bug/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pass_by_value_bug.dir/build.make cpp/CMakeFiles/pass_by_value_bug.dir/build
+.PHONY : pass_by_value_bug/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/longest_subarray_with_distinct_entries.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_subarray_with_distinct_entries.dir/rule
 .PHONY : cpp/CMakeFiles/longest_subarray_with_distinct_entries.dir/rule
@@ -2119,51 +2329,6 @@ parity1: cpp/CMakeFiles/parity1.dir/rule
 parity1/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/parity1.dir/build.make cpp/CMakeFiles/parity1.dir/build
 .PHONY : parity1/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/palindrome_linked_list.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/palindrome_linked_list.dir/rule
-.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/rule
-
-# Convenience name for target.
-palindrome_linked_list: cpp/CMakeFiles/palindrome_linked_list.dir/rule
-
-.PHONY : palindrome_linked_list
-
-# fast build rule for target.
-palindrome_linked_list/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/palindrome_linked_list.dir/build.make cpp/CMakeFiles/palindrome_linked_list.dir/build
-.PHONY : palindrome_linked_list/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/longest_subarray_k_improved.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_subarray_k_improved.dir/rule
-.PHONY : cpp/CMakeFiles/longest_subarray_k_improved.dir/rule
-
-# Convenience name for target.
-longest_subarray_k_improved: cpp/CMakeFiles/longest_subarray_k_improved.dir/rule
-
-.PHONY : longest_subarray_k_improved
-
-# fast build rule for target.
-longest_subarray_k_improved/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_subarray_k_improved.dir/build.make cpp/CMakeFiles/longest_subarray_k_improved.dir/build
-.PHONY : longest_subarray_k_improved/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/valid_ip_address.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_ip_address.dir/rule
-.PHONY : cpp/CMakeFiles/valid_ip_address.dir/rule
-
-# Convenience name for target.
-valid_ip_address: cpp/CMakeFiles/valid_ip_address.dir/rule
-
-.PHONY : valid_ip_address
-
-# fast build rule for target.
-valid_ip_address/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_ip_address.dir/build.make cpp/CMakeFiles/valid_ip_address.dir/build
-.PHONY : valid_ip_address/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/morris_traversal.dir/rule:
@@ -2196,6 +2361,21 @@ palindrome_number/fast:
 .PHONY : palindrome_number/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/palindrome_linked_list.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/palindrome_linked_list.dir/rule
+.PHONY : cpp/CMakeFiles/palindrome_linked_list.dir/rule
+
+# Convenience name for target.
+palindrome_linked_list: cpp/CMakeFiles/palindrome_linked_list.dir/rule
+
+.PHONY : palindrome_linked_list
+
+# fast build rule for target.
+palindrome_linked_list/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/palindrome_linked_list.dir/build.make cpp/CMakeFiles/palindrome_linked_list.dir/build
+.PHONY : palindrome_linked_list/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/theory_of_equality.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/theory_of_equality.dir/rule
 .PHONY : cpp/CMakeFiles/theory_of_equality.dir/rule
@@ -2226,21 +2406,6 @@ painting_iterative/fast:
 .PHONY : painting_iterative/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule
-.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule
-
-# Convenience name for target.
-overlapping_lists_no_cycle: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule
-
-.PHONY : overlapping_lists_no_cycle
-
-# fast build rule for target.
-overlapping_lists_no_cycle/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build.make cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build
-.PHONY : overlapping_lists_no_cycle/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/overlapping_lists.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/overlapping_lists.dir/rule
 .PHONY : cpp/CMakeFiles/overlapping_lists.dir/rule
@@ -2254,6 +2419,21 @@ overlapping_lists: cpp/CMakeFiles/overlapping_lists.dir/rule
 overlapping_lists/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/overlapping_lists.dir/build.make cpp/CMakeFiles/overlapping_lists.dir/build
 .PHONY : overlapping_lists/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule
+.PHONY : cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule
+
+# Convenience name for target.
+overlapping_lists_no_cycle: cpp/CMakeFiles/overlapping_lists_no_cycle.dir/rule
+
+.PHONY : overlapping_lists_no_cycle
+
+# fast build rule for target.
+overlapping_lists_no_cycle/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build.make cpp/CMakeFiles/overlapping_lists_no_cycle.dir/build
+.PHONY : overlapping_lists_no_cycle/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/intersect_sorted_arrays3_test.dir/rule:
@@ -2346,36 +2526,6 @@ offline_minimum/fast:
 .PHONY : offline_minimum/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/number_ways_obstacles.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/number_ways_obstacles.dir/rule
-.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/rule
-
-# Convenience name for target.
-number_ways_obstacles: cpp/CMakeFiles/number_ways_obstacles.dir/rule
-
-.PHONY : number_ways_obstacles
-
-# fast build rule for target.
-number_ways_obstacles/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/number_ways_obstacles.dir/build.make cpp/CMakeFiles/number_ways_obstacles.dir/build
-.PHONY : number_ways_obstacles/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/pascal_triangle_2.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/pascal_triangle_2.dir/rule
-.PHONY : cpp/CMakeFiles/pascal_triangle_2.dir/rule
-
-# Convenience name for target.
-pascal_triangle_2: cpp/CMakeFiles/pascal_triangle_2.dir/rule
-
-.PHONY : pascal_triangle_2
-
-# fast build rule for target.
-pascal_triangle_2/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pascal_triangle_2.dir/build.make cpp/CMakeFiles/pascal_triangle_2.dir/build
-.PHONY : pascal_triangle_2/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/number_ways.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/number_ways.dir/rule
 .PHONY : cpp/CMakeFiles/number_ways.dir/rule
@@ -2391,19 +2541,19 @@ number_ways/fast:
 .PHONY : number_ways/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/uniform_random_number_generation.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/uniform_random_number_generation.dir/rule
-.PHONY : cpp/CMakeFiles/uniform_random_number_generation.dir/rule
+cpp/CMakeFiles/number_ways_obstacles.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/number_ways_obstacles.dir/rule
+.PHONY : cpp/CMakeFiles/number_ways_obstacles.dir/rule
 
 # Convenience name for target.
-uniform_random_number_generation: cpp/CMakeFiles/uniform_random_number_generation.dir/rule
+number_ways_obstacles: cpp/CMakeFiles/number_ways_obstacles.dir/rule
 
-.PHONY : uniform_random_number_generation
+.PHONY : number_ways_obstacles
 
 # fast build rule for target.
-uniform_random_number_generation/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/uniform_random_number_generation.dir/build.make cpp/CMakeFiles/uniform_random_number_generation.dir/build
-.PHONY : uniform_random_number_generation/fast
+number_ways_obstacles/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/number_ways_obstacles.dir/build.make cpp/CMakeFiles/number_ways_obstacles.dir/build
+.PHONY : number_ways_obstacles/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/nonconstructible_change.dir/rule:
@@ -2434,6 +2584,51 @@ symmetric_binary_tree: cpp/CMakeFiles/symmetric_binary_tree.dir/rule
 symmetric_binary_tree/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/symmetric_binary_tree.dir/build.make cpp/CMakeFiles/symmetric_binary_tree.dir/build
 .PHONY : symmetric_binary_tree/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/unique_binary_trees.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/unique_binary_trees.dir/rule
+.PHONY : cpp/CMakeFiles/unique_binary_trees.dir/rule
+
+# Convenience name for target.
+unique_binary_trees: cpp/CMakeFiles/unique_binary_trees.dir/rule
+
+.PHONY : unique_binary_trees
+
+# fast build rule for target.
+unique_binary_trees/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/unique_binary_trees.dir/build.make cpp/CMakeFiles/unique_binary_trees.dir/build
+.PHONY : unique_binary_trees/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/anagrams.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/anagrams.dir/rule
+.PHONY : cpp/CMakeFiles/anagrams.dir/rule
+
+# Convenience name for target.
+anagrams: cpp/CMakeFiles/anagrams.dir/rule
+
+.PHONY : anagrams
+
+# fast build rule for target.
+anagrams/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/anagrams.dir/build.make cpp/CMakeFiles/anagrams.dir/build
+.PHONY : anagrams/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/stack_with_max.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/stack_with_max.dir/rule
+.PHONY : cpp/CMakeFiles/stack_with_max.dir/rule
+
+# Convenience name for target.
+stack_with_max: cpp/CMakeFiles/stack_with_max.dir/rule
+
+.PHONY : stack_with_max
+
+# fast build rule for target.
+stack_with_max/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/stack_with_max.dir/build.make cpp/CMakeFiles/stack_with_max.dir/build
+.PHONY : stack_with_max/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/search_bst.dir/rule:
@@ -2541,19 +2736,19 @@ nearest_repetition/fast:
 .PHONY : nearest_repetition/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/n_queens.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/n_queens.dir/rule
-.PHONY : cpp/CMakeFiles/n_queens.dir/rule
+cpp/CMakeFiles/multiply_shift_add.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/multiply_shift_add.dir/rule
+.PHONY : cpp/CMakeFiles/multiply_shift_add.dir/rule
 
 # Convenience name for target.
-n_queens: cpp/CMakeFiles/n_queens.dir/rule
+multiply_shift_add: cpp/CMakeFiles/multiply_shift_add.dir/rule
 
-.PHONY : n_queens
+.PHONY : multiply_shift_add
 
 # fast build rule for target.
-n_queens/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/n_queens.dir/build.make cpp/CMakeFiles/n_queens.dir/build
-.PHONY : n_queens/fast
+multiply_shift_add/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add.dir/build.make cpp/CMakeFiles/multiply_shift_add.dir/build
+.PHONY : multiply_shift_add/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/missing_element.dir/rule:
@@ -2826,6 +3021,51 @@ string_in_matrix/fast:
 .PHONY : string_in_matrix/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/valid_ip_address_recursive.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_ip_address_recursive.dir/rule
+.PHONY : cpp/CMakeFiles/valid_ip_address_recursive.dir/rule
+
+# Convenience name for target.
+valid_ip_address_recursive: cpp/CMakeFiles/valid_ip_address_recursive.dir/rule
+
+.PHONY : valid_ip_address_recursive
+
+# fast build rule for target.
+valid_ip_address_recursive/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_ip_address_recursive.dir/build.make cpp/CMakeFiles/valid_ip_address_recursive.dir/build
+.PHONY : valid_ip_address_recursive/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/search_majority.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/search_majority.dir/rule
+.PHONY : cpp/CMakeFiles/search_majority.dir/rule
+
+# Convenience name for target.
+search_majority: cpp/CMakeFiles/search_majority.dir/rule
+
+.PHONY : search_majority
+
+# fast build rule for target.
+search_majority/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_majority.dir/build.make cpp/CMakeFiles/search_majority.dir/build
+.PHONY : search_majority/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/multiply_shift_add2.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/multiply_shift_add2.dir/rule
+.PHONY : cpp/CMakeFiles/multiply_shift_add2.dir/rule
+
+# Convenience name for target.
+multiply_shift_add2: cpp/CMakeFiles/multiply_shift_add2.dir/rule
+
+.PHONY : multiply_shift_add2
+
+# fast build rule for target.
+multiply_shift_add2/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add2.dir/build.make cpp/CMakeFiles/multiply_shift_add2.dir/build
+.PHONY : multiply_shift_add2/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/maximum_container.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/maximum_container.dir/rule
 .PHONY : cpp/CMakeFiles/maximum_container.dir/rule
@@ -2991,21 +3231,6 @@ map_update1/fast:
 .PHONY : map_update1/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/unique_binary_trees_all.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/unique_binary_trees_all.dir/rule
-.PHONY : cpp/CMakeFiles/unique_binary_trees_all.dir/rule
-
-# Convenience name for target.
-unique_binary_trees_all: cpp/CMakeFiles/unique_binary_trees_all.dir/rule
-
-.PHONY : unique_binary_trees_all
-
-# fast build rule for target.
-unique_binary_trees_all/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/unique_binary_trees_all.dir/build.make cpp/CMakeFiles/unique_binary_trees_all.dir/build
-.PHONY : unique_binary_trees_all/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/n_queens_count.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/n_queens_count.dir/rule
 .PHONY : cpp/CMakeFiles/n_queens_count.dir/rule
@@ -3156,66 +3381,6 @@ look_and_say/fast:
 .PHONY : look_and_say/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/max_submatrix_square.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/max_submatrix_square.dir/rule
-.PHONY : cpp/CMakeFiles/max_submatrix_square.dir/rule
-
-# Convenience name for target.
-max_submatrix_square: cpp/CMakeFiles/max_submatrix_square.dir/rule
-
-.PHONY : max_submatrix_square
-
-# fast build rule for target.
-max_submatrix_square/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/max_submatrix_square.dir/build.make cpp/CMakeFiles/max_submatrix_square.dir/build
-.PHONY : max_submatrix_square/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/default_constructor.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/default_constructor.dir/rule
-.PHONY : cpp/CMakeFiles/default_constructor.dir/rule
-
-# Convenience name for target.
-default_constructor: cpp/CMakeFiles/default_constructor.dir/rule
-
-.PHONY : default_constructor
-
-# fast build rule for target.
-default_constructor/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/default_constructor.dir/build.make cpp/CMakeFiles/default_constructor.dir/build
-.PHONY : default_constructor/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule
-.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule
-
-# Convenience name for target.
-build_bst_from_sorted_array: cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule
-
-.PHONY : build_bst_from_sorted_array
-
-# fast build rule for target.
-build_bst_from_sorted_array/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/build_bst_from_sorted_array.dir/build.make cpp/CMakeFiles/build_bst_from_sorted_array.dir/build
-.PHONY : build_bst_from_sorted_array/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule
-.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule
-
-# Convenience name for target.
-longest_valid_parentheses_const_space: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule
-
-.PHONY : longest_valid_parentheses_const_space
-
-# fast build rule for target.
-longest_valid_parentheses_const_space/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build.make cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build
-.PHONY : longest_valid_parentheses_const_space/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/tail.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/tail.dir/rule
 .PHONY : cpp/CMakeFiles/tail.dir/rule
@@ -3276,6 +3441,66 @@ bst_sorted_order/fast:
 .PHONY : bst_sorted_order/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/max_submatrix_square.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/max_submatrix_square.dir/rule
+.PHONY : cpp/CMakeFiles/max_submatrix_square.dir/rule
+
+# Convenience name for target.
+max_submatrix_square: cpp/CMakeFiles/max_submatrix_square.dir/rule
+
+.PHONY : max_submatrix_square
+
+# fast build rule for target.
+max_submatrix_square/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/max_submatrix_square.dir/build.make cpp/CMakeFiles/max_submatrix_square.dir/build
+.PHONY : max_submatrix_square/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/default_constructor.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/default_constructor.dir/rule
+.PHONY : cpp/CMakeFiles/default_constructor.dir/rule
+
+# Convenience name for target.
+default_constructor: cpp/CMakeFiles/default_constructor.dir/rule
+
+.PHONY : default_constructor
+
+# fast build rule for target.
+default_constructor/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/default_constructor.dir/build.make cpp/CMakeFiles/default_constructor.dir/build
+.PHONY : default_constructor/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule
+.PHONY : cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule
+
+# Convenience name for target.
+build_bst_from_sorted_array: cpp/CMakeFiles/build_bst_from_sorted_array.dir/rule
+
+.PHONY : build_bst_from_sorted_array
+
+# fast build rule for target.
+build_bst_from_sorted_array/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/build_bst_from_sorted_array.dir/build.make cpp/CMakeFiles/build_bst_from_sorted_array.dir/build
+.PHONY : build_bst_from_sorted_array/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule
+.PHONY : cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule
+
+# Convenience name for target.
+longest_valid_parentheses_const_space: cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/rule
+
+.PHONY : longest_valid_parentheses_const_space
+
+# fast build rule for target.
+longest_valid_parentheses_const_space/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build.make cpp/CMakeFiles/longest_valid_parentheses_const_space.dir/build
+.PHONY : longest_valid_parentheses_const_space/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/rule
 .PHONY : cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/rule
@@ -3289,6 +3514,36 @@ longest_substring_without_repeating_characters: cpp/CMakeFiles/longest_substring
 longest_substring_without_repeating_characters/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/build.make cpp/CMakeFiles/longest_substring_without_repeating_characters.dir/build
 .PHONY : longest_substring_without_repeating_characters/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule
+.PHONY : cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule
+
+# Convenience name for target.
+binary_tree_to_doubly_linked_list: cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule
+
+.PHONY : binary_tree_to_doubly_linked_list
+
+# fast build rule for target.
+binary_tree_to_doubly_linked_list/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build.make cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build
+.PHONY : binary_tree_to_doubly_linked_list/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/simple_web_server.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/simple_web_server.dir/rule
+.PHONY : cpp/CMakeFiles/simple_web_server.dir/rule
+
+# Convenience name for target.
+simple_web_server: cpp/CMakeFiles/simple_web_server.dir/rule
+
+.PHONY : simple_web_server
+
+# fast build rule for target.
+simple_web_server/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/simple_web_server.dir/build.make cpp/CMakeFiles/simple_web_server.dir/build
+.PHONY : simple_web_server/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/interleaving_string.dir/rule:
@@ -3426,6 +3681,21 @@ map_update3/fast:
 .PHONY : map_update3/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/min_max_template_move.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/min_max_template_move.dir/rule
+.PHONY : cpp/CMakeFiles/min_max_template_move.dir/rule
+
+# Convenience name for target.
+min_max_template_move: cpp/CMakeFiles/min_max_template_move.dir/rule
+
+.PHONY : min_max_template_move
+
+# fast build rule for target.
+min_max_template_move/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template_move.dir/build.make cpp/CMakeFiles/min_max_template_move.dir/build
+.PHONY : min_max_template_move/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/count_inversions.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/count_inversions.dir/rule
 .PHONY : cpp/CMakeFiles/count_inversions.dir/rule
@@ -3454,6 +3724,21 @@ lock_ordering_bug: cpp/CMakeFiles/lock_ordering_bug.dir/rule
 lock_ordering_bug/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/lock_ordering_bug.dir/build.make cpp/CMakeFiles/lock_ordering_bug.dir/build
 .PHONY : lock_ordering_bug/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/min_max_template.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/min_max_template.dir/rule
+.PHONY : cpp/CMakeFiles/min_max_template.dir/rule
+
+# Convenience name for target.
+min_max_template: cpp/CMakeFiles/min_max_template.dir/rule
+
+.PHONY : min_max_template
+
+# fast build rule for target.
+min_max_template/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template.dir/build.make cpp/CMakeFiles/min_max_template.dir/build
+.PHONY : min_max_template/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/insertion_deletion_bst.dir/rule:
@@ -3576,6 +3861,51 @@ k_th_node_binary_tree/fast:
 .PHONY : k_th_node_binary_tree/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/power_x_y.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/power_x_y.dir/rule
+.PHONY : cpp/CMakeFiles/power_x_y.dir/rule
+
+# Convenience name for target.
+power_x_y: cpp/CMakeFiles/power_x_y.dir/rule
+
+.PHONY : power_x_y
+
+# fast build rule for target.
+power_x_y/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/power_x_y.dir/build.make cpp/CMakeFiles/power_x_y.dir/build
+.PHONY : power_x_y/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/arbitrage.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/arbitrage.dir/rule
+.PHONY : cpp/CMakeFiles/arbitrage.dir/rule
+
+# Convenience name for target.
+arbitrage: cpp/CMakeFiles/arbitrage.dir/rule
+
+.PHONY : arbitrage
+
+# fast build rule for target.
+arbitrage/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/arbitrage.dir/build.make cpp/CMakeFiles/arbitrage.dir/build
+.PHONY : arbitrage/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule
+.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule
+
+# Convenience name for target.
+max_submatrix_rectangle_improved: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule
+
+.PHONY : max_submatrix_rectangle_improved
+
+# fast build rule for target.
+max_submatrix_rectangle_improved/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build.make cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build
+.PHONY : max_submatrix_rectangle_improved/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/number_steps.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/number_steps.dir/rule
 .PHONY : cpp/CMakeFiles/number_steps.dir/rule
@@ -3589,36 +3919,6 @@ number_steps: cpp/CMakeFiles/number_steps.dir/rule
 number_steps/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/number_steps.dir/build.make cpp/CMakeFiles/number_steps.dir/build
 .PHONY : number_steps/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/zipping_list.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/zipping_list.dir/rule
-.PHONY : cpp/CMakeFiles/zipping_list.dir/rule
-
-# Convenience name for target.
-zipping_list: cpp/CMakeFiles/zipping_list.dir/rule
-
-.PHONY : zipping_list
-
-# fast build rule for target.
-zipping_list/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/zipping_list.dir/build.make cpp/CMakeFiles/zipping_list.dir/build
-.PHONY : zipping_list/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/multiplyshiftadd.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/multiplyshiftadd.dir/rule
-.PHONY : cpp/CMakeFiles/multiplyshiftadd.dir/rule
-
-# Convenience name for target.
-multiplyshiftadd: cpp/CMakeFiles/multiplyshiftadd.dir/rule
-
-.PHONY : multiplyshiftadd
-
-# fast build rule for target.
-multiplyshiftadd/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiplyshiftadd.dir/build.make cpp/CMakeFiles/multiplyshiftadd.dir/build
-.PHONY : multiplyshiftadd/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/k_th_element_streaming.dir/rule:
@@ -3651,19 +3951,19 @@ sort_k_increasing_decreasing_array/fast:
 .PHONY : sort_k_increasing_decreasing_array/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/biggest_product_n_1.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/biggest_product_n_1.dir/rule
-.PHONY : cpp/CMakeFiles/biggest_product_n_1.dir/rule
+cpp/CMakeFiles/polymorphism_problems_fixed.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/polymorphism_problems_fixed.dir/rule
+.PHONY : cpp/CMakeFiles/polymorphism_problems_fixed.dir/rule
 
 # Convenience name for target.
-biggest_product_n_1: cpp/CMakeFiles/biggest_product_n_1.dir/rule
+polymorphism_problems_fixed: cpp/CMakeFiles/polymorphism_problems_fixed.dir/rule
 
-.PHONY : biggest_product_n_1
+.PHONY : polymorphism_problems_fixed
 
 # fast build rule for target.
-biggest_product_n_1/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/biggest_product_n_1.dir/build.make cpp/CMakeFiles/biggest_product_n_1.dir/build
-.PHONY : biggest_product_n_1/fast
+polymorphism_problems_fixed/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems_fixed.dir/build.make cpp/CMakeFiles/polymorphism_problems_fixed.dir/build
+.PHONY : polymorphism_problems_fixed/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/overlapping_days.dir/rule:
@@ -4056,6 +4356,81 @@ exterior_binary_tree/fast:
 .PHONY : exterior_binary_tree/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/valid_ip_address.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_ip_address.dir/rule
+.PHONY : cpp/CMakeFiles/valid_ip_address.dir/rule
+
+# Convenience name for target.
+valid_ip_address: cpp/CMakeFiles/valid_ip_address.dir/rule
+
+.PHONY : valid_ip_address
+
+# fast build rule for target.
+valid_ip_address/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_ip_address.dir/build.make cpp/CMakeFiles/valid_ip_address.dir/build
+.PHONY : valid_ip_address/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/longest_subarray_k_improved.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/longest_subarray_k_improved.dir/rule
+.PHONY : cpp/CMakeFiles/longest_subarray_k_improved.dir/rule
+
+# Convenience name for target.
+longest_subarray_k_improved: cpp/CMakeFiles/longest_subarray_k_improved.dir/rule
+
+.PHONY : longest_subarray_k_improved
+
+# fast build rule for target.
+longest_subarray_k_improved/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/longest_subarray_k_improved.dir/build.make cpp/CMakeFiles/longest_subarray_k_improved.dir/build
+.PHONY : longest_subarray_k_improved/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/addingcredits.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/addingcredits.dir/rule
+.PHONY : cpp/CMakeFiles/addingcredits.dir/rule
+
+# Convenience name for target.
+addingcredits: cpp/CMakeFiles/addingcredits.dir/rule
+
+.PHONY : addingcredits
+
+# fast build rule for target.
+addingcredits/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/addingcredits.dir/build.make cpp/CMakeFiles/addingcredits.dir/build
+.PHONY : addingcredits/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule
+.PHONY : cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule
+
+# Convenience name for target.
+max_difference_unlimited_pairs: cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule
+
+.PHONY : max_difference_unlimited_pairs
+
+# fast build rule for target.
+max_difference_unlimited_pairs/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build.make cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build
+.PHONY : max_difference_unlimited_pairs/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/s2.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/s2.dir/rule
+.PHONY : cpp/CMakeFiles/s2.dir/rule
+
+# Convenience name for target.
+s2: cpp/CMakeFiles/s2.dir/rule
+
+.PHONY : s2
+
+# fast build rule for target.
+s2/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s2.dir/build.make cpp/CMakeFiles/s2.dir/build
+.PHONY : s2/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/generate_spiral_matrix.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/generate_spiral_matrix.dir/rule
 .PHONY : cpp/CMakeFiles/generate_spiral_matrix.dir/rule
@@ -4069,36 +4444,6 @@ generate_spiral_matrix: cpp/CMakeFiles/generate_spiral_matrix.dir/rule
 generate_spiral_matrix/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/generate_spiral_matrix.dir/build.make cpp/CMakeFiles/generate_spiral_matrix.dir/build
 .PHONY : generate_spiral_matrix/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/binary_search_circular_array.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_circular_array.dir/rule
-.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/rule
-
-# Convenience name for target.
-binary_search_circular_array: cpp/CMakeFiles/binary_search_circular_array.dir/rule
-
-.PHONY : binary_search_circular_array
-
-# fast build rule for target.
-binary_search_circular_array/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_circular_array.dir/build.make cpp/CMakeFiles/binary_search_circular_array.dir/build
-.PHONY : binary_search_circular_array/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/gcd1.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/gcd1.dir/rule
-.PHONY : cpp/CMakeFiles/gcd1.dir/rule
-
-# Convenience name for target.
-gcd1: cpp/CMakeFiles/gcd1.dir/rule
-
-.PHONY : gcd1
-
-# fast build rule for target.
-gcd1/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/gcd1.dir/build.make cpp/CMakeFiles/gcd1.dir/build
-.PHONY : gcd1/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/async_thread.dir/rule:
@@ -4189,6 +4534,36 @@ gcd: cpp/CMakeFiles/gcd.dir/rule
 gcd/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/gcd.dir/build.make cpp/CMakeFiles/gcd.dir/build
 .PHONY : gcd/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/binary_search_circular_array.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_circular_array.dir/rule
+.PHONY : cpp/CMakeFiles/binary_search_circular_array.dir/rule
+
+# Convenience name for target.
+binary_search_circular_array: cpp/CMakeFiles/binary_search_circular_array.dir/rule
+
+.PHONY : binary_search_circular_array
+
+# fast build rule for target.
+binary_search_circular_array/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_circular_array.dir/build.make cpp/CMakeFiles/binary_search_circular_array.dir/build
+.PHONY : binary_search_circular_array/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/gcd1.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/gcd1.dir/rule
+.PHONY : cpp/CMakeFiles/gcd1.dir/rule
+
+# Convenience name for target.
+gcd1: cpp/CMakeFiles/gcd1.dir/rule
+
+.PHONY : gcd1
+
+# fast build rule for target.
+gcd1/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/gcd1.dir/build.make cpp/CMakeFiles/gcd1.dir/build
+.PHONY : gcd1/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/remove_element.dir/rule:
@@ -4324,21 +4699,6 @@ find_longest_arithmetic_progression: cpp/CMakeFiles/find_longest_arithmetic_prog
 find_longest_arithmetic_progression/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build.make cpp/CMakeFiles/find_longest_arithmetic_progression.dir/build
 .PHONY : find_longest_arithmetic_progression/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/valid_number.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_number.dir/rule
-.PHONY : cpp/CMakeFiles/valid_number.dir/rule
-
-# Convenience name for target.
-valid_number: cpp/CMakeFiles/valid_number.dir/rule
-
-.PHONY : valid_number
-
-# fast build rule for target.
-valid_number/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_number.dir/build.make cpp/CMakeFiles/valid_number.dir/build
-.PHONY : valid_number/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/delete_list.dir/rule:
@@ -4521,141 +4881,6 @@ dutch_national_flag_slow_inplace/fast:
 .PHONY : dutch_national_flag_slow_inplace/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/tail_coin.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/tail_coin.dir/rule
-.PHONY : cpp/CMakeFiles/tail_coin.dir/rule
-
-# Convenience name for target.
-tail_coin: cpp/CMakeFiles/tail_coin.dir/rule
-
-.PHONY : tail_coin
-
-# fast build rule for target.
-tail_coin/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/tail_coin.dir/build.make cpp/CMakeFiles/tail_coin.dir/build
-.PHONY : tail_coin/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/addingcredits.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/addingcredits.dir/rule
-.PHONY : cpp/CMakeFiles/addingcredits.dir/rule
-
-# Convenience name for target.
-addingcredits: cpp/CMakeFiles/addingcredits.dir/rule
-
-.PHONY : addingcredits
-
-# fast build rule for target.
-addingcredits/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/addingcredits.dir/build.make cpp/CMakeFiles/addingcredits.dir/build
-.PHONY : addingcredits/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule
-.PHONY : cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule
-
-# Convenience name for target.
-max_difference_unlimited_pairs: cpp/CMakeFiles/max_difference_unlimited_pairs.dir/rule
-
-.PHONY : max_difference_unlimited_pairs
-
-# fast build rule for target.
-max_difference_unlimited_pairs/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build.make cpp/CMakeFiles/max_difference_unlimited_pairs.dir/build
-.PHONY : max_difference_unlimited_pairs/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/swap_bits.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/swap_bits.dir/rule
-.PHONY : cpp/CMakeFiles/swap_bits.dir/rule
-
-# Convenience name for target.
-swap_bits: cpp/CMakeFiles/swap_bits.dir/rule
-
-.PHONY : swap_bits
-
-# fast build rule for target.
-swap_bits/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/swap_bits.dir/build.make cpp/CMakeFiles/swap_bits.dir/build
-.PHONY : swap_bits/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/list_pivoting.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/list_pivoting.dir/rule
-.PHONY : cpp/CMakeFiles/list_pivoting.dir/rule
-
-# Convenience name for target.
-list_pivoting: cpp/CMakeFiles/list_pivoting.dir/rule
-
-.PHONY : list_pivoting
-
-# fast build rule for target.
-list_pivoting/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/list_pivoting.dir/build.make cpp/CMakeFiles/list_pivoting.dir/build
-.PHONY : list_pivoting/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/dutch_national_flag.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/dutch_national_flag.dir/rule
-.PHONY : cpp/CMakeFiles/dutch_national_flag.dir/rule
-
-# Convenience name for target.
-dutch_national_flag: cpp/CMakeFiles/dutch_national_flag.dir/rule
-
-.PHONY : dutch_national_flag
-
-# fast build rule for target.
-dutch_national_flag/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/dutch_national_flag.dir/build.make cpp/CMakeFiles/dutch_national_flag.dir/build
-.PHONY : dutch_national_flag/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/conversion_sorted_array.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/conversion_sorted_array.dir/rule
-.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/rule
-
-# Convenience name for target.
-conversion_sorted_array: cpp/CMakeFiles/conversion_sorted_array.dir/rule
-
-.PHONY : conversion_sorted_array
-
-# fast build rule for target.
-conversion_sorted_array/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/conversion_sorted_array.dir/build.make cpp/CMakeFiles/conversion_sorted_array.dir/build
-.PHONY : conversion_sorted_array/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/justify_text.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/justify_text.dir/rule
-.PHONY : cpp/CMakeFiles/justify_text.dir/rule
-
-# Convenience name for target.
-justify_text: cpp/CMakeFiles/justify_text.dir/rule
-
-.PHONY : justify_text
-
-# fast build rule for target.
-justify_text/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/justify_text.dir/build.make cpp/CMakeFiles/justify_text.dir/build
-.PHONY : justify_text/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/drawing_skylines_alternative.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/drawing_skylines_alternative.dir/rule
-.PHONY : cpp/CMakeFiles/drawing_skylines_alternative.dir/rule
-
-# Convenience name for target.
-drawing_skylines_alternative: cpp/CMakeFiles/drawing_skylines_alternative.dir/rule
-
-.PHONY : drawing_skylines_alternative
-
-# fast build rule for target.
-drawing_skylines_alternative/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/drawing_skylines_alternative.dir/build.make cpp/CMakeFiles/drawing_skylines_alternative.dir/build
-.PHONY : drawing_skylines_alternative/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/stack_sorting.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/stack_sorting.dir/rule
 .PHONY : cpp/CMakeFiles/stack_sorting.dir/rule
@@ -4776,6 +5001,51 @@ gaussian_primes/fast:
 .PHONY : gaussian_primes/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/conversion_sorted_array.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/conversion_sorted_array.dir/rule
+.PHONY : cpp/CMakeFiles/conversion_sorted_array.dir/rule
+
+# Convenience name for target.
+conversion_sorted_array: cpp/CMakeFiles/conversion_sorted_array.dir/rule
+
+.PHONY : conversion_sorted_array
+
+# fast build rule for target.
+conversion_sorted_array/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/conversion_sorted_array.dir/build.make cpp/CMakeFiles/conversion_sorted_array.dir/build
+.PHONY : conversion_sorted_array/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/justify_text.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/justify_text.dir/rule
+.PHONY : cpp/CMakeFiles/justify_text.dir/rule
+
+# Convenience name for target.
+justify_text: cpp/CMakeFiles/justify_text.dir/rule
+
+.PHONY : justify_text
+
+# fast build rule for target.
+justify_text/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/justify_text.dir/build.make cpp/CMakeFiles/justify_text.dir/build
+.PHONY : justify_text/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/drawing_skylines_alternative.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/drawing_skylines_alternative.dir/rule
+.PHONY : cpp/CMakeFiles/drawing_skylines_alternative.dir/rule
+
+# Convenience name for target.
+drawing_skylines_alternative: cpp/CMakeFiles/drawing_skylines_alternative.dir/rule
+
+.PHONY : drawing_skylines_alternative
+
+# fast build rule for target.
+drawing_skylines_alternative/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/drawing_skylines_alternative.dir/build.make cpp/CMakeFiles/drawing_skylines_alternative.dir/build
+.PHONY : drawing_skylines_alternative/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/nearest_restaurant.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/nearest_restaurant.dir/rule
 .PHONY : cpp/CMakeFiles/nearest_restaurant.dir/rule
@@ -4819,6 +5089,66 @@ doors: cpp/CMakeFiles/doors.dir/rule
 doors/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/doors.dir/build.make cpp/CMakeFiles/doors.dir/build
 .PHONY : doors/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/completion_search_space_efficient.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/completion_search_space_efficient.dir/rule
+.PHONY : cpp/CMakeFiles/completion_search_space_efficient.dir/rule
+
+# Convenience name for target.
+completion_search_space_efficient: cpp/CMakeFiles/completion_search_space_efficient.dir/rule
+
+.PHONY : completion_search_space_efficient
+
+# fast build rule for target.
+completion_search_space_efficient/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/completion_search_space_efficient.dir/build.make cpp/CMakeFiles/completion_search_space_efficient.dir/build
+.PHONY : completion_search_space_efficient/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/job_assignment.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/job_assignment.dir/rule
+.PHONY : cpp/CMakeFiles/job_assignment.dir/rule
+
+# Convenience name for target.
+job_assignment: cpp/CMakeFiles/job_assignment.dir/rule
+
+.PHONY : job_assignment
+
+# fast build rule for target.
+job_assignment/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/job_assignment.dir/build.make cpp/CMakeFiles/job_assignment.dir/build
+.PHONY : job_assignment/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule
+.PHONY : cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule
+
+# Convenience name for target.
+generating_a_b_sqrt2_2: cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule
+
+.PHONY : generating_a_b_sqrt2_2
+
+# fast build rule for target.
+generating_a_b_sqrt2_2/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build.make cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build
+.PHONY : generating_a_b_sqrt2_2/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/division.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/division.dir/rule
+.PHONY : cpp/CMakeFiles/division.dir/rule
+
+# Convenience name for target.
+division: cpp/CMakeFiles/division.dir/rule
+
+.PHONY : division
+
+# fast build rule for target.
+division/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/division.dir/build.make cpp/CMakeFiles/division.dir/build
+.PHONY : division/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/score_combination_alternative.dir/rule:
@@ -4866,21 +5196,6 @@ image_compression/fast:
 .PHONY : image_compression/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule
-.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule
-
-# Convenience name for target.
-dutch_national_flag_two_passes: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule
-
-.PHONY : dutch_national_flag_two_passes
-
-# fast build rule for target.
-dutch_national_flag_two_passes/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build.make cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build
-.PHONY : dutch_national_flag_two_passes/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/3_sum.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/3_sum.dir/rule
 .PHONY : cpp/CMakeFiles/3_sum.dir/rule
@@ -4894,6 +5209,21 @@ cpp/CMakeFiles/3_sum.dir/rule:
 3_sum/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/3_sum.dir/build.make cpp/CMakeFiles/3_sum.dir/build
 .PHONY : 3_sum/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule
+.PHONY : cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule
+
+# Convenience name for target.
+dutch_national_flag_two_passes: cpp/CMakeFiles/dutch_national_flag_two_passes.dir/rule
+
+.PHONY : dutch_national_flag_two_passes
+
+# fast build rule for target.
+dutch_national_flag_two_passes/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build.make cpp/CMakeFiles/dutch_national_flag_two_passes.dir/build
+.PHONY : dutch_national_flag_two_passes/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/spiral_matrix_clockwise.dir/rule:
@@ -4939,66 +5269,6 @@ division_no_operator: cpp/CMakeFiles/division_no_operator.dir/rule
 division_no_operator/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/division_no_operator.dir/build.make cpp/CMakeFiles/division_no_operator.dir/build
 .PHONY : division_no_operator/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/job_assignment.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/job_assignment.dir/rule
-.PHONY : cpp/CMakeFiles/job_assignment.dir/rule
-
-# Convenience name for target.
-job_assignment: cpp/CMakeFiles/job_assignment.dir/rule
-
-.PHONY : job_assignment
-
-# fast build rule for target.
-job_assignment/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/job_assignment.dir/build.make cpp/CMakeFiles/job_assignment.dir/build
-.PHONY : job_assignment/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule
-.PHONY : cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule
-
-# Convenience name for target.
-generating_a_b_sqrt2_2: cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/rule
-
-.PHONY : generating_a_b_sqrt2_2
-
-# fast build rule for target.
-generating_a_b_sqrt2_2/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build.make cpp/CMakeFiles/generating_a_b_sqrt2_2.dir/build
-.PHONY : generating_a_b_sqrt2_2/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/completion_search_space_efficient.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/completion_search_space_efficient.dir/rule
-.PHONY : cpp/CMakeFiles/completion_search_space_efficient.dir/rule
-
-# Convenience name for target.
-completion_search_space_efficient: cpp/CMakeFiles/completion_search_space_efficient.dir/rule
-
-.PHONY : completion_search_space_efficient
-
-# fast build rule for target.
-completion_search_space_efficient/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/completion_search_space_efficient.dir/build.make cpp/CMakeFiles/completion_search_space_efficient.dir/build
-.PHONY : completion_search_space_efficient/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/division.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/division.dir/rule
-.PHONY : cpp/CMakeFiles/division.dir/rule
-
-# Convenience name for target.
-division: cpp/CMakeFiles/division.dir/rule
-
-.PHONY : division
-
-# fast build rule for target.
-division/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/division.dir/build.make cpp/CMakeFiles/division.dir/build
-.PHONY : division/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/distinct_sorted_list.dir/rule:
@@ -5151,21 +5421,6 @@ container_with_most_water/fast:
 .PHONY : container_with_most_water/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/valid_palindrome.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_palindrome.dir/rule
-.PHONY : cpp/CMakeFiles/valid_palindrome.dir/rule
-
-# Convenience name for target.
-valid_palindrome: cpp/CMakeFiles/valid_palindrome.dir/rule
-
-.PHONY : valid_palindrome
-
-# fast build rule for target.
-valid_palindrome/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_palindrome.dir/build.make cpp/CMakeFiles/valid_palindrome.dir/build
-.PHONY : valid_palindrome/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/computing_binomial_coefficients.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/computing_binomial_coefficients.dir/rule
 .PHONY : cpp/CMakeFiles/computing_binomial_coefficients.dir/rule
@@ -5286,6 +5541,21 @@ closest_palindrome/fast:
 .PHONY : closest_palindrome/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule
+.PHONY : cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule
+
+# Convenience name for target.
+merge_two_sorted_arrays_in_place: cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule
+
+.PHONY : merge_two_sorted_arrays_in_place
+
+# fast build rule for target.
+merge_two_sorted_arrays_in_place/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build.make cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build
+.PHONY : merge_two_sorted_arrays_in_place/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/student_search.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/student_search.dir/rule
 .PHONY : cpp/CMakeFiles/student_search.dir/rule
@@ -5314,36 +5584,6 @@ buy_and_sell_stock_twice: cpp/CMakeFiles/buy_and_sell_stock_twice.dir/rule
 buy_and_sell_stock_twice/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/buy_and_sell_stock_twice.dir/build.make cpp/CMakeFiles/buy_and_sell_stock_twice.dir/build
 .PHONY : buy_and_sell_stock_twice/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule
-.PHONY : cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule
-
-# Convenience name for target.
-merge_two_sorted_arrays_in_place: cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/rule
-
-.PHONY : merge_two_sorted_arrays_in_place
-
-# fast build rule for target.
-merge_two_sorted_arrays_in_place/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build.make cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build
-.PHONY : merge_two_sorted_arrays_in_place/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/coin_change.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/coin_change.dir/rule
-.PHONY : cpp/CMakeFiles/coin_change.dir/rule
-
-# Convenience name for target.
-coin_change: cpp/CMakeFiles/coin_change.dir/rule
-
-.PHONY : coin_change
-
-# fast build rule for target.
-coin_change/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/coin_change.dir/build.make cpp/CMakeFiles/coin_change.dir/build
-.PHONY : coin_change/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/count_bits.dir/rule:
@@ -5481,6 +5721,21 @@ collatz/fast:
 .PHONY : collatz/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/length_of_last_word.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/length_of_last_word.dir/rule
+.PHONY : cpp/CMakeFiles/length_of_last_word.dir/rule
+
+# Convenience name for target.
+length_of_last_word: cpp/CMakeFiles/length_of_last_word.dir/rule
+
+.PHONY : length_of_last_word
+
+# fast build rule for target.
+length_of_last_word/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/length_of_last_word.dir/build.make cpp/CMakeFiles/length_of_last_word.dir/build
+.PHONY : length_of_last_word/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/find_element_appears_once.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/find_element_appears_once.dir/rule
 .PHONY : cpp/CMakeFiles/find_element_appears_once.dir/rule
@@ -5509,21 +5764,6 @@ binary_search_unknown_length: cpp/CMakeFiles/binary_search_unknown_length.dir/ru
 binary_search_unknown_length/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_unknown_length.dir/build.make cpp/CMakeFiles/binary_search_unknown_length.dir/build
 .PHONY : binary_search_unknown_length/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/length_of_last_word.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/length_of_last_word.dir/rule
-.PHONY : cpp/CMakeFiles/length_of_last_word.dir/rule
-
-# Convenience name for target.
-length_of_last_word: cpp/CMakeFiles/length_of_last_word.dir/rule
-
-.PHONY : length_of_last_word
-
-# fast build rule for target.
-length_of_last_word/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/length_of_last_word.dir/build.make cpp/CMakeFiles/length_of_last_word.dir/build
-.PHONY : length_of_last_word/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/score_permutation.dir/rule:
@@ -5706,21 +5946,6 @@ checking_cycle_alternative/fast:
 .PHONY : checking_cycle_alternative/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/valid_parentheses.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/valid_parentheses.dir/rule
-.PHONY : cpp/CMakeFiles/valid_parentheses.dir/rule
-
-# Convenience name for target.
-valid_parentheses: cpp/CMakeFiles/valid_parentheses.dir/rule
-
-.PHONY : valid_parentheses
-
-# fast build rule for target.
-valid_parentheses/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/valid_parentheses.dir/build.make cpp/CMakeFiles/valid_parentheses.dir/build
-.PHONY : valid_parentheses/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/can_string_be_palindrome.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/can_string_be_palindrome.dir/rule
 .PHONY : cpp/CMakeFiles/can_string_be_palindrome.dir/rule
@@ -5794,6 +6019,21 @@ buy_and_sell_stock: cpp/CMakeFiles/buy_and_sell_stock.dir/rule
 buy_and_sell_stock/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/buy_and_sell_stock.dir/build.make cpp/CMakeFiles/buy_and_sell_stock.dir/build
 .PHONY : buy_and_sell_stock/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/task_execution_web_server.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/task_execution_web_server.dir/rule
+.PHONY : cpp/CMakeFiles/task_execution_web_server.dir/rule
+
+# Convenience name for target.
+task_execution_web_server: cpp/CMakeFiles/task_execution_web_server.dir/rule
+
+.PHONY : task_execution_web_server
+
+# fast build rule for target.
+task_execution_web_server/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/task_execution_web_server.dir/build.make cpp/CMakeFiles/task_execution_web_server.dir/build
+.PHONY : task_execution_web_server/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/combinations_unique.dir/rule:
@@ -5871,66 +6111,6 @@ cpp/CMakeFiles/0_1_knapsack.dir/rule:
 .PHONY : 0_1_knapsack/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule
-.PHONY : cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule
-
-# Convenience name for target.
-binary_tree_to_doubly_linked_list: cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/rule
-
-.PHONY : binary_tree_to_doubly_linked_list
-
-# fast build rule for target.
-binary_tree_to_doubly_linked_list/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build.make cpp/CMakeFiles/binary_tree_to_doubly_linked_list.dir/build
-.PHONY : binary_tree_to_doubly_linked_list/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/binary_search_first_k.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_first_k.dir/rule
-.PHONY : cpp/CMakeFiles/binary_search_first_k.dir/rule
-
-# Convenience name for target.
-binary_search_first_k: cpp/CMakeFiles/binary_search_first_k.dir/rule
-
-.PHONY : binary_search_first_k
-
-# fast build rule for target.
-binary_search_first_k/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_first_k.dir/build.make cpp/CMakeFiles/binary_search_first_k.dir/build
-.PHONY : binary_search_first_k/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/eliminate_duplicate.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/eliminate_duplicate.dir/rule
-.PHONY : cpp/CMakeFiles/eliminate_duplicate.dir/rule
-
-# Convenience name for target.
-eliminate_duplicate: cpp/CMakeFiles/eliminate_duplicate.dir/rule
-
-.PHONY : eliminate_duplicate
-
-# fast build rule for target.
-eliminate_duplicate/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/eliminate_duplicate.dir/build.make cpp/CMakeFiles/eliminate_duplicate.dir/build
-.PHONY : eliminate_duplicate/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule
-.PHONY : cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule
-
-# Convenience name for target.
-binary_search_circular_array_with_duplicates: cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule
-
-.PHONY : binary_search_circular_array_with_duplicates
-
-# fast build rule for target.
-binary_search_circular_array_with_duplicates/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build.make cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build
-.PHONY : binary_search_circular_array_with_duplicates/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/close_search.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/close_search.dir/rule
 .PHONY : cpp/CMakeFiles/close_search.dir/rule
@@ -6006,49 +6186,49 @@ longest_subarray_k/fast:
 .PHONY : longest_subarray_k/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/power_x_y.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/power_x_y.dir/rule
-.PHONY : cpp/CMakeFiles/power_x_y.dir/rule
+cpp/CMakeFiles/binary_search_first_k.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_first_k.dir/rule
+.PHONY : cpp/CMakeFiles/binary_search_first_k.dir/rule
 
 # Convenience name for target.
-power_x_y: cpp/CMakeFiles/power_x_y.dir/rule
+binary_search_first_k: cpp/CMakeFiles/binary_search_first_k.dir/rule
 
-.PHONY : power_x_y
+.PHONY : binary_search_first_k
 
 # fast build rule for target.
-power_x_y/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/power_x_y.dir/build.make cpp/CMakeFiles/power_x_y.dir/build
-.PHONY : power_x_y/fast
+binary_search_first_k/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_first_k.dir/build.make cpp/CMakeFiles/binary_search_first_k.dir/build
+.PHONY : binary_search_first_k/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule
-.PHONY : cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule
+cpp/CMakeFiles/eliminate_duplicate.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/eliminate_duplicate.dir/rule
+.PHONY : cpp/CMakeFiles/eliminate_duplicate.dir/rule
 
 # Convenience name for target.
-max_submatrix_rectangle_improved: cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/rule
+eliminate_duplicate: cpp/CMakeFiles/eliminate_duplicate.dir/rule
 
-.PHONY : max_submatrix_rectangle_improved
+.PHONY : eliminate_duplicate
 
 # fast build rule for target.
-max_submatrix_rectangle_improved/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build.make cpp/CMakeFiles/max_submatrix_rectangle_improved.dir/build
-.PHONY : max_submatrix_rectangle_improved/fast
+eliminate_duplicate/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/eliminate_duplicate.dir/build.make cpp/CMakeFiles/eliminate_duplicate.dir/build
+.PHONY : eliminate_duplicate/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/arbitrage.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/arbitrage.dir/rule
-.PHONY : cpp/CMakeFiles/arbitrage.dir/rule
+cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule
+.PHONY : cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule
 
 # Convenience name for target.
-arbitrage: cpp/CMakeFiles/arbitrage.dir/rule
+binary_search_circular_array_with_duplicates: cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/rule
 
-.PHONY : arbitrage
+.PHONY : binary_search_circular_array_with_duplicates
 
 # fast build rule for target.
-arbitrage/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/arbitrage.dir/build.make cpp/CMakeFiles/arbitrage.dir/build
-.PHONY : arbitrage/fast
+binary_search_circular_array_with_duplicates/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build.make cpp/CMakeFiles/binary_search_circular_array_with_duplicates.dir/build
+.PHONY : binary_search_circular_array_with_duplicates/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/biggest_product_n_1_math.dir/rule:
@@ -6186,6 +6366,21 @@ average_top_3_scores/fast:
 .PHONY : average_top_3_scores/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/odd_even.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/odd_even.dir/rule
+.PHONY : cpp/CMakeFiles/odd_even.dir/rule
+
+# Convenience name for target.
+odd_even: cpp/CMakeFiles/odd_even.dir/rule
+
+.PHONY : odd_even
+
+# fast build rule for target.
+odd_even/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/odd_even.dir/build.make cpp/CMakeFiles/odd_even.dir/build
+.PHONY : odd_even/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/lazy_init.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/lazy_init.dir/rule
 .PHONY : cpp/CMakeFiles/lazy_init.dir/rule
@@ -6199,6 +6394,66 @@ lazy_init: cpp/CMakeFiles/lazy_init.dir/rule
 lazy_init/fast:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/lazy_init.dir/build.make cpp/CMakeFiles/lazy_init.dir/build
 .PHONY : lazy_init/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/tail_coin.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/tail_coin.dir/rule
+.PHONY : cpp/CMakeFiles/tail_coin.dir/rule
+
+# Convenience name for target.
+tail_coin: cpp/CMakeFiles/tail_coin.dir/rule
+
+.PHONY : tail_coin
+
+# fast build rule for target.
+tail_coin/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/tail_coin.dir/build.make cpp/CMakeFiles/tail_coin.dir/build
+.PHONY : tail_coin/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/swap_bits.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/swap_bits.dir/rule
+.PHONY : cpp/CMakeFiles/swap_bits.dir/rule
+
+# Convenience name for target.
+swap_bits: cpp/CMakeFiles/swap_bits.dir/rule
+
+.PHONY : swap_bits
+
+# fast build rule for target.
+swap_bits/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/swap_bits.dir/build.make cpp/CMakeFiles/swap_bits.dir/build
+.PHONY : swap_bits/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/list_pivoting.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/list_pivoting.dir/rule
+.PHONY : cpp/CMakeFiles/list_pivoting.dir/rule
+
+# Convenience name for target.
+list_pivoting: cpp/CMakeFiles/list_pivoting.dir/rule
+
+.PHONY : list_pivoting
+
+# fast build rule for target.
+list_pivoting/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/list_pivoting.dir/build.make cpp/CMakeFiles/list_pivoting.dir/build
+.PHONY : list_pivoting/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/dutch_national_flag.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/dutch_national_flag.dir/rule
+.PHONY : cpp/CMakeFiles/dutch_national_flag.dir/rule
+
+# Convenience name for target.
+dutch_national_flag: cpp/CMakeFiles/dutch_national_flag.dir/rule
+
+.PHONY : dutch_national_flag
+
+# fast build rule for target.
+dutch_national_flag/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/dutch_national_flag.dir/build.make cpp/CMakeFiles/dutch_national_flag.dir/build
+.PHONY : dutch_national_flag/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/bonus_improved.dir/rule:
@@ -6216,19 +6471,19 @@ bonus_improved/fast:
 .PHONY : bonus_improved/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/bignumber_multiplication.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/bignumber_multiplication.dir/rule
-.PHONY : cpp/CMakeFiles/bignumber_multiplication.dir/rule
+cpp/CMakeFiles/big_number_multiplication.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/big_number_multiplication.dir/rule
+.PHONY : cpp/CMakeFiles/big_number_multiplication.dir/rule
 
 # Convenience name for target.
-bignumber_multiplication: cpp/CMakeFiles/bignumber_multiplication.dir/rule
+big_number_multiplication: cpp/CMakeFiles/big_number_multiplication.dir/rule
 
-.PHONY : bignumber_multiplication
+.PHONY : big_number_multiplication
 
 # fast build rule for target.
-bignumber_multiplication/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/bignumber_multiplication.dir/build.make cpp/CMakeFiles/bignumber_multiplication.dir/build
-.PHONY : bignumber_multiplication/fast
+big_number_multiplication/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/big_number_multiplication.dir/build.make cpp/CMakeFiles/big_number_multiplication.dir/build
+.PHONY : big_number_multiplication/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/lowest_common_ancestor.dir/rule:
@@ -6321,6 +6576,21 @@ collatz_conjecture/fast:
 .PHONY : collatz_conjecture/fast
 
 # Convenience name for target.
+cpp/CMakeFiles/binary_search_larger_k.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_larger_k.dir/rule
+.PHONY : cpp/CMakeFiles/binary_search_larger_k.dir/rule
+
+# Convenience name for target.
+binary_search_larger_k: cpp/CMakeFiles/binary_search_larger_k.dir/rule
+
+.PHONY : binary_search_larger_k
+
+# fast build rule for target.
+binary_search_larger_k/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_larger_k.dir/build.make cpp/CMakeFiles/binary_search_larger_k.dir/build
+.PHONY : binary_search_larger_k/fast
+
+# Convenience name for target.
 cpp/CMakeFiles/k_balanced_binary_tree.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/k_balanced_binary_tree.dir/rule
 .PHONY : cpp/CMakeFiles/k_balanced_binary_tree.dir/rule
@@ -6351,19 +6621,34 @@ cpp/CMakeFiles/2_sum.dir/rule:
 .PHONY : 2_sum/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/binary_search_larger_k.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_search_larger_k.dir/rule
-.PHONY : cpp/CMakeFiles/binary_search_larger_k.dir/rule
+cpp/CMakeFiles/computing_x_n.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/computing_x_n.dir/rule
+.PHONY : cpp/CMakeFiles/computing_x_n.dir/rule
 
 # Convenience name for target.
-binary_search_larger_k: cpp/CMakeFiles/binary_search_larger_k.dir/rule
+computing_x_n: cpp/CMakeFiles/computing_x_n.dir/rule
 
-.PHONY : binary_search_larger_k
+.PHONY : computing_x_n
 
 # fast build rule for target.
-binary_search_larger_k/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_search_larger_k.dir/build.make cpp/CMakeFiles/binary_search_larger_k.dir/build
-.PHONY : binary_search_larger_k/fast
+computing_x_n/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/computing_x_n.dir/build.make cpp/CMakeFiles/computing_x_n.dir/build
+.PHONY : computing_x_n/fast
+
+# Convenience name for target.
+cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule
+.PHONY : cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule
+
+# Convenience name for target.
+binary_tree_zigzag_level_order_traversal: cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule
+
+.PHONY : binary_tree_zigzag_level_order_traversal
+
+# fast build rule for target.
+binary_tree_zigzag_level_order_traversal/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build.make cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build
+.PHONY : binary_tree_zigzag_level_order_traversal/fast
 
 # Convenience name for target.
 cpp/CMakeFiles/matrix_rotation.dir/rule:
@@ -6396,21 +6681,6 @@ cyclic_right_shift/fast:
 .PHONY : cyclic_right_shift/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule
-.PHONY : cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule
-
-# Convenience name for target.
-palindrome_partitioning_min_cuts: cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule
-
-.PHONY : palindrome_partitioning_min_cuts
-
-# fast build rule for target.
-palindrome_partitioning_min_cuts/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build.make cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build
-.PHONY : palindrome_partitioning_min_cuts/fast
-
-# Convenience name for target.
 cpp/CMakeFiles/0_sum_subset.dir/rule:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/0_sum_subset.dir/rule
 .PHONY : cpp/CMakeFiles/0_sum_subset.dir/rule
@@ -6426,34 +6696,19 @@ cpp/CMakeFiles/0_sum_subset.dir/rule:
 .PHONY : 0_sum_subset/fast
 
 # Convenience name for target.
-cpp/CMakeFiles/computing_x_n.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/computing_x_n.dir/rule
-.PHONY : cpp/CMakeFiles/computing_x_n.dir/rule
+cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule
+.PHONY : cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule
 
 # Convenience name for target.
-computing_x_n: cpp/CMakeFiles/computing_x_n.dir/rule
+palindrome_partitioning_min_cuts: cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/rule
 
-.PHONY : computing_x_n
+.PHONY : palindrome_partitioning_min_cuts
 
 # fast build rule for target.
-computing_x_n/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/computing_x_n.dir/build.make cpp/CMakeFiles/computing_x_n.dir/build
-.PHONY : computing_x_n/fast
-
-# Convenience name for target.
-cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule
-.PHONY : cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule
-
-# Convenience name for target.
-binary_tree_zigzag_level_order_traversal: cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/rule
-
-.PHONY : binary_tree_zigzag_level_order_traversal
-
-# fast build rule for target.
-binary_tree_zigzag_level_order_traversal/fast:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build.make cpp/CMakeFiles/binary_tree_zigzag_level_order_traversal.dir/build
-.PHONY : binary_tree_zigzag_level_order_traversal/fast
+palindrome_partitioning_min_cuts/fast:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build.make cpp/CMakeFiles/palindrome_partitioning_min_cuts.dir/build
+.PHONY : palindrome_partitioning_min_cuts/fast
 
 0_1_knapsack.o: 0_1_knapsack.cpp.o
 
@@ -7112,7 +7367,7 @@ big_number_multiplication.o: big_number_multiplication.cpp.o
 
 # target to build an object file
 big_number_multiplication.cpp.o:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/bignumber_multiplication.dir/build.make cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.o
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/big_number_multiplication.dir/build.make cpp/CMakeFiles/big_number_multiplication.dir/big_number_multiplication.cpp.o
 .PHONY : big_number_multiplication.cpp.o
 
 big_number_multiplication.i: big_number_multiplication.cpp.i
@@ -7121,7 +7376,7 @@ big_number_multiplication.i: big_number_multiplication.cpp.i
 
 # target to preprocess a source file
 big_number_multiplication.cpp.i:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/bignumber_multiplication.dir/build.make cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.i
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/big_number_multiplication.dir/build.make cpp/CMakeFiles/big_number_multiplication.dir/big_number_multiplication.cpp.i
 .PHONY : big_number_multiplication.cpp.i
 
 big_number_multiplication.s: big_number_multiplication.cpp.s
@@ -7130,7 +7385,7 @@ big_number_multiplication.s: big_number_multiplication.cpp.s
 
 # target to generate assembly for a file
 big_number_multiplication.cpp.s:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/bignumber_multiplication.dir/build.make cpp/CMakeFiles/bignumber_multiplication.dir/big_number_multiplication.cpp.s
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/big_number_multiplication.dir/build.make cpp/CMakeFiles/big_number_multiplication.dir/big_number_multiplication.cpp.s
 .PHONY : big_number_multiplication.cpp.s
 
 biggest_product_n_1.o: biggest_product_n_1.cpp.o
@@ -12263,6 +12518,60 @@ merge_two_sorted_arrays_in_place.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/build.make cpp/CMakeFiles/merge_two_sorted_arrays_in_place.dir/merge_two_sorted_arrays_in_place.cpp.s
 .PHONY : merge_two_sorted_arrays_in_place.cpp.s
 
+min_max_template.o: min_max_template.cpp.o
+
+.PHONY : min_max_template.o
+
+# target to build an object file
+min_max_template.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template.dir/build.make cpp/CMakeFiles/min_max_template.dir/min_max_template.cpp.o
+.PHONY : min_max_template.cpp.o
+
+min_max_template.i: min_max_template.cpp.i
+
+.PHONY : min_max_template.i
+
+# target to preprocess a source file
+min_max_template.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template.dir/build.make cpp/CMakeFiles/min_max_template.dir/min_max_template.cpp.i
+.PHONY : min_max_template.cpp.i
+
+min_max_template.s: min_max_template.cpp.s
+
+.PHONY : min_max_template.s
+
+# target to generate assembly for a file
+min_max_template.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template.dir/build.make cpp/CMakeFiles/min_max_template.dir/min_max_template.cpp.s
+.PHONY : min_max_template.cpp.s
+
+min_max_template_move.o: min_max_template_move.cpp.o
+
+.PHONY : min_max_template_move.o
+
+# target to build an object file
+min_max_template_move.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template_move.dir/build.make cpp/CMakeFiles/min_max_template_move.dir/min_max_template_move.cpp.o
+.PHONY : min_max_template_move.cpp.o
+
+min_max_template_move.i: min_max_template_move.cpp.i
+
+.PHONY : min_max_template_move.i
+
+# target to preprocess a source file
+min_max_template_move.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template_move.dir/build.make cpp/CMakeFiles/min_max_template_move.dir/min_max_template_move.cpp.i
+.PHONY : min_max_template_move.cpp.i
+
+min_max_template_move.s: min_max_template_move.cpp.s
+
+.PHONY : min_max_template_move.s
+
+# target to generate assembly for a file
+min_max_template_move.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/min_max_template_move.dir/build.make cpp/CMakeFiles/min_max_template_move.dir/min_max_template_move.cpp.s
+.PHONY : min_max_template_move.cpp.s
+
 minimum_distance_3_sorted_arrays.o: minimum_distance_3_sorted_arrays.cpp.o
 
 .PHONY : minimum_distance_3_sorted_arrays.o
@@ -12425,32 +12734,59 @@ multibet_card_color_game.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multibet_card_color_game.dir/build.make cpp/CMakeFiles/multibet_card_color_game.dir/multibet_card_color_game.cpp.s
 .PHONY : multibet_card_color_game.cpp.s
 
-multiplyshiftadd.o: multiplyshiftadd.cpp.o
+multiply_shift_add.o: multiply_shift_add.cpp.o
 
-.PHONY : multiplyshiftadd.o
+.PHONY : multiply_shift_add.o
 
 # target to build an object file
-multiplyshiftadd.cpp.o:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiplyshiftadd.dir/build.make cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.o
-.PHONY : multiplyshiftadd.cpp.o
+multiply_shift_add.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add.dir/build.make cpp/CMakeFiles/multiply_shift_add.dir/multiply_shift_add.cpp.o
+.PHONY : multiply_shift_add.cpp.o
 
-multiplyshiftadd.i: multiplyshiftadd.cpp.i
+multiply_shift_add.i: multiply_shift_add.cpp.i
 
-.PHONY : multiplyshiftadd.i
+.PHONY : multiply_shift_add.i
 
 # target to preprocess a source file
-multiplyshiftadd.cpp.i:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiplyshiftadd.dir/build.make cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.i
-.PHONY : multiplyshiftadd.cpp.i
+multiply_shift_add.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add.dir/build.make cpp/CMakeFiles/multiply_shift_add.dir/multiply_shift_add.cpp.i
+.PHONY : multiply_shift_add.cpp.i
 
-multiplyshiftadd.s: multiplyshiftadd.cpp.s
+multiply_shift_add.s: multiply_shift_add.cpp.s
 
-.PHONY : multiplyshiftadd.s
+.PHONY : multiply_shift_add.s
 
 # target to generate assembly for a file
-multiplyshiftadd.cpp.s:
-	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiplyshiftadd.dir/build.make cpp/CMakeFiles/multiplyshiftadd.dir/multiplyshiftadd.cpp.s
-.PHONY : multiplyshiftadd.cpp.s
+multiply_shift_add.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add.dir/build.make cpp/CMakeFiles/multiply_shift_add.dir/multiply_shift_add.cpp.s
+.PHONY : multiply_shift_add.cpp.s
+
+multiply_shift_add2.o: multiply_shift_add2.cpp.o
+
+.PHONY : multiply_shift_add2.o
+
+# target to build an object file
+multiply_shift_add2.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add2.dir/build.make cpp/CMakeFiles/multiply_shift_add2.dir/multiply_shift_add2.cpp.o
+.PHONY : multiply_shift_add2.cpp.o
+
+multiply_shift_add2.i: multiply_shift_add2.cpp.i
+
+.PHONY : multiply_shift_add2.i
+
+# target to preprocess a source file
+multiply_shift_add2.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add2.dir/build.make cpp/CMakeFiles/multiply_shift_add2.dir/multiply_shift_add2.cpp.i
+.PHONY : multiply_shift_add2.cpp.i
+
+multiply_shift_add2.s: multiply_shift_add2.cpp.s
+
+.PHONY : multiply_shift_add2.s
+
+# target to generate assembly for a file
+multiply_shift_add2.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/multiply_shift_add2.dir/build.make cpp/CMakeFiles/multiply_shift_add2.dir/multiply_shift_add2.cpp.s
+.PHONY : multiply_shift_add2.cpp.s
 
 n_queens.o: n_queens.cpp.o
 
@@ -12775,6 +13111,33 @@ number_ways_obstacles.s: number_ways_obstacles.cpp.s
 number_ways_obstacles.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/number_ways_obstacles.dir/build.make cpp/CMakeFiles/number_ways_obstacles.dir/number_ways_obstacles.cpp.s
 .PHONY : number_ways_obstacles.cpp.s
+
+odd_even.o: odd_even.cpp.o
+
+.PHONY : odd_even.o
+
+# target to build an object file
+odd_even.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/odd_even.dir/build.make cpp/CMakeFiles/odd_even.dir/odd_even.cpp.o
+.PHONY : odd_even.cpp.o
+
+odd_even.i: odd_even.cpp.i
+
+.PHONY : odd_even.i
+
+# target to preprocess a source file
+odd_even.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/odd_even.dir/build.make cpp/CMakeFiles/odd_even.dir/odd_even.cpp.i
+.PHONY : odd_even.cpp.i
+
+odd_even.s: odd_even.cpp.s
+
+.PHONY : odd_even.s
+
+# target to generate assembly for a file
+odd_even.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/odd_even.dir/build.make cpp/CMakeFiles/odd_even.dir/odd_even.cpp.s
+.PHONY : odd_even.cpp.s
 
 offline_minimum.o: offline_minimum.cpp.o
 
@@ -13316,6 +13679,33 @@ pascal_triangle_2.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pascal_triangle_2.dir/build.make cpp/CMakeFiles/pascal_triangle_2.dir/pascal_triangle_2.cpp.s
 .PHONY : pascal_triangle_2.cpp.s
 
+pass_by_value_bug.o: pass_by_value_bug.cpp.o
+
+.PHONY : pass_by_value_bug.o
+
+# target to build an object file
+pass_by_value_bug.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pass_by_value_bug.dir/build.make cpp/CMakeFiles/pass_by_value_bug.dir/pass_by_value_bug.cpp.o
+.PHONY : pass_by_value_bug.cpp.o
+
+pass_by_value_bug.i: pass_by_value_bug.cpp.i
+
+.PHONY : pass_by_value_bug.i
+
+# target to preprocess a source file
+pass_by_value_bug.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pass_by_value_bug.dir/build.make cpp/CMakeFiles/pass_by_value_bug.dir/pass_by_value_bug.cpp.i
+.PHONY : pass_by_value_bug.cpp.i
+
+pass_by_value_bug.s: pass_by_value_bug.cpp.s
+
+.PHONY : pass_by_value_bug.s
+
+# target to generate assembly for a file
+pass_by_value_bug.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/pass_by_value_bug.dir/build.make cpp/CMakeFiles/pass_by_value_bug.dir/pass_by_value_bug.cpp.s
+.PHONY : pass_by_value_bug.cpp.s
+
 path_sum_binary_tree.o: path_sum_binary_tree.cpp.o
 
 .PHONY : path_sum_binary_tree.o
@@ -13693,6 +14083,60 @@ points_covering_intervals_sorting.s: points_covering_intervals_sorting.cpp.s
 points_covering_intervals_sorting.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/points_covering_intervals_sorting.dir/build.make cpp/CMakeFiles/points_covering_intervals_sorting.dir/points_covering_intervals_sorting.cpp.s
 .PHONY : points_covering_intervals_sorting.cpp.s
+
+polymorphism_problems.o: polymorphism_problems.cpp.o
+
+.PHONY : polymorphism_problems.o
+
+# target to build an object file
+polymorphism_problems.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems.dir/build.make cpp/CMakeFiles/polymorphism_problems.dir/polymorphism_problems.cpp.o
+.PHONY : polymorphism_problems.cpp.o
+
+polymorphism_problems.i: polymorphism_problems.cpp.i
+
+.PHONY : polymorphism_problems.i
+
+# target to preprocess a source file
+polymorphism_problems.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems.dir/build.make cpp/CMakeFiles/polymorphism_problems.dir/polymorphism_problems.cpp.i
+.PHONY : polymorphism_problems.cpp.i
+
+polymorphism_problems.s: polymorphism_problems.cpp.s
+
+.PHONY : polymorphism_problems.s
+
+# target to generate assembly for a file
+polymorphism_problems.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems.dir/build.make cpp/CMakeFiles/polymorphism_problems.dir/polymorphism_problems.cpp.s
+.PHONY : polymorphism_problems.cpp.s
+
+polymorphism_problems_fixed.o: polymorphism_problems_fixed.cpp.o
+
+.PHONY : polymorphism_problems_fixed.o
+
+# target to build an object file
+polymorphism_problems_fixed.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems_fixed.dir/build.make cpp/CMakeFiles/polymorphism_problems_fixed.dir/polymorphism_problems_fixed.cpp.o
+.PHONY : polymorphism_problems_fixed.cpp.o
+
+polymorphism_problems_fixed.i: polymorphism_problems_fixed.cpp.i
+
+.PHONY : polymorphism_problems_fixed.i
+
+# target to preprocess a source file
+polymorphism_problems_fixed.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems_fixed.dir/build.make cpp/CMakeFiles/polymorphism_problems_fixed.dir/polymorphism_problems_fixed.cpp.i
+.PHONY : polymorphism_problems_fixed.cpp.i
+
+polymorphism_problems_fixed.s: polymorphism_problems_fixed.cpp.s
+
+.PHONY : polymorphism_problems_fixed.s
+
+# target to generate assembly for a file
+polymorphism_problems_fixed.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/polymorphism_problems_fixed.dir/build.make cpp/CMakeFiles/polymorphism_problems_fixed.dir/polymorphism_problems_fixed.cpp.s
+.PHONY : polymorphism_problems_fixed.cpp.s
 
 populating_next_right_pointers.o: populating_next_right_pointers.cpp.o
 
@@ -15044,6 +15488,87 @@ run_length_compression.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/run_length_compression.dir/build.make cpp/CMakeFiles/run_length_compression.dir/run_length_compression.cpp.s
 .PHONY : run_length_compression.cpp.s
 
+rw.o: rw.cpp.o
+
+.PHONY : rw.o
+
+# target to build an object file
+rw.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/rw.dir/build.make cpp/CMakeFiles/rw.dir/rw.cpp.o
+.PHONY : rw.cpp.o
+
+rw.i: rw.cpp.i
+
+.PHONY : rw.i
+
+# target to preprocess a source file
+rw.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/rw.dir/build.make cpp/CMakeFiles/rw.dir/rw.cpp.i
+.PHONY : rw.cpp.i
+
+rw.s: rw.cpp.s
+
+.PHONY : rw.s
+
+# target to generate assembly for a file
+rw.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/rw.dir/build.make cpp/CMakeFiles/rw.dir/rw.cpp.s
+.PHONY : rw.cpp.s
+
+s1.o: s1.cpp.o
+
+.PHONY : s1.o
+
+# target to build an object file
+s1.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s1.dir/build.make cpp/CMakeFiles/s1.dir/s1.cpp.o
+.PHONY : s1.cpp.o
+
+s1.i: s1.cpp.i
+
+.PHONY : s1.i
+
+# target to preprocess a source file
+s1.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s1.dir/build.make cpp/CMakeFiles/s1.dir/s1.cpp.i
+.PHONY : s1.cpp.i
+
+s1.s: s1.cpp.s
+
+.PHONY : s1.s
+
+# target to generate assembly for a file
+s1.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s1.dir/build.make cpp/CMakeFiles/s1.dir/s1.cpp.s
+.PHONY : s1.cpp.s
+
+s2.o: s2.cpp.o
+
+.PHONY : s2.o
+
+# target to build an object file
+s2.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s2.dir/build.make cpp/CMakeFiles/s2.dir/s2.cpp.o
+.PHONY : s2.cpp.o
+
+s2.i: s2.cpp.i
+
+.PHONY : s2.i
+
+# target to preprocess a source file
+s2.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s2.dir/build.make cpp/CMakeFiles/s2.dir/s2.cpp.i
+.PHONY : s2.cpp.i
+
+s2.s: s2.cpp.s
+
+.PHONY : s2.s
+
+# target to generate assembly for a file
+s2.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/s2.dir/build.make cpp/CMakeFiles/s2.dir/s2.cpp.s
+.PHONY : s2.cpp.s
+
 score_combination.o: score_combination.cpp.o
 
 .PHONY : score_combination.o
@@ -15584,6 +16109,60 @@ search_rotated_sorted_array_with_duplicates.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/search_rotated_sorted_array_with_duplicates.dir/build.make cpp/CMakeFiles/search_rotated_sorted_array_with_duplicates.dir/search_rotated_sorted_array_with_duplicates.cpp.s
 .PHONY : search_rotated_sorted_array_with_duplicates.cpp.s
 
+semaphore.o: semaphore.cpp.o
+
+.PHONY : semaphore.o
+
+# target to build an object file
+semaphore.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore.dir/build.make cpp/CMakeFiles/semaphore.dir/semaphore.cpp.o
+.PHONY : semaphore.cpp.o
+
+semaphore.i: semaphore.cpp.i
+
+.PHONY : semaphore.i
+
+# target to preprocess a source file
+semaphore.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore.dir/build.make cpp/CMakeFiles/semaphore.dir/semaphore.cpp.i
+.PHONY : semaphore.cpp.i
+
+semaphore.s: semaphore.cpp.s
+
+.PHONY : semaphore.s
+
+# target to generate assembly for a file
+semaphore.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore.dir/build.make cpp/CMakeFiles/semaphore.dir/semaphore.cpp.s
+.PHONY : semaphore.cpp.s
+
+semaphore_gaurav.o: semaphore_gaurav.cpp.o
+
+.PHONY : semaphore_gaurav.o
+
+# target to build an object file
+semaphore_gaurav.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore_gaurav.dir/build.make cpp/CMakeFiles/semaphore_gaurav.dir/semaphore_gaurav.cpp.o
+.PHONY : semaphore_gaurav.cpp.o
+
+semaphore_gaurav.i: semaphore_gaurav.cpp.i
+
+.PHONY : semaphore_gaurav.i
+
+# target to preprocess a source file
+semaphore_gaurav.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore_gaurav.dir/build.make cpp/CMakeFiles/semaphore_gaurav.dir/semaphore_gaurav.cpp.i
+.PHONY : semaphore_gaurav.cpp.i
+
+semaphore_gaurav.s: semaphore_gaurav.cpp.s
+
+.PHONY : semaphore_gaurav.s
+
+# target to generate assembly for a file
+semaphore_gaurav.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/semaphore_gaurav.dir/build.make cpp/CMakeFiles/semaphore_gaurav.dir/semaphore_gaurav.cpp.s
+.PHONY : semaphore_gaurav.cpp.s
+
 shortest_path_fewest_edges.o: shortest_path_fewest_edges.cpp.o
 
 .PHONY : shortest_path_fewest_edges.o
@@ -15638,6 +16217,33 @@ shortest_unique_prefix.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/shortest_unique_prefix.dir/build.make cpp/CMakeFiles/shortest_unique_prefix.dir/shortest_unique_prefix.cpp.s
 .PHONY : shortest_unique_prefix.cpp.s
 
+simple_web_server.o: simple_web_server.cpp.o
+
+.PHONY : simple_web_server.o
+
+# target to build an object file
+simple_web_server.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/simple_web_server.dir/build.make cpp/CMakeFiles/simple_web_server.dir/simple_web_server.cpp.o
+.PHONY : simple_web_server.cpp.o
+
+simple_web_server.i: simple_web_server.cpp.i
+
+.PHONY : simple_web_server.i
+
+# target to preprocess a source file
+simple_web_server.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/simple_web_server.dir/build.make cpp/CMakeFiles/simple_web_server.dir/simple_web_server.cpp.i
+.PHONY : simple_web_server.cpp.i
+
+simple_web_server.s: simple_web_server.cpp.s
+
+.PHONY : simple_web_server.s
+
+# target to generate assembly for a file
+simple_web_server.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/simple_web_server.dir/build.make cpp/CMakeFiles/simple_web_server.dir/simple_web_server.cpp.s
+.PHONY : simple_web_server.cpp.s
+
 sliding_window.o: sliding_window.cpp.o
 
 .PHONY : sliding_window.o
@@ -15691,6 +16297,33 @@ smallest_subarray_covering_set.s: smallest_subarray_covering_set.cpp.s
 smallest_subarray_covering_set.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/smallest_subarray_covering_set.dir/build.make cpp/CMakeFiles/smallest_subarray_covering_set.dir/smallest_subarray_covering_set.cpp.s
 .PHONY : smallest_subarray_covering_set.cpp.s
+
+smart_pointers.o: smart_pointers.cpp.o
+
+.PHONY : smart_pointers.o
+
+# target to build an object file
+smart_pointers.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/smart_pointers.dir/build.make cpp/CMakeFiles/smart_pointers.dir/smart_pointers.cpp.o
+.PHONY : smart_pointers.cpp.o
+
+smart_pointers.i: smart_pointers.cpp.i
+
+.PHONY : smart_pointers.i
+
+# target to preprocess a source file
+smart_pointers.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/smart_pointers.dir/build.make cpp/CMakeFiles/smart_pointers.dir/smart_pointers.cpp.i
+.PHONY : smart_pointers.cpp.i
+
+smart_pointers.s: smart_pointers.cpp.s
+
+.PHONY : smart_pointers.s
+
+# target to generate assembly for a file
+smart_pointers.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/smart_pointers.dir/build.make cpp/CMakeFiles/smart_pointers.dir/smart_pointers.cpp.s
+.PHONY : smart_pointers.cpp.s
 
 snake_string.o: snake_string.cpp.o
 
@@ -16502,6 +17135,33 @@ task_assignment.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/task_assignment.dir/build.make cpp/CMakeFiles/task_assignment.dir/task_assignment.cpp.s
 .PHONY : task_assignment.cpp.s
 
+task_execution_web_server.o: task_execution_web_server.cpp.o
+
+.PHONY : task_execution_web_server.o
+
+# target to build an object file
+task_execution_web_server.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/task_execution_web_server.dir/build.make cpp/CMakeFiles/task_execution_web_server.dir/task_execution_web_server.cpp.o
+.PHONY : task_execution_web_server.cpp.o
+
+task_execution_web_server.i: task_execution_web_server.cpp.i
+
+.PHONY : task_execution_web_server.i
+
+# target to preprocess a source file
+task_execution_web_server.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/task_execution_web_server.dir/build.make cpp/CMakeFiles/task_execution_web_server.dir/task_execution_web_server.cpp.i
+.PHONY : task_execution_web_server.cpp.i
+
+task_execution_web_server.s: task_execution_web_server.cpp.s
+
+.PHONY : task_execution_web_server.s
+
+# target to generate assembly for a file
+task_execution_web_server.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/task_execution_web_server.dir/build.make cpp/CMakeFiles/task_execution_web_server.dir/task_execution_web_server.cpp.s
+.PHONY : task_execution_web_server.cpp.s
+
 team_photo_1.o: team_photo_1.cpp.o
 
 .PHONY : team_photo_1.o
@@ -17096,6 +17756,33 @@ theory_of_equality.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/theory_of_equality.dir/build.make cpp/CMakeFiles/theory_of_equality.dir/theory_of_equality.cpp.s
 .PHONY : theory_of_equality.cpp.s
 
+thread_per_task_webserver.o: thread_per_task_webserver.cpp.o
+
+.PHONY : thread_per_task_webserver.o
+
+# target to build an object file
+thread_per_task_webserver.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/thread_per_task_webserver.dir/build.make cpp/CMakeFiles/thread_per_task_webserver.dir/thread_per_task_webserver.cpp.o
+.PHONY : thread_per_task_webserver.cpp.o
+
+thread_per_task_webserver.i: thread_per_task_webserver.cpp.i
+
+.PHONY : thread_per_task_webserver.i
+
+# target to preprocess a source file
+thread_per_task_webserver.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/thread_per_task_webserver.dir/build.make cpp/CMakeFiles/thread_per_task_webserver.dir/thread_per_task_webserver.cpp.i
+.PHONY : thread_per_task_webserver.cpp.i
+
+thread_per_task_webserver.s: thread_per_task_webserver.cpp.s
+
+.PHONY : thread_per_task_webserver.s
+
+# target to generate assembly for a file
+thread_per_task_webserver.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/thread_per_task_webserver.dir/build.make cpp/CMakeFiles/thread_per_task_webserver.dir/thread_per_task_webserver.cpp.s
+.PHONY : thread_per_task_webserver.cpp.s
+
 three_jugs.o: three_jugs.cpp.o
 
 .PHONY : three_jugs.o
@@ -17392,6 +18079,33 @@ triangle.s: triangle.cpp.s
 triangle.cpp.s:
 	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/triangle.dir/build.make cpp/CMakeFiles/triangle.dir/triangle.cpp.s
 .PHONY : triangle.cpp.s
+
+two_thread_increment.o: two_thread_increment.cpp.o
+
+.PHONY : two_thread_increment.o
+
+# target to build an object file
+two_thread_increment.cpp.o:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/two_thread_increment.dir/build.make cpp/CMakeFiles/two_thread_increment.dir/two_thread_increment.cpp.o
+.PHONY : two_thread_increment.cpp.o
+
+two_thread_increment.i: two_thread_increment.cpp.i
+
+.PHONY : two_thread_increment.i
+
+# target to preprocess a source file
+two_thread_increment.cpp.i:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/two_thread_increment.dir/build.make cpp/CMakeFiles/two_thread_increment.dir/two_thread_increment.cpp.i
+.PHONY : two_thread_increment.cpp.i
+
+two_thread_increment.s: two_thread_increment.cpp.s
+
+.PHONY : two_thread_increment.s
+
+# target to generate assembly for a file
+two_thread_increment.cpp.s:
+	cd /Users/skull/Programming/Interview/epicode-master/cmake-build-debug && $(MAKE) -f cpp/CMakeFiles/two_thread_increment.dir/build.make cpp/CMakeFiles/two_thread_increment.dir/two_thread_increment.cpp.s
+.PHONY : two_thread_increment.cpp.s
 
 uniform_random_number_generation.o: uniform_random_number_generation.cpp.o
 
@@ -17899,35 +18613,34 @@ help:
 	@echo "... c++11_random"
 	@echo "... anonymous_letter_test"
 	@echo "... anagramstest"
+	@echo "... thread_per_task_webserver"
+	@echo "... zipping_list"
 	@echo "... zigzag_conversion"
-	@echo "... word_breaking_alternative"
 	@echo "... word_breaking"
+	@echo "... word_breaking_alternative"
 	@echo "... word_breaking_2"
 	@echo "... wiring_circuit_board"
 	@echo "... view_sunset"
-	@echo "... search_majority"
-	@echo "... valid_ip_address_recursive"
+	@echo "... view_from_above"
+	@echo "... valid_parentheses"
+	@echo "... valid_palindrome"
+	@echo "... valid_number"
 	@echo "... update_bst"
-	@echo "... longest_valid_parentheses"
-	@echo "... sorted_list_to_bst"
-	@echo "... union_intervals"
+	@echo "... unique_binary_trees_all"
+	@echo "... uniform_random_number_generation"
 	@echo "... triangle"
 	@echo "... tree_traversal"
-	@echo "... anagrams"
-	@echo "... stack_with_max"
-	@echo "... unique_binary_trees"
+	@echo "... tree_diameter"
 	@echo "... transitive_closure"
 	@echo "... bonus"
 	@echo "... tournament_tree"
-	@echo "... view_from_above"
 	@echo "... ties_election"
 	@echo "... team_reachability"
 	@echo "... team_photo_1"
 	@echo "... celebrity_finding"
 	@echo "... sudoku_solve"
+	@echo "... s1"
 	@echo "... substring_with_concatenation_of_all_words"
-	@echo "... remove_duplicates_from_sorted_array"
-	@echo "... subseq_cover"
 	@echo "... longest_increasing_subarray"
 	@echo "... student_sort"
 	@echo "... longest_contained_range"
@@ -17938,35 +18651,46 @@ help:
 	@echo "... square_root"
 	@echo "... square_root_int"
 	@echo "... sort_list"
+	@echo "... remove_duplicates_from_sorted_array"
+	@echo "... subseq_cover"
+	@echo "... smart_pointers"
 	@echo "... rendering_calendar"
 	@echo "... sliding_window"
 	@echo "... shortest_path_fewest_edges"
+	@echo "... pascal_triangle_2"
+	@echo "... semaphore_gaurav"
+	@echo "... search_rotated_sorted_array"
+	@echo "... two_thread_increment"
 	@echo "... search_min_first_bst"
 	@echo "... max_concatenation_numbers"
 	@echo "... prime_sieve_basic"
 	@echo "... search_maze"
+	@echo "... search_insert_position_sorted_array"
 	@echo "... nonuniform_random_number_generation"
 	@echo "... search_bst_for_first_occurrence_recursive"
 	@echo "... search_bst_for_first_occurrence_iterative"
 	@echo "... search_bst_first_larger_k"
-	@echo "... search_rotated_sorted_array"
-	@echo "... search_insert_position_sorted_array"
+	@echo "... union_intervals"
+	@echo "... longest_valid_parentheses"
+	@echo "... sorted_list_to_bst"
 	@echo "... search_a_range_sorted_array"
 	@echo "... reverse_integer"
 	@echo "... scramble_string"
 	@echo "... score_combination"
+	@echo "... coin_change"
+	@echo "... rw"
 	@echo "... number_ways_test"
 	@echo "... permutations_unique"
 	@echo "... run_length_compression"
 	@echo "... rook_attack"
 	@echo "... road_network"
+	@echo "... reverse_list_in_k_group"
 	@echo "... 3_sum_closest"
 	@echo "... search_frequent_items"
 	@echo "... reverse_linked_list_recursive"
 	@echo "... binary_tree_lock"
 	@echo "... partition_2_same_average"
 	@echo "... reverse_bits"
-	@echo "... reverse_list_in_k_group"
 	@echo "... replace_and_remove"
 	@echo "... normalized_pathnames"
 	@echo "... remove_kth_last_list"
@@ -17979,6 +18703,8 @@ help:
 	@echo "... reconstruct_binary_tree_pre_in_orders"
 	@echo "... container_with_most_water_test"
 	@echo "... top_k"
+	@echo "... n_queens"
+	@echo "... semaphore"
 	@echo "... add_two_number_list"
 	@echo "... load_balancing"
 	@echo "... path_sum_binary_tree"
@@ -17988,58 +18714,59 @@ help:
 	@echo "... rays_covering_arcs"
 	@echo "... range_lookup_bst"
 	@echo "... rabin_karp"
-	@echo "... spreadsheet_encoding"
-	@echo "... queue_with_max_intro"
-	@echo "... queue_with_max_alternative"
 	@echo "... surrounded_regions"
 	@echo "... rebuild_bst_postorder"
 	@echo "... queue_with_max"
+	@echo "... spreadsheet_encoding"
+	@echo "... queue_with_max_intro"
+	@echo "... queue_with_max_alternative"
 	@echo "... is_palindromic"
 	@echo "... queue_from_stacks"
-	@echo "... tree_diameter"
 	@echo "... print_linked_list_reverse_order"
 	@echo "... prime_sieve"
 	@echo "... pretty_printing"
 	@echo "... populating_next_right_pointers"
 	@echo "... populating_next_right_pointers_any_binary_tree"
+	@echo "... polymorphism_problems"
 	@echo "... task_assignment"
 	@echo "... points_covering_intervals_sorting"
 	@echo "... points_covering_intervals_alternative"
 	@echo "... bst_to_sorted_doubly_list"
 	@echo "... plus_one"
 	@echo "... planning_fishing"
-	@echo "... picking_up_coins_dont_lose"
 	@echo "... online_sampling"
 	@echo "... picking_up_coins"
+	@echo "... picking_up_coins_dont_lose"
 	@echo "... permutations"
 	@echo "... permutations_alternative"
 	@echo "... permutation_array"
 	@echo "... sum_root_to_leaf_binary_tree"
 	@echo "... closest_stars"
 	@echo "... reverse_linked_list_from_s_to_f"
+	@echo "... biggest_product_n_1"
+	@echo "... pass_by_value_bug"
 	@echo "... longest_subarray_with_distinct_entries"
 	@echo "... parity1"
-	@echo "... palindrome_linked_list"
-	@echo "... longest_subarray_k_improved"
-	@echo "... valid_ip_address"
 	@echo "... morris_traversal"
 	@echo "... palindrome_number"
+	@echo "... palindrome_linked_list"
 	@echo "... theory_of_equality"
 	@echo "... painting_iterative"
-	@echo "... overlapping_lists_no_cycle"
 	@echo "... overlapping_lists"
+	@echo "... overlapping_lists_no_cycle"
 	@echo "... intersect_sorted_arrays3_test"
 	@echo "... balanced_binary_tree_test"
 	@echo "... online_median"
 	@echo "... find_kth_element_in_two_sorted_arrays"
 	@echo "... recover_binary_search_tree_constant_space"
 	@echo "... offline_minimum"
-	@echo "... number_ways_obstacles"
-	@echo "... pascal_triangle_2"
 	@echo "... number_ways"
-	@echo "... uniform_random_number_generation"
+	@echo "... number_ways_obstacles"
 	@echo "... nonconstructible_change"
 	@echo "... symmetric_binary_tree"
+	@echo "... unique_binary_trees"
+	@echo "... anagrams"
+	@echo "... stack_with_max"
 	@echo "... search_bst"
 	@echo "... first_missing_positive"
 	@echo "... k_th_largest_element_large_n"
@@ -18047,7 +18774,7 @@ help:
 	@echo "... transform_string_to_other"
 	@echo "... rebuild_bst_postorder_better"
 	@echo "... nearest_repetition"
-	@echo "... n_queens"
+	@echo "... multiply_shift_add"
 	@echo "... missing_element"
 	@echo "... order_statistic"
 	@echo "... multibet_card_color_game"
@@ -18066,6 +18793,9 @@ help:
 	@echo "... height_determination"
 	@echo "... deletion_list"
 	@echo "... string_in_matrix"
+	@echo "... valid_ip_address_recursive"
+	@echo "... search_majority"
+	@echo "... multiply_shift_add2"
 	@echo "... maximum_container"
 	@echo "... max_submatrix_rectangle"
 	@echo "... offline_sampling"
@@ -18077,7 +18807,6 @@ help:
 	@echo "... binary_tree_postorder_traversal_iterative"
 	@echo "... map_update5"
 	@echo "... map_update1"
-	@echo "... unique_binary_trees_all"
 	@echo "... n_queens_count"
 	@echo "... rpn"
 	@echo "... minimum_waiting_time"
@@ -18088,15 +18817,17 @@ help:
 	@echo "... lowest_common_ancestor_hash"
 	@echo "... balanced_binary_tree"
 	@echo "... look_and_say"
-	@echo "... max_submatrix_square"
-	@echo "... default_constructor"
-	@echo "... build_bst_from_sorted_array"
-	@echo "... longest_valid_parentheses_const_space"
 	@echo "... tail"
 	@echo "... shortest_unique_prefix"
 	@echo "... bst_lowest_common_ancestor"
 	@echo "... bst_sorted_order"
+	@echo "... max_submatrix_square"
+	@echo "... default_constructor"
+	@echo "... build_bst_from_sorted_array"
+	@echo "... longest_valid_parentheses_const_space"
 	@echo "... longest_substring_without_repeating_characters"
+	@echo "... binary_tree_to_doubly_linked_list"
+	@echo "... simple_web_server"
 	@echo "... interleaving_string"
 	@echo "... spiral_matrix"
 	@echo "... rebuild_bst_preorder_better"
@@ -18106,8 +18837,10 @@ help:
 	@echo "... rebuild_bst_preorder"
 	@echo "... drawing_skylines"
 	@echo "... map_update3"
+	@echo "... min_max_template_move"
 	@echo "... count_inversions"
 	@echo "... lock_ordering_bug"
+	@echo "... min_max_template"
 	@echo "... insertion_deletion_bst"
 	@echo "... line_most_points"
 	@echo "... levenshtein_distance"
@@ -18116,12 +18849,13 @@ help:
 	@echo "... smallest_subarray_covering_set"
 	@echo "... largest_rectangle_under_skyline"
 	@echo "... k_th_node_binary_tree"
+	@echo "... power_x_y"
+	@echo "... arbitrage"
+	@echo "... max_submatrix_rectangle_improved"
 	@echo "... number_steps"
-	@echo "... zipping_list"
-	@echo "... multiplyshiftadd"
 	@echo "... k_th_element_streaming"
 	@echo "... sort_k_increasing_decreasing_array"
-	@echo "... biggest_product_n_1"
+	@echo "... polymorphism_problems_fixed"
 	@echo "... overlapping_days"
 	@echo "... intersect_sorted_arrays"
 	@echo "... intersect_rectangle"
@@ -18148,15 +18882,20 @@ help:
 	@echo "... gray_code"
 	@echo "... generate_parentheses"
 	@echo "... exterior_binary_tree"
+	@echo "... valid_ip_address"
+	@echo "... longest_subarray_k_improved"
+	@echo "... addingcredits"
+	@echo "... max_difference_unlimited_pairs"
+	@echo "... s2"
 	@echo "... generate_spiral_matrix"
-	@echo "... binary_search_circular_array"
-	@echo "... gcd1"
 	@echo "... async_thread"
 	@echo "... inline_example"
 	@echo "... map_update2"
 	@echo "... reverse_words"
 	@echo "... lru_cache"
 	@echo "... gcd"
+	@echo "... binary_search_circular_array"
+	@echo "... gcd1"
 	@echo "... remove_element"
 	@echo "... checking_cycle"
 	@echo "... copying_postings_list"
@@ -18166,7 +18905,6 @@ help:
 	@echo "... path_sum_binary_tree_all"
 	@echo "... search_postings_list_iterative"
 	@echo "... find_longest_arithmetic_progression"
-	@echo "... valid_number"
 	@echo "... delete_list"
 	@echo "... find_k_largest_bst"
 	@echo "... reconstruct_binary_tree_post_in_orders"
@@ -18179,15 +18917,6 @@ help:
 	@echo "... jump_game_min_steps"
 	@echo "... elias_coding"
 	@echo "... dutch_national_flag_slow_inplace"
-	@echo "... tail_coin"
-	@echo "... addingcredits"
-	@echo "... max_difference_unlimited_pairs"
-	@echo "... swap_bits"
-	@echo "... list_pivoting"
-	@echo "... dutch_national_flag"
-	@echo "... conversion_sorted_array"
-	@echo "... justify_text"
-	@echo "... drawing_skylines_alternative"
 	@echo "... stack_sorting"
 	@echo "... tower_hanoi"
 	@echo "... gray_code_backtrack"
@@ -18196,22 +18925,25 @@ help:
 	@echo "... add_binary"
 	@echo "... search_rotated_sorted_array_with_duplicates"
 	@echo "... gaussian_primes"
+	@echo "... conversion_sorted_array"
+	@echo "... justify_text"
+	@echo "... drawing_skylines_alternative"
 	@echo "... nearest_restaurant"
 	@echo "... closest_pair_points"
 	@echo "... doors"
+	@echo "... completion_search_space_efficient"
+	@echo "... job_assignment"
+	@echo "... generating_a_b_sqrt2_2"
+	@echo "... division"
 	@echo "... score_combination_alternative"
 	@echo "... minimum_distance_3_sorted_arrays"
 	@echo "... image_compression"
-	@echo "... dutch_national_flag_two_passes"
 	@echo "... edit_cache"
 	@echo "... 3_sum"
+	@echo "... dutch_national_flag_two_passes"
 	@echo "... spiral_matrix_clockwise"
 	@echo "... connect_leaves_binary_tree"
 	@echo "... division_no_operator"
-	@echo "... job_assignment"
-	@echo "... generating_a_b_sqrt2_2"
-	@echo "... completion_search_space_efficient"
-	@echo "... division"
 	@echo "... distinct_sorted_list"
 	@echo "... huffman_encoding"
 	@echo "... points_covering_intervals"
@@ -18222,7 +18954,6 @@ help:
 	@echo "... count_occurrences_in_sentence"
 	@echo "... convert_base"
 	@echo "... container_with_most_water"
-	@echo "... valid_palindrome"
 	@echo "... computing_binomial_coefficients"
 	@echo "... painting_recursive"
 	@echo "... 2_for_all"
@@ -18232,10 +18963,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... stack_with_max_improved"
 	@echo "... closest_palindrome"
+	@echo "... merge_two_sorted_arrays_in_place"
 	@echo "... student_search"
 	@echo "... buy_and_sell_stock_twice"
-	@echo "... merge_two_sorted_arrays_in_place"
-	@echo "... coin_change"
 	@echo "... count_bits"
 	@echo "... partition_array"
 	@echo "... divisionfloat"
@@ -18245,9 +18975,9 @@ help:
 	@echo "... inorder_traversal_with_parent"
 	@echo "... jump_game"
 	@echo "... collatz"
+	@echo "... length_of_last_word"
 	@echo "... find_element_appears_once"
 	@echo "... binary_search_unknown_length"
-	@echo "... length_of_last_word"
 	@echo "... score_permutation"
 	@echo "... generating_a_b_sqrt2_improved"
 	@echo "... max_sum_subarray"
@@ -18260,29 +18990,25 @@ help:
 	@echo "... string_matching_wildcard"
 	@echo "... is_binary_tree_a_bst_const_space"
 	@echo "... checking_cycle_alternative"
-	@echo "... valid_parentheses"
 	@echo "... can_string_be_palindrome"
 	@echo "... bad_macro"
 	@echo "... parity"
 	@echo "... fibonacci"
 	@echo "... buy_and_sell_stock"
+	@echo "... task_execution_web_server"
 	@echo "... combinations_unique"
 	@echo "... prefix_search"
 	@echo "... binary_tree_postorder_traversal_iterative_alternative"
 	@echo "... descendant_and_ancestor"
 	@echo "... 0_1_knapsack"
-	@echo "... binary_tree_to_doubly_linked_list"
-	@echo "... binary_search_first_k"
-	@echo "... eliminate_duplicate"
-	@echo "... binary_search_circular_array_with_duplicates"
 	@echo "... close_search"
 	@echo "... equiv_classes"
 	@echo "... binary_tree_preorder_traversal_iterative"
 	@echo "... longest_nondecreasing_subsequence"
 	@echo "... longest_subarray_k"
-	@echo "... power_x_y"
-	@echo "... max_submatrix_rectangle_improved"
-	@echo "... arbitrage"
+	@echo "... binary_search_first_k"
+	@echo "... eliminate_duplicate"
+	@echo "... binary_search_circular_array_with_duplicates"
 	@echo "... biggest_product_n_1_math"
 	@echo "... search_list"
 	@echo "... bentleybsearch"
@@ -18292,24 +19018,29 @@ help:
 	@echo "... bad_rtti2"
 	@echo "... search_postings_list_recursive"
 	@echo "... average_top_3_scores"
+	@echo "... odd_even"
 	@echo "... lazy_init"
+	@echo "... tail_coin"
+	@echo "... swap_bits"
+	@echo "... list_pivoting"
+	@echo "... dutch_national_flag"
 	@echo "... bonus_improved"
-	@echo "... bignumber_multiplication"
+	@echo "... big_number_multiplication"
 	@echo "... lowest_common_ancestor"
 	@echo "... 4_sum"
 	@echo "... anonymous_letter"
 	@echo "... insertion_sort_list"
 	@echo "... bad_rtti"
 	@echo "... collatz_conjecture"
+	@echo "... binary_search_larger_k"
 	@echo "... k_balanced_binary_tree"
 	@echo "... 2_sum"
-	@echo "... binary_search_larger_k"
-	@echo "... matrix_rotation"
-	@echo "... cyclic_right_shift"
-	@echo "... palindrome_partitioning_min_cuts"
-	@echo "... 0_sum_subset"
 	@echo "... computing_x_n"
 	@echo "... binary_tree_zigzag_level_order_traversal"
+	@echo "... matrix_rotation"
+	@echo "... cyclic_right_shift"
+	@echo "... 0_sum_subset"
+	@echo "... palindrome_partitioning_min_cuts"
 	@echo "... 0_1_knapsack.o"
 	@echo "... 0_1_knapsack.i"
 	@echo "... 0_1_knapsack.s"
@@ -18955,6 +19686,12 @@ help:
 	@echo "... merge_two_sorted_arrays_in_place.o"
 	@echo "... merge_two_sorted_arrays_in_place.i"
 	@echo "... merge_two_sorted_arrays_in_place.s"
+	@echo "... min_max_template.o"
+	@echo "... min_max_template.i"
+	@echo "... min_max_template.s"
+	@echo "... min_max_template_move.o"
+	@echo "... min_max_template_move.i"
+	@echo "... min_max_template_move.s"
 	@echo "... minimum_distance_3_sorted_arrays.o"
 	@echo "... minimum_distance_3_sorted_arrays.i"
 	@echo "... minimum_distance_3_sorted_arrays.s"
@@ -18973,9 +19710,12 @@ help:
 	@echo "... multibet_card_color_game.o"
 	@echo "... multibet_card_color_game.i"
 	@echo "... multibet_card_color_game.s"
-	@echo "... multiplyshiftadd.o"
-	@echo "... multiplyshiftadd.i"
-	@echo "... multiplyshiftadd.s"
+	@echo "... multiply_shift_add.o"
+	@echo "... multiply_shift_add.i"
+	@echo "... multiply_shift_add.s"
+	@echo "... multiply_shift_add2.o"
+	@echo "... multiply_shift_add2.i"
+	@echo "... multiply_shift_add2.s"
 	@echo "... n_queens.o"
 	@echo "... n_queens.i"
 	@echo "... n_queens.s"
@@ -19012,6 +19752,9 @@ help:
 	@echo "... number_ways_obstacles.o"
 	@echo "... number_ways_obstacles.i"
 	@echo "... number_ways_obstacles.s"
+	@echo "... odd_even.o"
+	@echo "... odd_even.i"
+	@echo "... odd_even.s"
 	@echo "... offline_minimum.o"
 	@echo "... offline_minimum.i"
 	@echo "... offline_minimum.s"
@@ -19072,6 +19815,9 @@ help:
 	@echo "... pascal_triangle_2.o"
 	@echo "... pascal_triangle_2.i"
 	@echo "... pascal_triangle_2.s"
+	@echo "... pass_by_value_bug.o"
+	@echo "... pass_by_value_bug.i"
+	@echo "... pass_by_value_bug.s"
 	@echo "... path_sum_binary_tree.o"
 	@echo "... path_sum_binary_tree.i"
 	@echo "... path_sum_binary_tree.s"
@@ -19114,6 +19860,12 @@ help:
 	@echo "... points_covering_intervals_sorting.o"
 	@echo "... points_covering_intervals_sorting.i"
 	@echo "... points_covering_intervals_sorting.s"
+	@echo "... polymorphism_problems.o"
+	@echo "... polymorphism_problems.i"
+	@echo "... polymorphism_problems.s"
+	@echo "... polymorphism_problems_fixed.o"
+	@echo "... polymorphism_problems_fixed.i"
+	@echo "... polymorphism_problems_fixed.s"
 	@echo "... populating_next_right_pointers.o"
 	@echo "... populating_next_right_pointers.i"
 	@echo "... populating_next_right_pointers.s"
@@ -19264,6 +20016,15 @@ help:
 	@echo "... run_length_compression.o"
 	@echo "... run_length_compression.i"
 	@echo "... run_length_compression.s"
+	@echo "... rw.o"
+	@echo "... rw.i"
+	@echo "... rw.s"
+	@echo "... s1.o"
+	@echo "... s1.i"
+	@echo "... s1.s"
+	@echo "... s2.o"
+	@echo "... s2.i"
+	@echo "... s2.s"
 	@echo "... score_combination.o"
 	@echo "... score_combination.i"
 	@echo "... score_combination.s"
@@ -19324,18 +20085,30 @@ help:
 	@echo "... search_rotated_sorted_array_with_duplicates.o"
 	@echo "... search_rotated_sorted_array_with_duplicates.i"
 	@echo "... search_rotated_sorted_array_with_duplicates.s"
+	@echo "... semaphore.o"
+	@echo "... semaphore.i"
+	@echo "... semaphore.s"
+	@echo "... semaphore_gaurav.o"
+	@echo "... semaphore_gaurav.i"
+	@echo "... semaphore_gaurav.s"
 	@echo "... shortest_path_fewest_edges.o"
 	@echo "... shortest_path_fewest_edges.i"
 	@echo "... shortest_path_fewest_edges.s"
 	@echo "... shortest_unique_prefix.o"
 	@echo "... shortest_unique_prefix.i"
 	@echo "... shortest_unique_prefix.s"
+	@echo "... simple_web_server.o"
+	@echo "... simple_web_server.i"
+	@echo "... simple_web_server.s"
 	@echo "... sliding_window.o"
 	@echo "... sliding_window.i"
 	@echo "... sliding_window.s"
 	@echo "... smallest_subarray_covering_set.o"
 	@echo "... smallest_subarray_covering_set.i"
 	@echo "... smallest_subarray_covering_set.s"
+	@echo "... smart_pointers.o"
+	@echo "... smart_pointers.i"
+	@echo "... smart_pointers.s"
 	@echo "... snake_string.o"
 	@echo "... snake_string.i"
 	@echo "... snake_string.s"
@@ -19426,6 +20199,9 @@ help:
 	@echo "... task_assignment.o"
 	@echo "... task_assignment.i"
 	@echo "... task_assignment.s"
+	@echo "... task_execution_web_server.o"
+	@echo "... task_execution_web_server.i"
+	@echo "... task_execution_web_server.s"
 	@echo "... team_photo_1.o"
 	@echo "... team_photo_1.i"
 	@echo "... team_photo_1.s"
@@ -19492,6 +20268,9 @@ help:
 	@echo "... theory_of_equality.o"
 	@echo "... theory_of_equality.i"
 	@echo "... theory_of_equality.s"
+	@echo "... thread_per_task_webserver.o"
+	@echo "... thread_per_task_webserver.i"
+	@echo "... thread_per_task_webserver.s"
 	@echo "... three_jugs.o"
 	@echo "... three_jugs.i"
 	@echo "... three_jugs.s"
@@ -19525,6 +20304,9 @@ help:
 	@echo "... triangle.o"
 	@echo "... triangle.i"
 	@echo "... triangle.s"
+	@echo "... two_thread_increment.o"
+	@echo "... two_thread_increment.i"
+	@echo "... two_thread_increment.s"
 	@echo "... uniform_random_number_generation.o"
 	@echo "... uniform_random_number_generation.i"
 	@echo "... uniform_random_number_generation.s"

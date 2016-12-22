@@ -6,7 +6,7 @@
 #include <limits>
 #include <memory>
 
-#include "Binary_tree_prototype.h"
+#include "binary_tree_prototype.h"
 
 using std::cout;
 using std::endl;

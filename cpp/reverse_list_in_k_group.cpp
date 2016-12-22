@@ -6,8 +6,8 @@
 #include <stdexcept>
 #include <string>
 
-#include "Linked_list_prototype.h"
-#include "Reverse_linked_list_iterative.h"
+#include "linked_list_prototype.h"
+#include "reverse_linked_list_iterative.h"
 
 using std::cout;
 using std::endl;

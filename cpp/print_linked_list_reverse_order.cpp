@@ -5,7 +5,7 @@
 #include <memory>
 #include <stack>
 
-#include "Linked_list_prototype.h"
+#include "linked_list_prototype.h"
 
 using std::cout;
 using std::endl;

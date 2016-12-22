@@ -23,7 +23,7 @@ using std::stoi;
 using std::uniform_int_distribution;
 using std::vector;
 
-void CheckAns(const vector<int>& productivity, const vector<int>& C)
+void check_ans(const vector<int>& productivity, const vector<int>& C)
 {
     for (size_t i = 0; i < productivity.size(); ++i) {
         if (i > 0) {
@@ -40,7 +40,7 @@ void CheckAns(const vector<int>& productivity, const vector<int>& C)
 }
 
 // @include
-vector<int> CalculateBonus(const vector<int>& productivity)
+vector<int> calculate_bonus(const vector<int>& productivity)
 {
     struct EmployeeData {
         int productivity, index;
@@ -87,19 +87,20 @@ void small_test()
 {
     vector<int> A = {1, 2, 2};
     vector<int> golden_A = {1, 2, 1};
-    assert(equal_vector(CalculateBonus(A), golden_A));
+    assert(equal_vector(calculate_bonus(A), golden_A));
     A = {1, 2, 3, 2, 1};
     golden_A = {1, 2, 3, 2, 1};
-    assert(equal_vector(CalculateBonus(A), golden_A));
+    assert(equal_vector(calculate_bonus(A), golden_A));
     A = {300, 400, 500, 200};
     golden_A = {1, 2, 3, 1};
-    assert(equal_vector(CalculateBonus(A), golden_A));
+    assert(equal_vector(calculate_bonus(A), golden_A));
 }
 
 int main(int argc, char* argv[])
 {
     small_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int n;
         if (argc == 2) {
@@ -113,8 +114,8 @@ int main(int argc, char* argv[])
         for (int i = 0; i < n; ++i) {
             ratings.emplace_back(dis(gen));
         }
-        auto T = CalculateBonus(ratings);
-        CheckAns(ratings, T);
+        auto T = calculate_bonus(ratings);
+        check_ans(ratings, T);
     }
     return 0;
 }
