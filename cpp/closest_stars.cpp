@@ -32,15 +32,15 @@ using std::vector;
 struct Star {
     bool operator<(const Star& that) const
     {
-        return Distance() < that.Distance();
+        return distance() < that.distance();
     }
 
-    double Distance() const { return sqrt(x * x + y * y + z * z); }
+    double distance() const { return sqrt(x * x + y * y + z * z); }
 
     double x, y, z;
 };
 
-vector<Star> FindClosestKStars(int k, istringstream* stars)
+vector<Star> find_closest_k_stars(int k, istringstream* stars)
 {
     // max_heap to store the closest k stars seen so far.
     priority_queue<Star, vector<Star>> max_heap;
@@ -70,7 +70,7 @@ vector<Star> FindClosestKStars(int k, istringstream* stars)
         closest_stars.emplace_back(max_heap.top());
         max_heap.pop();
     }
-    return {closest_stars.rbegin(), closest_stars.rend()};
+    return vector<Star>(closest_stars.rbegin(), closest_stars.rend());
 }
 // @exclude
 
@@ -95,12 +95,12 @@ void simple_test()
     stars.emplace_back((Star{1, 2, 1}));
     stars.emplace_back((Star{2, 2, 1}));
     istringstream sin(CreateStreamingString(stars));
-    vector<Star> closest_stars = FindClosestKStars(3, &sin);
+    vector<Star> closest_stars = find_closest_k_stars(3, &sin);
     assert(3 == closest_stars.size());
-    assert(closest_stars[0].Distance() == (Star{0, 2, 1}.Distance()));
-    assert(closest_stars[0].Distance() == (Star{2, 0, 1}.Distance()));
-    assert(closest_stars[1].Distance() == (Star{1, 2, 1}.Distance()));
-    assert(closest_stars[1].Distance() == (Star{1, 1, 2}.Distance()));
+    assert(closest_stars[0].distance() == (Star{0, 2, 1}.distance()));
+    assert(closest_stars[0].distance() == (Star{2, 0, 1}.distance()));
+    assert(closest_stars[1].distance() == (Star{1, 2, 1}.distance()));
+    assert(closest_stars[1].distance() == (Star{1, 1, 2}.distance()));
 
     stars.clear();
     stars.emplace_back((Star{1, 2, 3}));
@@ -112,16 +112,17 @@ void simple_test()
     stars.emplace_back((Star{3, 2, 3}));
     stars.emplace_back((Star{3, 2, 1}));
     istringstream sin2(CreateStreamingString(stars));
-    closest_stars = FindClosestKStars(2, &sin2);
+    closest_stars = find_closest_k_stars(2, &sin2);
     assert(2 == closest_stars.size());
-    assert(closest_stars[0].Distance() == (Star{1, 2, 3}.Distance()));
-    assert(closest_stars[1].Distance() == (Star{3, 2, 1}.Distance()));
+    assert(closest_stars[0].distance() == (Star{1, 2, 3}.distance()));
+    assert(closest_stars[1].distance() == (Star{3, 2, 1}.distance()));
 }
 
 int main(int argc, char* argv[])
 {
     simple_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int num, k;
         if (argc == 2) {
@@ -144,17 +145,15 @@ int main(int argc, char* argv[])
             stars.emplace_back(Star{dis(gen), dis(gen), dis(gen)});
         }
         istringstream sin(CreateStreamingString(stars));
-        vector<Star> closest_stars(FindClosestKStars(k, &sin));
+        vector<Star> closest_stars(find_closest_k_stars(k, &sin));
         sort(closest_stars.begin(), closest_stars.end());
         sort(stars.begin(), stars.end());
         cout << "k = " << k << "\n";
         cout << stars[k - 1].x << " " << stars[k - 1].y << " " << stars[k - 1].z
-             << " " << stars[k - 1].Distance() << "\n";
+             << " " << stars[k - 1].distance() << "\n";
         cout << closest_stars.back().x << " " << closest_stars.back().y << " "
-             << closest_stars.back().z << " " << closest_stars.back().Distance()
-             << "\n";
-        assert(fabs(stars[k - 1].Distance() - closest_stars.back().Distance()) <
-               1.0e-2);
+             << closest_stars.back().z << " " << closest_stars.back().distance() << "\n";
+        assert(fabs(stars[k - 1].distance() - closest_stars.back().distance()) < 1.0e-2);
     }
     return 0;
 }

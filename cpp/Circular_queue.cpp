@@ -17,7 +17,7 @@ class Queue {
 public:
     explicit Queue(size_t capacity) : entries_(capacity) {}
 
-    void Enqueue(int x)
+    void enqueue(int x)
     {
         if (num_queue_elements == entries_.size()) {  // Needs to resize.
             // Makes the queue elements appear consecutively.
@@ -30,7 +30,7 @@ public:
         tail_ = (tail_ + 1) % entries_.size(), ++num_queue_elements;
     }
 
-    int Dequeue()
+    int dequeue()
     {
         if (!num_queue_elements) {
             throw length_error("empty queue");
@@ -50,73 +50,73 @@ private:
 };
 // @exclude
 
-void Test()
+void test()
 {
     Queue q(8);
-    q.Enqueue(1);
-    q.Enqueue(2);
-    q.Enqueue(3);
-    q.Enqueue(4);
-    q.Enqueue(5);
-    q.Enqueue(6);
-    q.Enqueue(7);
-    q.Enqueue(8);
+    q.enqueue(1);
+    q.enqueue(2);
+    q.enqueue(3);
+    q.enqueue(4);
+    q.enqueue(5);
+    q.enqueue(6);
+    q.enqueue(7);
+    q.enqueue(8);
     // Now head = 0 and tail = 0
 
-    assert(1 == q.Dequeue());
-    assert(2 == q.Dequeue());
-    assert(3 == q.Dequeue());
+    assert(1 == q.dequeue());
+    assert(2 == q.dequeue());
+    assert(3 == q.dequeue());
     // Now head = 3 and tail = 0
 
-    q.Enqueue(11);
-    q.Enqueue(12);
-    q.Enqueue(13);
+    q.enqueue(11);
+    q.enqueue(12);
+    q.enqueue(13);
     // Ok till here. Now head = 3 and tail = 3
 
-    q.Enqueue(14);  // now the vector (data) is resized; but the head and tail.
+    q.enqueue(14);  // now the vector (data) is resized; but the head and tail.
     // (or elements) does not change accordingly.
-    q.Enqueue(15);
-    q.Enqueue(16);
-    q.Enqueue(17);
-    q.Enqueue(18);
+    q.enqueue(15);
+    q.enqueue(16);
+    q.enqueue(17);
+    q.enqueue(18);
     // The elements starting from head=3 are over-written!
 
-    assert(4 == q.Dequeue());
-    assert(5 == q.Dequeue());
-    assert(6 == q.Dequeue());
-    assert(7 == q.Dequeue());
-    assert(8 == q.Dequeue());
-    assert(11 == q.Dequeue());
-    assert(12 == q.Dequeue());
+    assert(4 == q.dequeue());
+    assert(5 == q.dequeue());
+    assert(6 == q.dequeue());
+    assert(7 == q.dequeue());
+    assert(8 == q.dequeue());
+    assert(11 == q.dequeue());
+    assert(12 == q.dequeue());
 }
 
 int main(int argc, char* argv[])
 {
-    Test();
+    test();
     Queue q(8);
-    q.Enqueue(1);
-    q.Enqueue(2);
-    q.Enqueue(3);
-    assert(1 == q.Dequeue());
-    q.Enqueue(4);
-    assert(2 == q.Dequeue());
-    assert(3 == q.Dequeue());
-    assert(4 == q.Dequeue());
+    q.enqueue(1);
+    q.enqueue(2);
+    q.enqueue(3);
+    assert(1 == q.dequeue());
+    q.enqueue(4);
+    assert(2 == q.dequeue());
+    assert(3 == q.dequeue());
+    assert(4 == q.dequeue());
     try {
-        q.Dequeue();
+        q.dequeue();
     } catch (const exception& e) {
         cout << e.what() << "\n";
     }
     // test resize().
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
-    q.Enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
+    q.enqueue(4);
     assert(q.size() == 9);
     return 0;
 }

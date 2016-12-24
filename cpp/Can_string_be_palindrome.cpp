@@ -16,10 +16,11 @@ using std::random_device;
 using std::string;
 using std::uniform_int_distribution;
 
-string RandString(int len)
+string rand_string(int len)
 {
     string ret;
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     while (len--) {
         uniform_int_distribution<int> dis('a', 'z');
         ret += dis(gen);
@@ -29,18 +30,19 @@ string RandString(int len)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         string s;
         if (argc == 2) {
             s = argv[1];
         } else {
             uniform_int_distribution<int> dis(1, 10);
-            s = RandString(dis(gen));
+            s = rand_string(dis(gen));
         }
         cout << s << "\n";
-        assert(CanStringBeAPalindromeHash::CanFormPalindrome(s) ==
-               CanStringBeAPalindromeSorting::CanFormPalindrome(&s));
+        assert(can_string_be_palindrome_hash::can_form_palindrome(s) ==
+                       can_string_be_a_palindrome_sorting::can_form_palindrome(&s));
     }
     return 0;
 }

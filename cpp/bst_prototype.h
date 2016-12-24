@@ -9,9 +9,10 @@ using std::unique_ptr;
 
 // @include
 template<typename T>
-struct BSTNode {
+struct BST_node {
     T data;
-    unique_ptr<BSTNode<T>> left, right;
+    unique_ptr<BST_node<T>> left;
+    unique_ptr<BST_node<T>> right;
 };
 // @exclude
 #endif  // SOLUTIONS_BST_PROTOTYPE_H_

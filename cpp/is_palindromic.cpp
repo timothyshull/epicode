@@ -28,7 +28,7 @@ bool CheckAnswer(const string& s)
     return s == copy;
 }
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -44,7 +44,7 @@ int main(int argc, char** argv)
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 10000; ++times) {
         uniform_int_distribution<int> dis(1, 1000);
-        string s = RandString(dis(gen));
+        string s = rand_string(dis(gen));
         assert(IsPalindromic(s) == CheckAnswer(s));
     }
     return 0;

@@ -60,7 +60,7 @@ PagePair HighestAffinityPair(ifstream* ifs)
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     uniform_int_distribution<int> dis('a', 'z');
@@ -97,9 +97,9 @@ int main(int argc, char* argv[])
     }
     ofstream ofs("/tmp/logs.txt");
     for (int i = 0; i < n; ++i) {
-        string name = RandString(5);
+        string name = rand_string(5);
         transform(name.begin(), name.end(), name.begin(), toupper);
-        ofs << name << " " << RandString(5) << "\n";
+        ofs << name << " " << rand_string(5) << "\n";
     }
     ofs.close();
     ifstream ifs("/tmp/logs.txt");

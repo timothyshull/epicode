@@ -286,7 +286,7 @@ static void ComplexRandomTest()
     vector<int> N = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 50, 100};
     for (int i = 0; i < N.size(); ++i) {
         for (int j = 0; j < 100; ++j) {
-            RandomTestFixedN(N[i]);
+            random_test_fixed_n(N[i]);
         }
     }
 }
@@ -296,8 +296,8 @@ int main(int argc, char* argv[])
     simple_test();
     SimpleTestKthLargest();
     SimpleTestKthSmallest();
-    ComplexRandomTest();
-    cout << "finished ComplexRandomTest()" << "\n";
+    complex_random_test();
+    cout << "finished complex_random_test()" << "\n";
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
         int n, k;

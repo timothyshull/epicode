@@ -48,7 +48,7 @@ void SolveNQueens(int n, int row, vector<int>* col_placement,
     }
 }
 
-// Test if a newly placed queen will conflict any earlier queens
+// test if a newly placed queen will conflict any earlier queens
 // placed before.
 bool IsValid(const vector<int>& col_placement)
 {

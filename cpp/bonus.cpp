@@ -15,6 +15,7 @@ using std::cout;
 using std::default_random_engine;
 using std::endl;
 using std::function;
+using std::equal;
 using std::max;
 using std::pair;
 using std::priority_queue;

@@ -15,23 +15,21 @@ using std::shared_ptr;
 
 struct HeadAndTail;
 
-HeadAndTail BSTToDoublyLinkedListHelper(const shared_ptr<BSTNode<int>>&);
+HeadAndTail bst_to_doubly_linked_list_helper(const shared_ptr<BST_node<int>>&);
 
 // @include
 struct HeadAndTail {
-    shared_ptr<BSTNode<int>> head, tail;
+    shared_ptr<BST_node<int>> head, tail;
 };
 
-shared_ptr<BSTNode<int>> BSTToDoublyLinkedList(
-        const shared_ptr<BSTNode<int>>& tree)
+shared_ptr<BST_node<int>> bst_to_doubly_linked_list(const shared_ptr<BST_node<int>>& tree)
 {
-    return BSTToDoublyLinkedListHelper(tree).head;
+    return bst_to_doubly_linked_list_helper(tree).head;
 }
 
 // Transforms a BST into a sorted doubly linked list in-place,
 // and return the head and tail of the list.
-HeadAndTail BSTToDoublyLinkedListHelper(
-        const shared_ptr<BSTNode<int>>& tree)
+HeadAndTail bst_to_doubly_linked_list_helper(const shared_ptr<BST_node<int>>& tree)
 {
     // Empty subtree.
     if (!tree) {
@@ -39,8 +37,8 @@ HeadAndTail BSTToDoublyLinkedListHelper(
     }
 
     // Recursively builds the list from left and right subtrees.
-    HeadAndTail left = BSTToDoublyLinkedListHelper(tree->left);
-    HeadAndTail right = BSTToDoublyLinkedListHelper(tree->right);
+    HeadAndTail left = bst_to_doubly_linked_list_helper(tree->left);
+    HeadAndTail right = bst_to_doubly_linked_list_helper(tree->right);
 
     // Appends tree to the list from left subtree.
     if (left.tail) {
@@ -63,14 +61,14 @@ int main(int argc, char* argv[])
     //    3
     //  2   5
     // 1   4 6
-    auto root = make_shared<BSTNode<int>>(BSTNode<int>{3});
-    root->left = make_shared<BSTNode<int>>(BSTNode<int>{2});
-    root->left->left = make_shared<BSTNode<int>>(BSTNode<int>{1});
-    root->right = make_shared<BSTNode<int>>(BSTNode<int>{5});
-    root->right->left = make_shared<BSTNode<int>>(BSTNode<int>{4});
-    root->right->right = make_shared<BSTNode<int>>(BSTNode<int>{6});
-    shared_ptr<BSTNode<int>> L = BSTToDoublyLinkedList(root);
-    shared_ptr<BSTNode<int>> curr = L;
+    auto root = make_shared<BST_node<int>>(BST_node<int>{3});
+    root->left = make_shared<BST_node<int>>(BST_node<int>{2});
+    root->left->left = make_shared<BST_node<int>>(BST_node<int>{1});
+    root->right = make_shared<BST_node<int>>(BST_node<int>{5});
+    root->right->left = make_shared<BST_node<int>>(BST_node<int>{4});
+    root->right->right = make_shared<BST_node<int>>(BST_node<int>{6});
+    shared_ptr<BST_node<int>> L = bst_to_doubly_linked_list(root);
+    shared_ptr<BST_node<int>> curr = L;
     int pre = numeric_limits<int>::min();
     do {
         assert(pre <= curr->data);

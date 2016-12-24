@@ -8,7 +8,7 @@
 using std::unique_ptr;
 
 // @include
-BSTNode<int>* FindFirstEqualK(const unique_ptr<BSTNode<int>>& tree, int k)
+BST_node<int>* FindFirstEqualK(const unique_ptr<BST_node<int>>& tree, int k)
 {
     if (!tree) {
         return nullptr;  // No match.
@@ -28,12 +28,12 @@ int main(int argc, char* argv[])
     //    3
     //  2   6
     // 1   4 6
-    auto root = unique_ptr<BSTNode<int>>(new BSTNode<int>{3});
-    root->left = unique_ptr<BSTNode<int>>(new BSTNode<int>{2});
-    root->left->left = unique_ptr<BSTNode<int>>(new BSTNode<int>{1});
-    root->right = unique_ptr<BSTNode<int>>(new BSTNode<int>{6});
-    root->right->left = unique_ptr<BSTNode<int>>(new BSTNode<int>{4});
-    root->right->right = unique_ptr<BSTNode<int>>(new BSTNode<int>{6});
+    auto root = unique_ptr<BST_node<int>>(new BST_node<int>{3});
+    root->left = unique_ptr<BST_node<int>>(new BST_node<int>{2});
+    root->left->left = unique_ptr<BST_node<int>>(new BST_node<int>{1});
+    root->right = unique_ptr<BST_node<int>>(new BST_node<int>{6});
+    root->right->left = unique_ptr<BST_node<int>>(new BST_node<int>{4});
+    root->right->right = unique_ptr<BST_node<int>>(new BST_node<int>{6});
     assert(!FindFirstEqualK(root, 7));
     assert(FindFirstEqualK(root, 6)->data == 6 &&
            FindFirstEqualK(root, 6)->right->data == 6);
@@ -41,12 +41,12 @@ int main(int argc, char* argv[])
     //    3
     //  3   5
     // 2   5 6
-    root = unique_ptr<BSTNode<int>>(new BSTNode<int>{3});
-    root->left = unique_ptr<BSTNode<int>>(new BSTNode<int>{3});
-    root->left->left = unique_ptr<BSTNode<int>>(new BSTNode<int>{2});
-    root->right = unique_ptr<BSTNode<int>>(new BSTNode<int>{5});
-    root->right->left = unique_ptr<BSTNode<int>>(new BSTNode<int>{5});
-    root->right->right = unique_ptr<BSTNode<int>>(new BSTNode<int>{6});
+    root = unique_ptr<BST_node<int>>(new BST_node<int>{3});
+    root->left = unique_ptr<BST_node<int>>(new BST_node<int>{3});
+    root->left->left = unique_ptr<BST_node<int>>(new BST_node<int>{2});
+    root->right = unique_ptr<BST_node<int>>(new BST_node<int>{5});
+    root->right->left = unique_ptr<BST_node<int>>(new BST_node<int>{5});
+    root->right->right = unique_ptr<BST_node<int>>(new BST_node<int>{6});
     assert(!FindFirstEqualK(root, 7));
     assert(FindFirstEqualK(root, 3) == root->left.get());
     assert(FindFirstEqualK(root, 5) == root->right->left.get());

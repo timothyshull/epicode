@@ -21281,8 +21281,14 @@
 			<Option target="binary_tree_preorder_traversal_iterative"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_prototype.h">
+			<Option target="unique_binary_trees_all"/>
+			<Option target="tree_traversal"/>
 			<Option target="binary_tree_level_order"/>
+			<Option target="search_min_first_bst"/>
+			<Option target="reconstruct_preorder_with_null"/>
+			<Option target="sum_root_to_leaf_binary_tree"/>
 			<Option target="balanced_binary_tree_test"/>
+			<Option target="recover_binary_search_tree_constant_space"/>
 			<Option target="binary_tree_postorder_traversal_iterative"/>
 			<Option target="balanced_binary_tree"/>
 			<Option target="exterior_binary_tree"/>
@@ -21296,6 +21302,8 @@
 			<Option target="binary_tree_to_doubly_linked_list"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_utils.h">
+			<Option target="reconstruct_preorder_with_null"/>
+			<Option target="recover_binary_search_tree_constant_space"/>
 			<Option target="binary_tree_postorder_traversal_iterative"/>
 			<Option target="binary_tree_postorder_traversal_iterative_alternative"/>
 			<Option target="binary_tree_preorder_traversal_iterative"/>
@@ -21319,6 +21327,9 @@
 			<Option target="bst_lowest_common_ancestor"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/bst_prototype.h">
+			<Option target="search_bst_for_first_occurrence_recursive"/>
+			<Option target="search_bst_for_first_occurrence_iterative"/>
+			<Option target="search_bst_first_larger_k"/>
 			<Option target="bst_lowest_common_ancestor"/>
 			<Option target="bst_sorted_order"/>
 			<Option target="find_k_largest_bst"/>
@@ -21486,6 +21497,9 @@
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/doors.cpp">
 			<Option target="doors"/>
 		</Unit>
+		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/doubly_linked_list_prototype.h">
+			<Option target="sorted_list_to_bst"/>
+		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/drawing_skylines.cpp">
 			<Option target="drawing_skylines"/>
 		</Unit>
@@ -21572,6 +21586,7 @@
 			<Option target="gcd1"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/gcd2.h">
+			<Option target="rotate_array"/>
 			<Option target="gcd"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/generate_parentheses.cpp">
@@ -21722,13 +21737,22 @@
 			<Option target="line_most_points"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/linked_list_prototype.h">
+			<Option target="zipping_list"/>
+			<Option target="sort_list"/>
+			<Option target="reverse_list_in_k_group"/>
+			<Option target="reverse_linked_list_recursive"/>
+			<Option target="remove_kth_last_list"/>
+			<Option target="remove_duplicates_sorted_list"/>
 			<Option target="add_two_number_list"/>
+			<Option target="reverse_linked_list_from_s_to_f"/>
+			<Option target="reverse_linked_list_iterative"/>
 			<Option target="deletion_list"/>
 			<Option target="insert_list"/>
 			<Option target="checking_cycle"/>
 			<Option target="even_odd_merge_linked_list"/>
 			<Option target="distinct_sorted_list"/>
 			<Option target="checking_cycle_alternative"/>
+			<Option target="search_list"/>
 			<Option target="cyclic_right_shift"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/list_pivoting.cpp">
@@ -21870,13 +21894,13 @@
 			<Option target="merge_sorted_arrays"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/merge_sorted_arrays.h">
-			<Option target="merge_sorted_arrays"/>
+			<Option target="sort_k_increasing_decreasing_array"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/merge_sorted_lists.cpp">
 			<Option target="merge_sorted_lists"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/merge_sorted_lists.h">
-			<Option target="merge_sorted_lists"/>
+			<Option target="sort_list"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/merge_two_bsts.cpp">
 			<Option target="merge_two_bsts"/>
@@ -22081,6 +22105,8 @@
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/postings_list_prototype.h">
 			<Option target="copying_postings_list"/>
+			<Option target="search_postings_list_iterative"/>
+			<Option target="search_postings_list_recursive"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/power_set.cpp">
 			<Option target="power_set"/>
@@ -22119,7 +22145,7 @@
 			<Option target="queue_with_max_alternative"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/queue_with_max_alternative.h">
-			<Option target="queue_with_max_alternative"/>
+			<Option target="sliding_window"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/queue_with_max_intro.cpp">
 			<Option target="queue_with_max_intro"/>
@@ -22161,6 +22187,7 @@
 			<Option target="reconstruct_preorder_with_null"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/reconstruct_preorder_with_null.h">
+			<Option target="reconstruct_preorder_with_null"/>
 			<Option target="exterior_binary_tree"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/recover_binary_search_tree_constant_space.cpp">
@@ -22206,7 +22233,8 @@
 			<Option target="reverse_linked_list_iterative"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/reverse_linked_list_iterative.h">
-			<Option target="reverse_linked_list_iterative"/>
+			<Option target="zipping_list"/>
+			<Option target="reverse_list_in_k_group"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/reverse_linked_list_recursive.cpp">
 			<Option target="reverse_linked_list_recursive"/>
@@ -22230,6 +22258,9 @@
 			<Option target="rotate_array"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/rotate_array.h">
+			<Option target="rotate_array"/>
+		</Unit>
+		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/rotate_array_permutation.h">
 			<Option target="rotate_array"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/rpn.cpp">
@@ -22331,6 +22362,9 @@
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/smallest_subarray_covering_set.h">
 			<Option target="smallest_subarray_covering_set"/>
 		</Unit>
+		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/smallest_subarray_covering_set_stream.h">
+			<Option target="smallest_subarray_covering_set"/>
+		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/smart_pointers.cpp">
 			<Option target="smart_pointers"/>
 		</Unit>
@@ -22416,6 +22450,7 @@
 			<Option target="swap_bits"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/swap_bits.h">
+			<Option target="reverse_bits"/>
 			<Option target="swap_bits"/>
 		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/symmetric_binary_tree.cpp">

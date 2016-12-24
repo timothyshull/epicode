@@ -16,11 +16,11 @@ using std::numeric_limits;
 using std::unique_ptr;
 using std::vector;
 
-unique_ptr<BSTNode<int>> RebuildBSTFromPreorderHelper(const vector<int>&, int,
+unique_ptr<BST_node<int>> RebuildBSTFromPreorderHelper(const vector<int>&, int,
                                                       int);
 
 // @include
-unique_ptr<BSTNode<int>> RebuildBSTFromPreorder(
+unique_ptr<BST_node<int>> RebuildBSTFromPreorder(
         const vector<int>& preorder_sequence)
 {
     return RebuildBSTFromPreorderHelper(preorder_sequence, 0,
@@ -28,7 +28,7 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPreorder(
 }
 
 // Builds a BST from preorder_sequence[start : end - 1].
-unique_ptr<BSTNode<int>> RebuildBSTFromPreorderHelper(
+unique_ptr<BST_node<int>> RebuildBSTFromPreorderHelper(
         const vector<int>& preorder_sequence, int start, int end)
 {
     if (start >= end) {
@@ -39,8 +39,8 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPreorderHelper(
            preorder_sequence[transition_point] < preorder_sequence[start]) {
         ++transition_point;
     }
-    return make_unique<BSTNode<int>>(
-            BSTNode<int>{preorder_sequence[start],
+    return make_unique<BST_node<int>>(
+            BST_node<int>{preorder_sequence[start],
                          RebuildBSTFromPreorderHelper(preorder_sequence, start + 1,
                                                       transition_point),
                          RebuildBSTFromPreorderHelper(preorder_sequence,
@@ -49,7 +49,7 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPreorderHelper(
 // @exclude
 
 template<typename T>
-void CheckAns(const unique_ptr<BSTNode<T>>& n, const T& pre)
+void CheckAns(const unique_ptr<BST_node<T>>& n, const T& pre)
 {
     if (n) {
         CheckAns(n->left, pre);
@@ -67,7 +67,7 @@ int main(int argc, char* argv[])
     // should output 1, 2, 3, 4, 5, 6
     // preorder [3, 2, 1, 5, 4, 6]
     vector<int> preorder = {3, 2, 1, 5, 4, 6};
-    unique_ptr<BSTNode<int>> tree(RebuildBSTFromPreorder(preorder));
+    unique_ptr<BST_node<int>> tree(RebuildBSTFromPreorder(preorder));
     CheckAns(tree, numeric_limits<int>::min());
     assert(3 == tree->data);
     assert(2 == tree->left->data);

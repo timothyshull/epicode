@@ -21,7 +21,7 @@ using std::uniform_int_distribution;
 using std::unordered_map;
 using std::vector;
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret = "";
@@ -88,7 +88,7 @@ int main(int argc, char* argv[])
         vector<string> s;
         for (int i = 0; i < n; ++i) {
             uniform_int_distribution<int> dis(1, 10);
-            s.emplace_back(RandString(dis(gen)));
+            s.emplace_back(rand_string(dis(gen)));
         }
         assert(CheckAnswer(s) == FindNearestRepetition(s));
     }

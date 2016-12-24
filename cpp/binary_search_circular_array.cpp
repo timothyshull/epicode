@@ -18,7 +18,8 @@ using std::vector;
 // @include
 int search_smallest(const vector<int>& A)
 {
-    int left = 0, right = A.size() - 1;
+    int left = 0;
+    int right = static_cast<int>(A.size() - 1);
     while (left < right) {
         int mid = left + ((right - left) / 2);
         if (A[mid] > A[right]) {

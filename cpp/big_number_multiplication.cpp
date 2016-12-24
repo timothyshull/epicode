@@ -53,7 +53,8 @@ vector<int> rand_vector(int len)
 {
     if (!len) { return {0}; }
 
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     uniform_int_distribution<int> dis(1, 9);
     vector<int> ret;
     ret.emplace_back(dis(gen));
@@ -97,7 +98,8 @@ int main(int argc, char* argv[])
 {
     simple_test();
     for (int times = 0; times < 1000; ++times) {
-        default_random_engine gen((random_device()) ());
+        random_device rd;
+        default_random_engine gen(rd());
         uniform_int_distribution<int> dis(0, 19);
         vector<int> num1 = rand_vector(dis(gen)), num2 = rand_vector(dis(gen));
         auto res = multiply(num1, num2);

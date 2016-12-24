@@ -70,7 +70,7 @@ int CheckAnswer(const string& t, const string& s)
     return -1;  // No matching.
 }
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -116,8 +116,8 @@ int main(int argc, char* argv[])
         for (int times = 0; times < 10000; ++times) {
             uniform_int_distribution<int> t_dis(1, 1000);
             uniform_int_distribution<int> s_dis(1, 20);
-            string t = RandString(t_dis(gen));
-            string s = RandString(s_dis(gen));
+            string t = rand_string(t_dis(gen));
+            string s = rand_string(s_dis(gen));
             cout << "t = " << t << "\n";
             cout << "s = " << s << "\n";
             assert(RabinKarp(t, s) == CheckAnswer(t, s));

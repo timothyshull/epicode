@@ -45,7 +45,7 @@ void good(A* x)
 }
 //@exclude
 
-A* randomBuilder()
+A* random_builder()
 {
     // int r = random()%3;
     int r = 3;
@@ -67,6 +67,6 @@ int main(int argc, char** argv)
     ...
     */
     // Randomly returns a pointer to  an A, B, or C type object.
-    A* x = randomBuilder();
+    A* x = random_builder();
     good(x);
 }

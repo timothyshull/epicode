@@ -10,10 +10,10 @@
 using std::string;
 using std::unordered_map;
 
-namespace CanStringBeAPalindromeHash {
+namespace can_string_be_palindrome_hash {
 
 // @include
-    bool CanFormPalindrome(const string& s)
+    bool can_form_palindrome(const string& s)
     {
         unordered_map<char, int> char_frequencies;
         // Compute the frequency of each char in s.
@@ -31,6 +31,6 @@ namespace CanStringBeAPalindromeHash {
     }
 // @exclude
 
-}  // namespace CanStringBeAPalindromeHash
+}  // namespace can_string_be_palindrome_hash
 
 #endif  // SOLUTIONS_CAN_STRING_BE_PALINDROME_HASH_H_

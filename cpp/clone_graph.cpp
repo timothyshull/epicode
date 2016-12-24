@@ -29,7 +29,7 @@ struct Graph_vertex {
     vector<Graph_vertex*> edges;
 };
 
-Graph_vertex* CloneGraph(Graph_vertex* G)
+Graph_vertex* clone_graph(Graph_vertex* G)
 {
     if (!G) {
         return nullptr;
@@ -56,7 +56,7 @@ Graph_vertex* CloneGraph(Graph_vertex* G)
 }
 // @exclude
 
-vector<int> CopyLabels(const vector<Graph_vertex*>& edges)
+vector<int> copy_labels(const vector<Graph_vertex*>& edges)
 {
     vector<int> labels;
     for (Graph_vertex* e : edges) {
@@ -65,7 +65,7 @@ vector<int> CopyLabels(const vector<Graph_vertex*>& edges)
     return labels;
 }
 
-void CheckGraph(Graph_vertex* node, const vector<Graph_vertex>& G)
+void check_graph(Graph_vertex* node, const vector<Graph_vertex>& G)
 {
     unordered_set<Graph_vertex*> vertex_set;
     queue<Graph_vertex*> q;
@@ -75,8 +75,7 @@ void CheckGraph(Graph_vertex* node, const vector<Graph_vertex>& G)
         auto vertex = q.front();
         q.pop();
         assert(vertex->label < G.size());
-        vector<int> label1 = CopyLabels(vertex->edges),
-                label2 = CopyLabels(G[vertex->label].edges);
+        vector<int> label1 = copy_labels(vertex->edges), label2 = copy_labels(G[vertex->label].edges);
         sort(label1.begin(), label1.end()), sort(label2.begin(), label2.end());
         assert(equal(label1.begin(), label1.end(), label2.begin(), label2.end()));
         for (Graph_vertex* e : vertex->edges) {
@@ -90,7 +89,8 @@ void CheckGraph(Graph_vertex* node, const vector<Graph_vertex>& G)
 
 int main(int argc, char** argv)
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         vector<Graph_vertex> G;
         int n;
@@ -125,8 +125,8 @@ int main(int argc, char** argv)
             G[a].edges.emplace_back(&G[b]);
             G[b].edges.emplace_back(&G[a]);
         }
-        auto res = CloneGraph(&G[0]);
-        CheckGraph(res, G);
+        auto res = clone_graph(&G[0]);
+        check_graph(res, G);
     }
     return 0;
 }

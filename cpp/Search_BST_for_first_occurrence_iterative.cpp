@@ -9,9 +9,9 @@ using std::make_unique;
 using std::unique_ptr;
 
 // @include
-BSTNode<int>* FindFirstEqualK(const unique_ptr<BSTNode<int>>& tree, int k)
+BST_node<int>* FindFirstEqualK(const unique_ptr<BST_node<int>>& tree, int k)
 {
-    BSTNode<int>* first_so_far = nullptr, * curr = tree.get();
+    BST_node<int>* first_so_far = nullptr, * curr = tree.get();
     while (curr) {
         if (curr->data < k) {
             curr = curr->right.get();
@@ -32,24 +32,24 @@ int main(int argc, char* argv[])
     //    3
     //  2   5
     // 1   4 6
-    auto tree = make_unique<BSTNode<int>>(BSTNode<int>{3});
-    tree->left = make_unique<BSTNode<int>>(BSTNode<int>{2});
-    tree->left->left = make_unique<BSTNode<int>>(BSTNode<int>{1});
-    tree->right = make_unique<BSTNode<int>>(BSTNode<int>{5});
-    tree->right->left = make_unique<BSTNode<int>>(BSTNode<int>{4});
-    tree->right->right = make_unique<BSTNode<int>>(BSTNode<int>{6});
+    auto tree = make_unique<BST_node<int>>(BST_node<int>{3});
+    tree->left = make_unique<BST_node<int>>(BST_node<int>{2});
+    tree->left->left = make_unique<BST_node<int>>(BST_node<int>{1});
+    tree->right = make_unique<BST_node<int>>(BST_node<int>{5});
+    tree->right->left = make_unique<BST_node<int>>(BST_node<int>{4});
+    tree->right->right = make_unique<BST_node<int>>(BST_node<int>{6});
     assert(!FindFirstEqualK(tree, 7));
     assert(FindFirstEqualK(tree, 6)->data == 6);
 
     //    3
     //  3   5
     // 2   5 6
-    tree = make_unique<BSTNode<int>>(BSTNode<int>{3});
-    tree->left = make_unique<BSTNode<int>>(BSTNode<int>{3});
-    tree->left->left = make_unique<BSTNode<int>>(BSTNode<int>{2});
-    tree->right = make_unique<BSTNode<int>>(BSTNode<int>{5});
-    tree->right->left = make_unique<BSTNode<int>>(BSTNode<int>{5});
-    tree->right->right = make_unique<BSTNode<int>>(BSTNode<int>{6});
+    tree = make_unique<BST_node<int>>(BST_node<int>{3});
+    tree->left = make_unique<BST_node<int>>(BST_node<int>{3});
+    tree->left->left = make_unique<BST_node<int>>(BST_node<int>{2});
+    tree->right = make_unique<BST_node<int>>(BST_node<int>{5});
+    tree->right->left = make_unique<BST_node<int>>(BST_node<int>{5});
+    tree->right->right = make_unique<BST_node<int>>(BST_node<int>{6});
     assert(!FindFirstEqualK(tree, 7));
     assert(FindFirstEqualK(tree, 3) == tree->left.get());
     assert(FindFirstEqualK(tree, 5) == tree->right->left.get());

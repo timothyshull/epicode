@@ -12,7 +12,7 @@ using std::random_device;
 using std::string;
 using std::uniform_int_distribution;
 
-string RandString(int len)
+string rand_string(int len)
 {
     string ret;
     default_random_engine gen((random_device()) ());
@@ -52,7 +52,7 @@ int main(int argc, char* argv[])
         str = argv[1];
     } else {
         uniform_int_distribution<int> dis(1, 20);
-        str = RandString(dis(gen));
+        str = rand_string(dis(gen));
     }
     cout << "string = " << str << "\n";
     cout << StringHash(str, 1 << (16)) << "\n";

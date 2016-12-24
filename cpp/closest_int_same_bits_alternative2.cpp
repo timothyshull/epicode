@@ -30,7 +30,7 @@ unsigned long ClosestIntSameBits(unsigned long x)
 }
 // @exclude
 
-int CountBitsSetTo1(int x)
+int count_bits_set_to_1(int x)
 {
     int count = 0;
     while (x) {
@@ -53,7 +53,7 @@ int main(int argc, char* argv[])
     try {
         unsigned long res = ClosestIntSameBits(x);
         cout << x << ' ' << res << "\n";
-        assert(CountBitsSetTo1(x) == CountBitsSetTo1(res));
+        assert(count_bits_set_to_1(x) == count_bits_set_to_1(res));
     } catch (const exception& e) {
         cout << x << ' ' << e.what() << "\n";
     }

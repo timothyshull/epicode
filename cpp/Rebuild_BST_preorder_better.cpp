@@ -15,11 +15,11 @@ using std::numeric_limits;
 using std::unique_ptr;
 using std::vector;
 
-unique_ptr<BSTNode<int>> RebuildBSTFromPreorderOnValueRange(
+unique_ptr<BST_node<int>> RebuildBSTFromPreorderOnValueRange(
         const vector<int>&, int, int, int*);
 
 // @include
-unique_ptr<BSTNode<int>> RebuildBSTFromPreorder(
+unique_ptr<BST_node<int>> RebuildBSTFromPreorder(
         const vector<int>& preorder_sequence)
 {
     int root_idx = 0;
@@ -30,7 +30,7 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPreorder(
 
 // Builds a BST on the subtree rooted at root_idx from preorder_sequence on
 // keys in (lower_bound, upper_bound).
-unique_ptr<BSTNode<int>> RebuildBSTFromPreorderOnValueRange(
+unique_ptr<BST_node<int>> RebuildBSTFromPreorderOnValueRange(
         const vector<int>& preorder_sequence, int lower_bound, int upper_bound,
         int* root_idx_pointer)
 {
@@ -50,13 +50,13 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPreorderOnValueRange(
             preorder_sequence, lower_bound, root, root_idx_pointer);
     auto right_subtree = RebuildBSTFromPreorderOnValueRange(
             preorder_sequence, root, upper_bound, root_idx_pointer);
-    return make_unique<BSTNode<int>>(
-            BSTNode<int>{root, move(left_subtree), move(right_subtree)});
+    return make_unique<BST_node<int>>(
+            BST_node<int>{root, move(left_subtree), move(right_subtree)});
 }
 // @exclude
 
 template<typename T>
-void CheckAns(const unique_ptr<BSTNode<T>>& n, const T& pre)
+void CheckAns(const unique_ptr<BST_node<T>>& n, const T& pre)
 {
     if (n) {
         CheckAns(n->left, pre);
@@ -74,7 +74,7 @@ int main(int argc, char* argv[])
     // should output 1, 2, 3, 4, 5, 6
     // preorder [3, 2, 1, 5, 4, 6]
     vector<int> preorder = {3, 2, 1, 5, 4, 6};
-    unique_ptr<BSTNode<int>> tree(RebuildBSTFromPreorder(preorder));
+    unique_ptr<BST_node<int>> tree(RebuildBSTFromPreorder(preorder));
     CheckAns<int>(tree, numeric_limits<int>::min());
     assert(3 == tree->data);
     assert(2 == tree->left->data);

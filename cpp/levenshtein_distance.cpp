@@ -87,7 +87,7 @@ int CheckAnswer(string A, string B)
     return D.back();
 }
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     uniform_int_distribution<int> dis('a', 'z');
@@ -114,8 +114,8 @@ int main(int argc, char* argv[])
         A = argv[1], B = argv[2];
     } else {
         uniform_int_distribution<int> dis(1, 100);
-        A = RandString(dis(gen));
-        B = RandString(dis(gen));
+        A = rand_string(dis(gen));
+        B = rand_string(dis(gen));
     }
     cout << A << "\n" << B << "\n";
     cout << LevenshteinDistance(A, B) << "\n";

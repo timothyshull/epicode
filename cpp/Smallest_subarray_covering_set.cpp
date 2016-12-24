@@ -23,7 +23,7 @@ using std::unordered_map;
 using std::unordered_set;
 using std::vector;
 
-string RandString(int len)
+string rand_string(int len)
 {
     string ret;
     default_random_engine gen((random_device()) ());
@@ -109,7 +109,7 @@ int main(int argc, char* argv[])
         }
         for (int i = 0; i < n; ++i) {
             uniform_int_distribution<int> dis(1, 10);
-            A.emplace_back(RandString(dis(gen)));
+            A.emplace_back(rand_string(dis(gen)));
         }
         /*
         for (int i = 0; i < A.size(); ++i) {

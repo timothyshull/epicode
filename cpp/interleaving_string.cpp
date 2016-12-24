@@ -57,7 +57,7 @@ bool IsInterleavingString(const string& s1, const string& s2,
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -86,8 +86,8 @@ int main(int argc, char* argv[])
     } else {
         default_random_engine gen((random_device()) ());
         uniform_int_distribution<int> dis(1, 100);
-        string s1 = RandString(dis(gen)), s2 = RandString(dis(gen));
-        string s3 = RandString(s1.size() + s2.size());
+        string s1 = rand_string(dis(gen)), s2 = rand_string(dis(gen));
+        string s3 = rand_string(s1.size() + s2.size());
         cout << s1 << " " << s2 << " " << s3 << "\n";
         cout << boolalpha << IsInterleavingString(s1, s2, s3) << "\n";
     }

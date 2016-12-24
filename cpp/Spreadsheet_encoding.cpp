@@ -12,7 +12,7 @@ using std::random_device;
 using std::string;
 using std::uniform_int_distribution;
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string result;
@@ -50,7 +50,7 @@ int main(int argc, char* argv[])
         cout << argv[1] << " " << SSDecodeColID(argv[1]) << "\n";
     } else {
         uniform_int_distribution<int> len_dis(1, 5);
-        string s(RandString(len_dis(gen)));
+        string s(rand_string(len_dis(gen)));
         cout << s << " " << SSDecodeColID(s) << "\n";
     }
     return 0;

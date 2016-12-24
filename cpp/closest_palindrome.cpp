@@ -54,8 +54,7 @@ unsigned find_closest_palindrome(unsigned x)
 
     // Make str a palindrome again by mirroring the left half to the right half.
     copy(str.cbegin(), str.cbegin() + (str.size() / 2), str.rbegin());
-    return diff(x, mirror_left) < diff(x, stoul(str)) ? mirror_left
-                                                      : stoul(str);
+    return diff(x, mirror_left) < diff(x, stoul(str)) ? mirror_left : stoul(str);
 }
 
 unsigned diff(unsigned a, unsigned b) { return a > b ? a - b : b - a; }
@@ -95,7 +94,8 @@ void check_answer(unsigned x, unsigned ans)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 100000; ++times) {
         unsigned x;
         if (argc == 2) {

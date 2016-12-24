@@ -98,7 +98,7 @@ void OutputShortestPath(const Graph_vertex* v)
 // @exclude
 
 // DBH test
-void Test()
+void test()
 {
     vector<Graph_vertex> G;
     for (int i = 0; i < 9; ++i) {
@@ -203,6 +203,6 @@ int main(int argc, char* argv[])
     cout << "\n"
          << G[t].distance_with_fewest_edges.distance << " "
          << G[t].distance_with_fewest_edges.min_num_edges << "\n";
-    Test();
+    test();
     return 0;
 }

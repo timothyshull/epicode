@@ -72,22 +72,22 @@ void PerformanceTest(const TestOptions& options, TestSentry::Ptr& sentry,
 void directed_tests(const TestOptions& options)
 {
     TestSentry::Ptr sentry = options.GetTestSentry(0, "Parity");
-    UnitTest(sentry, "Test #1",
+    UnitTest(sentry, "test #1",
              0b1000000000000000000000000000000000000000000000000000000000000000L,
              (short) 1);
-    UnitTest(sentry, "Test #2",
+    UnitTest(sentry, "test #2",
              0b1000000000000000000000000000000000000000000000000000000000000001L,
              (short) 0);
-    UnitTest(sentry, "Test #3",
+    UnitTest(sentry, "test #3",
              0b0000000000000000000000000000000000000000000000000000000000000001L,
              (short) 1);
-    UnitTest(sentry, "Test #4",
+    UnitTest(sentry, "test #4",
              0b1111111111111111111111111111111111111111111111111111111111111111L,
              (short) 0);
-    UnitTest(sentry, "Test #5",
+    UnitTest(sentry, "test #5",
              0b0111111111111111111111111111111111111111111111111111111111111111L,
              (short) 1);
-    UnitTest(sentry, "Test #6",
+    UnitTest(sentry, "test #6",
              0b1010000101000101101000010100010110100001010001011010000101000101L,
              (short) 0);
 

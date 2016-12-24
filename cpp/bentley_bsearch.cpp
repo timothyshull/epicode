@@ -8,7 +8,8 @@ using std::vector;
 // @include
 int bsearch(int t, const vector<int>& A)
 {
-    int L = 0, U = A.size() - 1;
+    int L = 0;
+    int U = static_cast<int>(A.size() - 1);
     while (L <= U) {
         int M = (L + U) / 2;
         if (A[M] < t) {

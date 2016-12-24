@@ -36,7 +36,7 @@ string MajoritySearch(istringstream* input_stream)
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -84,7 +84,7 @@ int main(int argc, char* argv[])
         }
         for (int i = 0; i < n; ++i) {
             uniform_int_distribution<int> dis(1, 5);
-            stream.emplace_back(RandString(dis(gen)));
+            stream.emplace_back(rand_string(dis(gen)));
         }
         // generate the majority
         for (int i = 0; i < n; ++i) {

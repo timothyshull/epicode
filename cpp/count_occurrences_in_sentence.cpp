@@ -38,7 +38,7 @@ void CountOccurrences(string S)
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -71,7 +71,7 @@ int main(int argc, char* argv[])
         S = argv[1];
     } else {
         uniform_int_distribution<int> dis(1, 1000);
-        S = RandString(dis(gen));
+        S = rand_string(dis(gen));
     }
     cout << S << "\n";
     CountOccurrences(S);

@@ -34,10 +34,10 @@ using std::uniform_int_distribution;
 using std::unordered_map;
 using std::vector;
 
-int GetTopThreeScoresSum(priority_queue<int, vector<int>, greater<>>);
+int get_top_three_scores_sum(priority_queue<int, vector<int>, greater<>>);
 
 // @include
-string FindStudentWithHighestBestOfThreeScores(ifstream* ifs)
+string find_student_with_highest_best_of_three_scores(ifstream* ifs)
 {
     // Use a multiset to handle duplicated test scores.
     unordered_map<string, priority_queue<int, vector<int>, greater<>>>
@@ -55,7 +55,7 @@ string FindStudentWithHighestBestOfThreeScores(ifstream* ifs)
     int current_top_three_scores_sum = 0;
     for (const auto& scores : student_scores) {
         if (scores.second.size() == 3) {
-            int current_scores_sum = GetTopThreeScoresSum(scores.second);
+            int current_scores_sum = get_top_three_scores_sum(scores.second);
             if (current_scores_sum > current_top_three_scores_sum) {
                 current_top_three_scores_sum = current_scores_sum;
                 top_student = scores.first;
@@ -66,7 +66,7 @@ string FindStudentWithHighestBestOfThreeScores(ifstream* ifs)
 }
 
 // Returns the sum of top three scores.
-int GetTopThreeScoresSum(priority_queue<int, vector<int>, greater<>> scores)
+int get_top_three_scores_sum(priority_queue<int, vector<int>, greater<>> scores)
 {
     int sum = 0;
     while (!scores.empty()) {
@@ -77,7 +77,7 @@ int GetTopThreeScoresSum(priority_queue<int, vector<int>, greater<>> scores)
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     uniform_int_distribution<int> dis('a', 'z');
@@ -102,7 +102,7 @@ void simple_test()
     ofs << "adnan 95";
     ofs.close();
     ifstream ifs("scores.txt");
-    string result = FindStudentWithHighestBestOfThreeScores(&ifs);
+    string result = find_student_with_highest_best_of_three_scores(&ifs);
     cout << "result = " << result << "\n";
     assert(result == "adnan");
 }
@@ -123,7 +123,7 @@ int main(int argc, char* argv[])
         uniform_int_distribution<int> test_num_dis(0, 20);
         int test_num = test_num_dis(gen);
         uniform_int_distribution<int> len_dis(5, 10);
-        string name = RandString(len_dis(gen));
+        string name = rand_string(len_dis(gen));
         while (test_num--) {
             uniform_int_distribution<int> score_dis(0, 100);
             ofs << name << " " << score_dis(gen) << "\n";
@@ -131,7 +131,7 @@ int main(int argc, char* argv[])
     }
     ofs.close();
     ifstream ifs("/tmp/scores.txt");
-    string name = FindStudentWithHighestBestOfThreeScores(&ifs);
+    string name = find_student_with_highest_best_of_three_scores(&ifs);
     cout << "top student is " << name << "\n";
     // Remove file after the execution.
     // remove("score.txt");

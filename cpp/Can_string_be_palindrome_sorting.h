@@ -8,10 +8,10 @@
 
 using std::string;
 
-namespace CanStringBeAPalindromeSorting {
+namespace can_string_be_a_palindrome_sorting {
 
 // @include
-    bool CanFormPalindrome(string* s)
+    bool can_form_palindrome(string* s)
     {
         sort(s->begin(), s->end());
         int odd_count = 0, num_curr_char = 1;
@@ -36,6 +36,6 @@ namespace CanStringBeAPalindromeSorting {
     }
 // @exclude
 
-}  // namespace CanStringBeAPalindromeSorting
+}  // namespace can_string_be_a_palindrome_sorting
 
 #endif  // SOLUTIONS_CAN_STRING_BE_PALINDROME_SORTING_H_

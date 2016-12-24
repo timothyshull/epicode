@@ -25,7 +25,8 @@ int close_search(const vector<int>& A, int k)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 10000; ++times) {
         int n;
         if (argc == 2) {
@@ -56,7 +57,7 @@ int main(int argc, char* argv[])
                     break;
                 }
             }
-            assert(found == false);
+            assert(!found);
         }
     }
     return 0;

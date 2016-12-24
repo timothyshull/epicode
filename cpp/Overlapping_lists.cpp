@@ -20,7 +20,7 @@ shared_ptr<List_node<int>> OverlappingLists(shared_ptr<List_node<int>> L1,
                                            shared_ptr<List_node<int>> L2)
 {
     // Store the start of cycle if any.
-    auto root1 = HasCycle(L1), root2 = HasCycle(L2);
+    auto root1 = has_cycle(L1), root2 = has_cycle(L2);
 
     if (!root1 && !root2) {
         // Both lists don't have cycles.

@@ -19,7 +19,9 @@ using std::vector;
 // @include
 int search_first_of_k(const vector<int>& A, int k)
 {
-    int left = 0, right = A.size() - 1, result = -1;
+    int left = 0;
+    int right = static_cast<int>(A.size() - 1);
+    int result = -1;
     // [left : right] is the candidate set.
     while (left <= right) {
         int mid = left + ((right - left) / 2);

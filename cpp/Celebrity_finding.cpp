@@ -16,7 +16,7 @@ using std::uniform_int_distribution;
 using std::vector;
 
 // @include
-int CelebrityFinding(const vector<deque<bool>>& F)
+int celebrity_finding(const vector<deque<bool>>& F)
 {
     // Start checking the relation from F[0][1].
     int i = 0, j = 1;
@@ -38,13 +38,14 @@ void DirectedTest()
                              {false, false, false, true,  true},
                              {false, false, false, false, false},
                              {true,  false, false, true,  false}};
-    assert(CelebrityFinding(F) == 3);
+    assert(celebrity_finding(F) == 3);
 }
 
 int main(int argc, char* argv[])
 {
     DirectedTest();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int n;
         if (argc > 1) {
@@ -69,8 +70,8 @@ int main(int argc, char* argv[])
         for (size_t j = 0; j < n; ++j) {
             graph[celebrity][j] = false;
         }
-        cout << CelebrityFinding(graph) << "\n";
-        assert(celebrity == CelebrityFinding(graph));
+        cout << celebrity_finding(graph) << "\n";
+        assert(celebrity == celebrity_finding(graph));
     }
     return 0;
 }

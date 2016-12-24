@@ -16,9 +16,9 @@ using std::stack;
 // @include
 class Queue {
 public:
-    void Enqueue(int x) { enq_.emplace(x); }
+    void enqueue(int x) { enq_.emplace(x); }
 
-    int Dequeue()
+    int dequeue()
     {
         if (deq_.empty()) {
             // Transfers the elements in enq_ to deq_.
@@ -44,32 +44,32 @@ private:
 int main(int argc, char* argv[])
 {
     Queue Q;
-    Q.Enqueue(1);
-    Q.Enqueue(2);
-    assert(1 == Q.Dequeue());
-    assert(2 == Q.Dequeue());
-    Q.Enqueue(3);
-    assert(3 == Q.Dequeue());
+    Q.enqueue(1);
+    Q.enqueue(2);
+    assert(1 == Q.dequeue());
+    assert(2 == Q.dequeue());
+    Q.enqueue(3);
+    assert(3 == Q.dequeue());
     try {
-        Q.Dequeue();
+        Q.dequeue();
         assert(false);
     } catch (const exception& e) {
         cout << e.what() << "\n";
     }
-    Q.Enqueue(-1);
-    Q.Enqueue(123);
-    Q.Enqueue(numeric_limits<int>::max());
-    Q.Enqueue(numeric_limits<int>::min());
-    Q.Enqueue(0);
-    assert(-1 == Q.Dequeue());
-    Q.Enqueue(0);
-    assert(123 == Q.Dequeue());
-    assert(numeric_limits<int>::max() == Q.Dequeue());
-    assert(numeric_limits<int>::min() == Q.Dequeue());
-    assert(0 == Q.Dequeue());
-    assert(0 == Q.Dequeue());
+    Q.enqueue(-1);
+    Q.enqueue(123);
+    Q.enqueue(numeric_limits<int>::max());
+    Q.enqueue(numeric_limits<int>::min());
+    Q.enqueue(0);
+    assert(-1 == Q.dequeue());
+    Q.enqueue(0);
+    assert(123 == Q.dequeue());
+    assert(numeric_limits<int>::max() == Q.dequeue());
+    assert(numeric_limits<int>::min() == Q.dequeue());
+    assert(0 == Q.dequeue());
+    assert(0 == Q.dequeue());
     try {
-        Q.Dequeue();
+        Q.dequeue();
         assert(false);
     } catch (const exception& e) {
         cout << e.what() << "\n";

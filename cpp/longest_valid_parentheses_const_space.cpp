@@ -91,7 +91,7 @@ void small_test()
     assert(LongestValidParentheses("()()())") == 6);
 }
 
-string RandString(int length)
+string rand_string(int length)
 {
     default_random_engine gen((random_device()) ());
     string result;
@@ -112,7 +112,7 @@ int main(int argc, char** argv)
     } else {
         default_random_engine gen((random_device()) ());
         uniform_int_distribution<int> dis(0, 100000);
-        string s = RandString(dis(gen));
+        string s = rand_string(dis(gen));
         assert(CheckAnswer(s) == LongestValidParentheses(s));
     }
     return 0;

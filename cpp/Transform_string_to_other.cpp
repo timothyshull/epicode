@@ -18,7 +18,7 @@ using std::uniform_int_distribution;
 using std::unordered_set;
 using std::vector;
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     uniform_int_distribution<int> dis('a', 'z');
@@ -79,13 +79,13 @@ int main(int argc, char* argv[])
         uniform_int_distribution<int> dis(1, 10);
         len = dis(gen);
     }
-    string s(RandString(len)), t(RandString(len));
+    string s(rand_string(len)), t(rand_string(len));
     unordered_set<string> D;
     D.emplace(s), D.emplace(t);
     uniform_int_distribution<int> dis(1, 1000000);
     int n = dis(gen);
     for (size_t i = 0; i < n; ++i) {
-        D.emplace(RandString(len));
+        D.emplace(rand_string(len));
     }
     /*
     for (const string &s : D) {

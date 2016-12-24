@@ -16,7 +16,7 @@ using std::random_device;
 using std::uniform_int_distribution;
 
 // @include
-unsigned long ClosestIntSameBitCount(unsigned long x)
+unsigned long closest_int_same_bit_count(unsigned long x)
 {
     const static int kNumUnsignedBits = 64;
     for (int i = 0; i < kNumUnsignedBits - 1; ++i) {
@@ -31,7 +31,7 @@ unsigned long ClosestIntSameBitCount(unsigned long x)
 }
 // @exclude
 
-int CountBitsSetTo1(unsigned long x)
+int count_bits_set_to_1(unsigned long x)
 {
     int count = 0;
     while (x) {
@@ -43,21 +43,20 @@ int CountBitsSetTo1(unsigned long x)
 
 void small_test()
 {
-    assert(ClosestIntSameBitCount(6) == 5);
-    assert(ClosestIntSameBitCount(7) == 11);
-    assert(ClosestIntSameBitCount(2) == 1);
-    assert(ClosestIntSameBitCount(32) == 16);
-    assert(ClosestIntSameBitCount(numeric_limits<unsigned long>::max() - 1) ==
-           numeric_limits<unsigned long>::max() - 2);
+    assert(closest_int_same_bit_count(6) == 5);
+    assert(closest_int_same_bit_count(7) == 11);
+    assert(closest_int_same_bit_count(2) == 1);
+    assert(closest_int_same_bit_count(32) == 16);
+    assert(closest_int_same_bit_count(numeric_limits<unsigned long>::max() - 1) == numeric_limits<unsigned long>::max() - 2);
 
     try {
-        ClosestIntSameBitCount(numeric_limits<unsigned long>::max());
+        closest_int_same_bit_count(numeric_limits<unsigned long>::max());
         assert(false);
     } catch (const exception& e) {
         cout << e.what() << "\n";
     }
     try {
-        ClosestIntSameBitCount(0);
+        closest_int_same_bit_count(0);
         assert(false);
     } catch (const exception& e) {
         cout << e.what() << "\n";
@@ -67,19 +66,19 @@ void small_test()
 int main(int argc, char* argv[])
 {
     small_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     unsigned long x;
     if (argc == 2) {
         x = atol(argv[1]);
     } else {
-        uniform_int_distribution<int> dis(0,
-                                          numeric_limits<unsigned long>::max());
+        uniform_int_distribution<int> dis(0, numeric_limits<unsigned long>::max());
         x = dis(gen);
     }
     try {
-        unsigned long res = ClosestIntSameBitCount(x);
+        unsigned long res = closest_int_same_bit_count(x);
         cout << x << ' ' << res << "\n";
-        assert(CountBitsSetTo1(x) == CountBitsSetTo1(res));
+        assert(count_bits_set_to_1(x) == count_bits_set_to_1(res));
     } catch (const exception& e) {
         cout << x << ' ' << e.what() << "\n";
     }

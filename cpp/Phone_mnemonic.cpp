@@ -51,7 +51,7 @@ void PhoneMnemonicHelper(const string& phone_number, int digit,
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -68,7 +68,7 @@ int main(int argc, char* argv[])
     if (argc == 2) {
         num = argv[1];
     } else {
-        num = RandString(10);
+        num = rand_string(10);
     }
     auto result = PhoneMnemonic(num);
     cout << "number = " << num << "\n";

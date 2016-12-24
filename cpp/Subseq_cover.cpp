@@ -25,7 +25,7 @@ using std::unordered_map;
 using std::unordered_set;
 using std::vector;
 
-string RandString(int len)
+string rand_string(int len)
 {
     string ret;
     default_random_engine gen((random_device()) ());
@@ -113,7 +113,7 @@ int main(int argc, char* argv[])
             n = dis(gen);
         }
         uniform_int_distribution<int> dis(1, 5);
-        generate_n(back_inserter(A), n, [&] { return RandString(dis(gen)); });
+        generate_n(back_inserter(A), n, [&] { return rand_string(dis(gen)); });
         unordered_set<string> dict;
         copy(A.begin(), A.end(), inserter(dict, dict.end()));
         cout << "A = ";

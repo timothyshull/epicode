@@ -15,27 +15,27 @@ using std::numeric_limits;
 using std::random_device;
 using std::uniform_int_distribution;
 
-unsigned long LowestSetBit(unsigned long);
+unsigned long lowest_set_bit(unsigned long);
 
-unsigned long LowestUnsetBit(unsigned long);
+unsigned long lowest_unset_bit(unsigned long);
 
 // @include
-unsigned long ClosestIntSameBitCount(unsigned long x)
+unsigned long closest_int_same_bit_count(unsigned long x)
 {
     if (x == 0 || x == numeric_limits<unsigned long>::max()) {
         throw invalid_argument("All bits are 0 or 1");
     }
-    unsigned long mask = (x & 1) == 0 ? LowestSetBit(x) : LowestUnsetBit(x);
+    unsigned long mask = (x & 1) == 0 ? lowest_set_bit(x) : lowest_unset_bit(x);
     mask = mask | (mask >> 1);
     return x ^ mask;
 }
 
-unsigned long LowestSetBit(unsigned long x) { return x & ~(x - 1); }
+unsigned long lowest_set_bit(unsigned long x) { return x & ~(x - 1); }
 
-unsigned long LowestUnsetBit(unsigned long x) { return LowestSetBit(x + 1); }
+unsigned long lowest_unset_bit(unsigned long x) { return lowest_set_bit(x + 1); }
 // @exclude
 
-int CountBitsSetTo1(int x)
+int count_bits_set_to_1(int x)
 {
     int count = 0;
     while (x) {
@@ -47,16 +47,17 @@ int CountBitsSetTo1(int x)
 
 void small_test()
 {
-    assert(ClosestIntSameBitCount(6) == 5);
-    assert(ClosestIntSameBitCount(7) == 11);
-    assert(ClosestIntSameBitCount(2) == 1);
-    assert(ClosestIntSameBitCount(32) == 16);
+    assert(closest_int_same_bit_count(6) == 5);
+    assert(closest_int_same_bit_count(7) == 11);
+    assert(closest_int_same_bit_count(2) == 1);
+    assert(closest_int_same_bit_count(32) == 16);
 }
 
 int main(int argc, char* argv[])
 {
     small_test();
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     unsigned long x;
     if (argc == 2) {
         x = atol(argv[1]);
@@ -65,9 +66,9 @@ int main(int argc, char* argv[])
         x = dis(gen);
     }
     try {
-        unsigned long res = ClosestIntSameBitCount(x);
+        unsigned long res = closest_int_same_bit_count(x);
         cout << x << ' ' << res << "\n";
-        assert(CountBitsSetTo1(x) == CountBitsSetTo1(res));
+        assert(count_bits_set_to_1(x) == count_bits_set_to_1(res));
     } catch (const exception& e) {
         cout << x << ' ' << e.what() << "\n";
     }

@@ -19,9 +19,9 @@ using std::vector;
 // @include
 class Queue {
 public:
-    void Enqueue(int x) { data_.emplace_back(x); }
+    void enqueue(int x) { data_.emplace_back(x); }
 
-    int Dequeue()
+    int dequeue()
     {
         if (data_.empty()) {
             throw length_error("empty queue");
@@ -47,32 +47,32 @@ private:
 void simple_test()
 {
     Queue Q;
-    Q.Enqueue(11);
-    Q.Enqueue(2);
+    Q.enqueue(11);
+    Q.enqueue(2);
     assert(11 == Q.Max());
-    assert(11 == Q.Dequeue());
+    assert(11 == Q.dequeue());
     assert(2 == Q.Max());
-    assert(2 == Q.Dequeue());
-    Q.Enqueue(3);
+    assert(2 == Q.dequeue());
+    Q.enqueue(3);
     assert(3 == Q.Max());
-    assert(3 == Q.Dequeue());
-    Q.Enqueue(numeric_limits<int>::max() - 1);
-    Q.Enqueue(numeric_limits<int>::max());
-    Q.Enqueue(-2);
-    Q.Enqueue(-1);
-    Q.Enqueue(-1);
-    Q.Enqueue(numeric_limits<int>::min());
+    assert(3 == Q.dequeue());
+    Q.enqueue(numeric_limits<int>::max() - 1);
+    Q.enqueue(numeric_limits<int>::max());
+    Q.enqueue(-2);
+    Q.enqueue(-1);
+    Q.enqueue(-1);
+    Q.enqueue(numeric_limits<int>::min());
     assert(numeric_limits<int>::max() == Q.Max());
-    assert(numeric_limits<int>::max() - 1 == Q.Dequeue());
+    assert(numeric_limits<int>::max() - 1 == Q.dequeue());
     assert(numeric_limits<int>::max() == Q.Max());
-    assert(numeric_limits<int>::max() == Q.Dequeue());
+    assert(numeric_limits<int>::max() == Q.dequeue());
     assert(-1 == Q.Max());
-    assert(-2 == Q.Dequeue());
+    assert(-2 == Q.dequeue());
     assert(-1 == Q.Max());
-    assert(-1 == Q.Dequeue());
-    assert(-1 == Q.Dequeue());
+    assert(-1 == Q.dequeue());
+    assert(-1 == Q.dequeue());
     assert(numeric_limits<int>::min() == Q.Max());
-    assert(numeric_limits<int>::min() == Q.Dequeue());
+    assert(numeric_limits<int>::min() == Q.dequeue());
     try {
         cout << "Q is empty, Max() call should except = " << Q.Max();
         assert(false);
@@ -85,22 +85,22 @@ int main(int argc, char* argv[])
 {
     simple_test();
     Queue Q;
-    Q.Enqueue(1);
-    Q.Enqueue(2);
+    Q.enqueue(1);
+    Q.enqueue(2);
     assert(2 == Q.Max());
-    assert(1 == Q.Dequeue());
+    assert(1 == Q.dequeue());
     assert(2 == Q.Max());
-    assert(2 == Q.Dequeue());
-    Q.Enqueue(3);
+    assert(2 == Q.dequeue());
+    Q.enqueue(3);
     assert(3 == Q.Max());
-    assert(3 == Q.Dequeue());
+    assert(3 == Q.dequeue());
     try {
         Q.Max();
     } catch (const exception& e) {
         cout << e.what() << "\n";
     }
     try {
-        Q.Dequeue();
+        Q.dequeue();
     } catch (const exception& e) {
         cout << e.what() << "\n";
     }

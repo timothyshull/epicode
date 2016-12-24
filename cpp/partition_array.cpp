@@ -57,7 +57,7 @@ void GroupByAge(vector<Person>* person_array)
 }
 // @exclude
 
-string RandString(int len)
+string rand_string(int len)
 {
     string ret;
     default_random_engine gen((random_device()) ());
@@ -104,7 +104,7 @@ int main(int argc, char* argv[])
         uniform_int_distribution<int> k_dis(0, k - 1);
         uniform_int_distribution<int> len_dis(1, 10);
         for (int i = 0; i < size; ++i) {
-            person_array.emplace_back(Person{k_dis(gen), RandString(len_dis(gen))});
+            person_array.emplace_back(Person{k_dis(gen), rand_string(len_dis(gen))});
         }
         unordered_set<int> age_set;
         for (const Person& p : person_array) {

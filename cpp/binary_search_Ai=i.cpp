@@ -19,7 +19,7 @@ using std::vector;
 int search_entry_equal_to_its_index(const vector<int>& A)
 {
     int left = 0;
-    int right = A.size() - 1;
+    int right = static_cast<int>(A.size() - 1);
     while (left <= right) {
         int mid = left + ((right - left) / 2);
         int difference = A[mid] - mid;

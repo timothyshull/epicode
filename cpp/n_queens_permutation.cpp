@@ -61,7 +61,7 @@ vector<string> ToTextRepresentation(const vector<int>& col_placement)
     return sol;
 }
 
-// Test if a newly placed queen on row_id will conflict any earlier queens
+// test if a newly placed queen on row_id will conflict any earlier queens
 // placed before.
 bool IsValid(const vector<int>& col_placement, int row_id)
 {

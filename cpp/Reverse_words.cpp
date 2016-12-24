@@ -13,7 +13,7 @@ using std::random_device;
 using std::string;
 using std::uniform_int_distribution;
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -81,7 +81,7 @@ int main(int argc, char* argv[])
             }
         } else {
             uniform_int_distribution<int> dis(0, 9999);
-            str = RandString(dis(gen));
+            str = rand_string(dis(gen));
         }
         string original_str(str);
         cout << str << "\n";

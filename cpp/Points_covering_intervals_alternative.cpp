@@ -119,7 +119,7 @@ int main(int argc, char* argv[])
     simple_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 1000; ++times) {
-        cout << "Test " << times << "\n";
+        cout << "test " << times << "\n";
         int n;
         if (argc == 2) {
             n = atoi(argv[1]);

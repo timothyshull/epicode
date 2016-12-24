@@ -11,7 +11,7 @@ using std::endl;
 using std::make_shared;
 
 // @include
-shared_ptr<List_node<int>> HasCycle(const shared_ptr<List_node<int>>& head)
+shared_ptr<List_node<int>> has_cycle(const shared_ptr<List_node<int>>& head)
 {
     shared_ptr<List_node<int>> fast = head, slow = head;
 
@@ -33,24 +33,21 @@ shared_ptr<List_node<int>> HasCycle(const shared_ptr<List_node<int>>& head)
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<List_node<int>> L3 =
-            make_shared<List_node<int>>(List_node<int>{3, nullptr});
-    shared_ptr<List_node<int>> L2 =
-            make_shared<List_node<int>>(List_node<int>{2, L3});
-    shared_ptr<List_node<int>> L1 =
-            make_shared<List_node<int>>(List_node<int>{1, L2});
+    shared_ptr<List_node<int>> L3 = make_shared<List_node<int>>(List_node<int>{3, nullptr});
+    shared_ptr<List_node<int>> L2 = make_shared<List_node<int>>(List_node<int>{2, L3});
+    shared_ptr<List_node<int>> L1 = make_shared<List_node<int>>(List_node<int>{1, L2});
 
     // should output "L1 does not have cycle."
-    assert(HasCycle(L1) == nullptr);
-    cout << "L1 " << (HasCycle(L1) ? "has" : "does not have") << " cycle."
+    assert(has_cycle(L1) == nullptr);
+    cout << "L1 " << (has_cycle(L1) ? "has" : "does not have") << " cycle."
          << "\n";
 
     // make it a cycle
     L3->next = L2;
     // should output "L1 has cycle, located at node has value 2"
-    assert(HasCycle(L1) != nullptr);
-    assert(HasCycle(L1)->data == 2);
-    auto temp = HasCycle(L1);
+    assert(has_cycle(L1) != nullptr);
+    assert(has_cycle(L1)->data == 2);
+    auto temp = has_cycle(L1);
     if (temp) {
         cout << "L1 has cycle, located at node has value " << temp->data << "\n";
     } else {

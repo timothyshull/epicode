@@ -11,7 +11,8 @@ using std::unique_ptr;
 template<typename T>
 struct Binary_tree_node {
     T data;
-    unique_ptr<Binary_tree_node<T>> left, right;
+    unique_ptr<Binary_tree_node<T>> left;
+    unique_ptr<Binary_tree_node<T>> right;
 };
 // @exclude
 #endif  // SOLUTIONS_BINARY_TREE_PROTOTYPE_H_

@@ -14,7 +14,7 @@ using std::vector;
 
 struct Interval;
 
-void RangeLookupInBSTHelper(const unique_ptr<BSTNode<int>>&, const Interval&,
+void RangeLookupInBSTHelper(const unique_ptr<BST_node<int>>&, const Interval&,
                             vector<int>*);
 
 // @include
@@ -22,7 +22,7 @@ struct Interval {
     int left, right;
 };
 
-vector<int> RangeLookupInBST(const unique_ptr<BSTNode<int>>& tree,
+vector<int> RangeLookupInBST(const unique_ptr<BST_node<int>>& tree,
                              const Interval& interval)
 {
     vector<int> result;
@@ -30,7 +30,7 @@ vector<int> RangeLookupInBST(const unique_ptr<BSTNode<int>>& tree,
     return result;
 }
 
-void RangeLookupInBSTHelper(const unique_ptr<BSTNode<int>>& tree,
+void RangeLookupInBSTHelper(const unique_ptr<BST_node<int>>& tree,
                             const Interval& interval, vector<int>* result)
 {
     if (tree == nullptr) {
@@ -57,26 +57,26 @@ int main(int argc, char* argv[])
     // 2  5    17   37    53
     //        13  29  41
     //             31
-    unique_ptr<BSTNode<int>> tree = make_unique<BSTNode<int>>(BSTNode<int>{19});
-    tree->left = make_unique<BSTNode<int>>(BSTNode<int>{7});
-    tree->left->left = make_unique<BSTNode<int>>(BSTNode<int>{3});
-    tree->left->left->left = make_unique<BSTNode<int>>(BSTNode<int>{2});
-    tree->left->left->right = make_unique<BSTNode<int>>(BSTNode<int>{5});
-    tree->left->right = make_unique<BSTNode<int>>(BSTNode<int>{11});
-    tree->left->right->right = make_unique<BSTNode<int>>(BSTNode<int>{17});
+    unique_ptr<BST_node<int>> tree = make_unique<BST_node<int>>(BST_node<int>{19});
+    tree->left = make_unique<BST_node<int>>(BST_node<int>{7});
+    tree->left->left = make_unique<BST_node<int>>(BST_node<int>{3});
+    tree->left->left->left = make_unique<BST_node<int>>(BST_node<int>{2});
+    tree->left->left->right = make_unique<BST_node<int>>(BST_node<int>{5});
+    tree->left->right = make_unique<BST_node<int>>(BST_node<int>{11});
+    tree->left->right->right = make_unique<BST_node<int>>(BST_node<int>{17});
     tree->left->right->right->left =
-            make_unique<BSTNode<int>>(BSTNode<int>{13});
-    tree->right = make_unique<BSTNode<int>>(BSTNode<int>{43});
-    tree->right->left = make_unique<BSTNode<int>>(BSTNode<int>{23});
-    tree->right->left->right = make_unique<BSTNode<int>>(BSTNode<int>{37});
+            make_unique<BST_node<int>>(BST_node<int>{13});
+    tree->right = make_unique<BST_node<int>>(BST_node<int>{43});
+    tree->right->left = make_unique<BST_node<int>>(BST_node<int>{23});
+    tree->right->left->right = make_unique<BST_node<int>>(BST_node<int>{37});
     tree->right->left->right->left =
-            make_unique<BSTNode<int>>(BSTNode<int>{29});
+            make_unique<BST_node<int>>(BST_node<int>{29});
     tree->right->left->right->left->right =
-            make_unique<BSTNode<int>>(BSTNode<int>{31});
+            make_unique<BST_node<int>>(BST_node<int>{31});
     tree->right->left->right->right =
-            make_unique<BSTNode<int>>(BSTNode<int>{41});
-    tree->right->right = make_unique<BSTNode<int>>(BSTNode<int>{47});
-    tree->right->right->right = make_unique<BSTNode<int>>(BSTNode<int>{53});
+            make_unique<BST_node<int>>(BST_node<int>{41});
+    tree->right->right = make_unique<BST_node<int>>(BST_node<int>{47});
+    tree->right->right->right = make_unique<BST_node<int>>(BST_node<int>{53});
     auto result = RangeLookupInBST(tree, {16, 31});
     sort(result.begin(), result.end());
     vector<int> golden_result = {17, 19, 23, 29, 31};

@@ -16,19 +16,19 @@ using std::numeric_limits;
 using std::unique_ptr;
 using std::vector;
 
-unique_ptr<BSTNode<int>> RebuildBSTFromPostorderHelper(const vector<int>&,
+unique_ptr<BST_node<int>> RebuildBSTFromPostorderHelper(const vector<int>&,
                                                        int, int);
 
 // @include
 // Given a postorder traversal of a BST, return its root.
-unique_ptr<BSTNode<int>> RebuildBSTFromPostorder(
+unique_ptr<BST_node<int>> RebuildBSTFromPostorder(
         const vector<int>& postorder)
 {
     return RebuildBSTFromPostorderHelper(postorder, 0, postorder.size());
 }
 
 // Build a BST based on postorder[start : end - 1], return its root.
-unique_ptr<BSTNode<int>> RebuildBSTFromPostorderHelper(
+unique_ptr<BST_node<int>> RebuildBSTFromPostorderHelper(
         const vector<int>& postorder, int start, int end)
 {
     if (start < end) {
@@ -36,8 +36,8 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPostorderHelper(
         while (x < end && postorder[x] < postorder[end - 1]) {
             ++x;
         }
-        return make_unique<BSTNode<int>>(
-                BSTNode<int>{postorder[end - 1],
+        return make_unique<BST_node<int>>(
+                BST_node<int>{postorder[end - 1],
                              RebuildBSTFromPostorderHelper(postorder, start, x),
                              RebuildBSTFromPostorderHelper(postorder, x, end - 1)});
     }
@@ -46,7 +46,7 @@ unique_ptr<BSTNode<int>> RebuildBSTFromPostorderHelper(
 // @exclude
 
 template<typename T>
-void CheckAns(const unique_ptr<BSTNode<T>>& n, const T& pre)
+void CheckAns(const unique_ptr<BST_node<T>>& n, const T& pre)
 {
     if (n) {
         CheckAns(n->left, pre);
@@ -64,7 +64,7 @@ int main(int argc, char* argv[])
     // should output 1, 2, 3, 4, 5, 6
     // preorder [1, 2, 4, 6, 5, 3]
     vector<int> postorder = {1, 2, 4, 6, 5, 3};
-    unique_ptr<BSTNode<int>> root(RebuildBSTFromPostorder(postorder));
+    unique_ptr<BST_node<int>> root(RebuildBSTFromPostorder(postorder));
     CheckAns(root, numeric_limits<int>::min());
     return 0;
 }

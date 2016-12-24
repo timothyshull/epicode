@@ -17,7 +17,7 @@ using std::uniform_int_distribution;
 using std::unordered_set;
 using std::vector;
 
-string RandString(int len)
+string rand_string(int len)
 {
     default_random_engine gen((random_device()) ());
     string ret;
@@ -157,16 +157,16 @@ int main(int argc, char* argv[])
             int n = dis(gen);
             while (n--) {
                 uniform_int_distribution<int> dis(1, 15);
-                dictionary.emplace(RandString(dis(gen)));
+                dictionary.emplace(rand_string(dis(gen)));
             }
         } else {
             uniform_int_distribution<int> dis(1, 50);
-            target = RandString(dis(gen));
+            target = rand_string(dis(gen));
             uniform_int_distribution<int> n_dis(1, 10000);
             int n = n_dis(gen);
             while (n--) {
                 uniform_int_distribution<int> dis(1, 15);
-                dictionary.emplace(RandString(dis(gen)));
+                dictionary.emplace(rand_string(dis(gen)));
             }
         }
         vector<string> ans(DecomposeIntoDictionaryWords(target, dictionary));

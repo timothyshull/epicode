@@ -47,7 +47,7 @@ double BuyAndSellStockTwice(const vector<double>& prices)
 // @exclude
 
 // O(n^4) checking answer.
-double CheckAns(const vector<double>& A)
+double check_ans(const vector<double>& A)
 {
     double cap = 0;
     for (int i = 1; i < A.size(); ++i) {
@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
             A.emplace_back(dis(gen));
         }
         cout << "n = " << n << "\n";
-        assert(CheckAns(A) == BuyAndSellStockTwice(A));
+        assert(check_ans(A) == BuyAndSellStockTwice(A));
     }
     return 0;
 }

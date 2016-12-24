@@ -83,7 +83,7 @@ int main(int argc, char* argv[])
         assert(res == 0.5 * n);
     }
 
-    // Test identical list.
+    // test identical list.
     shared_ptr<List_node<int>> head;
     for (int i = 0; i < 10; ++i) {
         auto curr = make_shared<List_node<int>>(List_node<int>{5, nullptr});

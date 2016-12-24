@@ -12,7 +12,7 @@ using std::make_unique;
 using std::unique_ptr;
 
 // @include
-BSTNode<int>* SearchBST(const unique_ptr<BSTNode<int>>& tree, int key)
+BST_node<int>* SearchBST(const unique_ptr<BST_node<int>>& tree, int key)
 {
     if (tree == nullptr) {
         return nullptr;
@@ -32,17 +32,17 @@ int main(int argc, char* argv[])
     //      37      53
     //    29  41
     //     31
-    auto tree = make_unique<BSTNode<int>>(BSTNode<int>{
-            43, make_unique<BSTNode<int>>(BSTNode<int>{
+    auto tree = make_unique<BST_node<int>>(BST_node<int>{
+            43, make_unique<BST_node<int>>(BST_node<int>{
                     23, nullptr,
-                    make_unique<BSTNode<int>>(BSTNode<int>{
-                            37, make_unique<BSTNode<int>>(BSTNode<int>{
-                                    29, nullptr, make_unique<BSTNode<int>>(
-                                            BSTNode<int>{31, nullptr})}),
-                            make_unique<BSTNode<int>>(BSTNode<int>{41, nullptr})})}),
-            make_unique<BSTNode<int>>(BSTNode<int>{
+                    make_unique<BST_node<int>>(BST_node<int>{
+                            37, make_unique<BST_node<int>>(BST_node<int>{
+                                    29, nullptr, make_unique<BST_node<int>>(
+                                            BST_node<int>{31, nullptr})}),
+                            make_unique<BST_node<int>>(BST_node<int>{41, nullptr})})}),
+            make_unique<BST_node<int>>(BST_node<int>{
                     47, nullptr,
-                    make_unique<BSTNode<int>>(BSTNode<int>{53, nullptr})})});
+                    make_unique<BST_node<int>>(BST_node<int>{53, nullptr})})});
     assert(tree.get() == SearchBST(tree, 43));
     assert(tree->left.get() == SearchBST(tree, 23));
     assert(tree->right.get() == SearchBST(tree, 47));

@@ -13,6 +13,7 @@ using std::cout;
 using std::default_random_engine;
 using std::endl;
 using std::max;
+using std::equal;
 using std::pair;
 using std::random_device;
 using std::stoi;

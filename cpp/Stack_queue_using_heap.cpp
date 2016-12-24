@@ -52,9 +52,9 @@ private:
 
 class Queue {
 public:
-    void Enqueue(int x) { max_heap_.emplace(ValueWithRank{x, timestamp_--}); }
+    void enqueue(int x) { max_heap_.emplace(ValueWithRank{x, timestamp_--}); }
 
-    int Dequeue()
+    int dequeue()
     {
         if (max_heap_.empty()) {
             throw length_error("empty queue");
@@ -123,14 +123,14 @@ int main(int argc, char* argv[])
     assert(s.Peek() == 0);
 
     Queue q;
-    q.Enqueue(1);
-    q.Enqueue(2);
+    q.enqueue(1);
+    q.enqueue(2);
     assert(q.Head() == 1);
-    q.Dequeue();
+    q.dequeue();
     assert(q.Head() == 2);
-    q.Dequeue();
+    q.dequeue();
     try {
-        q.Dequeue();
+        q.dequeue();
         assert(false);
     } catch (const exception& e) {
         cout << "empty queue" << "\n";

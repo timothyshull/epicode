@@ -9,9 +9,10 @@ using std::shared_ptr;
 
 // @include
 template<typename T>
-struct BSTNode {
+struct BST_node {
     T data;
-    shared_ptr<BSTNode<T>> left, right;
+    shared_ptr<BST_node<T>> left;
+    shared_ptr<BST_node<T>> right;
 };
 // @exclude
 #endif  // SOLUTIONS_BST_PROTOTYPE_SHARED_PTR_H_

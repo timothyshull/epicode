@@ -19,7 +19,7 @@ using std::uniform_real_distribution;
 using std::vector;
 
 // @include
-double BuyAndSellStockOnce(const vector<double>& prices)
+double buy_and_sell_stock_once(const vector<double>& prices)
 {
     double min_price_so_far = numeric_limits<double>::max(), max_profit = 0;
     for (const double& price : prices) {
@@ -32,7 +32,7 @@ double BuyAndSellStockOnce(const vector<double>& prices)
 // @exclude
 
 // O(n^2) checking answer.
-double CheckAns(const vector<double>& h)
+double check_ans(const vector<double>& h)
 {
     double cap = 0;
     for (int i = 1; i < h.size(); ++i) {
@@ -45,7 +45,8 @@ double CheckAns(const vector<double>& h)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
+    random_device rd;
+    default_random_engine gen(rd());
     for (int times = 0; times < 1000; ++times) {
         int n;
         if (argc == 2) {
@@ -59,8 +60,8 @@ int main(int argc, char* argv[])
         for (int i = 0; i < n; ++i) {
             A.emplace_back(dis(gen));
         }
-        cout << BuyAndSellStockOnce(A) << "\n";
-        assert(CheckAns(A) == BuyAndSellStockOnce(A));
+        cout << buy_and_sell_stock_once(A) << "\n";
+        assert(check_ans(A) == buy_and_sell_stock_once(A));
     }
     return 0;
 }
