@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_prototype.h
+memory
+-
+
+/Users/skull/Programming/Interview/epicode-master/cpp/unique_binary_trees_all.cpp
+algorithm
+-
+cassert
+-
+iostream
+-
+random
+-
+vector
+-
+binary_tree_prototype.h
+/Users/skull/Programming/Interview/epicode-master/cpp/binary_tree_prototype.h
+

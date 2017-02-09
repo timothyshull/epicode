@@ -13,7 +13,7 @@ using std::shared_ptr;
 
 // @include
 shared_ptr<List_node<int>> ReverseSublist(shared_ptr<List_node<int>> L,
-                                         int start, int finish)
+                                          int start, int finish)
 {
     if (start == finish) {  // No need to reverse since start == finish.
         return L;

@@ -42,7 +42,7 @@ shared_ptr<List_node<int>> ReverseK(shared_ptr<List_node<int>> L, int k)
         }
 
         sublist_successor->next = nullptr;
-        ReverseLinkedList(sublist_head);
+        reverse_linked_list(sublist_head);
 
         // Splice the reversed sublist.
         sublist_predecessor->next = sublist_successor;

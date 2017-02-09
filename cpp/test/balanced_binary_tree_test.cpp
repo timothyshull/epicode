@@ -27,7 +27,7 @@ void unit_test(TestSentry::Ptr& sentry, const char* description,
 }
 
 void unit_test(TestSentry::Ptr& sentry, const char* description,
-              const vector<int>& tree, bool expected)
+               const vector<int>& tree, bool expected)
 {
     unit_test(sentry, description, BuildTree(tree), expected);
 }

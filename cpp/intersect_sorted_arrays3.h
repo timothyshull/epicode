@@ -7,28 +7,29 @@
 
 using std::vector;
 
-namespace IntersectTwoSortedArrays3 {
+namespace Intersect_two_sorted_arrays3 {
 
 // @include
-    vector<int> IntersectTwoSortedArrays(const vector<int>& A,
-                                         const vector<int>& B)
+    vector<int> intersect_two_sorted_arrays(const vector<int>& a, const vector<int>& b)
     {
-        vector<int> intersection_A_B;
-        int i = 0, j = 0;
-        while (i < A.size() && j < B.size()) {
-            if (A[i] == B[j] && (i == 0 || A[i] != A[i - 1])) {
-                intersection_A_B.emplace_back(A[i]);
-                ++i, ++j;
-            } else if (A[i] < B[j]) {
+        vector<int> intersection_a_b;
+        int i = 0;
+        int j = 0;
+        while (i < a.size() && j < b.size()) {
+            if (a[i] == b[j] && (i == 0 || a[i] != a[i - 1])) {
+                intersection_a_b.emplace_back(a[i]);
                 ++i;
-            } else {  // A[i] > B[j].
+                ++j;
+            } else if (a[i] < b[j]) {
+                ++i;
+            } else {  // a[i] > b[j].
                 ++j;
             }
         }
-        return intersection_A_B;
+        return intersection_a_b;
     }
 // @exclude
 
-}  // namespace IntersectTwoSortedArrays3
+}  // namespace Intersect_two_sorted_arrays3
 
 #endif  // SOLUTIONS_INTERSECT_SORTED_ARRAYS3_H_

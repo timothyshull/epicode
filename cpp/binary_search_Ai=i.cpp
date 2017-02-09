@@ -52,7 +52,7 @@ static void simple_test()
     vector<int> A = {0, 1, 2, 3};
     assert(-1 != search_entry_equal_to_its_index(A));
     assert(0 <= search_entry_equal_to_its_index(A) &&
-                   search_entry_equal_to_its_index(A) <= 3);
+           search_entry_equal_to_its_index(A) <= 3);
     A[0] = -1;
     A[2] = 4;
     A[3] = 5;

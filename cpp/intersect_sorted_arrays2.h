@@ -8,23 +8,21 @@
 
 using std::vector;
 
-namespace IntersectTwoSortedArrays2 {
+namespace Intersect_two_sorted_arrays2 {
 
 // @include
-    vector<int> IntersectTwoSortedArrays(const vector<int>& A,
-                                         const vector<int>& B)
+    vector<int> intersect_two_sorted_arrays(const vector<int>& a, const vector<int>& b)
     {
-        vector<int> intersection_A_B;
-        for (int i = 0; i < A.size(); ++i) {
-            if ((i == 0 || A[i] != A[i - 1]) &&
-                binary_search(B.cbegin(), B.cend(), A[i])) {
-                intersection_A_B.emplace_back(A[i]);
+        vector<int> intersection_a_b;
+        for (int i = 0; i < a.size(); ++i) {
+            if ((i == 0 || a[i] != a[i - 1]) && std::binary_search(b.cbegin(), b.cend(), a[i])) {
+                intersection_a_b.emplace_back(a[i]);
             }
         }
-        return intersection_A_B;
+        return intersection_a_b;
     }
 // @exclude
 
-}  // namespace IntersectTwoSortedArrays2
+}  // namespace Intersect_two_sorted_arrays2
 
 #endif  // SOLUTIONS_INTERSECT_SORTED_ARRAYS2_H_

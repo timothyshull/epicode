@@ -17,18 +17,18 @@ struct Student {
     double grade_point_average;
 };
 
-void SortByGPA(vector<Student>* students)
+void sort_by_gpa(vector<Student>& students)
 {
-    sort(students->begin(), students->end(),
+    sort(students.begin(), students.end(),
          [](const Student& a, const Student& b) {
              return a.grade_point_average >= b.grade_point_average;
          });
 }
 
-void SortByName(vector<Student>* students)
+void sort_by_name(vector<Student>& students)
 {
     // Rely on the operator< defined in Student.
-    sort(students->begin(), students->end());
+    sort(students.begin(), students.end());
 }
 // @exclude
 
@@ -38,9 +38,9 @@ int main(int argc, char* argv[])
                                 {"C", 3.0},
                                 {"B", 2.0},
                                 {"D", 3.2}};
-    SortByName(&students);
+    sort_by_name(students);
     assert(is_sorted(students.begin(), students.end()));
-    SortByGPA(&students);
+    sort_by_gpa(students);
     assert(is_sorted(students.begin(), students.end(),
                      [](const Student& a, const Student& b) {
                          return a.grade_point_average >= b.grade_point_average;

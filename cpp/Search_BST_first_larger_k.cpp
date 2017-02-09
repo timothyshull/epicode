@@ -9,7 +9,7 @@ using std::unique_ptr;
 
 // @include
 BST_node<int>* FindFirstGreaterThanK(const unique_ptr<BST_node<int>>& tree,
-                                    int k)
+                                     int k)
 {
     BST_node<int>* subtree = tree.get(), * first_so_far = nullptr;
     while (subtree) {

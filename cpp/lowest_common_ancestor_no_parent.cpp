@@ -24,8 +24,8 @@ struct Status {
 };
 
 Binary_tree_node<int>* LCA(const unique_ptr<Binary_tree_node<int>>& tree,
-                         const unique_ptr<Binary_tree_node<int>>& node0,
-                         const unique_ptr<Binary_tree_node<int>>& node1)
+                           const unique_ptr<Binary_tree_node<int>>& node0,
+                           const unique_ptr<Binary_tree_node<int>>& node1)
 {
     return LCAHelper(tree, node0, node1).ancestor;
 }

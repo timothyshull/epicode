@@ -92,7 +92,7 @@ Pair_of_points_with_distance find_closest_pair_points_in_subarray(
 
 // Returns the closest two points and the distance between them.
 Pair_of_points_with_distance solve_by_enumerate_all_pairs(const vector<Point>& points,
-                                                      int begin, int end)
+                                                          int begin, int end)
 {
     Pair_of_points_with_distance ret;
     ret.distance = numeric_limits<double>::max();
@@ -109,7 +109,7 @@ Pair_of_points_with_distance solve_by_enumerate_all_pairs(const vector<Point>& p
 
 // Returns the closest two points and its distance as a tuple.
 Pair_of_points_with_distance find_closest_pair_in_remain(vector<Point>* remain,
-                                                     double d)
+                                                         double d)
 {
     sort(remain->begin(), remain->end(), [](const Point& a, const Point& b) { return a.y < b.y; });
 

@@ -12,13 +12,13 @@ using std::make_shared;
 using std::shared_ptr;
 
 // @include
-shared_ptr<List_node<int>> ReverseLinkedList(
+shared_ptr<List_node<int>> reverse_linked_list(
         const shared_ptr<List_node<int>>& head)
 {
     if (!head || !head->next) {
         return head;
     }
-    auto new_head = ReverseLinkedList(head->next);
+    auto new_head = reverse_linked_list(head->next);
     head->next->next = head;
     head->next = nullptr;
     return new_head;
@@ -40,12 +40,12 @@ int main(int argc, char* argv[])
                     2, make_shared<List_node<int>>(List_node<int>{3, nullptr})})});
     cout << "before reverse" << "\n";
     Print(L1);
-    shared_ptr<List_node<int>> newhead = ReverseLinkedList(L1);
+    shared_ptr<List_node<int>> newhead = reverse_linked_list(L1);
     assert(newhead->data == 3 && newhead->next->data == 2 &&
            newhead->next->next->data == 1);
     cout << "\n" << "after reverse" << "\n";
     Print(newhead);
-    newhead = ReverseLinkedList(newhead);
+    newhead = reverse_linked_list(newhead);
     assert(newhead->data == 1 && newhead->next->data == 2 &&
            newhead->next->next->data == 3);
     cout << "\n" << "after another reverse" << "\n";

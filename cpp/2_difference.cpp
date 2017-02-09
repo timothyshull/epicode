@@ -5,17 +5,16 @@
 #include <iostream>
 #include <vector>
 
-using namespace std;
-
 // @include
-bool two_difference(const vector<int>& a, int k)
+bool two_difference(const std::vector<int>& coll, int k)
 {
-    int i = a.size() - 1, j = a.size() - 1;
+    auto i = coll.size() - 1;
+    auto j = coll.size() - 1;
     while (i >= 0 && j >= 0) {
-        if (a[i] - a[j] == k) {
-            cout << a[i] << ' ' << a[j] << ' ' << k << "\n";
+        if (coll[i] - coll[j] == k) {
+            std::cout << coll[i] << ' ' << coll[j] << ' ' << k << "\n";
             return true;
-        } else if (a[i] - a[j] > k) {
+        } else if (coll[i] - coll[j] > k) {
             --i;
         } else {
             --j;
@@ -26,11 +25,11 @@ bool two_difference(const vector<int>& a, int k)
 // @exclude
 
 // n^2 solution
-bool check_ans(const vector<int>& A, int k)
+bool check_ans(const std::vector<int>& coll, int k)
 {
-    for (int i = 0; i < A.size(); ++i) {
-        for (int j = 0; j < A.size(); ++j) {
-            if (A[i] - A[j] == k) {
+    for (int i{0}; i < coll.size(); ++i) {
+        for (int j = 0; j < coll.size(); ++j) {
+            if (coll[i] - coll[j] == k) {
                 return true;
             }
         }
@@ -40,28 +39,30 @@ bool check_ans(const vector<int>& A, int k)
 
 int main(int argc, char* argv[])
 {
-    int n, k;
-    srand(time(NULL));
+    // TODO: fix use of C-style random here
+    int n;
+    int k;
+    std::srand(static_cast<unsigned>(time(nullptr)));
     if (argc == 2) {
-        n = atoi(argv[1]);
-        k = rand() % n;
+        n = std::stoi(argv[1]);
+        k = std::rand() % n;
     } else if (argc == 3) {
-        n = atoi(argv[1]);
-        k = atoi(argv[2]);
+        n = std::stoi(argv[1]);
+        k = std::stoi(argv[2]);
     } else {
-        n = 1 + rand() % 10000;
-        k = rand() % n;
+        n = 1 + std::rand() % 10000;
+        k = std::rand() % n;
     }
-    vector<int> A;
+    std::vector<int> coll;
     for (size_t i = 0; i < n; ++i) {
-        A.push_back(((rand() & 1) ? -1 : 1) * rand() % 100000);
+        coll.push_back(((rand() & 1) ? -1 : 1) * rand() % 100000);
     }
-    sort(A.begin(), A.end());
-    for (int i = 0; i < A.size(); ++i) {
-        cout << A[i] << ' ';
+    sort(coll.begin(), coll.end());
+    for (int i = 0; i < coll.size(); ++i) {
+        std::cout << coll[i] << ' ';
     }
-    cout << "\n";
-    cout << ((two_difference(A, k) == true) ? "true" : "false") << "\n";
-    assert(check_ans(A, k) == two_difference(A, k));
+    std::cout << "\n";
+    std::cout << std::boolalpha << two_difference(coll, k) << "\n";
+    assert(check_ans(coll, k) == two_difference(coll, k));
     return 0;
 }

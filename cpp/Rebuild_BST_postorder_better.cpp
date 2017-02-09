@@ -16,7 +16,7 @@ using std::unique_ptr;
 using std::vector;
 
 unique_ptr<BST_node<int>> RebuildBSTFromPostorderHelper(const vector<int>&,
-                                                       int, int, int*);
+                                                        int, int, int*);
 
 // @include
 unique_ptr<BST_node<int>> RebuildBSTFromPostorder(

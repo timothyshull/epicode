@@ -13,7 +13,7 @@ using std::unique_ptr;
 using std::vector;
 
 unique_ptr<Binary_tree_node<int>> ReconstructPreorderHelper(const vector<int*>&,
-                                                          int*);
+                                                            int*);
 
 // @include
 unique_ptr<Binary_tree_node<int>> ReconstructPreorder(

@@ -17,7 +17,7 @@ using std::unique_ptr;
 using std::vector;
 
 unique_ptr<BST_node<int>> RebuildBSTFromPreorderHelper(const vector<int>&, int,
-                                                      int);
+                                                       int);
 
 // @include
 unique_ptr<BST_node<int>> RebuildBSTFromPreorder(
@@ -41,10 +41,10 @@ unique_ptr<BST_node<int>> RebuildBSTFromPreorderHelper(
     }
     return make_unique<BST_node<int>>(
             BST_node<int>{preorder_sequence[start],
-                         RebuildBSTFromPreorderHelper(preorder_sequence, start + 1,
-                                                      transition_point),
-                         RebuildBSTFromPreorderHelper(preorder_sequence,
-                                                      transition_point, end)});
+                          RebuildBSTFromPreorderHelper(preorder_sequence, start + 1,
+                                                       transition_point),
+                          RebuildBSTFromPreorderHelper(preorder_sequence,
+                                                       transition_point, end)});
 }
 // @exclude
 

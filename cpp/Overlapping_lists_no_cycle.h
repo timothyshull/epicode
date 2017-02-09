@@ -5,13 +5,13 @@
 
 #include "linked_list_prototype.h"
 
-int Length(shared_ptr<List_node<int>> L);
+int Length(shared_ptr <List_node<int>> L);
 
-void AdvanceListByK(int k, shared_ptr<List_node<int>>* L);
+void AdvanceListByK(int k, shared_ptr <List_node<int>>* L);
 
 // @include
-shared_ptr<List_node<int>> OverlappingNoCycleLists(
-        shared_ptr<List_node<int>> L1, shared_ptr<List_node<int>> L2)
+shared_ptr <List_node<int>> OverlappingNoCycleLists(
+        shared_ptr <List_node<int>> L1, shared_ptr <List_node<int>> L2)
 {
     int L1_len = Length(L1), L2_len = Length(L2);
 
@@ -24,7 +24,7 @@ shared_ptr<List_node<int>> OverlappingNoCycleLists(
     return L1;  // nullptr implies there is no overlap between L1 and L2.
 }
 
-int Length(shared_ptr<List_node<int>> L)
+int Length(shared_ptr <List_node<int>> L)
 {
     int length = 0;
     while (L) {
@@ -34,7 +34,7 @@ int Length(shared_ptr<List_node<int>> L)
 }
 
 // Advances L by k steps.
-void AdvanceListByK(int k, shared_ptr<List_node<int>>* L)
+void AdvanceListByK(int k, shared_ptr <List_node<int>>* L)
 {
     while (k--) {
         *L = (*L)->next;

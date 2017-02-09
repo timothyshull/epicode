@@ -17,7 +17,7 @@ int Distance(shared_ptr<List_node<int>> a, shared_ptr<List_node<int>> b);
 
 // @include
 shared_ptr<List_node<int>> OverlappingLists(shared_ptr<List_node<int>> L1,
-                                           shared_ptr<List_node<int>> L2)
+                                            shared_ptr<List_node<int>> L2)
 {
     // Store the start of cycle if any.
     auto root1 = has_cycle(L1), root2 = has_cycle(L2);

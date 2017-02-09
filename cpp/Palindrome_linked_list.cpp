@@ -26,7 +26,7 @@ bool IsLinkedListAPalindrome(shared_ptr<List_node<int>> L)
     }
 
     // Compares the first half and the reversed second half lists.
-    auto first_half_iter = L, second_half_iter = ReverseLinkedList(slow);
+    auto first_half_iter = L, second_half_iter = reverse_linked_list(slow);
     while (second_half_iter && first_half_iter) {
         if (second_half_iter->data != first_half_iter->data) {
             return false;

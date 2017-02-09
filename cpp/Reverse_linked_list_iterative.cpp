@@ -34,12 +34,12 @@ int main(int argc, char* argv[])
 
     cout << "before reverse" << "\n";
     Print(L1);
-    shared_ptr<List_node<int>> newhead = ReverseLinkedList(L1);
+    shared_ptr<List_node<int>> newhead = reverse_linked_list(L1);
     cout << "\n" << "after reverse" << "\n";
     assert(newhead->data == 3 && newhead->next->data == 2 &&
            newhead->next->next->data == 1);
     Print(newhead);
-    newhead = ReverseLinkedList(newhead);
+    newhead = reverse_linked_list(newhead);
     assert(newhead->data == 1 && newhead->next->data == 2 &&
            newhead->next->next->data == 3);
     cout << "\n" << "after another reverse" << "\n";

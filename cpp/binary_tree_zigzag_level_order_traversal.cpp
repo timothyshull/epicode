@@ -66,6 +66,6 @@ int main(int argc, char* argv[])
     root->right->right = make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6, nullptr, nullptr});
     print_binary_tree_zigzag_level_order(root);
     vector<int> golden_res = {3, -1, 5, 2, -1, 1, 4, 6, -1};
-    assert(equal(golden_res.begin(), golden_res.end(), result.begin(),result.end()));
+    assert(equal(golden_res.begin(), golden_res.end(), result.begin(), result.end()));
     return 0;
 }

@@ -5,14 +5,12 @@
 
 #include <memory>
 
-using std::unique_ptr;
-
 // @include
-template<typename T>
+template<typename Data_type>
 struct Binary_tree_node {
-    T data;
-    unique_ptr<Binary_tree_node<T>> left;
-    unique_ptr<Binary_tree_node<T>> right;
+    Data_type data;
+    std::unique_ptr<Binary_tree_node<Data_type>> left;
+    std::unique_ptr<Binary_tree_node<Data_type>> right;
 };
 // @exclude
 #endif  // SOLUTIONS_BINARY_TREE_PROTOTYPE_H_

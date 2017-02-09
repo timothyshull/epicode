@@ -17,7 +17,7 @@ using std::unique_ptr;
 using std::vector;
 
 unique_ptr<BST_node<int>> RebuildBSTFromPostorderHelper(const vector<int>&,
-                                                       int, int);
+                                                        int, int);
 
 // @include
 // Given a postorder traversal of a BST, return its root.
@@ -38,8 +38,8 @@ unique_ptr<BST_node<int>> RebuildBSTFromPostorderHelper(
         }
         return make_unique<BST_node<int>>(
                 BST_node<int>{postorder[end - 1],
-                             RebuildBSTFromPostorderHelper(postorder, start, x),
-                             RebuildBSTFromPostorderHelper(postorder, x, end - 1)});
+                              RebuildBSTFromPostorderHelper(postorder, start, x),
+                              RebuildBSTFromPostorderHelper(postorder, x, end - 1)});
     }
     return nullptr;
 }

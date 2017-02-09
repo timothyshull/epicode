@@ -17,7 +17,7 @@ shared_ptr<BST_node<int>> BSTToDoublyListHelper(
         const shared_ptr<BST_node<int>>&);
 
 shared_ptr<BST_node<int>> MergeTwoSortedLists(shared_ptr<BST_node<int>>,
-                                             shared_ptr<BST_node<int>>);
+                                              shared_ptr<BST_node<int>>);
 
 void AppendNode(shared_ptr<BST_node<int>>*, shared_ptr<BST_node<int>>*);
 
@@ -102,7 +102,7 @@ int CountLength(shared_ptr<BST_node<int>> L)
 
 // @include
 shared_ptr<BST_node<int>> MergeTwoBSTs(shared_ptr<BST_node<int>> A,
-                                      shared_ptr<BST_node<int>> B)
+                                       shared_ptr<BST_node<int>> B)
 {
     A = BSTToDoublyList(A), B = BSTToDoublyList(B);
     int A_length = CountLength(A), B_length = CountLength(B);
@@ -113,7 +113,7 @@ shared_ptr<BST_node<int>> MergeTwoBSTs(shared_ptr<BST_node<int>> A,
 
 // Merges two sorted doubly linked lists, returns the head of merged list.
 shared_ptr<BST_node<int>> MergeTwoSortedLists(shared_ptr<BST_node<int>> A,
-                                             shared_ptr<BST_node<int>> B)
+                                              shared_ptr<BST_node<int>> B)
 {
     shared_ptr<BST_node<int>> sorted_head(new BST_node<int>);
     shared_ptr<BST_node<int>> tail = sorted_head;

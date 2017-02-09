@@ -21673,6 +21673,15 @@
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays.cpp">
 			<Option target="intersect_sorted_arrays"/>
 		</Unit>
+		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays1.h">
+			<Option target="intersect_sorted_arrays"/>
+		</Unit>
+		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays2.h">
+			<Option target="intersect_sorted_arrays"/>
+		</Unit>
+		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/intersect_sorted_arrays3.h">
+			<Option target="intersect_sorted_arrays"/>
+		</Unit>
 		<Unit filename="/Users/skull/Programming/Interview/epicode-master/cpp/is_binary_tree_a_bst.cpp">
 			<Option target="is_binary_tree_a_bst"/>
 		</Unit>

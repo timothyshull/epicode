@@ -42,7 +42,7 @@ int main(int argc, char* argv[])
         }
         cout << s << "\n";
         assert(can_string_be_palindrome_hash::can_form_palindrome(s) ==
-                       can_string_be_a_palindrome_sorting::can_form_palindrome(&s));
+               can_string_be_a_palindrome_sorting::can_form_palindrome(&s));
     }
     return 0;
 }

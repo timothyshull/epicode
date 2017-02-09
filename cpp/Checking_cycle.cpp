@@ -13,12 +13,12 @@ using std::make_shared;
 
 void simple_test()
 {
-    shared_ptr<List_node<int>> L0 = make_shared<List_node<int>>(List_node<int>{42, nullptr});
+    shared_ptr <List_node<int>> L0 = make_shared<List_node<int>>(List_node<int>{42, nullptr});
     L0->next = L0;
     assert(has_cycle(L0));
 
-    shared_ptr<List_node<int>> L1 = make_shared<List_node<int>>(List_node<int>{42, nullptr});
-    shared_ptr<List_node<int>> L2 = make_shared<List_node<int>>(List_node<int>{42, nullptr});
+    shared_ptr <List_node<int>> L1 = make_shared<List_node<int>>(List_node<int>{42, nullptr});
+    shared_ptr <List_node<int>> L2 = make_shared<List_node<int>>(List_node<int>{42, nullptr});
     L1->next = L2;
     L2->next = L1;
     assert(has_cycle(L1) == L1);
@@ -32,9 +32,9 @@ void simple_test()
 int main(int argc, char* argv[])
 {
     simple_test();
-    shared_ptr<List_node<int>> L3 = make_shared<List_node<int>>(List_node<int>{3, nullptr});
-    shared_ptr<List_node<int>> L2 = make_shared<List_node<int>>(List_node<int>{2, L3});
-    shared_ptr<List_node<int>> L1 = make_shared<List_node<int>>(List_node<int>{1, L2});
+    shared_ptr <List_node<int>> L3 = make_shared<List_node<int>>(List_node<int>{3, nullptr});
+    shared_ptr <List_node<int>> L2 = make_shared<List_node<int>>(List_node<int>{2, L3});
+    shared_ptr <List_node<int>> L1 = make_shared<List_node<int>>(List_node<int>{1, L2});
 
     // Should output "L1 does not have cycle."
     assert(has_cycle(L1) == nullptr);

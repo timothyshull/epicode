@@ -18,7 +18,7 @@ void UnitTest(TestSentry::Ptr& sentry, const char* description,
             WritePair("b", b);
     stream->RegisterExpectedOutput(expected);
     try {
-        vector<int> result = IntersectTwoSortedArrays3::IntersectTwoSortedArrays(a, b);
+        vector<int> result = Intersect_two_sorted_arrays3::intersect_two_sorted_arrays(a, b);
         stream->RegisterUserOutput(result, result == expected);
     }
     catch (...) {

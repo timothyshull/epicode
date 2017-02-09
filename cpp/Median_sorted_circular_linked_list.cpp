@@ -19,7 +19,7 @@ using std::uniform_int_distribution;
 
 // @include
 double FindMedianSortedCircularLinkedList(
-        const shared_ptr<List_node<int>>& arbitrary_node)
+        const shared_ptr <List_node<int>>& arbitrary_node)
 {
     // Checks if all nodes are identical and identifies the first smallest node.
     auto iter = arbitrary_node, first_smallest_node = arbitrary_node;
@@ -43,7 +43,7 @@ double FindMedianSortedCircularLinkedList(
 
 void small_test()
 {
-    shared_ptr<List_node<int>> L = make_shared<List_node<int>>(
+    shared_ptr <List_node<int>> L = make_shared<List_node<int>>(
             List_node<int>{0, make_shared<List_node<int>>(List_node<int>{
                     2, make_shared<List_node<int>>(List_node<int>{
                             2, make_shared<List_node<int>>(
@@ -65,13 +65,13 @@ int main(int argc, char* argv[])
             uniform_int_distribution<int> dis(1, 1000);
             n = dis(gen);
         }
-        shared_ptr<List_node<int>> head;
+        shared_ptr <List_node<int>> head;
         for (int i = n; i >= 0; --i) {
             auto curr = make_shared<List_node<int>>(List_node<int>{i, nullptr});
             curr->next = head;
             head = curr;
         }
-        shared_ptr<List_node<int>> curr = head;
+        shared_ptr <List_node<int>> curr = head;
         if (curr != shared_ptr<List_node<int>>(nullptr)) {
             while (curr->next != shared_ptr<List_node<int>>(nullptr)) {
                 curr = curr->next;
@@ -84,13 +84,13 @@ int main(int argc, char* argv[])
     }
 
     // test identical list.
-    shared_ptr<List_node<int>> head;
+    shared_ptr <List_node<int>> head;
     for (int i = 0; i < 10; ++i) {
         auto curr = make_shared<List_node<int>>(List_node<int>{5, nullptr});
         curr->next = head;
         head = curr;
     }
-    shared_ptr<List_node<int>> curr = head;
+    shared_ptr <List_node<int>> curr = head;
     if (curr != shared_ptr<List_node<int>>(nullptr)) {
         while (curr->next != nullptr) {
             curr = curr->next;

@@ -14,7 +14,7 @@ using std::shared_ptr;
 
 // @include
 shared_ptr<List_node<int>> ListPivoting(const shared_ptr<List_node<int>>& L,
-                                       int x)
+                                        int x)
 {
     shared_ptr<List_node<int>> less_head(new List_node<int>),
             equal_head(new List_node<int>), greater_head(new List_node<int>);

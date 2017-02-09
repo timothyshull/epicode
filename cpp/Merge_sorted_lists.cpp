@@ -21,8 +21,8 @@ using std::uniform_int_distribution;
 
 void simple_test()
 {
-    shared_ptr<List_node<int>> L1 = nullptr;
-    shared_ptr<List_node<int>> L2 = nullptr;
+    shared_ptr <List_node<int>> L1 = nullptr;
+    shared_ptr <List_node<int>> L2 = nullptr;
     auto result = MergeTwoSortedLists(L1, L2);
     assert(result == nullptr);
 
@@ -47,7 +47,7 @@ int main(int argc, char* argv[])
     simple_test();
     default_random_engine gen((random_device()) ());
     for (int times = 0; times < 10000; ++times) {
-        shared_ptr<List_node<int>> F = nullptr, L = nullptr;
+        shared_ptr <List_node<int>> F = nullptr, L = nullptr;
         int n, m;
         if (argc == 3) {
             n = stoi(argv[1]), m = stoi(argv[2]);
@@ -58,19 +58,19 @@ int main(int argc, char* argv[])
             n = dis(gen), m = dis(gen);
         }
         for (int i = n; i > 0; --i) {
-            shared_ptr<List_node<int>> temp =
+            shared_ptr <List_node<int>> temp =
                     make_shared<List_node<int>>(List_node<int>{i, nullptr});
             temp->next = F;
             F = temp;
         }
         for (int j = m; j > 0; --j) {
-            shared_ptr<List_node<int>> temp =
+            shared_ptr <List_node<int>> temp =
                     make_shared<List_node<int>>(List_node<int>{j, nullptr});
             temp->next = L;
             L = temp;
         }
 
-        shared_ptr<List_node<int>> sorted_head = MergeTwoSortedLists(F, L);
+        shared_ptr <List_node<int>> sorted_head = MergeTwoSortedLists(F, L);
         int count = 0;
         int pre = numeric_limits<int>::min();
         while (sorted_head) {
