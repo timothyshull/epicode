@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/sudoku_check.cpp
+cassert
+-
+cmath
+-
+deque
+-
+vector
+-
+

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/bst_prototype.h
+memory
+-
+
+/Users/skull/Programming/Interview/epicode-master/cpp/build_bst_from_sorted_array.cpp
+cassert
+-
+iostream
+-
+random
+-
+bst_prototype.h
+/Users/skull/Programming/Interview/epicode-master/cpp/bst_prototype.h
+

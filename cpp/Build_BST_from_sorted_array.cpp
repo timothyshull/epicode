@@ -2,58 +2,42 @@
 
 #include <cassert>
 #include <iostream>
-#include <memory>
 #include <random>
-#include <vector>
 
 #include "bst_prototype.h"
 
-using std::cout;
-using std::default_random_engine;
-using std::endl;
-using std::make_unique;
-using std::random_device;
-using std::uniform_int_distribution;
-using std::unique_ptr;
-using std::vector;
-
-unique_ptr<BST_node<int>> build_min_height_bst_from_sorted_array_helper(const vector<int>&, int, int);
+std::unique_ptr<BST_node<int>> build_min_height_bst_from_sorted_array_helper(const std::vector<int>&, int, int);
 
 // @include
-unique_ptr<BST_node<int>> build_min_height_bst_from_sorted_array(const vector<int>& A)
+std::unique_ptr<BST_node<int>> build_min_height_bst_from_sorted_array(const std::vector<int>& a)
 {
-    return build_min_height_bst_from_sorted_array_helper(A, 0, A.size());
+    return build_min_height_bst_from_sorted_array_helper(a, 0, static_cast<int>(a.size())); // narrow_cast
 }
 
 // Build a min-height BST over the entries in A[start : end - 1].
-unique_ptr<BST_node<int>> build_min_height_bst_from_sorted_array_helper(
-        const vector<int>& A, int start, int end)
+std::unique_ptr<BST_node<int>> build_min_height_bst_from_sorted_array_helper(const std::vector<int>& a, int start, int end)
 {
-    if (start >= end) {
-        return nullptr;
-    }
-    int mid = start + ((end - start) / 2);
-    return make_unique<BST_node<int>>(BST_node<int>{
-            A[mid], build_min_height_bst_from_sorted_array_helper(A, start, mid),
-            build_min_height_bst_from_sorted_array_helper(A, mid + 1, end)});
+    if (start >= end) { return nullptr; }
+    int mid{start + ((end - start) / 2)};
+    return std::make_unique<BST_node<int>>(BST_node<int>{a[mid], build_min_height_bst_from_sorted_array_helper(a, start, mid), build_min_height_bst_from_sorted_array_helper(a, mid + 1, end)});
 }
 // @exclude
 
-template<typename T>
-void TraversalCheck(const unique_ptr<BST_node<T>>& tree, T* target)
+template<typename Data_type>
+void traversal_check(const std::unique_ptr<BST_node<Data_type>>& tree, Data_type& target)
 {
     if (tree) {
-        TraversalCheck(tree->left, target);
-        assert(*target == tree->data);
-        ++*target;
-        TraversalCheck(tree->right, target);
+        traversal_check(tree->left, target);
+        assert(tree->data == target);
+        ++target;
+        traversal_check(tree->right, target);
     }
 }
 
 static void simple_test()
 {
-    vector<int> A = {1, 2, 3, 4};
-    unique_ptr<BST_node<int>> result = build_min_height_bst_from_sorted_array(A);
+    std::vector<int> a{1, 2, 3, 4};
+    std::unique_ptr<BST_node<int>> result{build_min_height_bst_from_sorted_array(a)};
     assert(3 == result->data);
     assert(2 == result->left->data);
     assert(1 == result->left->left->data);
@@ -63,21 +47,17 @@ static void simple_test()
 int main(int argc, char* argv[])
 {
     simple_test();
-    random_device rd;
-    default_random_engine gen(rd());
-    for (int times = 0; times < 1000; ++times) {
-        int n;
-        if (argc == 2) {
-            n = atoi(argv[1]);
-        } else {
-            uniform_int_distribution<int> dis(1, 1000);
-            n = dis(gen);
-        }
-        vector<int> A(n);
-        iota(A.begin(), A.end(), 0);
-        unique_ptr<BST_node<int>> tree = build_min_height_bst_from_sorted_array(A);
-        int target = 0;
-        TraversalCheck<int>(tree, &target);
+    std::random_device rd;
+    std::default_random_engine gen{rd()};
+    int n = (argc == 2) ? std::stoi(argv[1]) : 0;
+    std::uniform_int_distribution<int> dis{1, 1000};
+    for (int times{0}; times < 1000; ++times) {
+        if (argc != 2) { n = dis(gen); }
+        std::vector<int> a(static_cast<std::vector<int>::size_type>(n));
+        std::iota(a.begin(), a.end(), 0);
+        std::unique_ptr<BST_node<int>> tree{build_min_height_bst_from_sorted_array(a)};
+        int target{0};
+        traversal_check<int>(tree, target);
     }
     return 0;
 }

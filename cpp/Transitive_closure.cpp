@@ -1,48 +1,37 @@
 // Copyright (c) 2013 Elements of Programming Interviews. All rights reserved.
 
 #include <algorithm>
-#include <cassert>
 #include <deque>
 #include <iostream>
 #include <random>
-#include <string>
-#include <vector>
-
-using std::cout;
-using std::default_random_engine;
-using std::deque;
-using std::endl;
-using std::random_device;
-using std::stoi;
-using std::uniform_int_distribution;
-using std::vector;
 
 struct Graph_vertex;
 
-void DFS(Graph_vertex* cur, int time, vector<Graph_vertex*>* contacts);
+void dfs(Graph_vertex& cur, int time, std::vector<Graph_vertex*>& contacts);
 
 // @include
 struct Graph_vertex {
     int visit_time = -1;
-    vector<Graph_vertex*> edges, extended_contacts;
+    std::vector<Graph_vertex*> edges; // can use std::reference_wrapper but this is more straightforward
+    std::vector<Graph_vertex*> extended_contacts;
 };
 
-void transitive_closure(vector<Graph_vertex>* G)
+void transitive_closure(std::vector<Graph_vertex>& g)
 {
     // Build extended contacts for each vertex.
-    for (int i = 0; i < G->size(); ++i) {
-        (*G)[i].visit_time = i;
-        DFS(&(*G)[i], i, &(*G)[i].extended_contacts);
+    for (auto i = 0; i < g.size(); ++i) {
+        g[i].visit_time = i;
+        dfs(g[i], i, g[i].extended_contacts);
     }
 }
 
-void DFS(Graph_vertex* cur, int time, vector<Graph_vertex*>* contacts)
+void dfs(Graph_vertex& cur, int time, std::vector<Graph_vertex*>& contacts)
 {
-    for (Graph_vertex* next : cur->edges) {
+    for (auto& next : cur.edges) {
         if (next->visit_time != time) {
             next->visit_time = time;
-            contacts->emplace_back(next);
-            DFS(next, time, contacts);
+            contacts.emplace_back(next);
+            dfs(*next, time, contacts);
         }
     }
 }
@@ -50,20 +39,21 @@ void DFS(Graph_vertex* cur, int time, vector<Graph_vertex*>* contacts)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
-    vector<Graph_vertex> G;
-    int n;
+    std::random_device rd;
+    std::default_random_engine gen{rd()};
+    std::size_t n;
     if (argc == 2) {
-        n = stoi(argv[1]);
+        n = std::stoul(argv[1]);
     } else {
-        uniform_int_distribution<int> dis(1, 1000);
+        std::uniform_int_distribution<std::size_t> dis{1, 1000};
         n = dis(gen);
     }
-    fill_n(back_inserter(G), n, Graph_vertex());
-    cout << G.size() << "\n";
-    uniform_int_distribution<int> dis(1, n * (n - 1) / 2);
-    int m = dis(gen);
-    vector<deque<bool>> is_edge_exist(n, deque<bool>(n, false));
+    std::vector<Graph_vertex> g(n, Graph_vertex{});
+    //std::fill_n(std::back_inserter(g), n, Graph_vertex());
+    std::cout << g.size() << "\n";
+    std::uniform_int_distribution<std::size_t> dis{1, n * (n - 1) / 2};
+    auto m = dis(gen);
+    std::vector<std::deque<bool>> does_edge_exist(n, std::deque<bool>(n, false));
     /*
     // Make the graph become connected
     for (int i = 1; i < n; ++i) {
@@ -74,18 +64,20 @@ int main(int argc, char* argv[])
      */
 
     // Generate edges randomly
+    dis = std::uniform_int_distribution<std::size_t>{0, n - 1};
     while (m-- > 0) {
-        uniform_int_distribution<int> dis(0, n - 1);
-        int a, b;
+        std::size_t a;
+        std::size_t b;
         do {
-            a = dis(gen), b = dis(gen);
-        } while (a == b || is_edge_exist[a][b] == true);
-        is_edge_exist[a][b] = is_edge_exist[b][a] = true;
-        G[a].edges.emplace_back(&G[b]);
-        G[b].edges.emplace_back(&G[a]);
+            a = dis(gen);
+            b = dis(gen);
+        } while (a == b || does_edge_exist[a][b] == true);
+        does_edge_exist[a][b] = does_edge_exist[b][a] = true;
+        g[a].edges.emplace_back(&g[b]);
+        g[b].edges.emplace_back(&g[a]);
     }
 
-    transitive_closure(&G);
+    transitive_closure(g);
     /*
     for (int i = 0; i < G.size(); ++i) {
       cout << i << "\n" << '\t';

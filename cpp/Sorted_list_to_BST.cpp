@@ -2,70 +2,59 @@
 
 #include <cassert>
 #include <iostream>
-#include <memory>
 
 #include "doubly_linked_list_prototype.h"
 
-using std::cout;
-using std::endl;
-using std::make_shared;
-
-shared_ptr<List_node<int>> BuildBSTFromSortedDoublyListHelper(
-        shared_ptr<List_node<int>>*, int, int);
+template<typename Data_type>
+std::shared_ptr<List_node<Data_type>> build_bst_from_sorted_doubly_linked_list_helper(std::shared_ptr<List_node<Data_type>>&, int, int);
 
 // @include
 // Returns the root of the corresponding BST. The prev and next fields of the
 // list nodes are used as the BST nodes left and right fields, respectively.
 // The length of the list is given.
-shared_ptr<List_node<int>> BuildBSTFromSortedDoublyList(
-        shared_ptr<List_node<int>> L, int length)
+template<typename Data_type>
+std::shared_ptr<List_node<Data_type>> build_bst_from_sorted_doubly_linked_list(std::shared_ptr<List_node<Data_type>>& l, int length)
 {
-    return BuildBSTFromSortedDoublyListHelper(&L, 0, length);
+    return build_bst_from_sorted_doubly_linked_list_helper<Data_type>(l, 0, length);
 }
 
 // Builds a BST from the (start + 1)-th to the end-th node, inclusive, in L,
 // and returns the root.
-shared_ptr<List_node<int>> BuildBSTFromSortedDoublyListHelper(
-        shared_ptr<List_node<int>>* L_ref, int start, int end)
+template<typename Data_type>
+std::shared_ptr<List_node<Data_type>> build_bst_from_sorted_doubly_linked_list_helper(std::shared_ptr<List_node<Data_type>>& l_ref, int start, int end)
 {
-    if (start >= end) {
-        return nullptr;
-    }
+    if (start >= end) { return nullptr; }
 
-    int mid = start + ((end - start) / 2);
-    auto left = BuildBSTFromSortedDoublyListHelper(L_ref, start, mid);
+    // int mid{start + ((end - start) / 2)};
+    int mid{(start + end) / 2};
+    auto left = build_bst_from_sorted_doubly_linked_list_helper<Data_type>(l_ref, start, mid);
     // The last function call sets L_ref to the successor of the maximum node in
     // the tree rooted at left.
-    auto curr = *L_ref;
-    *L_ref = (*L_ref)->next;
+    auto curr = l_ref;
+    l_ref = (l_ref)->next;
     curr->prev = left;
-    curr->next = BuildBSTFromSortedDoublyListHelper(L_ref, mid + 1, end);
+    curr->next = build_bst_from_sorted_doubly_linked_list_helper<Data_type>(l_ref, mid + 1, end);
     return curr;
 }
 // @exclude
 
-template<typename T>
-void InorderTraversal(const shared_ptr<List_node<T>>& node, const T& pre,
-                      int depth)
+template<typename Data_type>
+void inorder_traversal(const std::shared_ptr<List_node<Data_type>>& node, const Data_type& pre, int depth)
 {
     if (node) {
-        InorderTraversal(node->prev, pre, depth + 1);
+        inorder_traversal(node->prev, pre, depth + 1);
         assert(pre <= node->data);
-        cout << node->data << ' ' << "; depth = " << depth << "\n";
-        InorderTraversal(node->next, node->data, depth + 1);
+        std::cout << "List_node(" << node->data << ") " << "-> depth = " << depth << "\n";
+        inorder_traversal(node->next, node->data, depth + 1);
     }
 }
 
 int main(int argc, char* argv[])
 {
-    shared_ptr<List_node<int>> temp0 =
-            make_shared<List_node<int>>(List_node<int>{0});
-    shared_ptr<List_node<int>> temp1 =
-            make_shared<List_node<int>>(List_node<int>{1});
-    shared_ptr<List_node<int>> temp2 =
-            make_shared<List_node<int>>(List_node<int>{2});
-    shared_ptr<List_node<int>> temp3 =
-            make_shared<List_node<int>>(List_node<int>{3});
+    auto temp0 = std::make_shared<List_node<int>>(List_node<int>{0});
+    auto temp1 = std::make_shared<List_node<int>>(List_node<int>{1});
+    auto temp2 = std::make_shared<List_node<int>>(List_node<int>{2});
+    auto temp3 = std::make_shared<List_node<int>>(List_node<int>{3});
     temp0->next = temp1;
     temp1->next = temp2;
     temp2->next = temp3;
@@ -75,9 +64,9 @@ int main(int argc, char* argv[])
     temp2->prev = temp1;
     temp3->prev = temp2;
 
-    shared_ptr<List_node<int>> L = temp0;
-    auto tree = BuildBSTFromSortedDoublyList(L, 4);
-    InorderTraversal(tree, -1, 0);
+    auto l = temp0;
+    auto tree = build_bst_from_sorted_doubly_linked_list(l, 4);
+    inorder_traversal(tree, -1, 0);
     // Break the links of shared_ptr to prevent memory leak.
     temp1->prev = temp2->prev = temp3->prev = nullptr;
     return 0;

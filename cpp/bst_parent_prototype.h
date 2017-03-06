@@ -6,13 +6,12 @@
 #include <iostream>
 #include <memory>
 
-using std::unique_ptr;
-
 // @include
-template<typename T>
+template<typename Data_type>
 struct BSTNode {
-    T data;
-    unique_ptr<BSTNode<T>> left, right;
+    Data_type data;
+    std::unique_ptr<BSTNode<T>> left;
+    std::unique_ptr<BSTNode<T>> right;
     BSTNode<T>* parent;
 };
 // @exclude

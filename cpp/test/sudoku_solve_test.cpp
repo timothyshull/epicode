@@ -3,8 +3,6 @@
 // @pg_ignore:2
 #include "sudoku_solve.cpp"
 #include "sudoku_check.cpp"
-// @pg_include:Sudoku_solve.cc
-// @pg_include:sudoku_check.cc
 
 void UnitTest(TestSentry::Ptr& sentry, const char* description, SudokuField input)
 {
@@ -12,8 +10,8 @@ void UnitTest(TestSentry::Ptr& sentry, const char* description, SudokuField inpu
     stream->RegisterInput(input);
     stream->RegisterExpectedOutput("");
     try {
-        SolveSudoku(&input);
-        stream->RegisterUserOutput(input, IsValidSudoku(input));
+        solve_sudoku(&input);
+        stream->RegisterUserOutput(input, is_solvable_sudoku(input));
     } catch (...) {
         stream->RegisterUnhandledException();
     }

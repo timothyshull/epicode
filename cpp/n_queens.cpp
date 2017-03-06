@@ -3,72 +3,52 @@
 #include <algorithm>
 #include <cassert>
 #include <iostream>
-#include <memory>
 #include <random>
-#include <string>
-#include <vector>
 
-using std::cout;
-using std::default_random_engine;
-using std::endl;
-using std::make_unique;
-using std::random_device;
-using std::string;
-using std::stoi;
-using std::uniform_int_distribution;
-using std::unique_ptr;
-using std::vector;
+void solve_n_queens(int, int, std::vector<int>&, std::vector<std::vector<int>>&);
 
-void SolveNQueens(int, int, vector<int>*, vector<vector<int>>*);
-
-bool IsValid(const vector<int>&);
+bool is_valid(const std::vector<int>&);
 
 // @include
-vector<vector<int>> NQueens(int n)
+std::vector<std::vector<int>> n_queens(int n)
 {
-    vector<vector<int>> result;
-    SolveNQueens(n, 0, make_unique<vector<int>>().get(), &result);
+    std::vector<std::vector<int>> result;
+    std::vector<int> col;
+    solve_n_queens(n, 0, col, result);
     return result;
 }
 
-void SolveNQueens(int n, int row, vector<int>* col_placement,
-                  vector<vector<int>>* result)
+void solve_n_queens(int n, int row, std::vector<int>& col_placement, std::vector<std::vector<int>>& result)
 {
-    if (row == n) {
-        // All queens are legally placed.
-        result->emplace_back(*col_placement);
-    } else {
-        for (int col = 0; col < n; ++col) {
-            col_placement->emplace_back(col);
-            if (IsValid(*col_placement)) {
-                SolveNQueens(n, row + 1, col_placement, result);
-            }
-            col_placement->pop_back();
+    // All queens are legally placed.
+    if (row == n) { result.emplace_back(col_placement); }
+    else {
+        for (auto col = 0; col < n; ++col) {
+            col_placement.emplace_back(col);
+            if (is_valid(col_placement)) { solve_n_queens(n, row + 1, col_placement, result); }
+            col_placement.pop_back();
         }
     }
 }
 
 // test if a newly placed queen will conflict any earlier queens
 // placed before.
-bool IsValid(const vector<int>& col_placement)
+bool is_valid(const std::vector<int>& col_placement)
 {
-    int row_id = col_placement.size() - 1;
-    for (int i = 0; i < row_id; ++i) {
-        int diff = abs(col_placement[i] - col_placement[row_id]);
-        if (diff == 0 || diff == row_id - i) {
-            // A column or diagonal constraint is violated.
-            return false;
-        }
+    auto row_id = col_placement.size() - 1;
+    for (auto i = 0; i < row_id; ++i) {
+        int diff = std::abs(col_placement[i] - col_placement[row_id]);
+        if (diff == 0 || diff == row_id - i) { return false; } // A column or diagonal constraint is violated.
     }
     return true;
 }
 // @exclude
 
-vector<string> ToTextRepresentation(const vector<int>& col_placement)
+std::vector<std::string> vector_to_string(const std::vector<int>& col_placement)
 {
-    vector<string> sol;
-    for (int row : col_placement) {
-        string line(col_placement.size(), '.');
+    std::vector<std::string> sol;
+    for (auto row : col_placement) {
+        std::string line(col_placement.size(), '.');
         line[row] = 'Q';
         sol.emplace_back(line);
     }
@@ -77,17 +57,17 @@ vector<string> ToTextRepresentation(const vector<int>& col_placement)
 
 static void simple_test()
 {
-    auto result = NQueens(2);
+    auto result = n_queens(2);
     assert(0 == result.size());
 
-    result = NQueens(3);
+    result = n_queens(3);
     assert(0 == result.size());
 
-    result = NQueens(4);
+    result = n_queens(4);
     assert(2 == result.size());
 
-    vector<int> place1 = {1, 3, 0, 2};
-    vector<int> place2 = {2, 0, 3, 1};
+    std::vector<int> place1{1, 3, 0, 2};
+    std::vector<int> place2{2, 0, 3, 1};
     assert(result[0] == place1 || result[0] == place2);
     assert(result[1] == place1 || result[1] == place2);
     assert(result[0] != result[1]);
@@ -96,22 +76,21 @@ static void simple_test()
 int main(int argc, char** argv)
 {
     simple_test();
-    default_random_engine gen((random_device()) ());
-    int n;
+    std::random_device rd;
+    std::default_random_engine gen{rd()};
+    int n{};
     if (argc == 2) {
-        n = stoi(argv[1]);
+        n = std::stoi(argv[1]);
     } else {
-        uniform_int_distribution<int> dis(1, 15);
+        std::uniform_int_distribution<int> dis{1, 15};
         n = dis(gen);
     }
-    cout << "n = " << n << "\n";
-    auto result = NQueens(n);
-    for (const vector<int>& vec : result) {
-        vector<string> text_rep = ToTextRepresentation(vec);
-        for (const string& s : text_rep) {
-            cout << s << "\n";
-        }
-        cout << "\n";
+    std::cout << "n = " << n << "\n";
+    auto result = n_queens(n);
+    for (const auto& vec : result) {
+        auto text_repr = vector_to_string(vec);
+        for (const auto& s : text_repr) { std::cout << s << "\n"; }
+        std::cout << "\n";
     }
     return 0;
 }

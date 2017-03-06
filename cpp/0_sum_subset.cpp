@@ -5,33 +5,25 @@
 #include <iostream>
 #include <numeric>
 #include <random>
-#include <vector>
-
-using std::cout;
-using std::default_random_engine;
-using std::endl;
-using std::random_device;
-using std::uniform_int_distribution;
-using std::vector;
 
 // @include
-vector<int> find_0_sum_subset(const vector<int>& A)
+std::vector<int> find_0_sum_subset(const std::vector<int>& v)
 {
-    vector<int> prefix_sum(A);
-    for (int i = 0; i < prefix_sum.size(); ++i) {
+    std::vector<int> prefix_sum(v);
+    for (int i{0}; i < prefix_sum.size(); ++i) {
         prefix_sum[i] += i > 0 ? prefix_sum[i - 1] : 0;
-        prefix_sum[i] %= A.size();
+        prefix_sum[i] %= v.size();
     }
 
-    vector<int> table(A.size(), -1);
-    for (int i = 0; i < A.size(); ++i) {
+    std::vector<int> table(v.size(), -1);
+    for (int i{0}; i < v.size(); ++i) {
         if (prefix_sum[i] == 0) {
-            vector<int> ans(i + 1);
-            iota(ans.begin(), ans.end(), 0);
+            std::vector<int> ans(static_cast<std::vector<int>::size_type>(i + 1));
+            std::iota(ans.begin(), ans.end(), 0);
             return ans;
         } else if (table[prefix_sum[i]] != -1) {
-            vector<int> ans(i - table[prefix_sum[i]]);
-            iota(ans.begin(), ans.end(), table[prefix_sum[i]] + 1);
+            std::vector<int> ans(static_cast<std::vector<int>::size_type>(i - table[prefix_sum[i]]));
+            std::iota(ans.begin(), ans.end(), table[prefix_sum[i]] + 1);
             return ans;
         }
         table[prefix_sum[i]] = i;
@@ -42,44 +34,38 @@ vector<int> find_0_sum_subset(const vector<int>& A)
 }
 // @exclude
 
-void check_ans(const vector<int>& A, const vector<int>& ans)
+void check_ans(const std::vector<int>& A, const std::vector<int>& ans)
 {
-    int sum = 0;
-    for (int a : ans) {
-        sum = (sum + A[a]) % A.size();
-    }
+    std::size_t sum{0};
+    for (int a : ans) { sum = (sum + A[a]) % A.size(); }
     assert(sum == 0);
 }
 
 int main(int argc, char* argv[])
 {
-    random_device rd;
-    default_random_engine gen(rd());
-    for (int times = 0; times < 1000; ++times) {
-        int n;
-        vector<int> A;
+    std::random_device rd;
+    std::default_random_engine gen{rd()};
+    for (int times{0}; times < 1000; ++times) {
+        std::size_t n;
+        std::vector<int> v;
         if (argc == 2) {
-            n = atoi(argv[1]);
-            A.resize(n);
-            uniform_int_distribution<int> dis(0, 9999);
-            for (int i = 0; i < n; ++i) {
-                A[i] = dis(gen);
-            }
+            n = std::stoul(argv[1]);
+            v.resize(n);
+            std::uniform_int_distribution<int> dis{0, 9999};
+            for (int i{0}; i < n; ++i) { v[i] = dis(gen); }
         } else if (argc > 2) {
             for (int i = 1; i < argc; ++i) {
-                A.emplace_back(atoi(argv[i]));
+                v.emplace_back(atoi(argv[i]));
             }
         } else {
-            uniform_int_distribution<int> n_dis(1, 100);
+            std::uniform_int_distribution<std::size_t> n_dis{1, 100};
             n = n_dis(gen);
-            A.resize(n);
-            uniform_int_distribution<int> dis(0, 9999);
-            for (int i = 0; i < n; ++i) {
-                A[i] = dis(gen);
-            }
+            v.resize(n);
+            std::uniform_int_distribution<int> dis{0, 9999};
+            for (int i{0}; i < n; ++i) { v[i] = dis(gen); }
         }
-        vector<int> ans = find_0_sum_subset(A);
-        check_ans(A, ans);
+        std::vector<int> ans{find_0_sum_subset(v)};
+        check_ans(v, ans);
     }
     return 0;
 }

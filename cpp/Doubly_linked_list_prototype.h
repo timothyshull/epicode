@@ -5,13 +5,12 @@
 
 #include <memory>
 
-using std::shared_ptr;
-
 // @include
-template<typename T>
+template<typename Data_type>
 struct List_node {
-    T data;
-    shared_ptr<List_node<T>> prev, next;
+    Data_type data;
+    std::shared_ptr<List_node<Data_type>> prev;
+    std::shared_ptr<List_node<Data_type>> next;
 };
 // @exclude
 #endif  // SOLUTIONS_DOUBLY_LINKED_LIST_PROTOTYPE_H_

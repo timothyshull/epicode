@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/binary_search_ai.dir/binary_search_ai=i.cpp.o"
+  "CMakeFiles/binary_search_ai.dir/binary_search_ai_i.cpp.o"
   "binary_search_ai.pdb"
   "binary_search_ai"
 )

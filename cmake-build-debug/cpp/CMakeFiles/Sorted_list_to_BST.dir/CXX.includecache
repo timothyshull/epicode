@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/doubly_linked_list_prototype.h
+memory
+-
+
+/Users/skull/Programming/Interview/epicode-master/cpp/sorted_list_to_bst.cpp
+cassert
+-
+iostream
+-
+doubly_linked_list_prototype.h
+/Users/skull/Programming/Interview/epicode-master/cpp/doubly_linked_list_prototype.h
+

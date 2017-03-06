@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/sudoku_solve.cpp
+algorithm
+-
+cassert
+-
+cmath
+-
+deque
+-
+iostream
+-
+iterator
+-
+vector
+-
+

@@ -19,12 +19,12 @@ using std::vector;
 
 void SolveNQueens(int, vector<int>*, vector<vector<string>>*);
 
-vector<string> ToTextRepresentation(const vector<int>& col_placement);
+vector<string> vector_to_string(const vector<int>& col_placement);
 
 bool IsValid(const vector<int>&, int);
 
 // @include
-vector<vector<string>> NQueens(int n)
+vector<vector<string>> n_queens(int n)
 {
     vector<int> placement(n);
     iota(placement.begin(), placement.end(), 0);
@@ -38,7 +38,7 @@ void SolveNQueens(int row, vector<int>* col_placement,
 {
     if (row == col_placement->size()) {
         // All queens are legal placed.
-        result->emplace_back(ToTextRepresentation(*col_placement));
+        result->emplace_back(vector_to_string(*col_placement));
     } else {
         for (int i = row; i < col_placement->size(); ++i) {
             swap((*col_placement)[row], (*col_placement)[i]);
@@ -50,7 +50,7 @@ void SolveNQueens(int row, vector<int>* col_placement,
     }
 }
 
-vector<string> ToTextRepresentation(const vector<int>& col_placement)
+vector<string> vector_to_string(const vector<int>& col_placement)
 {
     vector<string> sol;
     for (int row : col_placement) {
@@ -86,7 +86,7 @@ int main(int argc, char** argv)
         n = dis(gen);
     }
     cout << "n = " << n << "\n";
-    auto result = NQueens(n);
+    auto result = n_queens(n);
     for (const vector<string>& vec : result) {
         for (const string& s : vec) {
             cout << s << "\n";

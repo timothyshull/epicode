@@ -5,94 +5,86 @@
 #include <iostream>
 #include <numeric>
 #include <random>
-#include <string>
-#include <vector>
 
-using std::cout;
-using std::default_random_engine;
-using std::endl;
-using std::min;
-using std::random_device;
-using std::string;
-using std::uniform_int_distribution;
-using std::vector;
+int compute_distance_between_prefixes(
+        const std::string& a,
+        int a_idx,
+        const std::string& b,
+        int b_idx,
+        std::vector<std::vector<int>>& distance_between_prefixes);
 
-int ComputeDistanceBetweenPrefixes(const string&, int, const string&, int,
-                                   vector<vector<int>>*);
-
-// @include
-int LevenshteinDistance(const string& A, const string& B)
+int levenshtein_distance(const std::string& a, const std::string& b)
 {
-    vector<vector<int>> distance_between_prefixes(A.size(),
-                                                  vector<int>(B.size(), -1));
-    return ComputeDistanceBetweenPrefixes(A, A.size() - 1, B, B.size() - 1,
-                                          &distance_between_prefixes);
+    std::vector<std::vector<int>> distance_between_prefixes(a.size(), std::vector<int>(b.size(), -1));
+    // narrow_cast
+    return compute_distance_between_prefixes(a, static_cast<int>(a.size() - 1), b, static_cast<int>(b.size() - 1), distance_between_prefixes);
 }
 
-int ComputeDistanceBetweenPrefixes(
-        const string& A, int A_idx, const string& B, int B_idx,
-        vector<vector<int>>* distance_between_prefixes_ptr)
+int compute_distance_between_prefixes(
+        const std::string& a,
+        int a_idx,
+        const std::string& b,
+        int b_idx,
+        std::vector<std::vector<int>>&& distance_between_prefixes)
 {
-    vector<vector<int>>& distance_between_prefixes =
-            *distance_between_prefixes_ptr;
-    if (A_idx < 0) {
+    // std::vector<std::vector<int>>& distance_between_prefixes = *distance_between_prefixes_ptr;
+    if (a_idx < 0) {
         // A is empty so add all of B's characters.
-        return B_idx + 1;
-    } else if (B_idx < 0) {
+        return b_idx + 1;
+    } else if (b_idx < 0) {
         // B is empty so delete all of A's characters.
-        return A_idx + 1;
+        return a_idx + 1;
     }
-    if (distance_between_prefixes[A_idx][B_idx] == -1) {
-        if (A[A_idx] == B[B_idx]) {
-            distance_between_prefixes[A_idx][B_idx] =
-                    ComputeDistanceBetweenPrefixes(A, A_idx - 1, B, B_idx - 1,
-                                                   distance_between_prefixes_ptr);
+    if (distance_between_prefixes[a_idx][b_idx] == -1) {
+        if (a[a_idx] == b[b_idx]) {
+            distance_between_prefixes[a_idx][b_idx] = compute_distance_between_prefixes(
+                    a,
+                    a_idx - 1,
+                    b,
+                    b_idx - 1,
+                    distance_between_prefixes);
         } else {
-            int substitute_last = ComputeDistanceBetweenPrefixes(
-                    A, A_idx - 1, B, B_idx - 1, distance_between_prefixes_ptr);
-            int add_last = ComputeDistanceBetweenPrefixes(
-                    A, A_idx - 1, B, B_idx, distance_between_prefixes_ptr);
-            int delete_last = ComputeDistanceBetweenPrefixes(
-                    A, A_idx, B, B_idx - 1, distance_between_prefixes_ptr);
-            distance_between_prefixes[A_idx][B_idx] =
-                    1 + min({substitute_last, add_last, delete_last});
+            int substitute_last{compute_distance_between_prefixes(a, a_idx - 1, b, b_idx - 1, distance_between_prefixes)};
+            int add_last{compute_distance_between_prefixes(a, a_idx - 1, b, b_idx, distance_between_prefixes)};
+            int delete_last{compute_distance_between_prefixes(a, a_idx, b, b_idx - 1, distance_between_prefixes)};
+            distance_between_prefixes[a_idx][b_idx] = 1 + std::min({substitute_last, add_last, delete_last});
         }
     }
-    return distance_between_prefixes[A_idx][B_idx];
+    return distance_between_prefixes[a_idx][b_idx];
 }
 // @exclude
 
-int CheckAnswer(string A, string B)
+int check_answer(std::string a, std::string b)
 {
     // Try to reduce the space usage.
-    if (A.size() < B.size()) {
-        swap(A, B);
+    if (a.size() < b.size()) {
+        std::swap(a, b);
     }
 
-    vector<int> D(B.size() + 1);
+    std::vector<int> d(b.size() + 1);
     // Initialization.
-    iota(D.begin(), D.end(), 0);
+    std::iota(d.begin(), d.end(), 0);
 
-    for (int i = 1; i <= A.size(); ++i) {
-        int pre_i_1_j_1 = D[0];  // Stores the value of D[i - 1][j - 1].
-        D[0] = i;
-        for (int j = 1; j <= B.size(); ++j) {
-            int pre_i_1_j = D[j];  // Stores the value of D[i -1][j].
-            D[j] = A[i - 1] == B[j - 1] ? pre_i_1_j_1
-                                        : 1 + min({pre_i_1_j_1, D[j - 1], D[j]});
+    for (int i = 1; i <= a.size(); ++i) {
+        int pre_i_1_j_1{d[0]};  // Stores the value of D[i - 1][j - 1].
+        d[0] = i;
+        for (int j = 1; j <= b.size(); ++j) {
+            int pre_i_1_j{d[j]};  // Stores the value of D[i -1][j].
+            d[j] = a[i - 1] == b[j - 1] ? pre_i_1_j_1 : 1 + std::min({pre_i_1_j_1, d[j - 1], d[j]});
             // Previous D[i - 1][j] will become the next D[i - 1][j - 1].
             pre_i_1_j_1 = pre_i_1_j;
         }
     }
-    return D.back();
+    return d.back();
 }
 
-string rand_string(int len)
+std::string rand_string(int len)
 {
-    default_random_engine gen((random_device()) ());
-    uniform_int_distribution<int> dis('a', 'z');
-    string ret;
-    while (len--) {
+    std::random_device rd;
+    std::default_random_engine gen{rd()};
+    std::uniform_int_distribution<int> dis{'a', 'z'};
+    std::string ret;
+    while (--len) {
         ret += dis(gen);
     }
     return ret;
@@ -100,25 +92,29 @@ string rand_string(int len)
 
 int main(int argc, char* argv[])
 {
-    default_random_engine gen((random_device()) ());
-    string A, B;
+    std::random_device rd;
+    std::default_random_engine gen{rd()};
+    std::string a{"k"};
+    std::string b{"sitt"};
     // Wiki example (http://en.wikipedia.org/wiki/Levenshtein_distance)
-    A = "k", B = "sitt";
-    assert(4 == LevenshteinDistance(A, B));
-    A = "Saturday", B = "Sunday";
-    assert(3 == LevenshteinDistance(A, B));
-    A = "kitten", B = "sitting";
-    assert(3 == LevenshteinDistance(A, B));
+    assert(levenshtein_distance(a, b) == 4);
+    a = "Saturday";
+    b = "Sunday";
+    assert(levenshtein_distance(a, b) == 3);
+    a = "kitten";
+    b = "sitting";
+    assert(levenshtein_distance(a, b) == 3);
 
     if (argc == 3) {
-        A = argv[1], B = argv[2];
+        a = argv[1];
+        b = argv[2];
     } else {
-        uniform_int_distribution<int> dis(1, 100);
-        A = rand_string(dis(gen));
-        B = rand_string(dis(gen));
+        std::uniform_int_distribution<int> dis{1, 100};
+        a = rand_string(dis(gen));
+        b = rand_string(dis(gen));
     }
-    cout << A << "\n" << B << "\n";
-    cout << LevenshteinDistance(A, B) << "\n";
-    assert(LevenshteinDistance(A, B) == CheckAnswer(A, B));
+    std::cout << a << "\n" << b << "\n";
+    std::cout << levenshtein_distance(a, b) << "\n";
+    assert(levenshtein_distance(a, b) == check_answer(a, b));
     return 0;
 }

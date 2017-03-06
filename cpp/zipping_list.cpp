@@ -4,8 +4,8 @@
 #include <iostream>
 #include <random>
 
-#include "linked_list_prototype.h"
 #include "reverse_linked_list_iterative.h"
+// #include "linked_list_prototype.h"
 
 // @include
 std::shared_ptr<List_node<int>> zip_linked_list(const std::shared_ptr<List_node<int>>& list_head)
@@ -17,9 +17,7 @@ std::shared_ptr<List_node<int>> zip_linked_list(const std::shared_ptr<List_node<
     // Finds the second half of L.
     auto slow = list_head;
     auto fast = list_head;
-    while (fast && fast->next) {
-        fast = fast->next->next, slow = slow->next;
-    }
+    while (fast && fast->next) { fast = fast->next->next, slow = slow->next; }
 
     auto first_half_head = list_head;
     auto second_half_head = slow->next;
@@ -45,7 +43,8 @@ int main(int argc, char* argv[])
 {
     std::random_device rd;
     std::default_random_engine gen{rd()};
-    std::shared_ptr<List_node<int>> head = nullptr;
+    std::shared_ptr<List_node<int>> head{nullptr};
+
     int n{};
     if (argc > 2) {
         for (int i{1}; i < argc; ++i) {
@@ -67,12 +66,11 @@ int main(int argc, char* argv[])
         }
     }
     std::shared_ptr<List_node<int>> curr{zip_linked_list(head)};
+
     int idx{0};
     int pre{};
     while (curr) {
-        if (argc <= 2) {
-            if (idx % 2) { assert(pre + curr->data == n); }
-        }
+        if (argc <= 2) { if (idx % 2) { assert(pre + curr->data == n); }}
         ++idx;
         std::cout << curr->data << "\n";
         pre = curr->data;

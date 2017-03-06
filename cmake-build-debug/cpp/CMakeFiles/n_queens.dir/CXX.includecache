@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/n_queens.cpp
+algorithm
+-
+cassert
+-
+iostream
+-
+memory
+-
+random
+-
+

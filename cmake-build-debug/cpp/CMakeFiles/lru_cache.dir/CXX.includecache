@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/skull/Programming/Interview/epicode-master/cpp/Lru_cache.h
+cassert
+-
+iostream
+-
+list
+-
+unordered_map
+-
+utility
+-
+vector
+-
+deque
+-
+
+/Users/skull/Programming/Interview/epicode-master/cpp/lru_cache.cpp
+cassert
+-
+iostream
+-
+list
+-
+unordered_map
+-
+utility
+-
+Lru_cache.h
+/Users/skull/Programming/Interview/epicode-master/cpp/Lru_cache.h
+

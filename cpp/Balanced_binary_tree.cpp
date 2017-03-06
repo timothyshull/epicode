@@ -27,10 +27,7 @@ struct Balanced_status_with_height {
     int height;
 };
 
-bool is_balanced(const unique_ptr<Binary_tree_node<int>>& tree)
-{
-    return check_balanced(tree).balanced;
-}
+bool is_balanced(const unique_ptr<Binary_tree_node<int>>& tree) { return check_balanced(tree).balanced; }
 
 // First value of the return value indicates if tree is balanced, and if
 // balanced the second value of the return value is the height of tree.

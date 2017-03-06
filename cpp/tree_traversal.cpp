@@ -5,26 +5,21 @@
 
 #include "binary_tree_prototype.h"
 
-using std::cout;
-using std::endl;
-using std::make_unique;
-using std::unique_ptr;
-
 // @include
-void TreeTraversal(const unique_ptr<Binary_tree_node<int>>& root)
+void traverse_tree(const std::unique_ptr<Binary_tree_node<int>>& root)
 {
     if (root) {
         // Preorder: Processes the root before the traversals of left and right
         // children.
-        cout << "Preorder: " << root->data << "\n";
-        TreeTraversal(root->left);
+        std::cout << "Preorder: " << root->data << "\n";
+        traverse_tree(root->left);
         // Inorder: Processes the root after the traversal of left child and
         // before the traversal of right child.
-        cout << "Inorder: " << root->data << "\n";
-        TreeTraversal(root->right);
+        std::cout << "Inorder: " << root->data << "\n";
+        traverse_tree(root->right);
         // Postorder: Processes the root after the traversals of left and right
         // children.
-        cout << "Postorder: " << root->data << "\n";
+        std::cout << "Postorder: " << root->data << "\n";
     }
 }
 // @exclude
@@ -33,19 +28,13 @@ int main(int argc, char* argv[])
 {
     //      3
     //    2   5
-    //  1    4 6
-    unique_ptr<Binary_tree_node<int>> tree = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{3, nullptr, nullptr});
-    tree->left = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{2, nullptr, nullptr});
-    tree->left->left = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{1, nullptr, nullptr});
-    tree->right = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{5, nullptr, nullptr});
-    tree->right->left = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{4, nullptr, nullptr});
-    tree->right->right = make_unique<Binary_tree_node<int>>(
-            Binary_tree_node<int>{6, nullptr, nullptr});
-    TreeTraversal(tree);
+    //  1   4   6
+    auto tree = std::make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{3, nullptr, nullptr});
+    tree->left = std::make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{2, nullptr, nullptr});
+    tree->left->left = std::make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{1, nullptr, nullptr});
+    tree->right = std::make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{5, nullptr, nullptr});
+    tree->right->left = std::make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{4, nullptr, nullptr});
+    tree->right->right = std::make_unique<Binary_tree_node<int>>(Binary_tree_node<int>{6, nullptr, nullptr});
+    traverse_tree(tree);
     return 0;
 }

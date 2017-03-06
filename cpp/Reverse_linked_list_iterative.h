@@ -8,7 +8,7 @@
 #include "linked_list_prototype.h"
 
 // @include
-shared_ptr<List_node<int>> reverse_linked_list(const std::shared_ptr<List_node<int>>& head)
+std::shared_ptr<List_node<int>> reverse_linked_list(const std::shared_ptr<List_node<int>>& head)
 {
     std::shared_ptr<List_node<int>> prev = nullptr;
     std::shared_ptr<List_node<int>> curr = head;
