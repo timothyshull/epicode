@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Intersect_sorted_arrays3Test.dir/test/intersect_sorted_arrays3_test.cpp.o  -o Intersect_sorted_arrays3Test 

@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/bst_lowest_common_ancestor.dir/bst_lowest_common_ancestor.cpp.o  -o bst_lowest_common_ancestor 

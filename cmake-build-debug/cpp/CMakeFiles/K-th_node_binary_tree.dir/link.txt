@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/K-th_node_binary_tree.dir/k_th_node_binary_tree.cpp.o  -o K-th_node_binary_tree 

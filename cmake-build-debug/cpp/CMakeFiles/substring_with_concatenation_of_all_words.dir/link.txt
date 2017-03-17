@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/substring_with_concatenation_of_all_words.dir/substring_with_concatenation_of_all_words.cpp.o  -o substring_with_concatenation_of_all_words 

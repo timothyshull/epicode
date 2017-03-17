@@ -1,1 +1,0 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/inorder_traversal_with_parent.dir/inorder_traversal_with_parent.cpp.o  -o inorder_traversal_with_parent 
